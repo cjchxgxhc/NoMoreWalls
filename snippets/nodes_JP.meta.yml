@@ -1,32 +1,14 @@
 proxies:
-- name: JP
-  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-  port: 13778
-  server: jp7.dexlos.com
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 节点日期：2026-07-07
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE
+    short-id: '!!str 34256b39b4ebb864'
+  server: rezerv12.yunus.guru
+  servername: rezerv7.yunus.guru
   tls: false
-  type: hysteria2
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  type: vless
+  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
