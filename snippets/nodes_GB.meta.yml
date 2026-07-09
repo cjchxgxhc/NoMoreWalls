@@ -28,20 +28,25 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: GB【机场推荐：https://a9a.xyz】2
+- name: GB【机场推荐：https://a9a.xyz】12
   network: ws
-  port: 4042
-  server: farsnews.wayspro.ir
-  servername: farsnews.wayspro.ir
-  tls: true
-  type: vless
-  uuid: 972f7902-9af1-4bd6-befc-bc7c61f95fc7
+  password: '!!str 521314'
+  port: 443
+  server: 104.248.160.220
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: farsnews.wayspro.ir
-    path: /
+      Host: tjplay.lxdxo.kdns.fr
+    path: '%2F'
+- name: GB【机场推荐：https://a9a.xyz】13
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 104.194.144.187
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: '%2F'
