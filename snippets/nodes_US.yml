@@ -1,36 +1,96 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 041 | ⬇️ 1MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_3|2.0MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: '2377'
+  server: 88.210.36.106
+  skip-cert-verify: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US_speednode_0054
-  port: 13932
-  server: 104.253.134.92
-  skip-cert-verify: true
+  name: 🇺🇸 US 267 | ⬇️ 3MB/s
+  network: none
+  port: 16709
+  server: 192.204.46.230
   tls: false
   type: vmess
-  udp: true
-  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-- name: US_speednode_0063
-  network: ws
-  password: Mitivpn
+  uuid: cb97ec04-49c3-4689-eb9e-2940a42cdde1
+- client-fingerprint: chrome
+  name: 🇺🇸 US 270 | ⬇️ 163KB/s
+  network: tcp
+  password: KV63147582
   port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
+  server: winning-manatee.rooster465.autos
+  sni: winning-manatee.rooster465.autos
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 292 | ⬇️ 84KB/s
+  password: amazonskr05
+  port: 443
+  server: 18.190.176.112
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- name: US【机场推荐：https://a9a.xyz】8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 080 | ⬇️ 1MB/s
+  network: none
+  port: 51118
+  server: b40.cmj0502.cn
+  servername: b40.cmj0502.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3ad43dc0-fbc5-4cb3-f6f3-36b5f78f4712
+- name: 🇺🇸 US 037 | ⬇️ 258KB/s
+  network: tcp
   password: '!!str 3632736327'
   port: 2888
   server: us04021322.tmdsb.org
   sni: us04021322.tmdsb.org
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: US【机场推荐：https://a9a.xyz】14
-  password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
-  port: 8388
-  server: 43.173.98.184
-  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 064 | ⬇️ 454KB/s
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: 443
+  server: cf.wdqgn.eu.org
+  sni: h2.bnm.uw.to
+  type: trojan
+  ws-opts:
+    headers:
+      Host: h2.bnm.uw.to
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 218 | ⬇️ 10KB/s
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
