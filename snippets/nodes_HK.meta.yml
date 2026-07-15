@@ -1,74 +1,20 @@
 proxies:
-- name: 🇭🇰 HK 265 | ⬇️ 15KB/s
+- name: 🇭🇰 HK 267 | ⬇️ 32KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- allowInsecure: '1'
-  name: 🇭🇰 HK 062 | ⬇️ 2MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: d6Z20UbTCF
-  port: 12258
-  server: sub.whome.life
-  skip-cert-verify: true
-  sni: r.bing.com
-  sub-tag: K001-260618
-  type: anytls
-  udp: true
-  username: d6Z20UbTCF
-- allowInsecure: '1'
-  name: 🇭🇰 HK 101 | ⬇️ 2MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: d6Z20UbTCF
-  port: 33851
-  server: sub.whome.life
-  skip-cert-verify: true
-  sni: sub.whome.life
-  sub-tag: K001-260618
-  type: anytls
-  udp: true
-  username: d6Z20UbTCF
-- allowInsecure: '1'
-  name: 🇭🇰 HK 104 | ⬇️ 2MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: d6Z20UbTCF
-  port: 21248
-  server: sub.whome.life
-  skip-cert-verify: true
-  sni: r.bing.com
-  sub-tag: K001-260618
-  type: anytls
-  udp: true
-  username: d6Z20UbTCF
-- name: 🇭🇰 HK 284 | ⬇️ 1MB/s
-  network: ws
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 443
-  server: 23.227.38.178
-  skip-cert-verify: true
-  sni: q6clkp794liy3y90.hktimecsgo.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: q6clkp794liy3y90.hktimecsgo.xyz
-    path: /images
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 277 | ⬇️ 1MB/s
-  network: ws
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 443
-  server: 23.227.38.178
-  skip-cert-verify: true
-  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  name: 🇭🇰HK_3|2.0MB/s
+  network: tcp
+  password: KV63147582
+  port: '443'
+  server: electric-sturgeon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-sturgeon.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    path: /images
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   down: ''
   fingerprint: ''
@@ -92,3 +38,38 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 277 | ⬇️ 1MB/s
+  network: ws
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 443
+  server: 23.227.38.178
+  skip-cert-verify: true
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /images
+- name: 🇭🇰 HK 284 | ⬇️ 1MB/s
+  network: ws
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 443
+  server: 23.227.38.178
+  skip-cert-verify: true
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: q6clkp794liy3y90.hktimecsgo.xyz
+    path: /images
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|2.5MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: well-marmot.rooster465.autos
+  skip-cert-verify: false
+  sni: well-marmot.rooster465.autos
+  type: trojan
+  udp: true

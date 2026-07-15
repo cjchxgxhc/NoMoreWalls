@@ -14,59 +14,41 @@ proxies:
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
   version: 5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷 FR 115 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 12228
-  reality-opts:
-    public-key: hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI
-    short-id: '!!str 59625eb3275249ca'
-  server: 35.180.187.82
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 795d5f5b-318c-49a6-844f-ee2ab63bbe94
 - name: 🇫🇷 FR 032 | ⬇️ 24KB/s
   password: ''
   port: 1088
   server: 51.210.5.144
   type: socks5
   username: ''
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - e1roj9ul.divarcdn.com, e1roj9ul.alibaba.ir, e1roj9ul.splus.ir, e1roj9ul.cafebazaar.ir,
-        e1roj9ul.yjc.ir
-    path:
-    - /
-  name: 🇫🇷FR_1|2.8MB/s
-  network: http
-  port: '58748'
-  server: 145.239.137.250
-  type: vless
-  udp: true
-  uuid: 21e22226-0b96-4b4e-9a91-5c7f9e3f1760
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
+- client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: grpc
-  name: 🇫🇷FR_3|1.7MB/s
+    grpc-mode: gun
+    grpc-service-name: wlgrpc
+  name: 🇫🇷FR_1|1.5MB/s
   network: grpc
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: SK0KGyJuRjuijxlXfFIQ16DBIVRIMwYWUvYyS_CrWhA
-    short-id: '!!str ec092e19'
-  server: 45.12.114.157
-  servername: www.samsung.com
+    public-key: Uwj82vGl-jAhU3VflWnTy7rISYi03slggjS32Zx8pkk
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 77.221.152.151
+  servername: www.lefigaro.fr
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_2|2.0MB/s
+  network: xhttp
+  port: '8443'
+  server: xh.hrmp.kdns.fr
+  servername: xh.hrmp.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dc9f16e-a3c2-494a-9e06-b77ceb488a2c
+  xhttp-opts:
+    host: xh.hrmp.kdns.fr
+    mode: auto
+    path: /tirexxhttp
   xudp: true
