@@ -1,27 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 014 | ⬇️ 5MB/s
-  network: none
-  port: 16709
-  server: 192.204.46.230
-  tls: false
-  type: vmess
-  uuid: cb97ec04-49c3-4689-eb9e-2940a42cdde1
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 389 | ⬇️ 8MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 386 | ⬇️ 1MB/s
+  name: 🇺🇸US_3|1.9MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -32,59 +11,20 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 332 | ⬇️ 3MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  name: 🇺🇸 US 343 | ⬇️ 2MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: balanced-puma.rooster465.autos
-  sni: balanced-puma.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 US 307 | ⬇️ 10MB/s
-  network: tcp
-  password: KV63147582
-  port: 443
-  server: popular-meerkat.rooster465.autos
-  sni: popular-meerkat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 US 346 | ⬇️ 9MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: capable-eel.rooster465.autos
-  sni: capable-eel.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 US 352 | ⬇️ 6MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: fast-bunny.rooster465.autos
-  sni: fast-bunny.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇺🇸 US 402 | ⬇️ 4MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: tolerant-rattler.rooster465.autos
-  skip-cert-verify: true
-  sni: tolerant-rattler.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 US 338 | ⬇️ 8MB/s
-  network: tcp
-  password: OD90375861
-  port: 443
-  server: nearby-muskrat.rooster465.autos
-  sni: nearby-muskrat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 US 376 | ⬇️ 4MB/s
+  name: 🇺🇸 US 141 | ⬇️ 8MB/s
   network: tcp
   password: CF68213490
   port: 443
@@ -92,28 +32,70 @@ proxies:
   sni: alert-monster.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 US 347 | ⬇️ 6MB/s
+  name: 🇺🇸 US 361 | ⬇️ 857KB/s
   network: tcp
   password: CF68213490
   port: 443
-  server: popular-meerkat.rooster465.autos
-  sni: popular-meerkat.rooster465.autos
+  server: fast-bunny.rooster465.autos
+  sni: fast-bunny.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 US 329 | ⬇️ 1MB/s
+  name: 🇺🇸 US 081 | ⬇️ 2MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: sharing-porpoise.rooster465.autos
+  sni: sharing-porpoise.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 US 359 | ⬇️ 985KB/s
   network: tcp
   password: CF68213490
   port: 443
-  server: polite-coyote.rooster465.autos
-  sni: polite-coyote.rooster465.autos
+  server: capable-eel.rooster465.autos
+  sni: capable-eel.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 091 | ⬇️ 489KB/s
+  network: none
+  port: 16709
+  server: 192.204.46.230
+  tls: false
+  type: vmess
+  uuid: cb97ec04-49c3-4689-eb9e-2940a42cdde1
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 218 | ⬇️ 10KB/s
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: 🇺🇸 US 388 | ⬇️ 3MB/s
+  name: 🇺🇸 US 379 | ⬇️ 3MB/s
   password: amazonskr05
   port: 443
   server: 18.190.176.112
   type: ss
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 427 | ⬇️ 14KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US 080 | ⬇️ 1MB/s
@@ -147,15 +129,17 @@ proxies:
     headers:
       Host: h2.bnm.uw.to
     path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_4|3.3MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+- name: 🇺🇸US_1|2.3MB/s
+  password: OD90375861
+  port: 443
+  server: nearby-muskrat.rooster465.autos
+  skip-cert-verify: true
+  sni: nearby-muskrat.rooster465.autos
+  type: trojan
+- name: 🇺🇸US_2|1.6MB/s
+  password: CF68213490
+  port: 443
+  server: balanced-puma.rooster465.autos
+  skip-cert-verify: true
+  sni: balanced-puma.rooster465.autos
+  type: trojan

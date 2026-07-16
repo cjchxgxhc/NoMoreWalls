@@ -1,61 +1,34 @@
 proxies:
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 286 | ⬇️ 395KB/s
-  network: tcp
-  password: OD90375861
-  port: 443
-  server: busy-hermit.rooster465.autos
-  skip-cert-verify: true
-  sni: busy-hermit.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 282 | ⬇️ 6MB/s
-  network: tcp
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - www.icloud.com
+    path:
+    - /
+  name: 🇩🇪 DE 058 | ⬇️ 48KB/s
+  network: http
   packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: XvqUR-fhL0E9z9b_8q_uEvyE-lpC-l1D4CivPKSthh4
-    short-id: '!!str cbb840f5'
-  server: 51.195.94.187
-  servername: addons.mozilla.org
+  port: 1323
+  server: ain.sanaiehdasti.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+  uuid: 81b8aac5-e22e-46aa-91f4-bdf6a686be51
 - encryption: none
   grpc-opts:
     grpc-service-name: vless
-  name: 🇩🇪 DE 052 | ⬇️ 75KB/s
+  name: 🇩🇪 DE 122 | ⬇️ 14KB/s
   network: grpc
   packet-encoding: xudp
   port: 2085
-  server: 81.31.211.120
+  server: 81.31.211.114
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
   uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
-- encryption: none
-  name: 🇩🇪 DE 143 | ⬇️ 19KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 167.82.77.173
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -71,71 +44,35 @@ proxies:
   type: hysteria
   udp: true
   up: '500'
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 330 | ⬇️ 5MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: quiet-condor.rooster465.autos
+  sni: quiet-condor.rooster465.autos
+  type: trojan
 - encryption: none
   grpc-opts:
     grpc-service-name: vless
-  name: 🇩🇪 DE 295 | ⬇️ 2MB/s
+  name: 🇩🇪 DE 340 | ⬇️ 13KB/s
   network: grpc
   packet-encoding: xudp
   port: 2085
-  server: 81.31.211.117
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 354 | ⬇️ 850KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.110
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 370 | ⬇️ 214KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.116
+  server: 81.31.211.120
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
   uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 375 | ⬇️ 7MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.117
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 382 | ⬇️ 6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 356 | ⬇️ 2MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: certain-prawn.rooster465.autos
+  sni: certain-prawn.rooster465.autos
+  type: trojan
 - auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   down: ''
   fingerprint: ''
@@ -263,7 +200,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   encryption: none
-  name: '🇩🇪 DE 181 | ⬇️ 2MB/s #1'
+  name: 🇩🇪 DE 181 | ⬇️ 2MB/s
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -338,7 +275,7 @@ proxies:
       Host: ms.novexbka.dpdns.org
     path: /nov
 - auth: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  name: 🇩🇪DE_1|4.1MB/s
+  name: 🇩🇪DE_1|3.4MB/s
   password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
   port: 8449
   server: jongjmi.odnako.site
@@ -346,20 +283,39 @@ proxies:
   sni: jongjmi.odnako.site
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.5MB/s
-  network: ws
-  port: '443'
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_2|2.0MB/s
+  network: xhttp
+  port: '8443'
   server: love.ns.cloudflare.com
-  servername: edxkk.goldfieldline-milo.sbs
+  servername: vamosargentina.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|1.5MB/s
+  network: ws
+  port: '2083'
+  server: nebulonix.online
+  servername: moz.boaza.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85c40985-f109-410c-9657-4a2f52140bf0
   ws-opts:
     headers:
-      Host: edxkk.goldfieldline-milo.sbs
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sea
+      Host: moz.boaza.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
   xudp: true

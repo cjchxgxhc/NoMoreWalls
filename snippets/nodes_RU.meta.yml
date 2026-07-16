@@ -1,6 +1,14 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 383 | ⬇️ 576KB/s
+  name: 🇷🇺 RU 334 | ⬇️ 15KB/s
+  password: 32c0ea6e823341a2
+  port: 10122
+  server: 185.22.154.254
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 135 | ⬇️ 6MB/s
   password: cfe685726eea2c4b
   port: 20111
   server: 185.22.154.103
@@ -10,24 +18,7 @@ proxies:
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 086 | ⬇️ 1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: R27DVC-KJRwzorKGz7tlPNeKs0R-gZnW1_qI6gGXVC8
-    short-id: '!!str 45ba24f429ad1f28'
-  server: 176.53.161.244
-  servername: web.max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 117 | ⬇️ 4MB/s
+  name: 🇷🇺 RU 405 | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -42,40 +33,6 @@ proxies:
   udp: true
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 302 | ⬇️ 235KB/s
-  password: 32c0ea6e823341a2
-  port: 10122
-  server: 185.22.154.254
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- encryption: none
-  name: 🇷🇺 RU 348 | ⬇️ 106KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 42672
-  server: 104.171.135.184
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 1008a30d-4e23-485a-8981-fd1f103b7d11
-- encryption: none
-  name: 🇷🇺 RU 414 | ⬇️ 39KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: tn.tmn141246.ru
-  servername: tn.tmn141246.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- cipher: aes-256-gcm
   name: 🇭🇰 HK 192 | ⬇️ 20KB/s
   password: b24a80e79cee1d1f
   port: 10123
@@ -83,3 +40,29 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- auth: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  name: 🇷🇺RU_1|2.0MB/s
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  skip-cert-verify: true
+  sni: fl02.auragg.org
+  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 213.219.212.24
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0c03d71-8139-4639-bb05-e444e07a0d2b
+  xudp: true

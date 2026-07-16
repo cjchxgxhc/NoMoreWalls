@@ -1,15 +1,13 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇦 CA 092 | ⬇️ 678KB/s
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇦CA_1|3.3MB/s
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: '!!str 500aec9e9e5e2212'
-  server: 45.206.5.122
-  servername: storage.yandex.net
-  tls: true
-  type: vless
+  port: '18339'
+  server: c87s5.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  xudp: true
