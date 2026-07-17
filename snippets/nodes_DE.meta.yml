@@ -1,40 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|2.0MB/s
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: '1080'
-  server: 62.113.194.49
+- encryption: mlkem768x25519plus.native.0rtt.sA1qB8b6IwkNTwEubO-TQ53GEyjpAgNchOnSww07e1I
+  flow: xtls-rprx-vision
+  http-opts:
+    headers:
+      Host:
+      - www.icloud.com
+    path:
+    - /
+  name: 🇩🇪 DE 099 | ⬇️ 156KB/s
+  network: http
+  packet-encoding: xudp
+  port: 24504
+  server: service.vipdatanetwork.com
   skip-cert-verify: false
-  type: ss
+  type: vless
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 123 | ⬇️ 2MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: certain-prawn.rooster465.autos
-  sni: certain-prawn.rooster465.autos
-  type: trojan
-- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪 DE 310 | ⬇️ 81KB/s
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: false
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
-  up: ''
+  uuid: 55349a9f-03b4-46ff-a08b-f6b5f40bb9d5
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|2.2MB/s
+  down: '1000'
+  name: 🇩🇪 DE 302 | ⬇️ 2MB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -43,9 +30,9 @@ proxies:
   sub-tag: R002-260618
   type: hysteria
   udp: true
-  up: 500
+  up: '500'
 - encryption: none
-  name: 🇩🇪 DE 530 | ⬇️ 19KB/s
+  name: 🇩🇪 DE 406 | ⬇️ 19KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -60,6 +47,36 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪 DE 310 | ⬇️ 81KB/s
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: false
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
+  up: ''
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 553 | ⬇️ 2MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: certain-prawn.rooster465.autos
+  sni: certain-prawn.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇩🇪 DE 734 | ⬇️ 8MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.183.207.82
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: 🇩🇪 DE 078 | ⬇️ 34KB/s
   password: ''
   port: 1080
@@ -247,163 +264,3 @@ proxies:
     headers:
       Host: ms.novexbka.dpdns.org
     path: /nov
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
-    short-id: '!!str '
-  server: 89.106.86.90
-  servername: ads.cardds.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4|2.6MB/s
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: '1080'
-  server: 62.113.194.158
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|3.8MB/s
-  network: ws
-  port: 2096
-  server: 172.67.79.161
-  servername: vp19.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp19.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_6|2.7MB/s
-  network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
-    short-id: '!!str '
-  server: 89.106.86.88
-  servername: ads.cardds.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|3.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
-    short-id: '!!str '
-  server: 89.106.86.89
-  servername: ads.cardds.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
-    short-id: '!!str '
-  server: 89.106.86.98
-  servername: ads.cardds.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_11|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
-    short-id: '!!str '
-  server: ge-5.lemonbow.ru
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8516c47e-a7a1-42f7-9c14-ae9b14873cc8
-  xudp: true
-- name: 🇩🇪DE_12|3.1MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  ws-opts:
-    headers:
-      Host: wild-frog-c709.403-6ff.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_13|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
-    short-id: '!!str '
-  server: 94.249.225.41
-  servername: ssl.cougarboardsstore.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
-  xudp: true
-- down: ''
-  fingerprint: acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27
-  name: 🇩🇪DE_14|3.5MB/s
-  obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: '25810'
-  server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  type: hysteria2
-  up: ''
