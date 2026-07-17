@@ -1,12 +1,43 @@
 proxies:
-- encryption: none
-  name: 🇨🇭 CH 199 | ⬇️ 1MB/s
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - yahoo.com
+    path:
+    - /
+  name: 🇨🇭 CH 081 | ⬇️ 11MB/s
+  network: http
   packet-encoding: xudp
-  port: 19551
-  server: 37.156.44.241
+  port: 11596
+  reality-opts:
+    public-key: L6zEB5x8-kyr75lwmBNuz2S_UFo-GwVZvcyy0GY8QXA
+  server: 179.237.75.28
+  servername: yahoo.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: fef61355-77d1-4523-9550-1e7b7cbcc47c
+  uuid: d1c9eccc-91b1-4185-e459-febe9c42ccd1
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - yahoo.com
+    path:
+    - /
+  name: 🇨🇭CH_1|2.9MB/s
+  network: http
+  port: '32875'
+  reality-opts:
+    public-key: NFQAS72yT1b_7ZZhYcIC6Nm3rYSqQwxqOZKid5DJ0Gg
+    short-id: '!!str '
+  server: 179.237.75.28
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1961317f-5f2c-4346-e4b0-b767f0946138
+  xudp: true
