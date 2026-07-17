@@ -1,5 +1,16 @@
 proxies:
-- name: 🇭🇰 HK 031 | ⬇️ 2MB/s
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: 🇭🇰 HK 075 | ⬇️ 2MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27167
+  server: 18.166.113.165
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 HK 111 | ⬇️ 488KB/s
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -7,20 +18,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰 HK 218 | ⬇️ 10KB/s
-  network: http
-  port: 27272
-  server: 45.158.23.138
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+- name: 🇭🇰 HK 513 | ⬇️ 1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27167
+  server: 18.166.113.165
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - cipher: aes-256-gcm
   name: 🇭🇰 HK 210 | ⬇️ 20KB/s
   password: 32c0ea6e823341a2
@@ -54,3 +59,12 @@ proxies:
     headers:
       Host: q6clkp794liy3y90.hktimecsgo.xyz
     path: /images
+- client-fingerprint: chrome
+  name: 🇭🇰HK_1|2.8MB/s
+  password: BxceQaOe
+  port: '7674'
+  server: 18.163.5.109
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

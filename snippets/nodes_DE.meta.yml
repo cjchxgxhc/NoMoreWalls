@@ -7,7 +7,7 @@ proxies:
       - www.icloud.com
     path:
     - /
-  name: 🇩🇪 DE 099 | ⬇️ 156KB/s
+  name: 🇩🇪 DE 069 | ⬇️ 156KB/s
   network: http
   packet-encoding: xudp
   port: 24504
@@ -31,22 +31,6 @@ proxies:
   type: hysteria
   udp: true
   up: '500'
-- encryption: none
-  name: 🇩🇪 DE 406 | ⬇️ 19KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 167.82.77.173
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
 - auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   down: ''
   fingerprint: ''
@@ -61,22 +45,6 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 553 | ⬇️ 2MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: certain-prawn.rooster465.autos
-  sni: certain-prawn.rooster465.autos
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇩🇪 DE 734 | ⬇️ 8MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.183.207.82
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - name: 🇩🇪 DE 078 | ⬇️ 34KB/s
   password: ''
   port: 1080
@@ -264,3 +232,42 @@ proxies:
     headers:
       Host: ms.novexbka.dpdns.org
     path: /nov
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_1|3.2MB/s
+  network: xhttp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|1.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.122.115.111
+  type: ss
+  udp: true
