@@ -1,6 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 179 | ⬇️ 10KB/s
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 146 | ⬇️ 14KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 US 076 | ⬇️ 3MB/s #1'
+  name: 🇺🇸 US 076 | ⬇️ 3MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -12,13 +38,13 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: '🇺🇸 US 047 | ⬇️ 84KB/s #1'
+  name: 🇺🇸 US 047 | ⬇️ 84KB/s
   password: amazonskr05
   port: 443
   server: 18.190.176.112
   type: ss
   udp: true
-- name: '🇺🇸 US 051 | ⬇️ 13MB/s #1'
+- name: 🇺🇸 US 051 | ⬇️ 13MB/s
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -26,3 +52,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_7|3.3MB/s
+  network: raw
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
