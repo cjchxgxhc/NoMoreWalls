@@ -1,30 +1,56 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.5MB/s
+  name: 🇸🇪 SE 358 | ⬇️ 2MB/s
   network: tcp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
     short-id: '!!str 43dcff53849b81e6'
   server: 185.231.101.89
   servername: se.quattro-tech.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪SE_2|2.3MB/s
+  name: 🇸🇪 SE 153 | ⬇️ 23KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
-  server: meow-warsaw.nethcloud.top
-  servername: www.wikihow.com
-  skip-cert-verify: true
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 185.231.101.89
+  servername: se.quattro-tech.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇱🇹LT_1|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '443'
+  reality-opts:
+    public-key: fl73IBnFC9oaLCgTZkYWoCS9gbintk3TxHnKiE20Nk8
+    short-id: '!!str 62b68b9d30622133'
+  server: net.oneoneok.com
+  servername: net.oneoneok.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  xudp: true
