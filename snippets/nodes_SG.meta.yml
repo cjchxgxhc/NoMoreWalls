@@ -1,32 +1,44 @@
 proxies:
+- name: 🇸🇬 SG 010 | ⬇️ 13MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 95.40.52.88
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇸🇬 SG 159 | ⬇️ 22KB/s
+  password: CbNjfoj7hFuS
+  port: 8388
+  server: 194.87.10.100
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 003 | ⬇️ 12MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇸🇬 SG 285 | ⬇️ 563KB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: 172.64.40.49
-  servername: t1s1.rittbo.kdns.fr
+  reality-opts:
+    public-key: iNTKMWUbyqCAOQ4VeJaNiHWK3T4w2T7R4zKPioC8qT8
+    short-id: '!!str b68b884d89e9a242'
+  server: 159.65.7.154
+  servername: onic.pk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: 3c5e6124-decf-425d-8c1e-fe05cb4dd298
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 150 | ⬇️ 12MB/s
+  name: 🇸🇬 SG 051 | ⬇️ 11MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -47,159 +59,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 036 | ⬇️ 15MB/s
+  name: 🇸🇬 SG 367 | ⬇️ 10MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 172.64.42.44
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 008 | ⬇️ 13MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 172.64.150.246
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 🇸🇬SG_5|3.5MB/s
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 95.40.52.88
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 029 | ⬇️ 10MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.32.29
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 173 | ⬇️ 12MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 162.159.11.57
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 🇸🇬 SG 035 | ⬇️ 750KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: cloudflare-ech.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dd2952d5-2bc6-40c8-8a82-6dc00fe5105c
-  ws-opts:
-    headers:
-      Host: nameless-shape-271e.321-5f5.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇹🇭 TH 296 | ⬇️ 12MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 162.159.21.206
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 063 | ⬇️ 13MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.145.186
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 064 | ⬇️ 11MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.21.235
+  server: mfa.gov.ua
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -237,7 +101,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 028 | ⬇️ 13MB/s
+  name: 🇸🇬 SG 315 | ⬇️ 13MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -258,103 +122,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 310 | ⬇️ 427KB/s
+  name: 🇸🇬 SG 173 | ⬇️ 12MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 104.18.44.198
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 294 | ⬇️ 15MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.153.159
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 313 | ⬇️ 13MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.1.37
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 316 | ⬇️ 196KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 104.18.37.237
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 🇸🇬 SG 317 | ⬇️ 14MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 32434
-  server: 54.46.125.103
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 367 | ⬇️ 10MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: mfa.gov.ua
+  port: 2083
+  server: 162.159.11.57
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -392,53 +164,158 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 146 | ⬇️ 9MB/s
+  name: 🇸🇬 SG 047 | ⬇️ 12MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.42.44
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 316 | ⬇️ 196KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.18.37.237
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 387 | ⬇️ 12MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.46.24
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 310 | ⬇️ 427KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.44.198
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '🇸🇬 SG 003 | ⬇️ 12MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.40.49
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 412 | ⬇️ 11MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 162.159.21.206
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 423 | ⬇️ 9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.13.196
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 406 | ⬇️ 11MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
   server: 162.159.4.221
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 402 | ⬇️ 12MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.34.23
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 077 | ⬇️ 15MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 104.18.45.249
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -476,53 +353,95 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
+  name: 🇸🇬 SG 311 | ⬇️ 14MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.153.159
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 421 | ⬇️ 14MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.146.229
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 416 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.147.104
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 403 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.18.45.249
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
   name: 🇸🇬 SG 408 | ⬇️ 7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
   server: 162.159.5.231
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 409 | ⬇️ 14MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.24.39
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 434 | ⬇️ 12MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.48.245
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -560,7 +479,49 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 414 | ⬇️ 11MB/s
+  name: 🇸🇬 SG 064 | ⬇️ 11MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.21.235
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 409 | ⬇️ 14MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.24.39
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '🇸🇬 SG 414 | ⬇️ 11MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -581,11 +542,161 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬 SG 416 | ⬇️ 13MB/s
+  name: 🇸🇬 SG 008 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 172.64.150.246
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 029 | ⬇️ 10MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.32.29
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 478 | ⬇️ 12MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 172.64.147.104
+  server: yx.cloudflare.182682.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 🇸🇬 SG 035 | ⬇️ 750KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: cloudflare-ech.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: dd2952d5-2bc6-40c8-8a82-6dc00fe5105c
+  ws-opts:
+    headers:
+      Host: nameless-shape-271e.321-5f5.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 063 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.145.186
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 313 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.1.37
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|3.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '32434'
+  server: 54.46.125.103
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 402 | ⬇️ 12MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.34.23
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 SG 434 | ⬇️ 12MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.48.245
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -611,163 +722,7 @@ proxies:
     headers:
       Host: vp40.cc.cd
     path: /fp
-- name: 🇸🇬 SG 014 | ⬇️ 16MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: verified-ringtail.rooster465.autos
-  skip-cert-verify: true
-  sni: verified-ringtail.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 239 | ⬇️ 18MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: alert-titmouse.rooster465.autos
-  skip-cert-verify: true
-  sni: alert-titmouse.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 017 | ⬇️ 17MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: actual-pigeon.rooster465.autos
-  sni: actual-pigeon.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 018 | ⬇️ 16MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: emerging-baboon.rooster465.autos
-  sni: emerging-baboon.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 019 | ⬇️ 18MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: humorous-hawk.rooster465.autos
-  sni: humorous-hawk.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 023 | ⬇️ 15MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: smooth-sculpin.rooster465.autos
-  skip-cert-verify: true
-  sni: smooth-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 032 | ⬇️ 17MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: fast-drum.rooster465.autos
-  sni: fast-drum.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 143 | ⬇️ 15MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.46.24
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬 SG 154 | ⬇️ 9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.36.166
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 280 | ⬇️ 17MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: eminent-hagfish.rooster465.autos
-  skip-cert-verify: true
-  sni: eminent-hagfish.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 277 | ⬇️ 19MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: evident-ant.rooster465.autos
-  sni: evident-ant.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 284 | ⬇️ 18MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: organic-locust.rooster465.autos
-  sni: organic-locust.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 281 | ⬇️ 17MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: comic-poodle.rooster465.autos
-  sni: comic-poodle.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 282 | ⬇️ 18MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: magnetic-haddock.rooster465.autos
-  sni: magnetic-haddock.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 286 | ⬇️ 20MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: square-gnat.rooster465.autos
-  sni: square-gnat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 285 | ⬇️ 18MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: assuring-werewolf.rooster465.autos
-  sni: assuring-werewolf.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG_1|3.6MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -780,27 +735,47 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|2.2MB/s
-  network: ws
+  name: 🇸🇬SG_4|3.7MB/s
+  network: tcp
+  password: HW85960347
   port: '443'
-  server: 173.245.58.87
-  servername: t1s1.rittbo.kdns.fr
+  server: major-cobra.rooster465.autos
+  skip-cert-verify: false
+  sni: major-cobra.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_5|4.7MB/s
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: modest-coral.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-coral.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_6|5.0MB/s
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: quality-sheepdog.rooster465.autos
+  skip-cert-verify: false
+  sni: quality-sheepdog.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_7|4.5MB/s
+  network: tcp
+  port: '8483'
+  reality-opts:
+    public-key: f-dr6o5eummw5K-Wk8hpTzVLVAiueva5N2biUDx6Q1w
+    short-id: '!!str ac98af12'
+  server: zlvljp.trafficmanager.net
+  servername: www.lamer.com.sg
   tls: true
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /fp=chromefp=chrome
+  uuid: 3389b4c2-0116-4eac-8456-c738751bb4c5
   xudp: true
-- name: 🇸🇬SG_6|3.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 32434
-  server: 54.46.125.103
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
