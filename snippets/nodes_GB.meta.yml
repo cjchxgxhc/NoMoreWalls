@@ -1,36 +1,38 @@
 proxies:
-- auth: dcdef7f2-5f67-4f85-89df-5a3be5792e1a
-  name: 🇬🇧GB_1|2.5MB/s
-  obfs: salamander
-  obfs-password: whale-hy-e110
-  password: dcdef7f2-5f67-4f85-89df-5a3be5792e1a
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇬🇧 GB 331 | ⬇️ 1MB/s
+  password: amazonskr05
   port: 443
-  server: 212.135.39.110
-  skip-cert-verify: true
-  sni: ok.ru
-  type: hysteria2
-- client-fingerprint: qq
+  server: 13.135.248.162
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-yandex
-  name: 🇬🇧 GB 169 | ⬇️ 5MB/s
+    grpc-service-name: api.v1.StreamService
+  name: 🇬🇧 GB 311 | ⬇️ 2MB/s
   network: grpc
-  port: 8443
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: uk.riotvpn.eu
-  servername: avatars.mds.yandex.net
+    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
+    short-id: '!!str 7a7de52ae0e6c22f'
+  server: api.oneoker.com
+  servername: api.oneoker.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f885cecc-a6ea-4e9b-87da-c7dc4b745348
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
 - client-fingerprint: chrome
   encryption: none
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇬🇧 GB 151 | ⬇️ 5KB/s
+  name: 🇬🇧 GB 561 | ⬇️ 622KB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -45,43 +47,37 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-yandex
+  name: 🇬🇧 GB 082 | ⬇️ 1MB/s
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: '!!str 844352756c1fabba'
+  server: uk.riotvpn.eu
+  servername: avatars.mds.yandex.net
+  tls: true
+  type: vless
+  uuid: f885cecc-a6ea-4e9b-87da-c7dc4b745348
 - client-fingerprint: firefox
+  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 GB 380 | ⬇️ 7MB/s
+  name: 🇬🇧 GB 138 | ⬇️ 1MB/s
   network: grpc
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: uYXyM2Nwmqw3bSDSV95XmpbOaAYBmBTh619Vl8lFJRs
     short-id: '!!str 60cde13ab21686e9'
   server: stats.oneoker.com
   servername: stats.oneoker.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 GB 335 | ⬇️ 2MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
-    short-id: '!!str 7a7de52ae0e6c22f'
-  server: api.oneoker.com
-  servername: api.oneoker.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 400 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.248.162
   skip-cert-verify: false
-  type: ss
-  udp: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
