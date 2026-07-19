@@ -1,31 +1,27 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  http-opts:
-    headers:
-      Host:
-      - yahoo.com
-    path:
-    - /
-  name: 🇨🇭 CH 071 | ⬇️ 2MB/s
-  network: http
+  flow: xtls-rprx-vision
+  name: 🇨🇭 CH 046 | ⬇️ 76KB/s
+  network: tcp
   packet-encoding: xudp
-  port: 2053
+  port: 443
   reality-opts:
-    public-key: bBI2yUWXDIbDUrreMQL2YiCbFBWCjlv_Vxn35I0BlSc
-  server: isheheuuwhe-2-2-2-2-2.poki-pakipon.ir
-  servername: yahoo.com
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: ch03.tunnely.ru
+  servername: ch03.tunnely.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 992649b6-189d-4007-b0df-8a5457f9ccee
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
   encryption: none
-  name: 🇨🇭 CH 279 | ⬇️ 61KB/s
+  name: 🇨🇭 CH 472 | ⬇️ 61KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -49,21 +45,3 @@ proxies:
     sc-max-each-post-bytes: 1000000
     sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭 CH 038 | ⬇️ 71KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: QZDU9ZZt6HEIijqRyeyebLxt11S692nSBIDNCKLBM3k
-    short-id: '!!str f5420efbe305d354'
-  server: free.ch1.laodavip.com
-  servername: free.ch1.laodavip.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89281585-8bde-4ef2-8807-96c603281ef8

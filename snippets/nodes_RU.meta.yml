@@ -1,19 +1,9 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 089 | ⬇️ 21KB/s
-  password: cfe685726eea2c4b
-  port: 40110
-  server: 185.22.154.103
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 RU 131 | ⬇️ 17KB/s
+  password: vwc9nGgP8O5KeWbyrwiUow
+  port: 1080
+  server: 212.67.17.239
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇷🇺 RU 580 | ⬇️ 3KB/s
-  network: ws
-  port: 4100
-  server: 87.228.122.108
-  tls: false
-  type: vless
-  udp: true
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  ws-opts:
-    path: /v1

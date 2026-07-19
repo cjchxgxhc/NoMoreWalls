@@ -1,14 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 052 | ⬇️ 883KB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.169.180
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇬🇧 GB 561 | ⬇️ 622KB/s
+  name: 🇬🇧GB_3|2.2MB/s
   network: raw
   packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
     short-id: '!!str 1559b440'
@@ -21,69 +27,60 @@ proxies:
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: '🇬🇧 GB 331 | ⬇️ 1MB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 13.135.248.162
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-yandex
-  name: 🇬🇧 GB 082 | ⬇️ 1MB/s
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: uk.riotvpn.eu
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  uuid: f885cecc-a6ea-4e9b-87da-c7dc4b745348
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 GB 138 | ⬇️ 1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: uYXyM2Nwmqw3bSDSV95XmpbOaAYBmBTh619Vl8lFJRs
-    short-id: '!!str 60cde13ab21686e9'
-  server: stats.oneoker.com
-  servername: stats.oneoker.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 GB 311 | ⬇️ 2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
-    short-id: '!!str 7a7de52ae0e6c22f'
-  server: api.oneoker.com
-  servername: api.oneoker.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|2.4MB/s
+  name: 🇬🇧 GB 275 | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 52.56.188.204
+  skip-cert-verify: false
   type: ss
+  udp: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 047 | ⬇️ 2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    short-id: '!!str 1bc2c1ef1c'
+  server: uk05.alilago.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 1a4e38b0-b430-321c-9962-c732bfede070
+- name: 🇬🇧 GB 092 | ⬇️ 4MB/s
+  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
+  port: 8443
+  server: 151.247.219.191
+  skip-cert-verify: false
+  sni: hopp-queen.roxa.org
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_2|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI
+    short-id: '!!str '
+  server: 2.26.82.237
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 906be882-7f16-47c3-8702-59db2ada9688
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_4|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: '443'
+  server: ge01.auragg.org
+  skip-cert-verify: false
+  sni: ge01.auragg.org
+  type: hysteria2
+  up: ''
