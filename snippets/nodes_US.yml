@@ -1,32 +1,26 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸 US 525 | ⬇️ 2MB/s
-  network: tcp
-  password: PD07395842
-  port: 443
-  server: saving-anemone.rooster465.autos
-  sni: saving-anemone.rooster465.autos
-  type: trojan
 - alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 459 | ⬇️ 14KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 462 | ⬇️ 10MB/s
+  name: 🇺🇸 US 345 | ⬇️ 10MB/s
   network: tcp
   port: 30808
   server: v8.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 🇺🇸 US 433 | ⬇️ 8MB/s
+  network: http
+  port: 1001
+  server: 154.36.128.61
+  tls: false
+  type: vmess
+  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
 - client-fingerprint: chrome
   name: 🇺🇸 US 389 | ⬇️ 2MB/s
   network: tcp
@@ -60,6 +54,14 @@ proxies:
   sni: normal-jay.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
+  name: 🇺🇸 US 525 | ⬇️ 2MB/s
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: saving-anemone.rooster465.autos
+  sni: saving-anemone.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
   name: 🇺🇸 US 538 | ⬇️ 5MB/s
   network: tcp
   password: PD07395842
@@ -75,23 +77,33 @@ proxies:
   server: primary-mallard.rooster465.autos
   sni: primary-mallard.rooster465.autos
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|1.6MB/s
-  network: ws
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  port: '443'
-  server: 185.18.250.252
-  skip-cert-verify: false
-  sni: unnes.ac.id.r3xxe.eu.cc
+- name: 🇺🇸US_2|1.5MB/s
+  password: KV63147582
+  port: 443
+  server: hardy-seahorse.rooster465.autos
+  skip-cert-verify: true
+  sni: hardy-seahorse.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /au-mt
-- client-fingerprint: chrome
-  name: 🇺🇸US_8|2.5MB/s
+- name: 🇺🇸US_7|3.1MB/s
+  password: JA96378052
+  port: 443
+  server: careful-cow.rooster465.autos
+  skip-cert-verify: true
+  sni: careful-cow.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_12|2.7MB/s
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸US_13|2.5MB/s
   network: tcp
   password: KV63147582
   port: '443'

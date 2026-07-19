@@ -1,9 +1,16 @@
 proxies:
+- name: 🇫🇮 FI 451 | ⬇️ 27KB/s
+  password: ''
+  port: 1080
+  server: 193.221.203.192
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: api.v1.StreamService
-  name: 🇸🇪 SE 368 | ⬇️ 235KB/s
+  name: 🇸🇪 SE 356 | ⬇️ 235KB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -20,8 +27,9 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 🇸🇪 SE 313 | ⬇️ 340KB/s
+  name: 🇱🇹LT_1|2.4MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
