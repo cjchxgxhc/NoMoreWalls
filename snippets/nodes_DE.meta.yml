@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_7|2.6MB/s
+  name: 🇩🇪DE_3|2.4MB/s
   network: xhttp
-  port: '8443'
+  port: 8443
   server: bayan.ns.cloudflare.com
   servername: vamosargentina.dpdns.org
   tls: true
@@ -17,22 +17,62 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_6|3.5MB/s
-  network: xhttp
-  port: '8443'
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 064 | ⬇️ 128KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM
+    short-id: '!!str d9662905'
+  server: zaplio-gook.ru
+  servername: zaplio-gook.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 129 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
+    short-id: '!!str 6a2e3af684799b19'
+  server: cdn.pinecloud.net
+  servername: cdn.pinecloud.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: udp://208.67.220.220:443
+    enable: true
+    query-server-name: godotengine.org
+  encryption: none
+  name: 🇩🇪 DE 127 | ⬇️ 869KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 144.31.120.120
+  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
+    max-early-data: 2560
+    path: /wenku/community/group
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -48,6 +88,14 @@ proxies:
   type: hysteria
   udp: 'true'
   up: '500'
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 272 | ⬇️ 1MB/s
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: sensible-grubworm.rooster465.autos
+  sni: sensible-grubworm.rooster465.autos
+  type: trojan
 - auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   down: ''
   fingerprint: ''
@@ -62,31 +110,53 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- cipher: aes-256-cfb
-  name: 🇩🇪 DE 410 | ⬇️ 2MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.177.252.44
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇩🇪 DE 431 | ⬇️ 14KB/s
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 390 | ⬇️ 11MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 167.82.77.173
-  servername: ssl.fastly.com
+  port: 2096
+  server: 104.26.5.224
+  servername: vp23.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?edfp
+      Host: vp23.cc.cd
+    path: /fp=chrome
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 400 | ⬇️ 29KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_2|2.5MB/s
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_1|4.4MB/s
+  name: 🇩🇪 DE 015 | ⬇️ 6MB/s
   password: amazonskr05
   port: 443
   server: 3.77.54.36
@@ -171,151 +241,32 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.0MB/s
+- name: 🇩🇪DE_1|2.5MB/s
+  network: ws
+  port: 80
+  server: 108.162.194.226
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39e4ffce-5027-4138-a93b-4de33bc2a3f1
+  ws-opts:
+    headers:
+      Host: ppp.19bot.ir
+    path: /secure-vpn/
+- name: 🇩🇪DE_4|1.6MB/s
+  password: ON38567014
+  port: 443
+  server: sensible-grubworm.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.2MB/s
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: ger01.myxasecure.space
-  servername: ger01.myxasecure.space
-  tls: true
-  type: vless
-  uuid: b79ada82-b394-4afd-828f-7eefecae3a97
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_4|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.93.83.254
-  type: ss
-- name: 🇩🇪DE_5|1.8MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  ws-opts:
-    headers:
-      Host: wild-frog-c709.403-6ff.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_8|1.9MB/s
-  network: grpc
+  password: ON38567014
   port: '443'
-  reality-opts:
-    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
-    short-id: '!!str dab093f5'
-  server: 194.55.239.250
-  servername: yastatic.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6192b7d1-fc9d-4be1-900e-dbd69de95ddf
-  xudp: true
-- name: 🇩🇪DE_9|2.1MB/s
-  network: ws
-  port: '8880'
-  server: www.zsu.gov.ua
-  type: vless
-  udp: true
-  uuid: bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30
-  ws-opts:
-    headers:
-      Host: crimson-mode-f8de.432-9e1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE_10|2.5MB/s
-  network: http
-  port: '8882'
-  server: 31.56.197.160
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_11|1.6MB/s
-  network: grpc
-  port: '49007'
-  reality-opts:
-    public-key: t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0
-    short-id: '!!str dfdee30a27b11f0f'
-  server: 185.229.9.31
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb3c2bd0-66e9-4619-a94b-cf8cc4ff35a7
-  xudp: true
-- name: 🇩🇪DE_12|3.0MB/s
-  network: ws
-  port: '8880'
-  server: 104.27.82.154
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_13|2.1MB/s
-  network: ws
-  port: '2096'
-  server: legend.zdshop.ir
-  servername: gtyiradsgkdsfghysfr.konjedland.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfa83493-f64e-4c01-b62c-ee21988018f5
-  ws-opts:
-    headers:
-      Host: gtyiradsgkdsfghysfr.konjedland.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /WEDBAZ?ed=2048
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_14|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: '8443'
-  server: 213.202.219.29
+  server: summary-finch.rooster465.autos
   skip-cert-verify: false
-  sni: grape-sos-de.roxa.org
-  type: hysteria2
-  up: ''
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_15|1.6MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.126.251.203
-  type: ss
+  sni: summary-finch.rooster465.autos
+  type: trojan
   udp: true

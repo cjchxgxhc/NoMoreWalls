@@ -1,26 +1,27 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 US 345 | ⬇️ 10MB/s
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 431 | ⬇️ 9MB/s
   network: tcp
   port: 30808
   server: v8.hdacd.com
-  tls: false
+  skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: 2
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 🇺🇸 US 433 | ⬇️ 8MB/s
-  network: http
-  port: 1001
-  server: 154.36.128.61
-  tls: false
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 446 | ⬇️ 14KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: 🇺🇸 US 389 | ⬇️ 2MB/s
   network: tcp
@@ -77,38 +78,3 @@ proxies:
   server: primary-mallard.rooster465.autos
   sni: primary-mallard.rooster465.autos
   type: trojan
-- name: 🇺🇸US_2|1.5MB/s
-  password: KV63147582
-  port: 443
-  server: hardy-seahorse.rooster465.autos
-  skip-cert-verify: true
-  sni: hardy-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸US_7|3.1MB/s
-  password: JA96378052
-  port: 443
-  server: careful-cow.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-cow.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_12|2.7MB/s
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸US_13|2.5MB/s
-  network: tcp
-  password: KV63147582
-  port: '443'
-  server: wondrous-dogfish.rooster465.autos
-  skip-cert-verify: false
-  sni: wondrous-dogfish.rooster465.autos
-  type: trojan
-  udp: true
