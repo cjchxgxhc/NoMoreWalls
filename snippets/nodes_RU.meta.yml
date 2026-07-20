@@ -1,5 +1,37 @@
 proxies:
-- name: 🇷🇺 RU 019 | ⬇️ 16KB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 017 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 93ae75024604f796'
+  server: ru.rush-server.com
+  servername: findmypackets.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a96373c2-6c78-44dc-ac4b-33fd3d32c68b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 031 | ⬇️ 34KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 82.148.20.72
+  servername: sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
+- name: 🇷🇺 RU 009 | ⬇️ 16KB/s
   network: tcp
   port: 13561
   server: 87.242.85.201
@@ -7,29 +39,6 @@ proxies:
   type: vless
   udp: true
   uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
-- name: 🇷🇺 RU 021 | ⬇️ 15KB/s
-  network: tcp
-  port: 35412
-  server: 87.242.85.201
-  tls: false
-  type: vless
-  udp: true
-  uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 046 | ⬇️ 60KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 213.219.212.30
-  servername: eh.vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8aecd59-4bf8-4008-b323-22565e104039
 - cipher: aes-256-gcm
   name: 🇷🇺 RU 024 | ⬇️ 28KB/s
   password: 32c0ea6e823341a2

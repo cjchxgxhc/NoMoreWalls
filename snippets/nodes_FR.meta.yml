@@ -1,16 +1,48 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇫🇷 FR 467 | ⬇️ 21KB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 051 | ⬇️ 69KB/s
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: fr03.tunnely.ru
+  servername: fr03.tunnely.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 057 | ⬇️ 21KB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 6RL8C_2Hi2awKka98Kkx62STPrDXSb25C5u66GIhXRI
+    short-id: '!!str b703abc44e905632'
+  server: play-1.serveroff.net
+  servername: fr-1.converter.darkpn.com
+  tls: true
+  type: vless
+  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 433 | ⬇️ 1MB/s
+  network: ws
+  port: 443
+  server: 4cdn.njkrpl.com
+  servername: 4cdn.njkrpl.com
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  ws-opts:
+    headers:
+      Host: 4cdn.njkrpl.com
+    path: /
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.bHRJoW9nvDfcJd3ZRLXLDwT4i216yH90Uz42CXEoVUc
   name: 🇫🇷 FR 125 | ⬇️ 973KB/s
