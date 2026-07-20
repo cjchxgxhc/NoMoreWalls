@@ -1,73 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 015 | ⬇️ 1MB/s
-  network: tcp
-  port: 17367
-  server: 108.61.210.223
-  tls: false
-  type: vmess
-  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 034 | ⬇️ 14KB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 95.182.116.76
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 066 | ⬇️ 21KB/s
-  network: tcp
-  port: 15910
-  server: vip-netherland.mrapanel.shop
-  tls: false
-  type: vmess
-  uuid: 4f2ce9c1-fd51-4f22-a560-5e1957a4ca65
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 363 | ⬇️ 878KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
-    short-id: '!!str 6a2e3af684799b19'
-  server: cdn.pinecloud.net
-  servername: cdn.pinecloud.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 059 | ⬇️ 21KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 53921
-  reality-opts:
-    _spider-x: /
-    public-key: 1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y
-    short-id: '!!str c2'
-  server: real2.gogoli.xyz
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40a18c24-b5a8-46cd-a20b-51121c9bc382
 - encryption: none
   http-opts:
     path:
@@ -82,20 +13,12 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 077 | ⬇️ 45KB/s
-  password: 2JDuJmWfJql5ZXOBebhLQsbMFs5iHfoy
-  port: 1080
-  server: vip-netherland.mrapanel.shop
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 DE 079 | ⬇️ 1MB/s
+  name: 🇩🇪 DE 164 | ⬇️ 5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 2083
@@ -111,81 +34,10 @@ proxies:
     mode: auto
     path: /forall
     x-padding-bytes: 100-1000
-- encryption: none
-  name: 🇩🇪 DE 082 | ⬇️ 2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 57785
-  server: 108.61.210.223
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 102 | ⬇️ 3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.16.75.207
-  servername: v.sub1vpn.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b327922-0f96-4c5e-96c9-e3df0431623c
-  xhttp-opts:
-    host: v.sub1vpn.dpdns.org
-    mode: auto
-    path: /api
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '6'
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 493 | ⬇️ 11MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2096
-  server: 104.26.5.224
-  servername: vp23.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp23.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_1|2.7MB/s
-  network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
+  delay: 1866
   h2-opts: {}
   http-opts: {}
   name: 🇩🇪 DE 521 | ⬇️ 25KB/s
@@ -196,6 +48,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
@@ -225,26 +78,10 @@ proxies:
   server: 5.83.129.153
   skip-cert-verify: true
   sni: apple.com
+  sub-tag: R002-260618
   type: hysteria
   udp: 'true'
   up: '500'
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 292 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM
-    short-id: '!!str d9662905'
-  server: zaplio-gook.ru
-  servername: zaplio-gook.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
 - auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   down: ''
   fingerprint: ''
@@ -259,6 +96,55 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪 DE 376 | ⬇️ 9MB/s
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 493 | ⬇️ 11MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 104.26.5.224
+  servername: vp23.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp23.cc.cd
+    path: /fp=chrome
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - gr1.fifapes.monster
+    path:
+    - /
+  name: 🇩🇪 DE 131 | ⬇️ 152KB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: gr1.fifapes.monster
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - encryption: none
   name: 🇩🇪 DE 003 | ⬇️ 27KB/s
   network: tcp
@@ -332,22 +218,23 @@ proxies:
       Host: wvdi9kuh.bqjk41e0gtbj1fg244d7.workers.dev
     max-early-data: 2560
     path: /
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - gr1.fifapes.monster
-    path:
-    - /
-  name: 🇩🇪 DE 131 | ⬇️ 152KB/s
-  network: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 363 | ⬇️ 878KB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8882
-  server: gr1.fifapes.monster
+  port: 443
+  reality-opts:
+    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
+    short-id: '!!str 6a2e3af684799b19'
+  server: cdn.pinecloud.net
+  servername: cdn.pinecloud.net
   skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
 - client-fingerprint: chrome
   name: 🇩🇪 DE 461 | ⬇️ 3MB/s
   network: tcp
@@ -364,3 +251,109 @@ proxies:
   server: summary-finch.rooster465.autos
   sni: summary-finch.rooster465.autos
   type: trojan
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_2|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 171.22.134.213
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str e1f8a3b6'
+  server: 5.253.66.31
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b97e287f-a24e-4028-a103-7e7ecef83139
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE_4|1.7MB/s
+  network: http
+  port: '8882'
+  server: 31.57.26.244
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|2.6MB/s
+  network: ws
+  port: '80'
+  server: 104.27.2.172
+  type: vless
+  udp: true
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000025
+  ws-opts:
+    headers:
+      Host: billowing-surf-d251.netizo06.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /sync
+  xudp: true
+- name: 🇩🇪DE_6|2.5MB/s
+  network: ws
+  port: '8880'
+  server: 104.27.82.154
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 🇩🇪DE_7|2.5MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw
+    short-id: '!!str 9329f8b5985b2a7d'
+  server: 46.8.209.70
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f39df59-0ec9-4b92-b6f7-10f746942c70
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_8|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: nl.n.belka.network
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
+  xudp: true

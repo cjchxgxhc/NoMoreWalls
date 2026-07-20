@@ -1,6 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
+  delay: 2674
   h2-opts: {}
   http-opts: {}
   name: 🇺🇸 US 502 | ⬇️ 14KB/s
@@ -8,7 +9,9 @@ proxies:
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
@@ -20,15 +23,16 @@ proxies:
   port: 30808
   server: v8.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 US 053 | ⬇️ 103KB/s
+- client-fingerprint: firefox
+  name: 🇺🇸 US 532 | ⬇️ 329KB/s
   network: tcp
-  password: ON38567014
-  port: 443
-  server: harmless-akita.rooster465.autos
-  skip-cert-verify: false
-  sni: harmless-akita.rooster465.autos
+  password: 4PZV9xYUGS3OgZR92y9PrQ
+  port: 2053
+  server: 150.241.83.159
+  sni: vac-service.ru
   type: trojan
 - alterId: 2
   cipher: auto
@@ -40,8 +44,19 @@ proxies:
   port: 30824
   server: v24.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🇺🇸 US 053 | ⬇️ 103KB/s
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: harmless-akita.rooster465.autos
+  skip-cert-verify: false
+  sni: harmless-akita.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   http-opts:
@@ -68,3 +83,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+- name: 🇺🇸US_3|2.7MB/s
+  password: XG59623478
+  port: 443
+  server: possible-pup.rooster465.autos
+  skip-cert-verify: true
+  sni: possible-pup.rooster465.autos
+  type: trojan
+- name: 🇺🇸US_7|2.1MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.166.58.27
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸US_8|1.6MB/s
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.162.155.166
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

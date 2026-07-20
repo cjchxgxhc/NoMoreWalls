@@ -1,4 +1,29 @@
 proxies:
+- auth: 78f2e8f0-68ea-438e-84ec-d58c9416c680
+  name: 🇰🇷KR_1|3.7MB/s
+  password: 78f2e8f0-68ea-438e-84ec-d58c9416c680
+  port: 18385
+  server: kr1.ktmhyld.com
+  skip-cert-verify: true
+  sni: kr1.ktmhyld.com
+  tfo: false
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: 🇰🇷 KR 047 | ⬇️ 18MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40029
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇰🇷 KR 079 | ⬇️ 5MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40028
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - delay: 554
   name: 🇰🇷 KR 492 | ⬇️ 8KB/s
   password: ''
@@ -9,7 +34,7 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
-- name: 🇰🇷 KR 383 | ⬇️ 189KB/s
+- name: 🇰🇷 KR 527 | ⬇️ 189KB/s
   password: e3a5bb40be52de65
   port: 2328
   server: q.baoge.me
@@ -17,6 +42,39 @@ proxies:
   sni: apps.apple.com
   tfo: false
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷 KR 483 | ⬇️ 1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: e3a5bb40be52de65
+  port: 2328
+  server: q.baoge.me
+  skip-cert-verify: true
+  sni: q.baoge.me
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇰🇷 KR 637 | ⬇️ 5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 131.186.27.112
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - client-fingerprint: chrome
   name: 🇰🇷 KR 351 | ⬇️ 19MB/s
   network: tcp
@@ -83,15 +141,3 @@ proxies:
   server: thorough-elf.rooster465.autos
   sni: thorough-elf.rooster465.autos
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷 KR 483 | ⬇️ 1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: e3a5bb40be52de65
-  port: 2328
-  server: q.baoge.me
-  skip-cert-verify: true
-  sni: q.baoge.me
-  type: hysteria2
-  up: ''

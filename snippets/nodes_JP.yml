@@ -1,4 +1,116 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵 JP 040 | ⬇️ 1MB/s
+  network: ws
+  port: 12883
+  server: cs.ktmcn.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 013 | ⬇️ 16MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40018
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 015 | ⬇️ 12MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40019
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 017 | ⬇️ 11MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40019
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 019 | ⬇️ 9MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 22044
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 021 | ⬇️ 16MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 22044
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 022 | ⬇️ 11MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40018
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_1|3.7MB/s
+  network: ws
+  port: 12883
+  server: cs.ktmcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵 JP 031 | ⬇️ 2MB/s
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵 JP 042 | ⬇️ 1MB/s
+  network: ws
+  port: 12883
+  server: cs.ktmcn.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: cs.ktmcn.net
+    path: /
 - alterId: 2
   cipher: auto
   country: 🇮🇷IR
@@ -14,35 +126,27 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_1|2.1MB/s
-  network: ws
-  port: '12883'
-  server: cs.ktmcn.net
+- name: 🇯🇵JP_5|3.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 10624
+  server: 43.198.72.49
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵JP_6|2.9MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 54.46.77.161
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_2|3.4MB/s
-  network: ws
-  port: '12883'
-  server: gtm1.ktmwan.net
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵JP_7|3.4MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 18.166.58.27
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
+  sni: www.nintendogames.net
+  type: trojan

@@ -1,10 +1,90 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 003 | ⬇️ 13MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40026
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 004 | ⬇️ 1MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40025
+  server: Permission_Level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 007 | ⬇️ 19MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40026
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 018 | ⬇️ 7MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40023
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 023 | ⬇️ 14MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40022
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 049 | ⬇️ 18MB/s
+  password: b3c48614-0f61-43cc-8e89-5f6b216c47a2
+  port: 40024
+  server: permission_level_02.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 094 | ⬇️ 4MB/s
+  network: ws
+  port: 12901
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 083 | ⬇️ 3MB/s
+  network: ws
+  port: 12901
+  server: cs.ktmcn.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇸🇬 SG 338 | ⬇️ 372KB/s
+  name: 🇸🇬 SG 101 | ⬇️ 372KB/s
   network: ws
   port: 12901
   server: cs.ktmcn.net
@@ -17,14 +97,20 @@ proxies:
       HOST: baidu.com
       Host: cs.ktmcn.net
     path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 345 | ⬇️ 20MB/s
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬 SG 523 | ⬇️ 11MB/s
   network: tcp
-  password: ON38567014
-  port: 443
-  server: internal-garfish.rooster465.autos
-  sni: internal-garfish.rooster465.autos
-  type: trojan
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   country: 🇫🇷FR
@@ -43,20 +129,14 @@ proxies:
       HOST: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
       Host: planb.mojcn.com
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬 SG 523 | ⬇️ 11MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬 SG 345 | ⬇️ 20MB/s
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  password: ON38567014
+  port: 443
+  server: internal-garfish.rooster465.autos
+  sni: internal-garfish.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 SG 435 | ⬇️ 19MB/s
   network: tcp
@@ -65,35 +145,27 @@ proxies:
   server: glorious-glider.rooster465.autos
   sni: glorious-glider.rooster465.autos
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 🇸🇬SG_2|1.8MB/s
-  network: ws
-  port: '12901'
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇸🇬SG_3|3.1MB/s
-  network: ws
-  port: '12901'
-  server: cs.ktmcn.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
+- name: 🇸🇬SG_7|2.5MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 18.166.58.27
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬SG_5|3.4MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 18.162.155.166
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬SG_8|2.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.13.164
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
