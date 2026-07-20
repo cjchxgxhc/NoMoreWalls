@@ -1,6 +1,37 @@
 proxies:
+- name: 🇷🇺 RU 019 | ⬇️ 16KB/s
+  network: tcp
+  port: 13561
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  udp: true
+  uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
+- name: 🇷🇺 RU 021 | ⬇️ 15KB/s
+  network: tcp
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  udp: true
+  uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 046 | ⬇️ 60KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 213.219.212.30
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8aecd59-4bf8-4008-b323-22565e104039
 - cipher: aes-256-gcm
-  name: '🇷🇺 RU 024 | ⬇️ 28KB/s #1'
+  name: 🇷🇺 RU 024 | ⬇️ 28KB/s
   password: 32c0ea6e823341a2
   port: 6018
   server: 185.22.154.254

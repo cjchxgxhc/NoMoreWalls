@@ -1,4 +1,54 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 011 | ⬇️ 869KB/s
+  network: ws
+  port: 56304
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 012 | ⬇️ 1MB/s
+  network: http
+  port: 58517
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 389d5b99-63dc-469f-a830-666712c4adf6
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: null
+    path:
+    - /
+  name: 🇭🇰 HK 015 | ⬇️ 1MB/s
+  network: http
+  port: 48122
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 025 | ⬇️ 997KB/s
+  network: ws
+  port: 31198
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
+  ws-opts:
+    path: /
 - alpn:
   - ''
   alterId: 2
@@ -7,7 +57,7 @@ proxies:
   country: 🇸🇬SG
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 452 | ⬇️ 3KB/s #1'
+  name: 🇭🇰 HK 452 | ⬇️ 3KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -16,3 +66,10 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 🇭🇰HK_1|5.1MB/s
+  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
+  port: '1416'
+  server: n.j.y.y.h.z.g.e.d.hk06-ae5.entry.v51124-5.qpon
+  type: ss
+  udp: true
