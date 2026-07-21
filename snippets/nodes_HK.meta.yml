@@ -1,31 +1,13 @@
 proxies:
-- name: 🇭🇰 HK 473 | ⬇️ 6KB/s
+- name: 🇭🇰 HK 042 | ⬇️ 5KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 050 | ⬇️ 600KB/s
-  network: ws
-  port: 31198
-  server: 134.122.199.106
-  tls: false
-  type: vmess
-  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
-  ws-opts:
-    path: /
-- name: 🇭🇰 HK 056 | ⬇️ 35KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
 - client-fingerprint: chrome
   encryption: none
-  name: 🇭🇰 HK 421 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 572 | ⬇️ 474KB/s
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -40,25 +22,24 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 452 | ⬇️ 3KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
+- encryption: none
+  name: 🇭🇰 HK 369 | ⬇️ 984KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: 104.19.174.68
   skip-cert-verify: false
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
 - encryption: none
-  name: 🇭🇰 HK 174 | ⬇️ 770KB/s
+  name: 🇭🇰 HK 401 | ⬇️ 346KB/s
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -73,24 +54,10 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰 HK 174 | ⬇️ 528KB/s
-  network: http
-  port: 48122
-  server: 134.122.199.106
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇭🇰 HK 380 | ⬇️ 1016KB/s
+  name: 🇭🇰 HK 353 | ⬇️ 1MB/s
   network: tcp
   packet-encoding: xudp
   port: 21001
@@ -104,30 +71,27 @@ proxies:
   type: vless
   udp: true
   uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 2
   cipher: auto
-  name: 🇭🇰 HK 453 | ⬇️ 759KB/s
-  network: ws
-  port: 56304
-  server: 134.122.199.106
-  tls: false
-  type: vmess
-  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰 HK 694 | ⬇️ 126KB/s
-  network: http
-  port: 58517
-  server: 134.122.199.106
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 389d5b99-63dc-469f-a830-666712c4adf6
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 HK 008 | ⬇️ 40KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
