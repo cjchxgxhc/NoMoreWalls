@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 031 | ⬇️ 759KB/s
+  network: ws
+  port: 56304
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: null
+    path:
+    - /
+  name: 🇭🇰 HK 104 | ⬇️ 590KB/s
+  network: http
+  port: 48122
+  server: 134.122.199.106
+  tls: false
+  type: vmess
+  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
 - alpn:
   - ''
   alterId: 2
@@ -16,20 +42,9 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇭🇰HK
-  delay: 993
-  name: 🇭🇰 HK 614 | ⬇️ 1MB/s
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: eminent-lamb.rooster465.autos
-  skip-cert-verify: true
-  sni: eminent-lamb.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 305 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 138 | ⬇️ 817KB/s
   network: ws
   port: 31198
   server: 134.122.199.106
@@ -39,10 +54,10 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 608 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 438 | ⬇️ 5MB/s
   network: tcp
   password: IQ68037294
   port: 443
-  server: true-coral.rooster465.autos
-  sni: true-coral.rooster465.autos
+  server: renewing-ewe.rooster465.autos
+  sni: renewing-ewe.rooster465.autos
   type: trojan
