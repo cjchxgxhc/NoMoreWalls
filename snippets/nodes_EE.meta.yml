@@ -1,7 +1,8 @@
 proxies:
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪 EE 396 | ⬇️ 1MB/s
+  name: 🇪🇪 EE 123 | ⬇️ 5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -15,3 +16,19 @@ proxies:
   type: vless
   udp: true
   uuid: 9ca88322-38bd-4ed7-aac9-8e10ae779699
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪 EE 348 | ⬇️ 5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HmTrREg1zoVqwl_k8JSuQPa-mnznChEHEQizwzSNWkQ
+  server: 5.175.178.28
+  servername: hello.bootstrap.try-me.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03

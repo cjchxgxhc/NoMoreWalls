@@ -20,11 +20,33 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇬🇧 GB 328 | ⬇️ 35KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 295 | ⬇️ 2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.10.234.245
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  name: 🇬🇧 GB 356 | ⬇️ 532KB/s
+  name: 🇬🇧GB_2|2.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
+  port: '8443'
   server: ad-020.cloud25075.info
   servername: ad-020.cloud25075.info
   skip-cert-verify: false
@@ -35,18 +57,23 @@ proxies:
   ws-opts:
     headers:
       Host: ad-020.cloud25075.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇬🇧 GB 419 | ⬇️ 32KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|2.4MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
+    short-id: '!!str 0b0aa9caed9d011e'
+  server: 31.77.201.85
+  servername: ag-03.rita-cloud.com
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
+  xudp: true

@@ -1,24 +1,7 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 017 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 93ae75024604f796'
-  server: ru.rush-server.com
-  servername: findmypackets.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a96373c2-6c78-44dc-ac4b-33fd3d32c68b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 031 | ⬇️ 34KB/s
+  name: 🇷🇺 RU 346 | ⬇️ 584KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -31,9 +14,63 @@ proxies:
   type: vless
   udp: true
   uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
-- name: 🇷🇺 RU 009 | ⬇️ 16KB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 094 | ⬇️ 1MB/s
   network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    _spider-x: /video
+    public-key: YbSMmjuRFkilXmQH_RZ9uDFwA17yDulRSTBHRVilzXs
+    short-id: '!!str a3dbdfb829'
+  server: 77.110.113.103
+  servername: vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22573991-de57-4a31-b6ec-56b1bab4112c
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 321 | ⬇️ 17KB/s
+  password: 32c0ea6e823341a2
+  port: 8016
+  server: 185.22.154.254
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- encryption: none
+  name: 🇷🇺 RU 615 | ⬇️ 19KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 13561
+  server: 87.242.85.201
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 457 | ⬇️ 621KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: yo4lSUn_5i7HCFBG6rszy8LZWCV_WuYuV_312M8tihk
+    short-id: '!!str b006669e43ae5c1f'
+  server: 95.85.240.216
+  servername: stepik.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
+- name: 🇷🇺 RU 509 | ⬇️ 12KB/s
+  network: tcp
+  port: 35412
   server: 87.242.85.201
   tls: false
   type: vless
@@ -47,3 +84,52 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 🇷🇺RU_2|2.6MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: '!!str 9e2a6f4c3b7d1e8a'
+  server: ru.moktana.app
+  servername: ru.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|2.1MB/s
+  network: tcp
+  port: '7444'
+  reality-opts:
+    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
+    short-id: '!!str '
+  server: 78.159.247.166
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9aff9c52-b2ee-44b9-a5f0-9f11a3aeca8e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_4|2.3MB/s
+  network: raw
+  port: '1111'
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+    short-id: '!!str '
+  server: 78.159.245.22
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfa96ee8-0d73-4f24-9b61-4833e8a04b9b
+  xudp: true
