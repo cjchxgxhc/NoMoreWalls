@@ -1,30 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 031 | ⬇️ 759KB/s
+  name: 🇭🇰 HK 050 | ⬇️ 600KB/s
   network: ws
-  port: 56304
+  port: 31198
   server: 134.122.199.106
   tls: false
   type: vmess
-  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
+  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: null
-    path:
-    - /
-  name: 🇭🇰 HK 104 | ⬇️ 590KB/s
-  network: http
-  port: 48122
-  server: 134.122.199.106
-  tls: false
-  type: vmess
-  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
+    path: /
 - alpn:
   - ''
   alterId: 2
@@ -44,20 +29,42 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 138 | ⬇️ 817KB/s
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 174 | ⬇️ 528KB/s
+  network: http
+  port: 48122
+  server: 134.122.199.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 453 | ⬇️ 759KB/s
   network: ws
-  port: 31198
+  port: 56304
   server: 134.122.199.106
   tls: false
   type: vmess
-  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
+  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
   ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 438 | ⬇️ 5MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: renewing-ewe.rooster465.autos
-  sni: renewing-ewe.rooster465.autos
-  type: trojan
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 694 | ⬇️ 126KB/s
+  network: http
+  port: 58517
+  server: 134.122.199.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 389d5b99-63dc-469f-a830-666712c4adf6

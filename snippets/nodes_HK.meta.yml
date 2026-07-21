@@ -1,30 +1,45 @@
 proxies:
+- name: 🇭🇰 HK 473 | ⬇️ 6KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 031 | ⬇️ 759KB/s
+  name: 🇭🇰 HK 050 | ⬇️ 600KB/s
   network: ws
-  port: 56304
+  port: 31198
   server: 134.122.199.106
   tls: false
   type: vmess
-  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
+  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: null
-    path:
-    - /
-  name: 🇭🇰 HK 104 | ⬇️ 590KB/s
-  network: http
-  port: 48122
-  server: 134.122.199.106
+    path: /
+- name: 🇭🇰 HK 056 | ⬇️ 35KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
   tls: false
-  type: vmess
-  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
+  type: socks5
+  username: '111'
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 HK 421 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: digitalocean.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
 - alpn:
   - ''
   alterId: 2
@@ -58,10 +73,24 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 174 | ⬇️ 528KB/s
+  network: http
+  port: 48122
+  server: 134.122.199.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2583e45f-af83-420b-964b-38d695ab7a80
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇭🇰 HK 113 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 380 | ⬇️ 1016KB/s
   network: tcp
   packet-encoding: xudp
   port: 21001
@@ -75,60 +104,30 @@ proxies:
   type: vless
   udp: true
   uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
-- name: 🇭🇰 HK 473 | ⬇️ 6KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- encryption: none
-  name: 🇭🇰 HK 421 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2086
-  server: digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
-  ws-opts:
-    headers:
-      Host: arshia.lezzatArshia.ir
-    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
-    v2ray-http-upgrade: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 138 | ⬇️ 817KB/s
+  name: 🇭🇰 HK 453 | ⬇️ 759KB/s
   network: ws
-  port: 31198
+  port: 56304
   server: 134.122.199.106
   tls: false
   type: vmess
-  uuid: 84c81ccd-4cfa-4d0f-d27a-da45ddc70e52
+  uuid: 69c9a9f9-3624-4858-a319-97c1991ef52c
   ws-opts:
-    path: /
-- encryption: none
-  name: 🇭🇰 HK 170 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2086
-  server: 104.19.174.68
-  skip-cert-verify: false
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 HK 694 | ⬇️ 126KB/s
+  network: http
+  port: 58517
+  server: 134.122.199.106
+  skip-cert-verify: true
   tls: false
-  type: vless
-  udp: true
-  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
-  ws-opts:
-    headers:
-      Host: arshia.lezzatArshia.ir
-    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
-    v2ray-http-upgrade: true
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 438 | ⬇️ 5MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: renewing-ewe.rooster465.autos
-  sni: renewing-ewe.rooster465.autos
-  type: trojan
+  type: vmess
+  uuid: 389d5b99-63dc-469f-a830-666712c4adf6

@@ -20,63 +20,11 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 495 | ⬇️ 532KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: ad-020.cloud25075.info
-  servername: ad-020.cloud25075.info
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 595 | ⬇️ 5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.10.234.245
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
-  ws-opts:
-    headers:
-      Host: ad-020.cloud25075.info
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇬🇧 GB 521 | ⬇️ 43KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
-    short-id: '!!str bd8a588cebc3395a'
-  server: cze-02.node.lumixnet.com
-  servername: cze-02.node.lumixnet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB_3|1.9MB/s
-  network: ws
-  port: '8443'
-  server: ad-010.vector9nmb3.info
-  servername: ad-010.vector9nmb3.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
-  ws-opts:
-    headers:
-      Host: ad-010.vector9nmb3.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /
-  xudp: true
+  type: ss
+  udp: false
