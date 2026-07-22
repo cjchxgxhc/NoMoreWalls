@@ -1,6 +1,39 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪 DE 175 | ⬇️ 33KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
+    short-id: '!!str 693ee677b7bc4ad1'
+  server: nl-1-tb.124515.xyz
+  servername: nl-1-tb.124515.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
+- name: '🇩🇪 DE 042 | ⬇️ 8KB/s #1'
+  network: tcp
+  port: 22223
+  server: 3.121.143.119
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '🇩🇪 DE 635 | ⬇️ 225KB/s #1'
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: lenient-dory.rooster465.autos
+  skip-cert-verify: true
+  sni: lenient-dory.rooster465.autos
+  type: trojan
 - client-fingerprint: ios
-  name: 🇩🇪 DE 171 | ⬇️ 243KB/s
+  name: '🇩🇪 DE 230 | ⬇️ 275KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15,100 +48,23 @@ proxies:
     headers:
       Host: ezaccess-project-53562a.pages.dev
     path: /eyJqdW5rIjoiQ01pb2drU1dkNWdLcWdMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 223 | ⬇️ 12KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 4888
-  reality-opts:
-    public-key: qtTBa3X4L1h8yS5jbUPY4SFstmtQ0v1oOn0f3qqV3jc
-    short-id: '!!str ce6dec37e4d0d3c6'
-  server: 31.76.119.201
-  servername: pingless.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af288d94-dd26-46cb-ad3d-5fe644e97e2f
-- encryption: mlkem768x25519plus.native.0rtt.7VMbh7tBAmkAXhl5j8s_nwk2X0DIZ3huTlqF0gqEMz8
-  http-opts:
-    headers:
-      Host:
-      - www.icloud.com
-    path:
-    - /
-  name: 🇩🇪 DE 537 | ⬇️ 511KB/s
-  network: http
-  packet-encoding: xudp
-  port: 3030
-  server: 57.129.23.82
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: bc9a5ce3-8e0a-4e0a-bad7-bb264ad28780
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 382 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
-    short-id: '!!str eb0cca7312345678'
-  server: 138.124.126.158
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 494 | ⬇️ 40KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
-    short-id: '!!str 693ee677b7bc4ad1'
-  server: nl-1-tb.124515.xyz
-  servername: nl-1-tb.124515.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪 DE 109 | ⬇️ 6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 7443
-  reality-opts:
-    public-key: HQHil8nG-HZlQ0wPWXJpX4VvbrauBlCRH26tu4yVFQ4
-    short-id: '!!str bfa2ebf4'
-  server: 84.201.4.252
-  servername: www.telekom.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- name: '🇩🇪 DE 216 | ⬇️ 346KB/s #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 5NLxoNSwj0
+  port: 40837
+  server: 162.19.181.176
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: 🇩🇪 DE 126 | ⬇️ 25KB/s
+  name: '🇩🇪 DE 143 | ⬇️ 13KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -123,39 +79,107 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 DE 165 | ⬇️ 13KB/s
+  flow: xtls-rprx-vision
+  name: '🇩🇪 DE 240 | ⬇️ 11KB/s #1'
   network: tcp
   packet-encoding: xudp
-  port: 55555
+  port: 4888
   reality-opts:
-    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
-    short-id: '!!str 880eeeef4927eed5'
-  server: firozkoh.sav-savteam.ir
-  servername: yahoo.com.
+    public-key: qtTBa3X4L1h8yS5jbUPY4SFstmtQ0v1oOn0f3qqV3jc
+    short-id: '!!str ce6dec37e4d0d3c6'
+  server: 31.76.119.201
+  servername: pingless.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 73d43a6c-221f-4f1d-8943-f4de9d3f9831
+  uuid: af288d94-dd26-46cb-ad3d-5fe644e97e2f
+- encryption: none
+  name: '🇭🇰 HK 690 | ⬇️ 174KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: 104.19.174.68
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '🇩🇪 DE 171 | ⬇️ 383KB/s #1'
+  network: grpc
+  packet-encoding: xudp
+  port: 7443
+  reality-opts:
+    public-key: HQHil8nG-HZlQ0wPWXJpX4VvbrauBlCRH26tu4yVFQ4
+    short-id: '!!str bfa2ebf4'
+  server: 84.201.4.252
+  servername: www.telekom.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪 DE 494 | ⬇️ 44KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
+    short-id: '!!str eb0cca7312345678'
+  server: 138.124.126.158
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪 DE 732 | ⬇️ 4MB/s #1'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  sub-tag: R002-260618
+  type: hysteria
+  udp: 'true'
+  up: '500'
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 DE 274 | ⬇️ 10KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 23857
-  server: onss.dequa.ir
-  servername: dash1.dequa.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3bd18e39-0562-4111-bf53-84e6619c72f5
+  name: '🇩🇪 DE 473 | ⬇️ 20KB/s #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=de
 - client-fingerprint: ios
-  name: 🇩🇪 DE 300 | ⬇️ 182KB/s
+  name: '🇩🇪 DE 533 | ⬇️ 182KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -170,239 +194,20 @@ proxies:
     headers:
       Host: ezaccess-project-53562a.pages.dev
     path: /eyJqdW5rIjoiWm1TZTQ0NVdZalBwYmtpdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 485 | ⬇️ 20KB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=de
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 532 | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 46.101.121.62
-  servername: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36453512-902e-40d6-acc0-66c3a4f8b9b8
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-    max-early-data: 2560
-    path: /activity/type
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  encryption: none
-  name: 🇩🇪 DE 547 | ⬇️ 419KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 195.209.86.152
-  servername: s36828.cdn.ngenix.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3faad57e-c20d-4617-aee6-c3bc584671ec
-  xhttp-opts:
-    host: s36828.cdn.ngenix.net
-    mode: packet-up
-    path: /api/v4/client/events/stream/
-    reuse-settings:
-      c-max-reuse-times: '2000'
-      h-keep-alive-period: 0
-      h-max-request-times: '0'
-      h-max-reusable-secs: '0'
-      max-concurrency: 8-16
-      max-connections: '0'
-    seq-key: chunk_id
-    seq-placement: query
-    session-key: X-Upload-Token
-    session-placement: header
-    session-table: ''
-    uplink-chunk-size: 0
-    uplink-http-method: GET
-    x-padding-header: X-Client-Version
-    x-padding-key: hash
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  encryption: none
-  name: 🇩🇪 DE 576 | ⬇️ 1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 195.209.88.184
-  servername: s46439.cdn.ngenix.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3faad57e-c20d-4617-aee6-c3bc584671ec
-  xhttp-opts:
-    host: s46439.cdn.ngenix.net
-    mode: packet-up
-    path: /api/v1/metrics/stream/
-    reuse-settings:
-      c-max-reuse-times: '2000'
-      h-keep-alive-period: 0
-      h-max-request-times: '0'
-      h-max-reusable-secs: '0'
-      max-concurrency: 8-16
-      max-connections: '0'
-    seq-key: chunk_id
-    seq-placement: query
-    session-key: X-Upload-Token
-    session-placement: header
-    session-table: ''
-    uplink-chunk-size: 0
-    uplink-http-method: GET
-    x-padding-header: X-Client-Version
-    x-padding-key: hash
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-    path:
-    - /
-  name: 🇩🇪 DE 589 | ⬇️ 19KB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.56.197.120
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 DE 605 | ⬇️ 5MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 279 | ⬇️ 137KB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 46.8.228.239
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- alpn:
-  - h3
-  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: 🇩🇪 DE 331 | ⬇️ 4MB/s
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪 DE 457 | ⬇️ 676KB/s
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
-  up: ''
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: 🇩🇪 DE 538 | ⬇️ 96KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: enabling-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: enabling-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 385 | ⬇️ 40KB/s
-  network: tcp
+- client-fingerprint: safari
+  encryption: mlkem768x25519plus.native.0rtt.qQxnkPm82NMZobJ0ruKdv9mYYCaXX2jJ-kC9w_O-a_NRHYJ0yikuq-F2i-qLWhWXisSuMODD3OWj9RVj_qaA2uZ1bBl7CEofEerN97DL4hQbyDAlrYi2XKEqbNlP2nkujouZY2tuYHu-lnS5vWdLUDkaLSuFBTmZQldcP_iRaoG0AkiIH0tXhXVosjow6vQSb0OTcwkM6ORgubKsM_KwSpqiypxGI-m7lwFqLxheMWKnQRkB8VM5bzM2r-EIg3pB0tIqjGt8EcwpgCtoSZYDnZfJIvsg4HmcLUAP_iNv54yukjhagHU0QQamMlQ2q3hu2xoOMuRxeiWsx_AtgkRv-ukYQcDG-4ZQr6wR4acbtQmQPRdMZ_qfWSBfcpoaojFr_gQSYms4nVTJvLdm7zXKiitbjAHPD5JjYhlMwFMZDTLOf-CTnhlnt9YQY3Y_k2xBAXSFIMfEIpZkTiSOnBeoG0tWuoKMf0a9Zqavp2VJaxWWvIOkVaVBgnAcMAGfYABsAxuvKQCzrTd72IIg8ukIT8FzgsIcQNk5hNVb88RKg-dme-tp8qtaeJcMt8qPctwF6fgB2OeFV8PEQwk6Gql2x-g4F0WkhgOZbsJUY_waPjhrl7IaFacrVhqJ3LG54ekgJ8I2v0OlarQZQVWBRFWECINAoTUTn0ooGvRgEvZbN0kB1Wg3KQvIOUNu7ZwF8fF6tUR7GSlF7EUHIsygi2mheKIph6lo-7xPFsAeITOhUSucmNEb6EFjNcYV1WlQFIkg42KFpQkH2HOF-BNiHRVAw5svYYgTBQS_CxC3hrg_5xEGctlWEOaHWjKQVlME41uJdKh27Byq3bJX-EzDaewhZHPC3ZxCU0dYSRyUe8tE5KKrXmY8EGV1k3QzxEm_uqSdNEYxL-rMYOO3mXZSMHYaCGujAvWPYbesoLWgp6yA6-sEFoCfsTyhC5RI44ywcYm-BAoDtyOLSdgsltgkXJG5eoeChcaBkTp5TISigdaYfngYwGKhS_a8-NUeLDpVZAuNMZO60wzPNzCp4NmWWbppxvMLlXxylpeYf_ooc7GKvzOe4PW-X9cKEGEP7GB_AuKU5xetm8lZEWd4-vmSJDOFJvmnBfmNhgyHKdByi4ES1saoGPgZCQNXaaNp86psBGtMeYsdSmpWt8Kz11HBoOoAipV6D6a1BPY3qoiq74Vtv6opKQiGFDmynYUIJHag0sNZzkh1fwgX8xnJEXmHhktRUAkthnppMABMfdnFnGg20YM4x-xMxZu1jKZfppy7NYK6jasf8aiJcyIj5MsoiIgSe2s6VtRg5OoMNSkbCEVejSsaCZBlT-V19BaneCxD2fQtlJgsrztAA1R0sWUAV7CRr3OVUfeP9juNXYNWXatB9zodyoeBiooTl6rDHjqqtlq4XBEJDCRQ5Sqactuw1mfPnOwd1zaYbnnFJbVuIIobzzLGmOFzDCMjhRdthctZVwDLdsxb3FcLTQcXoCUlZ7ygT4XOTNu-c2QqrRCojPQAwbWIYXwWupBCfWJvfDGDBtESJ77th_m5eU5vAefI8YSsuNCodiV_BdXEVAiDe2mfJFw
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grgc
+  name: '🇩🇪 DE 720 | ⬇️ 623KB/s #1'
+  network: grpc
   port: 443
   reality-opts:
-    public-key: dqgIhU45MGa6nWIwRU-j9LDYVOQXliSQAoI1Foe4cyI
-    short-id: '!!str 11ffa74edffc01aa'
-  server: 93.152.224.198
-  servername: akenai.kyras.pw
+    public-key: 0ZV6j7jRqFvwJEeaMMU-dkTdOq9UW3uhjm3IKnCszkk
+    short-id: '!!str fd'
+  server: onfilter.a5vxwvx.ir
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 DE 568 | ⬇️ 104KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_1|2.6MB/s
-  network: xhttp
-  port: '8443'
-  server: 162.159.38.119
-  servername: argentinavsspain.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: argentinavsspain.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: f7f68f76-ba99-401f-b60c-56f9996912da

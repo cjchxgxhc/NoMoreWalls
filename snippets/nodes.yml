@@ -1,17 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇦🇪 AE 264 | ⬇️ 12MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: /in-pdr
 - delay: 584
-  name: 🇸🇬SG_1|4.0MB/s
+  name: '🇦🇪 AE 463 | ⬇️ 7MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -24,24 +13,74 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬 SG 545 | ⬇️ 16MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.9MB/s
   network: ws
-  port: 16618
-  server: planb.mojcn.com
-  servername: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2ed5919d-9a69-4c79-90af-e21915182aa1
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
-      Host: planb.mojcn.com
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /in-pdr
+- cipher: aes-256-cfb
+  name: '🇺🇸 US 047 | ⬇️ 578KB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
+- name: '🇩🇪 DE 635 | ⬇️ 225KB/s #1'
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: lenient-dory.rooster465.autos
+  skip-cert-verify: true
+  sni: lenient-dory.rooster465.autos
+  type: trojan
+- alterId: 2
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '🇯🇵 JP 733 | ⬇️ 8KB/s #1'
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 US 090 | ⬇️ 21KB/s #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.22.39
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=usa
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇮🇷IR
+  name: '🇧🇬 BG 190 | ⬇️ 22KB/s #1'
+  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  port: 82
+  server: 94.183.124.95
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alpn:
   - ''
   alterId: 2
@@ -50,11 +89,11 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
+  name: '🇭🇰 HK 731 | ⬇️ 3KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -63,7 +102,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 DE 485 | ⬇️ 20KB/s
+  name: '🇩🇪 DE 473 | ⬇️ 20KB/s #1'
   network: ws
   password: MITIVPN
   port: 443
@@ -75,167 +114,27 @@ proxies:
     headers:
       Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=de
-- cipher: aes-256-cfb
-  country: 🇬🇧GB
-  name: 🇬🇧 GB 526 | ⬇️ 5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.10.234.245
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.50
   skip-cert-verify: false
-  type: ss
-  udp: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
 - cipher: aes-256-gcm
-  country: 🇮🇷IR
-  name: 🇧🇬 BG 499 | ⬇️ 373KB/s
-  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-  port: 82
-  server: 94.183.124.95
-  skip-cert-verify: false
+  name: 🇭🇰HK_1|3.7MB/s
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 13005
+  server: ss.017.node-for-bigairport.win
   type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 343 | ⬇️ 9KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇰🇷 KR 546 | ⬇️ 6MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: darling-emu.rooster465.autos
-  skip-cert-verify: true
-  sni: darling-emu.rooster465.autos
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇵🇱 PL 022 | ⬇️ 462KB/s
-  password: sshs8_996701053
-  port: 6200
-  server: 45.144.48.128
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇺🇸 US 374 | ⬇️ 561KB/s
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 431 | ⬇️ 112KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: internal-sunbird.rooster465.autos
-  sni: internal-sunbird.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 308 | ⬇️ 90KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: saving-sawfly.rooster465.autos
-  sni: saving-sawfly.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇳🇱 NL 563 | ⬇️ 2MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: false
-  sni: eager-louse.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 303 | ⬇️ 86KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: guided-warthog.rooster465.autos
-  skip-cert-verify: true
-  sni: guided-warthog.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇰🇷 KR 372 | ⬇️ 1MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: accurate-drake.rooster465.autos
-  sni: accurate-drake.rooster465.autos
-  type: trojan
-- country: 🇱🇺LU
-  name: 🇹🇭 TH 281 | ⬇️ 2MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: happy-mutt.rooster465.autos
-  skip-cert-verify: true
-  sni: happy-mutt.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇹🇼 TW 290 | ⬇️ 83KB/s
-  network: tcp
-  password: '3632736327'
-  port: 1321
-  server: tw060401.tmdsb.org
-  skip-cert-verify: false
-  sni: tw060401.tmdsb.org
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 347 | ⬇️ 3MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: pleased-lobster.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-lobster.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: 🇩🇪 DE 538 | ⬇️ 96KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: enabling-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: enabling-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 312 | ⬇️ 7MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: whole-grub.rooster465.autos
-  sni: whole-grub.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇫🇷 FR 551 | ⬇️ 268KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: correct-pony.rooster465.autos
-  sni: correct-pony.rooster465.autos
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 DE 568 | ⬇️ 104KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

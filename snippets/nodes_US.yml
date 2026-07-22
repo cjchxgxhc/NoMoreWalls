@@ -1,12 +1,40 @@
 proxies:
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇺🇸 US 374 | ⬇️ 561KB/s
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
+- cipher: aes-256-cfb
+  name: '🇺🇸 US 047 | ⬇️ 578KB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 US 090 | ⬇️ 21KB/s #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.22.39
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.50
   skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
