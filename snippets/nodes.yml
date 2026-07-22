@@ -1,17 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇦🇪 AE 264 | ⬇️ 12MB/s
+  name: 🇸🇬SG_1|3.2MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
+  port: '443'
   server: 188.164.248.122
   skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /in-pdr
 - delay: 584
-  name: 🇸🇬SG_1|4.0MB/s
+  name: 🇮🇳 IN 510 | ⬇️ 11MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -25,22 +29,14 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - client-fingerprint: chrome
-  name: 🇳🇱 NL 563 | ⬇️ 2MB/s
+  name: 🇯🇵 JP 303 | ⬇️ 86KB/s
   network: tcp
   password: IQ68037294
   port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: false
-  sni: eager-louse.rooster465.autos
+  server: guided-warthog.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-warthog.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇵🇱 PL 022 | ⬇️ 462KB/s
-  password: sshs8_996701053
-  port: 6200
-  server: 45.144.48.128
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   name: 🇯🇵 JP 347 | ⬇️ 3MB/s
   network: tcp
@@ -51,13 +47,13 @@ proxies:
   sni: pleased-lobster.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: 🇯🇵 JP 303 | ⬇️ 86KB/s
+  name: 🇰🇷 KR 372 | ⬇️ 1MB/s
   network: tcp
   password: IQ68037294
   port: 443
-  server: guided-warthog.rooster465.autos
+  server: accurate-drake.rooster465.autos
   skip-cert-verify: true
-  sni: guided-warthog.rooster465.autos
+  sni: accurate-drake.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 SG 431 | ⬇️ 112KB/s
@@ -65,84 +61,9 @@ proxies:
   password: IQ68037294
   port: 443
   server: internal-sunbird.rooster465.autos
+  skip-cert-verify: true
   sni: internal-sunbird.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 153 | ⬇️ 603KB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 343 | ⬇️ 9KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🇬🇧GB
-  name: 🇬🇧 GB 526 | ⬇️ 5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.10.234.245
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: 🇰🇷 KR 546 | ⬇️ 6MB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: darling-emu.rooster465.autos
-  skip-cert-verify: true
-  sni: darling-emu.rooster465.autos
-  type: trojan
-- cipher: aes-256-gcm
-  country: 🇮🇷IR
-  name: 🇧🇬 BG 499 | ⬇️ 373KB/s
-  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-  port: 82
-  server: 94.183.124.95
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  country: 🇩🇪DE
-  name: 🇩🇪 DE 538 | ⬇️ 96KB/s
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: enabling-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: enabling-gobbler.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   country: 🇫🇷FR
@@ -162,14 +83,70 @@ proxies:
       Host: planb.mojcn.com
     path: /
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 372 | ⬇️ 1MB/s
+  name: 🇳🇱 NL 563 | ⬇️ 2MB/s
   network: tcp
   password: IQ68037294
   port: 443
-  server: accurate-drake.rooster465.autos
-  skip-cert-verify: true
-  sni: accurate-drake.rooster465.autos
+  server: eager-louse.rooster465.autos
+  skip-cert-verify: false
+  sni: eager-louse.rooster465.autos
   type: trojan
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  name: 🇬🇧 GB 526 | ⬇️ 5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.10.234.245
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇵🇱 PL 022 | ⬇️ 462KB/s
+  password: sshs8_996701053
+  port: 6200
+  server: 45.144.48.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 568 | ⬇️ 4KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 🇳🇱 NL 688 | ⬇️ 876KB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.49
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: 🇹🇼 TW 290 | ⬇️ 83KB/s
   network: tcp
   password: '3632736327'
@@ -178,28 +155,78 @@ proxies:
   skip-cert-verify: false
   sni: tw060401.tmdsb.org
   type: trojan
+- cipher: aes-256-gcm
+  country: 🇮🇷IR
+  name: 🇧🇬 BG 499 | ⬇️ 373KB/s
+  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  port: 82
+  server: 94.183.124.95
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 2
   cipher: auto
-  country: 🇸🇬SG
+  country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US 649 | ⬇️ 4KB/s
+  name: 🇯🇵 JP 343 | ⬇️ 9KB/s
   network: tcp
-  port: 30804
-  server: v4.hdacd.com
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
+  name: 🇩🇪 DE 568 | ⬇️ 104KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 687 | ⬇️ 10MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 701 | ⬇️ 1MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
   client-fingerprint: ''
-  name: 🇺🇸 US 661 | ⬇️ 13KB/s
+  name: 🇺🇸 US 717 | ⬇️ 13KB/s
   network: tcp
   port: 30824
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 546 | ⬇️ 6MB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: darling-emu.rooster465.autos
+  skip-cert-verify: true
+  sni: darling-emu.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   country: 🇺🇸US
   name: 🇺🇸 US 374 | ⬇️ 561KB/s
@@ -230,6 +257,17 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
+  country: 🇩🇪DE
+  name: 🇩🇪 DE 538 | ⬇️ 96KB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: enabling-gobbler.rooster465.autos
+  skip-cert-verify: true
+  sni: enabling-gobbler.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   name: 🇸🇬 SG 312 | ⬇️ 7MB/s
   network: tcp
   password: IQ68037294
@@ -245,22 +283,18 @@ proxies:
   server: correct-pony.rooster465.autos
   sni: correct-pony.rooster465.autos
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 DE 568 | ⬇️ 104KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 18.163.84.233
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  name: 🇩🇪DE_3|2.4MB/s
+  network: ws
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+  port: '443'
+  server: 103.27.157.97
+  skip-cert-verify: false
+  sni: rem.dtr.kotokopolb.ru
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /trojan-ws
