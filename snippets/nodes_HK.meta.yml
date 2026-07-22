@@ -1,22 +1,17 @@
 proxies:
 - auth: hy2pass123
-  name: 🇭🇰 HK 004 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 041 | ⬇️ 327KB/s
   password: hy2pass123
   port: 8443
   server: hy2.zzrvic.com
   skip-cert-verify: true
   sni: hy2.zzrvic.com
+  tfo: false
   type: hysteria2
-- name: 🇭🇰 HK 042 | ⬇️ 5KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   down: ''
   fingerprint: ''
-  name: 🇭🇰 HK 072 | ⬇️ 172KB/s
+  name: 🇭🇰 HK 468 | ⬇️ 172KB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -27,8 +22,25 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰 HK 353 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: '!!str dfa28122'
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇭🇰 HK 015 | ⬇️ 276KB/s
+  name: 🇭🇰 HK 152 | ⬇️ 108KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
@@ -67,22 +79,6 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
-- encryption: none
-  name: 🇭🇰 HK 401 | ⬇️ 346KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2086
-  server: 104.19.173.68
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
-  ws-opts:
-    headers:
-      Host: arshia.lezzatArshia.ir
-    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
-    v2ray-http-upgrade: true
 - alpn:
   - ''
   alterId: 2
@@ -100,23 +96,12 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK 353 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 21001
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: '!!str dfa28122'
-  server: fv2026.node2.top
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
+- name: 🇭🇰 HK 042 | ⬇️ 5KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
 - name: 🇭🇰 HK 008 | ⬇️ 40KB/s
   password: '!!str 111'
   port: 11211
@@ -124,3 +109,19 @@ proxies:
   tls: false
   type: socks5
   username: '111'
+- encryption: none
+  name: 🇭🇰 HK 401 | ⬇️ 346KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: 104.19.173.68
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true

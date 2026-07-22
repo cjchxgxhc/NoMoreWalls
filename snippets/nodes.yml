@@ -11,7 +11,7 @@ proxies:
   ws-opts:
     path: /in-pdr
 - delay: 584
-  name: 🇸🇬SG_2|3.9MB/s
+  name: 🇸🇬SG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -24,6 +24,57 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬 SG 545 | ⬇️ 16MB/s
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  servername: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2ed5919d-9a69-4c79-90af-e21915182aa1
+  ws-opts:
+    headers:
+      HOST: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
+      Host: planb.mojcn.com
+    path: /
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 485 | ⬇️ 20KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=de
 - cipher: aes-256-cfb
   country: 🇬🇧GB
   name: 🇬🇧 GB 526 | ⬇️ 5MB/s
@@ -42,23 +93,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 423 | ⬇️ 7KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -188,24 +222,6 @@ proxies:
   server: whole-grub.rooster465.autos
   sni: whole-grub.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬 SG 545 | ⬇️ 16MB/s
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  servername: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2ed5919d-9a69-4c79-90af-e21915182aa1
-  ws-opts:
-    headers:
-      HOST: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
-      Host: planb.mojcn.com
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷 FR 551 | ⬇️ 268KB/s
   network: tcp
