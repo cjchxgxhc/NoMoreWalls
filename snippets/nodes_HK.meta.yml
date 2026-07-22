@@ -1,10 +1,39 @@
 proxies:
+- auth: hy2pass123
+  name: 🇭🇰 HK 004 | ⬇️ 1MB/s
+  password: hy2pass123
+  port: 8443
+  server: hy2.zzrvic.com
+  skip-cert-verify: true
+  sni: hy2.zzrvic.com
+  type: hysteria2
 - name: 🇭🇰 HK 042 | ⬇️ 5KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  down: ''
+  fingerprint: ''
+  name: 🇭🇰 HK 072 | ⬇️ 172KB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  type: hysteria2
+  udp: true
+  up: ''
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇭🇰 HK 015 | ⬇️ 276KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  type: hysteria2
 - encryption: none
   name: 🇭🇰 HK 369 | ⬇️ 984KB/s
   network: ws
@@ -38,6 +67,22 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
+- encryption: none
+  name: 🇭🇰 HK 401 | ⬇️ 346KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: 104.19.173.68
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
 - alpn:
   - ''
   alterId: 2
@@ -55,29 +100,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: 🇭🇰 HK 401 | ⬇️ 346KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2086
-  server: 104.19.173.68
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
-  ws-opts:
-    headers:
-      Host: arshia.lezzatArshia.ir
-    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
-    v2ray-http-upgrade: true
-- name: 🇭🇰 HK 008 | ⬇️ 40KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -95,12 +117,10 @@ proxies:
   type: vless
   udp: true
   uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇭🇰 HK 674 | ⬇️ 79KB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-  udp: true
+- name: 🇭🇰 HK 008 | ⬇️ 40KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'

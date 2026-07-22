@@ -1,20 +1,21 @@
 proxies:
-- encryption: none
-  name: 🇫🇷 FR 694 | ⬇️ 736KB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 088 | ⬇️ 1MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: love.ns.cloudflare.com
-  servername: ievsj.moonriverhub-ili.sbs
+  reality-opts:
+    _spider-x: /
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+  server: 37.49.230.107
+  servername: fastsync.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-  ws-opts:
-    headers:
-      Host: ievsj.moonriverhub-ili.sbs
-    path: /sea
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
 - client-fingerprint: chrome
   name: 🇫🇷 FR 551 | ⬇️ 268KB/s
   network: tcp
@@ -23,18 +24,3 @@ proxies:
   server: correct-pony.rooster465.autos
   sni: correct-pony.rooster465.autos
   type: trojan
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
-    short-id: '!!str '
-  server: 37.49.230.107
-  servername: fastsync.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  xudp: true

@@ -1,16 +1,34 @@
 proxies:
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|1.5MB/s
+  name: 🇪🇪 EE 145 | ⬇️ 11KB/s
   network: tcp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: dxsu1yp4dcpuhq32vLIX6fZ3A7uWs_5OzNIlUmLBSzQ
-    short-id: '!!str c7c005c49b11d17c'
-  server: ru-xr-1.124515.xyz
-  servername: ru-xr-1.124515.xyz
+    public-key: HmTrREg1zoVqwl_k8JSuQPa-mnznChEHEQizwzSNWkQ
+  server: 5.175.178.28
+  servername: hello.bootstrap.try-me.store
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 56b812e4-2d96-0001-b365-6c801663a37a
-  xudp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: firefox
+  name: 🇪🇪 EE 173 | ⬇️ 368KB/s
+  network: xhttp
+  port: 443
+  server: free-exp.kyras.pw
+  servername: free-exp.kyras.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+  xhttp-opts:
+    host: free-exp.kyras.pw
+    mode: packet-up
+    path: /dashboard/
