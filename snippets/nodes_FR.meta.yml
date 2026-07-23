@@ -1,19 +1,73 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 FR 049 | ⬇️ 346KB/s
+- encryption: none
+  name: 🇫🇷 FR 034 | ⬇️ 55KB/s
   network: tcp
-  port: 15911
-  server: 104.253.134.227
+  packet-encoding: xudp
+  port: 22223
+  server: 13.39.58.127
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: 8b8f4837-45a3-46da-a0c5-21d6d5ca2161
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 FR 639 | ⬇️ 17KB/s
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- encryption: none
+  name: 🇫🇷 FR 487 | ⬇️ 14KB/s
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  packet-encoding: xudp
+  port: 22224
+  server: 15.188.211.23
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- encryption: none
+  name: 🇫🇷 FR 007 | ⬇️ 23KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 13.39.58.127
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- encryption: none
+  name: 🇫🇷 FR 027 | ⬇️ 20KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22224
+  server: 13.39.58.127
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇫🇷 FR 291 | ⬇️ 86KB/s
+  obfs-password: ''
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
+  tfo: false
+  type: hysteria2
+- name: 🇫🇷 FR 130 | ⬇️ 414KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 22880
+  server: anytls2.934618.xyz
+  skip-cert-verify: false
+  sni: anytls2.934618.xyz
+  sub-tag: X001-260618
+  type: anytls
+  udp: true
+  username: github.com/Alvin9999-newpac/fanqiang
+- name: 🇫🇷FR_1|2.6MB/s
+  network: tcp
+  port: 22222
+  server: 15.188.211.23
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

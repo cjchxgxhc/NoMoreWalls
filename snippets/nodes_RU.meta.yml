@@ -1,17 +1,133 @@
 proxies:
+- alpn:
+  - h2
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: '8443'
+  server: yt.noooo.win
+  servername: ai-6a607097.noooo.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇷🇺RU_4|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '443'
+  reality-opts:
+    public-key: w5fBwTRrvLjDfKKfYM88Lrh7DpwSVlhnCCyo4FxLUSo
+    short-id: '!!str 096bb498'
+  server: 135.106.158.189
+  servername: funny1.oneok.name
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇷🇺 RU 131 | ⬇️ 21KB/s
+  network: ws
+  port: 443
+  server: 45.152.198.64.tyr-agentstvo.tech
+  servername: 45.152.198.64.tyr-agentstvo.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1dd6dab8-4a86-4996-9c3f-84cb9e173993
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 45.152.198.64.tyr-agentstvo.tech
+    max-early-data: 2560
+    path: /websocket
+- client-fingerprint: qq
+  name: 🇷🇺 RU 587 | ⬇️ 960KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: '!!str 992f3294e2336744'
+  server: rus.fasti.win
+  servername: stats.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xhttp-opts:
+    mode: auto
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇷🇺RU_1|1.8MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: w5fBwTRrvLjDfKKfYM88Lrh7DpwSVlhnCCyo4FxLUSo
+    short-id: '!!str 096bb498'
+  server: funny1.oneok.name
+  servername: funny1.oneok.name
+  tls: true
+  type: vless
+  udp: true
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 100 | ⬇️ 15KB/s
+  country: 🇨🇿CZ
+  name: 🇷🇺 RU 198 | ⬇️ 13KB/s
   password: fbaf33bcffe53cf9
   port: 30112
   server: 195.58.48.19
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 119 | ⬇️ 1MB/s
-  password: 32c0ea6e823341a2
-  port: 7022
-  server: 185.22.154.254
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_5|1.5MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: '!!str 992f3294e2336744'
+  server: 185.147.27.155
+  servername: stats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ru-br-yandex
+  name: 🇷🇺RU_6|1.9MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 164.138.100.196
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 781be37f-2ed2-40b3-a013-f416e0450fd0
+  xudp: true

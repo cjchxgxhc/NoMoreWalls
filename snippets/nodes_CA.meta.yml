@@ -1,1 +1,50 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 195 | ⬇️ 918KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: ad-013.orbitqgr7v.info
+  servername: ad-013.orbitqgr7v.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.orbitqgr7v.info
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇨🇦 CA 822 | ⬇️ 125KB/s
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27105
+  reduce-rtt: false
+  request-timeout: 0
+  server: j1o8w8.yydzx.xyz
+  skip-cert-verify: true
+  sni: j1o8w8.yydzx.xyz
+  type: tuic
+  udp-relay-mode: native
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  version: 5
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇦 CA 201 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
+    short-id: '!!str 500aec9e9e5e2212'
+  server: 45.206.5.122
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
