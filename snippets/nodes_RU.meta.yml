@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 069 | ⬇️ 1MB/s
+  name: '🇷🇺 RU 119 | ⬇️ 1MB/s #1'
   password: 32c0ea6e823341a2
   port: 7022
   server: 185.22.154.254
@@ -8,58 +8,10 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 029 | ⬇️ 6MB/s
+  name: '🇷🇺 RU 100 | ⬇️ 15KB/s #1'
   password: fbaf33bcffe53cf9
   port: 30112
   server: 195.58.48.19
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 487 | ⬇️ 207KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 161.104.107.86
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: '!!str 9b0c1d2e'
-  server: br.muzon.to
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b947013-7551-4a8e-bc4f-470e9e987e88
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇷🇺RU_2|2.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str 9e2a6f4c3b7d1e8a'
-  server: ru.moktana.app
-  servername: ru.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true

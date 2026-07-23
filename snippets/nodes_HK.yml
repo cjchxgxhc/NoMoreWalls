@@ -1,34 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 035 | ⬇️ 7MB/s
-  network: ws
-  port: 60852
-  server: hkgb707.ifastcdncache.com
-  tls: false
-  type: vmess
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-  ws-opts:
-    headers:
-      Host: hkgb707.ifastcdncache.com
-    path: /
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 041 | ⬇️ 4MB/s
-  network: ws
-  port: 18243
-  server: imghk302.igcaches.com
-  tls: false
-  type: vmess
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-  ws-opts:
-    headers:
-      Host: imghk302.igcaches.com
-    path: /
 - alpn:
   - ''
   alterId: 2
@@ -37,20 +7,12 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 731 | ⬇️ 3KB/s
+  name: '🇭🇰 HK 589 | ⬇️ 5KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 075 | ⬇️ 1MB/s
-  network: tcp
-  password: WG39087154
-  port: 443
-  server: normal-elk.rooster465.autos
-  sni: normal-elk.rooster465.autos
-  type: trojan
