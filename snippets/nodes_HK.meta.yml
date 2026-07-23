@@ -1,19 +1,6 @@
 proxies:
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: '🇭🇰 HK 046 | ⬇️ 104KB/s #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  type: hysteria2
-- name: '🇭🇰 HK 165 | ⬇️ 2MB/s #1'
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
 - auth: hy2pass123
-  name: '🇭🇰 HK 433 | ⬇️ 63KB/s #1'
+  name: 🇭🇰 HK 433 | ⬇️ 63KB/s
   password: hy2pass123
   port: 8443
   server: hy2.zzrvic.com
@@ -21,51 +8,49 @@ proxies:
   sni: hy2.zzrvic.com
   tfo: false
   type: hysteria2
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  down: ''
-  fingerprint: ''
-  name: '🇭🇰 HK 053 | ⬇️ 89KB/s #1'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-  udp: true
-  up: ''
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 052 | ⬇️ 11MB/s #1'
-  network: ws
-  port: 8443
-  server: kaoqy.cf.090227.xyz
-  servername: hgc.hk.781391.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: hgc.hk.781391.xyz
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇭🇰 HK 707 | ⬇️ 1MB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2086
-  server: digitalocean.com
-  skip-cert-verify: false
+- name: 🇭🇰 HK 165 | ⬇️ 2MB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- name: 🇭🇰 HK 006 | ⬇️ 29KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
   tls: false
-  type: vless
-  udp: true
-  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  type: socks5
+  username: '111'
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 035 | ⬇️ 7MB/s
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  tls: false
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
   ws-opts:
     headers:
-      Host: arshia.lezzatArshia.ir
-    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
-    v2ray-http-upgrade: true
+      Host: hkgb707.ifastcdncache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 041 | ⬇️ 4MB/s
+  network: ws
+  port: 18243
+  server: imghk302.igcaches.com
+  tls: false
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: imghk302.igcaches.com
+    path: /
 - alpn:
   - ''
   alterId: 2
@@ -74,7 +59,7 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 731 | ⬇️ 3KB/s #1'
+  name: 🇭🇰 HK 731 | ⬇️ 3KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -84,25 +69,15 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: auragrpc
-  name: '🇭🇰 HK 218 | ⬇️ 10KB/s #1'
-  network: grpc
-  packet-encoding: xudp
+  name: 🇭🇰 HK 075 | ⬇️ 1MB/s
+  network: tcp
+  password: WG39087154
   port: 443
-  reality-opts:
-    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: ge03.auragg.org
-  servername: cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  server: normal-elk.rooster465.autos
+  sni: normal-elk.rooster465.autos
+  type: trojan
 - encryption: none
-  name: '🇭🇰 HK 692 | ⬇️ 736KB/s #1'
+  name: 🇭🇰 HK 692 | ⬇️ 736KB/s
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -117,10 +92,73 @@ proxies:
       Host: arshia.lezzatArshia.ir
     path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     v2ray-http-upgrade: true
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_1|3.7MB/s
-  password: 29a97a3d-e429-499d-8693-b539c349b6bd
-  port: 13005
-  server: ss.017.node-for-bigairport.win
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰 HK 711 | ⬇️ 52KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: '!!str dfa28122'
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: c2c05d0e-07a5-4522-9c66-b29495b1d20d
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇭🇰 HK 046 | ⬇️ 104KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  type: hysteria2
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  down: ''
+  fingerprint: ''
+  name: 🇭🇰 HK 053 | ⬇️ 89KB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  type: hysteria2
+  udp: true
+  up: ''
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 052 | ⬇️ 11MB/s
+  network: ws
+  port: 8443
+  server: kaoqy.cf.090227.xyz
+  servername: hgc.hk.781391.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: hgc.hk.781391.xyz
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: auragrpc
+  name: 🇭🇰 HK 218 | ⬇️ 10KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: ge03.auragg.org
+  servername: cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc

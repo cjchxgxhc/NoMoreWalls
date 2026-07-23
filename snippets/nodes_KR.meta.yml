@@ -1,6 +1,14 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 007 | ⬇️ 1MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - delay: 1527
-  name: '🇰🇷 KR 464 | ⬇️ 17KB/s #1'
+  name: 🇰🇷 KR 464 | ⬇️ 17KB/s
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -9,9 +17,16 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
+- name: 🇰🇷 KR 508 | ⬇️ 1MB/s
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: superb-dory.rooster465.autos
+  sni: superb-dory.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇰🇷 KR 208 | ⬇️ 28KB/s #1'
+  name: 🇰🇷 KR 208 | ⬇️ 28KB/s
   network: tcp
   port: 12345
   reality-opts:
@@ -23,3 +38,12 @@ proxies:
   type: vless
   udp: true
   uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+- name: 🇰🇷KR_1|1.9MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test

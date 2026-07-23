@@ -1,7 +1,33 @@
 proxies:
+- name: 🇬🇧 GB 223 | ⬇️ 587KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: zalypa228.apruxdomain.xyz
+  servername: zalypa228.apruxdomain.xyz
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: d93085d2-248f-49f0-9272-b159bcb2e583
+  ws-opts:
+    headers:
+      Host: zalypa228.apruxdomain.xyz
+    path: /
+    v2ray-http-upgrade: true
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 GB 129 | ⬇️ 23KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧 GB 188 | ⬇️ 394KB/s #1'
+  name: 🇬🇧 GB 188 | ⬇️ 394KB/s
   network: ws
   packet-encoding: xudp
   port: 443
