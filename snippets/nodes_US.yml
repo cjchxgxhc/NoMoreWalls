@@ -1,38 +1,7 @@
 proxies:
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '🇺🇸 US 118 | ⬇️ 31KB/s #1'
-  network: tcp
-  port: 10086
-  server: 43.173.74.241
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
-- cipher: aes-256-cfb
-  name: '🇺🇸 US 544 | ⬇️ 1MB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: '🇺🇸 US 539 | ⬇️ 730KB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  type: ss
-- alpn:
   - http/1.1
-  name: '🇺🇸 US 587 | ⬇️ 9MB/s #1'
+  name: 🇺🇸 US 587 | ⬇️ 9MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -46,3 +15,49 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
         (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 644 | ⬇️ 183KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: winusa-mitivpn-----mitivpn.app-Cloud.ir
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 539 | ⬇️ 730KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 544 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 118 | ⬇️ 31KB/s
+  network: tcp
+  port: 10086
+  server: 43.173.74.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1

@@ -3,7 +3,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇩🇪 DE 297 | ⬇️ 1MB/s #1'
+  name: 🇩🇪 DE 297 | ⬇️ 1MB/s
   network: http
   port: 8882
   server: 46.8.228.239
@@ -11,27 +11,140 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇩🇪 DE 077 | ⬇️ 79KB/s #1'
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 048 | ⬇️ 511KB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: N9q4N5H1CODTTDUjjXs6-AfDTQ1eSGEU7zEC0F9YUkU
-    short-id: '!!str 05f4f85fdc6c1379'
-  server: de-vlss.w-mebel.pro
-  servername: w-mebel.pro
+  server: 213.165.37.101
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- encryption: none
+  name: 🇩🇪 DE 062 | ⬇️ 20KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: fast.motorbazan.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b9ab00a9-5fd0-42eb-a474-cc18265df70d
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 066 | ⬇️ 20KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 194.87.227.155
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 074 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 46.8.229.48
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 091 | ⬇️ 8KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 46.8.229.48
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 098 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 178.208.66.185
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 104 | ⬇️ 89KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 213.108.20.161
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 113 | ⬇️ 13KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 81.22.132.47
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 082 | ⬇️ 3MB/s #1'
+  name: 🇩🇪 DE 082 | ⬇️ 3MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -48,30 +161,125 @@ proxies:
       Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
     max-early-data: 2560
     path: /activity/type
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇩🇪 DE 107 | ⬇️ 18KB/s #1'
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 118 | ⬇️ 10KB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: ZlzBu1KH_xzb5zL6_KT8hmjOZqWGHuYyffs3geHmgDg
-    short-id: '!!str e266e6a2d5e065d5'
-  server: 144.31.108.46
-  servername: node-de.vac-service.ru
+  server: 109.120.154.167
+  servername: ger.wafer.fun
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f2f723f5-b97d-4414-997c-d2925013af28
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 120 | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 46.17.99.40
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 122 | ⬇️ 8KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.135.165.245
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 129 | ⬇️ 405KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 217.144.189.5
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 137 | ⬇️ 589KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 77.221.155.76
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 140 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.135.165.245
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 144 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 89.110.71.35
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 103 | ⬇️ 21KB/s #1'
+  name: 🇩🇪 DE 103 | ⬇️ 21KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -87,12 +295,706 @@ proxies:
       Host: rwn4vu3r.45l91qj82wsx2uqlih6z.workers.dev
     path: /
 - client-fingerprint: chrome
+  name: 🇩🇪 DE 172 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 109.120.154.167
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 174 | ⬇️ 146KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 213.108.20.161
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 175 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.208.206.40
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 565 | ⬇️ 507KB/s
+  network: ws
+  port: 8443
+  server: ad-005.novayjr9g.info
+  servername: ad-005.novayjr9g.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
+  ws-opts:
+    headers:
+      Host: ad-005.novayjr9g.info
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 196 | ⬇️ 32KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 88.218.76.170
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 225 | ⬇️ 13KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 178.208.66.185
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 249 | ⬇️ 56KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 194.48.140.109
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 489 | ⬇️ 17KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 138.201.170.108
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 490 | ⬇️ 992KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 217.144.190.14
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 496 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 138.201.170.108
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 497 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 80.76.35.90
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 500 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.131.187.210
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 502 | ⬇️ 10KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.144.232.27
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 504 | ⬇️ 15KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 194.87.227.155
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 505 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 147.45.170.176
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 508 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 57.128.178.224
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 510 | ⬇️ 432KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 93.183.91.207
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 513 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.12.69.152
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 514 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 217.144.190.14
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 524 | ⬇️ 16KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9ab00a9-5fd0-42eb-a474-cc18265df70d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    max-early-data: 2053
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 529 | ⬇️ 594KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 93.183.91.207
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 533 | ⬇️ 778KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 82.115.6.21
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 534 | ⬇️ 10KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.189.58.222
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 535 | ⬇️ 105KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 77.246.104.142
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 538 | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 103.177.249.122
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 539 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.189.58.222
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 557 | ⬇️ 10KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 31.15.19.10
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 559 | ⬇️ 552KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 5.35.32.238
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 568 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 64.188.68.11
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 573 | ⬇️ 228KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 103.90.75.121
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 587 | ⬇️ 466KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.185.51.207
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 598 | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 5.129.225.172
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪 DE 661 | ⬇️ 461KB/s
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
+  up: ''
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 622 | ⬇️ 87KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 5.35.32.238
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 625 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 5.129.225.172
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 630 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.244.218.189
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 681 | ⬇️ 61KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 79.132.139.128
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 684 | ⬇️ 805KB/s
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: coherent-rattler.rooster465.autos
+  sni: coherent-rattler.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 686 | ⬇️ 15KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 448
+  reality-opts:
+    public-key: i34zHKfyydOveuaYnjEU4ocu662Wagkf7fIbj9qiQRA
+    short-id: '!!str 9e96f30390d6be81'
+  server: 76.164.202.212
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecfb4271-790e-4011-9364-6e168ed8a82a
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 694 | ⬇️ 141KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 94.159.111.170
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 077 | ⬇️ 79KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N9q4N5H1CODTTDUjjXs6-AfDTQ1eSGEU7zEC0F9YUkU
+    short-id: '!!str 05f4f85fdc6c1379'
+  server: de-vlss.w-mebel.pro
+  servername: w-mebel.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
+- encryption: none
+  name: 🇩🇪 DE 708 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: fast.motorbazan.com
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9ab00a9-5fd0-42eb-a474-cc18265df70d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    max-early-data: 2053
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪 DE 680 | ⬇️ 4MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  sub-tag: R002-260618
+  type: hysteria
+  udp: 'true'
+  up: '500'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 107 | ⬇️ 18KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ZlzBu1KH_xzb5zL6_KT8hmjOZqWGHuYyffs3geHmgDg
+    short-id: '!!str e266e6a2d5e065d5'
+  server: 144.31.108.46
+  servername: node-de.vac-service.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2f723f5-b97d-4414-997c-d2925013af28
+- client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 122 | ⬇️ 13KB/s #1'
+  name: 🇩🇪 DE 122 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -107,44 +1009,21 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: '🇩🇪 DE 680 | ⬇️ 4MB/s #1'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
-- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  down: ''
-  fingerprint: ''
-  name: '🇩🇪 DE 661 | ⬇️ 461KB/s #1'
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|1.6MB/s
+  network: xhttp
+  port: '2083'
+  reality-opts:
+    public-key: BUX5SiLVfg6xJeJWXfrw2mGGPTGn9Q7X7XQRrg0hdkA
+    short-id: '!!str 13f19f'
+  server: DE248RX.fillmoo.pro
+  servername: www.samsung.com
+  tls: true
+  type: vless
   udp: true
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
-  port: '443'
-  server: prodfr.h2corp.org
-  skip-cert-verify: false
-  sni: prodfr.h2corp.org
-  type: hysteria2
-  up: ''
+  uuid: 5c9c9331-c42f-4be4-998a-5daa22ecdebb
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
