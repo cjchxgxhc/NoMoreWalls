@@ -1,5 +1,6 @@
 proxies:
-- name: 🇫🇷 FR 291 | ⬇️ 86KB/s
+- auth: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  name: 🇫🇷 FR 291 | ⬇️ 86KB/s
   obfs-password: ''
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
@@ -8,15 +9,51 @@ proxies:
   sni: prodfr.h2corp.org
   tfo: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 FR 765 | ⬇️ 17KB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 570 | ⬇️ 1MB/s
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.157
+  servername: yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5098e189-3462-4ff7-8ddd-4aaecfd060ea
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 080 | ⬇️ 1MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: fr01.myxasecure.space
+  servername: fr01.myxasecure.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- encryption: none
+  name: 🇫🇷 FR 178 | ⬇️ 38KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33485
+  server: babi.amojimi.ir
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vless
+  udp: true
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
 - name: 🇫🇷 FR 130 | ⬇️ 414KB/s
   packet-encoding: ''
   packetEncoding: none
@@ -29,17 +66,3 @@ proxies:
   type: anytls
   udp: true
   username: github.com/Alvin9999-newpac/fanqiang
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node12.mxvpn.dev
-  servername: node12.mxvpn.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4

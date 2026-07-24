@@ -1,4 +1,19 @@
 proxies:
+- name: 🇹🇼 TW 799 | ⬇️ 17MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 162.159.38.206
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
 - client-fingerprint: random
   name: 🇹🇼 TW 732 | ⬇️ 17MB/s
   network: ws
@@ -27,3 +42,11 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
+- name: 🇹🇼TW_1|1.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
