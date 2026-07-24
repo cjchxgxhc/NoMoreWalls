@@ -1,15 +1,48 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇪🇪 EE 171 | ⬇️ 501KB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1|2.1MB/s
+  network: tcp
+  port: '8442'
+  reality-opts:
+    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
+    short-id: '!!str a7f9106ba66e4796'
+  server: 95sub.ghost-lan.com
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇪🇪 EE 725 | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
-  server: one.alpheratzz.org
+  server: 165.231.157.109
   servername: app-6a607097.adhil.uk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xhttp-opts:
+    mode: stream-one
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 🇪🇪 EE 776 | ⬇️ 63KB/s
+  network: xhttp
+  port: 443
+  server: one.alpheratzz.org
+  servername: app-6a607097.adhil.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xhttp-opts:
+    host: one.alpheratzz.org
+    mode: stream-one
+    path: /

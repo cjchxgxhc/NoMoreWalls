@@ -1,73 +1,111 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 081 | ⬇️ 22KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33786
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless
+  name: 🇩🇪DE_1|1.6MB/s
+  network: grpc
+  port: 2085
+  server: 81.31.211.172
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31a62aa2-c465-4c1f-b636-f90578922b5f
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: 🇩🇪 DE 094 | ⬇️ 24KB/s
+  network: grpc
+  port: 8082
   reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: '!!str f55c53dfd45cfc6d'
-  server: fz.tempfast.ir
-  servername: icloud.com
-  skip-cert-verify: false
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: o11111o.club
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 9b7388b9-8c8c-4a86-b518-da32df36e6c6
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 251 | ⬇️ 14KB/s
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 116 | ⬇️ 603KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tMOmaOqUOQKPpN7SxwK3PgNQ0gDIlGUpT1Ky3msG8m8
+  server: de2.twixvpn.com
+  servername: www.yandex.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa46411a-fb49-4f8d-8f42-e77da647f894
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 274 | ⬇️ 951KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger05.myxasecure.space
+  servername: ger05.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪 DE 573 | ⬇️ 1MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: '!!str 5bc76436f2905fba'
+  server: store.noneok.com
+  servername: store.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+- country: 🇺🇸US
+  name: 🇩🇪 DE 537 | ⬇️ 429KB/s
+  obfs-password: ''
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
+  tfo: false
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 775 | ⬇️ 1MB/s
   network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 46.101.121.62
-  servername: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36453512-902e-40d6-acc0-66c3a4f8b9b8
+  password: MITIVPN
+  port: 443
+  server: 104.18.16.56
+  skip-cert-verify: true
+  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-    max-early-data: 2560
-    path: /activity/type
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
+- name: 🇩🇪 DE 167 | ⬇️ 194KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: 🇩🇪 DE 044 | ⬇️ 17KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 178.128.192.26
-  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-    max-early-data: 2560
-    path: /intro/search
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 060 | ⬇️ 21KB/s
+  name: 🇩🇪 DE 207 | ⬇️ 11KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -82,63 +120,28 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇩🇪 DE 065 | ⬇️ 1MB/s
-  network: grpc
+- name: 🇩🇪 DE 253 | ⬇️ 2MB/s
+  obfs: salamander
+  obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
+  password: hy2_czaawdhc:VwWo0eBZC9jU3xCE0FuTmbX6xmnj33Iq
   port: 443
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
-- name: 🇩🇪 DE 083 | ⬇️ 1MB/s
-  obfs-password: ''
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
+  server: 2.26.92.136
   skip-cert-verify: false
-  sni: germany1.noesissite.ru
+  sni: nl2.cleanersaz.help
   tfo: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 090 | ⬇️ 685KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 77.239.104.82
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳+@VPNine1
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 196 | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 176.124.221.87
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳+@VPNine1
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 254 | ⬇️ 16KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision
@@ -148,7 +151,7 @@ proxies:
       - bale.ai,web.igap.net,web.splus.ir
     path:
     - /@ProxyVPNVip
-  name: 🇩🇪 DE 324 | ⬇️ 19KB/s
+  name: 🇩🇪 DE 431 | ⬇️ 19KB/s
   network: http
   packet-encoding: xudp
   port: 8080
@@ -168,7 +171,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '🇩🇪 DE 750 | ⬇️ 1MB/s #1'
+  name: 🇩🇪 DE 750 | ⬇️ 1MB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -178,168 +181,10 @@ proxies:
   type: hysteria
   udp: true
   up: 500
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 DE 338 | ⬇️ 13KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bs.o11111o.club
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 DE 361 | ⬇️ 15KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 78.159.240.41
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 410 | ⬇️ 2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: ger06.myxasecure.space
-  servername: ger06.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
-- name: 🇩🇪 DE 552 | ⬇️ 256KB/s
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  tls: false
-  type: socks5
-  username: ''
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless
-  name: 🇩🇪 DE 572 | ⬇️ 14KB/s
-  network: grpc
-  port: 2085
-  server: 81.31.211.172
-  tls: false
-  type: vless
-  udp: true
-  uuid: 31a62aa2-c465-4c1f-b636-f90578922b5f
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 565 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 94.159.97.247
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳+@VPNine1
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 645 | ⬇️ 7KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
-  server: 5.83.129.253
-  servername: flash.try-me.store
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 704 | ⬇️ 3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.148
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪 DE 715 | ⬇️ 77KB/s
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: false
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
-  up: ''
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless
-  name: 🇩🇪 DE 735 | ⬇️ 6MB/s
-  network: grpc
-  port: 2085
-  server: 81.31.211.170
-  tls: false
-  type: vless
-  udp: true
-  uuid: 854b5f21-f3a9-4aa9-b62e-d0585fb5122a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 742 | ⬇️ 1MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.18.16.56
-  skip-cert-verify: true
-  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
-- grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 747 | ⬇️ 40KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.170
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 2f03aff6-7774-4bdc-a04f-5feb5b3c21b0
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 DE 750 | ⬇️ 1MB/s
+  name: 🇩🇪 DE 779 | ⬇️ 87KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -353,6 +198,52 @@ proxies:
   type: vless
   udp: true
   uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: 🇩🇪 DE 553 | ⬇️ 22KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2085
+  server: 81.31.211.170
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 157c2020-1c55-41d8-8431-6952fd4f4912
+- name: 🇩🇪 DE 659 | ⬇️ 2MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.18.16.56
+  skip-cert-verify: true
+  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 699 | ⬇️ 7KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
+  server: 5.83.129.253
+  servername: flash.try-me.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- name: 🇩🇪 DE 801 | ⬇️ 13KB/s
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  port: 443
+  server: ger.leontunel.ru
+  skip-cert-verify: false
+  sni: ger.leontunel.ru
+  type: hysteria2
 - client-fingerprint: chrome
   name: 🇩🇪 DE 044 | ⬇️ 1MB/s
   network: tcp
@@ -520,6 +411,29 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: udp://208.67.220.220:443
+    enable: true
+    query-server-name: godotengine.org
+  encryption: none
+  name: 🇩🇪 DE 251 | ⬇️ 14KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 46.101.121.62
+  servername: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36453512-902e-40d6-acc0-66c3a4f8b9b8
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
+    max-early-data: 2560
+    path: /activity/type
 - encryption: none
   name: 🇩🇪 DE 285 | ⬇️ 20KB/s
   network: ws
@@ -560,18 +474,31 @@ proxies:
     headers:
       Host: ger.wafer.fun
     path: /Ts7kIzm7a8mYEOrQCXl1
-- encryption: none
-  name: 🇩🇪DE_1|1.9MB/s
-  network: ws
-  port: '8880'
-  server: cdn-cloudflare91.korvexe.ir
-  type: vless
+- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪 DE 715 | ⬇️ 77KB/s
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: false
+  sni: ff2.yuntong.click
+  type: hysteria2
   udp: true
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  ws-opts:
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /shop
-  xudp: true
+  up: ''
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇩🇪DE_2|2.1MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c

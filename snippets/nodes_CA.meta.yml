@@ -1,12 +1,19 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇨🇦 CA 070 | ⬇️ 23KB/s
+  country: 🇺🇸US
+  name: 🇨🇦 CA 589 | ⬇️ 17KB/s
   password: 2803361d6c196af8
   port: 20188
   server: 50.114.177.134
   skip-cert-verify: false
   type: ss
   udp: false
+- name: 🇨🇦 CA 751 | ⬇️ 3MB/s
+  password: ''
+  port: 10084
+  server: 51.222.12.245
+  type: socks5
+  username: ''
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -24,3 +31,13 @@ proxies:
   type: vless
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+- client-fingerprint: chrome
+  name: 🇨🇦CA_1|1.9MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '20113'
+  server: d3.catcat321.com
+  skip-cert-verify: true
+  sni: ca.catxstar.com
+  type: trojan
+  udp: true

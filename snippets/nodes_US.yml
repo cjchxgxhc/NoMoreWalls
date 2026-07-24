@@ -1,15 +1,9 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 054 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸 US 185 | ⬇️ 8MB/s
+  name: 🇺🇸 US 552 | ⬇️ 2MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -19,27 +13,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
-- alpn:
-  - http/1.1
-  name: 🇺🇸 US 108 | ⬇️ 4MB/s
-  network: ws
-  password: MITIVPN
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 054 | ⬇️ 1MB/s
+  password: amazonskr05
   port: 443
-  server: 104.16.72.50
+  server: 54.197.30.38
   skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+  type: ss
+  udp: false
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸 US 178 | ⬇️ 6MB/s
+  name: 🇺🇸 US 045 | ⬇️ 965KB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -51,34 +37,6 @@ proxies:
     headers:
       Host: py-h--MiTiVPN---MiTiVPN-av.aPp-cLoud.IR
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 US 226 | ⬇️ 1MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: winusa-mitivpn-----mitivpn.app-Cloud.ir
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 289 | ⬇️ 3MB/s
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: 40031
-  server: permission_level_01.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_4|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  type: ss
 - cipher: aes-256-cfb
   name: 🇺🇸 US 539 | ⬇️ 84KB/s
   password: amazonskr05
@@ -87,12 +45,39 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 609 | ⬇️ 10MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 🇺🇸 US 059 | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 34.207.112.128
   type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 741 | ⬇️ 594KB/s
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 748 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇺🇸 US 121 | ⬇️ 242KB/s
   network: tcp
   password: OD90375861
@@ -127,6 +112,22 @@ proxies:
   server: 34.217.29.0
   sni: balanced-puma.rooster465.autos
   type: trojan
+- alpn:
+  - http/1.1
+  name: 🇺🇸 US 108 | ⬇️ 4MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
 - client-fingerprint: chrome
   name: 🇺🇸 US 752 | ⬇️ 2MB/s
   network: tcp
@@ -148,13 +149,13 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 748 | ⬇️ 13KB/s
+- client-fingerprint: chrome
+  name: 🇺🇸US_15|1.7MB/s
   network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '20042'
+  server: d3.catcat321.com
+  skip-cert-verify: true
+  sni: us.catxstar.com
+  type: trojan
+  udp: true
