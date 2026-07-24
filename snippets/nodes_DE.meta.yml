@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 🇩🇪 DE 030 | ⬇️ 524KB/s
+  name: 🇩🇪 DE 109 | ⬇️ 7MB/s
   network: ws
   port: 443
   server: 95.85.226.143.tyr-agentstvo.tech
@@ -17,6 +17,22 @@ proxies:
       Host: 95.85.226.143.tyr-agentstvo.tech
     max-early-data: 2560
     path: /websocket
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 021 | ⬇️ 21KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 217.110.20.141
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
@@ -40,54 +56,6 @@ proxies:
       Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
     max-early-data: 2560
     path: /activity/type
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇩🇪DE_2|2.1MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 560 | ⬇️ 17KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 138.201.170.108
-  servername: ger.wafer.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
-  ws-opts:
-    headers:
-      Host: ger.wafer.fun
-    path: /Ts7kIzm7a8mYEOrQCXl1
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 127 | ⬇️ 15KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 448
-  reality-opts:
-    public-key: i34zHKfyydOveuaYnjEU4ocu662Wagkf7fIbj9qiQRA
-    short-id: '!!str 9e96f30390d6be81'
-  server: 76.164.202.212
-  servername: www.samsung.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecfb4271-790e-4011-9364-6e168ed8a82a
 - client-fingerprint: chrome
   name: 🇩🇪 DE 274 | ⬇️ 1MB/s
   network: ws
@@ -105,52 +73,37 @@ proxies:
       Host: ad-005.novayjr9g.info
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪 DE 021 | ⬇️ 21KB/s
+  encryption: none
+  name: 🇩🇪 DE 127 | ⬇️ 15KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 448
+  reality-opts:
+    public-key: i34zHKfyydOveuaYnjEU4ocu662Wagkf7fIbj9qiQRA
+    short-id: '!!str 9e96f30390d6be81'
+  server: 76.164.202.212
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecfb4271-790e-4011-9364-6e168ed8a82a
+- encryption: none
+  name: 🇭🇰 HK 659 | ⬇️ 800KB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 217.110.20.141
-  servername: ger.wafer.fun
+  port: 2086
+  server: 104.19.174.68
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
   ws-opts:
     headers:
-      Host: ger.wafer.fun
-    path: /Ts7kIzm7a8mYEOrQCXl1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 239 | ⬇️ 337KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8H-YQe-nSd_aL2FwWIFNV2-anUb4v3cY_n5QcEEjGEs
-    short-id: '!!str eeed325908a87d9f'
-  server: gr1.panel11.ru
-  servername: gr1.panel11.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d385a48f-9f6f-406a-8d3c-e409b371c565
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 311 | ⬇️ 599KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: '!!str 15affa0af66dfc79'
-  server: 2.27.25.13
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -180,18 +133,115 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- http-opts:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 087 | ⬇️ 1MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: true
+  sni: win-mitivpn-----mitivpn.Maqror.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winde
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 560 | ⬇️ 17KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 138.201.170.108
+  servername: ger.wafer.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 670 | ⬇️ 599KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: '!!str 15affa0af66dfc79'
+  server: 2.27.25.13
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪DE_1|2.6MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: '!!str 5bc76436f2905fba'
+  server: store.noneok.com
+  servername: store.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 770 | ⬇️ 337KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8H-YQe-nSd_aL2FwWIFNV2-anUb4v3cY_n5QcEEjGEs
+    short-id: '!!str eeed325908a87d9f'
+  server: gr1.panel11.ru
+  servername: gr1.panel11.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d385a48f-9f6f-406a-8d3c-e409b371c565
+- encryption: none
+  http-opts:
     method: GET
     path:
     - /
   name: 🇩🇪 DE 248 | ⬇️ 838KB/s
   network: http
+  packet-encoding: xudp
   port: 8882
   server: 46.8.228.239
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪 DE 804 | ⬇️ 5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs
+    short-id: '!!str fde63d9c58210bf9'
+  server: core.noneok.com
+  servername: core.noneok.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
 - client-fingerprint: chrome
   name: 🇩🇪 DE 044 | ⬇️ 1MB/s
   network: tcp
@@ -208,19 +258,6 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 087 | ⬇️ 1MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: true
-  sni: win-mitivpn-----mitivpn.Maqror.ir
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winde
 - encryption: none
   name: 🇩🇪 DE 566 | ⬇️ 20KB/s
   network: ws
@@ -326,47 +363,74 @@ proxies:
   server: coherent-rattler.rooster465.autos
   sni: coherent-rattler.rooster465.autos
   type: trojan
-- encryption: none
-  name: 🇩🇪DE_3|3.2MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.3MB/s
   network: tcp
-  port: '22224'
-  server: 52.57.117.158
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_4|3.4MB/s
-  network: tcp
-  port: '22223'
-  server: 18.198.252.91
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|3.5MB/s
-  network: tcp
-  port: '22222'
-  server: 52.57.117.158
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_6|2.1MB/s
-  network: ws
-  port: '2096'
-  server: 172.67.77.48
-  servername: edt.desiakuma.cc.cd
+  port: 8443
+  reality-opts:
+    public-key: ZlHGuFEAxNghAM9OUdcYwaokVRVAsPt2MtM2Klf05WI
+    short-id: '!!str d512199f50ec170b'
+  server: dege-exit.krotmonstr.online
+  servername: dege-exit.krotmonstr.online
   tls: true
   type: vless
   udp: true
-  uuid: 5493d4e2-b576-46f1-9d74-c41f02c009bb
-  ws-opts:
-    headers:
-      Host: edt.desiakuma.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
+  uuid: 5c88e6bf-805a-4fac-92e0-70b57340e6cc
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 82.39.171.148
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇩🇪DE_5|2.6MB/s
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 159.195.12.98
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 695d21df-7abf-423c-84f8-3a93382e5d46
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: 🇩🇪DE_6|2.8MB/s
+  network: grpc
+  port: '2085'
+  server: 81.31.211.170
+  type: vless
+  udp: true
+  uuid: 2f03aff6-7774-4bdc-a04f-5feb5b3c21b0
+  xudp: true
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_7|2.1MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true

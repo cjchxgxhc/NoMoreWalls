@@ -1,4 +1,43 @@
 proxies:
+- encryption: none
+  name: 🇬🇧 GB 123 | ⬇️ 118KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b2e0eab-f47f-45b0-87b2-71de9feef5c6
+  ws-opts:
+    path: /free
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 GB 725 | ⬇️ 22KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 161 | ⬇️ 298KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: swe01.myxasecure.space
+  servername: swe01.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
 - client-fingerprint: chrome
   name: 🇬🇧 GB 136 | ⬇️ 4MB/s
   network: ws
@@ -25,21 +64,7 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: swe01.myxasecure.space
-  servername: swe01.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
-- client-fingerprint: firefox
-  name: 🇬🇧 GB 593 | ⬇️ 1MB/s
+  name: 🇬🇧 GB 784 | ⬇️ 1MB/s
   network: xhttp
   port: 8443
   server: jush.sukario.ir
@@ -51,17 +76,6 @@ proxies:
   xhttp-opts:
     host: wyo19lkw.miradion.info
     path: /adycon
-- alterId: 2
-  cipher: auto
-  name: 🇬🇧 GB 725 | ⬇️ 22KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -94,19 +108,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|3.0MB/s
-  network: xhttp
-  port: '8443'
-  server: edge12.westorstentor.ir
-  servername: eng.wplfhskr.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 014682e8-1c71-4854-98da-77f7b39515da
-  xhttp-opts:
-    host: eng.wplfhskr.ir.
-    mode: auto
-    path: /
-  xudp: true

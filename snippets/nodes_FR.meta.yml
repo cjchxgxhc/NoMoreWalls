@@ -1,47 +1,4 @@
 proxies:
-- encryption: none
-  name: 🇫🇷 FR 034 | ⬇️ 55KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22223
-  server: 13.39.58.127
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- encryption: none
-  name: 🇫🇷 FR 487 | ⬇️ 14KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22224
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- encryption: none
-  name: 🇫🇷 FR 007 | ⬇️ 23KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22222
-  server: 13.39.58.127
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- encryption: none
-  name: 🇫🇷 FR 027 | ⬇️ 20KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22224
-  server: 13.39.58.127
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇫🇷 FR 291 | ⬇️ 86KB/s
   obfs-password: ''
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
@@ -51,6 +8,15 @@ proxies:
   sni: prodfr.h2corp.org
   tfo: false
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 FR 765 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇫🇷 FR 130 | ⬇️ 414KB/s
   packet-encoding: ''
   packetEncoding: none
@@ -63,11 +29,17 @@ proxies:
   type: anytls
   udp: true
   username: github.com/Alvin9999-newpac/fanqiang
-- name: 🇫🇷FR_1|2.6MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.8MB/s
   network: tcp
-  port: 22222
-  server: 15.188.211.23
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node12.mxvpn.dev
+  servername: node12.mxvpn.dev
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4

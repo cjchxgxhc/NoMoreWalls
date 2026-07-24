@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 195 | ⬇️ 918KB/s
+  name: 🇨🇦 CA 673 | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -15,22 +15,6 @@ proxies:
     headers:
       Host: ad-013.orbitqgr7v.info
     path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇨🇦 CA 822 | ⬇️ 125KB/s
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27105
-  reduce-rtt: false
-  request-timeout: 0
-  server: j1o8w8.yydzx.xyz
-  skip-cert-verify: true
-  sni: j1o8w8.yydzx.xyz
-  type: tuic
-  udp-relay-mode: native
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  version: 5
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision

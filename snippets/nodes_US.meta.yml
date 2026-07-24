@@ -1,12 +1,41 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 054 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|1.9MB/s
+  name: 🇺🇸US_2|3.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 113 | ⬇️ 9MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 115 | ⬇️ 554KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: usa01.myxasecure.space
+  servername: usa01.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -29,20 +58,6 @@ proxies:
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   xudp: true
-- name: 🇺🇸 US 051 | ⬇️ 14MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -65,35 +80,6 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇺🇸 US 069 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.17.184.155
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 539 | ⬇️ 84KB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -113,44 +99,6 @@ proxies:
     headers:
       Host: l-j-v-MiTiVPN---MiTiVPN-o.MAQROR.ir
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=usa
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 054 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
-- encryption: none
-  name: 🇺🇸US_8|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.16.72.41
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckfangbinxing.pusytroller.gq
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸 US 081 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: fuckfangbinxing.pusytroller.gq
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckfangbinxing.pusytroller.gq
-    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -172,74 +120,68 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇺🇸 US 502 | ⬇️ 344KB/s
+- encryption: none
+  name: 🇺🇸 US 219 | ⬇️ 113KB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 69.63.214.235
-  servername: t1s1.rittbo.kdns.fr
+  port: 2095
+  server: 104.16.72.41
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: fuckfangbinxing.pusytroller.gq
     path: /
-- cipher: aes-256-cfb
-  name: '🇺🇸 US 059 | ⬇️ 1MB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa01.myxasecure.space
-  servername: usa01.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 623 | ⬇️ 122KB/s
+- name: 🇺🇸 US 215 | ⬇️ 10MB/s
   network: ws
-  port: 443
-  server: 63.141.128.158
-  servername: us1s.xn--mirrors-oj8km52txc7d.com
-  tls: true
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: true
+  tls: false
   type: vless
   udp: true
-  uuid: 820b8f3a-4c7a-4d19-9e75-4c8e109454b5
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: us1s.xn--mirrors-oj8km52txc7d.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ym/us1
-  xudp: true
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- name: 🇺🇸 US 081 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: fuckfangbinxing.pusytroller.gq
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckfangbinxing.pusytroller.gq
+    path: /
 - name: 🇺🇸 US 627 | ⬇️ 171KB/s
   password: ''
   port: 22222
   server: 193.25.215.182
+  tls: false
   type: socks5
   username: ''
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 US 773 | ⬇️ 11MB/s
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 601 | ⬇️ 11MB/s
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -254,11 +196,52 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇺🇸 US 712 | ⬇️ 94KB/s
+  name: 🇺🇸 US 626 | ⬇️ 344KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 69.63.214.235
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇺🇸 US 481 | ⬇️ 637KB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 64.186.235.57
+  server: 104.16.253.227
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇺🇸 US 633 | ⬇️ 5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.184.155
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -279,6 +262,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 539 | ⬇️ 84KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - http/1.1
+  name: 🇺🇸 US 108 | ⬇️ 4MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -330,22 +337,6 @@ proxies:
   server: 34.217.29.0
   sni: balanced-puma.rooster465.autos
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇺🇸 US 108 | ⬇️ 4MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
 - client-fingerprint: chrome
   name: 🇺🇸 US 752 | ⬇️ 2MB/s
   network: tcp
@@ -384,26 +375,6 @@ proxies:
     headers:
       Host: vpn-6d9.pages.dev
     path: /
-- ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇺🇸 US 481 | ⬇️ 637KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.16.253.227
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -425,135 +396,46 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇺🇸US_3|2.2MB/s
+  name: 🇺🇸 US 712 | ⬇️ 94KB/s
   network: ws
-  port: '443'
-  server: join-masterserver1-gdjtdjtgjt.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01c3b339-ca71-1be9-3310-de836b96b1bc
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws/01c3b339-ca71-1be9-3310-de836b96b1bc
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|2.7MB/s
-  network: ws
-  port: '443'
-  server: channel-production-eca.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6f19f47-963a-1d57-6895-6ff958ce2b33
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /ws/a6f19f47-963a-1d57-6895-6ff958ce2b33
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|2.1MB/s
-  network: ws
-  port: '443'
-  server: channel-production-eca.up.railway.app
-  servername: channel-production-eca.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6f19f47-963a-1d57-6895-6ff958ce2b33
-  ws-opts:
-    headers:
-      Host: channel-production-eca.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /ws/a6f19f47-963a-1d57-6895-6ff958ce2b33
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_6|2.2MB/s
-  network: ws
-  port: '443'
-  server: join-masterserver1-gdjtdjtgjt.up.railway.app
-  servername: join-masterserver1-gdjtdjtgjt.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01c3b339-ca71-1be9-3310-de836b96b1bc
-  ws-opts:
-    headers:
-      Host: join-masterserver1-gdjtdjtgjt.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/01c3b339-ca71-1be9-3310-de836b96b1bc
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇺🇸US_7|2.1MB/s
-  network: ws
-  port: '443'
-  server: marzban-node-production-1ac0.up.railway.app
-  servername: marzban-node-production-1ac0.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 202ab7e3-9d5a-49b3-9f37-ab6464ad27ee
-  ws-opts:
-    headers:
-      Host: marzban-node-production-1ac0.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /vless
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_9|3.2MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  packet-encoding: xudp
+  port: 443
+  server: 64.186.235.57
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🇺🇸US_10|2.5MB/s
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 🇺🇸US_4|3.3MB/s
+  network: tcp
+  port: 52535
+  server: 154.19.184.40
+  source_repo: 0o0o0oo/proxy
+  source_url: https://raw.githubusercontent.com/0o0o0oo/proxy/main/nodes.yaml
+  tls: false
+  type: vless
+  udp: true
+  uuid: a1ac8747-4fd7-486b-b099-19fbb45610be
+- name: 🇺🇸US_5|1.6MB/s
   password: ''
   port: '9002'
-  server: 156.146.59.10
+  server: 156.146.59.4
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- client-fingerprint: firefox
-  name: 🇺🇸US_11|1.5MB/s
-  network: tcp
-  port: '4443'
-  server: nl2.panel.cleanersaz.help
-  servername: nl2.panel.cleanersaz.help
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a42d83-b810-4393-a321-a554ec2e75c9
-  xudp: true
-- name: 🇺🇸US_12|2.1MB/s
+- name: 🇺🇸US_6|1.6MB/s
   password: ''
   port: '9002'
   server: 138.199.35.199
