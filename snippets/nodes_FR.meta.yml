@@ -1,19 +1,23 @@
 proxies:
-- auth: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
-  name: 🇫🇷 FR 291 | ⬇️ 86KB/s
-  obfs-password: ''
-  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 040 | ⬇️ 1MB/s
+  network: tcp
   port: 443
-  server: prodfr.h2corp.org
-  skip-cert-verify: false
-  sni: prodfr.h2corp.org
-  tfo: false
-  type: hysteria2
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node13.mxvpn.dev
+  servername: node13.mxvpn.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - alpn:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇫🇷 FR 570 | ⬇️ 1MB/s
+  name: 🇫🇷 FR 155 | ⬇️ 1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -27,9 +31,71 @@ proxies:
   type: vless
   udp: true
   uuid: 5098e189-3462-4ff7-8ddd-4aaecfd060ea
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 076 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: fr11.myxasecure.space
+  servername: fr11.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- auth: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  name: 🇫🇷 FR 291 | ⬇️ 86KB/s
+  obfs-password: ''
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 117 | ⬇️ 110KB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: musical-shrew.rooster465.autos
+  sni: musical-shrew.rooster465.autos
+  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 133 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: fr02.myxasecure.space
+  servername: fr02.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 151 | ⬇️ 39KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 51.91.249.22
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳+@VPNine1
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇫🇷 FR 080 | ⬇️ 1MB/s
+  name: 🇫🇷 FR 276 | ⬇️ 1MB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -43,17 +109,19 @@ proxies:
   type: vless
   udp: true
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- encryption: none
-  name: 🇫🇷 FR 178 | ⬇️ 38KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33485
-  server: babi.amojimi.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
+- alpn:
+  - http/1.1
+  name: 🇫🇷 FR 746 | ⬇️ 13MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - name: 🇫🇷 FR 130 | ⬇️ 414KB/s
   packet-encoding: ''
   packetEncoding: none
@@ -66,3 +134,22 @@ proxies:
   type: anytls
   udp: true
   username: github.com/Alvin9999-newpac/fanqiang
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇫🇷FR_1|2.0MB/s
+  network: xhttp
+  port: '443'
+  server: fr.noooo.win
+  servername: api-v1-6a607319.alpheratzz.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ab386f-9d86-4a71-bdf3-e26170c2c8f6
+  xhttp-opts:
+    mode: stream-one
+    path: /
+    reuse-settings:
+      max-connections: '1'
+  xudp: true

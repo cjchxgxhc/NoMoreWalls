@@ -1,13 +1,19 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇨🇦 CA 024 | ⬇️ 35KB/s
+  name: 🇨🇦 CA 070 | ⬇️ 23KB/s
   password: 2803361d6c196af8
   port: 20188
   server: 50.114.177.134
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇳🇱 NL 012 | ⬇️ 18MB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 054 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
+- name: 🇳🇱 NL 043 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -21,7 +27,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸 US 030 | ⬇️ 18MB/s
+  name: 🇺🇸 US 185 | ⬇️ 8MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -31,11 +37,106 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
+- client-fingerprint: chrome
+  name: 🇦🇪 AE 696 | ⬇️ 11MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: /in-pdr
+- name: 🇫🇮 FI 077 | ⬇️ 6MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.34.13
+  skip-cert-verify: true
+  sni: b-g--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=fls
+- delay: 584
+  name: 🇦🇪 AE 695 | ⬇️ 13MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 117 | ⬇️ 110KB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: musical-shrew.rooster465.autos
+  sni: musical-shrew.rooster465.autos
+  type: trojan
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸 US 023 | ⬇️ 13MB/s
+  name: 🇳🇱 NL 113 | ⬇️ 8MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 172.64.148.84
+  skip-cert-verify: true
+  sni: u--o-MiTiVPN---MiTiVPNj.aPp-cLoud.IR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇮 FI 206 | ⬇️ 7MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.34.13
+  skip-cert-verify: true
+  sni: b-g--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=fls
+- client-fingerprint: chrome
+  name: 🇮🇪 IE 534 | ⬇️ 433KB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: good-ocelot.rooster465.autos
+  sni: good-ocelot.rooster465.autos
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 🇺🇸 US 108 | ⬇️ 4MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 178 | ⬇️ 6MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -48,33 +149,76 @@ proxies:
       Host: py-h--MiTiVPN---MiTiVPN-av.aPp-cLoud.IR
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
 - alpn:
-  - h2
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 740 | ⬇️ 3KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇸🇬SG_2|4.8MB/s
+  name: 🇺🇸 US 226 | ⬇️ 1MB/s
   network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 172.64.148.84
-  skip-cert-verify: true
-  sni: u--o-MiTiVPN---MiTiVPNj.aPp-cLoud.IR
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
-- name: 🇫🇮 FI 029 | ⬇️ 19MB/s
+      Host: winusa-mitivpn-----mitivpn.app-Cloud.ir
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 289 | ⬇️ 3MB/s
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: 40031
+  server: permission_level_01.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  type: ss
+- name: 🇫🇮 FI 536 | ⬇️ 4MB/s
   network: ws
   password: MiTiVPN
   port: 443
-  server: 104.18.34.13
+  server: 104.17.100.120
   skip-cert-verify: true
-  sni: b-g--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  sni: swo-h--MiTiVPN---MiTiVPN-ao.aPp-cLoud.IR
   type: trojan
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=fls
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=sws
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 539 | ⬇️ 84KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 562 | ⬇️ 1MB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: mutual-puma.rooster465.autos
+  sni: mutual-puma.rooster465.autos
+  type: trojan
 - alpn:
   - ''
   alterId: 0
@@ -95,14 +239,6 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_1|1.7MB/s
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   country: 🇮🇷IR
   name: 🇧🇬 BG 742 | ⬇️ 22KB/s
@@ -112,121 +248,39 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  name: 🇦🇪 AE 696 | ⬇️ 11MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: /in-pdr
 - alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 740 | ⬇️ 3KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 584
-  name: 🇸🇬SG_1|3.9MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 054 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 539 | ⬇️ 84KB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
+  - h2
   - http/1.1
-  name: 🇺🇸 US 108 | ⬇️ 4MB/s
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 742 | ⬇️ 1MB/s
   network: ws
   password: MITIVPN
   port: 443
-  server: 104.16.72.50
-  skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  server: 104.18.16.56
+  skip-cert-verify: true
+  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
 - cipher: aes-256-cfb
   name: 🇺🇸 US 059 | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 34.207.112.128
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 748 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇮 FI 752 | ⬇️ 4MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.17.100.120
-  skip-cert-verify: true
-  sni: swo-h--MiTiVPN---MiTiVPN-ao.aPp-cLoud.IR
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=sws
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 US 758 | ⬇️ 183KB/s
+  name: 🇫🇷 FR 746 | ⬇️ 13MB/s
   network: ws
-  password: MITIVPN
+  password: humanity
   port: 443
-  server: 104.16.72.50
-  skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  server: 172.64.229.75
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: winusa-mitivpn-----mitivpn.app-Cloud.ir
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+      Host: www.calmloud.com
+    path: /assignment
 - alterId: 2
   cipher: auto
   country: 🇮🇷IR
@@ -237,18 +291,8 @@ proxies:
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 793 | ⬇️ 10MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: 🇩🇪 DE 044 | ⬇️ 1MB/s
@@ -490,4 +534,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 748 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
