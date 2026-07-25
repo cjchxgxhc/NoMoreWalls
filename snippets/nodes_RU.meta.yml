@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 645 | ⬇️ 26KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: yFdgeRvZ7pYNp7C5v3sOq1x3gwHxWYem62W2tB9RJ0k
+  server: 201.51.12.199
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3a8da6e-9557-43e3-b8d6-44350d0dc6f7
 - alpn:
   - h2
   client-fingerprint: randomized
@@ -21,34 +34,3 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
-    short-id: '!!str 7f2e9c4b1a8d6a53'
-  server: 37.139.43.57
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ceeba701-bb9f-4f2c-8142-677d27a2acb1
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-    short-id: '!!str '
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c375098-b366-490d-9a1f-8f77e239c07d
-  xudp: true
