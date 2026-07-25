@@ -1,22 +1,35 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 140 | ⬇️ 20KB/s
-  password: cfe685726eea2c4b
-  port: 6099
-  server: 185.22.154.103
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 064 | ⬇️ 34KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 194.113.34.160
+  servername: sellflow.org
   skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 157 | ⬇️ 13KB/s
-  password: fbaf33bcffe53cf9
-  port: 20910
-  server: 195.58.48.19
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 136 | ⬇️ 8KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: eth9HWGNkEJfM_CCXzUp2nnStCzdqQoAXflbM7mYqjc
+    short-id: '!!str 32d4105801456617'
+  server: 213.171.25.248
+  servername: external-api.mediabilling.kinopoisk.ru
   skip-cert-verify: false
-  type: ss
-  udp: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aed30ddf-5a1c-4f4f-9056-253c7df518ed
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 285 | ⬇️ 10KB/s
+  name: 🇷🇺 RU 054 | ⬇️ 15KB/s
   password: 1a87017d0bf57f34
   port: 30118
   server: 176.32.34.152
@@ -24,62 +37,44 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 214 | ⬇️ 11KB/s
+  name: 🇷🇺 RU 091 | ⬇️ 16KB/s
+  password: cfe685726eea2c4b
+  port: 6099
+  server: 185.22.154.103
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 094 | ⬇️ 16KB/s
+  password: fbaf33bcffe53cf9
+  port: 20910
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇷🇺 RU 088 | ⬇️ 1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs
+    short-id: '!!str 6d08059a'
+  server: funny2.oneok.name
+  servername: funny2.oneok.name
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b02563b-cf46-4c94-bb82-e0fdecd26630
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 186 | ⬇️ 17KB/s
   password: 32c0ea6e823341a2
   port: 50111
   server: 185.22.154.254
   skip-cert-verify: false
   type: ss
   udp: false
-- alpn:
-  - h2
-  client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 022 | ⬇️ 3MB/s
-  network: tcp
-  port: 8443
-  server: yt.noooo.win
-  servername: ai-6a607097.noooo.win
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  name: 🇷🇺 RU 198 | ⬇️ 13KB/s
-  password: fbaf33bcffe53cf9
-  port: 30112
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.1MB/s
-  network: tcp
-  port: 751
-  reality-opts:
-    public-key: 8rEONyw_qnJqvPZLDEJwr49YtHhkTuGgZWLCCeEW_wQ
-    short-id: '!!str 66b1be148be9eea4'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 91.224.87.181
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-  xudp: true

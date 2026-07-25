@@ -1,7 +1,34 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|1.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: e5afa6a0-a4a6-44e3-a3e0-e05b0c67cd02
+  port: '10443'
+  server: 150.241.100.103
+  skip-cert-verify: false
+  sni: netherlands.b240i4.apruxdomain.site
+  tfo: false
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.3MB/s
+  name: 🇸🇪 SE 166 | ⬇️ 119KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: swe05.myxasecure.space
+  servername: swe05.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 SE 194 | ⬇️ 1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -13,73 +40,3 @@ proxies:
   type: vless
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪 SE 569 | ⬇️ 310KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.17.108.103
-  servername: l-j-o-MiTiVPN---MiTiVPN-o.MAQROR.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  ws-opts:
-    headers:
-      Host: l-j--bMiTiVPN---MiTiVPN-o.MAQROR.ir
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=sweden
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-service
-  name: 🇸🇪 SE 457 | ⬇️ 11KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Q8SjY3b6H8hnsg2TVIgNpnoQ2zjOacm727EJkEIPSkg
-    short-id: '!!str 6c6082a2223c1d03'
-  server: swg.raketa-balance.com
-  servername: swg.raketa-balance.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 308 | ⬇️ 13KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: v-gQ6kkigIWhdwsNYayXf2AVL0TvuqA48u7IKSQcTno
-    short-id: '!!str 98a6a8db21c24dbe'
-  server: se-vlss.w-mebel.pro
-  servername: w-mebel.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 254 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node1.mxvpn.dev
-  servername: node1.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4

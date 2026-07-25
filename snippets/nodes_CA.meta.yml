@@ -1,24 +1,23 @@
 proxies:
-- name: 🇨🇦 CA 633 | ⬇️ 1MB/s
+- name: 🇨🇦 CA 607 | ⬇️ 22KB/s
   password: ''
   port: 10084
   server: 51.222.12.245
   type: socks5
   username: ''
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇦 CA 201 | ⬇️ 1MB/s
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 668 | ⬇️ 6MB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: '!!str 500aec9e9e5e2212'
-  server: 45.206.5.122
-  servername: storage.yandex.net
+  port: 8443
+  server: ad-013.orbitqgr7v.info
+  servername: ad-013.orbitqgr7v.info
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.orbitqgr7v.info
+    path: /

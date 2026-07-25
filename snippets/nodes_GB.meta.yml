@@ -1,10 +1,37 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇬🇧 GB 101 | ⬇️ 2MB/s
+  network: ws
+  port: 8443
+  server: ad-010.pixel9xdmq.info
+  servername: ad-010.pixel9xdmq.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
+  ws-opts:
+    headers:
+      Host: ad-010.pixel9xdmq.info
+    path: /
+- client-fingerprint: firefox
+  name: 🇬🇧 GB 618 | ⬇️ 2MB/s
+  network: xhttp
+  port: 8443
+  server: jush.sukario.ir
+  servername: wyo19lkw.miradion.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
+  xhttp-opts:
+    host: wyo19lkw.miradion.info
+    path: /adycon
 - ech-opts:
     _dns: udp://178.22.122.100
     enable: true
     query-server-name: 54.mk
   encryption: none
-  name: 🇳🇱 NL 718 | ⬇️ 1MB/s
+  name: 🇬🇧 GB 127 | ⬇️ 1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -19,9 +46,23 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 133 | ⬇️ 43KB/s
+  network: tcp
+  port: 58843
+  reality-opts:
+    public-key: GiUJxQTMZi8_xtjnAg03V9vo85O1UYYJF8Yel8-PTAk
+    short-id: '!!str 9ea316fcde370ad7'
+  server: con.aliceit.ru
+  servername: www.googletagmanager.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25209e75-6776-420e-9dd3-b7b6a77a3eb4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇬🇧 GB 276 | ⬇️ 2MB/s
+  name: 🇬🇧 GB 264 | ⬇️ 2MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -33,100 +74,3 @@ proxies:
   type: vless
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 309 | ⬇️ 1MB/s
-  network: ws
-  port: 8443
-  server: ad-010.zen2bswa.info
-  servername: ad-010.zen2bswa.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
-  ws-opts:
-    headers:
-      Host: ad-010.zen2bswa.info
-    path: /
-- client-fingerprint: firefox
-  name: 🇬🇧 GB 697 | ⬇️ 2MB/s
-  network: xhttp
-  port: 8443
-  server: jush.sukario.ir
-  servername: wyo19lkw.miradion.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-  xhttp-opts:
-    host: wyo19lkw.miradion.info
-    path: /adycon
-- alterId: 2
-  cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇬🇧 GB 725 | ⬇️ 22KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭 CH 047 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.14
-  servername: abuse.sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭 CH 561 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.6
-  servername: abuse.sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 136 | ⬇️ 4MB/s
-  network: ws
-  port: 8443
-  server: kaoqy-uk-akile.cf.090227.xyz
-  servername: akile.uk.781391.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: akile.uk.781391.xyz
-    path: /
-- country: 🇬🇧GB
-  name: 🇬🇧 GB 376 | ⬇️ 1MB/s
-  password: grape_288923
-  port: 8080
-  server: 194.247.182.201
-  skip-cert-verify: false
-  sni: grape-coffee-fi.gleeze.com
-  type: hysteria2
-  udp: true
