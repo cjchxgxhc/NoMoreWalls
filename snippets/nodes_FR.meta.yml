@@ -1,7 +1,39 @@
 proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇫🇷 FR 015 | ⬇️ 12MB/s
+  password: dongtaiwang.com
+  path: /
+  port: 33888
+  server: 163.172.118.224
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: bbr
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  version: 5
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 271 | ⬇️ 119KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.157
+  servername: yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5098e189-3462-4ff7-8ddd-4aaecfd060ea
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇫🇷 FR 566 | ⬇️ 2MB/s
+  name: 🇫🇷FR_1|1.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -14,12 +46,11 @@ proxies:
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - client-fingerprint: chrome
-  name: 🇫🇷 FR 757 | ⬇️ 219KB/s
+  name: 🇫🇷 FR 124 | ⬇️ 186KB/s
   network: tcp
   password: JT80563429
   port: 443
   server: musical-shrew.rooster465.autos
-  skip-cert-verify: true
   sni: musical-shrew.rooster465.autos
   type: trojan
 - auth: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
@@ -34,33 +65,28 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 FR 422 | ⬇️ 142KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str f34818a561dfd1fe'
-  server: 45.192.2.157
-  servername: yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5098e189-3462-4ff7-8ddd-4aaecfd060ea
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 FR 793 | ⬇️ 17KB/s
+  name: 🇫🇷 FR 748 | ⬇️ 17KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  name: 🇫🇷 FR 786 | ⬇️ 13MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - name: 🇫🇷 FR 130 | ⬇️ 414KB/s
   packet-encoding: ''
   packetEncoding: none
@@ -73,17 +99,3 @@ proxies:
   type: anytls
   udp: true
   username: github.com/Alvin9999-newpac/fanqiang
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇫🇷FR_1|3.1MB/s
-  password: dongtaiwang.com
-  port: 33888
-  server: 163.172.118.224
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87

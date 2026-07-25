@@ -1,46 +1,27 @@
 proxies:
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless
-  name: 🇩🇪DE_1|1.6MB/s
-  network: grpc
-  port: 2085
-  server: 81.31.211.172
-  tls: false
-  type: vless
-  udp: true
-  uuid: 31a62aa2-c465-4c1f-b636-f90578922b5f
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪 DE 094 | ⬇️ 24KB/s
-  network: grpc
-  port: 8082
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: o11111o.club
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 116 | ⬇️ 603KB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 059 | ⬇️ 4MB/s
+  password: tunnel-hamid32
+  port: 8444
+  server: 179.61.251.63
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 697 | ⬇️ 49KB/s
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: tMOmaOqUOQKPpN7SxwK3PgNQ0gDIlGUpT1Ky3msG8m8
-  server: de2.twixvpn.com
-  servername: www.yandex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: aa46411a-fb49-4f8d-8f42-e77da647f894
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 DE 274 | ⬇️ 951KB/s
+  name: 🇩🇪 DE 329 | ⬇️ 951KB/s
   network: tcp
   port: 443
   reality-opts:
@@ -52,38 +33,11 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇩🇪 DE 573 | ⬇️ 1MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
-- country: 🇺🇸US
-  name: 🇩🇪 DE 537 | ⬇️ 429KB/s
-  obfs-password: ''
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
-  skip-cert-verify: false
-  sni: germany1.noesissite.ru
-  tfo: false
-  type: hysteria2
-  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 DE 775 | ⬇️ 1MB/s
+  name: 🇩🇪 DE 177 | ⬇️ 2MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -93,19 +47,26 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
-- name: 🇩🇪 DE 167 | ⬇️ 194KB/s
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  type: socks5
-  username: ''
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 311 | ⬇️ 603KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tMOmaOqUOQKPpN7SxwK3PgNQ0gDIlGUpT1Ky3msG8m8
+  server: de2.twixvpn.com
+  servername: www.yandex.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa46411a-fb49-4f8d-8f42-e77da647f894
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: 🇩🇪 DE 207 | ⬇️ 11KB/s
+  name: 🇩🇪 DE 196 | ⬇️ 11KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -120,7 +81,7 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- name: 🇩🇪 DE 253 | ⬇️ 2MB/s
+- name: 🇩🇪 DE 232 | ⬇️ 2MB/s
   obfs: salamander
   obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
   password: hy2_czaawdhc:VwWo0eBZC9jU3xCE0FuTmbX6xmnj33Iq
@@ -130,42 +91,41 @@ proxies:
   sni: nl2.cleanersaz.help
   tfo: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 254 | ⬇️ 16KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- country: 🇺🇸US
+  name: 🇩🇪 DE 628 | ⬇️ 429KB/s
+  obfs-password: ''
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇩🇪 DE 778 | ⬇️ 170KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
+  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers:
-      Host:
-      - bale.ai,web.igap.net,web.splus.ir
-    path:
-    - /@ProxyVPNVip
-  name: 🇩🇪 DE 431 | ⬇️ 19KB/s
-  network: http
+  name: 🇩🇪 DE 368 | ⬇️ 553KB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8080
+  port: 443
   reality-opts:
-    _spider-x: /rfQz2El5LQ8FTVS
-    public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
-    short-id: '!!str 49d12a'
-  server: 95.38.197.126
-  servername: icloud.com
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: '!!str 15affa0af66dfc79'
+  server: 2.27.25.13
+  servername: deepl.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -181,37 +141,7 @@ proxies:
   type: hysteria
   udp: true
   up: 500
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 779 | ⬇️ 87KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: '!!str 15affa0af66dfc79'
-  server: 2.27.25.13
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪 DE 553 | ⬇️ 22KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2085
-  server: 81.31.211.170
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 157c2020-1c55-41d8-8431-6952fd4f4912
-- name: 🇩🇪 DE 659 | ⬇️ 2MB/s
+- name: 🇩🇪 DE 680 | ⬇️ 2MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -221,23 +151,25 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 699 | ⬇️ 7KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
-  server: 5.83.129.253
-  servername: flash.try-me.store
-  skip-cert-verify: false
+- alpn:
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇩🇪 DE 784 | ⬇️ 13KB/s
+  network: ws
+  port: 8443
+  server: 193.33.133.57
+  servername: cloudflare.vhub.pro
   tls: true
   type: vless
   udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- name: 🇩🇪 DE 801 | ⬇️ 13KB/s
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cloudflare.vhub.pro
+    max-early-data: 2560
+    path: /websocket
+- name: 🇩🇪 DE 794 | ⬇️ 13KB/s
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: ger.leontunel.ru
@@ -488,17 +420,105 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪DE_2|2.1MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
+- name: 🇩🇪DE_1|2.2MB/s
+  network: ws
+  port: 80
+  server: 167.82.0.7
+  tls: false
+  type: vless
   udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  uuid: 66ea0b4c-8c39-4e8b-92f0-0a9065218d37
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- client-fingerprint: safari
+  name: 🇩🇪DE_2|2.1MB/s
+  network: tcp
+  port: 5039
+  reality-opts:
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: '!!str 2e8424a2696cb606'
+  server: 5.75.196.139
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6749f13-cd63-4bc4-b165-5d120b7a1ff4
+- encryption: none
+  name: 🇩🇪DE_3|3.0MB/s
+  network: ws
+  port: '8880'
+  server: 172.65.90.52
+  type: vless
+  udp: true
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  ws-opts:
+    headers:
+      Host: blue-rice-7142.30-346.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-md-8h3k4j6n2p4q8r5t
+  name: 🇩🇪DE_4|2.4MB/s
+  network: grpc
+  port: '7444'
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: '!!str c0d1d1776fed0f6d'
+  server: ee-t3.vinnypuxtomoon.today
+  servername: ee-t3.vinnypuxtomoon.today
+  tls: true
+  type: vless
+  udp: true
+  uuid: f7024ef7-dd35-4fe8-a18d-4186a0ae910c
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.4MB/s
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: '!!str c0d1d1776fed0f6d'
+  server: ee-t3.vinnypuxtomoon.today
+  servername: ee-t3.vinnypuxtomoon.today
+  tls: true
+  type: vless
+  udp: true
+  uuid: f7024ef7-dd35-4fe8-a18d-4186a0ae910c
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 82.39.171.148
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- name: 🇩🇪DE_7|2.5MB/s
+  network: ws
+  port: '80'
+  server: 151.101.56.7
+  type: vless
+  udp: true
+  uuid: 4b1d39f2-42d4-4850-8b8a-fd4fa2f1ae55
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: ''
+  xudp: true
