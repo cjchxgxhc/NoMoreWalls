@@ -1,6 +1,6 @@
 proxies:
 - auth: nNS3WyiBOL
-  name: 🇺🇸 US 638 | ⬇️ 9MB/s
+  name: 🇺🇸US_3|3.1MB/s
   obfs: salamander
   obfs-password: vwrgaergG
   password: nNS3WyiBOL
@@ -10,40 +10,14 @@ proxies:
   sni: aws.amazon.com
   tfo: false
   type: hysteria2
-- name: 🇺🇸 US 045 | ⬇️ 3MB/s
-  network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  sni: vf3us9.stableq.top
-  type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 628 | ⬇️ 1MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇺🇸 US 835 | ⬇️ 6MB/s
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
+- name: 🇺🇸 US 132 | ⬇️ 10MB/s
+  password: b78b3b0c-8b89-4a95-94f4-42a3edf9f1b3
+  port: 8992
+  server: 95.181.189.42
   skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
+  sni: 95.181.189.42
   tfo: false
   type: hysteria2
-- name: 🇺🇸 US 070 | ⬇️ 2MB/s
-  network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24421
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  sni: vf3us9.stableq.top
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -88,20 +62,15 @@ proxies:
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   xudp: true
-- auth: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  down: ''
-  fingerprint: ''
-  name: 🇺🇸 US 193 | ⬇️ 6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
+- name: 🇺🇸 US 177 | ⬇️ 5MB/s
+  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
+  port: 9992
+  server: 104.36.86.93
+  skip-cert-verify: true
+  sni: 104.36.86.93
+  tfo: false
   type: hysteria2
-  up: ''
-- name: 🇺🇸 US 169 | ⬇️ 5MB/s
+- name: 🇺🇸 US 174 | ⬇️ 631KB/s
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -115,21 +84,28 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- name: 🇺🇸 US 627 | ⬇️ 171KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
-  type: socks5
-  username: ''
-- name: 🇺🇸 US 204 | ⬇️ 2MB/s
-  network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24422
-  server: vf3us9.stableq.top
+- name: 🇺🇸 US 176 | ⬇️ 8MB/s
+  network: ws
+  port: 2095
+  server: www.wto.org
   skip-cert-verify: false
-  sni: vf3us9.stableq.top
-  type: trojan
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_4|2.9MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
@@ -150,51 +126,17 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 539 | ⬇️ 84KB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 054 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 059 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- name: 🇺🇸 US 670 | ⬇️ 8MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇺🇸 US 209 | ⬇️ 1MB/s
+  name: 🇺🇸 US 226 | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.16.148.8
+  server: 104.17.184.155
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -205,6 +147,54 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇺🇸 US 516 | ⬇️ 344KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 69.63.214.235
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸 US 788 | ⬇️ 594KB/s
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 059 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇺🇸 US 784 | ⬇️ 276KB/s
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -232,11 +222,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇺🇸 US 726 | ⬇️ 5MB/s
+  name: 🇺🇸 US 209 | ⬇️ 1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.17.184.155
+  server: 104.16.148.8
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -247,38 +237,26 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 797 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇺🇸 US 801 | ⬇️ 344KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 69.63.214.235
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+- name: 🇺🇸 US 627 | ⬇️ 171KB/s
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  tls: false
+  type: socks5
+  username: ''
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 748 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸 US 811 | ⬇️ 62KB/s
+  name: 🇺🇸 US 785 | ⬇️ 62KB/s
   network: tcp
   port: 443
   reality-opts:
@@ -290,6 +268,23 @@ proxies:
   type: vless
   udp: true
   uuid: 7468649e-cebd-4a76-8470-982e33062086
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 809 | ⬇️ 3MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 539 | ⬇️ 84KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -315,6 +310,12 @@ proxies:
   sni: nearby-muskrat.rooster465.autos
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 054 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
 - client-fingerprint: chrome
   name: 🇺🇸 US 055 | ⬇️ 50KB/s
   network: tcp
@@ -449,13 +450,69 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 748 | ⬇️ 13KB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|2.0MB/s
   network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  port: 733
+  reality-opts:
+    public-key: HYgpFMGD32D4WsZUct6VMxgEax13DGzP_bLykxAnwQo
+    short-id: '!!str 056feca4a91fdc96'
+  server: hk03.ccdn3.work
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|1.6MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.1
+  servername: web-production-f59306.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e775fb3-d4f7-44ee-8d39-1482ae746126
+  ws-opts:
+    headers:
+      Host: web-production-f59306.up.railway.app
+    path: /ws/vless/0e775fb3-d4f7-44ee-8d39-1482ae746126?ed=2048
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|3.6MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20450'
+  server: us3.dexlos.com
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_6|2.3MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20378'
+  server: us2.dexlos.com
+  skip-cert-verify: false
+  sni: us2.dexlos.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_7|2.9MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20378'
+  server: us2.dexlos.com
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''

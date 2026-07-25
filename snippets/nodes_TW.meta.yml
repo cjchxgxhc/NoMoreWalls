@@ -1,18 +1,54 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇹🇼 TW 810 | ⬇️ 16MB/s
+  encryption: none
+  name: 🇹🇼 TW 770 | ⬇️ 50KB/s
   network: ws
-  port: 443
-  server: vita.tencentapp.cn
-  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  port: 10243
+  server: 150.230.204.21
+  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
   ws-opts:
     headers:
-      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /glasspanel/0038ba35_0_1bdabe931208/
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: cubic
+  name: 🇹🇼 TW 781 | ⬇️ 364KB/s
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 8080
+  server: tw8.dexlos.com
+  sni: tw8.dexlos.com
+  type: tuic
+  udp: 'true'
+  udp-relay-mode: native
+  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  version: 5
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇼 TW 800 | ⬇️ 7MB/s
+  network: ws
+  port: 2083
+  server: 27.50.48.114
+  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  ws-opts:
+    headers:
+      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+  xudp: true
 - client-fingerprint: random
   name: 🇹🇼 TW 732 | ⬇️ 17MB/s
   network: ws

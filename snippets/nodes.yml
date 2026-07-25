@@ -1,6 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇦🇪 AE 696 | ⬇️ 11MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: /in-pdr
 - delay: 584
-  name: 🇦🇪 AE 695 | ⬇️ 13MB/s
+  name: 🇸🇬SG_1|2.7MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -13,54 +24,6 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|3.8MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /in-pdr
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷 KR 028 | ⬇️ 4MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇧🇪BE
-  name: 🇵🇱 PL 626 | ⬇️ 310KB/s
-  password: sshs8_4875647508
-  port: 3242
-  server: 57.128.198.226
-  type: ss
-- name: 🇺🇸 US 045 | ⬇️ 3MB/s
-  network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  sni: vf3us9.stableq.top
-  type: trojan
-- client-fingerprint: edge
-  country: 🇺🇸US
-  name: 🇲🇾MY_1|2.1MB/s
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20031'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - alpn:
   - ''
   alterId: 0
@@ -81,13 +44,60 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: 🇺🇸 US 070 | ⬇️ 2MB/s
-  network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24421
-  server: vf3us9.stableq.top
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 140 | ⬇️ 20KB/s
+  password: cfe685726eea2c4b
+  port: 6099
+  server: 185.22.154.103
   skip-cert-verify: false
-  sni: vf3us9.stableq.top
+  type: ss
+  udp: false
+- name: 🇮🇩 ID 150 | ⬇️ 1MB/s
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: qfdfsg.wsone.icu
+  sni: qfdfsg.wsone.icu
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 157 | ⬇️ 13KB/s
+  password: fbaf33bcffe53cf9
+  port: 20910
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇰🇷 KR 166 | ⬇️ 2MB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  skip-cert-verify: true
+  sni: touching-pigeon.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 285 | ⬇️ 10KB/s
+  password: 1a87017d0bf57f34
+  port: 30118
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 214 | ⬇️ 11KB/s
+  password: 32c0ea6e823341a2
+  port: 50111
+  server: 185.22.154.254
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: 🇸🇬 SG 582 | ⬇️ 344KB/s
+  network: tcp
+  password: JT80563429
+  port: 443
+  server: smart-pup.rooster465.autos
+  sni: smart-pup.rooster465.autos
   type: trojan
 - alpn:
   - ''
@@ -106,14 +116,17 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 US 204 | ⬇️ 2MB/s
+- client-fingerprint: edge
+  country: 🇺🇸US
+  name: 🇲🇾 MY 634 | ⬇️ 18MB/s
   network: tcp
-  password: 9ec17973-68f5-4a66-b495-178cad2d781a
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  sni: vf3us9.stableq.top
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20031
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   country: 🇮🇷IR
@@ -127,45 +140,55 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- country: 🇺🇸US
+  name: 🇹🇭 TH 678 | ⬇️ 7MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20023
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸 US 539 | ⬇️ 84KB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 054 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 059 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 797 | ⬇️ 1MB/s
+  country: 🇺🇸US
+  name: 🇺🇸 US 788 | ⬇️ 594KB/s
   password: amazonskr05
   port: 443
   server: 54.167.54.100
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 059 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 FR 802 | ⬇️ 17KB/s
+  client-fingerprint: ''
+  name: 🇺🇸 US 748 | ⬇️ 13KB/s
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  port: 30824
+  server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: 🇰🇷 KR 767 | ⬇️ 2MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  type: ss
 - alterId: 2
   cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
   name: 🇬🇧 GB 725 | ⬇️ 22KB/s
   network: tcp
   port: 30836
@@ -175,16 +198,45 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇺🇸US
-  name: 🇹🇭 TH 834 | ⬇️ 8MB/s
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 FR 804 | ⬇️ 17KB/s
   network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20023
-  server: kkvlvvq-a.catcat321.com
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 805 | ⬇️ 49KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 809 | ⬇️ 3MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 539 | ⬇️ 84KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
   name: 🇩🇪 DE 044 | ⬇️ 1MB/s
   network: tcp
@@ -242,6 +294,12 @@ proxies:
   server: powerful-opossum.rooster465.autos
   sni: powerful-opossum.rooster465.autos
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 054 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
 - client-fingerprint: chrome
   name: 🇺🇸 US 055 | ⬇️ 50KB/s
   network: tcp
@@ -438,13 +496,13 @@ proxies:
   port: 82
   server: 94.183.124.95
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 748 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_2|2.0MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 920
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss

@@ -1,17 +1,36 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 645 | ⬇️ 26KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: yFdgeRvZ7pYNp7C5v3sOq1x3gwHxWYem62W2tB9RJ0k
-  server: 201.51.12.199
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3a8da6e-9557-43e3-b8d6-44350d0dc6f7
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 140 | ⬇️ 20KB/s
+  password: cfe685726eea2c4b
+  port: 6099
+  server: 185.22.154.103
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 157 | ⬇️ 13KB/s
+  password: fbaf33bcffe53cf9
+  port: 20910
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 285 | ⬇️ 10KB/s
+  password: 1a87017d0bf57f34
+  port: 30118
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 214 | ⬇️ 11KB/s
+  password: 32c0ea6e823341a2
+  port: 50111
+  server: 185.22.154.254
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - h2
   client-fingerprint: randomized
@@ -34,3 +53,33 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.1MB/s
+  network: tcp
+  port: 751
+  reality-opts:
+    public-key: 8rEONyw_qnJqvPZLDEJwr49YtHhkTuGgZWLCCeEW_wQ
+    short-id: '!!str 66b1be148be9eea4'
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|3.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 91.224.87.181
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
+  xudp: true
