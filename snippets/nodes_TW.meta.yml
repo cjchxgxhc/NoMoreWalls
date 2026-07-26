@@ -1,46 +1,43 @@
 proxies:
-- client-fingerprint: random
-  name: 🇹🇼 TW 538 | ⬇️ 17MB/s
-  network: ws
-  port: 2053
-  server: 108.162.198.240
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
 - alpn:
   - h3
   congestion-controller: cubic
-  name: 🇹🇼 TW 647 | ⬇️ 1MB/s
+  name: '🇹🇼 TW 244 | ⬇️ 929KB/s #1'
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
   port: 8080
-  server: tw8.dexlos.com
-  sni: tw8.dexlos.com
+  server: tw1.dexlos.com
+  sni: tw1.dexlos.com
   type: tuic
   udp: 'true'
   udp-relay-mode: native
   uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
   version: 5
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇹🇼 TW 733 | ⬇️ 7MB/s
-  network: ws
-  port: 2083
-  server: 27.50.48.114
-  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
-  ws-opts:
-    headers:
-      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-  xudp: true
+- alpn:
+  - h3
+  congestion-controller: cubic
+  name: '🇹🇼 TW 519 | ⬇️ 750KB/s #1'
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 8080
+  server: tw9.dexlos.com
+  sni: tw9.dexlos.com
+  type: tuic
+  udp: 'true'
+  udp-relay-mode: native
+  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
+  name: '🇹🇼 TW 751 | ⬇️ 1MB/s #1'
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 8080
+  reduce-rtt: false
+  request-timeout: 0
+  server: tw8.dexlos.com
+  skip-cert-verify: true
+  sni: tw8.dexlos.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  version: 5

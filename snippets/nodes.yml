@@ -1,18 +1,6 @@
 proxies:
-- name: 🇮🇳 IN 547 | ⬇️ 13MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.8MB/s
+  name: 🇸🇬SG_5|4.6MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
@@ -23,36 +11,64 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
     path: /in-pdr
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 762 | ⬇️ 3MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱NL
+  name: '🇳🇱 NL 020 | ⬇️ 4MB/s #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸 US 079 | ⬇️ 3MB/s
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: 40031
-  server: permission_level_01.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 155 | ⬇️ 59KB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 021 | ⬇️ 3MB/s #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)7836d8f7:130689
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  type: ss
+  udp: false
+- delay: 584
+  name: '🇮🇳 IN 868 | ⬇️ 14MB/s #1'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 028 | ⬇️ 4MB/s #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)7836d8f7:130689
+    mode: tls
+  port: 2377
+  server: 88.210.36.108
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 037 | ⬇️ 32KB/s #1'
+  password: b24a80e79cee1d1f
+  port: 10210
+  server: 195.133.5.207
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 0
@@ -64,7 +80,7 @@ proxies:
     method: GET
     path:
     - /x
-  name: 🇭🇰 HK 626 | ⬇️ 3KB/s
+  name: '🇭🇰 HK 770 | ⬇️ 4KB/s #1'
   network: http
   port: 800
   server: 47.86.167.194
@@ -73,6 +89,21 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: '🇺🇸 US 674 | ⬇️ 921KB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇭🇰 HK 214 | ⬇️ 11KB/s #1'
+  password: 7e1dd4c55bf85da5
+  port: 20166
+  server: 212.192.13.145
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 2
@@ -81,7 +112,7 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 741 | ⬇️ 6KB/s
+  name: '🇭🇰 HK 796 | ⬇️ 4KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -90,21 +121,27 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 222 | ⬇️ 2KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: '🇹🇷 TR 292 | ⬇️ 3MB/s #1'
+  password: XFPpyuqk3H0Y8JVpVGqSJw
+  port: 1080
+  server: Vpna.Poorifast.ir
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 632 | ⬇️ 52KB/s #1'
+  password: Yq42Vx56a2SghCnLtOyOCF
+  port: 443
+  server: 216.105.168.19
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 🇩🇪 DE 716 | ⬇️ 49KB/s
+  name: '🇩🇪 DE 829 | ⬇️ 49KB/s #1'
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -112,151 +149,57 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇺🇸 US 753 | ⬇️ 1MB/s
+  name: '🇺🇸 US 838 | ⬇️ 1MB/s #1'
   password: amazonskr05
   port: 443
-  server: 54.167.54.100
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬 SG 724 | ⬇️ 545KB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 054 | ⬇️ 15KB/s
-  password: 1a87017d0bf57f34
-  port: 30118
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 091 | ⬇️ 16KB/s
-  password: cfe685726eea2c4b
-  port: 6099
-  server: 185.22.154.103
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 094 | ⬇️ 16KB/s
-  password: fbaf33bcffe53cf9
-  port: 20910
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇺🇸 US 102 | ⬇️ 1MB/s
-  network: tcp
-  password: eacaae1b-fb87-4111-9300-9dbc621d68bc
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  sni: vf3us9.stableq.top
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 186 | ⬇️ 17KB/s
-  password: 32c0ea6e823341a2
-  port: 50111
-  server: 185.22.154.254
+  server: 54.197.30.38
   skip-cert-verify: false
   type: ss
   udp: false
 - alterId: 0
-  country: 🇺🇸US
-  name: 🇹🇭 TH 552 | ⬇️ 7MB/s
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20023
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 585 | ⬇️ 344KB/s
-  network: tcp
-  password: JT80563429
+  cipher: auto
+  name: '🇯🇵 JP 843 | ⬇️ 9MB/s #1'
+  network: ws
   port: 443
-  server: smart-pup.rooster465.autos
-  sni: smart-pup.rooster465.autos
-  type: trojan
-- name: 🇰🇷 KR 555 | ⬇️ 2MB/s
-  network: tcp
-  password: JT80563429
-  port: 443
-  server: touching-pigeon.rooster465.autos
-  skip-cert-verify: true
-  sni: touching-pigeon.rooster465.autos
-  type: trojan
+  server: vps123.kbxa.top
+  servername: vps123.kbxa.top
+  tls: true
+  type: vmess
+  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
+  ws-opts:
+    headers:
+      Host: vps123.kbxa.top
+    path: /123
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 FR 691 | ⬇️ 30KB/s
+  name: '🇺🇸 US 857 | ⬇️ 10MB/s #1'
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷 KR 723 | ⬇️ 2MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
-- alterId: 2
+- name: 🇯🇵JP_1|1.5MB/s
+  password: AQ71834695
+  port: 443
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 🇺🇸 US 760 | ⬇️ 3MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  name: 🇺🇸US_7|3.3MB/s
+  network: ws
+  port: 2086
+  server: 154.17.234.39
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇮 FI 764 | ⬇️ 1MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: true
-  sni: h---MiTiVPN---MiTiVPN-u.Maqror.IR
-  type: trojan
+  udp: true
+  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=finland
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 767 | ⬇️ 3MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 768 | ⬇️ 1MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.18.16.56
-  skip-cert-verify: true
-  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=des
+    headers:
+      Host: www.bing.com
+    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
