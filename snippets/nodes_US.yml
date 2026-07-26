@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 US 021 | ⬇️ 3MB/s #1'
+  name: 🇺🇸 US 021 | ⬇️ 3MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -12,7 +12,7 @@ proxies:
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 US 028 | ⬇️ 4MB/s #1'
+  name: 🇺🇸 US 028 | ⬇️ 4MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -23,22 +23,36 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 110 | ⬇️ 20KB/s
+  network: ws
+  port: 8080
+  server: 173.249.200.68
+  tls: false
+  type: vmess
+  uuid: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /79a295f7-8cfe-46ca-aed6-ebef1f3be53b-vm
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 632 | ⬇️ 52KB/s
+  password: Yq42Vx56a2SghCnLtOyOCF
+  port: 443
+  server: 216.105.168.19
+  skip-cert-verify: false
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: '🇺🇸 US 674 | ⬇️ 921KB/s #1'
+  name: 🇺🇸 US 674 | ⬇️ 921KB/s
   password: amazonskr05
   port: 443
   server: 54.167.54.100
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 US 632 | ⬇️ 52KB/s #1'
-  password: Yq42Vx56a2SghCnLtOyOCF
-  port: 443
-  server: 216.105.168.19
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: '🇺🇸 US 838 | ⬇️ 1MB/s #1'
+  name: 🇺🇸 US 838 | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 54.197.30.38
@@ -47,7 +61,7 @@ proxies:
   udp: false
 - alterId: 2
   cipher: auto
-  name: '🇺🇸 US 857 | ⬇️ 10MB/s #1'
+  name: 🇺🇸 US 857 | ⬇️ 10MB/s
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -56,18 +70,3 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_7|3.3MB/s
-  network: ws
-  port: 2086
-  server: 154.17.234.39
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm

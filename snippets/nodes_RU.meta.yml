@@ -1,17 +1,43 @@
 proxies:
+- name: 🇷🇺 RU 646 | ⬇️ 40KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 23344
+  server: 217.149.19.15
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 85da2b09-1a08-4dac-9ef0-888138b11703
 - cipher: aes-256-gcm
-  name: '🇷🇺 RU 037 | ⬇️ 32KB/s #1'
+  name: 🇷🇺 RU 037 | ⬇️ 32KB/s
   password: b24a80e79cee1d1f
   port: 10210
   server: 195.133.5.207
   skip-cert-verify: false
   type: ss
   udp: false
-- name: '🇷🇺 RU 646 | ⬇️ 40KB/s #1'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 169 | ⬇️ 867KB/s
   network: tcp
-  port: 23344
-  server: 217.149.19.15
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc
+    short-id: '!!str bef240e96a8474a3'
+  server: 45.12.4.103
+  servername: russia.cendora.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 85da2b09-1a08-4dac-9ef0-888138b11703
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+- cipher: aes-128-gcm
+  name: 🇷🇺RU_1|2.5MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 1549
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss

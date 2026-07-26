@@ -1,7 +1,176 @@
 proxies:
-- auth: qfcdqzQundefinedRh
-  fingerprint: 06c9289b97b5b4d2a002cce385e52ed6a434c9e0b4e56fc8eb7f608b7079ea9d
-  name: 🇩🇪DE_1|2.1MB/s
+- name: 🇩🇪 DE 136 | ⬇️ 40KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.56.7
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪 DE 226 | ⬇️ 9KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9892
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  server: 72.56.38.194
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 🇩🇪 DE 265 | ⬇️ 2MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.57.106.87
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- encryption: none
+  name: 🇩🇪 DE 110 | ⬇️ 15KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 45347
+  server: hhhh.naxv.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0d14ccf3-1f3f-44c6-86d3-f90ca7983cad
+  xhttp-opts:
+    host: myket.ir
+    mode: stream-up
+    path: /assets
+    x-padding-bytes: 100-1000
+- encryption: none
+  name: 🇩🇪 DE 341 | ⬇️ 46KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 180 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8UuggclWEj6kmrWsZ02rhYSc_psqpgxh6p51nT_OYQY
+    short-id: '!!str 2fa5af8517aba419'
+  server: 155.212.147.82
+  servername: browser.yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b20a32d-d2ff-4425-93e0-ed1b121e8130
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
+  flow: xtls-rprx-vision
+  http-opts:
+    headers:
+      Host:
+      - bale.ai,web.igap.net,web.splus.ir
+    path:
+    - /@ProxyVPNVip
+  name: 🇩🇪 DE 267 | ⬇️ 19KB/s
+  network: http
+  packet-encoding: xudp
+  port: 8080
+  reality-opts:
+    _spider-x: /rfQz2El5LQ8FTVS
+    public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
+    short-id: '!!str 49d12a'
+  server: 95.38.197.126
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  country: 🇺🇸US
+  down: ''
+  fingerprint: ''
+  name: 🇷🇴RO_1|1.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: '8443'
+  server: 76.164.202.213
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
+  tfo: false
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 🇩🇪 DE 584 | ⬇️ 5MB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  tls: false
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇩🇪 DE 283 | ⬇️ 1MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 🇩🇪 DE 723 | ⬇️ 158KB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 5.178.96.232
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- fingerprint: 06c9289b97b5b4d2a002cce385e52ed6a434c9e0b4e56fc8eb7f608b7079ea9d
+  name: 🇩🇪 DE 715 | ⬇️ 9MB/s
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: qfcdqzQundefinedRh
@@ -17,7 +186,7 @@ proxies:
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 045 | ⬇️ 257KB/s #1'
+  name: 🇩🇪 DE 045 | ⬇️ 257KB/s
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -34,26 +203,10 @@ proxies:
       Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
     max-early-data: 2560
     path: /intro/search
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  country: 🇺🇸US
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_3|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: '8443'
-  server: 76.164.202.213
-  skip-cert-verify: false
-  sni: mercedes-grape.yyuyy.com
-  tfo: false
-  type: hysteria2
-  udp: true
-  up: ''
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪 DE 087 | ⬇️ 22KB/s #1'
+  name: 🇩🇪 DE 087 | ⬇️ 22KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -67,26 +220,10 @@ proxies:
   udp: true
   uuid: ad790e5f-3e31-43c6-b047-336577a3b3de
 - encryption: none
-  name: '🇩🇪 DE 110 | ⬇️ 15KB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 45347
-  server: hhhh.naxv.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0d14ccf3-1f3f-44c6-86d3-f90ca7983cad
-  xhttp-opts:
-    host: myket.ir
-    mode: stream-up
-    path: /assets
-    x-padding-bytes: 100-1000
-- encryption: none
   http-opts:
     path:
     - /
-  name: '🇩🇪 DE 124 | ⬇️ 3KB/s #1'
+  name: 🇩🇪 DE 124 | ⬇️ 3KB/s
   network: http
   packet-encoding: xudp
   port: 8882
@@ -99,7 +236,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: '🇩🇪 DE 125 | ⬇️ 34KB/s #1'
+  name: 🇩🇪 DE 125 | ⬇️ 34KB/s
   network: grpc
   packet-encoding: xudp
   port: 9877
@@ -113,26 +250,13 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- name: '🇩🇪 DE 136 | ⬇️ 40KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 174 | ⬇️ 148KB/s #1'
+  name: 🇩🇪 DE 174 | ⬇️ 148KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -147,85 +271,11 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: '🇩🇪 DE 265 | ⬇️ 2MB/s #1'
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.57.106.87
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
-  flow: xtls-rprx-vision
-  http-opts:
-    headers:
-      Host:
-      - bale.ai,web.igap.net,web.splus.ir
-    path:
-    - /@ProxyVPNVip
-  name: '🇩🇪 DE 267 | ⬇️ 19KB/s #1'
-  network: http
-  packet-encoding: xudp
-  port: 8080
-  reality-opts:
-    _spider-x: /rfQz2El5LQ8FTVS
-    public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
-    short-id: '!!str 49d12a'
-  server: 95.38.197.126
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: '🇩🇪 DE 723 | ⬇️ 158KB/s #1'
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 5.178.96.232
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: '🇩🇪 DE 283 | ⬇️ 1MB/s #1'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: '🇩🇪 DE 584 | ⬇️ 5MB/s #1'
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  tls: false
-  type: socks5
-  username: ''
 - http-opts:
     method: GET
     path:
     - /
-  name: '🇩🇪 DE 856 | ⬇️ 66KB/s #1'
+  name: 🇩🇪 DE 856 | ⬇️ 66KB/s
   network: http
   port: 8882
   server: 46.8.228.239
@@ -233,28 +283,13 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- encryption: none
-  name: '🇩🇪 DE 341 | ⬇️ 46KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 683 | ⬇️ 3MB/s #1'
+  name: 🇩🇪 DE 683 | ⬇️ 3MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -274,7 +309,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪 DE 712 | ⬇️ 16KB/s #1'
+  name: 🇩🇪 DE 712 | ⬇️ 16KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -293,23 +328,20 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '🇩🇪 DE 829 | ⬇️ 49KB/s #1'
+  name: 🇩🇪 DE 829 | ⬇️ 49KB/s
   network: tcp
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.20
-  servername: ai.sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 440c0fed-6aa7-4c5b-8e54-5a198712c4e4
+- cipher: aes-128-gcm
+  name: 🇩🇪DE_1|2.6MB/s
+  password: dajkbgja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 39073
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
