@@ -1,8 +1,44 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.1MB/s
+  encryption: none
+  name: 🇫🇷 FR 093 | ⬇️ 111KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 5666
+  reality-opts:
+    _spider-x: /c35feea118504ea
+    public-key: 0qp2ibLJZMNQfIQYAbYmZzhyeeKRgVjm2AGxgbNDWhg
+    short-id: '!!str 2539f132f20e7271'
+  server: fr2-azad.0xoddity.ir
+  servername: s.yimg.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c5853e1-a606-4aa2-bbfa-86a7b58d43b1
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api
+  name: 🇫🇷 FR 104 | ⬇️ 7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 19168
+  reality-opts:
+    _spider-x: /
+    public-key: j9-PqbvTxOh3VZ_Sz696WKpEEFvft1CzUzzIvGCJn0w
+    short-id: '!!str baeaf515feed2c64'
+  server: 45.95.233.185
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 130 | ⬇️ 752KB/s
   network: ws
-  port: '8443'
+  port: 8443
   server: ad-020.pixel9xdmq.info
   servername: ad-020.pixel9xdmq.info
   tls: true
@@ -12,18 +48,7 @@ proxies:
   ws-opts:
     headers:
       Host: ad-020.pixel9xdmq.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇷 FR 693 | ⬇️ 1MB/s
-  network: tcp
-  password: PD07395842
-  port: 443
-  server: tough-pigeon.rooster465.autos
-  sni: tough-pigeon.rooster465.autos
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇷 FR 087 | ⬇️ 740KB/s
@@ -77,3 +102,19 @@ proxies:
   type: anytls
   udp: true
   username: github.com/Alvin9999-newpac/fanqiang
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|3.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ZA-uARnWouiLN6A2ixv52zEAAw2L7Oa3nFN5qEBQqxQ
+    short-id: '!!str f6dd5183f535'
+  server: 45.38.228.148
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cc99ce2-186b-4cfd-83fe-df5bf5484519
+  xudp: true

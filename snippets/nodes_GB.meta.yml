@@ -1,6 +1,14 @@
 proxies:
+- name: 🇬🇧 GB 054 | ⬇️ 9MB/s
+  password: d4d98c6c-f5ad-4994-8a96-9915c1fc9a5e
+  port: 52785
+  server: 5.183.102.113
+  skip-cert-verify: true
+  sni: 5.183.102.113
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇬🇧 GB 101 | ⬇️ 2MB/s
+  name: 🇬🇧 GB 188 | ⬇️ 2MB/s
   network: ws
   port: 8443
   server: ad-010.pixel9xdmq.info
@@ -13,19 +21,6 @@ proxies:
     headers:
       Host: ad-010.pixel9xdmq.info
     path: /
-- client-fingerprint: firefox
-  name: 🇬🇧 GB 618 | ⬇️ 2MB/s
-  network: xhttp
-  port: 8443
-  server: jush.sukario.ir
-  servername: wyo19lkw.miradion.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-  xhttp-opts:
-    host: wyo19lkw.miradion.info
-    path: /adycon
 - ech-opts:
     _dns: udp://178.22.122.100
     enable: true
@@ -74,3 +69,63 @@ proxies:
   type: vless
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+- client-fingerprint: firefox
+  name: 🇬🇧 GB 618 | ⬇️ 2MB/s
+  network: xhttp
+  port: 8443
+  server: jush.sukario.ir
+  servername: wyo19lkw.miradion.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
+  xhttp-opts:
+    host: wyo19lkw.miradion.info
+    path: /adycon
+- client-fingerprint: chrome
+  name: 🇬🇧GB_1|2.4MB/s
+  network: ws
+  port: 443
+  server: 57.128.177.198
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳+
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.47.18
+  servername: gb.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e19e2c5-2f0c-4330-8c79-2fb13fd49928
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.0MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 140.233.160.24
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  xudp: true
