@@ -1,25 +1,21 @@
 proxies:
-- name: 🇷🇺 RU 646 | ⬇️ 40KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 23344
-  server: 217.149.19.15
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 85da2b09-1a08-4dac-9ef0-888138b11703
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 037 | ⬇️ 32KB/s
+  name: 🇷🇺 RU 024 | ⬇️ 16KB/s
   password: b24a80e79cee1d1f
   port: 10210
   server: 195.133.5.207
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 090 | ⬇️ 15KB/s
+  password: 32c0ea6e823341a2
+  port: 50111
+  server: 185.22.154.254
+  type: ss
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 169 | ⬇️ 867KB/s
+  name: 🇷🇺 RU 628 | ⬇️ 867KB/s
   network: tcp
   port: 443
   reality-opts:
@@ -31,13 +27,11 @@ proxies:
   type: vless
   udp: true
   uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-- cipher: aes-128-gcm
-  name: 🇷🇺RU_1|2.5MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 94aaf10040.download.windowsupdate.com
-    mode: http
-  port: 1549
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
+- name: 🇷🇺 RU 714 | ⬇️ 13KB/s
+  network: tcp
+  port: 23344
+  server: 217.149.19.15
+  tls: false
+  type: vless
+  udp: true
+  uuid: 85da2b09-1a08-4dac-9ef0-888138b11703

@@ -2,20 +2,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: cubic
-  name: 🇹🇼 TW 244 | ⬇️ 929KB/s
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: 8080
-  server: tw1.dexlos.com
-  sni: tw1.dexlos.com
-  type: tuic
-  udp: 'true'
-  udp-relay-mode: native
-  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  version: 5
-- alpn:
-  - h3
-  congestion-controller: cubic
-  name: 🇹🇼 TW 519 | ⬇️ 750KB/s
+  name: 🇹🇼 TW 579 | ⬇️ 750KB/s
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
   port: 8080
   server: tw9.dexlos.com
@@ -28,16 +15,22 @@ proxies:
 - alpn:
   - h3
   congestion-controller: cubic
-  disable-sni: false
-  name: 🇹🇼 TW 751 | ⬇️ 1MB/s
+  name: 🇹🇼 TW 696 | ⬇️ 929KB/s
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
   port: 8080
-  reduce-rtt: false
-  request-timeout: 0
-  server: tw8.dexlos.com
-  skip-cert-verify: true
-  sni: tw8.dexlos.com
+  server: tw1.dexlos.com
+  sni: tw1.dexlos.com
   type: tuic
+  udp: 'true'
   udp-relay-mode: native
   uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
   version: 5
+- name: 🇹🇼TW_1|2.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=

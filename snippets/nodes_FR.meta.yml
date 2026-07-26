@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇫🇷 FR 056 | ⬇️ 3MB/s
+  name: 🇫🇷 FR 071 | ⬇️ 1MB/s
   password: 261d95d4-73c0-4c33-957a-04b6d407bea2
   port: 27947
   server: 83.243.86.109
@@ -12,38 +12,16 @@ proxies:
   udp-relay-mode: native
   uuid: 261d95d4-73c0-4c33-957a-04b6d407bea2
   version: 5
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: your-custom-path
-  name: 🇫🇷 FR 179 | ⬇️ 25KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: '!!str 2da4299da566b7'
-  server: 85.192.30.86
-  servername: maps.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 FR 841 | ⬇️ 3MB/s
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.5MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 5666
+  port: 443
   reality-opts:
-    _spider-x: /c35feea118504ea
-    public-key: 0qp2ibLJZMNQfIQYAbYmZzhyeeKRgVjm2AGxgbNDWhg
-    short-id: '!!str 2539f132f20e7271'
-  server: fr2-azad.0xoddity.ir
-  servername: s.yimg.com
-  skip-cert-verify: false
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
   tls: true
   type: vless
-  udp: true
-  uuid: 0c5853e1-a606-4aa2-bbfa-86a7b58d43b1
+  uuid: b6af5776-fede-4765-b86c-806e827e9a07

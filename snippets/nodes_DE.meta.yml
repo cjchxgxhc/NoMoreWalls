@@ -1,71 +1,11 @@
 proxies:
-- name: 🇩🇪 DE 136 | ⬇️ 40KB/s
+- encryption: none
+  name: 🇩🇪 DE 546 | ⬇️ 27KB/s
   network: ws
   packet-encoding: xudp
   port: 80
   server: 151.101.56.7
   skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪 DE 226 | ⬇️ 9KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  server: 72.56.38.194
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 265 | ⬇️ 2MB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.57.106.87
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- encryption: none
-  name: 🇩🇪 DE 110 | ⬇️ 15KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 45347
-  server: hhhh.naxv.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0d14ccf3-1f3f-44c6-86d3-f90ca7983cad
-  xhttp-opts:
-    host: myket.ir
-    mode: stream-up
-    path: /assets
-    x-padding-bytes: 100-1000
-- encryption: none
-  name: 🇩🇪 DE 341 | ⬇️ 46KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -73,25 +13,16 @@ proxies:
   ws-opts:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 180 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8UuggclWEj6kmrWsZ02rhYSc_psqpgxh6p51nT_OYQY
-    short-id: '!!str 2fa5af8517aba419'
-  server: 155.212.147.82
-  servername: browser.yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b20a32d-d2ff-4425-93e0-ed1b121e8130
+- name: 🇩🇪 DE 594 | ⬇️ 5MB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision
@@ -101,7 +32,7 @@ proxies:
       - bale.ai,web.igap.net,web.splus.ir
     path:
     - /@ProxyVPNVip
-  name: 🇩🇪 DE 267 | ⬇️ 19KB/s
+  name: 🇩🇪 DE 318 | ⬇️ 19KB/s
   network: http
   packet-encoding: xudp
   port: 8080
@@ -116,147 +47,127 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  country: 🇺🇸US
-  down: ''
-  fingerprint: ''
-  name: 🇷🇴RO_1|1.9MB/s
-  obfs: ''
-  obfs-password: ''
+- encryption: none
+  name: 🇩🇪 DE 088 | ⬇️ 17KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 50417
+  server: 91.107.139.186
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇩🇪 DE 044 | ⬇️ 39KB/s
+  network: tcp
+  port: 51459
+  server: 91.107.139.186
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- encryption: none
+  name: 🇩🇪 DE 031 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2082
+  server: pa.apexi.shop
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b4645f74-4f32-4d46-bbed-a40af9d78096
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪 DE 160 | ⬇️ 31KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 44443
+  reality-opts:
+    public-key: kk6t0xig_xZViUWnM-hjRGY_-P29fA6DUggL2eEkyRg
+  server: 193.233.218.49
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4ee2a7b-1966-4611-897f-c27f3e0e0b4a
+- encryption: none
+  name: 🇩🇪 DE 531 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+  xudp: true
+- country: 🇺🇸US
+  name: 🇩🇪 DE 708 | ⬇️ 4MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: '8443'
+  port: 8443
   server: 76.164.202.213
   skip-cert-verify: false
   sni: mercedes-grape.yyuyy.com
   tfo: false
   type: hysteria2
   udp: true
-  up: ''
-- name: 🇩🇪 DE 584 | ⬇️ 5MB/s
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇩🇪 DE 283 | ⬇️ 1MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 723 | ⬇️ 158KB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 5.178.96.232
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- fingerprint: 06c9289b97b5b4d2a002cce385e52ed6a434c9e0b4e56fc8eb7f608b7079ea9d
-  name: 🇩🇪 DE 715 | ⬇️ 9MB/s
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: qfcdqzQundefinedRh
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 045 | ⬇️ 257KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 178.128.192.26
-  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-    max-early-data: 2560
-    path: /intro/search
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 087 | ⬇️ 22KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: inkvLvTWXaBAAubrTpivxrJAWPYldv2rBG25zzCd6k0
-  server: zonid.ietotozheproidet.site
-  servername: dowload.max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad790e5f-3e31-43c6-b047-336577a3b3de
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 124 | ⬇️ 3KB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.56.205.78
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - client-fingerprint: qq
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: 🇩🇪 DE 125 | ⬇️ 34KB/s
+  name: 🇵🇱 PL 519 | ⬇️ 10KB/s
   network: grpc
   packet-encoding: xudp
-  port: 9877
+  port: 9892
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aa'
-  server: 89.108.71.40
+  server: 72.56.38.194
   servername: dl.google.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+- encryption: none
+  name: 🇩🇪 DE 504 | ⬇️ 13KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 45347
+  server: hhhh.naxv.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0d14ccf3-1f3f-44c6-86d3-f90ca7983cad
+  xhttp-opts:
+    host: myket.ir
+    mode: stream-up
+    path: /assets
+    x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: 🇩🇪 DE 174 | ⬇️ 148KB/s
+  name: 🇩🇪 DE 577 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -271,77 +182,20 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇩🇪 DE 856 | ⬇️ 66KB/s
-  network: http
-  port: 8882
-  server: 46.8.228.239
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 683 | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 152.53.236.205
-  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-    max-early-data: 2560
-    path: /thread/drama/photo
 - client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 712 | ⬇️ 16KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 🇩🇪DE_1|1.5MB/s
+  network: grpc
+  port: '443'
   reality-opts:
-    public-key: WTCfu0XRIGi93MomsdOxuLOdnjXBkaaVZqaJWpxxYlk
-    short-id: '!!str d8f3a9c2'
-  server: 2.26.84.95
-  servername: api.avito.ru
-  skip-cert-verify: false
+    public-key: Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw
+    short-id: '!!str 9329f8b5985b2a7d'
+  server: 46.8.209.56
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 829 | ⬇️ 49KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 🇩🇪DE_1|2.6MB/s
-  password: dajkbgja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 94aaf10040.download.windowsupdate.com
-    mode: http
-  port: 39073
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
+  uuid: 87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47
+  xudp: true

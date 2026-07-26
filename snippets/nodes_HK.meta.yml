@@ -1,39 +1,11 @@
 proxies:
-- name: 🇭🇰 HK 644 | ⬇️ 2MB/s
+- name: 🇭🇰 HK 465 | ⬇️ 27KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - sjskendn.dingtalk.com
-    method: GET
-    path:
-    - /x
-  name: 🇭🇰 HK 770 | ⬇️ 4KB/s
-  network: http
-  port: 800
-  server: 47.86.167.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- cipher: aes-256-gcm
-  name: 🇭🇰 HK 214 | ⬇️ 11KB/s
-  password: 7e1dd4c55bf85da5
-  port: 20166
-  server: 212.192.13.145
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇭🇰 HK 822 | ⬇️ 9KB/s
+- name: 🇭🇰 HK 489 | ⬇️ 9KB/s
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
@@ -46,9 +18,10 @@ proxies:
   cipher: auto
   client-fingerprint: ''
   country: 🇮🇷IR
+  delay: 769
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 796 | ⬇️ 4KB/s
+  name: 🇭🇰 HK 637 | ⬇️ 2KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -57,7 +30,29 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 861 | ⬇️ 78KB/s
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+    method: GET
+    path:
+    - /x
+  name: 🇭🇰 HK 614 | ⬇️ 4KB/s
+  network: http
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰 HK 512 | ⬇️ 367KB/s
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -67,17 +62,44 @@ proxies:
   sni: 127.0.0.1
   tfo: false
   type: hysteria2
-- name: 🇭🇰HK_1|4.3MB/s
+  up: ''
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 122 | ⬇️ 542KB/s
   network: ws
-  port: 8443
-  server: 207.174.133.111
-  servername: ty986gfazs.cainiaohub.xyz
-  skip-cert-verify: true
+  port: 2053
+  server: 91.193.58.217
+  servername: vlso.1d.mom
   tls: true
   type: vless
-  udp: true
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   ws-opts:
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      Host: vlso.1d.mom
+    path: /socks5=888:888@8.210.127.248:1080
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 125 | ⬇️ 1MB/s
+  network: ws
+  port: 2096
+  server: 91.193.59.246
+  servername: vlso.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso.1d.mom
+    path: /socks5=888:888@8.210.127.248:1080
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 518 | ⬇️ 7KB/s
+  network: ws
+  port: 443
+  server: 7timuei1uufoixbf.v.3dns.vip
+  servername: 7tImuei1uuFOiXbf.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 7tImuei1uuFOiXbf.v.3dns.vip
+    path: /ws-vmess
