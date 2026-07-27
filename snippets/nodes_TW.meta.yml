@@ -1,36 +1,13 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: cubic
-  name: 🇹🇼 TW 579 | ⬇️ 750KB/s
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: 8080
-  server: tw9.dexlos.com
-  sni: tw9.dexlos.com
-  type: tuic
-  udp: 'true'
-  udp-relay-mode: native
-  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  version: 5
-- alpn:
-  - h3
-  congestion-controller: cubic
-  name: 🇹🇼 TW 696 | ⬇️ 929KB/s
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: 8080
-  server: tw1.dexlos.com
-  sni: tw1.dexlos.com
-  type: tuic
-  udp: 'true'
-  udp-relay-mode: native
-  uuid: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  version: 5
-- name: 🇹🇼TW_1|3.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- disable-sni: 'true'
+  name: '🇹🇼 TW 007 | ⬇️ 1MB/s #1'
+  packet-encoding: ''
+  packetEncoding: none
+  password: c90afede-81f8-439d-9a20-f45579f623ec
+  port: 443
+  server: yazhou05.netvigor.cc
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+  username: c90afede-81f8-439d-9a20-f45579f623ec

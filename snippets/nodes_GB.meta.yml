@@ -1,10 +1,22 @@
 proxies:
+- client-fingerprint: firefox
+  name: '🇬🇧 GB 165 | ⬇️ 54KB/s #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
+  server: pro-uk.emrata.top
+  servername: pro-uk.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecedc1d3-6853-4cfd-b65c-1753c9ad57b2
 - ech-opts:
     _dns: udp://178.22.122.100
     enable: true
     query-server-name: 54.mk
   encryption: none
-  name: 🇳🇱 NL 683 | ⬇️ 1MB/s
+  name: '🇳🇱 NL 264 | ⬇️ 2MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -19,63 +31,45 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 724 | ⬇️ 160KB/s
-  network: tcp
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  ech-opts:
+    _dns: udp://78.157.42.101
+    enable: true
+    query-server-name: www.ipget.net
+  encryption: none
+  name: '🇬🇧 GB 270 | ⬇️ 4MB/s #1'
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: '!!str 9e4eced6e98ed4d4'
-  server: ie.orpheous.ru
-  servername: ie.orpheous.ru
+  server: PishDad.Org
+  servername: vangoghhh.info
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ac5313ae-803b-4104-a047-94c97ecb621e
-- name: 🇬🇧 GB 015 | ⬇️ 4MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.179.138.96
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tfo: false
-  type: hysteria2
-- name: 🇬🇧 GB 046 | ⬇️ 2MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.171.236.87
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2
-  tfo: false
-  type: hysteria2
-- client-fingerprint: firefox
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 GB 728 | ⬇️ 1MB/s
+  name: '🇬🇧 GB 394 | ⬇️ 39KB/s #1'
   network: tcp
-  port: 443
+  packet-encoding: xudp
+  port: 50653
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.19
-  servername: abuse.sellflow.org
+    public-key: 4lp5kcYnQrNUiXBwI4HOWOFtydwZuGF88OECrc7n6To
+    short-id: '!!str 0cfa2dc8e156982c'
+  server: 141.98.157.134
+  servername: www.microsoft.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.2MB/s
-  network: tcp
-  port: '4343'
-  reality-opts:
-    public-key: idAD9lBougKTjO-EoWH03ieKqplNFUQ9lnYwU-USVys
-    short-id: '!!str d8f3a9c2'
-  server: swdh1.redemshenvpn.site
-  servername: metrika.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
-  xudp: true
+  uuid: 716c4c2b-82f0-4ce1-b9fc-aef901df3941

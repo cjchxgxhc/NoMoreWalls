@@ -1,12 +1,15 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇸🇪 SE 695 | ⬇️ 2MB/s
+  encryption: none
+  name: '🇸🇪 SE 759 | ⬇️ 2MB/s #1'
   network: xhttp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
   server: 170.168.99.3
   servername: cdn.steamstatic.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -15,40 +18,3 @@ proxies:
     host: cdn.steamstatic.com
     mode: auto
     path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇸🇪 SE 598 | ⬇️ 819KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9878
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabbccdd'
-  server: 5.42.106.202
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 593 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: '!!str e91da98020a38be9'
-  server: 138.124.254.238
-  servername: russia.cendora.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc1b3bda-b226-0002-8c5c-b0e36a1f8f88

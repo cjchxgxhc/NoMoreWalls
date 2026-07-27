@@ -1,15 +1,6 @@
 proxies:
-- name: 🇯🇵 JP 009 | ⬇️ 16MB/s
-  network: tcp
-  password: AQ71834695
-  port: 443
-  server: integral-elf.rooster465.autos
-  skip-cert-verify: true
-  sni: integral-elf.rooster465.autos
-  type: trojan
-  udp: true
 - delay: 584
-  name: 🇸🇬SG_1|2.9MB/s
+  name: '🇮🇳 IN 722 | ⬇️ 14MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -23,48 +14,76 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - client-fingerprint: chrome
-  name: 🇮🇳 IN 722 | ⬇️ 6MB/s
+  name: '🇦🇪 AE 726 | ⬇️ 8MB/s #1'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     path: /in-pdr
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱NL
+  name: '🇳🇱 NL 734 | ⬇️ 973KB/s #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-gcm
-  name: 🇨🇦 CA 047 | ⬇️ 173KB/s
+  name: '🇨🇦 CA 744 | ⬇️ 128KB/s #1'
   password: 2803361d6c196af8
   port: 10210
   server: 50.114.177.134
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 🇸🇬 SG 081 | ⬇️ 19KB/s
-  password: M4V3M2lPgBHP
-  port: 8388
-  server: 192.124.176.34
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
+  name: '🇨🇭 CH 188 | ⬇️ 40KB/s #1'
+  network: grpc
+  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
+  port: 18936
+  reality-opts:
+    public-key: myxNd1bvr963QPX-04CKcKkXSUfiUn2lLEQrdN4I4ms
+    short-id: '141d17dfc73efe2c'
+  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
+  sni: rd.autos.yahoo.com:443
+  type: trojan
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇦🇪 AE 330 | ⬇️ 7MB/s #1'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 104.18.1.1
   skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇭🇰 HK 082 | ⬇️ 1MB/s
-  password: bZdUxa3GhvOY
-  port: 8388
-  server: 212.192.15.141
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 SG 492 | ⬇️ 16KB/s
-  password: i8asar9lrxhavh38
-  port: 51435
-  server: 178.128.86.181
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
+  name: '🇫🇷 FR 333 | ⬇️ 12KB/s #1'
+  network: grpc
+  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
+  port: 51405
+  reality-opts:
+    public-key: gKnW_-1RMWzyOOfGRrVYmYrKZlpjSeaYNtqMD3Ti6FM
+    short-id: 'c6602ca83b10028e'
+  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
+  sni: rd.autos.yahoo.com:443
+  type: trojan
 - alpn:
   - ''
   alterId: 2
@@ -74,40 +93,25 @@ proxies:
   delay: 769
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 637 | ⬇️ 2KB/s
+  name: '🇭🇰 HK 840 | ⬇️ 3KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵 JP 539 | ⬇️ 4MB/s
-  network: tcp
-  password: AQ71834695
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 752 | ⬇️ 23KB/s #1'
+  password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
-  server: better-silkworm.rooster465.autos
+  server: 216.105.168.19
   skip-cert-verify: true
-  sni: better-silkworm.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 543 | ⬇️ 2MB/s
-  network: tcp
-  password: AQ71834695
-  port: 443
-  server: enabling-asp.rooster465.autos
-  skip-cert-verify: true
-  sni: enabling-asp.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 546 | ⬇️ 122KB/s
-  network: tcp
-  password: AQ71834695
-  port: 443
-  server: concise-lacewing.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-lacewing.rooster465.autos
-  type: trojan
-  udp: true
+  tls: true
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 0
@@ -119,7 +123,7 @@ proxies:
     method: GET
     path:
     - /x
-  name: 🇭🇰 HK 614 | ⬇️ 4KB/s
+  name: '🇭🇰 HK 774 | ⬇️ 122KB/s #1'
   network: http
   port: 800
   server: 47.86.167.194
@@ -128,181 +132,21 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 516 | ⬇️ 28KB/s
-  password: Yq42Vx56a2SghCnLtOyOCF
-  port: 443
-  server: 216.105.168.19
-  skip-cert-verify: false
-  tls: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱NL
-  name: 🇳🇱 NL 680 | ⬇️ 1MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 636 | ⬇️ 10KB/s
+  name: '🇭🇰 HK 844 | ⬇️ 2KB/s #1'
   network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
-  name: 🇨🇭 CH 645 | ⬇️ 41KB/s
-  network: grpc
-  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
-  port: 18936
-  reality-opts:
-    public-key: myxNd1bvr963QPX-04CKcKkXSUfiUn2lLEQrdN4I4ms
-    short-id: '141d17dfc73efe2c'
-  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
-  sni: rd.autos.yahoo.com:443
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 725 | ⬇️ 10MB/s
+- name: 🇯🇵JP_2|2.1MB/s
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 16.163.57.145
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 012 | ⬇️ 60KB/s
-  network: ws
-  port: 2082
-  server: 69.63.204.31
-  tls: false
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 TR 020 | ⬇️ 17KB/s
-  password: XFPpyuqk3H0Y8JVpVGqSJw
-  port: 1080
-  server: vpna.poorifast.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 044 | ⬇️ 39KB/s
-  network: tcp
-  port: 51459
-  server: 91.107.139.186
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 024 | ⬇️ 16KB/s
-  password: b24a80e79cee1d1f
-  port: 10210
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 027 | ⬇️ 118KB/s
-  network: ws
-  port: 2082
-  server: 69.63.204.31
-  servername: www.bing.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      HOST: www.bing.com
-    path: /542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 TR 049 | ⬇️ 25KB/s
-  password: XFPpyuqk3H0Y8JVpVGqSJw
-  port: 1080
-  server: 188.41.249.20
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 TR 050 | ⬇️ 49KB/s
-  password: XFPpyuqk3H0Y8JVpVGqSJw
-  port: 1080
-  server: tu1.levikogjgfdd.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 116 | ⬇️ 61KB/s
-  network: ws
-  port: 8080
-  server: 173.249.200.68
-  tls: false
-  type: vmess
-  uuid: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /79a295f7-8cfe-46ca-aed6-ebef1f3be53b-vm
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 090 | ⬇️ 15KB/s
-  password: 32c0ea6e823341a2
-  port: 50111
-  server: 185.22.154.254
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 TR 193 | ⬇️ 28KB/s
-  password: XFPpyuqk3H0Y8JVpVGqSJw
-  port: 1080
-  server: Vpna.Poorifast.ir
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 518 | ⬇️ 7KB/s
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  servername: 7tImuei1uuFOiXbf.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 7tImuei1uuFOiXbf.v.3dns.vip
-    path: /ws-vmess
-- name: 🇯🇵 JP 538 | ⬇️ 104KB/s
-  network: tcp
-  password: AQ71834695
-  port: 443
-  server: alert-monster.rooster465.autos
-  skip-cert-verify: true
-  sni: alert-monster.rooster465.autos
+  sni: www.nintendogames.net
   type: trojan
