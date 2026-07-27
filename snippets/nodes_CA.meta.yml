@@ -1,20 +1,36 @@
 proxies:
 - cipher: aes-256-gcm
-  name: '🇨🇦 CA 744 | ⬇️ 128KB/s #1'
+  name: 🇨🇦 CA 744 | ⬇️ 128KB/s
   password: 2803361d6c196af8
   port: 10210
   server: 50.114.177.134
   skip-cert-verify: false
   type: ss
   udp: false
-- name: '🇨🇦 CA 378 | ⬇️ 3MB/s #1'
+- client-fingerprint: edge
+  name: 🇨🇦 CA 059 | ⬇️ 12MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cf.130209.xyz
+  servername: canda.usic.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: canda.usic.ccwu.cc
+    path: /api/v2/check_update
+- name: 🇨🇦 CA 378 | ⬇️ 3MB/s
   password: ''
   port: 10084
   server: 51.222.12.245
   type: socks5
   username: ''
 - disable-sni: 'true'
-  name: '🇨🇦 CA 852 | ⬇️ 56KB/s #1'
+  name: 🇨🇦 CA 852 | ⬇️ 56KB/s
   packet-encoding: ''
   packetEncoding: none
   password: c90afede-81f8-439d-9a20-f45579f623ec

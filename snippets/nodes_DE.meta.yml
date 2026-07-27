@@ -1,62 +1,37 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '🇩🇪 DE 197 | ⬇️ 19KB/s #1'
+  name: 🇩🇪 DE 052 | ⬇️ 3MB/s
   network: tcp
   packet-encoding: xudp
-  port: 2027
+  port: 443
   reality-opts:
-    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
-    short-id: '!!str 6ba7b8109dad11d1'
-  server: germ.skysafe.online
-  servername: germ.skysafe.online
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: '🇩🇪 DE 176 | ⬇️ 18KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 46.101.121.62
-  servername: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36453512-902e-40d6-acc0-66c3a4f8b9b8
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
-    max-early-data: 2560
-    path: /activity/type
-- country: 🇺🇸US
-  name: '🇩🇪 DE 762 | ⬇️ 6MB/s #1'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.213
-  skip-cert-verify: false
-  sni: mercedes-grape.yyuyy.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: '🇩🇪 DE 215 | ⬇️ 92KB/s #1'
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  type: socks5
-  username: ''
+  uuid: b6af5776-fede-4765-b86c-806e827e9a07
+  xudp: true
 - encryption: none
-  name: '🇫🇮 FI 351 | ⬇️ 13KB/s #1'
+  http-opts:
+    path:
+    - /
+  name: 🇩🇪 DE 053 | ⬇️ 16KB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.57.107.44
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- encryption: none
+  name: 🇫🇮 FI 351 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 80
@@ -73,7 +48,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪 DE 248 | ⬇️ 52KB/s #1'
+  name: 🇩🇪 DE 248 | ⬇️ 52KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -88,7 +63,53 @@ proxies:
   udp: true
   uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
 - encryption: none
-  name: '🇩🇪 DE 768 | ⬇️ 17KB/s #1'
+  name: 🇫🇮 FI 388 | ⬇️ 49KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  servername: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇩🇪 DE 155 | ⬇️ 52KB/s
+  network: grpc
+  port: 25317
+  reality-opts:
+    public-key: vF-KQd20O6Py0wB9go8Sw4Rm1raoiQD6IIcipkDtcEU
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: ge4.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- name: 🇩🇪 DE 166 | ⬇️ 8KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.17
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- encryption: none
+  name: 🇩🇪 DE 768 | ⬇️ 17KB/s
   network: ws
   packet-encoding: xudp
   port: 80
@@ -102,52 +123,19 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 286 | ⬇️ 15KB/s #1'
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    max-early-data: 2053
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-- encryption: none
-  name: '🇩🇪 DE 339 | ⬇️ 78KB/s #1'
+- name: 🇩🇪 DE 227 | ⬇️ 7KB/s
   network: ws
   packet-encoding: xudp
   port: 80
-  server: 167.82.0.1
+  server: 151.101.193.54
   skip-cert-verify: false
-  tls: false
   type: vless
   udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: a69d5300-8101-47b5-9448-6730f228af37
   ws-opts:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: '🇫🇮 FI 388 | ⬇️ 49KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision
@@ -157,7 +145,7 @@ proxies:
       - bale.ai,web.igap.net,web.splus.ir
     path:
     - /@ProxyVPNVip
-  name: '🇩🇪 DE 456 | ⬇️ 9KB/s #1'
+  name: 🇩🇪 DE 456 | ⬇️ 9KB/s
   network: http
   packet-encoding: xudp
   port: 8080
@@ -177,7 +165,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '1000'
-  name: '🇩🇪 DE 710 | ⬇️ 3MB/s #1'
+  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -187,3 +175,91 @@ proxies:
   type: hysteria
   udp: 'true'
   up: '500'
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇩🇪 DE 573 | ⬇️ 19KB/s
+  network: grpc
+  port: 25202
+  reality-opts:
+    public-key: hzeeL2EIsjaab7u3JOt0F44pWql50JAemhQEOAsqEzY
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: ge03.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 197 | ⬇️ 19KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2027
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: '!!str 6ba7b8109dad11d1'
+  server: germ.skysafe.online
+  servername: germ.skysafe.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: udp://208.67.220.220:443
+    enable: true
+    query-server-name: godotengine.org
+  encryption: none
+  name: 🇩🇪 DE 176 | ⬇️ 18KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 46.101.121.62
+  servername: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36453512-902e-40d6-acc0-66c3a4f8b9b8
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
+    max-early-data: 2560
+    path: /activity/type
+- country: 🇺🇸US
+  name: 🇩🇪 DE 762 | ⬇️ 6MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.213
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇩🇪 DE 215 | ⬇️ 92KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 286 | ⬇️ 15KB/s
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    max-early-data: 2053
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER

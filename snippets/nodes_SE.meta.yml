@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇪 SE 759 | ⬇️ 2MB/s #1'
+  name: 🇸🇪 SE 759 | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -18,3 +18,35 @@ proxies:
     host: cdn.steamstatic.com
     mode: auto
     path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 SE 167 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: swe06.myxasecure.space
+  servername: swe06.myxasecure.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+    path: /
+  name: 🇸🇪 SE 479 | ⬇️ 10KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9878
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabbccdd'
+  server: 5.42.106.202
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa

@@ -1,22 +1,16 @@
 proxies:
-- client-fingerprint: firefox
-  name: '🇬🇧 GB 165 | ⬇️ 54KB/s #1'
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 011 | ⬇️ 2MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
-  server: pro-uk.emrata.top
-  servername: pro-uk.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecedc1d3-6853-4cfd-b65c-1753c9ad57b2
+  server: 52.56.144.13
+  type: ss
 - ech-opts:
     _dns: udp://178.22.122.100
     enable: true
     query-server-name: 54.mk
   encryption: none
-  name: '🇳🇱 NL 264 | ⬇️ 2MB/s #1'
+  name: 🇳🇱 NL 264 | ⬇️ 2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -41,7 +35,7 @@ proxies:
     enable: true
     query-server-name: www.ipget.net
   encryption: none
-  name: '🇬🇧 GB 270 | ⬇️ 4MB/s #1'
+  name: 🇬🇧 GB 270 | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -56,10 +50,71 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  ech-opts:
+    _dns: udp://217.218.26.77
+    enable: true
+    query-server-name: www.ipget.net
+  encryption: none
+  name: 🇬🇧 GB 270 | ⬇️ 54KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.89.120
+  servername: Vangoghhh.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: Vangoghhh.info
+    path: /rdfgtws
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  ech-opts:
+    _dns: udp://78.157.42.101
+    enable: true
+    query-server-name: www.ipget.net
+  encryption: none
+  name: 🇬🇧 GB 568 | ⬇️ 987KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.25.88.191
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
+- client-fingerprint: firefox
+  name: 🇬🇧 GB 165 | ⬇️ 54KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
+  server: pro-uk.emrata.top
+  servername: pro-uk.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecedc1d3-6853-4cfd-b65c-1753c9ad57b2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇬🇧 GB 394 | ⬇️ 39KB/s #1'
+  name: 🇬🇧 GB 394 | ⬇️ 39KB/s
   network: tcp
   packet-encoding: xudp
   port: 50653
@@ -73,3 +128,20 @@ proxies:
   type: vless
   udp: true
   uuid: 716c4c2b-82f0-4ce1-b9fc-aef901df3941
+- client-fingerprint: chrome
+  name: 🇬🇧GB_1|2.1MB/s
+  network: ws
+  port: '8443'
+  server: kaoqy-uk-akile.cf.090227.xyz
+  servername: akile.uk.781391.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: akile.uk.781391.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /
+  xudp: true

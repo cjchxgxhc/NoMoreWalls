@@ -1,6 +1,184 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 011 | ⬇️ 2MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.56.144.13
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 020 | ⬇️ 21KB/s
+  network: ws
+  port: 10509
+  server: 115.89.98.231
+  tls: false
+  type: vmess
+  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 744 | ⬇️ 128KB/s
+  password: 2803361d6c196af8
+  port: 10210
+  server: 50.114.177.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱NL
+  name: 🇳🇱 NL 734 | ⬇️ 973KB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 025 | ⬇️ 17KB/s
+  network: http
+  port: 32130
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 1cad2562-0699-49c6-f108-ac99042f0e08
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 028 | ⬇️ 1MB/s
+  network: ws
+  port: 5686
+  server: 23.27.143.149
+  tls: false
+  type: vmess
+  uuid: e06736c8-5da2-4713-b801-d9f6ac59ce1d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇯🇵 JP 204 | ⬇️ 40KB/s
+  network: ws
+  port: 58905
+  server: 161.33.139.138
+  tls: false
+  type: vmess
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    headers:
+      Host: 161.33.139.138
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 061 | ⬇️ 19KB/s
+  network: ws
+  port: 3438
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 665070f9-0e43-44cf-96c4-0f21cdcbaa27
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 124 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.208.139.201
+  type: ss
+- name: 🇭🇰 HK 138 | ⬇️ 37KB/s
+  network: tcp
+  password: HK78346019
+  port: 443
+  server: suitable-feline.rooster465.autos
+  sni: suitable-feline.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 151 | ⬇️ 9KB/s
+  network: none
+  port: 22735
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 937b4403-c6fc-4e44-fdb7-b7d303a31d37
+- name: 🇯🇵 JP 501 | ⬇️ 3MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 16.163.57.145
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 840 | ⬇️ 3KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 230 | ⬇️ 17KB/s
+  network: none
+  port: 35666
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 59b3eff2-bf9a-4342-d037-d9bca999f09c
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+    method: GET
+    path:
+    - /x
+  name: 🇭🇰 HK 774 | ⬇️ 122KB/s
+  network: http
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alpn:
+  - http/1.1
+  name: 🇫🇷 FR 679 | ⬇️ 13MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - delay: 584
-  name: '🇮🇳 IN 722 | ⬇️ 14MB/s #1'
+  name: 🇮🇳 IN 722 | ⬇️ 14MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -14,7 +192,7 @@ proxies:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
 - client-fingerprint: chrome
-  name: '🇦🇪 AE 726 | ⬇️ 8MB/s #1'
+  name: 🇦🇪 AE 726 | ⬇️ 8MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -24,27 +202,10 @@ proxies:
   type: trojan
   ws-opts:
     path: /in-pdr
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱NL
-  name: '🇳🇱 NL 734 | ⬇️ 973KB/s #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.223
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: '🇨🇦 CA 744 | ⬇️ 128KB/s #1'
-  password: 2803361d6c196af8
-  port: 10210
-  server: 50.114.177.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
-  name: '🇨🇭 CH 188 | ⬇️ 40KB/s #1'
+  name: 🇨🇭 CH 188 | ⬇️ 40KB/s
   network: grpc
   password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
   port: 18936
@@ -59,7 +220,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇦🇪 AE 330 | ⬇️ 7MB/s #1'
+  name: 🇦🇪 AE 330 | ⬇️ 7MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -74,7 +235,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
-  name: '🇫🇷 FR 333 | ⬇️ 12KB/s #1'
+  name: 🇫🇷 FR 333 | ⬇️ 12KB/s
   network: grpc
   password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
   port: 51405
@@ -84,27 +245,9 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
-  name: '🇭🇰 HK 840 | ⬇️ 3KB/s #1'
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 US 752 | ⬇️ 23KB/s #1'
+  name: 🇺🇸 US 752 | ⬇️ 23KB/s
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
@@ -112,29 +255,9 @@ proxies:
   tls: true
   type: ss
   udp: false
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - sjskendn.dingtalk.com
-    method: GET
-    path:
-    - /x
-  name: '🇭🇰 HK 774 | ⬇️ 122KB/s #1'
-  network: http
-  port: 800
-  server: 47.86.167.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK 844 | ⬇️ 2KB/s #1'
+  name: 🇭🇰 HK 844 | ⬇️ 2KB/s
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -142,11 +265,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP_2|2.1MB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 16.163.57.145
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
