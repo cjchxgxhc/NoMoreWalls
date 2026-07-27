@@ -1,19 +1,150 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 011 | ⬇️ 2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.56.144.13
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 020 | ⬇️ 21KB/s
+  name: 🇰🇷 KR 001 | ⬇️ 48KB/s
   network: ws
   port: 10509
   server: 115.89.98.231
   tls: false
   type: vmess
   uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 004 | ⬇️ 1MB/s
+  network: none
+  port: 20838
+  server: 192.220.47.34
+  tls: false
+  type: vmess
+  uuid: 748a0b8f-b385-4942-bb4c-4542837975a9
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 005 | ⬇️ 1MB/s
+  network: http
+  port: 8443
+  server: 192.220.47.34
+  tls: false
+  type: vmess
+  uuid: 92168961-2c47-4026-9091-8168145e2055
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 006 | ⬇️ 1MB/s
+  network: ws
+  port: 7739
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: 63d54df4-02eb-413e-beba-95e27bee760f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 008 | ⬇️ 46KB/s
+  network: ws
+  port: 12403
+  server: 115.89.98.231
+  tls: false
+  type: vmess
+  uuid: 2c856478-e74b-425a-9eda-efdbae6adb19
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 009 | ⬇️ 8MB/s
+  network: ws
+  port: 443
+  server: 192.204.57.30
+  tls: false
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
+  ws-opts:
+    path: /speed
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴 RO 011 | ⬇️ 11KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.254.238
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦 UA 013 | ⬇️ 15KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.54.80.37
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 014 | ⬇️ 1MB/s
+  network: ws
+  port: 14889
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: dedc2626-01cd-425d-b4dd-a1ec38c3ddef
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 016 | ⬇️ 641KB/s
+  network: ws
+  port: 20240
+  server: 23.27.143.149
+  tls: false
+  type: vmess
+  uuid: 36eb7031-133d-4032-b507-62790092c497
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 026 | ⬇️ 1MB/s
+  network: ws
+  port: 5686
+  server: 23.27.143.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e06736c8-5da2-4713-b801-d9f6ac59ce1d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 019 | ⬇️ 911KB/s
+  network: none
+  port: 33202
+  server: 23.27.175.147
+  tls: false
+  type: vmess
+  uuid: 29015347-c0b6-489c-a39c-771f3dfab13c
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 020 | ⬇️ 87KB/s
+  network: ws
+  port: 54953
+  server: 115.89.98.231
+  tls: false
+  type: vmess
+  uuid: 24af60e1-278d-4fd4-b622-578d7756959a
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
@@ -26,6 +157,93 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 024 | ⬇️ 17KB/s
+  network: none
+  port: 24548
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  tls: false
+  type: vmess
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 025 | ⬇️ 17KB/s
+  network: none
+  port: 50470
+  server: 47.77.211.183
+  tls: false
+  type: vmess
+  uuid: a70cba63-87b0-4200-ce53-a22ef87944d1
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 028 | ⬇️ 16KB/s
+  network: none
+  port: 31061
+  server: 43.155.239.203
+  tls: false
+  type: vmess
+  uuid: 8797ada2-6ac4-4e5c-94ad-cea57ee064dd
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 036 | ⬇️ 16KB/s
+  network: none
+  port: 50219
+  server: 47.253.229.174
+  tls: false
+  type: vmess
+  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 057 | ⬇️ 1MB/s
+  network: ws
+  port: 21516
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: d1276c1d-c1e3-4779-833f-25d6779d07be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 069 | ⬇️ 16KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 212.83.51.81
+  type: ss
+  udp: true
+- name: 🇳🇴 NO 070 | ⬇️ 3MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇮🇳 IN 071 | ⬇️ 42KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 073 | ⬇️ 16KB/s
+  network: http
+  port: 30325
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 613f9169-fae6-4ebd-e50f-09c2c84494b6
 - cipher: chacha20-ietf-poly1305
   country: 🇳🇱NL
   name: 🇳🇱 NL 734 | ⬇️ 973KB/s
@@ -35,115 +253,15 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸 US 025 | ⬇️ 17KB/s
-  network: http
-  port: 32130
-  server: 93.179.112.101
-  tls: false
-  type: vmess
-  uuid: 1cad2562-0699-49c6-f108-ac99042f0e08
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 028 | ⬇️ 1MB/s
-  network: ws
-  port: 5686
-  server: 23.27.143.149
-  tls: false
-  type: vmess
-  uuid: e06736c8-5da2-4713-b801-d9f6ac59ce1d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇯🇵 JP 204 | ⬇️ 40KB/s
-  network: ws
-  port: 58905
-  server: 161.33.139.138
-  tls: false
-  type: vmess
-  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
-  ws-opts:
-    headers:
-      Host: 161.33.139.138
-    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 061 | ⬇️ 19KB/s
-  network: ws
-  port: 3438
-  server: 93.179.112.101
-  tls: false
-  type: vmess
-  uuid: 665070f9-0e43-44cf-96c4-0f21cdcbaa27
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 124 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.208.139.201
-  type: ss
-- name: 🇭🇰 HK 138 | ⬇️ 37KB/s
+- name: 🇯🇵 JP 095 | ⬇️ 56KB/s
   network: tcp
-  password: HK78346019
-  port: 443
-  server: suitable-feline.rooster465.autos
-  sni: suitable-feline.rooster465.autos
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 151 | ⬇️ 9KB/s
-  network: none
-  port: 22735
-  server: 93.179.112.101
-  tls: false
-  type: vmess
-  uuid: 937b4403-c6fc-4e44-fdb7-b7d303a31d37
-- name: 🇯🇵 JP 501 | ⬇️ 3MB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 16.163.57.145
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: hk.catxstar.com
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 840 | ⬇️ 3KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 230 | ⬇️ 17KB/s
-  network: none
-  port: 35666
-  server: 93.179.112.101
-  tls: false
-  type: vmess
-  uuid: 59b3eff2-bf9a-4342-d037-d9bca999f09c
 - alpn:
   - ''
   alterId: 0
@@ -164,19 +282,210 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- name: 🇺🇦 UA 118 | ⬇️ 3MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇮🇩 ID 161 | ⬇️ 75KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 197 | ⬇️ 14KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.124.229.135
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 219 | ⬇️ 1MB/s
+  network: none
+  port: 13944
+  server: 23.27.175.147
+  tls: false
+  type: vmess
+  uuid: 715a4258-6eb0-41a0-8481-5c82b1cece72
+- name: 🇲🇾MY_2|3.3MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20031
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 250 | ⬇️ 9KB/s
+  network: http
+  port: 44441
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+- name: 🇮🇩 ID 321 | ⬇️ 83KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20120
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - alpn:
-  - http/1.1
-  name: 🇫🇷 FR 679 | ⬇️ 13MB/s
-  network: ws
-  password: humanity
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: '🇭🇰 HK 840 | ⬇️ 3KB/s #1'
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 SG 508 | ⬇️ 7KB/s
+  network: http
   port: 443
-  server: 172.64.229.75
-  sni: www.calmloud.com
+  server: 47.79.231.76
+  tls: false
+  type: vmess
+  uuid: 1a25906c-8240-4dff-a2c2-a098754f020e
+- cipher: aes-256-cfb
+  name: 🇪🇸 ES 513 | ⬇️ 443KB/s
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 5.188.181.201
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 516 | ⬇️ 18KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: /assignment
+      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=De
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 541 | ⬇️ 17KB/s
+  network: none
+  port: 35666
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 59b3eff2-bf9a-4342-d037-d9bca999f09c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 546 | ⬇️ 19KB/s
+  network: ws
+  port: 3438
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 665070f9-0e43-44cf-96c4-0f21cdcbaa27
+  ws-opts:
+    path: /
+- name: 🇹🇼 TW 580 | ⬇️ 344KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20025
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: tw.catxstar.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇪 SE 620 | ⬇️ 6KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.1.194
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 687 | ⬇️ 1MB/s
+  network: ws
+  port: 39359
+  server: 23.27.143.149
+  tls: false
+  type: vmess
+  uuid: 124733b3-e62f-419a-9c65-08d3c7308422
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇦🇪 AE 330 | ⬇️ 7MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 104.18.1.1
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- cipher: aes-256-cfb
+  name: 🇪🇸 ES 852 | ⬇️ 1MB/s
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 5.188.181.201
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - delay: 584
   name: 🇮🇳 IN 722 | ⬇️ 14MB/s
   network: ws
@@ -215,23 +524,6 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇦🇪 AE 330 | ⬇️ 7MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 104.18.1.1
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
@@ -265,3 +557,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.130.251.185
+  type: ss
+- name: 🇲🇾MY_1|2.0MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20048
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇹🇭TH_1|3.4MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇹🇭TH_2|2.8MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20006
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true

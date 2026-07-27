@@ -1,23 +1,83 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 US 004 | ⬇️ 1MB/s
+  network: none
+  port: 20838
+  server: 192.220.47.34
+  tls: false
+  type: vmess
+  uuid: 748a0b8f-b385-4942-bb4c-4542837975a9
+- alterId: 0
+  cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 🇺🇸 US 025 | ⬇️ 17KB/s
+  name: 🇺🇸 US 005 | ⬇️ 1MB/s
   network: http
-  port: 32130
-  server: 93.179.112.101
+  port: 8443
+  server: 192.220.47.34
   tls: false
   type: vmess
-  uuid: 1cad2562-0699-49c6-f108-ac99042f0e08
+  uuid: 92168961-2c47-4026-9091-8168145e2055
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 028 | ⬇️ 1MB/s
+  name: 🇺🇸 US 006 | ⬇️ 1MB/s
+  network: ws
+  port: 7739
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: 63d54df4-02eb-413e-beba-95e27bee760f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 009 | ⬇️ 8MB/s
+  network: ws
+  port: 443
+  server: 192.204.57.30
+  tls: false
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
+  ws-opts:
+    path: /speed
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 014 | ⬇️ 1MB/s
+  network: ws
+  port: 14889
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: dedc2626-01cd-425d-b4dd-a1ec38c3ddef
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 016 | ⬇️ 641KB/s
+  network: ws
+  port: 20240
+  server: 23.27.143.149
+  tls: false
+  type: vmess
+  uuid: 36eb7031-133d-4032-b507-62790092c497
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 026 | ⬇️ 1MB/s
   network: ws
   port: 5686
   server: 23.27.143.149
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e06736c8-5da2-4713-b801-d9f6ac59ce1d
@@ -27,7 +87,108 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 061 | ⬇️ 19KB/s
+  name: 🇺🇸 US 019 | ⬇️ 911KB/s
+  network: none
+  port: 33202
+  server: 23.27.175.147
+  tls: false
+  type: vmess
+  uuid: 29015347-c0b6-489c-a39c-771f3dfab13c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 024 | ⬇️ 17KB/s
+  network: none
+  port: 24548
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  tls: false
+  type: vmess
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 025 | ⬇️ 17KB/s
+  network: none
+  port: 50470
+  server: 47.77.211.183
+  tls: false
+  type: vmess
+  uuid: a70cba63-87b0-4200-ce53-a22ef87944d1
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 036 | ⬇️ 16KB/s
+  network: none
+  port: 50219
+  server: 47.253.229.174
+  tls: false
+  type: vmess
+  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 057 | ⬇️ 1MB/s
+  network: ws
+  port: 21516
+  server: 154.64.228.51
+  tls: false
+  type: vmess
+  uuid: d1276c1d-c1e3-4779-833f-25d6779d07be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 073 | ⬇️ 16KB/s
+  network: http
+  port: 30325
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 613f9169-fae6-4ebd-e50f-09c2c84494b6
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 197 | ⬇️ 14KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.124.229.135
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 219 | ⬇️ 1MB/s
+  network: none
+  port: 13944
+  server: 23.27.175.147
+  tls: false
+  type: vmess
+  uuid: 715a4258-6eb0-41a0-8481-5c82b1cece72
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 250 | ⬇️ 9KB/s
+  network: http
+  port: 44441
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 541 | ⬇️ 17KB/s
+  network: none
+  port: 35666
+  server: 93.179.112.101
+  tls: false
+  type: vmess
+  uuid: 59b3eff2-bf9a-4342-d037-d9bca999f09c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 546 | ⬇️ 19KB/s
   network: ws
   port: 3438
   server: 93.179.112.101
@@ -36,30 +197,19 @@ proxies:
   uuid: 665070f9-0e43-44cf-96c4-0f21cdcbaa27
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 124 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.208.139.201
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 151 | ⬇️ 9KB/s
-  network: none
-  port: 22735
-  server: 93.179.112.101
+  name: 🇺🇸 US 687 | ⬇️ 1MB/s
+  network: ws
+  port: 39359
+  server: 23.27.143.149
   tls: false
   type: vmess
-  uuid: 937b4403-c6fc-4e44-fdb7-b7d303a31d37
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 230 | ⬇️ 17KB/s
-  network: none
-  port: 35666
-  server: 93.179.112.101
-  tls: false
-  type: vmess
-  uuid: 59b3eff2-bf9a-4342-d037-d9bca999f09c
+  uuid: 124733b3-e62f-419a-9c65-08d3c7308422
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 752 | ⬇️ 23KB/s

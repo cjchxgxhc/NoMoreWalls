@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- name: 🇷🇺 RU 501 | ⬇️ 7KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 49055
+  server: 83.217.223.103
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c37e6820-1abf-44b0-a096-bb243f1ff497
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.6MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+    short-id: '!!str '
+  server: 178.213.18.91
+  servername: pro-ru-bridge.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42c3337e-57f5-48d8-b7ad-46f75f5e7e8a
+  xudp: true

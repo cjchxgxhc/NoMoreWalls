@@ -7,28 +7,22 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: edge
-  name: 🇨🇦 CA 059 | ⬇️ 12MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: cf.130209.xyz
-  servername: canda.usic.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: canda.usic.ccwu.cc
-    path: /api/v2/check_update
 - name: 🇨🇦 CA 378 | ⬇️ 3MB/s
   password: ''
   port: 10084
   server: 51.222.12.245
   type: socks5
   username: ''
+- name: 🇨🇦 CA 351 | ⬇️ 274KB/s
+  obfs: salamander
+  obfs-password: jguj75v4supsi4fm
+  password: 4z2oldt85p494bgb
+  port: 52015
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
 - disable-sni: 'true'
   name: 🇨🇦 CA 852 | ⬇️ 56KB/s
   packet-encoding: ''

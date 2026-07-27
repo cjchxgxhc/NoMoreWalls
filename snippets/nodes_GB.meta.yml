@@ -1,20 +1,53 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 011 | ⬇️ 2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.56.144.13
-  type: ss
-- ech-opts:
-    _dns: udp://178.22.122.100
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  ech-opts:
+    _dns: udp://78.157.42.101
     enable: true
-    query-server-name: 54.mk
+    query-server-name: www.ipget.net
   encryption: none
-  name: 🇳🇱 NL 264 | ⬇️ 2MB/s
+  name: 🇬🇧 GB 047 | ⬇️ 403KB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.21.5.137
+  server: 104.25.201.2
+  servername: JoinProxyVPN11.vangoghhh.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
+- name: 🇬🇧 GB 163 | ⬇️ 1MB/s
+  obfs: salamander
+  obfs-password: i9if528t20akiic0
+  password: 4z2oldt85p494bgb
+  port: 52033
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  ech-opts:
+    _dns: udp://78.157.42.101
+    enable: true
+    query-server-name: www.ipget.net
+  encryption: none
+  name: 🇬🇧 GB 265 | ⬇️ 987KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.25.88.191
   servername: vangoghhh.info
   skip-cert-verify: false
   tls: true
@@ -50,6 +83,26 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
+- ech-opts:
+    _dns: udp://178.22.122.100
+    enable: true
+    query-server-name: 54.mk
+  encryption: none
+  name: 🇳🇱 NL 264 | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.21.5.137
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
 - alpn:
   - h3
   - h2
@@ -60,7 +113,7 @@ proxies:
     enable: true
     query-server-name: www.ipget.net
   encryption: none
-  name: 🇬🇧 GB 270 | ⬇️ 54KB/s
+  name: 🇬🇧 GB 808 | ⬇️ 54KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -75,20 +128,11 @@ proxies:
     headers:
       Host: Vangoghhh.info
     path: /rdfgtws
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  ech-opts:
-    _dns: udp://78.157.42.101
-    enable: true
-    query-server-name: www.ipget.net
-  encryption: none
-  name: 🇬🇧 GB 568 | ⬇️ 987KB/s
+- name: 🇬🇧 GB 814 | ⬇️ 191KB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.25.88.191
+  server: 47.102.212.166
   servername: vangoghhh.info
   skip-cert-verify: false
   tls: true
@@ -128,20 +172,9 @@ proxies:
   type: vless
   udp: true
   uuid: 716c4c2b-82f0-4ce1-b9fc-aef901df3941
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 🇬🇧GB_1|2.1MB/s
-  network: ws
-  port: '8443'
-  server: kaoqy-uk-akile.cf.090227.xyz
-  servername: akile.uk.781391.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: akile.uk.781391.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-  xudp: true
+  password: amazonskr05
+  port: 443
+  server: 18.130.251.185
+  type: ss

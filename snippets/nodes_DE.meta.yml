@@ -1,41 +1,56 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 052 | ⬇️ 3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: germany.superbuba.top
-  servername: germany.superbuba.top
+- name: 🇩🇪 DE 135 | ⬇️ 506KB/s
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: 4z2oldt85p494bgb
+  port: 52023
+  server: assets.gateway-stream.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6af5776-fede-4765-b86c-806e827e9a07
-  xudp: true
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 🇩🇪 DE 053 | ⬇️ 16KB/s
-  network: http
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 768 | ⬇️ 17KB/s
+  network: ws
   packet-encoding: xudp
-  port: 8882
-  server: 31.57.107.44
+  port: 80
+  server: 151.101.56.7
+  servername: 151.101.56.7
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 069 | ⬇️ 16KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 212.83.51.81
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  auth: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  name: 🇩🇪 DE 084 | ⬇️ 6MB/s
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  type: hysteria2
 - encryption: none
   name: 🇫🇮 FI 351 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 80
   server: 151.101.56.7
+  servername: BankMelat.glObal.ssl.faStly.nEt.
   skip-cert-verify: false
   tls: false
   type: vless
@@ -45,97 +60,32 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 248 | ⬇️ 52KB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 🇩🇪 DE 142 | ⬇️ 311KB/s
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: 4z2oldt85p494bgb
+  port: 52021
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪 DE 268 | ⬇️ 1MB/s
+  network: xhttp
   port: 443
-  reality-opts:
-    public-key: JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY
-    short-id: '!!str 6c6082a2223c1d03'
-  server: pl1.raketa-balance.com
-  servername: pl1.raketa-balance.com
-  skip-cert-verify: false
+  server: nl29.abvpn.net
+  servername: nl29.abvpn.net
   tls: true
   type: vless
   udp: true
-  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- encryption: none
-  name: 🇫🇮 FI 388 | ⬇️ 49KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  servername: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-  xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-  name: 🇩🇪 DE 155 | ⬇️ 52KB/s
-  network: grpc
-  port: 25317
-  reality-opts:
-    public-key: vF-KQd20O6Py0wB9go8Sw4Rm1raoiQD6IIcipkDtcEU
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: ge4.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-- name: 🇩🇪 DE 166 | ⬇️ 8KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.17
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- encryption: none
-  name: 🇩🇪 DE 768 | ⬇️ 17KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 🇩🇪 DE 227 | ⬇️ 7KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.193.54
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: a69d5300-8101-47b5-9448-6730f228af37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xhttp-opts:
+    host: nl29.abvpn.net
+    mode: auto
+    path: /xhttp/
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision
@@ -160,26 +110,105 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪 DE 178 | ⬇️ 44KB/s
+  network: grpc
+  port: 9877
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabbccdd'
+  server: 194.87.226.71
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c444a99-da61-4d82-939f-c3dd8fb41e9b
+- encryption: none
+  name: 🇫🇮 FI 388 | ⬇️ 49KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  servername: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
+  - http/1.1
+  client-fingerprint: safari
+  name: 🇩🇪 DE 189 | ⬇️ 777KB/s
+  network: ws
+  port: 443
+  server: 185.141.217.62.tyr-agentstvo.tech
+  servername: 185.141.217.62.tyr-agentstvo.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1dd6dab8-4a86-4996-9c3f-84cb9e173993
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 185.141.217.62.tyr-agentstvo.tech
+    max-early-data: 2560
+    path: /websocket
+- name: 🇫🇮 FI 589 | ⬇️ 12KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.193.54
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- encryption: none
+  name: 🇩🇪 DE 339 | ⬇️ 78KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 🇩🇪 DE 519 | ⬇️ 4KB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.57.107.44
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: auragrpc
-  name: 🇩🇪 DE 573 | ⬇️ 19KB/s
+  name: 🇩🇪 DE 534 | ⬇️ 9KB/s
   network: grpc
   port: 25202
   reality-opts:
@@ -191,6 +220,172 @@ proxies:
   type: vless
   udp: true
   uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇩🇪 DE 251 | ⬇️ 9KB/s
+  network: grpc
+  port: 25317
+  reality-opts:
+    public-key: vF-KQd20O6Py0wB9go8Sw4Rm1raoiQD6IIcipkDtcEU
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: ge4.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 256 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
+    short-id: '!!str a1f9c0e21d7b6485'
+  server: 2.26.135.196
+  servername: smorodina.mycdn-me.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18bdc31e-fc7a-41ae-ba10-55a2fba63019
+- encryption: none
+  name: 🇩🇪 DE 688 | ⬇️ 16KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.17
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: 🇩🇪 DE 692 | ⬇️ 7KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.193.54
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a69d5300-8101-47b5-9448-6730f228af37
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: 🇩🇪 DE 360 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.72.103.3
+  servername: apple.dbintro.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8761241-8f0d-42d7-815a-30df24ba2300
+  xhttp-opts:
+    host: apple.dbintro.space
+    mode: packet-up
+    path: /assets/js/chunk-a91a/
+    reuse-settings:
+      c-max-reuse-times: '100'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 12-24
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- name: 🇩🇪 DE 368 | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a69d5300-8101-47b5-9448-6730f228af37
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 516 | ⬇️ 18KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=De
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇩🇪 DE 524 | ⬇️ 12KB/s
+  network: grpc
+  port: 25310
+  reality-opts:
+    public-key: 3Ow1WhWHN1nUEkOR4kThVpzEuvlcB5ZrqoBcHtJGyiY
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: ge02.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- name: 🇩🇪 DE 215 | ⬇️ 92KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  tls: false
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 286 | ⬇️ 15KB/s
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    max-early-data: 2053
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -241,25 +436,35 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
-- name: 🇩🇪 DE 215 | ⬇️ 92KB/s
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 286 | ⬇️ 15KB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 248 | ⬇️ 52KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY
+    short-id: '!!str 6c6082a2223c1d03'
+  server: pl1.raketa-balance.com
+  servername: pl1.raketa-balance.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
+  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
+- encryption: none
+  http-opts:
     headers:
-      Host: pan1.global.ssl.fastly.net
-    max-early-data: 2053
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+    path:
+    - /
+  name: 🇩🇪DE_1|1.6MB/s
+  network: http
+  port: '8882'
+  server: 31.56.204.209
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true

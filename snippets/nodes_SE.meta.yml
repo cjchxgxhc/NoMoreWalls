@@ -18,25 +18,63 @@ proxies:
     host: cdn.steamstatic.com
     mode: auto
     path: /
+- name: 🇸🇪 SE 143 | ⬇️ 2MB/s
+  obfs: salamander
+  obfs-password: l960g2kn19nphlra
+  password: 4z2oldt85p494bgb
+  port: 52060
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- name: 🇸🇪 SE 243 | ⬇️ 406KB/s
+  obfs: salamander
+  obfs-password: fd3olglr2bmimgje
+  password: 4z2oldt85p494bgb
+  port: 52061
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪 SE 167 | ⬇️ 1MB/s
+  name: 🇸🇪 SE 533 | ⬇️ 1MB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
     short-id: '!!str d67ec5a8fc40ebea'
   server: swe06.myxasecure.space
   servername: swe06.myxasecure.space
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇪 SE 620 | ⬇️ 6KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.1.194
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-tunnel
     path: /
-  name: 🇸🇪 SE 479 | ⬇️ 10KB/s
+  name: 🇸🇪 SE 826 | ⬇️ 47KB/s
   network: grpc
   packet-encoding: xudp
   port: 9878

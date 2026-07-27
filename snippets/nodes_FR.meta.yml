@@ -1,14 +1,25 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 104 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ
+    short-id: '!!str f04729f65b9ea261'
+  server: fr1.samovargate.com
+  servername: fr1.samovargate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d680dcf-88a5-4ea4-b799-0a12ef2c0dfd
 - alpn:
   - h3
   congestion-controller: bbr
-  disable-sni: false
   name: 🇫🇷 FR 135 | ⬇️ 4MB/s
   password: dongtaiwang.com
   path: /
   port: 33888
-  reduce-rtt: false
-  request-timeout: 0
   server: 195.154.41.99
   skip-cert-verify: true
   sni: bing.com
@@ -16,52 +27,6 @@ proxies:
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
   version: 5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 FR 074 | ⬇️ 81KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: fr17.myxasecure.space
-  servername: fr17.myxasecure.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- alpn:
-  - http/1.1
-  name: 🇫🇷 FR 679 | ⬇️ 13MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.229.75
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 FR 723 | ⬇️ 501KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: ad-020.orbitqgr7v.info
-  servername: ad-020.orbitqgr7v.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    headers:
-      Host: ad-020.orbitqgr7v.info
-    path: /
 - alpn:
   - h3
   congestion-controller: bbr
