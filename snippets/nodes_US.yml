@@ -1,5 +1,38 @@
 proxies:
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 516 | ⬇️ 28KB/s
+  password: Yq42Vx56a2SghCnLtOyOCF
+  port: 443
+  server: 216.105.168.19
+  skip-cert-verify: false
+  tls: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 636 | ⬇️ 10KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 725 | ⬇️ 10MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
   cipher: auto
   name: 🇺🇸 US 012 | ⬇️ 60KB/s
   network: ws
@@ -29,13 +62,6 @@ proxies:
     headers:
       HOST: www.bing.com
     path: /542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 516 | ⬇️ 28KB/s
-  password: Yq42Vx56a2SghCnLtOyOCF
-  port: 443
-  server: 216.105.168.19
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US 116 | ⬇️ 61KB/s

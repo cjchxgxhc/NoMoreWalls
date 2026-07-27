@@ -2,9 +2,26 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇫🇷 FR 071 | ⬇️ 1MB/s
+  name: 🇫🇷 FR 070 | ⬇️ 8MB/s
+  password: dongtaiwang.com
+  path: /
+  port: 33888
+  server: 195.154.41.99
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇩🇪DE_2|2.4MB/s
   password: 261d95d4-73c0-4c33-957a-04b6d407bea2
   port: 27947
+  reduce-rtt: false
+  request-timeout: 0
   server: 83.243.86.109
   skip-cert-verify: true
   sni: bing.com
@@ -14,7 +31,7 @@ proxies:
   version: 5
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|1.5MB/s
+  name: 🇫🇷FR_1|3.3MB/s
   network: tcp
   port: 443
   reality-opts:

@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 130 | ⬇️ 2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger16.myxasecure.space
+  servername: ger16.myxasecure.space
+  tls: true
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - encryption: none
   name: 🇩🇪 DE 546 | ⬇️ 27KB/s
   network: ws
@@ -21,6 +34,7 @@ proxies:
   password: ''
   port: 1080
   server: 152.89.104.11
+  tls: false
   type: socks5
   username: ''
 - client-fingerprint: chrome
@@ -29,15 +43,15 @@ proxies:
   http-opts:
     headers:
       Host:
-      - bale.ai,web.igap.net,web.splus.ir
+      - icloud.com
+    method: GET
     path:
     - /@ProxyVPNVip
-  name: 🇩🇪 DE 318 | ⬇️ 19KB/s
+  name: 🇩🇪DE_3|1.8MB/s
   network: http
   packet-encoding: xudp
   port: 8080
   reality-opts:
-    _spider-x: /rfQz2El5LQ8FTVS
     public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
     short-id: '!!str 49d12a'
   server: 95.38.197.126
@@ -118,8 +132,9 @@ proxies:
         Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true
-- country: 🇺🇸US
-  name: 🇩🇪 DE 708 | ⬇️ 4MB/s
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  country: 🇺🇸US
+  name: 🇷🇴RO_33|3.3MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.213
@@ -182,20 +197,35 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 🇩🇪DE_1|1.5MB/s
-  network: grpc
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.1MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw
-    short-id: '!!str 9329f8b5985b2a7d'
-  server: 46.8.209.56
-  servername: ads.x5.ru
+    public-key: eOV98nPiIYiVYcA7k6ddPqgEVfbrR3jJmIQTGquJUgY
+    short-id: '!!str ba9cad63871fb391'
+  server: 159.195.159.12
+  servername: dem.themesh.site
   tls: true
   type: vless
   udp: true
-  uuid: 87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47
+  uuid: 49e8f20c-6a27-4637-9e20-e0ea18a75766
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪DE_6|2.1MB/s
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e5797ff-cb46-48b2-be3c-1fc78a37a439
   xudp: true
