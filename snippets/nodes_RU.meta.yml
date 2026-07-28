@@ -1,57 +1,76 @@
 proxies:
+- encryption: none
+  name: 🇷🇺 RU 629 | ⬇️ 98KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 49055
+  server: 83.217.223.103
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c37e6820-1abf-44b0-a096-bb243f1ff497
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 067 | ⬇️ 52KB/s
+  name: 🇷🇺 RU 042 | ⬇️ 39KB/s
+  password: fbaf33bcffe53cf9
+  port: 10921
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 045 | ⬇️ 21KB/s
+  password: 1a87017d0bf57f34
+  port: 10091
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  name: 🇷🇺 RU 161 | ⬇️ 31KB/s
   password: cfe685726eea2c4b
   port: 10921
   server: 185.22.154.103
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: cdn-spb.buildsnow.top
-  name: 🇷🇺RU_1|2.0MB/s
-  network: grpc
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 182 | ⬇️ 123KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 9443
+  reality-opts:
+    _spider-x: /
+    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
+  server: 176.108.252.240
+  servername: www.io.ozone.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c444a99-da61-4d82-939f-c3dd8fb41e9b
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 187 | ⬇️ 16KB/s
+  password: b24a80e79cee1d1f
+  port: 10092
+  server: 195.133.5.207
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.5MB/s
   port: 443
   reality-opts:
-    public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
-    short-id: '!!str 0ac1b591aafcfa51'
-  server: cdn-spb.buildsnow.top
-  servername: cdn-spb.buildsnow.top
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 93ae75024604f796'
+  server: ru.rush-server.com
+  servername: findmypackets.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|3.0MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: '!!str 9b0c1d2e'
-  server: 62.233.43.34
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b947013-7551-4a8e-bc4f-470e9e987e88
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|3.2MB/s
-  network: tcp
-  port: '12303'
-  reality-opts:
-    public-key: djNTwe-D7XWCrj4sG3b0Kz2tSuJ7epWKoQYHIv1AtzQ
-    short-id: '!!str 4646ff0a2c0bafbb'
-  server: 213.108.3.228
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40e2d726-40fb-46c8-b4e2-5a88de1d3da6
-  xudp: true
+  uuid: fe444095-ab4b-45b5-8f25-2c2576fb1968

@@ -1,29 +1,25 @@
 proxies:
-- name: 🇸🇪 SE 344 | ⬇️ 630KB/s
-  obfs: salamander
-  obfs-password: l960g2kn19nphlra
-  password: 4z2oldt85p494bgb
-  port: 52060
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tfo: false
-  type: hysteria2
-- name: 🇸🇪 SE 193 | ⬇️ 2MB/s
-  obfs: salamander
-  obfs-password: fd3olglr2bmimgje
-  password: 4z2oldt85p494bgb
-  port: 52061
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tfo: false
-  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇪 SE 249 | ⬇️ 6KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.1.194
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-tunnel
     path: /
-  name: 🇸🇪 SE 812 | ⬇️ 47KB/s
+  name: 🇸🇪 SE 263 | ⬇️ 47KB/s
   network: grpc
   packet-encoding: xudp
   port: 9878

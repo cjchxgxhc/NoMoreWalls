@@ -1,10 +1,4 @@
 proxies:
-- name: 🇭🇰 HK 790 | ⬇️ 124KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
 - name: 🇭🇰 HK 145 | ⬇️ 34KB/s
   password: '!!str 111'
   port: 11211
@@ -12,6 +6,49 @@ proxies:
   tls: false
   type: socks5
   username: '111'
+- client-fingerprint: chrome
+  country: 🇵🇱PL
+  name: 🇭🇰HK_3|3.9MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '11035'
+  server: 95.40.61.23
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_2|3.9MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 95.40.61.23
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 790 | ⬇️ 124KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 840 | ⬇️ 3KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
   alterId: 0
@@ -32,45 +69,15 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 840 | ⬇️ 3KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇭🇰 HK 790 | ⬇️ 2MB/s
+  password: cgnu9tVCvDXc
+  port: 47509
+  server: 64.90.7.12
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 687 | ⬇️ 277KB/s
-  network: tcp
-  port: 2044
-  server: us---ee--us.belamona.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 79f92090-4395-4d15-a093-5a524324b9eb
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 799 | ⬇️ 80KB/s
-  network: ws
-  port: 2087
-  server: 91.193.59.37
-  servername: vlso.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso.1d.mom
-    path: /socks5=888:888@8.210.127.248:1080
+  type: ss
+  udp: false
 - alterId: 2
   cipher: auto
   name: 🇭🇰 HK 844 | ⬇️ 2KB/s
@@ -81,3 +88,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇭🇰HK_4|5.6MB/s
+  network: tcp
+  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
+  port: '32029'
+  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
+  skip-cert-verify: true
+  sni: pull-flv-q1-admin.douyincdn.com
+  type: trojan
+  udp: true

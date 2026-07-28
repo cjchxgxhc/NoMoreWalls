@@ -1,22 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇭 CH 054 | ⬇️ 2MB/s
+  country: 🇨🇭CH
+  name: 🇨🇭 CH 083 | ⬇️ 1MB/s
   password: xp6qduya33bvl863
   port: 25026
   server: best.kovira2.ir
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇨🇭 CH 185 | ⬇️ 1MB/s
-  obfs: salamander
-  obfs-password: fsc92dsh321o5h3r
-  password: 4z2oldt85p494bgb
-  port: 52016
-  server: assets.gateway-stream.com
+- encryption: none
+  name: 🇨🇭 CH 036 | ⬇️ 3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: best.kovira2.ir
   skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tfo: false
-  type: hysteria2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 910c8f86-451c-48ad-96c7-bec1ed779c9e
+  xhttp-opts:
+    host: chatgpt.com
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
@@ -30,19 +37,3 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_2|3.4MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY
-    short-id: '!!str '
-  server: 212.233.121.186
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e447981-8fcd-4f6a-99e3-88b13842c5f5
-  xudp: true
