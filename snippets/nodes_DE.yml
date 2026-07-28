@@ -1,24 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 069 | ⬇️ 16KB/s
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 212.83.51.81
-  type: ss
+- name: 🇩🇪DE_5|1.8MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
   udp: true
 - alpn:
-  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 DE 516 | ⬇️ 18KB/s
+  name: 🇩🇪DE_1|3.3MB/s
   network: ws
-  password: MITIVPN
-  port: 443
-  server: 151.101.56.7
+  password: MiTiVPN
+  port: '2096'
+  server: 162.159.140.91
   skip-cert-verify: true
-  sni: ssl.fastly.com
+  sni: ib-bbg--MiTiVPN---MiTiVPN-u.kingnetwork.ir
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=De
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl

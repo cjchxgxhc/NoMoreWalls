@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇫🇷 FR 104 | ⬇️ 1MB/s
+  name: 🇫🇷 FR 073 | ⬇️ 3MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -13,6 +13,26 @@ proxies:
   type: vless
   udp: true
   uuid: 5d680dcf-88a5-4ea4-b799-0a12ef2c0dfd
+- name: 🇫🇷 FR 252 | ⬇️ 1MB/s
+  obfs: salamander
+  obfs-password: p61ckuavkc1s2hfl
+  password: 4z2oldt85p494bgb
+  port: 52031
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- name: 🇫🇷 FR 696 | ⬇️ 872KB/s
+  obfs: salamander
+  obfs-password: x5y77oxwfcl868u3
+  password: 4z2oldt85p494bgb
+  port: 52030
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
 - alpn:
   - h3
   congestion-controller: bbr
@@ -56,3 +76,13 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|3.3MB/s
+  network: tcp
+  password: JT80563429
+  port: '443'
+  server: 15.237.217.186
+  skip-cert-verify: false
+  sni: desired-pony.rooster465.autos
+  type: trojan
+  udp: true

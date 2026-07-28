@@ -1,13 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 001 | ⬇️ 48KB/s
+  name: 🇰🇷 KR 018 | ⬇️ 328KB/s
   network: ws
-  port: 10509
+  port: 12403
   server: 115.89.98.231
   tls: false
   type: vmess
-  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  uuid: 2c856478-e74b-425a-9eda-efdbae6adb19
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
@@ -24,20 +24,28 @@ proxies:
   username: Og%3D%3D
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 008 | ⬇️ 46KB/s
+  name: 🇰🇷 KR 062 | ⬇️ 426KB/s
+  network: none
+  port: 31061
+  server: 43.155.239.203
+  tls: false
+  type: vmess
+  uuid: 8797ada2-6ac4-4e5c-94ad-cea57ee064dd
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 611 | ⬇️ 273KB/s
   network: ws
-  port: 12403
+  port: 10509
   server: 115.89.98.231
   tls: false
   type: vmess
-  uuid: 2c856478-e74b-425a-9eda-efdbae6adb19
+  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+    headers: {}
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 020 | ⬇️ 87KB/s
+  name: 🇰🇷 KR 692 | ⬇️ 185KB/s
   network: ws
   port: 54953
   server: 115.89.98.231
@@ -48,12 +56,19 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 KR 028 | ⬇️ 16KB/s
-  network: none
-  port: 31061
-  server: 43.155.239.203
-  tls: false
-  type: vmess
-  uuid: 8797ada2-6ac4-4e5c-94ad-cea57ee064dd
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1|3.6MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: '!!str c8af1462debbc1'
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  xudp: true
