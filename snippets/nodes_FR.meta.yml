@@ -1,4 +1,38 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 224 | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: '!!str 122218f4c1f172e4'
+  server: 189.74.117.4
+  servername: api.yandex-api.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6949d13a-6695-4ef6-95a6-59f5a17c0978
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇫🇷 FR 564 | ⬇️ 13KB/s
+  network: ws
+  port: 443
+  server: 89.124.251.28.tyr-agentstvo.tech
+  servername: 89.124.251.28.tyr-agentstvo.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f728ce3-766d-4652-ac2f-0e7e74e975be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 89.124.251.28.tyr-agentstvo.tech
+    max-early-data: 2560
+    path: /websocket
 - alpn:
   - h3
   congestion-controller: bbr

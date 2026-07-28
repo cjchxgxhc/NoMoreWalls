@@ -1,4 +1,39 @@
 proxies:
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: sync.v2.PushService
+  name: 🇬🇧 GB 069 | ⬇️ 3MB/s
+  network: grpc
+  port: 443
+  server: status.capitaloneok.com
+  servername: status.capitaloneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 649291ba-27db-423a-a34b-6ddade44973f
+- ech-opts:
+    _dns: udp://178.22.122.100
+    enable: true
+    query-server-name: 54.mk
+  encryption: none
+  name: 🇳🇱 NL 264 | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.21.5.137
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
 - client-fingerprint: firefox
   name: 🇬🇧 GB 165 | ⬇️ 54KB/s
   network: tcp

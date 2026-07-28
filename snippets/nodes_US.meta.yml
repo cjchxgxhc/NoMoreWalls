@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 006 | ⬇️ 55KB/s
+  network: none
+  port: 24548
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  tls: false
+  type: vmess
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 024 | ⬇️ 72KB/s
+  network: none
+  port: 50219
+  server: 47.253.229.174
+  tls: false
+  type: vmess
+  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_3|1.5MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -43,14 +69,6 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 765 | ⬇️ 10MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
 - name: 🇺🇸 US 239 | ⬇️ 935KB/s
   network: ws
   port: 2095
@@ -65,6 +83,19 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 128 | ⬇️ 3MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
 - name: 🇺🇸 US 210 | ⬇️ 7MB/s
   network: ws
   port: 2095
@@ -79,6 +110,67 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_1|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 326 | ⬇️ 343KB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: puuy-mitivpn--MiTiVPN---MiTiVPN-av.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 175 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
+  server: pro-us.emrata.top
+  servername: pro-us.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 138bfe7f-a2c4-443e-befe-6a9d13e1550b
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇺🇸 US 196 | ⬇️ 3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: rvg-production-1176f.up.railway.app
+  servername: rvg-production-1176f.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2fa33163-12a8-f4b2-c3bd-4d5506d97b5d
+  ws-opts:
+    headers:
+      Host: rvg-production-1176f.up.railway.app
+    path: /ws/2fa33163-12a8-f4b2-c3bd-4d5506d97b5d
 - name: 🇺🇸 US 803 | ⬇️ 91KB/s
   password: ''
   port: 22222
@@ -86,39 +178,94 @@ proxies:
   tls: false
   type: socks5
   username: ''
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 450 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 535 | ⬇️ 144KB/s
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260302.hihidress.com
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 438 | ⬇️ 10MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - varzesh3.com
+    path:
+    - /
+  name: 🇺🇸 US 718 | ⬇️ 6KB/s
+  network: http
+  packet-encoding: xudp
+  port: 38001
+  server: usausa.crackerbinam.com
   skip-cert-verify: false
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d38fb586-bec2-4892-f774-7789068e32d5
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 561 | ⬇️ 2MB/s
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260202.hihidress.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  name: 🇺🇸 US 458 | ⬇️ 246KB/s
-  network: ws
-  port: 8443
-  server: kaoqy-us-ntt.cf.090227.xyz
-  servername: ntt2.us.781391.xyz
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 826 | ⬇️ 5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
+    short-id: '!!str a38fa7e8c1844957'
+  server: free.us1.laodavip.com
+  servername: free.us1.laodavip.com
   tls: true
   type: vless
   udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  uuid: 7468649e-cebd-4a76-8470-982e33062086
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱 NL 741 | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    _spider-x: /fdded5f9698d939
+    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
+    short-id: '!!str cfe08c23a85f24'
+  server: 78.111.89.171
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 710 | ⬇️ 34KB/s
+  network: ws
+  port: 36822
+  server: sylva51.ceoiii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
   ws-opts:
     headers:
-      Host: ntt2.us.781391.xyz
-    path: /
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 754 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇺🇸 US 743 | ⬇️ 1MB/s
   password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
   port: 8881
@@ -285,53 +432,3 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 826 | ⬇️ 5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
-    short-id: '!!str a38fa7e8c1844957'
-  server: free.us1.laodavip.com
-  servername: free.us1.laodavip.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7468649e-cebd-4a76-8470-982e33062086
-- alpn:
-  - h3
-  auth: 1ecqm05bcdfcckq5
-  name: 🇺🇸US_1|1.5MB/s
-  obfs: salamander
-  obfs-password: bjmye80g9o99qohl
-  password: 1ecqm05bcdfcckq5
-  port: 59265
-  server: apic.dnso.ccwu.cc
-  skip-cert-verify: true
-  sni: apic.dnso.ccwu.cc
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|2.5MB/s
-  network: ws
-  port: 443
-  server: 192.204.57.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
-  ws-opts:
-    path: /speed
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_3|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''

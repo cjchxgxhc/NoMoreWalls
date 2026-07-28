@@ -1,22 +1,104 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 450 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 006 | ⬇️ 55KB/s
+  network: none
+  port: 24548
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  tls: false
+  type: vmess
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 024 | ⬇️ 72KB/s
+  network: none
+  port: 50219
+  server: 47.253.229.174
+  tls: false
+  type: vmess
+  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 128 | ⬇️ 3MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_1|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 US 326 | ⬇️ 343KB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: puuy-mitivpn--MiTiVPN---MiTiVPN-av.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 535 | ⬇️ 144KB/s
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260302.hihidress.com
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 438 | ⬇️ 10MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 561 | ⬇️ 2MB/s
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260202.hihidress.com
   skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 710 | ⬇️ 34KB/s
+  network: ws
+  port: 36822
+  server: sylva51.ceoiii.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 754 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: chacha20-ietf-poly1305
@@ -28,15 +110,3 @@ proxies:
   tls: true
   type: ss
   udp: false
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|2.5MB/s
-  network: ws
-  port: 443
-  server: 192.204.57.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
-  ws-opts:
-    path: /speed

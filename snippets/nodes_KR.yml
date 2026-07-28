@@ -1,17 +1,31 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🇰🇷KR_4|2.7MB/s
-  network: ws
-  port: '33200'
-  server: cu2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- country: 🇺🇸US
+  name: 🇰🇷 KR 135 | ⬇️ 867KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  sni: rr2.tube-cat.com
+  type: trojan
   udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇰🇷 KR 493 | ⬇️ 399KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
+- name: 🇰🇷 KR 345 | ⬇️ 203KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.KR1.cat.bilibili.com
+  type: trojan
+  udp: true
