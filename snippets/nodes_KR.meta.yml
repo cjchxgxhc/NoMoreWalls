@@ -9,22 +9,29 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
-- country: 🇺🇸US
-  name: 🇰🇷 KR 397 | ⬇️ 547KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: rr1.tube-cat.com
-  type: trojan
+- name: 🇰🇷 KR 124 | ⬇️ 421KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 123.111.169.70
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 🇰🇷 KR 417 | ⬇️ 203KB/s
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 🇰🇷 KR 447 | ⬇️ 324KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
-  server: rr1.tube-cat.com
+  server: rr2.tube-cat.com
   skip-cert-verify: true
-  sni: r.KR1.cat.bilibili.com
+  sni: rr2.tube-cat.com
   type: trojan
   udp: true

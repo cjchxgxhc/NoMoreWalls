@@ -1,23 +1,5 @@
 proxies:
 - alpn:
-  - http/1.1
-  client-fingerprint: ios
-  name: 🇫🇷 FR 076 | ⬇️ 3MB/s
-  network: ws
-  port: 443
-  server: 89.124.251.28.tyr-agentstvo.tech
-  servername: 89.124.251.28.tyr-agentstvo.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f728ce3-766d-4652-ac2f-0e7e74e975be
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 89.124.251.28.tyr-agentstvo.tech
-    max-early-data: 2560
-    path: /websocket
-- alpn:
   - h3
   congestion-controller: bbr
   name: 🇫🇷 FR 135 | ⬇️ 4MB/s
@@ -60,18 +42,3 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- encryption: none
-  name: 🇫🇷FR_1|2.2MB/s
-  network: ws
-  port: '8880'
-  server: 45.80.111.175
-  type: vless
-  udp: true
-  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
-  ws-opts:
-    headers:
-      Host: cnd.poland.myfilecdn.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /cdn/assets/stream
-  xudp: true

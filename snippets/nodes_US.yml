@@ -1,107 +1,12 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_12|3.5MB/s
-  network: none
-  port: '24548'
-  server: dsl081-033-205.lax1.dsl.speakeasy.net
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 185 | ⬇️ 17KB/s
+  password: GyO2pLS8rLplFHIDnWM4XM
+  port: 443
+  server: 104.192.227.164
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: ed81c339-eca0-463a-c671-fce729a683b3
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 005 | ⬇️ 9MB/s
-  network: tcp
-  port: 24548
-  server: dsl081-033-205.lax1.dsl.speakeasy.net
-  tls: false
-  type: vmess
-  uuid: ed81c339-eca0-463a-c671-fce729a683b3
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⬇️ 7MB/s
-  network: tcp
-  port: 50219
-  server: 47.253.229.174
-  tls: false
-  type: vmess
-  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 010 | ⬇️ 3MB/s
-  network: none
-  port: 50219
-  server: 47.253.229.174
-  tls: false
-  type: vmess
-  uuid: 2a13e0a4-04a5-4be5-90c9-a18b6da4664e
-- alpn:
-  - http/1.1
-  name: 🇺🇸 US 171 | ⬇️ 5MB/s
-  network: ws
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: MiTiVPN---MiTiVPN-7.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 US 158 | ⬇️ 8MB/s
-  network: ws
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 US 161 | ⬇️ 343KB/s
-  network: ws
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: puuy-mitivpn--MiTiVPN---MiTiVPN-av.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 422 | ⬇️ 3MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 438 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 752 | ⬇️ 23KB/s
@@ -112,27 +17,3 @@ proxies:
   tls: true
   type: ss
   udp: false
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.1MB/s
-  network: ws
-  password: MITIVPN
-  port: '8443'
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- cipher: aes-256-cfb
-  name: 🇺🇸US_6|2.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.226.105.188
-  type: ss
-  udp: true

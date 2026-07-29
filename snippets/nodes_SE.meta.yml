@@ -1,43 +1,5 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇸🇪SE
-  name: 🇸🇪SE_1|4.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.53.198.63
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇪 SE 089 | ⬇️ 4MB/s
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
-  skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: swss-mitivpn--MiTiVPN---MiTiVPN--o.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇪 SE 080 | ⬇️ 8MB/s
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
-  skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|2.6MB/s
+- name: 🇸🇪 SE 255 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 2083
@@ -50,6 +12,40 @@ proxies:
     headers:
       Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇸🇪 SE 244 | ⬇️ 17KB/s
+  network: grpc
+  port: 9878
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabbccdd'
+  server: 5.42.106.202
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+  xudp: true
+- name: 🇸🇪 SE 574 | ⬇️ 10KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.236.24.10
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇪 SE 759 | ⬇️ 2MB/s

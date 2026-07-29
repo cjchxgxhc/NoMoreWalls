@@ -1,37 +1,20 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: sync.v2.PushService
-  name: 🇬🇧 GB 048 | ⬇️ 8MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  server: status.capitaloneok.com
-  servername: status.capitaloneok.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 649291ba-27db-423a-a34b-6ddade44973f
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 304 | ⬇️ 23KB/s
-  network: tcp
+  name: 🇬🇧GB_1|2.2MB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 42e51b053eec3700'
-  server: 5.254.121.199
-  servername: cdn4-81.yahoo.com
-  skip-cert-verify: false
+  port: 8443
+  server: fast.nanniang.top
+  servername: uk-akile.nanniang.top
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: uk-akile.nanniang.top
+    path: /
 - ech-opts:
     _dns: udp://178.22.122.100
     enable: true
@@ -106,10 +89,3 @@ proxies:
   type: vless
   udp: true
   uuid: 716c4c2b-82f0-4ce1-b9fc-aef901df3941
-- name: 🇬🇧GB_2|2.4MB/s
-  password: ''
-  port: '1080'
-  server: 31.76.80.215
-  skip-cert-verify: true
-  type: socks5
-  username: ''

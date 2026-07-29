@@ -1,4 +1,23 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 🇭🇰 HK 001 | ⬇️ 3MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: aaa6d30137.download.windowsupdate.com
+    mode: http
+  port: 823
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇭🇰 HK 145 | ⬇️ 34KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
 - name: 🇭🇰 HK 790 | ⬇️ 124KB/s
   password: '!!str 123'
   port: 3060
@@ -23,27 +42,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 145 | ⬇️ 34KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK 387 | ⬇️ 31KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: fh4.freechatup2.com
-  servername: hihidress.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfad812b-4f2b-4075-bd9a-9c9a6fb12511
 - alpn:
   - ''
   alterId: 0

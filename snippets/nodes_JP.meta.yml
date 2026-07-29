@@ -1,49 +1,35 @@
 proxies:
-- alterId: 0
-  country: 🇺🇸US
-  name: 🇯🇵 JP 321 | ⬇️ 563KB/s
+- name: 🇯🇵 JP 295 | ⬇️ 161KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇯🇵 JP 629 | ⬇️ 11MB/s
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵 JP 236 | ⬇️ 42KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP 289 | ⬇️ 202KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵 JP 439 | ⬇️ 3MB/s
-  network: tcp
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇯🇵 JP 649 | ⬇️ 17MB/s
+  network: ws
   packet-encoding: xudp
-  port: 18007
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: '!!str 48050fab'
-  server: 3.114.220.22
-  servername: www.apple.com
+  port: 443
+  server: 162.159.45.19
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -443,15 +429,3 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_1|3.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: '52454'
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
