@@ -1,75 +1,297 @@
 proxies:
 - client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 021 | ⬇️ 16KB/s
+  name: 🇩🇪 DE 147 | ⬇️ 23KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_2|2.5MB/s
   network: ws
+  password: 5xjmr1dz66pgsew0
+  port: '8443'
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 050 | ⬇️ 1MB/s
+  network: xhttp
   packet-encoding: xudp
-  port: 8443
-  server: 159.89.29.231
-  servername: dg5gg2yg.mdacwound.workers.dev
+  port: 1963
+  reality-opts:
+    _spider-x: /
+    public-key: qB3VrHnAPaet0yZwVC3hPH4YL7IkrZUcP_oW14e0GQA
+    short-id: '!!str 26a77d1265b5def1'
+  server: mmlplp.jorzel.ir
+  servername: www.yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 05847861-e860-4313-86d2-bf37835fb5de
+  uuid: ed81e147-b441-48d3-8b84-ea9db782b0b2
+  xhttp-opts:
+    host: hostname
+    mode: stream-one
+    path: /path
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 482 | ⬇️ 40KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇩🇪 DE 261 | ⬇️ 25KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 🇨🇭CH_1|2.8MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 493 | ⬇️ 10KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 144.31.98.144
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 101 | ⬇️ 4MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
   ws-opts:
     headers:
-      Host: dg5gg2yg.mdacwound.workers.dev
-    path: /tech
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 486 | ⬇️ 9KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 167.17.182.192
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+- name: 🇩🇪 DE 135 | ⬇️ 4MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: false
+  sni: devideo.h2corp.org
+  tfo: false
+  type: hysteria2
+- name: 🇩🇪 DE 118 | ⬇️ 2MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.214
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
+  tfo: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|2.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 453 | ⬇️ 898KB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 490 | ⬇️ 16KB/s
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo
+  server: 176.109.88.14
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d38370cf-1269-4cec-bc23-66061d9d2a92
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇷🇴 RO 654 | ⬇️ 25KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 448
+  reality-opts:
+    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
+    short-id: '!!str e1bdc95c1554c8eb'
+  server: 93.114.194.115
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 591 | ⬇️ 143KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2087
+  server: v2.gafe-rezvan.ir
+  servername: sdcards.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee25c4ce-2071-4ffd-a541-4e2615118d32
+  xhttp-opts:
+    host: sdcards.ir
+    mode: auto
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 618 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: securitytrails.com
+  servername: lambermicha.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a5fd8d7-4182-4f65-a005-ee8d39fe96b9
+  xhttp-opts:
+    host: lambermicha.dpdns.org
+    mode: auto
+    path: /forall
+    x-padding-bytes: 100-1000
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 🇩🇪 DE 628 | ⬇️ 1MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.57.106.87
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - name: 🇩🇪 DE 215 | ⬇️ 92KB/s
   password: ''
   port: 1080
   server: 152.89.104.11
-  tls: false
   type: socks5
   username: ''
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 410 | ⬇️ 3MB/s
-  network: raw
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - gr1.fifapes.monster
+    path:
+    - /
+  name: 🇩🇪 DE 655 | ⬇️ 542KB/s
+  network: http
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ
-    short-id: '!!str 15affa0af66dfc79'
-  server: cloud.ikorka.sbs
-  servername: sun6-20.userapi.com
+  port: 8882
+  server: gr1.fifapes.monster
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 2dc9fa69-37d3-4d46-82ce-d71c567c8c9a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 469 | ⬇️ 553KB/s
-  network: tcp
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- encryption: none
+  name: 🇩🇪 DE 663 | ⬇️ 11KB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: '!!str 15affa0af66dfc79'
-  server: 2.27.25.13
-  servername: deepl.com
-  tls: true
+  port: 80
+  server: 151.101.193.54
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
-- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  name: 🇩🇪 DE 471 | ⬇️ 461KB/s
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
+  uuid: 6bd7815d-9fb0-41c6-87ef-ffc713bf6b8f
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

@@ -1,4 +1,49 @@
 proxies:
+- client-fingerprint: firefox
+  name: 🇸🇪 SE 211 | ⬇️ 127KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72b9b9bd-8cb9-49ed-bfd4-20fab16829ba
+- name: 🇸🇪 SE 066 | ⬇️ 7MB/s
+  password: e04a51d1-0450-4919-b924-bd08501934bf
+  port: 443
+  server: 80.66.78.105
+  skip-cert-verify: false
+  sni: 80.66.78.105.nip.io
+  tfo: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_1|4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 SE 583 | ⬇️ 9KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
+    short-id: '!!str 7bcfc0bc'
+  server: 87.120.196.68
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇪 SE 759 | ⬇️ 2MB/s

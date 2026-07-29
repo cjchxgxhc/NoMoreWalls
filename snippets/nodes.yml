@@ -1,4 +1,121 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 005 | ⬇️ 2MB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 193.42.38.209
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_4|2.8MB/s
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: '8080'
+  server: 193.29.139.168
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 011 | ⬇️ 7KB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 190.2.147.119
+  type: ss
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 147 | ⬇️ 23KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_2|2.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: '8443'
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 656 | ⬇️ 350KB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.36
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  name: 🇺🇦 UA 637 | ⬇️ 93KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 482 | ⬇️ 40KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇩🇪 DE 261 | ⬇️ 25KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇮🇳 IN 627 | ⬇️ 13KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇦 UA 606 | ⬇️ 71KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 101 | ⬇️ 4MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
 - alpn:
   - ''
   alterId: 2
@@ -16,6 +133,195 @@ proxies:
   tls: false
   type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|2.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇺🇦 UA 634 | ⬇️ 114KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇦 UA 596 | ⬇️ 96KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽 MX 210 | ⬇️ 36KB/s
+  network: ws
+  port: 36801
+  server: 68.155.86.84
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 398 | ⬇️ 98KB/s
+  network: ws
+  port: 36809
+  server: cindy58.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 426 | ⬇️ 20KB/s
+  network: ws
+  port: 36802
+  server: cindy51.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 448 | ⬇️ 10KB/s
+  password: GyO2pLS8rLplFHIDnWM4XM
+  port: 443
+  server: 104.192.227.164
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 453 | ⬇️ 898KB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_1|4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 FR 535 | ⬇️ 18KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🇯🇵 JP 527 | ⬇️ 46KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇦 UA 641 | ⬇️ 251KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 562 | ⬇️ 7KB/s
+  password: LG9UzkKlO6qf7AHkXzZ3M7L+VZJpPrscFn1N0MXJ5hk=
+  port: 12380
+  server: 157.230.240.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇰🇷 KR 581 | ⬇️ 155KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 592 | ⬇️ 11KB/s
+  password: W8T44NSLuczcncGIf92m6Q
+  port: 1080
+  server: 178.128.101.77
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽 MX 597 | ⬇️ 17KB/s
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 🇯🇵 JP 624 | ⬇️ 121KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇮🇪 IE 640 | ⬇️ 22KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - delay: 584
   name: 🇮🇳 IN 722 | ⬇️ 14MB/s
@@ -42,35 +348,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /in-pdr
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 440 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 424 | ⬇️ 10MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 482 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   country: 🇳🇱NL
   name: 🇳🇱 NL 734 | ⬇️ 973KB/s
@@ -171,3 +448,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_2|2.8MB/s
+  password: zyqB77GsJ0CZnRBiWvF6buPpynCXXHQY6QDPrDNIwXU=
+  port: '19964'
+  server: n4.cover20.ir
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_6|2.1MB/s
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 158.101.208.107
+  type: ss
+  udp: true

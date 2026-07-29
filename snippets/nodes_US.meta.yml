@@ -1,25 +1,28 @@
 proxies:
-- client-fingerprint: firefox
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 005 | ⬇️ 2MB/s
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 193.42.38.209
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸 US 483 | ⬇️ 200KB/s
+  name: 🇳🇱NL_3|2.2MB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
+  port: '993'
   reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str c76ba2c2fb172e8b'
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: false
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    short-id: '!!str '
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
 - multiplexing: MULTIPLEXING_LOW
   name: 🇺🇸 US 765 | ⬇️ 10MB/s
@@ -29,6 +32,24 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: '443'
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: '!!str 0990d22f'
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -51,34 +72,47 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- name: 🇺🇸 US 239 | ⬇️ 935KB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸 US 483 | ⬇️ 200KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: '!!str c76ba2c2fb172e8b'
+  server: 154.193.55.183
+  servername: storage.yandex.net
   skip-cert-verify: false
-  tfo: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 210 | ⬇️ 7MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇷🇺RU_2|2.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '8443'
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+    short-id: '!!str '
+  server: 88.218.44.4
+  servername: dl.google.com
   skip-cert-verify: false
-  tfo: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xudp: true
 - name: 🇺🇸 US 803 | ⬇️ 91KB/s
   password: ''
   port: 22222
@@ -86,6 +120,107 @@ proxies:
   tls: false
   type: socks5
   username: ''
+- name: 🇺🇸 US 213 | ⬇️ 117KB/s
+  password: ''
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+  username: ''
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇺🇸 US 305 | ⬇️ 13KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26e354ba-a3ee-45f0-bf68-422e27e12884
+- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  name: 🇺🇸 US 106 | ⬇️ 677KB/s
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇺🇸 US 119 | ⬇️ 14KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
+- name: 🇺🇸 US 196 | ⬇️ 198KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.17.101.139
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 426 | ⬇️ 20KB/s
+  network: ws
+  port: 36802
+  server: cindy51.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 448 | ⬇️ 10KB/s
+  password: GyO2pLS8rLplFHIDnWM4XM
+  port: 443
+  server: 104.192.227.164
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 494 | ⬇️ 9KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: a1.amazontradinghub.com
+  servername: m.media-amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55ea14cb-f077-47e0-852b-9a94d7a52605
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 US 826 | ⬇️ 5MB/s
@@ -100,49 +235,72 @@ proxies:
   type: vless
   udp: true
   uuid: 7468649e-cebd-4a76-8470-982e33062086
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 440 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 424 | ⬇️ 10MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇺🇸 US 448 | ⬇️ 246KB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 544 | ⬇️ 1MB/s
   network: ws
-  port: 8443
-  server: kaoqy-us-ntt.cf.090227.xyz
-  servername: ntt2.us.781391.xyz
+  packet-encoding: xudp
+  port: 443
+  server: 69.46.46.1
+  servername: fgfssgf-bfbwfwfkw.up.railway.app
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  uuid: 176bfd2e-ae79-df1e-1068-061b8a130a47
   ws-opts:
     headers:
-      Host: ntt2.us.781391.xyz
+      Host: fgfssgf-bfbwfwfkw.up.railway.app
+    path: /ws/176bfd2e-ae79-df1e-1068-061b8a130a47
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 560 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
     path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 482 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇺🇸 US 576 | ⬇️ 12KB/s
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e6daf4-b11c-42fa-9e2d-ae1d3f5c70d3
+- name: 🇺🇸 US 210 | ⬇️ 7MB/s
+  network: ws
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: true
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - name: 🇺🇸 US 743 | ⬇️ 1MB/s
   password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
   port: 8881
@@ -208,6 +366,20 @@ proxies:
   type: vless
   udp: true
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+- name: 🇺🇸 US 239 | ⬇️ 935KB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -309,3 +481,99 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- name: 🇺🇸US_3|3.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_4|3.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_5|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|2.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|3.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|2.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|1.8MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|2.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|2.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_14|2.6MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
