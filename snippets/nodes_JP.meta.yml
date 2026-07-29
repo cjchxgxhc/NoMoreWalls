@@ -1,6 +1,17 @@
 proxies:
-- country: 🇺🇸US
-  name: 🇯🇵 JP 585 | ⬇️ 227KB/s
+- alterId: 0
+  country: 🇺🇸US
+  name: 🇯🇵 JP 321 | ⬇️ 563KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇯🇵 JP 236 | ⬇️ 42KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
@@ -9,46 +20,30 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 🇯🇵 JP 093 | ⬇️ 119KB/s
+- name: 🇯🇵 JP 289 | ⬇️ 202KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-  udp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇯🇵 JP 140 | ⬇️ 396KB/s
-  network: grpc
-  port: 46784
-  server: t1.hhaakk9922.com
-  servername: t1.hhaakk9922.com
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵 JP 439 | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18007
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.114.220.22
+  servername: www.apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 156 | ⬇️ 206KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-- country: 🇺🇸US
-  name: 🇯🇵 JP 740 | ⬇️ 563KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -448,3 +443,15 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP_1|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: '52454'
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''

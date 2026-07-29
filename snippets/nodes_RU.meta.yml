@@ -1,14 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 RU 012 | ⬇️ 81KB/s
-  password: 6uP7908jBH6EqLEwdHfVKA
-  port: 2050
-  server: 176.124.200.40
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 038 | ⬇️ 3MB/s
+  password: 1a87017d0bf57f34
+  port: 10091
+  server: 176.32.34.152
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 061 | ⬇️ 88KB/s
+  name: 🇷🇺 RU 040 | ⬇️ 7MB/s
   password: fbaf33bcffe53cf9
   port: 10921
   server: 195.58.48.19
@@ -16,38 +16,34 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 025 | ⬇️ 2MB/s
-  password: 1a87017d0bf57f34
-  port: 10091
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: cdn-spb.buildsnow.top
-  name: 🇷🇺 RU 119 | ⬇️ 956KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
-    short-id: '!!str 0ac1b591aafcfa51'
-  server: 89.125.55.12
-  servername: cdn-spb.buildsnow.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
-- cipher: aes-256-gcm
   country: 🇷🇺RU
-  name: 🇷🇺 RU 735 | ⬇️ 10KB/s
+  name: 🇷🇺 RU 047 | ⬇️ 10KB/s
   password: cfe685726eea2c4b
   port: 10921
   server: 185.22.154.103
-  skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 🇷🇺 RU 152 | ⬇️ 342KB/s
+  network: tcp
+  password: ABu1GpNzLe
+  port: 13602
+  reality-opts:
+    _spider-x: /
+    public-key: B0z1ebSib6uGNq6YJ7ADH_-mZr72js4BpY37ejBD_GA
+    short-id: '!!str !!str fe'
+  server: 176.124.222.180
+  sni: www.tesla.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇷🇺 RU 198 | ⬇️ 368KB/s
+  network: tcp
+  password: MDM8rZFTNB
+  port: 56079
+  reality-opts:
+    _spider-x: /
+    public-key: XtYHOuU7cayBxbbJtnAv_dWuz0-mxcp6lDd2AUCzxR8
+    short-id: '!!str !!str e8d96258'
+  server: 176.124.222.180
+  sni: www.oracle.com
+  type: trojan

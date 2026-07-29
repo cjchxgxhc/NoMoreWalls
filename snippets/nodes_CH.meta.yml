@@ -1,28 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇭 CH 003 | ⬇️ 5MB/s
-  password: kvrov4vd4iszb3aw
-  port: 25026
-  server: koviraaa.kovira2.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇨🇭 CH 204 | ⬇️ 5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1443
-  reality-opts:
-    public-key: rvOPhBAT3c5Uok7UDuxVfML3j4mib3Y9MU_Cd9M822c
-    short-id: '!!str 0441f3e34348cb45'
-  server: ch.snowfalls.top
-  servername: ch.snowfalls.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
@@ -36,17 +12,10 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- encryption: none
-  name: 🇨🇭CH_1|2.1MB/s
-  network: xhttp
-  port: '8443'
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇭CH_1|3.4MB/s
+  password: kvrov4vd4iszb3aw
+  port: '25026'
   server: koviraaa.kovira2.ir
-  type: vless
+  type: ss
   udp: true
-  uuid: f5f77177-4937-4f40-b6fc-7c4278151f01
-  xhttp-opts:
-    host: chatgpt.com
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true

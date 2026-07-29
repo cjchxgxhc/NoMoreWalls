@@ -1,21 +1,16 @@
 proxies:
+- cipher: aes-256-cfb
+  country: 🇸🇪SE
+  name: 🇸🇪SE_1|4.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.53.198.63
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇸🇪 SE 089 | ⬇️ 2MB/s
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
-  skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇪 SE 563 | ⬇️ 574KB/s
+  name: 🇸🇪 SE 089 | ⬇️ 4MB/s
   network: ws
   password: MiTiVPN
   port: 2083
@@ -27,11 +22,31 @@ proxies:
     headers:
       Host: swss-mitivpn--MiTiVPN---MiTiVPN--o.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 723 | ⬇️ 748KB/s
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇪 SE 080 | ⬇️ 8MB/s
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_1|2.6MB/s
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
