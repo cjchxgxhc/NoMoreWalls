@@ -1,4 +1,26 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸 US 483 | ⬇️ 200KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: '!!str c76ba2c2fb172e8b'
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  xudp: true
 - multiplexing: MULTIPLEXING_LOW
   name: 🇺🇸 US 765 | ⬇️ 10MB/s
   password: dongtaiwang.com
@@ -29,67 +51,6 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 185 | ⬇️ 17KB/s
-  password: GyO2pLS8rLplFHIDnWM4XM
-  port: 443
-  server: 104.192.227.164
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸 US 483 | ⬇️ 200KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str c76ba2c2fb172e8b'
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  xudp: true
-- name: 🇺🇸 US 210 | ⬇️ 7MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 153 | ⬇️ 843KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 207.246.94.121
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
 - name: 🇺🇸 US 239 | ⬇️ 935KB/s
   network: ws
   port: 2095
@@ -104,67 +65,27 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- name: 🇺🇸 US 172 | ⬇️ 1MB/s
+- name: 🇺🇸 US 210 | ⬇️ 7MB/s
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.19.146.246
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  port: 2095
+  server: www.wto.org
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 196 | ⬇️ 380KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: site.top-connect.online
-  servername: site.top-connect.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: random
-  encryption: none
-  name: 🇺🇸 US 624 | ⬇️ 12KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    _spider-x: /fdded5f9698d939
-    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
-    short-id: '!!str cfe08c23a85f24'
-  server: 78.111.89.171
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
-- encryption: none
-  name: 🇺🇸 US 770 | ⬇️ 164KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.252
-  skip-cert-verify: false
+  tfo: true
   tls: false
   type: vless
   udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- name: 🇺🇸 US 803 | ⬇️ 91KB/s
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 US 826 | ⬇️ 5MB/s
@@ -179,97 +100,49 @@ proxies:
   type: vless
   udp: true
   uuid: 7468649e-cebd-4a76-8470-982e33062086
-- name: 🇺🇸 US 803 | ⬇️ 91KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 356 | ⬇️ 2MB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 440 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 424 | ⬇️ 10MB/s
   network: tcp
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 🇺🇸 US 553 | ⬇️ 22KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 137.184.122.138
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇺🇸 US 554 | ⬇️ 902KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 166.1.160.140
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- encryption: none
-  name: 🇺🇸 US 628 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: cf7.466688.xyz
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇺🇸 US 630 | ⬇️ 4MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 642 | ⬇️ 89KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: a1.amazontradinghub.com
-  servername: m.media-amazon.com
+  name: 🇺🇸 US 448 | ⬇️ 246KB/s
+  network: ws
+  port: 8443
+  server: kaoqy-us-ntt.cf.090227.xyz
+  servername: ntt2.us.781391.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 55ea14cb-f077-47e0-852b-9a94d7a52605
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: ntt2.us.781391.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 482 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇺🇸 US 743 | ⬇️ 1MB/s
   password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
   port: 8881
@@ -307,6 +180,17 @@ proxies:
   type: vless
   udp: true
   uuid: 9d1f3ed0-7426-4100-ac06-21ec1f01c51b
+- encryption: none
+  name: 🇺🇸 US 770 | ⬇️ 164KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.252
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - client-fingerprint: qq
   grpc-opts:
     grpc-service-name: grpc-tunnel

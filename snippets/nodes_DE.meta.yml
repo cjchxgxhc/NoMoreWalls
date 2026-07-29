@@ -1,56 +1,11 @@
 proxies:
-- name: 🇩🇪 DE 024 | ⬇️ 103KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 044 | ⬇️ 126KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 017 | ⬇️ 54KB/s
-  network: xhttp
-  port: 443
-  server: 151.101.117.84
-  servername: accaunts.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fcdc8057-21c6-4d64-b68f-69cc5d80d980
-  xhttp-opts:
-    host: lunex.store
-    mode: auto
-    path: /Lunex
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 037 | ⬇️ 117KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: 🇩🇪 DE 087 | ⬇️ 78KB/s
+  name: 🇩🇪 DE 021 | ⬇️ 16KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -65,57 +20,73 @@ proxies:
     headers:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
+- name: 🇩🇪 DE 215 | ⬇️ 92KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 DE 276 | ⬇️ 15KB/s
+  name: 🇩🇪 DE 410 | ⬇️ 3MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ
+    short-id: '!!str 15affa0af66dfc79'
+  server: cloud.ikorka.sbs
+  servername: sun6-20.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc9fa69-37d3-4d46-82ce-d71c567c8c9a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 469 | ⬇️ 553KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.201
-  servername: cdn9-33.yahoo.com
-  skip-cert-verify: true
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: '!!str 15affa0af66dfc79'
+  server: 2.27.25.13
+  servername: deepl.com
   tls: true
   type: vless
   udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
-- encryption: none
-  name: 🇫🇮 FI 351 | ⬇️ 13KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
+- auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  name: 🇩🇪 DE 471 | ⬇️ 461KB/s
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
   udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 DE 311 | ⬇️ 13KB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 197 | ⬇️ 19KB/s
+  network: tcp
   packet-encoding: xudp
-  port: 80
-  server: 167.82.0.17
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: true
-  tls: false
+  port: 2027
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: '!!str 6ba7b8109dad11d1'
+  server: germ.skysafe.online
+  servername: germ.skysafe.online
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
+  uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
@@ -139,163 +110,6 @@ proxies:
       Host: ykmbvlvp.qikyj7xau0v3561lzark.workers.dev
     max-early-data: 2560
     path: /activity/type
-- encryption: none
-  name: 🇩🇪 DE 339 | ⬇️ 78KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  servername: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 229 | ⬇️ 18KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.4
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 🇩🇪 DE 215 | ⬇️ 92KB/s
-  password: ''
-  port: 1080
-  server: 152.89.104.11
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 194 | ⬇️ 1MB/s
-  network: tcp
-  port: 8545
-  reality-opts:
-    public-key: 8fx-S5BqsZ99GVPj5kJ-LyMF1cRUE_-NsSetAbc6ADM
-    short-id: '!!str cf5bb241f8a84897'
-  server: 80.253.249.197
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c69c296-3786-40d3-b6b6-3734e69e02d3
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 272 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: site.up-connect.online
-  servername: site.up-connect.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- name: 🇩🇪 DE 341 | ⬇️ 15KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 4.232.64.201
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 580 | ⬇️ 17KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 178.128.192.26
-  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-    max-early-data: 2560
-    path: /intro/search
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇷🇴 RO 643 | ⬇️ 25KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 448
-  reality-opts:
-    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
-    short-id: '!!str e1bdc95c1554c8eb'
-  server: 93.114.194.115
-  servername: www.samsung.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 197 | ⬇️ 19KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2027
-  reality-opts:
-    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
-    short-id: '!!str 6ba7b8109dad11d1'
-  server: germ.skysafe.online
-  servername: germ.skysafe.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
 - country: 🇺🇸US
   name: 🇩🇪 DE 762 | ⬇️ 6MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
@@ -306,6 +120,21 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
+- encryption: none
+  name: 🇫🇮 FI 351 | ⬇️ 13KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.56.7
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -354,6 +183,21 @@ proxies:
       Host: pan1.global.ssl.fastly.net
     max-early-data: 2053
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- encryption: none
+  name: 🇩🇪 DE 339 | ⬇️ 78KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
 - name: 🇫🇮 FI 388 | ⬇️ 49KB/s
   network: ws
   packet-encoding: xudp
