@@ -1,31 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 147 | ⬇️ 23KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_2|2.5MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: '8443'
-  server: hyperon.site
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 DE 013 | ⬇️ 10KB/s #1'
+  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
+  port: 51570
+  server: e1.cover20.ir
   skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /bkdicj
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  name: 🇩🇪 DE 482 | ⬇️ 40KB/s
+  name: '🇩🇪 DE 561 | ⬇️ 64KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -34,8 +17,21 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '🇩🇪 DE 623 | ⬇️ 54KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - alterId: 0
-  name: 🇩🇪 DE 261 | ⬇️ 25KB/s
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: '🇩🇪 DE 579 | ⬇️ 80KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -44,25 +40,19 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 101 | ⬇️ 4MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
+- disable-sni: true
+  name: '🇩🇪 DE 194 | ⬇️ 286KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: ''
   type: trojan
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
+  udp: true
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.5MB/s
+  name: '🇩🇪 DE 658 | ⬇️ 378KB/s #1'
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -71,21 +61,6 @@ proxies:
   sni: com.digitalposts.dpdns.org
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 453 | ⬇️ 898KB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
   ws-opts:
     headers:
       Host: com.digitalposts.dpdns.org

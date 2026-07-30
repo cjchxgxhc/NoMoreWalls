@@ -1,28 +1,56 @@
 proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '🇷🇺 RU 040 | ⬇️ 25KB/s #1'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
+- client-fingerprint: qq
+  name: '🇷🇺 RU 163 | ⬇️ 15KB/s #1'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
+    short-id: '!!str 3180'
+  server: tw05.kinomir.fun
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 565 | ⬇️ 355KB/s
-  network: tcp
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '🇷🇺 RU 156 | ⬇️ 15KB/s #1'
+  network: grpc
   packet-encoding: xudp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: dRPcJM7ZWihjiGNHuIJ4iaCpLxHAKoo59WE-vsTZASs
-    short-id: '!!str 41f6de54'
-  server: 91.243.86.196
-  servername: www.cloudflare.com
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 34a1ada8-4a1a-434b-8583-7b68668f6e9d
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - alpn:
   - http/1.1
   client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc
-  name: 🇷🇺 RU 104 | ⬇️ 417KB/s
+  name: '🇷🇺 RU 372 | ⬇️ 198KB/s #1'
   network: grpc
   port: 2053
   reality-opts:

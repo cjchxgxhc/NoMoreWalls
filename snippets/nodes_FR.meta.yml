@@ -1,92 +1,34 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷 FR 085 | ⬇️ 4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI
-    short-id: '!!str dc927a04e8572c61'
-  server: 195.58.140.146
-  servername: d1-fr.cloud-cdn.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7790b85-9659-4558-a405-e0ab57d32984
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇫🇷 FR 021 | ⬇️ 6MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
-  tfo: false
-  type: hysteria2
 - auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷 FR 049 | ⬇️ 7MB/s
+  name: '🇫🇷 FR 137 | ⬇️ 1017KB/s #1'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
   sni: bing.com
+  tfo: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇫🇷 FR 535 | ⬇️ 18KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
+- cipher: chacha20-ietf-poly1305
+  name: '🇫🇷 FR 024 | ⬇️ 12KB/s #1'
+  password: AtU2Weu7mf4QUOH2Lomi3g
+  port: 1080
+  server: kaffee-tour.de
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  type: ss
+  udp: false
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: '🇫🇷 FR 324 | ⬇️ 1MB/s #1'
+  network: xhttp
+  port: 443
+  server: fr2.ethicsdinnerpave.online
+  servername: fr2.ethicsdinnerpave.online
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇫🇷 FR 135 | ⬇️ 4MB/s
-  password: dongtaiwang.com
-  path: /
-  port: 33888
-  server: 195.154.41.99
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-  version: 5
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇫🇷 FR 200 | ⬇️ 1MB/s
-  password: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  port: 27947
-  reduce-rtt: false
-  request-timeout: 0
-  server: 83.243.86.109
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  version: 5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
-  name: 🇫🇷 FR 333 | ⬇️ 12KB/s
-  network: grpc
-  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
-  port: 51405
-  reality-opts:
-    public-key: gKnW_-1RMWzyOOfGRrVYmYrKZlpjSeaYNtqMD3Ti6FM
-    short-id: '!!str !!str c6602ca83b10028e'
-  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
-  sni: rd.autos.yahoo.com:443
-  type: trojan
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: fr2.ethicsdinnerpave.online
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/

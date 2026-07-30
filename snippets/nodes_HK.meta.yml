@@ -5,65 +5,55 @@ proxies:
   cipher: auto
   client-fingerprint: ''
   country: 🇮🇷IR
-  delay: 769
+  delay: 922
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 840 | ⬇️ 3KB/s
+  name: '🇭🇰 HK 639 | ⬇️ 4KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 145 | ⬇️ 34KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- name: 🇭🇰 HK 790 | ⬇️ 124KB/s
+- name: '🇭🇰 HK 622 | ⬇️ 16KB/s #1'
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- name: 🇭🇰 HK 643 | ⬇️ 24KB/s
-  password: c90afede-81f8-439d-9a20-f45579f623ec
-  port: 28680
-  server: tw76.jdvipkuai.cc
-  sni: hk15.nynet2026.shop
-  type: anytls
-  udp: true
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - sjskendn.dingtalk.com
-    method: GET
-    path:
-    - /x
-  name: 🇭🇰 HK 774 | ⬇️ 122KB/s
-  network: http
-  port: 800
-  server: 47.86.167.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: '🇭🇰 HK 087 | ⬇️ 499KB/s #1'
+  network: xhttp
+  port: 443
+  server: hk.denverpresents.top
+  servername: hk.denverpresents.top
+  tls: true
+  type: vless
   udp: true
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 844 | ⬇️ 2KB/s
-  network: tcp
-  port: 30807
-  server: v10.hdacd.com
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: hk.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- client-fingerprint: firefox
+  name: '🇭🇰 HK 095 | ⬇️ 101KB/s #1'
+  network: xhttp
+  packet-encoding: ''
+  port: 8443
+  reality-opts:
+    public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
+  server: stockholm-meow.nethcloud.top
+  servername: wikihow.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cbefb4d-328c-411d-bf76-780df1082df8
+  xhttp-opts:
+    host: wikihow.com
+    mode: auto
+    path: /
