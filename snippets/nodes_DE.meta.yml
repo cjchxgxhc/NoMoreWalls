@@ -1,36 +1,23 @@
 proxies:
-- encryption: none
-  name: '🇩🇪 DE 027 | ⬇️ 60KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 2550
-  server: 194.242.129.162
-  skip-cert-verify: false
-  tls: false
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇩🇪 DE 018 | ⬇️ 221KB/s
+  network: grpc
+  port: 25034
+  reality-opts:
+    public-key: Gt8Da93zNnfkXQLNTzwCFzLU_h0eZV-SqRDTTQ-rDwU
+    short-id: '!!str d6b2e9f1a4c8d3f5'
+  server: nl01.auragg.org
+  servername: cloudflare.com
+  tls: true
   type: vless
   udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- cipher: chacha20-ietf-poly1305
-  name: '🇩🇪 DE 013 | ⬇️ 10KB/s #1'
-  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
-  port: 51570
-  server: e1.cover20.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 561 | ⬇️ 64KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '🇩🇪 DE 623 | ⬇️ 54KB/s #1'
+  name: 🇩🇪DE_1|2.0MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -41,8 +28,19 @@ proxies:
   udp: true
 - alterId: 0
   client-fingerprint: chrome
+  name: 🇩🇪 DE 561 | ⬇️ 64KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
   country: 🇺🇸US
-  name: '🇩🇪 DE 579 | ⬇️ 80KB/s #1'
+  name: 🇩🇪 DE 579 | ⬇️ 80KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -51,7 +49,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: '🇩🇪 DE 078 | ⬇️ 1MB/s #1'
+- name: 🇩🇪 DE 078 | ⬇️ 1MB/s
   obfs: salamander
   obfs-password: 3f68c77e2abcdf148cf7c77f76859a35
   password: Gda238Qr5GeEgGAM
@@ -62,8 +60,81 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
+  disable-sni: true
+  name: 🇩🇪DE_2|2.0MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 235 | ⬇️ 55KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 DE 122 | ⬇️ 15KB/s #1'
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪 DE 804 | ⬇️ 4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- name: 🇩🇪 DE 821 | ⬇️ 11MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- encryption: none
+  name: 🇩🇪 DE 027 | ⬇️ 60KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2550
+  server: 194.242.129.162
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 013 | ⬇️ 10KB/s
+  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
+  port: 51570
+  server: e1.cover20.ir
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 122 | ⬇️ 15KB/s
   network: xhttp
   packet-encoding: xudp
   port: 46725
@@ -82,7 +153,7 @@ proxies:
     path: /
 - down: ''
   fingerprint: ''
-  name: '🇩🇪 DE 240 | ⬇️ 2MB/s #1'
+  name: 🇩🇪 DE 240 | ⬇️ 2MB/s
   obfs: ''
   obfs-password: ''
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
@@ -94,7 +165,7 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: safari
-  name: '🇩🇪 DE 143 | ⬇️ 283KB/s #1'
+  name: 🇩🇪 DE 143 | ⬇️ 283KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -114,26 +185,16 @@ proxies:
 - alpn:
   - h3
   auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: '🇩🇪 DE 274 | ⬇️ 2MB/s #1'
+  name: 🇩🇪 DE 274 | ⬇️ 2MB/s
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   skip-cert-verify: true
   sni: devideo.h2corp.org
   type: hysteria2
-- disable-sni: true
-  name: '🇩🇪 DE 194 | ⬇️ 286KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 - alpn:
   - http/1.1
-  name: '🇩🇪 DE 658 | ⬇️ 378KB/s #1'
+  name: 🇩🇪 DE 658 | ⬇️ 378KB/s
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -146,3 +207,69 @@ proxies:
     headers:
       Host: com.digitalposts.dpdns.org
     path: /bkdicj
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.0MB/s
+  network: ws
+  port: '443'
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 957797d5-1710-4e4a-bf41-9f5b641503e3
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: '!!str '
+  server: 94.249.225.41
+  servername: grand-lynx.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: '!!str '
+  server: 94.249.225.84
+  servername: grand-lynx.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
+    short-id: '!!str e132826d'
+  server: 77.90.61.47
+  servername: api.led.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
+  xudp: true

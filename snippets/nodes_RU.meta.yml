@@ -1,36 +1,25 @@
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '🇷🇺 RU 040 | ⬇️ 25KB/s #1'
-  network: tcp
-  port: 40443
+  name: 🇷🇺RU_4|2.4MB/s
+  network: raw
+  port: '443'
   reality-opts:
-    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
-    short-id: '!!str 69d4'
-  server: status.netraidly.ru
-  servername: deepl.com
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+    short-id: '!!str '
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
-- client-fingerprint: qq
-  name: '🇷🇺 RU 163 | ⬇️ 15KB/s #1'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
-    short-id: '!!str 3180'
-  server: tw05.kinomir.fun
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
+  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '🇷🇺 RU 156 | ⬇️ 15KB/s #1'
+  name: 🇷🇺 RU 156 | ⬇️ 15KB/s
   network: grpc
   packet-encoding: xudp
   port: 2053
@@ -50,7 +39,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc
-  name: '🇷🇺 RU 372 | ⬇️ 198KB/s #1'
+  name: 🇷🇺 RU 372 | ⬇️ 198KB/s
   network: grpc
   port: 2053
   reality-opts:
@@ -62,3 +51,60 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 040 | ⬇️ 25KB/s
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 825 | ⬇️ 58KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ
+    short-id: '!!str 27e53bbcab7593d7'
+  server: 84.201.163.47
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: qq
+  name: 🇷🇺 RU 163 | ⬇️ 15KB/s
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
+    short-id: '!!str 3180'
+  server: tw05.kinomir.fun
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|2.5MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: '!!str 496ee75c2f91f51d'
+  server: 217.149.23.141
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  xudp: true
