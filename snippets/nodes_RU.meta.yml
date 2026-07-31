@@ -1,23 +1,8 @@
 proxies:
-- cipher: aes-256-gcm
-  name: '🇷🇺 RU 178 | ⬇️ 91KB/s #1'
-  password: 1a87017d0bf57f34
-  port: 50111
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: '🇷🇺 RU 871 | ⬇️ 166KB/s #1'
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '🇷🇺 RU 900 | ⬇️ 85KB/s #1'
+  name: 🇷🇺 RU 900 | ⬇️ 85KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -32,7 +17,7 @@ proxies:
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇷🇺 RU 408 | ⬇️ 2MB/s #1'
+  name: 🇷🇺 RU 408 | ⬇️ 2MB/s
   network: tcp
   packet-encoding: xudp
   port: 40443
@@ -47,15 +32,7 @@ proxies:
   udp: true
   uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - cipher: aes-256-gcm
-  name: '🇷🇺 RU 426 | ⬇️ 40KB/s #1'
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: '🇷🇺 RU 418 | ⬇️ 26KB/s #1'
+  name: 🇷🇺 RU 418 | ⬇️ 26KB/s
   password: fbaf33bcffe53cf9
   port: 50111
   server: 195.58.48.19
@@ -64,7 +41,7 @@ proxies:
   udp: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇷🇺 RU 195 | ⬇️ 73KB/s #1'
+  name: 🇷🇺 RU 195 | ⬇️ 73KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -77,29 +54,29 @@ proxies:
   type: vless
   udp: true
   uuid: c245b785-bb81-481b-95c9-c2db14c66f25
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇧🇷BR_1|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 606 | ⬇️ 935KB/s
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: 201.51.2.248
-  servername: ads.x5.ru
-  skip-cert-verify: true
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
   tls: true
   type: vless
   udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '🇷🇺 RU 936 | ⬇️ 443KB/s #1'
+  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
   network: grpc
   packet-encoding: xudp
   port: 2053
@@ -113,21 +90,59 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: '🇷🇺 RU 606 | ⬇️ 935KB/s #1'
-  network: grpc
-  port: 2053
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 242 | ⬇️ 634KB/s
+  network: tcp
+  port: 48561
   reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
+    public-key: Slau4DRZkIFgAeKGsPz5MWOp5xB1ecTNzLtbCBUGeQM
+    short-id: '!!str 8059df'
+  server: netherlands1.banovano.space
+  servername: www.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  uuid: dbf8a224-7f42-4731-8aba-e2ae25f1ab94
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
+  password: 1a87017d0bf57f34
+  port: 50111
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 871 | ⬇️ 166KB/s
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 426 | ⬇️ 40KB/s
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 381 | ⬇️ 955KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: '!!str 496ee75c2f91f51d'
+  server: 201.51.2.248
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  xudp: true

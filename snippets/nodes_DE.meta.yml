@@ -1,16 +1,7 @@
 proxies:
-- name: '🇩🇪 DE 004 | ⬇️ 372KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 49518
-  server: 49.12.130.109
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 DE 220 | ⬇️ 92KB/s #1'
+  name: 🇩🇪 DE 220 | ⬇️ 92KB/s
   network: xhttp
   packet-encoding: xudp
   port: 8443
@@ -30,9 +21,20 @@ proxies:
     mode: auto
     path: /foot
     x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 914 | ⬇️ 3MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - alterId: 0
   client-fingerprint: chrome
-  name: '🇩🇪 DE 861 | ⬇️ 725KB/s #1'
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -41,31 +43,8 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '🇩🇪 DE 885 | ⬇️ 665KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '🇩🇪 DE 914 | ⬇️ 3MB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - disable-sni: true
-  name: '🇩🇪 DE 060 | ⬇️ 104KB/s #1'
+  name: 🇩🇪 DE 060 | ⬇️ 104KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -78,7 +57,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: auragrpc
-  name: '🇩🇪 DE 356 | ⬇️ 20KB/s #1'
+  name: 🇩🇪 DE 356 | ⬇️ 20KB/s
   network: grpc
   port: 25024
   reality-opts:
@@ -90,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- name: '🇩🇪 DE 164 | ⬇️ 3MB/s #1'
+- name: 🇩🇪 DE 164 | ⬇️ 3MB/s
   obfs: salamander
   obfs-password: 3f68c77e2abcdf148cf7c77f76859a35
   password: Gda238Qr5GeEgGAM
@@ -100,11 +79,30 @@ proxies:
   sni: de1-hsmekfff.skynode.me
   type: hysteria2
   udp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 DE 299 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: nl29.abvpn.net
+  servername: nl29.abvpn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xhttp-opts:
+    host: nl29.abvpn.net
+    mode: auto
+    path: /xhttp/
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: auragrpc
-  name: '🇩🇪 DE 247 | ⬇️ 24KB/s #1'
+  name: 🇩🇪 DE 247 | ⬇️ 24KB/s
   network: grpc
   port: 25034
   reality-opts:
@@ -116,3 +114,44 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+- name: 🇩🇪 DE 004 | ⬇️ 372KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
+    short-id: '!!str de9719220a'
+  server: acat.astro-wall.online
+  servername: acat.astro-wall.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aa5076c-beb6-425c-afed-d426df8c9148
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.2MB/s
+  network: xhttp
+  port: '443'
+  server: biomaze.ir
+  servername: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
+    mode: auto
+    path: /user
+    x-padding-bytes: 100-1000
+  xudp: true

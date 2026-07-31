@@ -1,17 +1,31 @@
 proxies:
-- name: '🇬🇧 GB 394 | ⬇️ 14KB/s #1'
+- alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 885 | ⬇️ 665KB/s
   network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 GB 324 | ⬇️ 17KB/s
+  network: ws
   packet-encoding: xudp
-  port: 59167
-  server: 193.104.58.45
+  port: 58500
+  server: 176.124.221.208
   skip-cert-verify: false
   type: vless
   udp: true
-  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
+  uuid: c19cbde1-4177-4dc5-9e2f-cbae45f5dbc1
+  ws-opts:
+    path: /free
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: '🇬🇧 GB 949 | ⬇️ 2MB/s #1'
+  name: 🇬🇧 GB 949 | ⬇️ 2MB/s
   network: xhttp
   port: 443
   server: uk2.denverpresents.top
@@ -24,3 +38,23 @@ proxies:
     host: uk2.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
+- name: 🇬🇧 GB 479 | ⬇️ 49KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: aa259670-7dbd-44d2-be2b-f8bdbf202c82
+  ws-opts:
+    path: /free
+- name: 🇬🇧 GB 394 | ⬇️ 14KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 59167
+  server: 193.104.58.45
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64

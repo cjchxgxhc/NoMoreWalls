@@ -1,18 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: '🇸🇬 SG 863 | ⬇️ 10MB/s #1'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: '🇸🇬 SG 499 | ⬇️ 841KB/s #1'
+  name: 🇸🇬 SG 499 | ⬇️ 841KB/s
   network: xhttp
   port: 443
   server: sg.ethicsdinnerpave.online
@@ -25,3 +15,13 @@ proxies:
     host: sg.ethicsdinnerpave.online
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
+- client-fingerprint: chrome
+  name: 🇸🇬 SG 863 | ⬇️ 10MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.167.20.3
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
