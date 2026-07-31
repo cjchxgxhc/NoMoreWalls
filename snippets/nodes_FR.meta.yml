@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇫🇷 FR 324 | ⬇️ 1MB/s
+  name: '🇫🇷 FR 383 | ⬇️ 953KB/s #1'
   network: xhttp
   port: 443
   server: fr2.ethicsdinnerpave.online
@@ -15,33 +15,18 @@ proxies:
     host: fr2.ethicsdinnerpave.online
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇫🇷 FR 780 | ⬇️ 17KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷 FR 137 | ⬇️ 1017KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷 FR 524 | ⬇️ 95KB/s #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.69
   skip-cert-verify: true
-  sni: bing.com
-  tfo: false
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 024 | ⬇️ 12KB/s
-  password: AtU2Weu7mf4QUOH2Lomi3g
-  port: 1080
-  server: kaffee-tour.de
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment

@@ -1,25 +1,105 @@
 proxies:
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 178 | ⬇️ 91KB/s #1'
+  password: 1a87017d0bf57f34
+  port: 50111
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 871 | ⬇️ 166KB/s #1'
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_4|2.4MB/s
-  network: raw
-  port: '443'
+  name: '🇷🇺 RU 900 | ⬇️ 85KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
   reality-opts:
     public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-    short-id: '!!str '
   server: pro-ru-bridge.emrata.top
   servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '🇷🇺 RU 408 | ⬇️ 2MB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 426 | ⬇️ 40KB/s #1'
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 418 | ⬇️ 26KB/s #1'
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇷🇺 RU 195 | ⬇️ 73KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c245b785-bb81-481b-95c9-c2db14c66f25
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇧🇷BR_1|1.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: '!!str 496ee75c2f91f51d'
+  server: 201.51.2.248
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇷🇺 RU 156 | ⬇️ 15KB/s
+  name: '🇷🇺 RU 936 | ⬇️ 443KB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 2053
@@ -39,7 +119,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc
-  name: 🇷🇺 RU 372 | ⬇️ 198KB/s
+  name: '🇷🇺 RU 606 | ⬇️ 935KB/s #1'
   network: grpc
   port: 2053
   reality-opts:
@@ -51,60 +131,3 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 040 | ⬇️ 25KB/s
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
-    short-id: '!!str 69d4'
-  server: status.netraidly.ru
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 825 | ⬇️ 58KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ
-    short-id: '!!str 27e53bbcab7593d7'
-  server: 84.201.163.47
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-- client-fingerprint: qq
-  name: 🇷🇺 RU 163 | ⬇️ 15KB/s
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
-    short-id: '!!str 3180'
-  server: tw05.kinomir.fun
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.5MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: 217.149.23.141
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true

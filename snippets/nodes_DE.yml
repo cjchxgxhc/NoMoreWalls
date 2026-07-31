@@ -1,18 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪DE_1|2.0MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - alterId: 0
   client-fingerprint: chrome
-  name: 🇩🇪 DE 561 | ⬇️ 64KB/s
+  name: '🇩🇪 DE 861 | ⬇️ 725KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -24,7 +13,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
-  name: 🇩🇪 DE 579 | ⬇️ 80KB/s
+  name: '🇩🇪 DE 885 | ⬇️ 665KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -34,61 +23,23 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  disable-sni: true
-  name: 🇩🇪DE_2|2.0MB/s
+  country: 🇺🇸US
+  name: '🇩🇪 DE 914 | ⬇️ 3MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- disable-sni: true
+  name: '🇩🇪 DE 060 | ⬇️ 104KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: ''
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 235 | ⬇️ 55KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪 DE 821 | ⬇️ 11MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 013 | ⬇️ 10KB/s
-  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
-  port: 51570
-  server: e1.cover20.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - http/1.1
-  name: 🇩🇪 DE 658 | ⬇️ 378KB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj

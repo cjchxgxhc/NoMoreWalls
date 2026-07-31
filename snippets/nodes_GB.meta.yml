@@ -1,8 +1,17 @@
 proxies:
+- name: '🇬🇧 GB 394 | ⬇️ 14KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 59167
+  server: 193.104.58.45
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇬🇧 GB 568 | ⬇️ 1MB/s
+  name: '🇬🇧 GB 949 | ⬇️ 2MB/s #1'
   network: xhttp
   port: 443
   server: uk2.denverpresents.top
@@ -15,80 +24,3 @@ proxies:
     host: uk2.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- encryption: none
-  name: 🇬🇧 GB 006 | ⬇️ 16KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 59167
-  server: 193.104.58.45
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1d977a71-920e-4846-98b1-24f8e2fa0ea3
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 648 | ⬇️ 386KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: ad-010.flux3ni5o.info
-  servername: ad-010.flux3ni5o.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
-  ws-opts:
-    headers:
-      Host: ad-010.flux3ni5o.info
-    path: /
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-  name: 🇬🇧GB_1|2.4MB/s
-  network: grpc
-  port: 26006
-  reality-opts:
-    public-key: s1HT70DlBpLNV-e5FPw7YaXm5tOkUR1q6TTy1iHZTzk
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: fi02.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- client-fingerprint: firefox
-  name: 🇬🇧GB_2|1.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8586ba96-1d58-42d8-9e66-68714425fcd8
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇬🇧GB_3|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA
-    short-id: '!!str aefe467c7b22f190'
-  server: 31.76.249.31
-  servername: cdn.shopify.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_4|2.0MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.75.220
-  type: ss
-  udp: true
