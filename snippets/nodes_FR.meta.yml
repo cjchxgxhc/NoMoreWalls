@@ -1,25 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷 FR 909 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node12.mxvpn.dev
-  servername: node12.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇫🇷 FR 383 | ⬇️ 953KB/s
+  name: 🇺🇸US_2|1.3MB/s
   network: xhttp
   port: 443
   server: fr2.ethicsdinnerpave.online
@@ -47,3 +30,23 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|4.0MB/s
+  network: ws
+  port: '443'
+  server: 172.66.174.41
+  servername: pinalo.zenvorix.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  ws-opts:
+    headers:
+      Host: pinalo.zenvorix.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /nova-geo-psiphon-fr
+  xudp: true

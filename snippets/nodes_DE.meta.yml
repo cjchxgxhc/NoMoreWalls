@@ -1,4 +1,60 @@
 proxies:
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 885 | ⬇️ 665KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 914 | ⬇️ 3MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 501 | ⬇️ 49KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪 DE 004 | ⬇️ 372KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪 DE 220 | ⬇️ 92KB/s
@@ -21,28 +77,6 @@ proxies:
     mode: auto
     path: /foot
     x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 914 | ⬇️ 3MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
 - disable-sni: true
   name: 🇩🇪 DE 060 | ⬇️ 104KB/s
   network: tcp
@@ -79,25 +113,6 @@ proxies:
   sni: de1-hsmekfff.skynode.me
   type: hysteria2
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 DE 299 | ⬇️ 1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: nl29.abvpn.net
-  servername: nl29.abvpn.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xhttp-opts:
-    host: nl29.abvpn.net
-    mode: auto
-    path: /xhttp/
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
@@ -114,44 +129,87 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- name: 🇩🇪 DE 004 | ⬇️ 372KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 49518
-  server: 49.12.130.109
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
-    short-id: '!!str de9719220a'
-  server: acat.astro-wall.online
-  servername: acat.astro-wall.online
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪DE_1|1.6MB/s
+  network: xhttp
+  port: 443
+  server: nl29.abvpn.net
+  servername: nl29.abvpn.net
   tls: true
   type: vless
   udp: true
-  uuid: 5aa5076c-beb6-425c-afed-d426df8c9148
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xhttp-opts:
+    host: nl29.abvpn.net
+    mode: auto
+    path: /xhttp/
+- alpn:
+  - h2
+  client-fingerprint: ios
+  name: 🇩🇪DE_2|2.6MB/s
+  network: xhttp
+  port: 443
+  server: deu513.globalunlock.org
+  servername: deu513.globalunlock.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  xhttp-opts:
+    host: deu513.globalunlock.org
+    mode: auto
+    path: /api/v1/
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.4MB/s
+  network: ws
+  port: '443'
+  server: 104.26.12.41
+  servername: pinalo.zenvorix.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  ws-opts:
+    headers:
+      Host: pinalo.zenvorix.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /nova-geo-psiphon-de
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.2MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: data-sync
+  name: 🇩🇪DE_4|2.0MB/s
+  network: grpc
   port: '443'
-  server: biomaze.ir
-  servername: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
+  reality-opts:
+    public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI
+    short-id: '!!str d5c7f84e37e0c12d'
+  server: de-2.coinbridge.nl
+  servername: google.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir
-    mode: auto
-    path: /user
-    x-padding-bytes: 100-1000
+  uuid: fc3f9347-7542-483c-833c-cd561384783d
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|1.6MB/s
+  network: ws
+  port: '8080'
+  server: dlcddt.ir
+  servername: ez-de116f.ezaccess1142c2d.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-2f7ff296be7b
+  ws-opts:
+    headers:
+      Host: ez-de116f.ezaccess1142c2d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /stream/PANEL_ZEUS/2f7ff296be7b?loc=0
   xudp: true

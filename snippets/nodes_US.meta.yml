@@ -1,20 +1,49 @@
 proxies:
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: 🇺🇸 US 398 | ⬇️ 4MB/s
-  network: xhttp
-  port: 443
-  server: us2.denverpresents.top
-  servername: us2.denverpresents.top
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 004 | ⬇️ 4MB/s
+  network: ws
+  port: 24187
+  server: 23.236.69.39
+  tls: false
+  type: vmess
+  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
+  ws-opts:
+    headers: {}
+    path: /
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_4|1.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 008 | ⬇️ 99KB/s
+  password: ljqdalu13..
+  port: 8316
+  server: 38.180.135.39
+  type: ss
+  udp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇪AE_2|1.8MB/s
+  network: raw
+  packet-encoding: xudp
+  port: '443'
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: sha3.o4ka-internet.com
+  servername: sha3.o4ka-internet.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  xhttp-opts:
-    host: us2.denverpresents.top
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -37,14 +66,22 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 911 | ⬇️ 1MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 829 | ⬇️ 234KB/s
+  network: tcp
+  packet-encoding: ''
+  port: 993
+  reality-opts:
+    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
+  server: 88.218.44.4
+  servername: swcdn.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -67,6 +104,20 @@ proxies:
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   xudp: true
+- name: 🇺🇸 US 751 | ⬇️ 16MB/s
+  network: ws
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -85,6 +136,81 @@ proxies:
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
+- name: 🇺🇸 US 045 | ⬇️ 4MB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇺🇸 US 156 | ⬇️ 1MB/s
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  tfo: false
+  type: hysteria2
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 523 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸 US 976 | ⬇️ 509KB/s
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  tls: false
+  type: socks5
+  username: ''
+- encryption: none
+  name: 🇺🇸 US 502 | ⬇️ 113KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.16.72.41
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckfangbinxing.pusytroller.gq
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 015 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30333
+  reality-opts:
+    public-key: FecuyYIQm7AEutbh7FRwGN-OWpOrVesJmDxWcTyyKko
+  server: 154.9.240.153
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d653f2fc-7eb3-4dad-84fc-a42624e94dfa
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸 US 867 | ⬇️ 758KB/s
@@ -103,91 +229,22 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 829 | ⬇️ 234KB/s
-  network: tcp
-  packet-encoding: ''
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 015 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30333
-  reality-opts:
-    public-key: FecuyYIQm7AEutbh7FRwGN-OWpOrVesJmDxWcTyyKko
-  server: 154.9.240.153
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d653f2fc-7eb3-4dad-84fc-a42624e94dfa
-- name: 🇺🇸 US 473 | ⬇️ 699KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.17.101.139
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 238 | ⬇️ 2MB/s
-  network: tcp
-  packet-encoding: xudp
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇺🇸US_3|2.2MB/s
+  network: xhttp
   port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: sha3.o4ka-internet.com
-  servername: sha3.o4ka-internet.com
-  skip-cert-verify: false
+  server: us2.denverpresents.top
+  servername: us2.denverpresents.top
   tls: true
   type: vless
   udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-- name: 🇺🇸 US 976 | ⬇️ 509KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 932 | ⬇️ 25KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
-    short-id: '!!str a38fa7e8c1844957'
-  server: free.us1.laodavip.com
-  servername: free.us1.laodavip.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7468649e-cebd-4a76-8470-982e33062086
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: us2.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - client-fingerprint: chrome
   name: 🇺🇸 US 185 | ⬇️ 94KB/s
   network: tcp
@@ -224,20 +281,35 @@ proxies:
     host: at.emberpointstock.net
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: 🇺🇸 US 751 | ⬇️ 16MB/s
+- name: 🇺🇸 US 473 | ⬇️ 699KB/s
   network: ws
+  packet-encoding: xudp
   port: 2095
-  server: www.wto.org
+  server: 104.17.101.139
   skip-cert-verify: false
-  tfo: true
-  tls: false
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: fuckingfangbinxing.pusytroller.cf
+      Host: fangbinxingnmsl.pusytroller.gq
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 932 | ⬇️ 25KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
+    short-id: '!!str a38fa7e8c1844957'
+  server: free.us1.laodavip.com
+  servername: free.us1.laodavip.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7468649e-cebd-4a76-8470-982e33062086
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 US 913 | ⬇️ 19KB/s
@@ -267,3 +339,101 @@ proxies:
     headers:
       Host: telegram4.freepersianland8.workers.dev
     path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_5|4.4MB/s
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸US_6|4.2MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|2.4MB/s
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|4.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸US_9|2.9MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_10|4.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|3.4MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.4MB/s
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_13|3.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  name: 🇺🇸US_14|1.3MB/s
+  network: xhttp
+  port: '443'
+  server: uk2.denverpresents.top
+  servername: uk2.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: uk2.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  xudp: true
+- name: 🇺🇸US_15|3.5MB/s
+  password: 'null'
+  port: '9002'
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'

@@ -1,17 +1,31 @@
 proxies:
-- name: 🇹🇼 TW 572 | ⬇️ 2MB/s
+- client-fingerprint: chrome
+  name: 🇹🇼TW_2|1007KB/s
   network: tcp
   password: i99Cef
-  port: 28101
+  port: '28101'
   server: 209.248.32.115
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
-- name: 🇹🇼 TW 953 | ⬇️ 401KB/s
+  udp: true
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇹🇼 TW 395 | ⬇️ 265KB/s
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇹🇼TW_1|1020KB/s
   network: tcp
   password: i99Cef
-  port: 28101
+  port: '28101'
   server: 209.248.32.116
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
+  udp: true
