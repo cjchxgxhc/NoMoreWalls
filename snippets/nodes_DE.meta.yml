@@ -1,49 +1,21 @@
 proxies:
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 885 | ⬇️ 665KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 914 | ⬇️ 3MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
+- name: 🇩🇪 DE 068 | ⬇️ 256KB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  tls: false
+  type: socks5
+  username: ''
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 🇩🇪 DE 501 | ⬇️ 49KB/s
+  name: 🇩🇪 DE 462 | ⬇️ 49KB/s
   network: tcp
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇩🇪 DE 004 | ⬇️ 372KB/s
@@ -77,6 +49,40 @@ proxies:
     mode: auto
     path: /foot
     x-padding-bytes: 100-1000
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 885 | ⬇️ 665KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪DE_1|2.5MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - disable-sni: true
   name: 🇩🇪 DE 060 | ⬇️ 104KB/s
   network: tcp
@@ -131,43 +137,26 @@ proxies:
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
 - alpn:
   - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_1|1.6MB/s
+  client-fingerprint: qq
+  name: 🇩🇪DE_2|1.6MB/s
   network: xhttp
   port: 443
-  server: nl29.abvpn.net
-  servername: nl29.abvpn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xhttp-opts:
-    host: nl29.abvpn.net
-    mode: auto
-    path: /xhttp/
-- alpn:
-  - h2
-  client-fingerprint: ios
-  name: 🇩🇪DE_2|2.6MB/s
-  network: xhttp
-  port: 443
-  server: deu513.globalunlock.org
-  servername: deu513.globalunlock.org
+  server: wx-deu-037.cdnphotos.org
+  servername: wx-deu-037.cdnphotos.org
   tls: true
   type: vless
   udp: true
   uuid: 77930005-ea92-44dc-9d94-e9192427f519
   xhttp-opts:
-    host: deu513.globalunlock.org
+    host: wx-deu-037.cdnphotos.org
     mode: auto
     path: /api/v1/
 - alpn:
   - h2
   client-fingerprint: chrome
-  encryption: none
   name: 🇩🇪DE_3|2.4MB/s
   network: ws
-  port: '443'
+  port: 443
   server: 104.26.12.41
   servername: pinalo.zenvorix.ir
   tls: true
@@ -177,39 +166,79 @@ proxies:
   ws-opts:
     headers:
       Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
     path: /nova-geo-psiphon-de
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: data-sync
-  name: 🇩🇪DE_4|2.0MB/s
-  network: grpc
-  port: '443'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|1.8MB/s
+  port: 443
   reality-opts:
-    public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI
-    short-id: '!!str d5c7f84e37e0c12d'
-  server: de-2.coinbridge.nl
-  servername: google.com
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+  server: 94.249.225.84
+  servername: grand-lynx.cdn.cachefleet.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fc3f9347-7542-483c-833c-cd561384783d
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|1.6MB/s
-  network: ws
-  port: '8080'
-  server: dlcddt.ir
-  servername: ez-de116f.ezaccess1142c2d.workers.dev
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_5|1.2MB/s
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: argentinavsspain.dpdns.org
+  tls: true
   type: vless
   udp: true
-  uuid: 50414e45-4c5f-5a45-5553-2f7ff296be7b
-  ws-opts:
-    headers:
-      Host: ez-de116f.ezaccess1142c2d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /stream/PANEL_ZEUS/2f7ff296be7b?loc=0
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: argentinavsspain.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: '!!str '
+  server: 94.249.225.41
+  servername: grand-lynx.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.6MB/s
+  network: raw
+  port: '9443'
+  reality-opts:
+    public-key: 5M0khPdwiXYhayuP4i76J1am-q85Sno7vGnqEnZ1ngI
+    short-id: '!!str ccaaaa'
+  server: 91.185.83.64
+  servername: muzgrape.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c62c870e-295f-4380-97fd-bf71e0826df0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_8|4.7MB/s
+  network: tcp
+  port: '443'
+  server: de-nuremberg.chocolatemango.live
+  servername: de-nuremberg.chocolatemango.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0920517-fcd8-41ad-9f73-ec7343fe8243
   xudp: true

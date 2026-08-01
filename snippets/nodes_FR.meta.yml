@@ -1,8 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 FR 471 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇺🇸US_2|1.3MB/s
+  name: 🇫🇷 FR 383 | ⬇️ 953KB/s
   network: xhttp
   port: 443
   server: fr2.ethicsdinnerpave.online
@@ -31,10 +40,84 @@ proxies:
       Host: www.calmloud.com
     path: /assignment
 - alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44a6901d-6675-41b1-9a80-ee3308699e1d
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|3.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str 364994a6f61fc955'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52f0f0ee-bc74-4757-8e1c-51e334233b4d
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_3|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str 364994a6f61fc955'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69080ad0-9074-4c38-b729-ace93fd4ac13
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc58b0ab-2755-43bd-9388-b8edcf75d629
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_5|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str ece180c605b5453c'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9346960-a429-4c1a-b661-512611450fea
+- alpn:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_1|4.0MB/s
+  name: 🇫🇷FR_6|2.8MB/s
   network: ws
   port: '443'
   server: 172.66.174.41
@@ -46,7 +129,37 @@ proxies:
   ws-opts:
     headers:
       Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /nova-geo-psiphon-fr
+  xudp: true
+- name: 🇫🇷FR_7|1.1MB/s
+  network: ws
+  port: 8880
+  server: 45.80.111.175
+  servername: cnd.poland.myfilecdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
+  ws-opts:
+    headers:
+      Host: cnd.poland.myfilecdn.com
+    path: /cdn/assets/stream
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_8|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: '!!str 5a8e1a04f3d92b67'
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
   xudp: true
