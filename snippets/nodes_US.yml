@@ -1,62 +1,40 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|2.7MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 98.81.132.97
+  skip-cert-verify: false
+  type: ss
   udp: true
-- name: 🇺🇸US_3|2.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇺🇸US_1|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇺🇸 US 155 | ⬇️ 43KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 38331
-  reality-opts:
-    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
-    short-id: '!!str !!str 166fc442f6061eff'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- alterId: '0'
+- alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_2|3.1MB/s
+  name: 🇺🇸 US 071 | ⬇️ 2MB/s
   network: ws
-  port: '24187'
-  server: 23.236.69.39
-  skip-cert-verify: false
+  port: 443
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  ws-opts:
+    headers:
+      HOST: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 768 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
   tls: false
   type: vmess
-  udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: 🇺🇸 US 185 | ⬇️ 94KB/s
   network: tcp
@@ -76,4 +54,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.30.144
+  type: ss
   udp: true

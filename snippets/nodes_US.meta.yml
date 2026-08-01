@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 98.81.132.97
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- name: 🇺🇸 US 008 | ⬇️ 1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tfo: false
+  type: hysteria2
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
@@ -17,30 +33,30 @@ proxies:
     host: us2.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 829 | ⬇️ 234KB/s
-  network: tcp
-  packet-encoding: ''
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇺🇸US_1|1.2MB/s
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
+  sni: vpn-us-002.fastervpn.world
+  tfo: false
+  type: hysteria2
+- name: 🇺🇸 US 018 | ⬇️ 3MB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_5|1.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -59,6 +75,36 @@ proxies:
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
+- allowInsecure: '1'
+  disable-sni: 'true'
+  name: 🇺🇸 US 027 | ⬇️ 120KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  port: 443
+  server: cf04a2e7-tiw740-tzzpok-1sllg.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: ''
+  sub-tag: X001-260618
+  type: anytls
+  udp: true
+  username: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 829 | ⬇️ 234KB/s
+  network: tcp
+  packet-encoding: ''
+  port: 993
+  reality-opts:
+    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
+  server: 88.218.44.4
+  servername: swcdn.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -81,6 +127,84 @@ proxies:
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   xudp: true
+- name: 🇺🇸 US 473 | ⬇️ 699KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.17.101.139
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- name: 🇺🇸 US 751 | ⬇️ 16MB/s
+  network: ws
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 071 | ⬇️ 2MB/s
+  network: ws
+  port: 443
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  ws-opts:
+    headers:
+      HOST: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 125 | ⬇️ 2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs
+  server: most.lodkirmm.ru
+  servername: most.lodkirmm.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 867 | ⬇️ 758KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
+    mode: auto
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -103,137 +227,29 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   xudp: true
-- name: 🇺🇸 US 473 | ⬇️ 699KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.17.101.139
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇺🇸 US 713 | ⬇️ 2MB/s
+  name: 🇺🇸 US 130 | ⬇️ 2MB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa02.myxasecure.space
-  servername: usa02.myxasecure.space
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.15
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|2.7MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇺🇸US_3|2.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇺🇸US_1|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 148 | ⬇️ 1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: dedus.skorostnet.space
-  servername: dedus.skorostnet.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇺🇸 US 155 | ⬇️ 43KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 38331
-  reality-opts:
-    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
-    short-id: '!!str !!str 166fc442f6061eff'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 867 | ⬇️ 758KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xhttp-opts:
-    mode: auto
-    path: /
-- name: 🇺🇸 US 751 | ⬇️ 16MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 689 | ⬇️ 3MB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸 US 911 | ⬇️ 1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - name: 🇺🇸 US 976 | ⬇️ 509KB/s
   password: ''
   port: 22222
@@ -241,48 +257,30 @@ proxies:
   tls: false
   type: socks5
   username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 753 | ⬇️ 21KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: '!!str f24c17bb7fc284'
-  server: 70.39.198.93
-  servername: updates.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇺🇸 US 793 | ⬇️ 6MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- allowInsecure: '1'
+  disable-sni: 'true'
+  name: 🇺🇸 US 574 | ⬇️ 160KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
   port: 443
-  server: vpn-us-002.fastervpn.world
+  server: 68abf305-tiw740-tpw4i4-1pckg.los.hyhuawei.com
   skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-- alterId: '0'
+  sni: ''
+  sub-tag: X001-260618
+  type: anytls
+  udp: true
+  username: 526a1128-7487-11ee-9bca-f23c913c8d2b
+- alterId: 2
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_2|3.1MB/s
-  network: ws
-  port: '24187'
-  server: 23.236.69.39
-  skip-cert-verify: false
+  client-fingerprint: ''
+  name: 🇺🇸 US 768 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
   tls: false
   type: vmess
-  udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 US 015 | ⬇️ 1MB/s
@@ -381,11 +379,24 @@ proxies:
     headers:
       Host: telegram4.freepersianland8.workers.dev
     path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ
-- name: 🇺🇸US_7|1.0MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 5443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|1009KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: '!!str 051f20c2344a2dfd'
+  server: 174.137.57.155
+  servername: portal.citygrainla.com
   tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+  type: vless
+  udp: true
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.30.144
+  type: ss
+  udp: true

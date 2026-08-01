@@ -1,9 +1,8 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇨🇭 CH 078 | ⬇️ 32KB/s
+  name: 🇨🇭 CH 080 | ⬇️ 18KB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -15,24 +14,26 @@ proxies:
   type: vless
   udp: true
   uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 020 | ⬇️ 25KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 29209
+- client-fingerprint: firefox
+  encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
+  flow: xtls-rprx-vision
+  name: 🇨🇭 CH 036 | ⬇️ 1MB/s
+  network: tcp
+  port: 50170
   reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: '!!str !!str fcfa77f4695abede'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
+    public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
+    short-id: '!!str dc36bfb153f31f9a'
+  server: sweic.lodkirmm.ru
+  servername: sweic.lodkirmm.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
 - alpn:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇨🇭 CH 212 | ⬇️ 1MB/s
+  name: 🇨🇭CH_1|1.7MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -45,31 +46,19 @@ proxies:
   type: vless
   udp: true
   uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 236 | ⬇️ 38KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 29209
-  reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: '!!str !!str fcfa77f4695abede'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
 - client-fingerprint: firefox
   encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
   flow: xtls-rprx-vision
-  name: 🇨🇭 CH 426 | ⬇️ 2MB/s
+  name: 🇨🇭CH_2|1.2MB/s
   network: tcp
-  port: 50170
+  port: '50170'
   reality-opts:
     public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
     short-id: '!!str dc36bfb153f31f9a'
-  server: sweic.lodkirmm.ru
+  server: 83.228.246.208
   servername: sweic.lodkirmm.ru
   tls: true
   type: vless
   udp: true
   uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
+  xudp: true

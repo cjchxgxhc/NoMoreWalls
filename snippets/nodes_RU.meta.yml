@@ -1,64 +1,54 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 119 | ⬇️ 17KB/s
-  password: 81a20429165df87e
-  port: 10190
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 260 | ⬇️ 23KB/s
+  name: 🇷🇺 RU 106 | ⬇️ 27KB/s
   password: 2027e830399d8d08
   port: 10910
   server: 195.58.48.19
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 408 | ⬇️ 2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
-    short-id: '!!str 69d4'
-  server: status.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 087 | ⬇️ 28KB/s
-  password: bdb313adf74c2ede
-  port: 10901
-  server: 195.133.5.207
+  name: 🇷🇺 RU 147 | ⬇️ 22KB/s
+  password: 81a20429165df87e
+  port: 10190
+  server: 195.133.23.200
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|1.1MB/s
-  password: 94571d62-a23f-364e-8065-2a740b342216
-  port: 20030
-  server: 7.8.k.w.d.a.4.3.b.ru01-ae5.entry.v51124-1.qpon
-  type: ss
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 301 | ⬇️ 2MB/s
+  name: 🇷🇺 RU 202 | ⬇️ 622KB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI
     short-id: '!!str ee57ea513371ce89'
   server: code-sandbox.blog
   servername: code-sandbox.blog
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: aes-256-gcm
   name: 🇷🇺 RU 178 | ⬇️ 91KB/s
   password: 1a87017d0bf57f34
@@ -90,6 +80,22 @@ proxies:
   type: vless
   udp: true
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 408 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - cipher: aes-256-gcm
   name: 🇷🇺 RU 426 | ⬇️ 40KB/s
   password: 9f3d1a6d31468599
@@ -139,24 +145,6 @@ proxies:
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - alpn:
   - http/1.1
   client-fingerprint: qq
