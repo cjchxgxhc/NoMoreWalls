@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 625 | ⬇️ 682KB/s
+  name: '🇬🇧 GB 769 | ⬇️ 361KB/s #1'
   network: ws
   port: 443
   server: 172.67.176.245
@@ -16,7 +16,21 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 400 | ⬇️ 581KB/s
+  name: '🇬🇧 GB 662 | ⬇️ 570KB/s #1'
+  network: ws
+  port: 443
+  server: cg1c12.waimaojd.com
+  servername: cg1c12.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: '🇬🇧 GB 779 | ⬇️ 165KB/s #1'
   network: ws
   port: 443
   server: 104.21.43.81
@@ -30,24 +44,10 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 237 | ⬇️ 570KB/s
-  network: ws
-  port: 443
-  server: cg1c12.waimaojd.com
-  servername: cg1c12.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
-  ws-opts:
-    headers:
-      Host: cg1c12.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🇬🇧 GB 260 | ⬇️ 633KB/s
+  name: '🇬🇧 GB 470 | ⬇️ 286KB/s #1'
   network: ws
   port: 443
   server: cg1c12.waimaojd.com
@@ -60,43 +60,3 @@ proxies:
     headers:
       HOST: cg1c12.waimaojd.com
     path: /api/v1/graphql
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 410 | ⬇️ 614KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: rt.tunnelpoint.space
-  servername: rt.tunnelpoint.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- name: 🇬🇧 GB 394 | ⬇️ 14KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 59167
-  server: 193.104.58.45
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: 🇬🇧 GB 949 | ⬇️ 2MB/s
-  network: xhttp
-  port: 443
-  server: uk2.denverpresents.top
-  servername: uk2.denverpresents.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  xhttp-opts:
-    host: uk2.denverpresents.top
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/

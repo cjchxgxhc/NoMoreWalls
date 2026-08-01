@@ -1,58 +1,31 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|1.8MB/s
-  password: amazonskr05
-  port: '443'
-  server: 98.81.132.97
+- cipher: aes-256-gcm
+  name: '🇷🇺 RU 500 | ⬇️ 22KB/s #1'
+  password: 81a20429165df87e
+  port: 10190
+  server: 195.133.23.200
   skip-cert-verify: false
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  name: 🇹🇼 TW 006 | ⬇️ 2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.51.233.2
-  type: ss
-  udp: true
+  udp: false
+- client-fingerprint: chrome
+  name: '🇳🇱 NL 228 | ⬇️ 1MB/s #1'
+  network: ws
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: 2096
+  server: jumao91.shop
+  sni: jumao91.shop
+  type: trojan
+  ws-opts:
+    path: /
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 106 | ⬇️ 27KB/s
+  name: '🇷🇺 RU 492 | ⬇️ 27KB/s #1'
   password: 2027e830399d8d08
   port: 10910
   server: 195.58.48.19
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  country: 🇪🇸ES
-  name: 🇪🇸 ES 095 | ⬇️ 942KB/s
-  network: tcp
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_1|1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- name: 🇳🇱 NL 223 | ⬇️ 1MB/s
+- name: '🇳🇱 NL 161 | ⬇️ 793KB/s #1'
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   port: 2096
@@ -65,18 +38,62 @@ proxies:
     headers:
       Host: jumao91.shop
     path: /proxyip=45.207.156.255
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 147 | ⬇️ 22KB/s
-  password: 81a20429165df87e
-  port: 10190
-  server: 195.133.23.200
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪SE_1|1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '🇺🇸 US 066 | ⬇️ 285KB/s #1'
+  network: ws
+  port: 443
+  server: cg1c05.waimaojd.com
+  servername: cg1c05.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  ws-opts:
+    headers:
+      Host: cg1c05.waimaojd.com
+    path: /api/v1/graphql
+- client-fingerprint: chrome
+  name: '🇳🇱 NL 175 | ⬇️ 1MB/s #1'
+  network: ws
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: 2096
+  server: jumao91.shop
+  sni: jumao91.shop
+  type: trojan
+  ws-opts:
+    path: /proxyip=45.207.156.255
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 104 | ⬇️ 72KB/s #1'
+  password: ljqdalu13..
+  port: 8313
+  server: 38.180.135.39
+  type: ss
+  udp: true
 - alterId: 0
   client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 914 | ⬇️ 3MB/s
+  name: '🇩🇪 DE 783 | ⬇️ 481KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  name: '🇩🇪 DE 797 | ⬇️ 404KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -86,33 +103,11 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  name: 🇩🇪 DE 213 | ⬇️ 91KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US 071 | ⬇️ 2MB/s
+  name: '🇺🇸 US 519 | ⬇️ 2MB/s #1'
   network: ws
   port: 443
   server: cg1c02.waimaojd.com
@@ -125,38 +120,48 @@ proxies:
     headers:
       HOST: cg1c02.waimaojd.com
     path: /api/v1/graphql
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: '🇭🇰 HK 650 | ⬇️ 5KB/s #1'
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 885 | ⬇️ 665KB/s
+  country: 🇸🇬SG
+  name: '🇩🇪 DE 789 | ⬇️ 353KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 090 | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.61.5.244
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇳🇱 NL 102 | ⬇️ 461KB/s
-  network: ws
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  port: 2096
-  server: jumao91.shop
-  sni: jumao91.shop
+- country: 🇬🇧GB
+  name: '🇳🇱 NL 289 | ⬇️ 194KB/s #1'
+  network: tcp
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 449
+  server: 77.74.123.132
+  skip-cert-verify: true
+  sni: grape-zet-turbo-nl.yyuyy.com
   type: trojan
-  ws-opts:
-    path: /proxyip=45.207.156.255
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 625 | ⬇️ 682KB/s
+  name: '🇬🇧 GB 769 | ⬇️ 361KB/s #1'
   network: ws
   port: 443
   server: 172.67.176.245
@@ -169,19 +174,23 @@ proxies:
     headers:
       Host: cg1c12.waimaojd.com
     path: /api/v1/graphql
-- client-fingerprint: chrome
-  name: 🇳🇱 NL 164 | ⬇️ 1MB/s
-  network: ws
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  port: 2096
-  server: jumao91.shop
-  sni: jumao91.shop
-  type: trojan
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 400 | ⬇️ 581KB/s
+  name: '🇬🇧 GB 662 | ⬇️ 570KB/s #1'
+  network: ws
+  port: 443
+  server: cg1c12.waimaojd.com
+  servername: cg1c12.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: '🇬🇧 GB 779 | ⬇️ 165KB/s #1'
   network: ws
   port: 443
   server: 104.21.43.81
@@ -195,32 +204,10 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB 237 | ⬇️ 570KB/s
-  network: ws
-  port: 443
-  server: cg1c12.waimaojd.com
-  servername: cg1c12.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
-  ws-opts:
-    headers:
-      Host: cg1c12.waimaojd.com
-    path: /api/v1/graphql
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 221 | ⬇️ 15KB/s
-  password: 2pCwqZ2qR55vF13c4LFr4xWeBr2DwoRB
-  port: 9999
-  server: 72.56.91.165
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🇬🇧 GB 260 | ⬇️ 633KB/s
+  name: '🇬🇧 GB 470 | ⬇️ 286KB/s #1'
   network: ws
   port: 443
   server: cg1c12.waimaojd.com
@@ -233,244 +220,141 @@ proxies:
     headers:
       HOST: cg1c12.waimaojd.com
     path: /api/v1/graphql
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 684 | ⬇️ 124KB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 971 | ⬇️ 3KB/s
+- country: 🇸🇬SG
+  name: '🇩🇪 DE 764 | ⬇️ 71KB/s #1'
   network: tcp
-  port: 30809
-  server: v9.hdacd.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇬🇧GB
-  name: 🇳🇱 NL 638 | ⬇️ 194KB/s
-  network: tcp
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 449
-  server: 77.74.123.132
-  skip-cert-verify: true
-  sni: grape-zet-turbo-nl.yyuyy.com
+  sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: '🇫🇷 FR 700 | ⬇️ 65KB/s #1'
+  network: tcp
+  password: 7f2lnuboFJ
+  port: 22597
+  reality-opts:
+    _spider-x: /
+    public-key: OKyWZTPzXNnypsWdRqA5OjRRj8CvNWnh-UDQdBPQNG0
+    short-id: '28d10c99eaa4'
+  server: 62.60.148.98
+  sni: www.intel.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 760 | ⬇️ 39KB/s
+  name: '🇺🇸 US 703 | ⬇️ 12KB/s #1'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: 0
+- client-fingerprint: chrome
+  name: '🇫🇷 FR 707 | ⬇️ 36KB/s #1'
+  network: tcp
+  password: 9Wkx7NAMZx
+  port: 45666
+  reality-opts:
+    _spider-x: /
+    public-key: 2-BDtmLiHzcnaIaPncX_VcncVTKKY13zBvwkHn_cY1s
+    short-id: 'de89bc6e60f54f'
+  server: 62.60.148.98
+  sni: aws.amazon.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  name: '🇹🇼 TW 711 | ⬇️ 1MB/s #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 59.125.62.188
+  type: ss
+- alterId: 0
   cipher: auto
-  client-fingerprint: ''
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: 🇳🇱 NL 927 | ⬇️ 87KB/s
+  name: '🇳🇱 NL 747 | ⬇️ 1MB/s #1'
   network: tcp
   port: 2078
   server: tun1.wizardx1.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
-- alterId: 2
+- alterId: 0
+  name: '🇯🇵 JP 786 | ⬇️ 95KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: 🇺🇸 US 768 | ⬇️ 13KB/s
+  name: '🇳🇱 NL 788 | ⬇️ 29KB/s #1'
   network: tcp
-  port: 30824
-  server: v24.hdacd.com
+  port: 2078
+  server: 94.182.88.61
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 856 | ⬇️ 2MB/s
+  name: '🇫🇷 FR 742 | ⬇️ 70KB/s #1'
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
-  password: 1a87017d0bf57f34
-  port: 50111
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 863 | ⬇️ 10MB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 871 | ⬇️ 166KB/s
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 426 | ⬇️ 40KB/s
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 418 | ⬇️ 26KB/s
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- disable-sni: true
-  name: 🇩🇪 DE 060 | ⬇️ 104KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 US 185 | ⬇️ 94KB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 US 194 | ⬇️ 146KB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.69
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: rr1.tube-cat.com
-  type: trojan
-  udp: true
-- name: 🇮🇩 ID 1003 | ⬇️ 74KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20120
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 980 | ⬇️ 197KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-- name: 🇮🇳 IN 984 | ⬇️ 13KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 🇯🇵 JP 1004 | ⬇️ 154KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
+  password: SAmzXv7K2X
+  port: 35958
+  reality-opts:
+    _spider-x: /
+    public-key: 21g0wjiTmSuPEwQDEXpDWKVJaNCCvpTpxnw4fK5PHmA
+    short-id: '8aca7a49'
+  server: 62.60.148.98
+  sni: aws.amazon.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|1.5MB/s
+  name: 🇸🇪SE_2|1.3MB/s
   password: amazonskr05
-  port: '443'
-  server: 54.226.30.144
+  port: 443
+  server: 16.171.111.98
   type: ss
-  udp: true
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 🇯🇵JP_3|4.9MB/s
-  port: 46482
-  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_4|4.5MB/s
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  name: 🇺🇸US_5|2.5MB/s
+  network: ws
+  port: 443
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
   skip-cert-verify: true
   tls: true
   type: vmess
+  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  ws-opts:
+    headers:
+      Host: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: ❓Other_1|1.4MB/s
+  network: ws
+  port: 2096
+  server: twdx6.baidupi.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+  xudp: true
