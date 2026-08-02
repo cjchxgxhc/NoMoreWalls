@@ -1,8 +1,26 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇪 SE 089 | ⬇️ 468KB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+  server: 170.168.99.3
+  servername: cdn.steamstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    mode: auto
+    path: /
 - alpn:
   - h2
   client-fingerprint: random
-  name: 🇸🇪 SE 741 | ⬇️ 1MB/s
+  name: '🇸🇪 SE 847 | ⬇️ 1MB/s #1'
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -25,10 +43,22 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
+- client-fingerprint: firefox
+  name: '🇸🇪 SE 343 | ⬇️ 49KB/s #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
 - alpn:
   - h2
   client-fingerprint: random
-  name: 🇬🇧GB_1|1.4MB/s
+  name: '🇸🇪 SE 792 | ⬇️ 962KB/s #1'
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -55,7 +85,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: webpusiko-grpc
-  name: 🇸🇪 SE 379 | ⬇️ 1MB/s
+  name: '🇸🇪 SE 919 | ⬇️ 1MB/s #1'
   network: grpc
   port: 443
   reality-opts:
@@ -67,29 +97,3 @@ proxies:
   type: vless
   udp: true
   uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪 SE 654 | ⬇️ 468KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-  server: 170.168.99.3
-  servername: cdn.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-  xhttp-opts:
-    mode: auto
-    path: /
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 834 | ⬇️ 7MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
-  skip-cert-verify: false
-  type: ss
-  udp: false

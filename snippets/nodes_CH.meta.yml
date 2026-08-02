@@ -1,8 +1,41 @@
 proxies:
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: '🇨🇭 CH 029 | ⬇️ 20KB/s #1'
+  network: grpc
+  port: 25123
+  reality-opts:
+    public-key: R2CmFr4ZCkHZMvI8HBb8KhRgI2nVWcZhswOtcjHy1Ds
+    short-id: '!!str e5140c8f7a2d693b'
+  server: sw3.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: '🇨🇭 CH 078 | ⬇️ 15KB/s #1'
+  network: grpc
+  packet-encoding: xudp
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.174
+  servername: id.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇨🇭 CH 140 | ⬇️ 1020KB/s
+  name: '🇨🇭 CH 939 | ⬇️ 1MB/s #1'
   network: tcp
+  packet-encoding: ''
   port: 443
   reality-opts:
     public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
@@ -10,34 +43,6 @@ proxies:
   server: ch.tunnelx.space
   servername: ch.tunnelx.space
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇨🇭 CH 224 | ⬇️ 18KB/s
-  network: tcp
-  port: 25513
-  reality-opts:
-    public-key: z-YLROC5K11o4ZDghGG62sJYcG9BloWWNnp2ju5s6XI
-    short-id: '!!str 975957600acef66c'
-  server: 151.243.190.41
-  servername: proxy11.h1guro.ovh
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1011KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: 199.68.196.79
-  servername: ch.tunnelx.space
   tls: true
   type: vless
   udp: true
