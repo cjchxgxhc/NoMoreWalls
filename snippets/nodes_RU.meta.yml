@@ -1,16 +1,18 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 009 | ⬇️ 28KB/s
+  country: 🇷🇺RU
+  name: '🇷🇺 RU 175 | ⬇️ 15KB/s #1'
   password: 895b4b796a357570
   port: 10910
   server: 176.32.35.51
+  skip-cert-verify: false
   type: ss
   udp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇷🇺 RU 745 | ⬇️ 177KB/s
+  name: '🇷🇺 RU 359 | ⬇️ 177KB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 2053
@@ -24,19 +26,3 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 500 | ⬇️ 22KB/s
-  password: 81a20429165df87e
-  port: 10190
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 492 | ⬇️ 27KB/s
-  password: 2027e830399d8d08
-  port: 10910
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false

@@ -1,6 +1,73 @@
 proxies:
+- name: 🇰🇷KR_1|1.1MB/s
+  password: ''
+  port: 50161
+  server: 168.107.13.220
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- name: '🇰🇷 KR 008 | ⬇️ 13MB/s #1'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
+  tfo: false
+  type: hysteria2
+- delay: 554
+  name: '🇰🇷 KR 831 | ⬇️ 46KB/s #1'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- country: 🇧🇩BD
+  name: '🇰🇷 KR 120 | ⬇️ 16MB/s #1'
+  network: tcp
+  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+  port: 21101
+  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  skip-cert-verify: true
+  sni: 261.yuanul.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 570 | ⬇️ 1MB/s
+  name: '🇰🇷 KR 843 | ⬇️ 1MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 12545
+  server: 211.220.53.131
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: '🇰🇷 KR 819 | ⬇️ 529KB/s #1'
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: '🇰🇷 KR 857 | ⬇️ 1MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 19222
@@ -16,58 +83,12 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 596 | ⬇️ 188KB/s
+  name: 🇰🇷KR_2|1.8MB/s
   network: ws
-  packet-encoding: xudp
-  port: 12545
-  server: 211.220.53.131
+  port: 443
+  server: 211.49.57.179
   servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 🇰🇷KR_1|4.7MB/s
-  password: ''
-  port: 50161
-  server: 168.107.13.220
   skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
-- country: 🇧🇩BD
-  name: 🇰🇷 KR 135 | ⬇️ 19MB/s
-  network: tcp
-  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
-  port: 21101
-  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
-  skip-cert-verify: true
-  sni: 261.yuanul.com
-  type: trojan
-  udp: true
-- delay: 1527
-  name: 🇰🇷 KR 796 | ⬇️ 22KB/s
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: Og%3D%3D
-- client-fingerprint: chrome
-  name: 🇰🇷 KR 274 | ⬇️ 397KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 11019
-  server: 211.104.99.209
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -77,13 +98,12 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 610 | ⬇️ 73KB/s
+  name: 🇰🇷KR_3|1.3MB/s
   network: ws
-  packet-encoding: xudp
-  port: 37020
-  server: 121.159.11.183
+  port: 28973
+  server: 218.155.85.44
   servername: sni.ehb.cc.cd
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -92,3 +112,15 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_4|4.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''

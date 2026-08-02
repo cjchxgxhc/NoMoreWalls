@@ -1,16 +1,47 @@
 proxies:
+- cipher: aes-128-gcm
+  name: '🇭🇰 HK 004 | ⬇️ 3MB/s #1'
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: 824
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 001 | ⬇️ 2MB/s
+  name: '🇭🇰 HK 003 | ⬇️ 5MB/s #1'
   network: tcp
   port: 9006
   server: select-hk.ddnskunlun.com
   skip-cert-verify: true
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- name: 🇭🇰HK_2|4.2MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29443
+  server: 18.166.249.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: 🇭🇰HK_3|3.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '29443'
+  server: 18.166.249.45
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alpn:
   - ''
   alterId: 2
@@ -20,7 +51,7 @@ proxies:
   delay: 821
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 650 | ⬇️ 5KB/s
+  name: '🇭🇰 HK 848 | ⬇️ 4KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com

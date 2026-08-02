@@ -1,30 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 104 | ⬇️ 72KB/s
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 703 | ⬇️ 12KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US 535 | ⬇️ 4MB/s
+  name: '🇺🇸 US 020 | ⬇️ 4MB/s #1'
   network: tcp
   port: 9028
   server: select-us.ddnskunlun.com
@@ -33,9 +13,21 @@ proxies:
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 0
   cipher: auto
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US 066 | ⬇️ 285KB/s
+  name: '🇺🇸 US 022 | ⬇️ 6MB/s #1'
+  network: tcp
+  port: 9027
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '🇺🇸 US 311 | ⬇️ 5MB/s #1'
   network: ws
   port: 443
   server: cg1c05.waimaojd.com
@@ -47,21 +39,55 @@ proxies:
     headers:
       Host: cg1c05.waimaojd.com
     path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 519 | ⬇️ 2MB/s
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
+- country: 🇭🇰HK
+  name: '🇺🇸 US 033 | ⬇️ 13MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 18.163.90.221
   skip-cert-verify: true
-  tls: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇺🇸US_4|2.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 18.163.90.221
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: '🇺🇸 US 063 | ⬇️ 1MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 54.196.207.151
+  type: ss
+  udp: true
+- country: 🇮🇷IR
+  name: '🇺🇸 US 154 | ⬇️ 2MB/s #1'
+  network: tcp
+  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+  port: 13209
+  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  skip-cert-verify: true
+  sni: 207.yuanul.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 US 744 | ⬇️ 67KB/s #1'
+  password: ljqdalu13..
+  port: 8313
+  server: 38.180.135.39
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: '🇺🇸 US 858 | ⬇️ 6KB/s #1'
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
   type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      HOST: cg1c02.waimaojd.com
-    path: /api/v1/graphql
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
