@@ -1,7 +1,33 @@
 proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 169 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: pro.tunnelpoint.space
+  servername: pro.tunnelpoint.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 FR 727 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇫🇷 FR 497 | ⬇️ 1MB/s #1'
+  name: 🇫🇷 FR 497 | ⬇️ 1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -16,7 +42,7 @@ proxies:
   udp: true
   uuid: f055899d-026b-49b5-88ed-0227795082da
 - encryption: none
-  name: '🇫🇷 FR 048 | ⬇️ 38KB/s #1'
+  name: 🇫🇷 FR 048 | ⬇️ 38KB/s
   network: tcp
   packet-encoding: xudp
   port: 22222
@@ -28,7 +54,7 @@ proxies:
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷 FR 057 | ⬇️ 36KB/s #1'
+  name: 🇫🇷 FR 057 | ⬇️ 36KB/s
   network: xhttp
   packet-encoding: xudp
   port: 37905
@@ -49,7 +75,7 @@ proxies:
     x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷 FR 699 | ⬇️ 36KB/s #1'
+  name: 🇫🇷 FR 699 | ⬇️ 36KB/s
   network: tcp
   packet-encoding: xudp
   port: 55327
@@ -65,7 +91,7 @@ proxies:
   udp: true
   uuid: ba5a5970-d35b-4bd6-a0e0-33350dc3ef03
 - client-fingerprint: chrome
-  name: '🇫🇷 FR 700 | ⬇️ 65KB/s #1'
+  name: 🇫🇷 FR 700 | ⬇️ 65KB/s
   network: tcp
   password: 7f2lnuboFJ
   port: 22597
@@ -78,7 +104,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷 FR 704 | ⬇️ 83KB/s #1'
+  name: 🇫🇷 FR 704 | ⬇️ 83KB/s
   network: xhttp
   packet-encoding: xudp
   port: 52831
@@ -99,7 +125,7 @@ proxies:
     x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷 FR 705 | ⬇️ 72KB/s #1'
+  name: 🇫🇷 FR 705 | ⬇️ 72KB/s
   network: tcp
   packet-encoding: xudp
   port: 34197
@@ -115,7 +141,7 @@ proxies:
   udp: true
   uuid: ffc5ea45-cbed-4fd7-94dc-37c2bccafc84
 - client-fingerprint: chrome
-  name: '🇫🇷 FR 707 | ⬇️ 36KB/s #1'
+  name: 🇫🇷 FR 707 | ⬇️ 36KB/s
   network: tcp
   password: 9Wkx7NAMZx
   port: 45666
@@ -128,7 +154,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷 FR 713 | ⬇️ 50KB/s #1'
+  name: 🇫🇷 FR 713 | ⬇️ 50KB/s
   network: xhttp
   packet-encoding: xudp
   port: 12101
@@ -148,7 +174,7 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
 - client-fingerprint: chrome
-  name: '🇫🇷 FR 742 | ⬇️ 70KB/s #1'
+  name: 🇫🇷 FR 742 | ⬇️ 70KB/s
   network: tcp
   password: SAmzXv7K2X
   port: 35958
@@ -159,3 +185,11 @@ proxies:
   server: 62.60.148.98
   sni: aws.amazon.com
   type: trojan
+- name: 🇫🇷FR_1|1009KB/s
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: '443'
+  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
