@@ -1,4 +1,55 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 069 | ⬇️ 6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.163.196.142
+  type: ss
+  udp: true
+- name: 🇺🇸 US 721 | ⬇️ 504KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-cfb
+  name: 🇺🇸US_10|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.93.33.57
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 017 | ⬇️ 323KB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  tls: false
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 1310 | ⬇️ 9KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US 003 | ⬇️ 6MB/s
@@ -25,32 +76,6 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /arki
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸 US 017 | ⬇️ 323KB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  tls: false
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇺🇸 US 125 | ⬇️ 23KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 21389
-  reality-opts:
-    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
-    short-id: '!!str !!str 166fc442f6061eff'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
@@ -64,13 +89,26 @@ proxies:
   server: 2----------------------------------------------------3.poki-pakipon.ir
   sni: www.icloud.com
   type: trojan
-- alterId: 2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇺🇸 US 125 | ⬇️ 23KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  reality-opts:
+    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
+    short-id: '!!str !!str 166fc442f6061eff'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 935 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
+  name: 🇺🇸US_8|1.9MB/s
+  port: 9028
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
