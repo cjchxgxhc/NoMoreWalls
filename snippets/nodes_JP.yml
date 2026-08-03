@@ -1,24 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 488 | ⬇️ 444KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-- name: 🇯🇵 JP 564 | ⬇️ 205KB/s
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🇯🇵 JP 001 | ⬇️ 23MB/s #1'
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- cipher: chacha20-ietf-poly1305
+  name: '🇯🇵 JP 120 | ⬇️ 5MB/s #1'
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: '🇯🇵 JP 682 | ⬇️ 205KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
-  type: trojan
-- name: 🇯🇵JP_2|3.0MB/s
-  password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan

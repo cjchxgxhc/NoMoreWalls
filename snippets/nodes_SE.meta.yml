@@ -1,19 +1,37 @@
 proxies:
 - client-fingerprint: firefox
-  name: 🇸🇪 SE 080 | ⬇️ 2MB/s
+  encryption: none
+  name: '🇸🇪 SE 276 | ⬇️ 83KB/s #1'
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
+  server: 2.26.79.32
   servername: pro-se.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
+- client-fingerprint: firefox
+  encryption: none
+  name: '🇸🇪 SE 128 | ⬇️ 95KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.16
+  servername: pro-se.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇪 SE 089 | ⬇️ 468KB/s
+  name: '🇸🇪 SE 288 | ⬇️ 1MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -29,99 +47,17 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- alpn:
-  - h2
-  client-fingerprint: random
-  name: 🇸🇪 SE 847 | ⬇️ 1MB/s
-  network: xhttp
-  port: 443
-  server: 188.72.103.3
-  servername: g43g324.whit3.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44be17d7-8295-4d56-8623-4ae675a9cf9b
-  xhttp-opts:
-    host: g43g324.whit3.net
-    mode: packet-up
-    path: /api/v1/
-    seq-key: id
-    seq-placement: query
-    uplink-data-key: X-Ver
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: api_v1
-    x-padding-key: xss
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
 - client-fingerprint: firefox
-  name: 🇺🇸US_2|1.2MB/s
+  name: '🇸🇪 SE 395 | ⬇️ 3MB/s #1'
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
   server: pro-se.emrata.top
   servername: pro-se.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- alpn:
-  - h2
-  client-fingerprint: random
-  name: 🇸🇪 SE 792 | ⬇️ 962KB/s
-  network: xhttp
-  port: 443
-  server: 188.72.103.3
-  servername: g43g324.whit3.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
-  xhttp-opts:
-    host: g43g324.whit3.net
-    mode: packet-up
-    path: /api/v1/
-    seq-key: id
-    seq-placement: query
-    uplink-data-key: X-Ver
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: api_v1
-    x-padding-key: xss
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: webpusiko-grpc
-  name: 🇸🇪 SE 919 | ⬇️ 1MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: '!!str 0858af97f4e7324d'
-  server: 109.120.156.136
-  servername: web.pusiko.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
-    short-id: '!!str c1a3b5d7e9f02468'
-  server: 162.248.163.237
-  servername: sw.tunnelx.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  xudp: true
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa

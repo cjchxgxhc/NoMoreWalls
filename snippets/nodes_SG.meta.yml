@@ -1,43 +1,58 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬 SG 503 | ⬇️ 2MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|3.5MB/s
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: 🇸🇬 SG 882 | ⬇️ 12MB/s
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18383
-  server: sg1.ktmhyld.com
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: sg1.ktmhyld.com
-  tfo: false
-  type: hysteria2
-  up: 1000
-- name: 🇸🇬SG_1|4.0MB/s
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_2|3.5MB/s
+  network: tcp
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|3.4MB/s
+- country: 🇭🇰HK
+  name: '🇸🇬 SG 008 | ⬇️ 11MB/s #1'
   network: tcp
-  port: '31877'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v1.cdn.wj0zugpsmub2.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🇸🇬 SG 086 | ⬇️ 6KB/s #1'
+  network: http
+  port: 8080
+  server: 43.160.231.254
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- cipher: auto
+  name: '🇸🇬 SG 129 | ⬇️ 6KB/s #1'
+  network: none
+  port: 24084
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
+- cipher: auto
+  name: '🇸🇬 SG 146 | ⬇️ 2KB/s #1'
+  network: none
+  port: 43608
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5

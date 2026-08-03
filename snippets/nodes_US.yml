@@ -1,102 +1,66 @@
 proxies:
-- country: 🇮🇷IR
-  name: 🇺🇸 US 560 | ⬇️ 12MB/s
-  network: tcp
-  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
-  port: 13209
-  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
-  skip-cert-verify: true
-  sni: 207.yuanul.com
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 US 003 | ⬇️ 6MB/s #1'
+  network: ws
+  port: 55633
+  server: 154.36.135.84
+  tls: false
+  type: vmess
+  uuid: d2627d4c-422c-42d7-9e9a-954c8f6728d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 US 004 | ⬇️ 7MB/s #1'
+  network: ws
+  port: 33735
+  server: 154.36.135.84
+  tls: false
+  type: vmess
+  uuid: 0753b38c-ffdb-4eb0-928a-c0855642fd4b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 US 017 | ⬇️ 323KB/s #1'
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  tls: false
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: '🇺🇸 US 107 | ⬇️ 22KB/s #1'
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  reality-opts:
+    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
+    short-id: '!!str !!str 166fc442f6061eff'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_9|1.9MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 510 | ⬇️ 6MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 986 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 030 | ⬇️ 3MB/s
-  network: tcp
-  port: 9028
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 050 | ⬇️ 3MB/s
-  network: tcp
-  port: 9027
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 917 | ⬇️ 139KB/s
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 190 | ⬇️ 2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: 🇺🇸US_6|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.196.207.151
-  type: ss
-  udp: true
-- name: 🇺🇸US_8|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: '🇺🇸 US 125 | ⬇️ 23KB/s #1'
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  reality-opts:
+    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
+    short-id: '!!str !!str 166fc442f6061eff'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
   type: trojan

@@ -1,42 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇹🇼 TW 511 | ⬇️ 1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 46906
-  reality-opts:
-    public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
-  server: tw.lshan.eu.org
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8e1bd804-7141-40a0-bc01-70f477c828e2
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: 🇹🇼 TW 637 | ⬇️ 146KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.44.97
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /sg-melbi
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|4.2MB/s
+  name: '🇹🇼 TW 050 | ⬇️ 6MB/s #1'
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: '40028'
+  port: 40028
   server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_1|4.0MB/s
+  network: tcp
+  port: '39201'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v4.cdn.u5mltvhwkm.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true

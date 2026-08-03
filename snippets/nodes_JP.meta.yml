@@ -1,57 +1,37 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇯🇵 JP 130 | ⬇️ 1KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🇯🇵 JP 001 | ⬇️ 23MB/s #1'
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- cipher: chacha20-ietf-poly1305
+  name: '🇯🇵 JP 120 | ⬇️ 5MB/s #1'
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 488 | ⬇️ 444KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-- name: 🇯🇵 JP 564 | ⬇️ 205KB/s
+  type: ss
+  udp: false
+- name: '🇯🇵 JP 682 | ⬇️ 205KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: 🇯🇵 JP 003 | ⬇️ 17MB/s
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18385
-  server: jp1.ktmhyld.com
-  skip-cert-verify: true
-  sni: jp1.ktmhyld.com
-  tfo: false
-  type: hysteria2
-  up: 1000
-- name: 🇯🇵JP_2|3.0MB/s
-  password: BxceQaOe
-  port: 49811
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_4|4.6MB/s
+  name: 🇯🇵JP_1|2.2MB/s
   network: tcp
-  port: '29855'
+  port: '39409'
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
