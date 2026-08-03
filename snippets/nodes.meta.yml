@@ -5,24 +5,16 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇯🇵 JP 001 | ⬇️ 23MB/s #1'
+  name: 🇯🇵 JP 001 | ⬇️ 23MB/s
   network: http
   port: 53268
   server: 47.74.43.250
   tls: false
   type: vmess
   uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- cipher: auto
-  name: '🇺🇸 US 002 | ⬇️ 3MB/s #1'
-  network: none
-  port: 12012
-  server: 154.36.135.84
-  tls: false
-  type: vless
-  uuid: d4ed01b4-bdaf-4909-d41e-5e6f8f6b5593
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 US 003 | ⬇️ 6MB/s #1'
+  name: 🇺🇸 US 003 | ⬇️ 6MB/s
   network: ws
   port: 55633
   server: 154.36.135.84
@@ -33,9 +25,17 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /arki
+- cipher: auto
+  name: 🇺🇸 US 002 | ⬇️ 3MB/s
+  network: none
+  port: 12012
+  server: 154.36.135.84
+  tls: false
+  type: vless
+  uuid: d4ed01b4-bdaf-4909-d41e-5e6f8f6b5593
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 US 004 | ⬇️ 7MB/s #1'
+  name: 🇺🇸 US 004 | ⬇️ 7MB/s
   network: ws
   port: 33735
   server: 154.36.135.84
@@ -46,46 +46,52 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /arki
-- delay: 750
-  name: '🇰🇷 KR 664 | ⬇️ 412KB/s #1'
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸 US 017 | ⬇️ 323KB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
   tls: false
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 🇭🇰 HK 681 | ⬇️ 5KB/s
+  password: '123'
+  port: 3060
+  server: 43.100.43.112
   type: socks5
-  udp: true
-  username: Og%3D%3D
+  username: '123'
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
+  encryption: none
+  name: 🇰🇷 KR 007 | ⬇️ 185KB/s
   network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  packet-encoding: xudp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '628b3c90c98ead4f'
+  server: 54.180.99.219
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 🇸🇬SG_2|3.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- country: 🇭🇰HK
-  name: '🇸🇬 SG 008 | ⬇️ 11MB/s #1'
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 🇹🇼 TW 050 | ⬇️ 6MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40028
+  server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
+  type: ss
   udp: true
 - cipher: auto
-  name: '🇺🇸 US 012 | ⬇️ 2MB/s #1'
+  name: 🇺🇸 US 012 | ⬇️ 2MB/s
   network: ws
   port: 57878
   server: 38.246.226.240
@@ -94,28 +100,54 @@ proxies:
   uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
   ws-opts:
     path: /535f0e03
-- name: '🇭🇰 HK 681 | ⬇️ 5KB/s #1'
-  password: '123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 US 017 | ⬇️ 323KB/s #1'
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  tls: false
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸 US 018 | ⬇️ 1MB/s #1'
+  name: 🇬🇧GB_1|1.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: '22012'
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: 'c6e19c434dc87df7'
+  server: 78.47.104.140
+  servername: login.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 404 | ⬇️ 9MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.67.147.60
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- cipher: auto
+  name: 🇸🇬 SG 013 | ⬇️ 27KB/s
+  network: none
+  port: 20544
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: d3e28cb3-7e9e-4fa6-bf7d-d6c0eb770058
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP 120 | ⬇️ 5MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 018 | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 37789
@@ -134,75 +166,31 @@ proxies:
     mode: auto
     path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
     x-padding-bytes: 1-1000
-- cipher: chacha20-ietf-poly1305
-  name: '🇹🇼 TW 050 | ⬇️ 6MB/s #1'
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40028
-  server: xunlinknode.csdjhajkshdjkas.com
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- name: '🇭🇰 HK 022 | ⬇️ 2MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.241.194
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: '🇩🇪 DE 023 | ⬇️ 2MB/s #1'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: dggg.wsone.icu
-  sni: dggg.wsone.icu
-  type: trojan
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 322 | ⬇️ 1MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cloudflare-ip.mofashi.ltd
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇨🇭 CH 025 | ⬇️ 23KB/s #1'
+  name: 🇨🇭 CH 185 | ⬇️ 34KB/s
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 62181
+  port: 22880
   reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: 'fcfa77f4695abede'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
+    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
+    short-id: '8025424fb0cae924'
+  server: 1------------------------------------------------2.poki-pakipon.ir
   sni: www.icloud.com
   type: trojan
-- name: '🇳🇱 NL 026 | ⬇️ 219KB/s #1'
-  password: ''
-  port: 1080
-  server: 5.255.117.127
-  tls: false
-  type: socks5
-  username: ''
-- cipher: chacha20-ietf-poly1305
-  name: '🇫🇮 FI 027 | ⬇️ 3MB/s #1'
-  password: g7RdAqGMgeEgApVhw5v7HT
-  port: 5223
-  server: creativeboxfin.zanity.net
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇺🇸US_1|3.7MB/s
+  obfs-password: ''
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga10.api3-max.ru
+  skip-cert-verify: true
+  sni: taga10.api3-max.ru
+  tfo: false
+  type: hysteria2
 - client-fingerprint: firefox
-  name: '🇬🇧 GB 273 | ⬇️ 20KB/s #1'
+  name: 🇬🇧 GB 273 | ⬇️ 20KB/s
   network: tcp
   packet-encoding: xudp
   port: 22012
@@ -217,35 +205,22 @@ proxies:
   udp: true
   uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
   xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇷🇺 RU 029 | ⬇️ 18KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 58956
-  reality-opts:
-    public-key: xy_HgiboJGTEVblRg5GoT-DrRSKgtXzgv0y6g15tkg0
-    short-id: 'd1dc8de99565087c'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 167 | ⬇️ 10KB/s #1'
+- name: 🇭🇰 HK 168 | ⬇️ 2MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.21.84.3
+  server: 172.66.173.172
+  skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+    headers:
+      Host: yks-dd9.pages.dev
     path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇺🇸 US 651 | ⬇️ 4MB/s #1'
+  name: 🇺🇸 US 651 | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 993
@@ -259,24 +234,105 @@ proxies:
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇹🇷 TR 281 | ⬇️ 112KB/s #1'
-  network: tcp
-  packet-encoding: xudp
+  name: 🇭🇰 HK 322 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: 'c6ef72e4635d15a5'
-  server: 45.196.201.26
-  servername: storage.yandex.net
+  server: cloudflare-ip.mofashi.ltd
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- name: 🇺🇸 US 136 | ⬇️ 1017KB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- client-fingerprint: ios
+  encryption: none
+  name: 🇳🇱 NL 026 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: danap.ir
+  servername: cabton.nyanners.ir
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: efd8dcae-ad9a-4909-93cd-3a12a216ead1
+  ws-opts:
+    headers:
+      Host: cabton.nyanners.ir
+    path: /
+    v2ray-http-upgrade: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇮 FI 227 | ⬇️ 12KB/s
+  password: JlOogWdbpnfIWiJ1KyvzMw
+  port: 5228
+  server: creativeboxlv.zanity.net
+  skip-cert-verify: false
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 417 | ⬇️ 5MB/s #1'
+  name: 🇭🇰 HK 167 | ⬇️ 10KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.21.84.3
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 648 | ⬇️ 87KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 SG 086 | ⬇️ 6KB/s
+  network: http
+  port: 8080
+  server: 43.160.231.254
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 646 | ⬇️ 268KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 417 | ⬇️ 5MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -287,39 +343,68 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- country: 🇸🇬SG
-  name: '🇬🇧 GB 045 | ⬇️ 384KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  name: '🇩🇪 DE 646 | ⬇️ 268KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 648 | ⬇️ 87KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  name: 🇭🇰 HK 308 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.66.173.172
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: yks-dd9.pages.dev
   type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- delay: 750
+  name: 🇰🇷 KR 664 | ⬇️ 412KB/s
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
   udp: true
+  username: Og%3D%3D
+- name: 🇸🇨 SC 048 | ⬇️ 383KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 657 | ⬇️ 4MB/s #1'
+  name: 🇭🇰 HK 305 | ⬇️ 817KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cfip.1323123.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇵🇱 PL 054 | ⬇️ 22KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36475
+  reality-opts:
+    public-key: o3vhkem1orYX43_Y0OJ3FBE-3RKPemagzeIDwhQlEFA
+    short-id: '99f3a7a62fe2e90b'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 657 | ⬇️ 4MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -330,18 +415,98 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 644 | ⬇️ 368KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
+- name: 🇺🇸 US 165 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.17.101.139
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇺🇸 US 669 | ⬇️ 5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇭 TH 159 | ⬇️ 1MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40008
+  server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 660 | ⬇️ 6MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
 - client-fingerprint: firefox
-  name: '🇬🇧 GB 313 | ⬇️ 36KB/s #1'
+  grpc-opts:
+    grpc-service-name: TunService
+    path: /
+  name: 🇺🇸 US 270 | ⬇️ 53KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- cipher: auto
+  name: 🇸🇬 SG 084 | ⬇️ 7KB/s
+  network: none
+  port: 28975
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: a80c6768-faa5-452c-d688-3bb0456cb5c6
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 289 | ⬇️ 3MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: xn--b6gac.eu.org
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: firefox
+  name: 🇬🇧 GB 313 | ⬇️ 36KB/s
   network: tcp
   packet-encoding: xudp
   port: 22012
@@ -355,192 +520,21 @@ proxies:
   type: vless
   udp: true
   uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: '🇩🇪 DE 665 | ⬇️ 87KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- cipher: chacha20-ietf-poly1305
-  name: '🇫🇮 FI 227 | ⬇️ 12KB/s #1'
-  password: JlOogWdbpnfIWiJ1KyvzMw
-  port: 5228
-  server: creativeboxlv.zanity.net
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇵🇱 PL 054 | ⬇️ 22KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 36475
-  reality-opts:
-    public-key: o3vhkem1orYX43_Y0OJ3FBE-3RKPemagzeIDwhQlEFA
-    short-id: '99f3a7a62fe2e90b'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇪🇸 ES 060 | ⬇️ 10MB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 36176
-  reality-opts:
-    public-key: Iu8KwVrbPBNnjoZtNPvq4gwwdiCGpgAw-xUefebBJWc
-    short-id: 'dd4ebaae217d91f5'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: firefox
-  name: '🇬🇧 GB 342 | ⬇️ 1MB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 22012
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: 'c6e19c434dc87df7'
-  server: 78.47.104.140
-  servername: login.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇺🇸US_1|2.0MB/s
-  obfs-password: ''
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga10.api3-max.ru
-  skip-cert-verify: true
-  sni: taga10.api3-max.ru
-  tfo: false
-  type: hysteria2
-- name: '🇩🇪 DE 068 | ⬇️ 3MB/s #1'
-  network: ws
-  port: 443
-  server: 162.159.153.4
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  skip-cert-verify: false
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-    max-early-data: 2560
-    path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇷🇺 RU 069 | ⬇️ 20KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 36509
-  reality-opts:
-    public-key: HSIaOCEuKVFN9n90uTtpqq6PrTXWly_1Onykgk_aJm8
-    short-id: '44406fa209b7a6e8'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  down: ''
-  fingerprint: ''
-  name: 🇷🇴RO_1|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: '8443'
-  server: 205.237.109.212
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  tfo: false
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 299 | ⬇️ 13KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 33786
-  reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: 'f55c53dfd45cfc6d'
-  server: kakag.tempfast.ir
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇬🇧 GB 241 | ⬇️ 16KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 48364
-  reality-opts:
-    public-key: 0lvMgmUD3hF_mUKoVyUC4JJUKpdffxvkrzqeQOEK9EI
-    short-id: 'b34e21b58ecc6362'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 308 | ⬇️ 1MB/s #1'
+- name: 🇭🇰 HK 098 | ⬇️ 262KB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.66.173.172
+  server: 104.21.84.3
+  skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+    headers:
+      Host: yks-dd9.pages.dev
     path: /
 - client-fingerprint: firefox
-  name: '🇩🇪 DE 654 | ⬇️ 149KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '🇸🇬 SG 086 | ⬇️ 6KB/s #1'
-  network: http
-  port: 8080
-  server: 43.160.231.254
-  tls: false
-  type: vmess
-  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
-- client-fingerprint: firefox
   encryption: none
-  name: '🇸🇪 SE 276 | ⬇️ 83KB/s #1'
+  name: 🇸🇪 SE 276 | ⬇️ 83KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -553,41 +547,128 @@ proxies:
   type: vless
   udp: true
   uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
-- client-fingerprint: firefox
-  encryption: none
-  name: '🇸🇪 SE 128 | ⬇️ 95KB/s #1'
-  network: tcp
-  packet-encoding: xudp
+  xudp: true
+- name: 🇺🇸 US 101 | ⬇️ 8MB/s
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
   port: 443
+  server: 138.124.68.188
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  tfo: false
+  type: hysteria2
+- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  down: ''
+  fingerprint: ''
+  name: 🇳🇱 NL 662 | ⬇️ 4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.212
+  skip-cert-verify: false
+  sni: grape-turbo-fr.roxa.org
+  tfo: false
+  type: hysteria2
+  up: ''
+- country: 🇸🇬SG
+  name: 🇬🇧 GB 045 | ⬇️ 384KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 HK 160 | ⬇️ 298KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: xn--b6gac.eu.org
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 🇭🇰 HK 022 | ⬇️ 2MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇫🇮 FI 243 | ⬇️ 1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
   reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.16
-  servername: pro-se.emrata.top
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.5
+  servername: download.nvidia.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
+  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇹🇷 TR 134 | ⬇️ 144KB/s #1'
+  name: 🇹🇷 TR 124 | ⬇️ 500KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
     short-id: 'c6ef72e4635d15a5'
-  server: 45.196.201.24
+  server: 45.196.201.82
   servername: storage.yandex.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇺🇸 US 125 | ⬇️ 23KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  reality-opts:
+    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
+    short-id: '166fc442f6061eff'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 189 | ⬇️ 15KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸 US 667 | ⬇️ 8KB/s #1'
+  name: 🇺🇸 US 667 | ⬇️ 8KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -603,111 +684,131 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: '🇩🇪 DE 616 | ⬇️ 59KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇵🇱 PL 122 | ⬇️ 22KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 43877
+  reality-opts:
+    public-key: MYREt6qtLcC7LITuCCp-nViIclFnqrYbCLazYzCf4lk
+    short-id: 'a62969e76998c80b'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- name: 🇺🇸 US 666 | ⬇️ 7MB/s
+  network: ws
+  port: 2095
+  server: www.wto.org
   skip-cert-verify: false
-  tls: true
+  tfo: true
+  tls: false
   type: vless
   udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 289 | ⬇️ 3MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: xn--b6gac.eu.org
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 404 | ⬇️ 9MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.67.147.60
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
     path: /
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇫🇮 FI 221 | ⬇️ 1MB/s #1'
+  name: 🇫🇮 FI 332 | ⬇️ 307KB/s
   network: tcp
   packet-encoding: xudp
   port: 993
   reality-opts:
-    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
-  server: 83.143.106.3
-  servername: res.cdn.office.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇺🇸 US 107 | ⬇️ 22KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 21389
-  reality-opts:
-    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
-    short-id: '166fc442f6061eff'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇩🇪 DE 172 | ⬇️ 16KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 47037
-  reality-opts:
-    public-key: q2f2EcYkXT0MpVQ4rD49eQr2MACoIOJmampNRLm2JhA
-    short-id: '2b6f76389eadc382'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '🇺🇸 US 669 | ⬇️ 5MB/s #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
   servername: download.nvidia.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xudp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 CH 149 | ⬇️ 26KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 62181
+  reality-opts:
+    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
+    short-id: 'fcfa77f4695abede'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 821
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 916 | ⬇️ 3KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇳🇱 NL 026 | ⬇️ 219KB/s
+  password: ''
+  port: 1080
+  server: 5.255.117.127
+  tls: false
+  type: socks5
+  username: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: 🇳🇱 NL 148 | ⬇️ 228KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.72.103.3
+  servername: cherry.benzogangmoney.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8afe8493-b6ba-4df6-b7e9-b94c3a735aa3
+  xhttp-opts:
+    host: cherry.benzogangmoney.space
+    mode: packet-up
+    path: /media/cache/thumbs-b82f/
+    reuse-settings:
+      c-max-reuse-times: '100'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 12-24
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: '🇫🇮 FI 357 | ⬇️ 979KB/s #1'
+  name: 🇫🇮 FI 357 | ⬇️ 979KB/s
   network: grpc
   packet-encoding: xudp
   port: 8443
@@ -722,215 +823,12 @@ proxies:
   udp: true
   uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇯🇵 JP 120 | ⬇️ 5MB/s #1'
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40003
-  server: xunlinknode.csdjhajkshdjkas.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇵🇱 PL 122 | ⬇️ 22KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 43877
-  reality-opts:
-    public-key: MYREt6qtLcC7LITuCCp-nViIclFnqrYbCLazYzCf4lk
-    short-id: 'a62969e76998c80b'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '🇫🇮 FI 124 | ⬇️ 195KB/s #1'
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
-    short-id: ''
-  server: 83.143.106.3
-  servername: res.cdn.office.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇺🇸 US 125 | ⬇️ 23KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 21389
-  reality-opts:
-    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
-    short-id: '166fc442f6061eff'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇪🇸 ES 127 | ⬇️ 24KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 36176
-  reality-opts:
-    public-key: Iu8KwVrbPBNnjoZtNPvq4gwwdiCGpgAw-xUefebBJWc
-    short-id: 'dd4ebaae217d91f5'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- cipher: auto
-  name: '🇸🇬 SG 129 | ⬇️ 6KB/s #1'
-  network: none
-  port: 24084
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇧🇷 BR 196 | ⬇️ 32KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: 177.1.199.2
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
-- name: '🇳🇱 NL 670 | ⬇️ 22KB/s #1'
-  password: Private
-  port: 1080
-  server: 85.17.179.81
-  tls: false
-  type: socks5
-  username: M_YOU_D
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: TunService
-    path: /
-  name: '🇺🇸 US 270 | ⬇️ 53KB/s #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- name: '🇺🇸 US 136 | ⬇️ 1017KB/s #1'
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇵🇱 PL 137 | ⬇️ 31KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 43877
-  reality-opts:
-    public-key: MYREt6qtLcC7LITuCCp-nViIclFnqrYbCLazYzCf4lk
-    short-id: 'a62969e76998c80b'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇷🇺 RU 309 | ⬇️ 44KB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: N20oGhwfXOP-H9nuvWlJG_UNHwxWWhrTAV-KsjgZFDA
-    short-id: '23697e'
-  server: 212.233.123.185
-  servername: rus07.routex-cloud.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
-  xhttp-opts:
-    host: rus07.routex-cloud.space
-    mode: auto
-    path: /api/uploadFile/
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 305 | ⬇️ 817KB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cfip.1323123.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- cipher: auto
-  name: '🇸🇬 SG 146 | ⬇️ 2KB/s #1'
-  network: none
-  port: 43608
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇨🇭 CH 149 | ⬇️ 26KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 62181
-  reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: 'fcfa77f4695abede'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- name: '🇭🇰 HK 160 | ⬇️ 298KB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: xn--b6gac.eu.org
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: edge
   encryption: none
-  name: '🇳🇱 NL 255 | ⬇️ 1MB/s #1'
+  name: 🇳🇱 NL 255 | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -964,406 +862,82 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: queryInHeader
-- name: '🇺🇸 US 165 | ⬇️ 1MB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.17.101.139
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇪🇸 ES 166 | ⬇️ 1MB/s #1'
+  name: 🇧🇷 BR 196 | ⬇️ 32KB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: 'fdda9806fe5d8584'
-  server: 78.17.180.110
-  servername: isp05.skorostnet.space
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: 177.1.199.2
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  xudp: true
-- name: '🇭🇰 HK 168 | ⬇️ 2MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
+  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇵🇱 PL 137 | ⬇️ 31KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 43877
+  reality-opts:
+    public-key: MYREt6qtLcC7LITuCCp-nViIclFnqrYbCLazYzCf4lk
+    short-id: 'a62969e76998c80b'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- name: 🇳🇱 NL 670 | ⬇️ 22KB/s
+  password: Private
+  port: 1080
+  server: 85.17.179.81
+  tls: false
+  type: socks5
+  username: M_YOU_D
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 644 | ⬇️ 368KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
+  udp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇳🇱 NL 296 | ⬇️ 105KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 14027
-  reality-opts:
-    public-key: jazXA6lsQvIWQefmAYpJ3qLylTyjNi5mM7OSU873eDE
-    short-id: '4c89dc06c0770859'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇨🇭 CH 170 | ⬇️ 5MB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 22880
-  reality-opts:
-    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
-    short-id: '8025424fb0cae924'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 660 | ⬇️ 6MB/s #1'
+  name: 🇭🇰 HK 412 | ⬇️ 8MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.25.242.132
+  server: cf.0sm.com
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇨🇭 CH 185 | ⬇️ 34KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 22880
-  reality-opts:
-    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
-    short-id: '8025424fb0cae924'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 DE 189 | ⬇️ 15KB/s #1'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇩🇪 DE 303 | ⬇️ 95KB/s #1'
+- client-fingerprint: firefox
+  name: 🇩🇪 DE 654 | ⬇️ 149KB/s
   network: tcp
   packet-encoding: xudp
-  port: 33786
-  reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: 'f55c53dfd45cfc6d'
-  server: kakaG.tempfast.ir
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '🇳🇱 NL 362 | ⬇️ 167KB/s #1'
-  network: grpc
-  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
-    short-id: '6fa13cdb'
-  server: 45.151.62.156
-  servername: dogs.abvphelp.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: '🇳🇱 NL 202 | ⬇️ 13KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 31.172.78.208
-  servername: ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c61a813a-3429-4a20-8b7f-f7a3cd795b24
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev
-    max-early-data: 2560
-    path: /lessons/favourites/ep
-- name: '🇭🇰 HK 642 | ⬇️ 47KB/s #1'
-  password: '111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- encryption: none
-  name: '🇷🇺 RU 266 | ⬇️ 24KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 147.45.235.14
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇪🇪 EE 211 | ⬇️ 18KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 41002
-  reality-opts:
-    public-key: yUh0c0JZYl74gFBYJJFPkDlfyzUco05yfcKL4xjXU0g
-    short-id: 'e44044636726a3ad'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- name: '🇩🇪 DE 661 | ⬇️ 820KB/s #1'
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  server: ddc-akn.astralweb.tech
+  server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇫🇮 FI 686 | ⬇️ 2MB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM
-  server: 130.49.77.3
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-  xhttp-opts:
-    host: download.nvidia.com
-    mode: auto
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇪 SE 288 | ⬇️ 1MB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-  server: 170.168.99.3
-  servername: cdn.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-  xhttp-opts:
-    mode: auto
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸 US 237 | ⬇️ 51KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
-  server: 31.76.253.3
-  servername: pro-us.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-- client-fingerprint: firefox
-  encryption: none
-  name: '🇩🇪 DE 321 | ⬇️ 13KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 33786
-  reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: 'f55c53dfd45cfc6d'
-  server: 91.107.167.243
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
-- name: '🇺🇸 US 647 | ⬇️ 183KB/s #1'
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '🇫🇮 FI 243 | ⬇️ 1MB/s #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.5
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇦🇺 AU 264 | ⬇️ 9KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: '68a8'
-  server: 5.253.42.164
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: '🇳🇱 NL 245 | ⬇️ 1MB/s #1'
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- name: '🇮🇳 IN 678 | ⬇️ 7KB/s #1'
-  password: ''
-  port: 1088
-  server: 144.24.111.128
-  type: socks5
-  username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇫🇮 FI 256 | ⬇️ 9KB/s #1'
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
-    short-id: 'beff3ff061a64cfd'
-  server: 92.246.138.78
-  servername: fi-one.quiet-rogue.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71cada65-d23e-418c-88e4-a06188d14689
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇫🇷 FR 258 | ⬇️ 5KB/s #1'
-  network: raw
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: XlPZy538jkCt-VNtnLXcwjtrTSaVrM2AzIWq_rh7pRU
-    short-id: '51d04ca6fb10'
-  server: 79.174.92.138
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 09c9b2e5-875a-460b-bf03-a237d3be0293
-- name: '🇰🇷 KR 260 | ⬇️ 8KB/s #1'
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
-  username: ''
-- name: '🇺🇸 US 666 | ⬇️ 7MB/s #1'
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: edge
   encryption: none
-  name: '🇳🇱 NL 271 | ⬇️ 1MB/s #1'
+  name: 🇳🇱 NL 271 | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -1398,8 +972,677 @@ proxies:
     x-padding-obfs-mode: true
     x-padding-placement: queryInHeader
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 CH 025 | ⬇️ 23KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 62181
+  reality-opts:
+    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
+    short-id: 'fcfa77f4695abede'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 🇳🇱 NL 729 | ⬇️ 1MB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 2.26.96.251
+  skip-cert-verify: false
+  sni: titandarkness.mooo.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇺🇸 US 107 | ⬇️ 22KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 21389
+  reality-opts:
+    public-key: IJDK0lzPW6Pxc2Rd8vzzHHh5tf0e4uxZaiPt0YV6Y3A
+    short-id: '166fc442f6061eff'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /43588/G43plZahWW
+  name: 🇳🇱 NL 245 | ⬇️ 1MB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 2.26.96.251
+  skip-cert-verify: false
+  sni: titandarkness.mooo.com
+  type: trojan
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_2|2.7MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
   encryption: none
-  name: '🇹🇷 TR 521 | ⬇️ 1MB/s #1'
+  flow: ''
+  name: 🇸🇪 SE 288 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+  server: 170.168.99.3
+  servername: cdn.steamstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    mode: auto
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 TW 222 | ⬇️ 172KB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40028
+  server: hg1.levikogjgfdd.ir
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇪🇪 EE 211 | ⬇️ 18KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 41002
+  reality-opts:
+    public-key: yUh0c0JZYl74gFBYJJFPkDlfyzUco05yfcKL4xjXU0g
+    short-id: 'e44044636726a3ad'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 525 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.146.75
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 419 | ⬇️ 351KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇳🇱 NL 296 | ⬇️ 105KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 14027
+  reality-opts:
+    public-key: jazXA6lsQvIWQefmAYpJ3qLylTyjNi5mM7OSU873eDE
+    short-id: '4c89dc06c0770859'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 GB 241 | ⬇️ 16KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  reality-opts:
+    public-key: 0lvMgmUD3hF_mUKoVyUC4JJUKpdffxvkrzqeQOEK9EI
+    short-id: 'b34e21b58ecc6362'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 739 | ⬇️ 667KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.16.252.34
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 680 | ⬇️ 13MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 DE 665 | ⬇️ 87KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇬🇧 GB 673 | ⬇️ 1MB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 48364
+  reality-opts:
+    public-key: 0lvMgmUD3hF_mUKoVyUC4JJUKpdffxvkrzqeQOEK9EI
+    short-id: 'b34e21b58ecc6362'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: udp://208.67.220.220:443
+    enable: true
+    query-server-name: godotengine.org
+  encryption: none
+  name: 🇳🇱 NL 202 | ⬇️ 13KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 31.172.78.208
+  servername: ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c61a813a-3429-4a20-8b7f-f7a3cd795b24
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev
+    max-early-data: 2560
+    path: /lessons/favourites/ep
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 DE 616 | ⬇️ 59KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- name: 🇩🇪 DE 661 | ⬇️ 820KB/s
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- name: 🇮🇳 IN 678 | ⬇️ 7KB/s
+  password: ''
+  port: 1088
+  server: 144.24.111.128
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 281 | ⬇️ 112KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.26
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇪🇸 ES 060 | ⬇️ 10MB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36176
+  reality-opts:
+    public-key: Iu8KwVrbPBNnjoZtNPvq4gwwdiCGpgAw-xUefebBJWc
+    short-id: 'dd4ebaae217d91f5'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- name: 🇰🇷 KR 312 | ⬇️ 18KB/s
+  password: '111'
+  port: 20000
+  server: 101.33.74.115
+  type: socks5
+  username: '111'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 327 | ⬇️ 103KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.210
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 679 | ⬇️ 9MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- name: 🇺🇸 US 647 | ⬇️ 183KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 US 578 | ⬇️ 582KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 91.193.59.181
+  servername: edt.akkk.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0841bb1-00ff-4841-ba14-a3ec24d94bb5
+  ws-opts:
+    headers:
+      Host: edt.akkk.qzz.io
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 626 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: rg_sl-tQIau_CXdjpo-BvLmlZMmlbq2KMrH5K4kdyCY
+  server: 31.56.178.59
+  servername: us.boxypn.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 FR 431 | ⬇️ 30KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 621 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zvbLa6BrfAeAKIg4TZ2AASiEZ9ntYCSEFhgkbqWwkQg
+    short-id: '4e9b5c2d1a3f5728'
+  server: tr.tunnelx.space
+  servername: tr.tunnelx.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: 🇩🇪 DE 577 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.72.103.3
+  servername: apple.dbintro.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cfbdc70-5fe2-4adf-95de-46874fb3c34a
+  xhttp-opts:
+    host: apple.dbintro.space
+    mode: packet-up
+    path: /assets/js/chunk-a91a/
+    reuse-settings:
+      c-max-reuse-times: '100'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 12-24
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: 🇩🇪 DE 586 | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.72.103.3
+  servername: apple.dbintro.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc7869f8-eae6-4ca4-98a2-6312ec2086b6
+  xhttp-opts:
+    host: apple.dbintro.space
+    mode: packet-up
+    path: /assets/js/chunk-a91a/
+    reuse-settings:
+      c-max-reuse-times: '100'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 12-24
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- client-fingerprint: firefox
+  encryption: none
+  flow: ''
+  name: 🇵🇱 PL 583 | ⬇️ 49KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 30160
+  reality-opts:
+    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
+  server: 45.137.43.70
+  servername: yandex.tr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+  xhttp-opts:
+    host: yandex.tr
+    mode: auto
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇮 FI 686 | ⬇️ 2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM
+  server: 130.49.77.3
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    host: download.nvidia.com
+    mode: auto
+    path: /
+- cipher: auto
+  name: 🇸🇬 SG 603 | ⬇️ 19KB/s
+  network: none
+  port: 27719
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 99d64924-88c0-441a-8915-280dc239a5b7
+- country: 🇭🇰HK
+  name: 🇸🇬 SG 008 | ⬇️ 11MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_5|4.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 BR 607 | ⬇️ 79KB/s
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 140.238.191.246
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 623 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.4
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇷🇺 RU 069 | ⬇️ 20KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36509
+  reality-opts:
+    public-key: HSIaOCEuKVFN9n90uTtpqq6PrTXWly_1Onykgk_aJm8
+    short-id: '44406fa209b7a6e8'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- name: 🇭🇰 HK 642 | ⬇️ 47KB/s
+  password: '111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
+- cipher: auto
+  name: 🇸🇬 SG 146 | ⬇️ 2KB/s
+  network: none
+  port: 43608
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇮 FI 027 | ⬇️ 3MB/s
+  password: g7RdAqGMgeEgApVhw5v7HT
+  port: 5223
+  server: creativeboxfin.zanity.net
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇮 FI 221 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 993
+  reality-opts:
+    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
+  server: 83.143.106.3
+  servername: res.cdn.office.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇷🇺 RU 029 | ⬇️ 18KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 58956
+  reality-opts:
+    public-key: xy_HgiboJGTEVblRg5GoT-DrRSKgtXzgv0y6g15tkg0
+    short-id: 'd1dc8de99565087c'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇩🇪 DE 172 | ⬇️ 16KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 47037
+  reality-opts:
+    public-key: q2f2EcYkXT0MpVQ4rD49eQr2MACoIOJmampNRLm2JhA
+    short-id: '2b6f76389eadc382'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 865 | ⬇️ 113KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.82.246
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪 DE 661 | ⬇️ 15KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 18443
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '5c766813929a1fdd'
+  server: 104.167.24.227
+  servername: gp1.steptofsvo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇷 TR 521 | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -1417,8 +1660,99 @@ proxies:
     path: /
 - client-fingerprint: firefox
   grpc-opts:
+    grpc-service-name: TunService
+  name: 🇫🇮 FI 124 | ⬇️ 195KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
+    short-id: ''
+  server: 83.143.106.3
+  servername: res.cdn.office.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  xudp: true
+- name: 🇭🇰 HK 666 | ⬇️ 249KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.0sm.com
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇪🇪 EE 306 | ⬇️ 18KB/s #1'
+  name: 🇪🇸 ES 127 | ⬇️ 24KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 36176
+  reality-opts:
+    public-key: Iu8KwVrbPBNnjoZtNPvq4gwwdiCGpgAw-xUefebBJWc
+    short-id: 'dd4ebaae217d91f5'
+  server: 1------------------------------------------------2.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 CH 170 | ⬇️ 5MB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 22880
+  reality-opts:
+    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
+    short-id: '8025424fb0cae924'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 712 | ⬇️ 75KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+    path: /
+  name: 🇨🇭 CH 717 | ⬇️ 11KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2096
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ss.l90909l.vip
+  servername: id.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- cipher: auto
+  name: 🇸🇬 SG 129 | ⬇️ 6KB/s
+  network: none
+  port: 24084
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇪🇪 EE 306 | ⬇️ 18KB/s
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 41002
@@ -1428,14 +1762,431 @@ proxies:
   server: 2----------------------------------------------------3.poki-pakipon.ir
   sni: www.icloud.com
   type: trojan
-- name: '🇰🇷 KR 312 | ⬇️ 18KB/s #1'
-  password: '111'
-  port: 20000
-  server: 101.33.74.115
+- client-fingerprint: chrome
+  name: 🇫🇮 FI 808 | ⬇️ 645KB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
+  server: 157.22.19.5
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c97b2158-64c9-1f55-8167-72970d347288
+  xhttp-opts:
+    host: download.nvidia.com
+    mode: auto
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇳 IN 454 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: loAFNSTbdM9g-9dyps76y996jHPfBNJBq5F5Vd0Sekw
+    short-id: '4e9b5c2d1a3f5748'
+  server: 185.67.126.178
+  servername: ind.tunnelx.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺 RU 309 | ⬇️ 44KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: N20oGhwfXOP-H9nuvWlJG_UNHwxWWhrTAV-KsjgZFDA
+    short-id: '23697e'
+  server: 212.233.123.185
+  servername: rus07.routex-cloud.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+  xhttp-opts:
+    host: rus07.routex-cloud.space
+    mode: auto
+    path: /api/uploadFile/
+- name: 🇳🇱 NL 335 | ⬇️ 15KB/s
+  password: test123
+  port: 1080
+  server: 185.145.99.41
   type: socks5
-  username: '111'
+  udp: true
+  username: test123
+- name: 🇳🇱 NL 688 | ⬇️ 3MB/s
+  password: ''
+  port: 1080
+  server: 5.255.123.162
+  tls: false
+  type: socks5
+  username: ''
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪 DE 683 | ⬇️ 5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 684 | ⬇️ 748KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_4|4.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 649 | ⬇️ 6MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.877771.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- name: 🇯🇵 JP 682 | ⬇️ 205KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 904 | ⬇️ 342KB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇦 CA 908 | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zvbLa6BrfAeAKIg4TZ2AASiEZ9ntYCSEFhgkbqWwkQg
+    short-id: '4e9b5c2d1a3f5728'
+  server: 87.120.106.126
+  servername: tr.tunnelx.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
 - encryption: none
-  name: '🇷🇺 RU 318 | ⬇️ 13KB/s #1'
+  name: 🇷🇺 RU 912 | ⬇️ 40KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 77.222.37.89
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 🇺🇸 US 930 | ⬇️ 92KB/s
+  password: ''
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+  username: ''
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇮🇪 IE 931 | ⬇️ 5KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇺 AU 264 | ⬇️ 9KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: '68a8'
+  server: 5.253.42.164
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 935 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪 DE 023 | ⬇️ 2MB/s
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: dggg.wsone.icu
+  sni: dggg.wsone.icu
+  type: trojan
+- name: 🇩🇪 DE 068 | ⬇️ 3MB/s
+  network: ws
+  port: 443
+  server: 162.159.153.4
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 299 | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: 'f55c53dfd45cfc6d'
+  server: kakag.tempfast.ir
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪 SE 128 | ⬇️ 95KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.16
+  servername: pro-se.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 134 | ⬇️ 144KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.24
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇸 ES 166 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: 'fdda9806fe5d8584'
+  server: 78.17.180.110
+  servername: isp05.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 303 | ⬇️ 95KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: 'f55c53dfd45cfc6d'
+  server: kakaG.tempfast.ir
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇳🇱 NL 362 | ⬇️ 167KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0
+    short-id: '6fa13cdb'
+  server: 45.151.62.156
+  servername: dogs.abvphelp.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- encryption: none
+  name: 🇷🇺 RU 266 | ⬇️ 24KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 147.45.235.14
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 237 | ⬇️ 51KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
+  server: 31.76.253.3
+  servername: pro-us.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 DE 321 | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: 'f55c53dfd45cfc6d'
+  server: 91.107.167.243
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇮 FI 256 | ⬇️ 9KB/s
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
+    short-id: 'beff3ff061a64cfd'
+  server: 92.246.138.78
+  servername: fi-one.quiet-rogue.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71cada65-d23e-418c-88e4-a06188d14689
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 258 | ⬇️ 5KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: XlPZy538jkCt-VNtnLXcwjtrTSaVrM2AzIWq_rh7pRU
+    short-id: '51d04ca6fb10'
+  server: 79.174.92.138
+  servername: max.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09c9b2e5-875a-460b-bf03-a237d3be0293
+- name: 🇰🇷 KR 260 | ⬇️ 8KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
+- encryption: none
+  name: 🇷🇺 RU 318 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -1452,23 +2203,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇫🇮 FI 332 | ⬇️ 307KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇹🇷 TR 326 | ⬇️ 192KB/s #1'
+  name: 🇹🇷 TR 326 | ⬇️ 192KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1482,7 +2217,7 @@ proxies:
   udp: true
   uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
 - client-fingerprint: firefox
-  name: '🇸🇪 SE 395 | ⬇️ 3MB/s #1'
+  name: 🇸🇪 SE 395 | ⬇️ 3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1495,14 +2230,8 @@ proxies:
   type: vless
   udp: true
   uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-- name: '🇳🇱 NL 335 | ⬇️ 15KB/s #1'
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  username: test123
 - encryption: none
-  name: '🇷🇺 RU 590 | ⬇️ 3KB/s #1'
+  name: 🇷🇺 RU 590 | ⬇️ 3KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -1520,7 +2249,7 @@ proxies:
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇩🇪 DE 340 | ⬇️ 25KB/s #1'
+  name: 🇩🇪 DE 340 | ⬇️ 25KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -1536,28 +2265,12 @@ proxies:
       Host: dg5gg2yg.mdacwound.workers.dev
     path: /tech
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 419 | ⬇️ 351KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
-- client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇵🇱 PL 372 | ⬇️ 25KB/s #1'
+  name: 🇵🇱 PL 372 | ⬇️ 25KB/s
   network: ws
   packet-encoding: xudp
   port: 81
@@ -1576,7 +2289,7 @@ proxies:
     path: /
 - client-fingerprint: firefox
   encryption: none
-  name: '🇮🇹 IT 403 | ⬇️ 63KB/s #1'
+  name: 🇮🇹 IT 403 | ⬇️ 63KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1589,93 +2302,9 @@ proxies:
   type: vless
   udp: true
   uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 412 | ⬇️ 8MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇮🇳 IN 454 | ⬇️ 2MB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: loAFNSTbdM9g-9dyps76y996jHPfBNJBq5F5Vd0Sekw
-    short-id: '4e9b5c2d1a3f5748'
-  server: 185.67.126.178
-  servername: ind.tunnelx.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 525 | ⬇️ 1MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.146.75
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- name: '🇳🇱 NL 688 | ⬇️ 3MB/s #1'
-  password: ''
-  port: 1080
-  server: 5.255.123.162
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 680 | ⬇️ 13MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.127
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- multiplexing: MULTIPLEXING_LOW
-  name: '🇺🇸 US 609 | ⬇️ 7MB/s #1'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸 US 626 | ⬇️ 1MB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: rg_sl-tQIau_CXdjpo-BvLmlZMmlbq2KMrH5K4kdyCY
-  server: 31.56.178.59
-  servername: us.boxypn.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
 - alpn:
   - http/1.1
-  name: '🇩🇪 DE 641 | ⬇️ 63KB/s #1'
+  name: 🇩🇪 DE 641 | ⬇️ 63KB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -1690,49 +2319,12 @@ proxies:
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 649 | ⬇️ 6MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.877771.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 679 | ⬇️ 9MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.26
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇬🇧 GB 673 | ⬇️ 1MB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 48364
-  reality-opts:
-    public-key: 0lvMgmUD3hF_mUKoVyUC4JJUKpdffxvkrzqeQOEK9EI
-    short-id: 'b34e21b58ecc6362'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: chrome
   ech-opts:
     _dns: udp://208.67.220.220:443
     enable: true
     query-server-name: godotengine.org
   encryption: none
-  name: '🇳🇱 NL 674 | ⬇️ 46KB/s #1'
+  name: 🇳🇱 NL 674 | ⬇️ 46KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1749,107 +2341,43 @@ proxies:
       Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
     max-early-data: 2560
     path: /version/games/channels
-- name: '🇯🇵 JP 682 | ⬇️ 205KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '🇩🇪 DE 683 | ⬇️ 5MB/s #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '🇩🇪 DE 684 | ⬇️ 748KB/s #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- name: '🇺🇸 US 689 | ⬇️ 68KB/s #1'
+- name: 🇺🇸 US 689 | ⬇️ 68KB/s
   password: ''
   port: 22222
   server: 193.25.215.182
   type: socks5
   username: ''
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|4.3MB/s
-  network: tcp
-  port: 62465
-  reality-opts:
-    public-key: 8PNGcHyjiOUwhr_f9jsIGlDQ4Z3jOL1Zk6lS3gjrgEs
-    short-id: 'c8ee2434'
-  server: 18.178.29.84
-  servername: 16personalities.wwwnav.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
-- name: 🇰🇷KR_1|1.4MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- auth: 2b0062f7b3a709c26248189c3f094725
+  name: 🇭🇰HK_1|1.0MB/s
+  password: 2b0062f7b3a709c26248189c3f094725
+  port: 40058
+  server: 82.152.161.144
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇳🇱NL_1|1.1MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: '443'
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_2|2.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: 138.124.68.188
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
+  sni: www.amd.com
   type: hysteria2
-  up: ''
+- name: 🇯🇵JP_1|5.0MB/s
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR_1|1.1MB/s
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.5MB/s
+  name: 🇰🇷KR_4|3.8MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -1859,17 +2387,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_3|4.5MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|4.8MB/s
+  name: 🇰🇷KR_5|5.0MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -1879,8 +2397,80 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
+  name: 🇳🇱NL_1|3.2MB/s
+  network: ws
+  port: 443
+  server: cf.off666.ccwu.cc
+  servername: cf.off666.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c1c48ca-0b15-4558-84d9-82a1da312a19
+  ws-opts:
+    headers:
+      Host: cf.off666.ccwu.cc
+    path: /
+- auth: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  name: 🇷🇺RU_1|2.8MB/s
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: usa1.spectrumproxy.shop
+  skip-cert-verify: true
+  sni: usa1.spectrumproxy.shop
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.9MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇲🇾MY_1|2.3MB/s
+  name: 🇸🇬SG_2|3.3MB/s
+  network: tcp
+  port: '31877'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: 'bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|4.8MB/s
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 162.159.44.100
+  skip-cert-verify: true
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇾MY_1|2.6MB/s
   network: tcp
   port: '29709'
   reality-opts:
@@ -1895,58 +2485,13 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.2MB/s
+  name: 🇯🇵JP_5|2.2MB/s
   network: tcp
   port: '39409'
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: 'bc8e3658db7d1323'
   server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇲🇾MY_2|1.4MB/s
-  network: tcp
-  port: '29707'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: v3.cdn.wp85x4frjf6x.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|3.0MB/s
-  network: tcp
-  port: '39313'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: v1.cdn.wj0zugpsmub2.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼TW_1|4.0MB/s
-  network: tcp
-  port: '39201'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: v4.cdn.u5mltvhwkm.jjxdns.net
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless

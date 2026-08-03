@@ -2,20 +2,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇷🇺 RU 029 | ⬇️ 18KB/s #1'
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 58956
-  reality-opts:
-    public-key: xy_HgiboJGTEVblRg5GoT-DrRSKgtXzgv0y6g15tkg0
-    short-id: '!!str !!str d1dc8de99565087c'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  type: trojan
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: '🇷🇺 RU 069 | ⬇️ 20KB/s #1'
+  name: 🇷🇺 RU 069 | ⬇️ 20KB/s
   network: grpc
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   port: 36509
@@ -25,9 +12,22 @@ proxies:
   server: 2----------------------------------------------------3.poki-pakipon.ir
   sni: www.icloud.com
   type: trojan
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇷🇺 RU 029 | ⬇️ 18KB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 58956
+  reality-opts:
+    public-key: xy_HgiboJGTEVblRg5GoT-DrRSKgtXzgv0y6g15tkg0
+    short-id: '!!str !!str d1dc8de99565087c'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 RU 309 | ⬇️ 44KB/s #1'
+  name: 🇷🇺 RU 309 | ⬇️ 44KB/s
   network: xhttp
   packet-encoding: xudp
   port: 8443
@@ -46,7 +46,22 @@ proxies:
     mode: auto
     path: /api/uploadFile/
 - encryption: none
-  name: '🇷🇺 RU 266 | ⬇️ 24KB/s #1'
+  name: 🇷🇺 RU 912 | ⬇️ 40KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 77.222.37.89
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 266 | ⬇️ 24KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -61,7 +76,7 @@ proxies:
       Host: rzd.ru
     path: /v1
 - encryption: none
-  name: '🇷🇺 RU 318 | ⬇️ 13KB/s #1'
+  name: 🇷🇺 RU 318 | ⬇️ 13KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -76,7 +91,7 @@ proxies:
       Host: rzd.ru
     path: /v1
 - encryption: none
-  name: '🇷🇺 RU 590 | ⬇️ 3KB/s #1'
+  name: 🇷🇺 RU 590 | ⬇️ 3KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -88,27 +103,11 @@ proxies:
   uuid: e7299042-7d8f-440f-8368-2516b0e69341
   ws-opts:
     path: /v1
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|2.5MB/s
-  obfs: ''
-  obfs-password: ''
+- auth: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  name: 🇷🇺RU_1|2.8MB/s
   password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
+  port: 443
   server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: usa1.spectrumproxy.shop
   type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_2|2.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: 138.124.68.188
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''

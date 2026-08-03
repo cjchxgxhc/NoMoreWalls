@@ -1,24 +1,43 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_2|3.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- cipher: auto
+  name: 🇸🇬 SG 013 | ⬇️ 27KB/s
+  network: none
+  port: 20544
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: d3e28cb3-7e9e-4fa6-bf7d-d6c0eb770058
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 SG 086 | ⬇️ 6KB/s
+  network: http
+  port: 8080
+  server: 43.160.231.254
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- cipher: auto
+  name: 🇸🇬 SG 084 | ⬇️ 7KB/s
+  network: none
+  port: 28975
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: a80c6768-faa5-452c-d688-3bb0456cb5c6
+- cipher: auto
+  name: 🇸🇬 SG 603 | ⬇️ 19KB/s
+  network: none
+  port: 27719
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 99d64924-88c0-441a-8915-280dc239a5b7
 - country: 🇭🇰HK
-  name: '🇸🇬 SG 008 | ⬇️ 11MB/s #1'
+  name: 🇸🇬 SG 008 | ⬇️ 11MB/s
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -27,32 +46,64 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '🇸🇬 SG 086 | ⬇️ 6KB/s #1'
-  network: http
-  port: 8080
-  server: 43.160.231.254
-  tls: false
-  type: vmess
-  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- client-fingerprint: chrome
+  name: 🇸🇬SG_5|4.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: auto
-  name: '🇸🇬 SG 129 | ⬇️ 6KB/s #1'
-  network: none
-  port: 24084
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
-- cipher: auto
-  name: '🇸🇬 SG 146 | ⬇️ 2KB/s #1'
+  name: 🇸🇬 SG 146 | ⬇️ 2KB/s
   network: none
   port: 43608
   server: 43.160.231.254
   tls: false
   type: vless
   uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5
+- cipher: auto
+  name: 🇸🇬 SG 129 | ⬇️ 6KB/s
+  network: none
+  port: 24084
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
+- name: 🇸🇬SG_4|4.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.9MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|3.3MB/s
+  network: tcp
+  port: '31877'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
