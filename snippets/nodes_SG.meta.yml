@@ -1,7 +1,16 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬 SG 503 | ⬇️ 2MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   down: 1000
-  name: 🇸🇬SG_1|5.3MB/s
+  name: 🇸🇬 SG 882 | ⬇️ 12MB/s
   password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   port: 18383
   server: sg1.ktmhyld.com
@@ -10,3 +19,25 @@ proxies:
   tfo: false
   type: hysteria2
   up: 1000
+- name: 🇸🇬SG_1|4.0MB/s
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|3.4MB/s
+  network: tcp
+  port: '31877'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v1.cdn.wj0zugpsmub2.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true

@@ -1,6 +1,15 @@
 proxies:
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: 🇭🇰 HK 011 | ⬇️ 43KB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - country: 🇧🇩BD
-  name: '🇰🇷 KR 538 | ⬇️ 17MB/s #1'
+  name: 🇰🇷 KR 538 | ⬇️ 17MB/s
   network: tcp
   password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
   port: 21101
@@ -9,3 +18,23 @@ proxies:
   sni: 261.yuanul.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 531 | ⬇️ 2MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  skip-cert-verify: true
+  sni: r.kr1.cat.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 421 | ⬇️ 4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  sni: hk.catxstar.com
+  tcp-opts:
+    path: /
+  type: trojan

@@ -1,10 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇹🇼 TW 511 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 46906
+  reality-opts:
+    public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
+  server: tw.lshan.eu.org
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e1bd804-7141-40a0-bc01-70f477c828e2
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇹🇼 TW 637 | ⬇️ 146KB/s #1'
+  name: 🇹🇼 TW 637 | ⬇️ 146KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -19,3 +33,10 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /sg-melbi
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|4.2MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: '40028'
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+  udp: true

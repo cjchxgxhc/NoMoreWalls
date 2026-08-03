@@ -1,16 +1,48 @@
 proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
+  name: 🇨🇭 CH 022 | ⬇️ 10MB/s
+  network: grpc
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 22880
+  reality-opts:
+    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
+    short-id: '!!str !!str 8025424fb0cae924'
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  sni: www.icloud.com
+  type: trojan
 - client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇨🇭 CH 032 | ⬇️ 8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 25108
+  reality-opts:
+    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
+    short-id: '!!str c8f2e9065d4a317b'
+  server: sw1.auragg.org
+  servername: cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+- client-fingerprint: qq
+  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: auragrpc
-  name: '🇨🇭 CH 029 | ⬇️ 20KB/s #1'
+  name: 🇨🇭 CH 029 | ⬇️ 20KB/s
   network: grpc
+  packet-encoding: xudp
   port: 25123
   reality-opts:
     public-key: R2CmFr4ZCkHZMvI8HBb8KhRgI2nVWcZhswOtcjHy1Ds
     short-id: '!!str e5140c8f7a2d693b'
   server: sw3.auragg.org
   servername: cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -18,7 +50,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: '🇨🇭 CH 078 | ⬇️ 15KB/s #1'
+  name: 🇨🇭 CH 078 | ⬇️ 15KB/s
   network: grpc
   packet-encoding: xudp
   port: 8082
@@ -33,7 +65,7 @@ proxies:
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇨🇭 CH 939 | ⬇️ 1MB/s #1'
+  name: 🇨🇭 CH 939 | ⬇️ 1MB/s
   network: tcp
   packet-encoding: ''
   port: 443

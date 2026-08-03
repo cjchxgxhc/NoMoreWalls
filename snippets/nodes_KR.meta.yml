@@ -1,17 +1,17 @@
 proxies:
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: 🇰🇷KR_1|5.6MB/s
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18385
-  server: kr1.ktmhyld.com
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  disable-sni: true
+  name: 🇰🇷KR_1|4.8MB/s
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: 222.238.227.54
   skip-cert-verify: true
-  sni: kr1.ktmhyld.com
+  sni: ''
   tfo: false
   type: hysteria2
-  up: 1000
 - auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  name: '🇰🇷 KR 027 | ⬇️ 9MB/s #1'
+  name: 🇰🇷 KR 027 | ⬇️ 9MB/s
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -21,7 +21,7 @@ proxies:
   type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 🇰🇷KR_2|1.7MB/s
+  name: 🇰🇷KR_4|2.0MB/s
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -32,8 +32,17 @@ proxies:
   tfo: false
   type: hysteria2
   up: ''
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: 🇭🇰 HK 011 | ⬇️ 43KB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - country: 🇧🇩BD
-  name: '🇰🇷 KR 538 | ⬇️ 17MB/s #1'
+  name: 🇰🇷 KR 538 | ⬇️ 17MB/s
   network: tcp
   password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
   port: 21101
@@ -42,23 +51,34 @@ proxies:
   sni: 261.yuanul.com
   type: trojan
   udp: true
-- name: '🇰🇷 KR 140 | ⬇️ 555KB/s #1'
-  password: '!!str 111'
-  port: 20000
-  server: 101.33.74.115
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇰🇷 KR 206 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8899
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    short-id: '!!str 11d27eb4'
+  server: 152.67.211.233
+  servername: www.lovelive-anime.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 531 | ⬇️ 2MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
   skip-cert-verify: true
-  type: socks5
+  sni: r.kr1.cat.bilibili.com
+  type: trojan
   udp: true
-  username: '111'
-- name: '🇰🇷 KR 154 | ⬇️ 10KB/s #1'
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
-  username: ''
 - delay: 1527
-  name: '🇰🇷 KR 987 | ⬇️ 22KB/s #1'
+  name: 🇰🇷 KR 987 | ⬇️ 22KB/s
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -67,3 +87,46 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 421 | ⬇️ 4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  sni: hk.catxstar.com
+  tcp-opts:
+    path: /
+  type: trojan
+- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  down: 1000
+  name: 🇰🇷 KR 008 | ⬇️ 13MB/s
+  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
+  port: 18385
+  server: kr1.ktmhyld.com
+  skip-cert-verify: true
+  sni: kr1.ktmhyld.com
+  tfo: false
+  type: hysteria2
+  up: 1000
+- name: 🇰🇷 KR 140 | ⬇️ 555KB/s
+  password: '!!str 111'
+  port: 20000
+  server: 101.33.74.115
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: '111'
+- name: 🇰🇷 KR 154 | ⬇️ 10KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 🇰🇷KR_2|4.3MB/s
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  type: hysteria2

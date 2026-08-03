@@ -1,12 +1,27 @@
 proxies:
-- client-fingerprint: chrome
+- encryption: none
+  name: 🇷🇺 RU 537 | ⬇️ 13KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 185.247.16.4
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: ios
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '🇷🇺 RU 465 | ⬇️ 1MB/s #1'
+  name: 🇷🇺RU_3|1.6MB/s
   network: grpc
   packet-encoding: xudp
-  port: 2053
+  port: '2053'
   reality-opts:
     public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
     short-id: '!!str f0131a4772b494d4'
@@ -17,3 +32,28 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_1|4.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: '443'
+  server: usa1.spectrumproxy.shop
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_2|4.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: '443'
+  server: 138.124.68.188
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  type: hysteria2
+  up: ''
