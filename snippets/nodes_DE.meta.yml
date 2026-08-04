@@ -1,111 +1,10 @@
 proxies:
-- name: 🇩🇪 DE 011 | ⬇️ 21KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  sni: next-turkey.rooster465.autos
-  type: trojan
-- country: 🇩🇪DE
-  name: 🇩🇪 DE 542 | ⬇️ 21KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  skip-cert-verify: true
-  sni: large-baboon.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 🇩🇪 DE 645 | ⬇️ 519KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 653 | ⬇️ 231KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 031 | ⬇️ 19KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 7443
-  reality-opts:
-    _spider-x: /
-    public-key: XRT88LR6k6kYrz4LqPdPKBl50nENOlzkEF_N_LhHylo
-    short-id: '!!str 59fd56aa3f89a352'
-  server: 31.76.111.97
-  servername: gitlab.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca0ccf9e-0975-4f72-b1bd-f829c556fdae
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 562 | ⬇️ 395KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇩🇪 DE 046 | ⬇️ 34KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: gentle-raptor.rooster465.autos
-  sni: gentle-raptor.rooster465.autos
-  type: trojan
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 DE 397 | ⬇️ 86KB/s
+  name: 🇩🇪DE_7|4.9MB/s
   network: raw
   packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: firefox
-  name: 🇩🇪 DE 592 | ⬇️ 170KB/s
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 DE 050 | ⬇️ 20KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 25520
+  port: '25520'
   reality-opts:
     public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
     short-id: '!!str a8de8bc1e9f5ef'
@@ -116,53 +15,109 @@ proxies:
   type: vless
   udp: true
   uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
+  xudp: true
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  - h2
+  client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 DE 207 | ⬇️ 179KB/s
-  network: ws
+  name: 🇩🇪DE_4|2.3MB/s
+  network: raw
+  packet-encoding: xudp
+  port: '443'
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: '🇩🇪 DE 397 | ⬇️ 1MB/s #1'
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  server: 172.66.47.45
-  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  server: 188.72.103.3
+  servername: cya.routex-cloud.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ezaccess-project-f62c30.pages.dev
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 115 | ⬇️ 329KB/s
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 273 | ⬇️ 12KB/s
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+  xhttp-opts:
+    host: cya.routex-cloud.space
+    mode: packet-up
+    path: /media/worker.ts
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: '0'
+      max-connections: '0'
+    session-length: 16-32
+    session-table: Base62
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Cache
+    x-padding-key: _dc
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- client-fingerprint: firefox
+  name: '🇩🇪 DE 679 | ⬇️ 20KB/s #1'
   network: tcp
   packet-encoding: xudp
-  port: 2081
-  reality-opts:
-    _spider-x: /
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: t.vevluma.ir
-  servername: login.yahoo.com
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: aa9dfeec-9933-4b41-9154-daae02003c3d
-- name: 🇩🇪 DE 470 | ⬇️ 213KB/s
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: chrome
+  name: '🇩🇪 DE 759 | ⬇️ 235KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: '🇩🇪 DE 784 | ⬇️ 362KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: '🇩🇪 DE 201 | ⬇️ 754KB/s #1'
+  port: 1081
+  server: 46.37.123.166
+  type: socks5
+- alterId: 0
+  client-fingerprint: chrome
+  name: '🇩🇪 DE 785 | ⬇️ 341KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: '🇩🇪 DE 751 | ⬇️ 213KB/s #1'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -170,14 +125,8 @@ proxies:
   sni: germany3.h2corp.local
   tfo: false
   type: hysteria2
-- name: 🇩🇪 DE 063 | ⬇️ 599KB/s
-  password: ''
-  port: 1080
-  server: 159.195.49.27
-  type: socks5
-  username: ''
 - country: 🇷🇺RU
-  name: 🇩🇪 DE 399 | ⬇️ 338KB/s
+  name: '🇩🇪 DE 685 | ⬇️ 489KB/s #1'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -186,9 +135,64 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪 DE 438 | ⬇️ 11KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 4040
+  reality-opts:
+    _spider-x: /
+    public-key: H9OGLRos1CxS7C197U2G6vmAINTN6GMasevL3gX9uEI
+    short-id: '!!str c57bcc26'
+  server: vl1.salar4040.ir
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29
 - alpn:
   - http/1.1
-  name: 🇩🇪 DE 538 | ⬇️ 63KB/s
+  client-fingerprint: chrome
+  name: '🇩🇪 DE 716 | ⬇️ 15KB/s #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '🇩🇪 DE 728 | ⬇️ 599KB/s #1'
+  password: ''
+  port: 1080
+  server: 159.195.49.27
+  type: socks5
+  username: ''
+- alpn:
+  - http/1.1
+  name: '🇩🇪 DE 721 | ⬇️ 1MB/s #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 DE 736 | ⬇️ 63KB/s #1'
   network: ws
   password: MITIVPN
   port: 443
@@ -203,7 +207,7 @@ proxies:
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - country: 🇸🇬SG
-  name: 🇬🇧 GB 054 | ⬇️ 330KB/s
+  name: '🇩🇪 DE 741 | ⬇️ 295KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -215,7 +219,16 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 658 | ⬇️ 748KB/s
+  name: '🇩🇪 DE 747 | ⬇️ 361KB/s #1'
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: '🇩🇪 DE 763 | ⬇️ 328KB/s #1'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -224,208 +237,78 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- name: 🇩🇪 DE 729 | ⬇️ 22KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  sni: rapid-firefly.rooster465.autos
-  type: trojan
-- name: 🇩🇪 DE 180 | ⬇️ 1MB/s
-  port: 1081
-  server: 46.37.123.166
-  type: socks5
 - client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪DE_3|1.7MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w
+    short-id: '!!str 1ea59febb8d4fc8e'
+  server: 88.216.220.87
+  servername: api.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_5|3.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1691261e-1f25-4f75-b84d-5fc982bf08f2
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_6|2.7MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57bf75ba-5c9d-487b-8a57-1451ad729b4d
+  xudp: true
+- client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇩🇪 DE 770 | ⬇️ 770KB/s
+  name: 🇩🇪DE_8|1.8MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  skip-cert-verify: false
+    public-key: ycW5LB_qsf61SQrWr6eIbPfNCzb5_J3rD9QFlN8TIEc
+    short-id: '!!str 9a44c802e4756255'
+  server: 79.137.203.64
+  servername: www.ibm.com
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: d1e816db-0dc6-4b44-8037-c59700028214
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 772 | ⬇️ 361KB/s
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 039 | ⬇️ 35KB/s
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- name: 🇩🇪 DE 040 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.67.67.45
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇩🇪 DE 065 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.27.107.188
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇩🇪 DE 079 | ⬇️ 1MB/s
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: ded.kosmosapp.ru
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf0310b0-2cd6-4ae1-b4c4-e029e7fb0ee3
-- name: 🇩🇪 DE 081 | ⬇️ 515KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.67.82.185
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 159 | ⬇️ 75KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 159.89.29.231
-  servername: dg5gg2yg.mdacwound.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05847861-e860-4313-86d2-bf37835fb5de
-  ws-opts:
-    headers:
-      Host: dg5gg2yg.mdacwound.workers.dev
-    path: /tech
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: udp://208.67.220.220:443
-    enable: true
-    query-server-name: godotengine.org
-  encryption: none
-  name: 🇩🇪 DE 535 | ⬇️ 14KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 178.128.192.26
-  servername: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea89bb52-cd5e-4b4a-981a-5dbe66c9adcd
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nrfiqiut.vmimv9k58ynejo2errhz.workers.dev
-    max-early-data: 2560
-    path: /intro/search
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 556 | ⬇️ 15KB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 628 | ⬇️ 297KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1009KB/s
+  name: 🇩🇪DE_9|3.1MB/s
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
-  server: 130.61.86.101
+  server: 130.61.178.208
   type: ss
   udp: true

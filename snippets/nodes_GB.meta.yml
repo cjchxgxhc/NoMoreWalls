@@ -1,69 +1,84 @@
 proxies:
-- name: 🇬🇧 GB 055 | ⬇️ 16KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 57.128.177.172
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- client-fingerprint: firefox
+- client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 GB 088 | ⬇️ 707KB/s
-  network: tcp
+  name: 🇪🇪EE_2|1.3MB/s
+  network: raw
   packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.117
-  servername: vl07.skorostnet.space
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 95.85.224.51
+  servername: max.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- http-opts:
-    headers:
-      Host:
-      - farhang.athforce.ir
-    method: GET
-    path:
-    - /
-  name: 🇬🇧 GB 112 | ⬇️ 1MB/s
-  network: http
-  port: 38778
-  server: farhang.athforce.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7a74bb65-e652-4c0e-a1a7-d0bc0d963352
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇬🇧 GB 122 | ⬇️ 1MB/s
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: deb.kosmosapp.ru
-  servername: music.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65829ae0-497a-4482-bc59-15738d6baa73
-- name: 🇬🇧 GB 260 | ⬇️ 108KB/s
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+  xudp: true
+- name: '🇬🇧 GB 603 | ⬇️ 60KB/s #1'
   port: 1080
   server: 83.147.216.208
   type: socks5
+- client-fingerprint: chrome
+  name: 🇬🇧GB_1|3.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: 🇬🇧GB_2|2.3MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.2MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇬🇧GB_4|1.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-fi.emrata.top
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_6|3.3MB/s
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.76.103
+  type: ss
+  udp: true

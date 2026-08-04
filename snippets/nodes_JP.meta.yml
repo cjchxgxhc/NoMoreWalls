@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 JP 001 | ⬇️ 22MB/s
+  name: '🇯🇵 JP 001 | ⬇️ 23MB/s #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -11,188 +11,40 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇯🇵 JP 182 | ⬇️ 329KB/s
+  name: '🇯🇵 JP 139 | ⬇️ 609KB/s #1'
   network: tcp
   packet-encoding: xudp
-  port: 32327
+  port: 10015
   reality-opts:
-    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
-    short-id: '!!str cf61f7f0'
-  server: www.hjzhiliancafe.world
-  servername: www.bing.com
+    public-key: ikCB12OSZuP08JB3pfGfS1QE02Xw7Ddm9k1RDS3ZWmE
+    short-id: '!!str e38d'
+  server: family.bucket.7.kfc-520.com
+  servername: www.sony.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- name: 🇯🇵 JP 407 | ⬇️ 1MB/s
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- name: '🇯🇵 JP 346 | ⬇️ 14KB/s #1'
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: '🇯🇵 JP 756 | ⬇️ 205KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|1.9MB/s
   network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
+  port: '20129'
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 JP 037 | ⬇️ 69KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 32366
-  reality-opts:
-    public-key: Tla7Wtei7OJGE4odCL1BFf2y0hL_5S_C2tHWhlJkJjU
-    short-id: '!!str 97bc2eae'
-  server: jpvl.xinchenone.world
-  servername: www.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 JP 086 | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 32326
-  reality-opts:
-    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
-    short-id: '!!str bc41498a'
-  server: jpvl.xinchenone.world
-  servername: www.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇯🇵 JP 604 | ⬇️ 1MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.6.189
-  skip-cert-verify: true
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Jpn1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇯🇵 JP 114 | ⬇️ 346KB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.6.189
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇯🇵 JP 191 | ⬇️ 27KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 761 | ⬇️ 444KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-- name: 🇯🇵 JP 002 | ⬇️ 19MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.229.68
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇯🇵 JP 004 | ⬇️ 17MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: cf.130519.xyz
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇯🇵 JP 012 | ⬇️ 17MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: cf.090227.xyz
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇯🇵 JP 023 | ⬇️ 21MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: cf.877774.xyz
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 🇯🇵 JP 107 | ⬇️ 539KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: 🇯🇵 JP 175 | ⬇️ 227KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 64.176.36.17
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
