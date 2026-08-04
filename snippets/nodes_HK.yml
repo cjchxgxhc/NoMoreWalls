@@ -1,5 +1,17 @@
 proxies:
-- name: '🇭🇰 HK 062 | ⬇️ 305KB/s #1'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇭🇰 HK 129 | ⬇️ 227KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇭🇰 HK 062 | ⬇️ 305KB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -9,22 +21,30 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '🇭🇰 HK 073 | ⬇️ 13KB/s #1'
-  network: tcp
-  password: ND91608427
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 072 | ⬇️ 15KB/s
+  network: ws
   port: 443
-  server: ace-starling.rooster465.autos
-  sni: ace-starling.rooster465.autos
-  type: trojan
+  server: 47.92.245.88
+  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
 - alpn:
   - ''
   alterId: 2
   cipher: auto
   client-fingerprint: ''
   country: 🇸🇬SG
+  delay: 821
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 636 | ⬇️ 4KB/s #1'
+  name: 🇭🇰 HK 636 | ⬇️ 4KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -33,9 +53,52 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 HK 073 | ⬇️ 13KB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  sni: ace-starling.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 608 | ⬇️ 3MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 769 | ⬇️ 4MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 547 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.66.173.172
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 HK 282 | ⬇️ 9KB/s #1'
+  name: 🇭🇰 HK 282 | ⬇️ 9KB/s
   network: ws
   port: 443
   server: 47.92.245.88
@@ -48,31 +111,7 @@ proxies:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 547 | ⬇️ 1MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 608 | ⬇️ 3MB/s #1'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: '🇭🇰 HK 627 | ⬇️ 9MB/s #1'
+  name: 🇭🇰 HK 627 | ⬇️ 9MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -84,7 +123,7 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 648 | ⬇️ 8MB/s #1'
+  name: 🇭🇰 HK 648 | ⬇️ 8MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -96,7 +135,7 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 660 | ⬇️ 727KB/s #1'
+  name: 🇭🇰 HK 660 | ⬇️ 727KB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -107,3 +146,28 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
+- name: 🇭🇰HK_1|3.1MB/s
+  network: ws
+  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
+    path: /images
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_2|5.8MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
