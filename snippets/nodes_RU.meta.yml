@@ -1,14 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 182 | ⬇️ 13KB/s
-  password: bdb313adf74c2ede
-  port: 20188
-  server: 195.133.5.207
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 RU 079 | ⬇️ 228KB/s
+  password: qO92B1kbwxoKUDHH3l__7g
+  port: 1080
+  server: 109.71.247.246
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 190 | ⬇️ 18KB/s
+  name: 🇷🇺 RU 272 | ⬇️ 1MB/s
   password: 81a20429165df87e
   port: 10991
   server: 195.133.23.200
@@ -16,38 +16,55 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 036 | ⬇️ 12KB/s
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 RU 044 | ⬇️ 77KB/s
-  password: 96bR4zGyq6mhDW5KAc91Rw
-  port: 1080
-  server: 109.71.247.246
+  name: 🇷🇺 RU 331 | ⬇️ 1MB/s
+  password: bdb313adf74c2ede
+  port: 20188
+  server: 195.133.5.207
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  name: 🇷🇺RU_1|3.3MB/s
-  network: xhttp
-  port: 443
-  server: ru.node.sillyvpn.cc
-  servername: ru.node.sillyvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  xhttp-opts:
-    host: ru.node.sillyvpn.cc
-    mode: packet-up
-    path: /api/burmalda.json
-- name: 🇷🇺 RU 554 | ⬇️ 11KB/s
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 135 | ⬇️ 6MB/s
+  password: 895b4b796a357570
+  port: 10916
+  server: 176.32.35.51
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇷🇺 RU 975 | ⬇️ 11KB/s
   port: 1080
   server: 193.233.218.213
   type: socks5
+- encryption: none
+  name: 🇷🇺 RU 1166 | ⬇️ 22KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 194.26.229.214
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a9f07ec1-bd8a-4c95-a281-3de7f0b76853
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 1208 | ⬇️ 40KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 77.222.37.89
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
 - encryption: none
   name: 🇷🇺 RU 266 | ⬇️ 24KB/s
   network: ws
@@ -137,19 +154,20 @@ proxies:
   uuid: e7299042-7d8f-440f-8368-2516b0e69341
   ws-opts:
     path: /v1
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_3|1.4MB/s
+    grpc-service-name: neurex
+  name: 🇷🇺RU_1|2.0MB/s
   network: grpc
-  port: '7443'
+  port: '16923'
   reality-opts:
-    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
-    short-id: '!!str 89136b6e'
-  server: 193.233.74.57
-  servername: www.telekom.de
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: rue.kosmosapp.ru
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 28863986-75fb-4b2f-b006-65e62194358d
   xudp: true

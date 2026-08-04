@@ -1,50 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 644 | ⬇️ 368KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 648 | ⬇️ 87KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 646 | ⬇️ 268KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇩🇪 DE 432 | ⬇️ 1MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -62,21 +16,37 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
+- alterId: 0
   client-fingerprint: chrome
-  name: 🇩🇪 DE 189 | ⬇️ 15KB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
+  name: 🇩🇪 DE 646 | ⬇️ 268KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ssl.fastly.com
+  sni: de.catxstar.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 648 | ⬇️ 87KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 644 | ⬇️ 368KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
 - country: 🇸🇬SG
   name: 🇬🇧 GB 045 | ⬇️ 384KB/s
   network: tcp
@@ -87,8 +57,32 @@ proxies:
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
+- alpn:
+  - http/1.1
+  name: 🇩🇪 DE 433 | ⬇️ 1MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 914 | ⬇️ 75KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: 🇩🇪 DE 684 | ⬇️ 748KB/s
   network: grpc
@@ -99,17 +93,6 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 1293 | ⬇️ 75KB/s
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
 - name: 🇩🇪 DE 023 | ⬇️ 2MB/s
   network: tcp
   password: M7v%w11Se*
@@ -130,3 +113,31 @@ proxies:
   server: 2----------------------------------------------------3.poki-pakipon.ir
   sni: www.icloud.com
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 189 | ⬇️ 15KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇩🇪DE_1|2.3MB/s
+  network: ws
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  port: 443
+  server: 172.67.78.22
+  skip-cert-verify: true
+  sni: kamonka.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kamonka.eu.org
+    path: /

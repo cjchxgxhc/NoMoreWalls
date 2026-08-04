@@ -1,14 +1,64 @@
 proxies:
+- encryption: none
+  name: 🇫🇷 FR 011 | ⬇️ 7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 51.45.45.205
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- encryption: none
+  name: 🇫🇷 FR 013 | ⬇️ 9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22224
+  server: 51.45.45.205
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- encryption: none
+  name: 🇫🇷 FR 014 | ⬇️ 10MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22223
+  server: 51.45.45.205
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alterId: 2
   cipher: auto
   client-fingerprint: ''
-  name: 🇫🇷 FR 1307 | ⬇️ 30KB/s
+  name: 🇫🇷 FR 412 | ⬇️ 30KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 882 | ⬇️ 7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 193.177.0.251
+  servername: fr.bvps.cloud
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -26,11 +76,3 @@ proxies:
   type: vless
   udp: true
   uuid: 09c9b2e5-875a-460b-bf03-a237d3be0293
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.5MB/s
-  password: QV31589740
-  port: '443'
-  server: great-krill.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true

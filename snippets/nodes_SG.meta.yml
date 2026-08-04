@@ -1,81 +1,6 @@
 proxies:
-- cipher: auto
-  name: 🇸🇬 SG 019 | ⬇️ 31KB/s
-  network: none
-  port: 27719
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 99d64924-88c0-441a-8915-280dc239a5b7
-- cipher: auto
-  name: 🇸🇬 SG 026 | ⬇️ 43KB/s
-  network: none
-  port: 28975
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: a80c6768-faa5-452c-d688-3bb0456cb5c6
-- cipher: aes-256-gcm
-  name: 🇸🇬 SG 464 | ⬇️ 14KB/s
-  password: MajO3weHH7Jv
-  port: 8388
-  server: 192.124.176.118
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: auto
-  name: 🇸🇬 SG 129 | ⬇️ 6KB/s
-  network: none
-  port: 24084
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
-- cipher: auto
-  name: 🇸🇬 SG 146 | ⬇️ 2KB/s
-  network: none
-  port: 43608
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5
-- name: 🇸🇬 SG 416 | ⬇️ 30KB/s
-  port: 10800
-  server: 103.195.191.39
-  type: socks5
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 SG 086 | ⬇️ 6KB/s
-  network: http
-  port: 8080
-  server: 43.160.231.254
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
-- cipher: auto
-  name: 🇸🇬 SG 912 | ⬇️ 24KB/s
-  network: none
-  port: 20544
-  server: 43.160.231.254
-  tls: false
-  type: vless
-  uuid: d3e28cb3-7e9e-4fa6-bf7d-d6c0eb770058
 - client-fingerprint: chrome
-  name: 🇸🇬 SG 1237 | ⬇️ 17MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: tidy-gelding.rooster465.autos
-  skip-cert-verify: true
-  sni: tidy-gelding.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.7MB/s
+  name: 🇸🇬 SG 1112 | ⬇️ 4MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -83,6 +8,14 @@ proxies:
   skip-cert-verify: true
   sni: sacred-treefrog.rooster465.autos
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇸🇬 SG 837 | ⬇️ 14KB/s
+  password: MajO3weHH7Jv
+  port: 8388
+  server: 192.124.176.118
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: 🇸🇬 SG 009 | ⬇️ 13MB/s
   network: tcp
   password: BxceQaOe
@@ -109,3 +42,64 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇸🇬 SG 086 | ⬇️ 6KB/s
+  network: http
+  port: 8080
+  server: 43.160.231.254
+  tls: false
+  type: vmess
+  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+- cipher: auto
+  name: 🇸🇬 SG 129 | ⬇️ 6KB/s
+  network: none
+  port: 24084
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
+- cipher: auto
+  name: 🇸🇬 SG 146 | ⬇️ 2KB/s
+  network: none
+  port: 43608
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 5b09e108-47f7-4333-f1f1-52e316e34aa5
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|3.3MB/s
+  network: ws
+  port: '443'
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- name: 🇸🇬SG_2|3.5MB/s
+  network: ws
+  port: '8880'
+  server: www.glassdoor.com
+  type: vless
+  udp: true
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
