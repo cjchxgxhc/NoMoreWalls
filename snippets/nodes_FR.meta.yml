@@ -1,26 +1,11 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 597 | ⬇️ 22KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 8.6.112.0
-  servername: kanan.aahhajwwiwjwowuwjwwjjwje.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 497 | ⬇️ 64KB/s
+  password: ZmM0Z
+  port: 8388
+  server: 83.171.225.55
+  type: ss
   udp: true
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  xhttp-opts:
-    host: kanan.aahhajwwiwjwowuwjwwjjwje.online
-    mode: packet-up
-    path: /
-- name: 🇫🇷 FR 255 | ⬇️ 20KB/s
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
 - name: 🇫🇷 FR 317 | ⬇️ 6KB/s
   password: ''
   port: 1080
@@ -41,19 +26,3 @@ proxies:
     headers:
       Host: v2-fr-1.v2s.top
     path: /anything/freevpn.us-Jajaj919/vless
-- name: 🇫🇷FR_1|1.2MB/s
-  password: f7d95364-607b-11ee-93af-f23c91369f2d
-  port: '443'
-  server: 257fc07f-tcxds0-tv7zgh-1ijh5.fr.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: f7d95364-607b-11ee-93af-f23c91369f2d
-- name: 🇫🇷FR_2|1.1MB/s
-  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  port: 443
-  server: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
-  sni: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
-  tls: true
-  type: http
-  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d

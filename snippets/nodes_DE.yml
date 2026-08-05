@@ -1,5 +1,15 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   country: 🇸🇬SG
   name: 🇩🇪 DE 784 | ⬇️ 362KB/s
   network: tcp
@@ -10,31 +20,6 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 188 | ⬇️ 18KB/s
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
 - alterId: 0
   client-fingerprint: chrome
   name: 🇩🇪 DE 785 | ⬇️ 341KB/s
@@ -56,58 +41,17 @@ proxies:
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: 🇩🇪 DE 191 | ⬇️ 736KB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hikvision-plus.com
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 1138 | ⬇️ 3MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 1127 | ⬇️ 1MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hikvision-plus.com
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: 🇩🇪 DE 1181 | ⬇️ 4MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /dksk
 - client-fingerprint: chrome
   grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: 🇩🇪 DE 763 | ⬇️ 328KB/s
   network: grpc
@@ -166,28 +110,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_1|1.4MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: nexigen.pro
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
