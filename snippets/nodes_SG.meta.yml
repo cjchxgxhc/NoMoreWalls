@@ -1,4 +1,85 @@
 proxies:
+- name: 🇸🇬 SG 792 | ⬇️ 388KB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 SG 028 | ⬇️ 127KB/s
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: hht.hhlldjc.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
+  ws-opts:
+    headers:
+      Host: hht.hhlldjc.kdns.fr
+    path: /
+- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  name: 🇸🇬 SG 179 | ⬇️ 5MB/s
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  type: hysteria2
+  udp: true
+- name: 🇸🇬 SG 647 | ⬇️ 8KB/s
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  name: 🇸🇬 SG 246 | ⬇️ 734KB/s
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: xjp2.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp2.mangshe.xyz
+  type: hysteria2
+- name: 🇸🇬 SG 372 | ⬇️ 6KB/s
+  port: 10808
+  server: 45.43.63.37
+  type: socks5
+- client-fingerprint: safari
+  name: 🇸🇬 SG 546 | ⬇️ 11MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /images
+- ech-opts:
+    _dns: udp://8.8.8.8
+    enable: true
+    query-server-name: ip.gs
+  encryption: none
+  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.66.44.97
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 SG 013 | ⬇️ 27KB/s
@@ -70,32 +151,6 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.44.97
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇸🇬 SG 647 | ⬇️ 8KB/s
-  password: admin
-  port: 1080
-  server: 143.198.85.89
-  type: socks5
-  username: admin
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -134,42 +189,3 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|3.7MB/s
-  network: ws
-  port: '443'
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_3|1.9MB/s
-  network: ws
-  port: '2096'
-  server: 104.17.70.206
-  servername: freenet.sahanwickramasinghevip.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
-  ws-opts:
-    headers:
-      Host: freenet.sahanwickramasinghevip.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /
-  xudp: true

@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 064 | ⬇️ 12KB/s
+  password: 895b4b796a357570
+  port: 7011
+  server: 176.32.35.51
+  type: ss
+  udp: true
 - name: 🇷🇺 RU 442 | ⬇️ 18KB/s
   password: ''
   port: 1080
@@ -6,27 +13,6 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 097 | ⬇️ 27KB/s
-  password: bdb313adf74c2ede
-  port: 20916
-  server: 195.133.5.207
-  type: ss
-- encryption: none
-  name: 🇷🇺 RU 518 | ⬇️ 13KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 185.247.16.4
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
 - client-fingerprint: chrome
   name: 🇷🇺 RU 769 | ⬇️ 307KB/s
   network: xhttp

@@ -1,15 +1,55 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 497 | ⬇️ 64KB/s
-  password: ZmM0Z
-  port: 8388
-  server: 83.171.225.55
-  type: ss
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 FR 354 | ⬇️ 16KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- name: 🇫🇷 FR 317 | ⬇️ 6KB/s
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
+  name: 🇫🇷 FR 161 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: forallpanel.srtongston.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: f8050d06-6657-44bc-9910-84a865a677c9
+  ws-opts:
+    headers:
+      Host: xx.francee1.postshup.ir
+    path: /?ed
+    v2ray-http-upgrade: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇫🇷 FR 500 | ⬇️ 49KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  tls: true
+  type: vless
+  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- name: 🇫🇷 FR 815 | ⬇️ 9KB/s
   password: ''
-  port: 1080
-  server: 213.199.47.140
+  port: 1088
+  server: 51.178.49.241
   type: socks5
   username: ''
 - name: 🇫🇷 FR 776 | ⬇️ 17KB/s
@@ -26,3 +66,34 @@ proxies:
     headers:
       Host: v2-fr-1.v2s.top
     path: /anything/freevpn.us-Jajaj919/vless
+- name: 🇫🇷FR_1|3.1MB/s
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_2|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 15.237.219.57
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇨🇳
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_3|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 15.237.219.57
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''

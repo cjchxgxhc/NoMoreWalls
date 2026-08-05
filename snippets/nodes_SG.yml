@@ -1,4 +1,24 @@
 proxies:
+- name: 🇸🇬 SG 792 | ⬇️ 388KB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: safari
+  name: 🇸🇬 SG 546 | ⬇️ 11MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /images
 - alpn:
   - http/1.1
   name: 🇸🇬 SG 537 | ⬇️ 3MB/s

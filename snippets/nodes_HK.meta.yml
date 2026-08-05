@@ -1,20 +1,73 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 007 | ⬇️ 2MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cdn.tzpro.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰 HK 829 | ⬇️ 11MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰 HK 547 | ⬇️ 4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+  xudp: true
+- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
 - name: 🇭🇰 HK 006 | ⬇️ 13KB/s
   port: 1080
   server: 124.156.185.140
   type: socks5
+- name: 🇭🇰 HK 088 | ⬇️ 5KB/s
+  network: ws
+  port: 43646
+  server: 39.109.117.110
+  type: vless
+  uuid: d92afe21-8e8b-42c7-98c2-8a33da64d28f
+  ws-opts:
+    path: /d92afe21
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 119 | ⬇️ 33KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
+    short-id: '!!str ec2c7091fe76336c'
+  server: 35.241.98.220
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
 - alpn:
   - ''
   alterId: 2
@@ -33,60 +86,40 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 235 | ⬇️ 13MB/s
+  name: 🇭🇰 HK 535 | ⬇️ 28KB/s
+  network: tcp
+  port: 41528
+  reality-opts:
+    public-key: vSXM6NtiXtPcwqZpXCTpKLBOPewzcEfr9-p18aiywio
+    short-id: '!!str b4'
+  server: 47.86.249.58
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 97672a88-ec39-4234-a102-1df6f9236f36
+- name: 🇭🇰 HK 776 | ⬇️ 298KB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.64.146.75
+  server: xn--b6gac.eu.org
+  skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+    headers:
+      Host: yks-dd9.pages.dev
     path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 371 | ⬇️ 5MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.35.127
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 433 | ⬇️ 8MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 436 | ⬇️ 342KB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.1.251
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 HK 837 | ⬇️ 3KB/s
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 HK 017 | ⬇️ 7KB/s
   password: '!!str 111'
   port: 11211
@@ -94,54 +127,6 @@ proxies:
   tls: false
   type: socks5
   username: '111'
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 507 | ⬇️ 6MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.877771.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 719 | ⬇️ 3MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 589 | ⬇️ 817KB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cfip.1323123.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
 - name: 🇭🇰 HK 018 | ⬇️ 307KB/s
   port: 1080
   server: 43.161.253.113
@@ -217,6 +202,30 @@ proxies:
   type: socks5
   udp: true
   username: '2222'
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.66.173.172
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 719 | ⬇️ 3MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
 - client-fingerprint: chrome
   name: 🇭🇰 HK 775 | ⬇️ 727KB/s
   network: ws

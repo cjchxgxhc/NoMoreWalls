@@ -1,4 +1,8 @@
 proxies:
+- name: 🇬🇧 GB 603 | ⬇️ 60KB/s
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇪🇪 EE 725 | ⬇️ 1MB/s
@@ -15,7 +19,33 @@ proxies:
   type: vless
   udp: true
   uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-- name: 🇬🇧 GB 603 | ⬇️ 60KB/s
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
+- name: 🇬🇧GB_1|1.5MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-fi.emrata.top
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
+  xudp: true
+- encryption: none
+  name: 🇬🇧GB_3|1.0MB/s
+  network: tcp
+  port: '554'
+  server: 77.67.91.133
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+  xudp: true
