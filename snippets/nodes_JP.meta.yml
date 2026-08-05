@@ -1,6 +1,59 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵 JP 366 | ⬇️ 39KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 27407
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: '!!str e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+- name: 🇯🇵 JP 346 | ⬇️ 14KB/s
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 JP 187 | ⬇️ 929KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10013
+  reality-opts:
+    public-key: hqr_brbMw2eUng9LZE5_Ik8g0Y-hl8Ok5ka_EPSXskY
+    short-id: '!!str 02dd11'
+  server: family.bucket.7.kfc-520.com
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- client-fingerprint: android
+  name: 🇯🇵 JP 764 | ⬇️ 410KB/s
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  sni: hk.catxstar.com
+  tcp-opts:
+    path: /
+  type: trojan
+- name: 🇯🇵 JP 756 | ⬇️ 205KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '🇯🇵 JP 001 | ⬇️ 23MB/s #1'
+  name: 🇯🇵 JP 001 | ⬇️ 23MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -13,7 +66,7 @@ proxies:
   udp: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇯🇵 JP 139 | ⬇️ 609KB/s #1'
+  name: 🇯🇵 JP 139 | ⬇️ 609KB/s
   network: tcp
   packet-encoding: xudp
   port: 10015
@@ -27,24 +80,3 @@ proxies:
   type: vless
   udp: true
   uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- name: '🇯🇵 JP 346 | ⬇️ 14KB/s #1'
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- name: '🇯🇵 JP 756 | ⬇️ 205KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|1.9MB/s
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: '20129'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true

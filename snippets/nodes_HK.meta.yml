@@ -1,26 +1,93 @@
 proxies:
-- name: '🇭🇰 HK 006 | ⬇️ 13KB/s #1'
-  port: 1080
-  server: 124.156.185.140
-  type: socks5
-- name: '🇭🇰 HK 017 | ⬇️ 7KB/s #1'
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- name: '🇭🇰 HK 018 | ⬇️ 307KB/s #1'
-  port: 1080
-  server: 43.161.253.113
-  type: socks5
-- name: '🇭🇰 HK 536 | ⬇️ 232KB/s #1'
+- name: 🇭🇰 HK 536 | ⬇️ 232KB/s
   password: ''
   port: 10800
   server: 47.75.116.41
   tls: false
   type: socks5
+  udp: true
   username: ''
+- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  tls: false
+  type: socks5
+  username: '123'
+- name: 🇭🇰 HK 561 | ⬇️ 2KB/s
+  password: '!!str 2222'
+  port: 2222
+  server: 43.100.106.218
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: '2222'
+- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
+  port: 1080
+  server: 124.156.185.140
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 HK 040 | ⬇️ 150KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 103.180.20.228
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 HK 048 | ⬇️ 252KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 103.148.73.176
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: '111'
+- cipher: aes-256-gcm
+  name: 🇭🇰 HK 273 | ⬇️ 5MB/s
+  password: 72553320ae6bcc8f
+  port: 10910
+  server: 212.192.15.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇭🇰 HK 142 | ⬇️ 5MB/s
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇭🇰 HK 018 | ⬇️ 307KB/s
+  port: 1080
+  server: 43.161.253.113
+  type: socks5
 - alpn:
   - ''
   alterId: 2
@@ -30,7 +97,7 @@ proxies:
   delay: 821
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 673 | ⬇️ 1KB/s #1'
+  name: 🇭🇰 HK 673 | ⬇️ 1KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -39,9 +106,17 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇭🇰 HK 953 | ⬇️ 1MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '🇭🇰 HK 237 | ⬇️ 707KB/s #1'
+  name: 🇭🇰 HK 237 | ⬇️ 707KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -55,7 +130,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-- name: '🇭🇰 HK 175 | ⬇️ 10KB/s #1'
+- name: 🇭🇰 HK 175 | ⬇️ 10KB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -63,7 +138,7 @@ proxies:
   skip-cert-verify: true
   sni: upright-hamster.rooster465.autos
   type: trojan
-- name: '🇭🇰 HK 203 | ⬇️ 18MB/s #1'
+- name: 🇭🇰 HK 203 | ⬇️ 18MB/s
   network: ws
   password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
   port: 443
@@ -78,7 +153,7 @@ proxies:
     path: /images
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 HK 279 | ⬇️ 3KB/s #1'
+  name: 🇭🇰 HK 279 | ⬇️ 3KB/s
   network: ws
   port: 443
   server: 47.92.245.88
@@ -90,21 +165,13 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- name: '🇭🇰 HK 354 | ⬇️ 313KB/s #1'
+- name: 🇭🇰 HK 354 | ⬇️ 313KB/s
   port: 20000
   server: 59.38.113.185
   type: socks5
   username: Og==
-- name: '🇭🇰 HK 561 | ⬇️ 2KB/s #1'
-  password: '!!str 2222'
-  port: 2222
-  server: 43.100.106.218
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '2222'
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 778 | ⬇️ 1MB/s #1'
+  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -115,14 +182,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- name: 🇭🇰HK_1|3.1MB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 719 | ⬇️ 3MB/s #1'
+  name: 🇭🇰 HK 719 | ⬇️ 3MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -134,7 +195,7 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 775 | ⬇️ 727KB/s #1'
+  name: 🇭🇰 HK 775 | ⬇️ 727KB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -147,7 +208,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 HK 777 | ⬇️ 15KB/s #1'
+  name: 🇭🇰 HK 777 | ⬇️ 15KB/s
   network: ws
   port: 443
   server: 47.92.245.88
@@ -159,17 +220,17 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|6.1MB/s
-  network: tcp
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 🇭🇰HK_1|1.8MB/s
+  network: grpc
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
   port: '443'
-  reality-opts:
-    public-key: uoXBNYcBgR-h2YmU1NFhFyASr6qh9UghWOuo1WZIikw
-    short-id: '!!str 17d824dd68e24aaf'
-  server: 34.96.200.38
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: kaizen-hk-3.gocmydns.com
+  skip-cert-verify: false
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
   udp: true
-  uuid: 2058418a-7718-4050-bdd5-db7487ffdb3b
-  xudp: true

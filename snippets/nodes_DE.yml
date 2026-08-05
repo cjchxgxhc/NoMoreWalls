@@ -1,6 +1,17 @@
 proxies:
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 759 | ⬇️ 235KB/s #1'
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -11,7 +22,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   country: 🇸🇬SG
-  name: '🇩🇪 DE 784 | ⬇️ 362KB/s #1'
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -20,21 +31,32 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  name: '🇩🇪 DE 785 | ⬇️ 341KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 DE 716 | ⬇️ 15KB/s #1'
+  name: 🇩🇪 DE 716 | ⬇️ 15KB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -48,7 +70,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: '🇩🇪 DE 721 | ⬇️ 1MB/s #1'
+  name: 🇩🇪 DE 721 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -65,7 +87,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 DE 736 | ⬇️ 63KB/s #1'
+  name: 🇩🇪 DE 736 | ⬇️ 63KB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -79,41 +101,31 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- country: 🇸🇬SG
-  name: '🇩🇪 DE 741 | ⬇️ 295KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+- name: 🇩🇪DE_5|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hyperon.site
   skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
+  sni: ramz.xuithree.dpdns.org
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '🇩🇪 DE 747 | ⬇️ 361KB/s #1'
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '🇩🇪 DE 763 | ⬇️ 328KB/s #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_9|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: cctvhikvision.center
   skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
+  sni: ramz.xuithree.dpdns.org
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_9|3.1MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.178.208
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /dksk

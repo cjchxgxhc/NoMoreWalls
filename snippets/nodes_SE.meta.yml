@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇸🇪 SE 722 | ⬇️ 1MB/s #1'
+  name: 🇸🇪 SE 722 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -9,7 +9,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇸🇪SE_1|3.7MB/s
-  port: 8888
-  server: 46.62.189.77
-  type: http
+- client-fingerprint: firefox
+  name: 🇸🇪SE_1|1.9MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+  server: 84.32.99.238
+  servername: recaptcha.net.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+  xhttp-opts:
+    host: recaptcha.net.cn
+    mode: auto
+    path: /api/v1/data

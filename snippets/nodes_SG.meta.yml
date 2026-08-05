@@ -1,26 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬 SG 013 | ⬇️ 27KB/s #1'
+- name: 🇸🇬SG_1|1.6MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 13.212.156.170
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇸🇬 SG 253 | ⬇️ 4MB/s #1'
+  name: 🇸🇬 SG 253 | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -35,27 +26,27 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_2|3.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
+- name: 🇸🇬 SG 479 | ⬇️ 9KB/s
+  port: 10808
+  server: 45.43.63.37
+  type: socks5
+- name: 🇸🇬 SG 647 | ⬇️ 8KB/s
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- name: 🇸🇬 SG 804 | ⬇️ 72KB/s
+  port: 10800
+  server: 103.195.191.39
+  type: socks5
   udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇸🇬 SG 569 | ⬇️ 56KB/s #1'
+  name: 🇸🇬 SG 569 | ⬇️ 56KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -75,7 +66,7 @@ proxies:
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇸🇬 SG 646 | ⬇️ 697KB/s #1'
+  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -90,16 +81,41 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: '🇸🇬 SG 647 | ⬇️ 8KB/s #1'
-  password: admin
-  port: 1080
-  server: 143.198.85.89
-  type: socks5
-  username: admin
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬 SG 013 | ⬇️ 27KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 13.212.156.170
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- alpn:
+  - http/1.1
+  name: 🇸🇬 SG 537 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 SG 701 | ⬇️ 21KB/s #1'
+  name: 🇸🇬 SG 701 | ⬇️ 21KB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -108,7 +124,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '🇸🇬 SG 770 | ⬇️ 1MB/s #1'
+- name: 🇸🇬 SG 770 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -120,7 +136,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇸🇬 SG 771 | ⬇️ 16KB/s #1'
+  name: 🇸🇬 SG 771 | ⬇️ 16KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -134,21 +150,3 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇬SG_1|4.2MB/s
-  network: ws
-  port: '443'
-  server: cos-cdn-c.alicdn.win
-  servername: mms-statlc-2vinw-e.bjedu.men
-  tls: true
-  type: vless
-  udp: true
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  ws-opts:
-    headers:
-      Host: mms-static-cache-e.bjedu.men
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /newlogin/login.do
-  xudp: true

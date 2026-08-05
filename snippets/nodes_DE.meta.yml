@@ -1,10 +1,10 @@
 proxies:
 - client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_7|4.9MB/s
-  network: raw
+  name: 🇩🇪 DE 197 | ⬇️ 16KB/s
+  network: tcp
   packet-encoding: xudp
-  port: '25520'
+  port: 25520
   reality-opts:
     public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
     short-id: '!!str a8de8bc1e9f5ef'
@@ -15,13 +15,34 @@ proxies:
   type: vless
   udp: true
   uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
-  xudp: true
+- name: 🇩🇪 DE 068 | ⬇️ 82KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2550
+  server: 95.214.38.159
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- client-fingerprint: firefox
+  name: 🇩🇪 DE 679 | ⬇️ 20KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - alpn:
   - h2
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_4|2.3MB/s
-  network: raw
+  name: 🇩🇪DE_6|2.9MB/s
+  network: tcp
   packet-encoding: xudp
   port: '443'
   server: 217.60.193.1
@@ -32,13 +53,92 @@ proxies:
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
   xudp: true
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- name: 🇩🇪DE_10|2.7MB/s
+  password: ''
+  port: 1081
+  server: 46.37.123.166
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_8|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: firefox
   encryption: none
-  name: '🇩🇪 DE 397 | ⬇️ 1MB/s #1'
+  name: 🇩🇪 DE 397 | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -69,55 +169,7 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: queryInHeader
-- client-fingerprint: firefox
-  name: '🇩🇪 DE 679 | ⬇️ 20KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 759 | ⬇️ 235KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: '🇩🇪 DE 784 | ⬇️ 362KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: '🇩🇪 DE 201 | ⬇️ 754KB/s #1'
-  port: 1081
-  server: 46.37.123.166
-  type: socks5
-- alterId: 0
-  client-fingerprint: chrome
-  name: '🇩🇪 DE 785 | ⬇️ 341KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: '🇩🇪 DE 751 | ⬇️ 213KB/s #1'
+- name: 🇩🇪 DE 751 | ⬇️ 213KB/s
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -126,7 +178,7 @@ proxies:
   tfo: false
   type: hysteria2
 - country: 🇷🇺RU
-  name: '🇩🇪 DE 685 | ⬇️ 489KB/s #1'
+  name: 🇩🇪 DE 685 | ⬇️ 489KB/s
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -137,7 +189,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 DE 438 | ⬇️ 11KB/s #1'
+  name: 🇩🇪 DE 438 | ⬇️ 11KB/s
   network: tcp
   packet-encoding: xudp
   port: 4040
@@ -155,7 +207,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 DE 716 | ⬇️ 15KB/s #1'
+  name: 🇩🇪 DE 716 | ⬇️ 15KB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -167,7 +219,7 @@ proxies:
     headers:
       Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '🇩🇪 DE 728 | ⬇️ 599KB/s #1'
+- name: 🇩🇪 DE 728 | ⬇️ 599KB/s
   password: ''
   port: 1080
   server: 159.195.49.27
@@ -175,7 +227,7 @@ proxies:
   username: ''
 - alpn:
   - http/1.1
-  name: '🇩🇪 DE 721 | ⬇️ 1MB/s #1'
+  name: 🇩🇪 DE 721 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -192,7 +244,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 DE 736 | ⬇️ 63KB/s #1'
+  name: 🇩🇪 DE 736 | ⬇️ 63KB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -206,61 +258,29 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- country: 🇸🇬SG
-  name: '🇩🇪 DE 741 | ⬇️ 295KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '🇩🇪 DE 747 | ⬇️ 361KB/s #1'
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '🇩🇪 DE 763 | ⬇️ 328KB/s #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
+    grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 🇩🇪DE_3|1.7MB/s
+  name: 🇩🇪DE_1|1.8MB/s
   network: grpc
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w
-    short-id: '!!str 1ea59febb8d4fc8e'
-  server: 88.216.220.87
-  servername: api.noneok.com
+    public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g
+    short-id: '!!str d3b394558cfe0266'
+  server: 88.216.220.88
+  servername: files.noneok.com
   tls: true
   type: vless
   udp: true
   uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
-  xudp: true
 - client-fingerprint: qq
-  encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_5|3.0MB/s
+  name: 🇩🇪DE_2|3.4MB/s
   network: grpc
-  port: '443'
+  port: 443
   reality-opts:
     public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
     short-id: '!!str abcd'
@@ -269,15 +289,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 1691261e-1f25-4f75-b84d-5fc982bf08f2
-  xudp: true
+  uuid: ce774085-ab7b-468a-9282-a5199a525518
 - client-fingerprint: qq
-  encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_6|2.7MB/s
+  name: 🇩🇪DE_3|2.6MB/s
   network: grpc
-  port: '443'
+  port: 443
   reality-opts:
     public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
     short-id: '!!str abcd'
@@ -286,29 +305,70 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 57bf75ba-5c9d-487b-8a57-1451ad729b4d
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_8|1.8MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: ycW5LB_qsf61SQrWr6eIbPfNCzb5_J3rD9QFlN8TIEc
-    short-id: '!!str 9a44c802e4756255'
-  server: 79.137.203.64
-  servername: www.ibm.com
+  uuid: 236d1f18-40c5-49d8-9611-85355754c326
+- name: 🇩🇪DE_5|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hyperon.site
+  skip-cert-verify: true
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_7|1.1MB/s
+  network: xhttp
+  port: '8443'
+  server: 104.16.6.189
+  servername: butimcreepimweirdo.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: d1e816db-0dc6-4b44-8037-c59700028214
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: butimcreepimweirdo.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_9|3.1MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.178.208
-  type: ss
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_9|2.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /dksk
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_11|1.7MB/s
+  network: ws
+  port: '8443'
+  server: 172.67.225.147
+  servername: ftp.skylinknet.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 187cba2e-94df-407e-8d0a-f6d34311fe34
+  ws-opts:
+    headers:
+      Host: ftp.skylinknet.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
