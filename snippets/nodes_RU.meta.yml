@@ -1,28 +1,97 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU 094 | ⬇️ 5MB/s
-  password: 81a20429165df87e
-  port: 7011
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 089 | ⬇️ 4MB/s
-  password: 6b39ae3234dfd68b
-  port: 1091
-  server: 46.17.45.76
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 083 | ⬇️ 8MB/s
+  name: 🇷🇺 RU 471 | ⬇️ 3MB/s
   password: bdb313adf74c2ede
   port: 20916
   server: 195.133.5.207
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: aes-256-gcm
+  country: 🇨🇿CZ
+  name: 🇷🇺 RU 942 | ⬇️ 4MB/s
+  password: 81a20429165df87e
+  port: 7011
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇷🇺 RU 442 | ⬇️ 18KB/s
+  password: ''
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 511 | ⬇️ 60KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+- name: 🇷🇺 RU 364 | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 104.171.132.185
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 112912a9-cedf-485d-b8ed-d8f8d4774437
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 714 | ⬇️ 56KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: 177.1.199.3
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+- encryption: none
+  name: 🇷🇺 RU 1137 | ⬇️ 5KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 104.171.135.186
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 788 | ⬇️ 3KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 201.51.0.38
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  ws-opts:
+    path: /v1
 - client-fingerprint: chrome
   name: 🇷🇺 RU 769 | ⬇️ 307KB/s
   network: xhttp
@@ -39,26 +108,6 @@ proxies:
     host: ru.node.sillyvpn.cc
     mode: packet-up
     path: /api/burmalda.json
-- name: 🇷🇺 RU 442 | ⬇️ 18KB/s
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-  udp: true
-  username: ''
-- encryption: none
-  name: 🇷🇺 RU 788 | ⬇️ 3KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 201.51.0.38
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
-  ws-opts:
-    path: /v1
 - encryption: none
   name: 🇷🇺 RU 787 | ⬇️ 2KB/s
   network: ws

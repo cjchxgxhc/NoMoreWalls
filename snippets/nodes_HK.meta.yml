@@ -1,12 +1,48 @@
 proxies:
-- name: 🇭🇰 HK 536 | ⬇️ 232KB/s
-  password: ''
-  port: 10800
-  server: 47.75.116.41
-  tls: false
-  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰HK_2|4.8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '10126'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  username: ''
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇭🇰HK_1|4.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '10127'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+  xudp: true
+- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
+  port: 1080
+  server: 124.156.185.140
+  type: socks5
 - name: 🇭🇰 HK 744 | ⬇️ 14KB/s
   password: '!!str 123'
   port: 3060
@@ -14,25 +50,13 @@ proxies:
   tls: false
   type: socks5
   username: '123'
-- name: 🇭🇰 HK 561 | ⬇️ 2KB/s
-  password: '!!str 2222'
-  port: 2222
-  server: 43.100.106.218
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '2222'
-- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
-  port: 1080
-  server: 124.156.185.140
-  type: socks5
 - client-fingerprint: chrome
   encryption: none
-  name: 🇭🇰 HK 040 | ⬇️ 150KB/s
+  name: 🇭🇰 HK 051 | ⬇️ 701KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
-  server: 103.180.20.228
+  server: 103.148.73.176
   servername: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
   tls: true
@@ -45,11 +69,11 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - client-fingerprint: chrome
   encryption: none
-  name: 🇭🇰 HK 048 | ⬇️ 252KB/s
+  name: 🇭🇰 HK 075 | ⬇️ 682KB/s
   network: ws
   packet-encoding: xudp
   port: 8443
-  server: 103.148.73.176
+  server: 103.180.20.228
   servername: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
   tls: true
@@ -69,25 +93,29 @@ proxies:
   type: socks5
   username: '111'
 - cipher: aes-256-gcm
-  name: 🇭🇰 HK 273 | ⬇️ 5MB/s
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.33
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇭🇰 HK 142 | ⬇️ 5MB/s
+  name: 🇭🇰 HK 293 | ⬇️ 10KB/s
   password: WWMo8FMXNGLs
   port: 8388
   server: 212.192.15.13
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇭🇰 HK 018 | ⬇️ 307KB/s
-  port: 1080
-  server: 43.161.253.113
+- name: 🇭🇰 HK 561 | ⬇️ 2KB/s
+  password: '!!str 2222'
+  port: 2222
+  server: 43.100.106.218
+  skip-cert-verify: true
   type: socks5
+  udp: true
+  username: '2222'
+- cipher: aes-256-gcm
+  name: 🇭🇰 HK 1222 | ⬇️ 5MB/s
+  password: 72553320ae6bcc8f
+  port: 10910
+  server: 212.192.15.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 2
@@ -106,14 +134,37 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 1042 | ⬇️ 9KB/s
+  network: tcp
+  port: 41528
+  reality-opts:
+    public-key: vSXM6NtiXtPcwqZpXCTpKLBOPewzcEfr9-p18aiywio
+    short-id: '!!str b4'
+  server: 47.86.249.58
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 97672a88-ec39-4234-a102-1df6f9236f36
 - cipher: aes-256-cfb
-  name: 🇭🇰 HK 953 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 1133 | ⬇️ 1MB/s
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
   skip-cert-verify: false
   type: ss
   udp: false
+- name: 🇭🇰 HK 018 | ⬇️ 307KB/s
+  port: 1080
+  server: 43.161.253.113
+  type: socks5
+- name: 🇭🇰 HK 536 | ⬇️ 232KB/s
+  password: ''
+  port: 10800
+  server: 47.75.116.41
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 🇭🇰 HK 237 | ⬇️ 707KB/s
@@ -220,17 +271,41 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 🇭🇰HK_1|1.8MB/s
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: '443'
-  server: kaizen-hk-3.gocmydns.com
-  skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_3|3.3MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_4|1.8MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_5|3.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
+    short-id: '!!str ec2c7091fe76336c'
+  server: 35.241.98.220
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
+  xudp: true

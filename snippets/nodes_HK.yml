@@ -1,17 +1,17 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 🇭🇰 HK 273 | ⬇️ 5MB/s
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.33
+  name: 🇭🇰 HK 293 | ⬇️ 10KB/s
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-gcm
-  name: 🇭🇰 HK 142 | ⬇️ 5MB/s
-  password: WWMo8FMXNGLs
-  port: 8388
-  server: 212.192.15.13
+  name: 🇭🇰 HK 1222 | ⬇️ 5MB/s
+  password: 72553320ae6bcc8f
+  port: 10910
+  server: 212.192.15.33
   skip-cert-verify: false
   type: ss
   udp: false
@@ -34,7 +34,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇭🇰 HK 953 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 1133 | ⬇️ 1MB/s
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
@@ -126,17 +126,27 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 🇭🇰HK_1|1.8MB/s
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: '443'
-  server: kaizen-hk-3.gocmydns.com
-  skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_3|3.3MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_4|1.8MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
   udp: true

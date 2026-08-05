@@ -1,4 +1,42 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 KR 1132 | ⬇️ 18MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 005 | ⬇️ 2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
 - name: 🇰🇷 KR 037 | ⬇️ 35KB/s
   password: admin
   port: 5555
@@ -33,25 +71,6 @@ proxies:
   username: '111'
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷 KR 005 | ⬇️ 2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10047
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-- client-fingerprint: chrome
-  encryption: none
   name: 🇰🇷 KR 007 | ⬇️ 100KB/s
   network: tcp
   packet-encoding: xudp
@@ -73,3 +92,17 @@ proxies:
   type: socks5
   udp: true
   username: ''
+- name: 🇰🇷KR_1|1.8MB/s
+  network: ws
+  port: 443
+  server: 211.49.57.175
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560

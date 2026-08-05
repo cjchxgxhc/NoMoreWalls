@@ -1,20 +1,61 @@
 proxies:
+- name: 🇺🇸 US 528 | ⬇️ 863KB/s
+  network: tcp
+  password: UaQmDQajuW
+  port: 55523
+  server: 185.132.54.106
+  sni: b32-10.cmj0502.cn
+  type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸 US 887 | ⬇️ 148KB/s
+  name: 🇺🇸 US 155 | ⬇️ 154KB/s
   password: amazonskr05
   port: 443
   server: 3.85.61.177
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇺🇸 US 176 | ⬇️ 16KB/s
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: natural-collie.rooster465.autos
+  sni: natural-collie.rooster465.autos
+  type: trojan
+- name: 🇺🇸 US 553 | ⬇️ 176KB/s
+  network: tcp
+  password: 5CRphqBLXI
+  port: 55604
+  server: 216.173.64.72
+  sni: b32-11.cmj0502.cn
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 815 | ⬇️ 137KB/s
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 960 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: 🇺🇸US_1|4.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 🇺🇸US_2|2.0MB/s
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
