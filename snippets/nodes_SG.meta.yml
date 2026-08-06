@@ -1,17 +1,12 @@
 proxies:
-- name: 🇸🇬 SG 792 | ⬇️ 388KB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬 SG 028 | ⬇️ 127KB/s
+  name: 🇸🇬 SG 015 | ⬇️ 18MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: www.shopify.com
   servername: hht.hhlldjc.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -20,8 +15,41 @@ proxies:
     headers:
       Host: hht.hhlldjc.kdns.fr
     path: /
+- name: 🇸🇬 SG 242 | ⬇️ 142KB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬 SG 036 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: safari
+  name: 🇸🇬 SG 058 | ⬇️ 16MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /images
 - auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 SG 179 | ⬇️ 5MB/s
+  name: 🇸🇬 SG 301 | ⬇️ 2MB/s
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2055
   server: xjp1.mangshe.xyz
@@ -35,51 +63,49 @@ proxies:
   server: 143.198.85.89
   type: socks5
   username: admin
+- name: 🇸🇬 SG 615 | ⬇️ 9KB/s
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks5
+  username: ''
+- name: 🇸🇬 SG 751 | ⬇️ 6KB/s
+  port: 10808
+  server: 45.43.63.37
+  type: socks5
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬 SG 782 | ⬇️ 650KB/s
+  network: ws
+  port: 8443
+  server: 172.66.40.229
+  servername: freenet.sahanwickramasinghevip.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 270c0392-ff26-42ce-b056-1964f41cd7f4
+  ws-opts:
+    headers:
+      Host: freenet.sahanwickramasinghevip.shop
+    path: /
 - auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 SG 246 | ⬇️ 734KB/s
+  name: 🇸🇬 SG 920 | ⬇️ 734KB/s
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2060
   server: xjp2.mangshe.xyz
   skip-cert-verify: true
   sni: xjp2.mangshe.xyz
   type: hysteria2
-- name: 🇸🇬 SG 372 | ⬇️ 6KB/s
-  port: 10808
-  server: 45.43.63.37
-  type: socks5
-- client-fingerprint: safari
-  name: 🇸🇬 SG 546 | ⬇️ 11MB/s
-  network: ws
-  password: 2c366360-0333-4738-9423-6d5b378e3594
-  port: 443
-  server: cdn2.bpcdn.cc
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: 🇨🇦 CA 929 | ⬇️ 2MB/s
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4466
+  server: sg3.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: light.bpsg2026.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: light.bpsg2026.top
-    path: /images
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.44.97
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+  sni: sg3.xiaoliyu.cyou
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 SG 013 | ⬇️ 27KB/s
@@ -151,6 +177,26 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
+- ech-opts:
+    _dns: udp://8.8.8.8
+    enable: true
+    query-server-name: ip.gs
+  encryption: none
+  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.66.44.97
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -189,3 +235,26 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
+- name: 🇸🇬SG_1|1.5MB/s
+  network: ws
+  port: '8880'
+  server: www.glassdoor.com
+  type: vless
+  udp: true
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|5.0MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '29072'
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+  udp: true

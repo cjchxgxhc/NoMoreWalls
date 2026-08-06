@@ -1,32 +1,10 @@
 proxies:
-- name: 🇺🇸 US 677 | ⬇️ 1MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 740 | ⬇️ 91KB/s
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  skip-cert-verify: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 828 | ⬇️ 13KB/s
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 299 | ⬇️ 9KB/s
   network: tcp
   port: 30824
   server: v24.hdacd.com
@@ -36,9 +14,19 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 US 735 | ⬇️ 6MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 53199
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 US 818 | ⬇️ 4MB/s
+  name: 🇺🇸US_1|3.6MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -47,3 +35,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 831 | ⬇️ 91KB/s
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
+  type: ss
+  udp: true

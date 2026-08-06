@@ -1,33 +1,46 @@
 proxies:
+- name: 🇩🇪 DE 023 | ⬇️ 5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 554
+  server: 77.67.91.133
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 097 | ⬇️ 56KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
-  name: 🇩🇪 DE 679 | ⬇️ 20KB/s
+  name: 🇩🇪DE_2|2.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- name: 🇩🇪 DE 039 | ⬇️ 2MB/s
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  password: ik0zt621uw9iqvsi
-  port: 52023
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  type: hysteria2
 - alpn:
   - h2
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 DE 620 | ⬇️ 42KB/s
-  network: raw
+  name: 🇩🇪DE_1|3.0MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 443
+  port: '443'
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
   skip-cert-verify: false
@@ -35,83 +48,41 @@ proxies:
   type: vless
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  xudp: true
 - client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: de.catxstar.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 116 | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node18.mxvpn.dev
-  servername: node18.mxvpn.dev
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 088 | ⬇️ 4MB/s
+  password: vgi6UU38zMyqTARPkGLwZb
+  port: 5228
+  server: creativeboxde2.zanity.net
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 125 | ⬇️ 4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2087
-  server: 104.18.19.39
-  servername: ftp.skylinknet.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78bb684e-0c43-45f7-aefb-e16368228948
-  ws-opts:
-    headers:
-      Host: ftp.skylinknet.ir
-    path: /
-- name: 🇩🇪 DE 152 | ⬇️ 344KB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tfo: false
-  type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪 DE 182 | ⬇️ 4MB/s
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.215
-  skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
-  type: hysteria2
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  country: 🇩🇪DE
-  name: 🇩🇪DE_1|1.1MB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tfo: false
-  type: hysteria2
-  udp: true
+  type: ss
+  udp: false
 - alpn:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 DE 592 | ⬇️ 28KB/s
+  name: 🇩🇪 DE 873 | ⬇️ 31KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -126,32 +97,88 @@ proxies:
     host: ovd13.global.ssl.fastly.net
     mode: packet-up
     path: /
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 200 | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node20.mxvpn.dev
+  servername: node20.mxvpn.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+- name: 🇩🇪 DE 156 | ⬇️ 9MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17966
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  country: 🇺🇸US
+  name: 🇩🇪 DE 319 | ⬇️ 5MB/s
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  skip-cert-verify: false
+  sni: de-two.quiet-rogue.site
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇩🇪 DE 281 | ⬇️ 2MB/s
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: ik0zt621uw9iqvsi
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 696 | ⬇️ 7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node18.mxvpn.dev
+  servername: node18.mxvpn.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇩🇪 DE 619 | ⬇️ 979KB/s
+  name: 🇩🇪 DE 372 | ⬇️ 1017KB/s
   network: grpc
   packet-encoding: xudp
   port: 7443
@@ -165,36 +192,54 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 DE 290 | ⬇️ 931KB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_13|1.7MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8443
-  server: 104.16.73.211
-  servername: ftp.skylinknet.ir
+  port: '443'
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node17.mxvpn.dev
+  servername: node17.mxvpn.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 78bb684e-0c43-45f7-aefb-e16368228948
-  ws-opts:
-    headers:
-      Host: ftp.skylinknet.ir
-    path: /
-- auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 🇩🇪 DE 332 | ⬇️ 165KB/s
-  password: 71cada65-d23e-418c-88e4-a06188d14689
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  xudp: true
+- auth: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
+  name: 🇩🇪 DE 762 | ⬇️ 24KB/s
+  password: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
   port: 443
-  server: de-two.quiet-rogue.site
+  server: imbaisk3.duckdns.org
   skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
+  sni: imbaisk3.duckdns.org
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 DE 847 | ⬇️ 458KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 448
+  reality-opts:
+    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
+    short-id: '!!str e1bdc95c1554c8eb'
+  server: 93.114.194.115
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 DE 561 | ⬇️ 1MB/s
+  name: 🇩🇪 DE 864 | ⬇️ 4MB/s
   network: grpc
   port: 443
   reality-opts:
@@ -206,112 +251,14 @@ proxies:
   type: vless
   udp: true
   uuid: 54060557-bd92-48e9-9dc8-90efb65583ab
-- name: 🇩🇪DE_4|2.0MB/s
-  password: ''
-  port: 1081
-  server: 46.37.123.166
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 607 | ⬇️ 22KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇩🇪 DE 923 | ⬇️ 4MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.215
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇸🇬SG
-  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 714 | ⬇️ 744KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.23.239.129
-  servername: ger06.skorostnet.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- auth: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
-  name: 🇩🇪 DE 734 | ⬇️ 24KB/s
-  password: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
-  port: 443
-  server: imbaisk3.duckdns.org
-  skip-cert-verify: true
-  sni: imbaisk3.duckdns.org
+  sni: mercedes-grape.yyuyy.com
   type: hysteria2
-- name: 🇫🇷 FR 317 | ⬇️ 6KB/s
-  password: ''
-  port: 1080
-  server: 213.199.47.140
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪 DE 827 | ⬇️ 770KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪 DE 833 | ⬇️ 569KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdccfb75-edb1-4b92-88a1-4bbbae8d1673
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 838 | ⬇️ 351KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
 - client-fingerprint: firefox
   encryption: none
   name: 🇩🇪 DE 197 | ⬇️ 16KB/s
@@ -365,6 +312,10 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: queryInHeader
+- name: 🇩🇪 DE 201 | ⬇️ 754KB/s
+  port: 1081
+  server: 46.37.123.166
+  type: socks5
 - name: 🇩🇪 DE 751 | ⬇️ 213KB/s
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -454,6 +405,16 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- country: 🇸🇬SG
+  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
@@ -475,47 +436,19 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- name: 🇩🇪DE_2|3.8MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.5MB/s
+  name: 🇩🇪DE_3|3.3MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node20.mxvpn.dev
-  servername: node20.mxvpn.dev
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 45.129.78.196
+  servername: ger05.skorostnet.space
   tls: true
   type: vless
   udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
   xudp: true
-- name: 🇩🇪DE_5|1.6MB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: dg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: dg1.mangshe.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_7|1.0MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true

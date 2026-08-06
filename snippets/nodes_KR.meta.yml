@@ -1,4 +1,48 @@
 proxies:
+- name: 🇰🇷 KR 037 | ⬇️ 35KB/s
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 KR 830 | ⬇️ 17MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 554
+  name: 🇰🇷 KR 738 | ⬇️ 77KB/s
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- name: 🇰🇷 KR 755 | ⬇️ 484KB/s
+  password: '!!str 111'
+  port: 20000
+  server: 101.33.74.115
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: '111'
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -18,65 +62,6 @@ proxies:
   type: vless
   udp: true
   uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-  xudp: true
-- delay: 554
-  name: 🇰🇷KR_1|1.2MB/s
-  password: ''
-  port: '1090'
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
-- name: 🇰🇷 KR 037 | ⬇️ 35KB/s
-  password: admin
-  port: 5555
-  server: 158.180.91.51
-  type: socks5
-  username: admin
-- name: 🇰🇷 KR 755 | ⬇️ 484KB/s
-  password: '!!str 111'
-  port: 20000
-  server: 101.33.74.115
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '111'
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 569 | ⬇️ 1MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇰🇷 KR 705 | ⬇️ 8KB/s
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷 KR 771 | ⬇️ 17MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2087
-  server: 172.64.53.194
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
   encryption: none
   name: 🇰🇷 KR 007 | ⬇️ 100KB/s
@@ -100,3 +85,10 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- name: 🇰🇷 KR 705 | ⬇️ 8KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
