@@ -1,10 +1,41 @@
 proxies:
+- client-fingerprint: firefox
+  name: 🇬🇧 GB 298 | ⬇️ 55KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
+    short-id: '!!str '
+  server: pro-uk.emrata.top
+  servername: pro-uk.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 297 | ⬇️ 144KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.116
+  servername: vl06.skorostnet.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
 - name: 🇬🇧 GB 603 | ⬇️ 60KB/s
   password: ''
   port: 1080
   server: 83.147.216.208
   type: socks5
-  udp: true
   username: ''
 - client-fingerprint: qq
   flow: xtls-rprx-vision
@@ -22,32 +53,11 @@ proxies:
   type: vless
   udp: true
   uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-fi.emrata.top
-  servername: pro-fi.emrata.top
+- name: 🇬🇧GB_1|1.7MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇬🇧GB_2|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-jp.emrata.top
-  servername: pro-jp.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
-  xudp: true
+  type: http
+  username: null

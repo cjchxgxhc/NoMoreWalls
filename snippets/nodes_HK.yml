@@ -18,27 +18,6 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 819 | ⬇️ 3KB/s
-  network: tcp
-  port: 30807
-  server: v10.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
 - name: 🇭🇰 HK 175 | ⬇️ 10KB/s
   network: tcp
   password: ND91608427
@@ -62,7 +41,7 @@ proxies:
     path: /images
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 HK 279 | ⬇️ 3KB/s #1'
+  name: 🇭🇰 HK 279 | ⬇️ 3KB/s
   network: ws
   port: 443
   server: 47.92.245.88
@@ -74,6 +53,18 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.66.173.172
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
 - client-fingerprint: chrome
   name: 🇭🇰 HK 719 | ⬇️ 3MB/s
   network: ws

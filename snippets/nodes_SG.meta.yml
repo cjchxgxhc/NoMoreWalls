@@ -1,28 +1,60 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇸🇬 SG 015 | ⬇️ 18MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: www.shopify.com
-  servername: hht.hhlldjc.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  name: 🇸🇬SG_3|1.4MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '29072'
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
-  ws-opts:
-    headers:
-      Host: hht.hhlldjc.kdns.fr
-    path: /
-- name: 🇸🇬 SG 242 | ⬇️ 142KB/s
+- name: 🇸🇬 SG 785 | ⬇️ 2MB/s
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 40783
   server: 106.75.132.91
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬 SG 036 | ⬇️ 3MB/s
+- name: 🇸🇬 SG 300 | ⬇️ 19KB/s
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
+- name: 🇸🇬 SG 213 | ⬇️ 1MB/s
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬 SG 234 | ⬇️ 9MB/s
+  network: ws
+  port: 8443
+  server: 141.193.213.20
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬 SG 701 | ⬇️ 21KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 SG 694 | ⬇️ 3MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -35,77 +67,12 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: safari
-  name: 🇸🇬 SG 058 | ⬇️ 16MB/s
-  network: ws
-  password: 2c366360-0333-4738-9423-6d5b378e3594
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: light.bpsg2026.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: light.bpsg2026.top
-    path: /images
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 SG 301 | ⬇️ 2MB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  type: hysteria2
-  udp: true
 - name: 🇸🇬 SG 647 | ⬇️ 8KB/s
   password: admin
   port: 1080
   server: 143.198.85.89
   type: socks5
   username: admin
-- name: 🇸🇬 SG 615 | ⬇️ 9KB/s
-  password: ''
-  port: 1080
-  server: 212.58.132.5
-  type: socks5
-  username: ''
-- name: 🇸🇬 SG 751 | ⬇️ 6KB/s
-  port: 10808
-  server: 45.43.63.37
-  type: socks5
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬 SG 782 | ⬇️ 650KB/s
-  network: ws
-  port: 8443
-  server: 172.66.40.229
-  servername: freenet.sahanwickramasinghevip.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 270c0392-ff26-42ce-b056-1964f41cd7f4
-  ws-opts:
-    headers:
-      Host: freenet.sahanwickramasinghevip.shop
-    path: /
-- auth: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  name: 🇸🇬 SG 920 | ⬇️ 734KB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2060
-  server: xjp2.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
-  type: hysteria2
-- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  name: 🇨🇦 CA 929 | ⬇️ 2MB/s
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 SG 013 | ⬇️ 27KB/s
@@ -197,18 +164,6 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬 SG 701 | ⬇️ 21KB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇸🇬 SG 770 | ⬇️ 1MB/s
   network: ws
   password: MiTiVPN
@@ -235,26 +190,32 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- name: 🇸🇬SG_1|1.5MB/s
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_1|4.8MB/s
   network: ws
-  port: '8880'
-  server: www.glassdoor.com
-  type: vless
+  port: '443'
+  server: me.khantry.net
+  servername: me.khantry.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
   ws-opts:
     headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: me.khantry.net
+    path: /khantri
   xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.0MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '29072'
-  server: 106.75.132.91
+- fingerprint: ''
+  name: 🇸🇬SG_2|1.3MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: '17961'
+  server: jjz.jjznodenode.top
   skip-cert-verify: true
-  type: trojan
+  sni: jjz.jjznodenode.top
+  type: anytls
   udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b

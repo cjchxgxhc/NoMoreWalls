@@ -1,4 +1,33 @@
 proxies:
+- client-fingerprint: firefox
+  name: 🇸🇪 SE 299 | ⬇️ 48KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪 SE 217 | ⬇️ 48KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.43
+  servername: pro-se.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
 - client-fingerprint: chrome
   name: 🇸🇪 SE 722 | ⬇️ 1MB/s
   network: ws
@@ -11,20 +40,16 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: firefox
   encryption: none
-  name: 🇸🇪 SE 926 | ⬇️ 1MB/s
-  network: xhttp
+  name: 🇸🇪 SE 711 | ⬇️ 2MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
-  server: 84.32.99.238
-  servername: recaptcha.net.cn
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.57
+  servername: pro-se.emrata.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-  xhttp-opts:
-    host: recaptcha.net.cn
-    mode: auto
-    path: /api/v1/data
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
