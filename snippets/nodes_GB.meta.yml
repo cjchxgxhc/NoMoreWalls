@@ -1,42 +1,60 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇬🇧 GB 298 | ⬇️ 55KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
-    short-id: '!!str '
-  server: pro-uk.emrata.top
-  servername: pro-uk.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 297 | ⬇️ 144KB/s
-  network: tcp
+  name: 🇬🇧 GB 097 | ⬇️ 1MB/s
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.116
-  servername: vl06.skorostnet.space
+  server: 188.72.103.3
+  servername: grape.hotwigga.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  uuid: b776a53a-68cd-45bd-bccd-5c385f4f98b3
+  xhttp-opts:
+    host: grape.hotwigga.space
+    mode: packet-up
+    path: /content/assets/main-6e1a/
+    reuse-settings:
+      c-max-reuse-times: '100'
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 12-24
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
 - name: 🇬🇧 GB 603 | ⬇️ 60KB/s
   password: ''
   port: 1080
   server: 83.147.216.208
   type: socks5
   username: ''
+- name: 🇬🇧 GB 192 | ⬇️ 3MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17965
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: uk.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇪🇪 EE 725 | ⬇️ 1MB/s
@@ -53,11 +71,3 @@ proxies:
   type: vless
   udp: true
   uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-- name: 🇬🇧GB_1|1.7MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

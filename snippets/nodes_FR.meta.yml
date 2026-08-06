@@ -1,26 +1,40 @@
 proxies:
-- name: 🇫🇷 FR 415 | ⬇️ 18KB/s
+- name: 🇫🇷 FR 294 | ⬇️ 9KB/s
+  password: ''
   port: 1088
   server: 51.178.49.241
   type: socks5
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 362 | ⬇️ 17KB/s
-  network: xhttp
+  username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 400 | ⬇️ 81KB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: 8.6.112.0
-  servername: kanan.aahhajwwiwjwowuwjwwjjwje.online
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 78.17.208.24
+  servername: fr07.skorostnet.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  xhttp-opts:
-    host: kanan.aahhajwwiwjwowuwjwwjjwje.online
-    mode: packet-up
-    path: /
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇫🇷 FR 499 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇫🇷 FR 317 | ⬇️ 6KB/s
   password: ''
   port: 1080
@@ -30,7 +44,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: 🇫🇷 FR 307 | ⬇️ 4MB/s
+  name: 🇫🇷 FR 646 | ⬇️ 34KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -48,7 +62,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇷 FR 730 | ⬇️ 496KB/s
+  name: 🇫🇷 FR 667 | ⬇️ 496KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -61,18 +75,25 @@ proxies:
   type: vless
   udp: true
   uuid: c124a209-d949-4951-8234-e2d918b3e6c0
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇫🇷 FR 751 | ⬇️ 49KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇫🇷 FR 669 | ⬇️ 32KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 8.6.112.0
+  servername: kanan.aahhajwwiwjwowuwjwwjjwje.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
+  xhttp-opts:
+    host: kanan.aahhajwwiwjwowuwjwwjjwje.online
+    mode: packet-up
+    path: /
 - name: 🇫🇷 FR 776 | ⬇️ 17KB/s
   network: ws
   packet-encoding: xudp
@@ -87,3 +108,18 @@ proxies:
     headers:
       Host: v2-fr-1.v2s.top
     path: /anything/freevpn.us-Jajaj919/vless
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|3.0MB/s
+  network: ws
+  port: 443
+  server: paul.ns.cloudflare.com
+  servername: ziro.skin
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+    path: /xxvclws
