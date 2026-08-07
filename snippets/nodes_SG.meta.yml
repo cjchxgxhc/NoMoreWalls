@@ -1,4 +1,15 @@
 proxies:
+- name: '🇸🇬 SG 914 | ⬇️ 3MB/s #1'
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17961
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
 - name: 🇸🇬SG_1|4.5MB/s
   packet-encoding: ''
   packetEncoding: none
@@ -10,29 +21,28 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: 🇸🇬 SG 672 | ⬇️ 19MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17961
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '🇸🇬 SG 040 | ⬇️ 18MB/s #1'
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: 🇸🇬 SG 231 | ⬇️ 8KB/s
-  password: admin
-  port: 1080
-  server: 143.198.85.89
-  type: socks5
-  username: admin
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: 🇸🇬 SG 435 | ⬇️ 9MB/s
+  name: '🇸🇬 SG 231 | ⬇️ 4MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -47,18 +57,18 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- name: 🇸🇬 SG 677 | ⬇️ 7KB/s
-  password: ''
+- name: '🇸🇬 SG 435 | ⬇️ 6KB/s #1'
+  password: admin
   port: 1080
-  server: 212.58.132.5
+  server: 143.198.85.89
   type: socks5
-  username: ''
+  username: admin
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: 🇸🇬 SG 680 | ⬇️ 953KB/s
+  name: '🇸🇬 SG 962 | ⬇️ 953KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443

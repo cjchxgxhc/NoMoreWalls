@@ -10,34 +10,32 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: '🇺🇸 US 061 | ⬇️ 502KB/s #1'
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  ws-opts:
+    path: /
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 649 | ⬇️ 4MB/s
+  name: '🇺🇸 US 955 | ⬇️ 4MB/s #1'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇺🇸 US 476 | ⬇️ 125KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: '🇺🇸 US 067 | ⬇️ 529KB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 100.31.139.112
+  type: ss
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xudp: true
-- name: 🇺🇸 US 631 | ⬇️ 4MB/s
+- name: '🇺🇸 US 1052 | ⬇️ 509KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -51,184 +49,25 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
     path: /
-- name: 🇺🇸 US 440 | ⬇️ 502KB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- name: 🇺🇸US_18|3.4MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  tls: false
-  type: socks5
-  username: test123
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 611 | ⬇️ 80KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  server: 88.218.44.4
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 🇺🇸 US 062 | ⬇️ 1009KB/s
-  password: a000fb47-5dfd-4a6b-9739-2878883d6969
-  port: 36253
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153
-  tfo: false
-  type: hysteria2
-- name: 🇺🇸 US 064 | ⬇️ 2MB/s
-  password: 571e40e5-d597-4618-9204-535c94dca771
-  port: 36253
-  server: uswx3.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.184
-  tfo: false
-  type: hysteria2
-- name: 🇺🇸 US 663 | ⬇️ 14KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: 🇺🇸 US 138 | ⬇️ 30KB/s
-  password: ''
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-  username: ''
-- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: TunService
-  name: 🇺🇸 US 643 | ⬇️ 70KB/s
+  name: '🇺🇸 US 958 | ⬇️ 181KB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 8443
   reality-opts:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-    short-id: '!!str '
   server: 88.218.44.4
   servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  xudp: true
-- name: 🇺🇸 US 155 | ⬇️ 1008KB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 669 | ⬇️ 16KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xhttp-opts:
-    mode: auto
-    path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇺🇸 US 667 | ⬇️ 99KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- name: 🇺🇸 US 389 | ⬇️ 222KB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.19.152.118
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  ws-opts:
-    path: /
-- name: 🇺🇸 US 150 | ⬇️ 241KB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.19.152.118
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- name: 🇺🇸 US 657 | ⬇️ 106KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 US 500 | ⬇️ 92KB/s
-  password: ''
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-  username: ''
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 630 | ⬇️ 5MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇺🇸 US 563 | ⬇️ 1MB/s
+  xudp: true
+- name: '🇺🇸 US 079 | ⬇️ 1MB/s #1'
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -242,22 +81,155 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
+- name: '🇺🇸 US 219 | ⬇️ 1MB/s #1'
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+    path: /
+  name: '🇺🇸 US 861 | ⬇️ 23KB/s #1'
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: 🇺🇸US_18|3.4MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  tls: false
+  type: socks5
+  username: test123
+- name: '🇺🇸 US 964 | ⬇️ 949KB/s #1'
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.19.152.118
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸 US 974 | ⬇️ 48KB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
+    mode: auto
+    path: /
+- name: '🇺🇸 US 777 | ⬇️ 48KB/s #1'
+  password: ''
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+  username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇫🇮 FI 1051 | ⬇️ 389KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 993
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: '🇺🇸 US 1019 | ⬇️ 25KB/s #1'
+  password: ''
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
+  username: ''
+- name: '🇺🇸 US 1106 | ⬇️ 114KB/s #1'
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: '🇺🇸 US 732 | ⬇️ 88KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+  name: '🇺🇸 US 977 | ⬇️ 82KB/s #1'
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: '🇺🇸 US 719 | ⬇️ 112KB/s #1'
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.19.152.118
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
-  name: 🇺🇸 US 665 | ⬇️ 1MB/s
+  name: '🇺🇸 US 951 | ⬇️ 1MB/s #1'
   password: amazonskr05
   port: 443
   server: 98.89.48.191
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇺🇸 US 655 | ⬇️ 14KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
-  type: socks5
-  username: ''
-- name: 🇺🇸 US 613 | ⬇️ 12MB/s
+- name: '🇺🇸 US 1054 | ⬇️ 12MB/s #1'
   network: ws
   port: 2095
   server: www.wto.org
@@ -271,6 +243,38 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
+- name: '🇺🇸 US 1069 | ⬇️ 68KB/s #1'
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+  username: ''
+- name: '🇺🇸 US 1104 | ⬇️ 167KB/s #1'
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- name: '🇺🇸 US 1105 | ⬇️ 125KB/s #1'
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸 US 1108 | ⬇️ 1MB/s #1'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http/1.1
   client-fingerprint: chrome

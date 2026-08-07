@@ -10,25 +10,22 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: 🇬🇧 GB 282 | ⬇️ 559KB/s
+- client-fingerprint: chrome
+  name: '🇬🇧 GB 704 | ⬇️ 732KB/s #1'
+  network: ws
+  port: 443
+  server: smm-01.smmmdesign.com
+  servername: smm-01.smmmdesign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cab38fce-e08d-4a3d-9828-dcb96b18d132
+  ws-opts:
+    headers:
+      Host: smm-01.smmmdesign.com
+    path: /vless
+- name: '🇬🇧 GB 1020 | ⬇️ 869KB/s #1'
   port: 1080
   server: 83.147.216.208
   type: socks5
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 597 | ⬇️ 4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.116
-  servername: vl06.skorostnet.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
