@@ -1,34 +1,38 @@
 proxies:
-- name: 🇸🇬 SG 584 | ⬇️ 26KB/s
-  password: pass
-  port: 1080
-  server: 47.237.78.169
-  type: socks5
-  username: user
-- name: 🇸🇬 SG 647 | ⬇️ 8KB/s
-  password: admin
-  port: 1080
-  server: 143.198.85.89
-  type: socks5
-  username: admin
-- name: 🇸🇬 SG 333 | ⬇️ 1MB/s
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2055
-  server: xjp1.mangshe.xyz
+- name: 🇸🇬SG_1|4.5MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17967
+  server: jjz.jjznodenode.top
   skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tfo: false
-  type: hysteria2
-- name: 🇸🇬 SG 659 | ⬇️ 9KB/s
-  password: ''
-  port: 1080
-  server: 212.58.132.5
-  type: socks5
-  username: ''
-- name: 🇸🇬 SG 663 | ⬇️ 6KB/s
-  port: 10808
-  server: 45.43.63.37
-  type: socks5
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇸🇬 SG 679 | ⬇️ 23MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17961
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬SG_2|5.3MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 SG 013 | ⬇️ 27KB/s
@@ -100,6 +104,32 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
+- ech-opts:
+    _dns: udp://8.8.8.8
+    enable: true
+    query-server-name: ip.gs
+  encryption: none
+  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.66.44.97
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: 🇸🇬 SG 647 | ⬇️ 8KB/s
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -138,23 +168,3 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- name: 🇸🇬SG_1|4.5MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17967
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_2|5.3MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true

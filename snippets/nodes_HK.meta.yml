@@ -1,5 +1,20 @@
 proxies:
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰 HK 001 | ⬇️ 1MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
+- name: 🇭🇰 HK 138 | ⬇️ 109KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.242.57.208
+  type: socks5
+  username: '888'
 - name: 🇭🇰HK_1|3.8MB/s
+  packet-encoding: ''
+  packetEncoding: none
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17960
   server: jjz.jjznodenode.top
@@ -7,67 +22,45 @@ proxies:
   sni: hk.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇭🇰 HK 412 | ⬇️ 49KB/s
-  password: admin
-  port: 1080
-  server: 8.210.5.60
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
   type: socks5
-  username: admin
-- country: 🇭🇰HK
-  name: 🇭🇰 HK 615 | ⬇️ 177KB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
+  username: '123'
+- name: 🇭🇰 HK 024 | ⬇️ 20KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.243.22.117
+  type: socks5
+  username: '888'
+- name: 🇭🇰 HK 041 | ⬇️ 31KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.243.80.206
+  type: socks5
+  username: '888'
+- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
   skip-cert-verify: true
-  sni: 202.146.222.29
-  tfo: false
-  type: hysteria2
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰 HK 004 | ⬇️ 165KB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-  up: ''
-- name: 🇭🇰 HK 450 | ⬇️ 26KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.238.75.190
+  tls: false
   type: socks5
-  username: '888'
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 131 | ⬇️ 15KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
-    short-id: '!!str ec2c7091fe76336c'
-  server: 35.241.98.220
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
-- name: 🇭🇰 HK 237 | ⬇️ 16KB/s
-  password: '!!str 888'
+  username: '111'
+- name: 🇭🇰 HK 154 | ⬇️ 25KB/s
+  password: abc123
   port: 1080
-  server: 47.243.181.3
+  server: 47.239.98.42
   type: socks5
-  username: '888'
-- name: 🇭🇰 HK 399 | ⬇️ 40KB/s
-  password: '!!str 888'
+  username: abc123
+- name: 🇭🇰 HK 077 | ⬇️ 37KB/s
+  password: '!!str 8888'
   port: 1080
-  server: 47.243.155.13
+  server: 8.210.31.250
   type: socks5
-  username: '888'
+  username: '8888'
 - alpn:
   - ''
   alterId: 2
@@ -86,84 +79,64 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 180 | ⬇️ 54KB/s
+- name: 🇭🇰 HK 127 | ⬇️ 48KB/s
   password: '!!str 888'
   port: 1080
-  server: 47.242.82.74
+  server: 47.243.51.181
   type: socks5
   username: '888'
-- name: 🇭🇰 HK 417 | ⬇️ 44KB/s
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
-- name: 🇭🇰 HK 186 | ⬇️ 2KB/s
+- name: 🇭🇰 HK 222 | ⬇️ 26KB/s
   password: '!!str 888'
   port: 1080
   server: 47.243.88.33
   type: socks5
   username: '888'
-- name: 🇭🇰 HK 189 | ⬇️ 74KB/s
+- name: 🇭🇰 HK 370 | ⬇️ 61KB/s
   password: '!!str 888'
   port: 1080
-  server: 47.243.80.206
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 191 | ⬇️ 33KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.242.229.234
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 210 | ⬇️ 85KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.238.97.207
+  server: 47.243.149.80
   type: socks5
   username: '888'
 - name: 🇭🇰 HK 006 | ⬇️ 13KB/s
   port: 1080
   server: 124.156.185.140
   type: socks5
-- name: 🇭🇰 HK 424 | ⬇️ 918KB/s
-  password: Og==
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  udp: true
-  username: Og==
-- name: 🇭🇰 HK 408 | ⬇️ 25KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.242.32.162
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 452 | ⬇️ 32KB/s
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
-- name: 🇭🇰 HK 461 | ⬇️ 125KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.242.108.151
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 773 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 781 | ⬇️ 8MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.0sm.com
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 784 | ⬇️ 1MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
 - name: 🇭🇰 HK 018 | ⬇️ 307KB/s
   port: 1080
   server: 43.161.253.113

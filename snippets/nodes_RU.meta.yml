@@ -1,11 +1,54 @@
 proxies:
+- encryption: none
+  name: 🇷🇺 RU 073 | ⬇️ 4KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 201.51.2.6
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eb135f2b-4b9e-4abb-9a89-78242613da61
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - name: 🇷🇺 RU 442 | ⬇️ 18KB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
-  udp: true
   username: ''
+- name: 🇷🇺 RU 635 | ⬇️ 3KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 104.171.134.235
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 753 | ⬇️ 1KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 5.129.252.140
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eb135f2b-4b9e-4abb-9a89-78242613da61
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
 - client-fingerprint: chrome
   name: 🇷🇺 RU 769 | ⬇️ 307KB/s
   network: xhttp

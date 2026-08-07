@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 750 | ⬇️ 5MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.31.139.112
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 737 | ⬇️ 1MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 774 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,17 +1,4 @@
 proxies:
-- name: 🇯🇵 JP 346 | ⬇️ 14KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- client-fingerprint: edge
-  name: 🇯🇵 JP 756 | ⬇️ 205KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - name: 🇯🇵JP_1|4.5MB/s
   packet-encoding: ''
   packetEncoding: none
@@ -23,6 +10,12 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇯🇵JP_3|2.6MB/s
+  password: kZqh4Dk9rrkxfI4B
+  port: 8888
+  server: 45.192.198.137
+  type: socks5
+  username: u1179940355
 - name: 🇯🇵JP_2|4.6MB/s
   packet-encoding: ''
   packetEncoding: none
@@ -34,37 +27,46 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: 🇯🇵JP_3|2.6MB/s
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  tls: false
-  type: socks5
-  username: u1179940355
-- name: 🇯🇵 JP 204 | ⬇️ 21KB/s
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 JP 696 | ⬇️ 12KB/s
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  reality-opts:
+    public-key: kOzjn-aqsOrs5AXRAYKOsU-xY-NdK3Q8ZH0XdwitFRI
+    short-id: '!!str 069fba81c72d1e'
+  server: 64.176.61.124
+  servername: products.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44ebd5d8-c8a3-408c-8195-1cb1e97c5c21
 - alterId: 2
   cipher: auto
-  country: 🇮🇷IR
+  country: 🇨🇳CN
+  delay: 392
   h2-opts: {}
   http-opts: {}
-  name: 🇯🇵 JP 419 | ⬇️ 4KB/s
+  name: 🇯🇵 JP 249 | ⬇️ 12KB/s
   network: tcp
   port: 30806
   server: v6.hdacd.com
+  servername: v6.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇯🇵 JP 649 | ⬇️ 26KB/s
+  name: 🇯🇵 JP 764 | ⬇️ 410KB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  sni: hk.catxstar.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵 JP 001 | ⬇️ 23MB/s
@@ -94,11 +96,15 @@ proxies:
   type: vless
   udp: true
   uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- name: 🇯🇵 JP 764 | ⬇️ 410KB/s
+- name: 🇯🇵 JP 346 | ⬇️ 14KB/s
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: 🇯🇵 JP 756 | ⬇️ 205KB/s
   network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
 - client-fingerprint: chrome
