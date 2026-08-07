@@ -1,11 +1,20 @@
 proxies:
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇭🇰 HK 001 | ⬇️ 1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
+- name: 🇭🇰 HK 005 | ⬇️ 1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 16.162.161.131
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 151 | ⬇️ 8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alpn:
   - ''
   alterId: 2
@@ -25,35 +34,11 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 773 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 647 | ⬇️ 1MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: cloudflare-ip.mofashi.ltd
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 781 | ⬇️ 8MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 784 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.241.194
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:

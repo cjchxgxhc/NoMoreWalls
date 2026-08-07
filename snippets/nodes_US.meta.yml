@@ -1,16 +1,26 @@
 proxies:
-- allowInsecure: '1'
-  name: 🇺🇸 US 666 | ⬇️ 5KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: fanvpn.net
-  port: 18001
-  server: anytls.864106.xyz
+- auth: abckB4g2qeH8nx9d0dG2
+  name: 🇺🇸 US 031 | ⬇️ 13MB/s
+  password: abckB4g2qeH8nx9d0dG2
+  port: 443
+  server: lll.lucklyee.xyz
   skip-cert-verify: true
-  sni: anytls.864106.xyz
-  sub-tag: R002-260618
-  type: anytls
+  sni: lll.lucklyee.xyz
+  type: hysteria2
+- name: 🇺🇸 US 030 | ⬇️ 1MB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
   udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - multiplexing: MULTIPLEXING_LOW
   name: 🇺🇸 US 692 | ⬇️ 864KB/s
   password: dongtaiwang.com
@@ -19,35 +29,14 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 🇺🇸 US 326 | ⬇️ 142KB/s
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
+- name: 🇺🇸US_1|4.2MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17963
+  server: jjz.jjznodenode.top
   skip-cert-verify: true
-  sni: xship.top
-  tfo: false
-  type: hysteria2
+  sni: jjz.jjznodenode.top
+  type: anytls
   udp: true
-- name: 🇺🇸 US 553 | ⬇️ 267KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.17.101.139
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
-- name: 🇺🇸US_18|3.4MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -82,6 +71,26 @@ proxies:
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
+- name: 🇺🇸 US 553 | ⬇️ 267KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.17.101.139
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- name: 🇺🇸US_18|3.4MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
@@ -106,10 +115,16 @@ proxies:
   server: 69.55.49.177
   type: socks5
   username: ''
+- name: 🇺🇸 US 595 | ⬇️ 6MB/s
+  password: ''
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+  username: ''
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇮 FI 723 | ⬇️ 1MB/s
+  name: 🇺🇸 US 615 | ⬇️ 974KB/s
   network: tcp
   packet-encoding: xudp
   port: 993
@@ -122,46 +137,22 @@ proxies:
   type: vless
   udp: true
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- name: 🇺🇸US_1|4.2MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 🇺🇸 US 727 | ⬇️ 133KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tfo: false
-  type: hysteria2
-  udp: true
 - client-fingerprint: firefox
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: TunService
-  name: 🇺🇸 US 355 | ⬇️ 99KB/s
+  name: 🇺🇸 US 228 | ⬇️ 2MB/s
   network: grpc
+  packet-encoding: xudp
   port: 8443
   reality-opts:
     public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
   server: 170.168.97.3
   servername: download.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 750 | ⬇️ 5MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸 US 757 | ⬇️ 29KB/s
@@ -180,60 +171,36 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- name: 🇺🇸 US 776 | ⬇️ 68KB/s
+- name: 🇺🇸 US 629 | ⬇️ 91KB/s
   password: ''
   port: 22222
   server: 193.25.215.182
-  tls: false
   type: socks5
   username: ''
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 737 | ⬇️ 1MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 🇺🇸 US 727 | ⬇️ 133KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tfo: false
+  type: hysteria2
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 US 743 | ⬇️ 14KB/s
-  network: tcp
-  port: 10000
-  server: 180.178.60.253
-  type: vless
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: 🇺🇸 US 755 | ⬇️ 1MB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
+- name: 🇺🇸 US 638 | ⬇️ 167KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 644 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.31.139.112
+  type: ss
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 768 | ⬇️ 6MB/s
-  password: ''
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 774 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇺🇸 US 014 | ⬇️ 493KB/s

@@ -1,14 +1,102 @@
 proxies:
 - auth: 71cada65-d23e-418c-88e4-a06188d14689
   country: 🇺🇸US
-  name: 🇩🇪 DE 223 | ⬇️ 7MB/s
+  name: 🇩🇪 DE 317 | ⬇️ 6MB/s
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de-two.quiet-rogue.site
   tfo: false
   type: hysteria2
+  udp: true
+- name: 🇩🇪 DE 062 | ⬇️ 419KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 45.131.4.115
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a7b22989-6c1f-4b59-b0f3-0605401813c4
+  ws-opts:
+    headers:
+      Host: worker3.gigak25604.workers.dev
+    path: /eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇩🇪 DE 080 | ⬇️ 879KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: www.speedtest.net
+  servername: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
+  ws-opts:
+    headers:
+      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+    path: /vl/SjBu4OsqQDFKOlfK2lI9TXXrPWfi
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 090 | ⬇️ 382KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 105 | ⬇️ 31KB/s
+  password: oQwS+vy+ZXh9jXR2uUaerIzUiX0aojlEXA1D3KX9sIM=
+  port: 56985
+  server: e3.cover20.ir
+  type: ss
   udp: true
 - name: 🇫🇷FR_1|3.7MB/s
   packet-encoding: ''
@@ -21,67 +109,56 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1069
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 681 | ⬇️ 20KB/s
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 562 | ⬇️ 7MB/s
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- name: 🇩🇪 DE 362 | ⬇️ 1MB/s
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  password: ik0zt621uw9iqvsi
-  port: 52023
-  server: assets.gateway-stream.com
+  packet-encoding: xudp
+  port: 9443
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: '!!str b76dcf9e1183fe1b'
+  server: de.riotvpn.eu
+  servername: dev.vkimages.io
   skip-cert-verify: false
-  sni: assets.gateway-stream.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad06b0cf-09bd-4997-a989-e8ad96516a4c
+- name: 🇩🇪 DE 239 | ⬇️ 6MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
   tfo: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 260 | ⬇️ 7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 6443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: '!!str e67fb918ed6b9ffb'
+  server: de.riotvpn.eu
+  servername: dev.vkimages.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad06b0cf-09bd-4997-a989-e8ad96516a4c
+  xhttp-opts:
+    mode: auto
+    path: /
 - name: 🇩🇪 DE 201 | ⬇️ 754KB/s
   port: 1081
   server: 46.37.123.166
   type: socks5
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 785 | ⬇️ 341KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 778 | ⬇️ 351KB/s
+  name: 🇩🇪 DE 639 | ⬇️ 351KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -96,17 +173,6 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
 - client-fingerprint: firefox
   encryption: none
   name: 🇩🇪 DE 197 | ⬇️ 16KB/s
@@ -286,6 +352,17 @@ proxies:
   server: 31.76.11.46.cdn-one.org
   sni: 31.76.11.46.cdn-one.org
   type: trojan
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_1|3.7MB/s
   password: vgi6UU38zMyqTARPkGLwZb

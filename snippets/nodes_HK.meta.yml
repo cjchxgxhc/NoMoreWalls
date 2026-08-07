@@ -1,20 +1,5 @@
 proxies:
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇭🇰 HK 001 | ⬇️ 1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
-- name: 🇭🇰 HK 138 | ⬇️ 109KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.242.57.208
-  type: socks5
-  username: '888'
 - name: 🇭🇰HK_1|3.8MB/s
-  packet-encoding: ''
-  packetEncoding: none
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17960
   server: jjz.jjznodenode.top
@@ -22,45 +7,64 @@ proxies:
   sni: hk.jjznodenode.top
   type: anytls
   udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇭🇰 HK 005 | ⬇️ 1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 16.162.161.131
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 189 | ⬇️ 107KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.242.57.208
+  type: socks5
+  username: '888'
+- name: 🇭🇰 HK 175 | ⬇️ 10MB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.243.123.12
+  type: socks5
+  username: '888'
 - name: 🇭🇰 HK 744 | ⬇️ 14KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- name: 🇭🇰 HK 024 | ⬇️ 20KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.22.117
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 041 | ⬇️ 31KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.80.206
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: '111'
-- name: 🇭🇰 HK 154 | ⬇️ 25KB/s
+- name: 🇭🇰 HK 633 | ⬇️ 78KB/s
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- name: 🇭🇰 HK 077 | ⬇️ 37KB/s
-  password: '!!str 8888'
-  port: 1080
-  server: 8.210.31.250
+- name: 🇭🇰 HK 354 | ⬇️ 313KB/s
+  password: ''
+  port: 20000
+  server: 59.38.113.185
   type: socks5
-  username: '8888'
+  username: Og==
+- name: 🇭🇰 HK 142 | ⬇️ 11KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.243.98.8
+  type: socks5
+  username: '888'
+- name: 🇭🇰 HK 151 | ⬇️ 8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 191 | ⬇️ 20KB/s
+  password: '!!str 888'
+  port: 1080
+  server: 47.243.22.117
+  type: socks5
+  username: '888'
 - alpn:
   - ''
   alterId: 2
@@ -79,30 +83,20 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 127 | ⬇️ 48KB/s
-  password: '!!str 888'
+- name: 🇭🇰 HK 597 | ⬇️ 21KB/s
+  password: '!!str 8888'
   port: 1080
-  server: 47.243.51.181
+  server: 8.210.31.250
   type: socks5
-  username: '888'
-- name: 🇭🇰 HK 222 | ⬇️ 26KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.88.33
+  username: '8888'
+- name: 🇭🇰 HK 556 | ⬇️ 1MB/s
+  password: Og==
+  port: 20000
+  server: 59.38.113.185
   type: socks5
-  username: '888'
-- name: 🇭🇰 HK 370 | ⬇️ 61KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.149.80
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
-  port: 1080
-  server: 124.156.185.140
-  type: socks5
+  username: Og==
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 773 | ⬇️ 1MB/s
+  name: 🇭🇰 HK 647 | ⬇️ 1MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -113,30 +107,17 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 781 | ⬇️ 8MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 784 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.241.194
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
+- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
+  port: 1080
+  server: 124.156.185.140
+  type: socks5
+- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
 - name: 🇭🇰 HK 018 | ⬇️ 307KB/s
   port: 1080
   server: 43.161.253.113
@@ -199,11 +180,6 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰 HK 354 | ⬇️ 313KB/s
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
 - name: 🇭🇰 HK 561 | ⬇️ 2KB/s
   password: '!!str 2222'
   port: 2222
