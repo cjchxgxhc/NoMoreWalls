@@ -1,22 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 GB 561 | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.114
-  servername: vl04.skorostnet.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  xudp: true
 - name: 🇫🇷FR_2|3.2MB/s
   packet-encoding: ''
   packetEncoding: none
@@ -28,10 +10,15 @@ proxies:
   type: anytls
   udp: true
   username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇬🇧 GB 282 | ⬇️ 559KB/s
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 GB 274 | ⬇️ 7MB/s
+  name: 🇬🇧 GB 597 | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -45,41 +32,3 @@ proxies:
   type: vless
   udp: true
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-yandex
-  name: 🇬🇧 GB 559 | ⬇️ 7MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: 217.179.220.69
-  servername: avatars.mds.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- name: 🇬🇧 GB 603 | ⬇️ 60KB/s
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇪🇪 EE 725 | ⬇️ 1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: '!!str a696de84963656de'
-  server: 95.85.224.51
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83

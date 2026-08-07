@@ -1,8 +1,12 @@
 proxies:
+- name: 🇷🇺 RU 293 | ⬇️ 15KB/s
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 046 | ⬇️ 37KB/s
+  name: 🇷🇺 RU 572 | ⬇️ 25KB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -16,24 +20,18 @@ proxies:
   type: vless
   udp: true
   uuid: e9177091-3ec0-4b7e-8b63-b5ad7e06edfb
-- name: 🇷🇺 RU 442 | ⬇️ 18KB/s
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-  username: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-yandex
-  name: 🇷🇺 RU 564 | ⬇️ 9MB/s
+  name: 🇷🇺 RU 494 | ⬇️ 8MB/s
   network: grpc
   packet-encoding: xudp
   port: 8443
   reality-opts:
     public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
     short-id: '!!str 844352756c1fabba'
-  server: 193.233.246.80
+  server: 193.233.246.88
   servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
@@ -42,23 +40,7 @@ proxies:
   uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
 - client-fingerprint: qq
   encryption: none
-  name: 🇷🇺 RU 565 | ⬇️ 10MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 6443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: 193.233.246.85
-  servername: avatars.mds.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-- client-fingerprint: qq
-  encryption: none
-  name: 🇷🇺 RU 570 | ⬇️ 9MB/s
+  name: 🇷🇺 RU 495 | ⬇️ 9MB/s
   network: xhttp
   packet-encoding: xudp
   port: 6443
@@ -73,46 +55,53 @@ proxies:
   udp: true
   uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
 - client-fingerprint: chrome
-  name: 🇷🇺 RU 769 | ⬇️ 307KB/s
-  network: xhttp
-  packet-encoding: ''
-  port: 443
-  server: ru.node.sillyvpn.cc
-  servername: ru.node.sillyvpn.cc
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-yandex
+  name: 🇷🇺 RU 552 | ⬇️ 9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: '!!str 844352756c1fabba'
+  server: 193.233.246.82
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  xhttp-opts:
-    host: ru.node.sillyvpn.cc
-    mode: packet-up
-    path: /api/burmalda.json
+  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-yandex
+  name: 🇷🇺 RU 564 | ⬇️ 9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: '!!str 844352756c1fabba'
+  server: 193.233.246.76
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
 - encryption: none
-  name: 🇷🇺 RU 787 | ⬇️ 2KB/s
+  name: 🇷🇺 RU 658 | ⬇️ 1KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
-  server: 77.222.37.89
+  server: 5.129.252.140
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
+  uuid: eb135f2b-4b9e-4abb-9a89-78242613da61
   ws-opts:
     headers:
       Host: live.ok.ru
-    path: /v1
-- encryption: none
-  name: 🇷🇺 RU 788 | ⬇️ 3KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 201.51.0.38
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
-  ws-opts:
     path: /v1

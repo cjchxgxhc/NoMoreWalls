@@ -1,5 +1,7 @@
 proxies:
 - name: 🇭🇰HK_1|3.8MB/s
+  packet-encoding: ''
+  packetEncoding: none
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17960
   server: jjz.jjznodenode.top
@@ -7,64 +9,43 @@ proxies:
   sni: hk.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇭🇰 HK 005 | ⬇️ 1MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 29444
-  server: 16.162.161.131
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 HK 189 | ⬇️ 107KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.242.57.208
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇭🇰 HK 583 | ⬇️ 1MB/s
+  password: Og==
+  port: 20000
+  server: 59.38.113.185
   type: socks5
-  username: '888'
-- name: 🇭🇰 HK 175 | ⬇️ 10MB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.123.12
-  type: socks5
-  username: '888'
-- name: 🇭🇰 HK 744 | ⬇️ 14KB/s
+  udp: true
+  username: Og==
+- name: 🇭🇰 HK 647 | ⬇️ 20KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- name: 🇭🇰 HK 633 | ⬇️ 78KB/s
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
-- name: 🇭🇰 HK 354 | ⬇️ 313KB/s
+- name: 🇭🇰 HK 439 | ⬇️ 1MB/s
   password: ''
   port: 20000
   server: 59.38.113.185
   type: socks5
   username: Og==
-- name: 🇭🇰 HK 142 | ⬇️ 11KB/s
-  password: '!!str 888'
+- name: 🇭🇰 HK 051 | ⬇️ 1KB/s
+  password: '!!str 8888'
   port: 1080
-  server: 47.243.98.8
+  server: 8.210.31.250
   type: socks5
-  username: '888'
-- name: 🇭🇰 HK 151 | ⬇️ 8MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 43.198.209.68
+  username: '8888'
+- name: 🇭🇰 HK 606 | ⬇️ 5KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 HK 191 | ⬇️ 20KB/s
-  password: '!!str 888'
-  port: 1080
-  server: 47.243.22.117
   type: socks5
-  username: '888'
+  username: '111'
+- name: 🇭🇰 HK 607 | ⬇️ 38KB/s
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - alpn:
   - ''
   alterId: 2
@@ -74,7 +55,7 @@ proxies:
   delay: 821
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 673 | ⬇️ 1KB/s
+  name: 🇭🇰 HK 656 | ⬇️ 3KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -83,161 +64,12 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 HK 597 | ⬇️ 21KB/s
-  password: '!!str 8888'
+- name: 🇭🇰 HK 648 | ⬇️ 20KB/s
+  password: abc123
   port: 1080
-  server: 8.210.31.250
+  server: 47.239.98.42
   type: socks5
-  username: '8888'
-- name: 🇭🇰 HK 556 | ⬇️ 1MB/s
-  password: Og==
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 647 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cloudflare-ip.mofashi.ltd
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- name: 🇭🇰 HK 006 | ⬇️ 13KB/s
-  port: 1080
-  server: 124.156.185.140
-  type: socks5
-- name: 🇭🇰 HK 017 | ⬇️ 7KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- name: 🇭🇰 HK 018 | ⬇️ 307KB/s
-  port: 1080
-  server: 43.161.253.113
-  type: socks5
-- name: 🇭🇰 HK 536 | ⬇️ 232KB/s
-  password: ''
-  port: 10800
-  server: 47.75.116.41
-  tls: false
-  type: socks5
-  username: ''
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK 237 | ⬇️ 707KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
-    short-id: '!!str 54fc3827c8'
-  server: 156.248.10.58
-  servername: nono.hhhkkhktt.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-- name: 🇭🇰 HK 175 | ⬇️ 10KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 🇭🇰 HK 203 | ⬇️ 18MB/s
-  network: ws
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: /images
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 279 | ⬇️ 3KB/s
-  network: ws
-  port: 443
-  server: 47.92.245.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-    path: /ws-vmess
-- name: 🇭🇰 HK 561 | ⬇️ 2KB/s
-  password: '!!str 2222'
-  port: 2222
-  server: 43.100.106.218
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '2222'
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 719 | ⬇️ 3MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 775 | ⬇️ 727KB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.16.252.34
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 777 | ⬇️ 15KB/s
-  network: ws
-  port: 443
-  server: 47.92.245.88
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
+  username: abc123
 - name: 🇭🇰HK_2|2.7MB/s
   password: <password>
   port: 8443

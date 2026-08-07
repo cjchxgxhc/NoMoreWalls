@@ -1,8 +1,63 @@
 proxies:
+- name: 🇺🇸 US 440 | ⬇️ 502KB/s
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- name: 🇺🇸 US 155 | ⬇️ 1008KB/s
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  ws-opts:
+    path: /
+- name: 🇺🇸 US 389 | ⬇️ 222KB/s
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.19.152.118
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  ws-opts:
+    path: /
+- name: 🇺🇸 US 150 | ⬇️ 241KB/s
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.19.152.118
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
 - cipher: aes-256-cfb
-  name: 🇺🇸 US 644 | ⬇️ 1MB/s
+  name: 🇺🇸 US 630 | ⬇️ 5MB/s
   password: amazonskr05
   port: 443
   server: 100.31.139.112
+  skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 665 | ⬇️ 1MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  skip-cert-verify: false
+  type: ss
+  udp: false
