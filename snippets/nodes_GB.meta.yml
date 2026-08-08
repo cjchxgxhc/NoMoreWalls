@@ -1,5 +1,7 @@
 proxies:
-- name: 🇬🇧 GB 047 | ⬇️ 4MB/s
+- name: 🇫🇷FR_1|3.7MB/s
+  packet-encoding: ''
+  packetEncoding: none
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17965
   server: jjz.jjznodenode.top
@@ -7,30 +9,51 @@ proxies:
   sni: uk.jjznodenode.top
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 🇬🇧 GB 215 | ⬇️ 395KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 542 | ⬇️ 87KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇬🇧 GB 628 | ⬇️ 5MB/s
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇬🇧 GB 576 | ⬇️ 5MB/s
   password: ''
   port: 1080
   server: 83.147.216.208
   type: socks5
   username: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇬🇧 GB 112 | ⬇️ 133KB/s
+  network: grpc
+  port: 15565
+  reality-opts:
+    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
+    short-id: '!!str a5bd715862513387'
+  server: 217.19.122.142
+  servername: iv.kommersant.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_1|1.1MB/s
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.66.64
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 🇬🇧GB_2|2.0MB/s
+  network: ws
+  port: 8443
+  server: 104.16.73.211
+  servername: PRIME.netlinr12345.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 104b694e-5063-4e4f-8d9f-5c67cc6e046c
+  ws-opts:
+    headers:
+      Host: PRIME.netlinr12345.ir
+    path: /

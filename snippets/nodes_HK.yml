@@ -1,20 +1,12 @@
 proxies:
-- name: 🇭🇰 HK 007 | ⬇️ 8MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 43.198.109.39
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 🇭🇰 HK 010 | ⬇️ 11MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 43.198.109.39
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- cipher: aes-256-gcm
+  name: 🇭🇰 HK 250 | ⬇️ 10KB/s
+  password: 72553320ae6bcc8f
+  port: 10910
+  server: 212.192.15.159
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 2
@@ -24,7 +16,7 @@ proxies:
   delay: 821
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰 HK 555 | ⬇️ 3KB/s
+  name: 🇭🇰 HK 681 | ⬇️ 5KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -33,35 +25,14 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 🇭🇰 HK 528 | ⬇️ 105KB/s
-  password: Eg0yjO8ktYr6
-  port: 8388
-  server: 212.192.13.9
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
-  name: 🇭🇰 HK 073 | ⬇️ 5MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  name: 🇭🇰HK_4|2.2MB/s
+  network: tcp
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   port: 443
-  server: cfip.1323123.xyz
-  sni: yks-dd9.pages.dev
+  server: 43.249.172.27
+  skip-cert-verify: true
+  sni: hongkong.kingonestar.com
+  tls: true
   type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 489 | ⬇️ 8MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.0sm.com
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
+  udp: true
