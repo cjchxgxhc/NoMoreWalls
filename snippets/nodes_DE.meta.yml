@@ -1,10 +1,48 @@
 proxies:
+- name: '🇩🇪 DE 552 | ⬇️ 159KB/s #1'
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17966
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: '🇩🇪 DE 773 | ⬇️ 293KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇩🇪 DE 769 | ⬇️ 141KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: '🇩🇪 DE 565 | ⬇️ 1MB/s #1'
+  password: ''
+  port: 1081
+  server: 46.37.123.166
+  type: socks5
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: your-custom-path
-  name: 🇩🇪 DE 226 | ⬇️ 4MB/s
+  name: '🇩🇪 DE 680 | ⬇️ 20KB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 6443
@@ -18,207 +56,12 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- name: 🇫🇷 FR 203 | ⬇️ 12KB/s
-  password: ''
-  port: 1080
-  server: 213.136.92.91
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 700 | ⬇️ 368KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 🇩🇪 DE 257 | ⬇️ 1MB/s
-  password: ''
-  port: 1081
-  server: 46.37.123.166
-  type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇩🇪 DE 049 | ⬇️ 996KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: dk1.de1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 703 | ⬇️ 601KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇩🇪 DE 541 | ⬇️ 6MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: it2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 676 | ⬇️ 429KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 🇩🇪 DE 606 | ⬇️ 269KB/s
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: false
-  sni: de-two.quiet-rogue.site
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: 🇬🇧 GB 697 | ⬇️ 395KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇩🇪 DE 617 | ⬇️ 1MB/s
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 144.31.166.91
-  skip-cert-verify: false
-  sni: de-two.quiet-rogue.site
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 🇩🇪 DE 635 | ⬇️ 1KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17966
-  server: jjz.jjznodenode.top
-  skip-cert-verify: false
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 524 | ⬇️ 228KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_1|1.3MB/s
-  network: xhttp
-  port: 8443
-  server: 104.16.6.189
-  servername: migmigyoulost.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: migmigyoulost.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1069
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 649 | ⬇️ 35KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇩🇪 DE 701 | ⬇️ 47KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: gb1.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- name: 🇩🇪 DE 084 | ⬇️ 6MB/s
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.217
-  skip-cert-verify: true
-  sni: mercedes-grape.yyuyy.com
-  tfo: false
-  type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 🇩🇪 DE 569 | ⬇️ 183KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: sk.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_2|1.3MB/s
+  name: '🇩🇪 DE 149 | ⬇️ 1MB/s #1'
   network: xhttp
   port: 8443
   server: 104.16.6.82
@@ -232,45 +75,128 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: fi1cosmos
+  name: '🇩🇪 DE 108 | ⬇️ 12KB/s #1'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
+  server: dk1.de1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- country: 🇺🇸US
+  name: '🇩🇪 DE 753 | ⬇️ 222KB/s #1'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 144.31.166.91
+  skip-cert-verify: false
+  sni: de-two.quiet-rogue.site
+  tfo: false
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1069
+  h2-opts: {}
+  http-opts: {}
+  name: '🇩🇪 DE 780 | ⬇️ 32KB/s #1'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.2MB/s
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: '🇩🇪 DE 186 | ⬇️ 1MB/s #1'
   network: xhttp
-  port: 2096
-  server: api.tenneltheducks.ir
-  servername: FiN-XhTt.SeZaR.OrG
+  port: 8443
+  server: 104.16.6.189
+  servername: migmigyoulost.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 735f7616-a5cc-45ce-9bdc-b741054cb13e
+  uuid: 88888888-8888-8888-8888-888888888888
   xhttp-opts:
-    host: FiN-XhTt.SeZaR.OrG
+    host: migmigyoulost.dpdns.org
     mode: auto
-    path: /ports/1106
+    path: /
+    x-padding-bytes: 100-1000
 - client-fingerprint: chrome
-  name: 🇩🇪DE_4|1.7MB/s
+  name: '🇩🇪 DE 732 | ⬇️ 252KB/s #1'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
+  port: 20041
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: '🇩🇪 DE 402 | ⬇️ 32KB/s #1'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  tfo: false
+  type: hysteria2
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  name: '🇩🇪 DE 741 | ⬇️ 108KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
   type: trojan
   udp: true
 - client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_5|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
+  name: '🇩🇪 DE 706 | ⬇️ 87KB/s #1'
+  network: tcp
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: 9db70040-a7e4-4641-9629-699ef03963f8
-  xudp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_1|1.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: FPSfGfmZs5rjz5dlqreuDK7B
+  port: '62202'
+  server: 37.120.189.107
+  skip-cert-verify: true
+  sni: de1.143259.xyz
+  tfo: false
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: '🇩🇪 DE 775 | ⬇️ 147KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
