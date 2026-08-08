@@ -1,34 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇺🇸 US 1061 | ⬇️ 52KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇷🇺 RU 990 | ⬇️ 25KB/s #1'
-  network: raw
-  packet-encoding: xudp
+- auth: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  name: 🇷🇺RU_1|4.3MB/s
+  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
-  reality-opts:
-    public-key: KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE
-    short-id: '!!str 6aa44564cda562bc'
-  server: 109.120.189.154
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9177091-3ec0-4b7e-8b63-b5ad7e06edfb
+  server: gm.serviceoda.ru
+  skip-cert-verify: true
+  sni: gm.serviceoda.ru
+  type: hysteria2

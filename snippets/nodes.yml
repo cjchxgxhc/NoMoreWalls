@@ -1,96 +1,6 @@
 proxies:
-- name: '🇺🇸 US 061 | ⬇️ 502KB/s #1'
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: '🇺🇸 US 067 | ⬇️ 529KB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  type: ss
-  udp: true
-- name: '🇺🇸 US 219 | ⬇️ 1MB/s #1'
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇮🇷IR
-  delay: 392
-  h2-opts: {}
-  http-opts: {}
-  name: '🇯🇵 JP 726 | ⬇️ 4KB/s #1'
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  servername: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '🇺🇸 US 964 | ⬇️ 949KB/s #1'
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.19.152.118
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
 - client-fingerprint: chrome
-  country: 🇸🇬SG
-  name: '🇩🇪 DE 1099 | ⬇️ 348KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 605
-  h2-opts: {}
-  http-opts: {}
-  name: '🇭🇰 HK 1090 | ⬇️ 5KB/s #1'
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  client-fingerprint: chrome
-  name: '🇩🇪 DE 1096 | ⬇️ 98KB/s #1'
+  name: '🇩🇪 DE 526 | ⬇️ 395KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -100,7 +10,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 1086 | ⬇️ 324KB/s #1'
+  name: '🇩🇪 DE 523 | ⬇️ 430KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -110,8 +20,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '🇬🇧 GB 1101 | ⬇️ 388KB/s #1'
+  name: '🇩🇪 DE 542 | ⬇️ 87KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -120,157 +29,177 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: '🇯🇵 JP 1066 | ⬇️ 205KB/s #1'
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 392
+  h2-opts: {}
+  http-opts: {}
+  name: '🇯🇵 JP 083 | ⬇️ 13KB/s #1'
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  servername: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: '🇭🇰 HK 073 | ⬇️ 5MB/s #1'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cfip.1323123.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 821
+  h2-opts: {}
+  http-opts: {}
+  name: '🇭🇰 HK 555 | ⬇️ 3KB/s #1'
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 760
+  h2-opts: {}
+  http-opts: {}
+  name: '🇮🇪 IE 560 | ⬇️ 5KB/s #1'
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- country: 🇸🇬SG
+  name: '🇬🇧 GB 215 | ⬇️ 395KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alterId: 0
+  name: '🇯🇵 JP 165 | ⬇️ 17KB/s #1'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇭🇰 HK 489 | ⬇️ 8MB/s #1'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.0sm.com
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  name: '🇯🇵 JP 509 | ⬇️ 444KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: '🇺🇸 US 554 | ⬇️ 13KB/s #1'
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '🇫🇷 FR 556 | ⬇️ 17KB/s #1'
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '🇩🇪 DE 559 | ⬇️ 20KB/s #1'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🇯🇵 JP 562 | ⬇️ 1MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1069
-  h2-opts: {}
-  http-opts: {}
-  name: '🇩🇪 DE 647 | ⬇️ 48KB/s #1'
+- country: 🇺🇸US
+  name: '🇰🇷 KR 564 | ⬇️ 5KB/s #1'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 DE 1030 | ⬇️ 104KB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
+  sni: 154.90.62.70
   type: trojan
-- name: '🇺🇸 US 719 | ⬇️ 112KB/s #1'
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.19.152.118
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: '🇺🇸 US 951 | ⬇️ 1MB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: '🇯🇵 JP 893 | ⬇️ 28KB/s #1'
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: '🇸🇪 SE 946 | ⬇️ 922KB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 13.50.4.72
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: '🇮🇪 IE 1028 | ⬇️ 16KB/s #1'
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '🇺🇸 US 1108 | ⬇️ 1MB/s #1'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷FR_3|2.5MB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|3.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.31.139.112
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬SG_3|2.1MB/s
   network: ws
-  password: humanity
+  password: MiTiVPN
   port: '443'
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|3.7MB/s
-  password: vgi6UU38zMyqTARPkGLwZb
-  port: '5228'
-  server: creativeboxde2.zanity.net
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_2|5.3MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇧🇷BR_1|2.5MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 177.3.208.169
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_1|1.6MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: ❓Other_2|1.3MB/s
-  network: tcp
-  password: i99Cef
-  port: '28120'
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4|4.3MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.102.202
-  type: ss
-  udp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls

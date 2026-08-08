@@ -1,39 +1,11 @@
 proxies:
-- name: 🇯🇵JP_2|4.6MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: 🇯🇵JP_1|4.5MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17962
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: '🇯🇵 JP 676 | ⬇️ 3KB/s #1'
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
 - alterId: 2
   cipher: auto
-  country: 🇮🇷IR
+  country: 🇨🇳CN
   delay: 392
   h2-opts: {}
   http-opts: {}
-  name: '🇯🇵 JP 726 | ⬇️ 4KB/s #1'
+  name: '🇯🇵 JP 083 | ⬇️ 13KB/s #1'
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -41,66 +13,30 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '🇯🇵 JP 335 | ⬇️ 4KB/s #1'
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: '🇯🇵 JP 1066 | ⬇️ 205KB/s #1'
+- alterId: 0
+  name: '🇯🇵 JP 165 | ⬇️ 17KB/s #1'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇯🇵 JP 509 | ⬇️ 444KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+- name: '🇯🇵 JP 562 | ⬇️ 1MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇯🇵 JP 1049 | ⬇️ 55KB/s #1'
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  reality-opts:
-    public-key: 3_EcaGWGxJluoPja5IIZeCf2bBwur7cuEGR74itgHyU
-    short-id: '!!str f641d171'
-  server: 64.176.43.163
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23eaa47c-e54a-4ea9-b75a-92835863a0a3
-- name: 🇯🇵JP_3|2.6MB/s
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  tls: false
-  type: socks5
-  username: u1179940355
-- name: '🇯🇵 JP 893 | ⬇️ 28KB/s #1'
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '🇯🇵 JP 919 | ⬇️ 17KB/s #1'
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_4|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: -Xqm17XFjFPUHutSnpMNOlrqlT1pJfKuHT003dU3aks
-    short-id: '!!str 06'
-  server: 64.176.55.120
-  servername: shop-us-en.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9194bade-099b-4723-9f19-606edb5aeab8
-  xudp: true

@@ -1,7 +1,5 @@
 proxies:
-- name: 🇫🇷FR_2|3.2MB/s
-  packet-encoding: ''
-  packetEncoding: none
+- name: '🇬🇧 GB 047 | ⬇️ 4MB/s #1'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17965
   server: jjz.jjznodenode.top
@@ -9,23 +7,21 @@ proxies:
   sni: uk.jjznodenode.top
   type: anytls
   udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- client-fingerprint: chrome
-  name: '🇬🇧 GB 704 | ⬇️ 732KB/s #1'
-  network: ws
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇬🇧GB_1|2.6MB/s
+  network: xhttp
   port: 443
-  server: smm-01.smmmdesign.com
-  servername: smm-01.smmmdesign.com
+  server: www.speedtest.net
+  servername: sazeg.bEwiNja.ir.
   tls: true
   type: vless
   udp: true
-  uuid: cab38fce-e08d-4a3d-9828-dcb96b18d132
-  ws-opts:
-    headers:
-      Host: smm-01.smmmdesign.com
-    path: /vless
-- name: '🇬🇧 GB 1020 | ⬇️ 869KB/s #1'
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: sazeg.bEwiNja.ir.
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
