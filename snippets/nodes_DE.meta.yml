@@ -1,16 +1,79 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 526 | ⬇️ 395KB/s #1'
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 298 | ⬇️ 3MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.236.182
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- encryption: none
+  name: 🇩🇪 DE 030 | ⬇️ 673KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2052
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiZUV1OVVaQ2xSWiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 523 | ⬇️ 430KB/s #1'
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: your-custom-path
+  name: 🇩🇪 DE 035 | ⬇️ 8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: '!!str 2da4299da566b7'
+  server: 45.151.101.103
+  servername: maps.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇷🇴RO_1|2.5MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.217
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
+  type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 040 | ⬇️ 40KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de8.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 523 | ⬇️ 430KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -20,38 +83,29 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '🇩🇪 DE 542 | ⬇️ 87KB/s #1'
+  name: 🇩🇪 DE 526 | ⬇️ 395KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
   udp: true
-- auth: 71cada65-d23e-418c-88e4-a06188d14689
-  name: 🇩🇪DE_2|2.7MB/s
-  password: 71cada65-d23e-418c-88e4-a06188d14689
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 043 | ⬇️ 156KB/s
+  network: tcp
   port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  tfo: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: '443'
-  server: 144.31.166.91
-  skip-cert-verify: false
-  sni: de-two.quiet-rogue.site
-  tfo: false
-  type: hysteria2
-  up: ''
-- name: 🇫🇷FR_1|3.4MB/s
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de11.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- name: 🇩🇪 DE 050 | ⬇️ 7MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17966
   server: jjz.jjznodenode.top
@@ -59,34 +113,68 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- country: 🇸🇬SG
-  name: '🇬🇧 GB 215 | ⬇️ 395KB/s #1'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 084 | ⬇️ 113KB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de7.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '🇩🇪 DE 559 | ⬇️ 20KB/s #1'
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- encryption: none
+  name: 🇩🇪 DE 625 | ⬇️ 591KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 45.131.4.115
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a7b22989-6c1f-4b59-b0f3-0605401813c4
+  ws-opts:
+    headers:
+      Host: worker3.gigak25604.workers.dev
+    path: /eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 142 | ⬇️ 43KB/s
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de13.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 638 | ⬇️ 6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwacdi.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: fi1cosmos
-  name: 🇩🇪DE_1|2.5MB/s
+  name: 🇩🇪 DE 170 | ⬇️ 183KB/s
   network: grpc
   port: 443
   reality-opts:
@@ -97,7 +185,50 @@ proxies:
   type: vless
   udp: true
   uuid: f692629b-3557-488a-9c9b-60775331e423
-- name: 🇩🇪DE_3|1.7MB/s
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 207 | ⬇️ 41KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de12.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇩🇪 DE 070 | ⬇️ 5MB/s
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  tfo: false
+  type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪 DE 565 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: de14.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- name: 🇩🇪 DE 204 | ⬇️ 1MB/s
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 144.31.166.91
+  skip-cert-verify: false
+  sni: de-two.quiet-rogue.site
+  tfo: false
+  type: hysteria2
+- name: 🇩🇪 DE 641 | ⬇️ 14MB/s
   network: ws
   port: 8880
   server: cd-site.benomiz.ir
@@ -110,16 +241,59 @@ proxies:
       Host: gr.gadawebi.ir
     path: /
     v2ray-http-upgrade: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|3.3MB/s
-  network: tcp
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: fi1cosmos
+  name: 🇩🇪 DE 642 | ⬇️ 6MB/s
+  network: grpc
   port: 443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: de8.fi1-cosmostechnology.ru
+    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
+  server: it2.fi1-cosmostechnology.ru
   servername: fi1-cosmostechnology.ru
   tls: true
   type: vless
   udp: true
   uuid: f692629b-3557-488a-9c9b-60775331e423
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 559 | ⬇️ 20KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪DE_1|1.1MB/s
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d36b40ec-5328-48e7-b8c1-ce9f1cfa0430
+  xudp: true

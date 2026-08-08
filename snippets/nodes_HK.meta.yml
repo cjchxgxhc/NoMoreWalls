@@ -1,12 +1,78 @@
 proxies:
-- name: '🇭🇰 HK 514 | ⬇️ 3KB/s #1'
+- name: 🇭🇰 HK 007 | ⬇️ 8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 43.198.109.39
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 010 | ⬇️ 11MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 43.198.109.39
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 HK 302 | ⬇️ 941KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17960
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: hk.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- name: 🇭🇰 HK 162 | ⬇️ 14KB/s
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
+- name: 🇭🇰 HK 522 | ⬇️ 22KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 821
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 555 | ⬇️ 3KB/s
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 🇭🇰 HK 528 | ⬇️ 105KB/s
+  password: Eg0yjO8ktYr6
+  port: 8388
+  server: 212.192.13.9
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇭🇰 HK 514 | ⬇️ 3KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 073 | ⬇️ 5MB/s #1'
+  name: 🇭🇰 HK 073 | ⬇️ 5MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -17,32 +83,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 821
-  h2-opts: {}
-  http-opts: {}
-  name: '🇭🇰 HK 555 | ⬇️ 3KB/s #1'
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇭🇰 HK 162 | ⬇️ 14KB/s #1'
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 489 | ⬇️ 8MB/s #1'
+  name: 🇭🇰 HK 489 | ⬇️ 8MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -53,10 +95,3 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- name: '🇭🇰 HK 522 | ⬇️ 22KB/s #1'
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'

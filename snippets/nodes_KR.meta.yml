@@ -1,7 +1,23 @@
 proxies:
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 500 | ⬇️ 19MB/s
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
   delay: 1527
-  name: '🇰🇷 KR 529 | ⬇️ 412KB/s #1'
+  name: 🇰🇷 KR 529 | ⬇️ 412KB/s
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -10,8 +26,63 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 556 | ⬇️ 8MB/s
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 🇰🇷 KR 561 | ⬇️ 192KB/s
+  password: Og%3D%3D
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: Og%3D%3D
+- name: 🇰🇷 KR 617 | ⬇️ 15KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
+- name: 🇰🇷 KR 629 | ⬇️ 170KB/s
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 KR 634 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
 - country: 🇺🇸US
-  name: '🇰🇷 KR 564 | ⬇️ 5KB/s #1'
+  name: 🇰🇷 KR 564 | ⬇️ 5KB/s
   network: tcp
   password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
   port: 56127
@@ -20,3 +91,12 @@ proxies:
   sni: 154.90.62.70
   type: trojan
   udp: true
+- name: 🇰🇷KR_1|2.5MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
