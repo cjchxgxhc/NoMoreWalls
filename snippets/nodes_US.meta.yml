@@ -1,12 +1,24 @@
 proxies:
-- name: 🇺🇸 US 031 | ⬇️ 24KB/s
-  port: 1080
-  server: 43.162.94.99
-  type: socks5
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 041 | ⬇️ 65KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 159.195.14.140
+  servername: ai.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸 US 430 | ⬇️ 90KB/s
+  name: 🇺🇸 US 554 | ⬇️ 625KB/s
   network: tcp
   packet-encoding: xudp
   port: 993
@@ -19,35 +31,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|1.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- auth: 7wzl2lj2fy956inb
-  name: 🇺🇸US_1|1.5MB/s
-  password: 7wzl2lj2fy956inb
-  port: 40001
-  server: 3x.aweijll.cf
-  skip-cert-verify: true
-  sni: 3x.aweijll.cf
-  type: hysteria2
-- name: 🇺🇸 US 096 | ⬇️ 53KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸 US 091 | ⬇️ 32KB/s
-  password: ''
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-  username: ''
-- name: 🇺🇸 US 100 | ⬇️ 8MB/s
+- name: 🇺🇸 US 399 | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -61,38 +45,51 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
     path: /
+- encryption: none
+  name: 🇺🇸 US 042 | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8450
+  server: 185.23.35.175
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 48817310-fd5c-4877-b2ac-70fee6db6acc
+  ws-opts:
+    headers:
+      Host: x5club.ru
+    path: /lk/profile
+- client-fingerprint: chrome
+  name: 🇺🇸 US 050 | ⬇️ 2MB/s
+  network: ws
+  port: 443
+  server: 104.16.65.1
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- name: 🇺🇸 US 530 | ⬇️ 3MB/s
+  password: ''
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇺🇸 US 404 | ⬇️ 53KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: 🇹🇷TR_1|1.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: '8443'
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    short-id: '!!str '
-  server: 170.168.97.5
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
-  xudp: true
-- name: 🇺🇸 US 461 | ⬇️ 133KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 🇺🇸 US 443 | ⬇️ 5MB/s
+  name: 🇺🇸 US 541 | ⬇️ 5MB/s
   network: grpc
   packet-encoding: xudp
   port: 8443
@@ -105,7 +102,43 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 🇺🇸 US 448 | ⬇️ 7MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸 US 542 | ⬇️ 10MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 🇺🇸 US 571 | ⬇️ 83KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
+    mode: auto
+    path: /
+- name: 🇺🇸 US 451 | ⬇️ 133KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 US 372 | ⬇️ 7MB/s
   network: ws
   port: 2095
   server: www.wto.org
@@ -119,129 +152,118 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 419 | ⬇️ 8KB/s
-  network: xhttp
+- name: 🇺🇸 US 348 | ⬇️ 36KB/s
+  port: 1080
+  server: 43.162.94.99
+  type: socks5
+- name: 🇺🇸 US 684 | ⬇️ 98KB/s
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸 US 716 | ⬇️ 2MB/s
+  network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
+    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
+    short-id: '!!str 3182f9ae'
+  server: 193.233.205.117
+  servername: media3.abvphelp.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xhttp-opts:
-    mode: auto
-    path: /
-- name: 🇺🇸 US 494 | ⬇️ 14KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 US 565 | ⬇️ 10MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
   tls: false
-  type: socks5
-  username: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   client-fingerprint: ''
-  name: 🇺🇸 US 487 | ⬇️ 13KB/s
+  name: 🇺🇸 US 751 | ⬇️ 13KB/s
   network: tcp
   port: 30824
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸US_9|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 10418
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇺🇸US_4|1.2MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|1.2MB/s
+- name: 🇺🇸 US 535 | ⬇️ 1008KB/s
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  tls: false
+  type: socks5
+  username: ''
+- name: 🇺🇸 US 513 | ⬇️ 1MB/s
   network: ws
-  port: 2053
-  server: www.visa.cn
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
   type: vless
   udp: true
-  uuid: 7bd30627-8487-4506-bc42-b07722b24633
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- name: 🇺🇸US_6|4.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- auth: 7wzl2lj2fy956inb
+  name: 🇺🇸 US 054 | ⬇️ 865KB/s
+  password: 7wzl2lj2fy956inb
+  port: 40001
+  server: 3x.aweijll.cf
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_7|2.2MB/s
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|2.7MB/s
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇺🇸US_10|3.0MB/s
-  password: BxceQaOe
-  port: '10418'
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_11|2.0MB/s
+  sni: 3x.aweijll.cf
+  tfo: false
+  type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 125 | ⬇️ 18KB/s
   network: tcp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: itfYOjWaEZ8FSD730zUvrhCbbzWgSWFDXjnAWCj23Rc
-    short-id: '!!str e371d988'
-  server: 161.104.90.17
-  servername: www.samsung.com
+    public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
+  server: 152.53.82.202
+  servername: shy-tiger.cdn.cachefleet.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: firefox
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_12|1.5MB/s
-  network: grpc
+  name: 🇺🇸US_1|1.3MB/s
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: '!!str 3182f9ae'
-  server: 193.233.205.117
-  servername: media3.abvphelp.cc
+  server: api.connectix.uk
+  servername: unitedstates.havray2025.ir
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: f3a436a8-45c3-4c5d-bf97-b1ff6e9ced38
+  ws-opts:
+    headers:
+      Host: unitedstates.havray2025.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: ''
   xudp: true

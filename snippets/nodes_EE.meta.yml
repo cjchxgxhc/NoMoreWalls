@@ -1,13 +1,16 @@
 proxies:
 - client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪 EE 054 | ⬇️ 2MB/s
+  name: 🇪🇪 EE 434 | ⬇️ 2MB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
   server: 91.235.234.186
   servername: us7fs3.proxen.pdevinfra.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
