@@ -1,26 +1,45 @@
 proxies:
-- name: '🇫🇷 FR 334 | ⬇️ 562KB/s #1'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+    path: /
+  name: 🇫🇷 FR 102 | ⬇️ 865KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: '!!str 2da4299da566b7'
+  server: 45.151.101.103
+  servername: maps.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 FR 489 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇫🇷 FR 334 | ⬇️ 562KB/s
   port: 1080
   server: 213.199.47.140
   type: socks5
 - cipher: chacha20-ietf-poly1305
-  name: '🇫🇷 FR 408 | ⬇️ 64KB/s #1'
+  name: 🇫🇷 FR 408 | ⬇️ 64KB/s
   password: ZmM0Z
   port: 8388
   server: 83.171.225.55
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: '🇫🇷 FR 489 | ⬇️ 17KB/s #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷FR_1|3.2MB/s
+- name: 🇫🇷FR_1|1.3MB/s
   password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
   port: 443
   server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com

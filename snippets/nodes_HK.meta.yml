@@ -1,10 +1,61 @@
 proxies:
-- name: '🇭🇰 HK 447 | ⬇️ 3KB/s #1'
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: 🇭🇰HK_4|1.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '35151'
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇭🇰HK
+  name: 🇭🇰HK_3|2.0MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '35151'
+  server: 16.162.190.25
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- allowInsecure: '1'
+  name: 🇭🇰 HK 020 | ⬇️ 429KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  port: 443
+  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  sub-tag: C002-260622
+  type: anytls
+  udp: true
+  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+- name: 🇭🇰 HK 447 | ⬇️ 3KB/s
   password: '!!str 123'
   port: 3060
   server: 43.100.43.112
+  tls: false
   type: socks5
   username: '123'
+- name: 🇭🇰 HK 415 | ⬇️ 42KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
+- name: 🇭🇰HK_1|4.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 35151
+  server: 16.162.190.25
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alpn:
   - ''
   alterId: 2
@@ -13,7 +64,7 @@ proxies:
   country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 484 | ⬇️ 7KB/s #1'
+  name: 🇭🇰 HK 484 | ⬇️ 7KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -23,7 +74,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 406 | ⬇️ 2MB/s #1'
+  name: 🇭🇰 HK 406 | ⬇️ 2MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -34,15 +85,8 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
-- name: '🇭🇰 HK 415 | ⬇️ 42KB/s #1'
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
 - client-fingerprint: chrome
-  name: '🇭🇰 HK 418 | ⬇️ 6MB/s #1'
+  name: 🇭🇰 HK 418 | ⬇️ 6MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -55,20 +99,18 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK 491 | ⬇️ 3KB/s #1'
+  name: 🇭🇰 HK 491 | ⬇️ 3KB/s
   network: tcp
   port: 30807
   server: v10.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- fingerprint: ''
-  name: 🇭🇰HK_1|1.5MB/s
-  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
-  port: '443'
-  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
+- name: 🇭🇰HK_2|1.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 35151
+  server: 18.167.76.203
   skip-cert-verify: true
-  sni: 127.0.0.1
-  type: anytls
-  udp: true
-  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  sni: t.me%2Fripaojiedian
+  type: trojan
