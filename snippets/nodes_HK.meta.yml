@@ -1,44 +1,19 @@
 proxies:
-- name: '🇭🇰 HK 535 | ⬇️ 593KB/s #1'
-  packet-encoding: ''
-  packetEncoding: none
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- name: '🇭🇰 HK 007 | ⬇️ 9MB/s #1'
-  obfs: salamander
-  obfs-password: 1ol3tasb90
-  password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: 11255
-  server: fg7xl1div.d33tqmk.cc
-  skip-cert-verify: false
-  sni: xk7qhk309.ckpfef.top
-  tfo: false
-  type: hysteria2
-- cipher: aes-256-gcm
-  country: 🇪🇸ES
-  name: '🇭🇰 HK 193 | ⬇️ 11KB/s #1'
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.159
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- name: '🇭🇰 HK 447 | ⬇️ 3KB/s #1'
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
 - alpn:
   - ''
   alterId: 2
   cipher: auto
   client-fingerprint: ''
-  country: 🇨🇳CN
-  delay: 821
+  country: 🇮🇷IR
   h2-opts: {}
   http-opts: {}
-  name: '🇭🇰 HK 767 | ⬇️ 3KB/s #1'
+  name: '🇭🇰 HK 484 | ⬇️ 7KB/s #1'
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -47,21 +22,53 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇭🇰 HK 543 | ⬇️ 14KB/s #1'
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
+- client-fingerprint: chrome
+  name: '🇭🇰 HK 406 | ⬇️ 2MB/s #1'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.21.84.3
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- name: '🇭🇰 HK 415 | ⬇️ 42KB/s #1'
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
   type: socks5
-  username: '123'
-- name: '🇭🇰 HK 553 | ⬇️ 11KB/s #1'
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
-- name: '🇭🇰 HK 755 | ⬇️ 337KB/s #1'
-  password: ''
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
+  username: '111'
+- client-fingerprint: chrome
+  name: '🇭🇰 HK 418 | ⬇️ 6MB/s #1'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.877771.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 HK 491 | ⬇️ 3KB/s #1'
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- fingerprint: ''
+  name: 🇭🇰HK_1|1.5MB/s
+  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  port: '443'
+  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: anytls
+  udp: true
+  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d

@@ -1,17 +1,20 @@
 proxies:
-- encryption: none
-  name: '🇸🇪 SE 132 | ⬇️ 1MB/s #1'
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇪 SE 482 | ⬇️ 2MB/s #1'
+  network: xhttp
   packet-encoding: xudp
-  port: 2052
-  server: forallpanel.srtongston.ir
+  port: 443
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+  server: 170.168.99.3
+  servername: cdn.steamstatic.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: c89c0704-d735-4376-96a8-d37f7e9c54f2
-  ws-opts:
-    headers:
-      Host: zarshekan2.srtongston.ir
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    host: cdn.steamstatic.com
+    mode: auto
     path: /
-    v2ray-http-upgrade: true

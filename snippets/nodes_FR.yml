@@ -1,9 +1,18 @@
 proxies:
-- name: '🇫🇷 FR 112 | ⬇️ 490KB/s #1'
+- cipher: chacha20-ietf-poly1305
+  name: '🇫🇷 FR 408 | ⬇️ 64KB/s #1'
+  password: ZmM0Z
+  port: 8388
+  server: 83.171.225.55
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: '🇫🇷 FR 489 | ⬇️ 17KB/s #1'
   network: tcp
-  password: 8eaae463-b0c5-476f-9d95-47ffbfe89956
-  port: 24422
-  server: fr1us9.stableq.top
-  skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
