@@ -1,37 +1,5 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 041 | ⬇️ 65KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 159.195.14.140
-  servername: ai.sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 554 | ⬇️ 625KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 🇺🇸 US 399 | ⬇️ 6MB/s
+- name: '🇺🇸 US 358 | ⬇️ 8MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -45,51 +13,62 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
     path: /
-- encryption: none
-  name: 🇺🇸 US 042 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8450
-  server: 185.23.35.175
-  skip-cert-verify: false
-  type: vless
+- auth: 7wzl2lj2fy956inb
+  country: 🇺🇸US
+  name: '🇺🇸 US 343 | ⬇️ 517KB/s #1'
+  password: 7wzl2lj2fy956inb
+  port: 40001
+  server: 3x.aweijll.cf
+  skip-cert-verify: true
+  sni: 3x.aweijll.cf
+  tfo: false
+  type: hysteria2
   udp: true
-  uuid: 48817310-fd5c-4877-b2ac-70fee6db6acc
-  ws-opts:
-    headers:
-      Host: x5club.ru
-    path: /lk/profile
 - client-fingerprint: chrome
-  name: 🇺🇸 US 050 | ⬇️ 2MB/s
-  network: ws
-  port: 443
-  server: 104.16.65.1
-  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇺🇸 US 508 | ⬇️ 232KB/s #1'
+  network: tcp
+  packet-encoding: ''
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-    path: /
-- name: 🇺🇸 US 530 | ⬇️ 3MB/s
-  password: ''
-  port: 38182
-  server: 69.55.49.177
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: '🇺🇸 US 012 | ⬇️ 42KB/s #1'
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇺🇸 US 404 | ⬇️ 53KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: '🇺🇸 US 648 | ⬇️ 1MB/s #1'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '🇺🇸 US 500 | ⬇️ 90KB/s #1'
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: 🇺🇸 US 541 | ⬇️ 5MB/s
+  name: '🇺🇸 US 452 | ⬇️ 5MB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 8443
@@ -102,18 +81,53 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 542 | ⬇️ 10MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- name: '🇺🇸 US 540 | ⬇️ 52KB/s #1'
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - client-fingerprint: chrome
   encryption: none
-  flow: ''
-  name: 🇺🇸 US 571 | ⬇️ 83KB/s
+  flow: xtls-rprx-vision
+  name: '🇺🇸 US 488 | ⬇️ 46KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 159.195.14.140
+  servername: ai.sellflow.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+- name: '🇺🇸 US 418 | ⬇️ 25KB/s #1'
+  password: ''
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '🇺🇸 US 612 | ⬇️ 14MB/s #1'
+  network: ws
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸 US 538 | ⬇️ 83KB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -129,45 +143,35 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- name: 🇺🇸 US 451 | ⬇️ 133KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 US 372 | ⬇️ 7MB/s
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 348 | ⬇️ 36KB/s
+- name: '🇺🇸 US 376 | ⬇️ 7KB/s #1'
   port: 1080
   server: 43.162.94.99
   type: socks5
-- name: 🇺🇸 US 684 | ⬇️ 98KB/s
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  tfo: false
-  type: hysteria2
+- encryption: none
+  name: '🇺🇸 US 592 | ⬇️ 205KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 8450
+  server: 185.23.35.175
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 48817310-fd5c-4877-b2ac-70fee6db6acc
+  ws-opts:
+    headers:
+      Host: x5club.ru
+    path: /lk/profile
+- name: '🇺🇸 US 636 | ⬇️ 171KB/s #1'
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+  username: ''
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸 US 716 | ⬇️ 2MB/s
+  name: '🇺🇸 US 649 | ⬇️ 2MB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -181,89 +185,24 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 US 565 | ⬇️ 10MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 751 | ⬇️ 13KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 US 535 | ⬇️ 1008KB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
-  type: socks5
-  username: ''
-- name: 🇺🇸 US 513 | ⬇️ 1MB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- auth: 7wzl2lj2fy956inb
-  name: 🇺🇸 US 054 | ⬇️ 865KB/s
-  password: 7wzl2lj2fy956inb
-  port: 40001
-  server: 3x.aweijll.cf
+- name: '🇺🇸 US 684 | ⬇️ 98KB/s #1'
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  sni: 3x.aweijll.cf
+  sni: xship.top
   tfo: false
   type: hysteria2
 - client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 125 | ⬇️ 18KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
-  server: 152.53.82.202
-  servername: shy-tiger.cdn.cachefleet.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|1.3MB/s
+  name: 🇺🇸US_1|4.7MB/s
   network: ws
-  port: '443'
-  server: api.connectix.uk
-  servername: unitedstates.havray2025.ir
+  port: 443
+  server: ct.877774.xyz
+  servername: us-lax.862400.xyz
   tls: true
   type: vless
-  udp: true
-  uuid: f3a436a8-45c3-4c5d-bf97-b1ff6e9ced38
+  uuid: a367c9d0-cfac-4547-b367-645f3774df6a
   ws-opts:
     headers:
-      Host: unitedstates.havray2025.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: ''
-  xudp: true
+      Host: us-lax.862400.xyz
+    path: /announcement

@@ -1,8 +1,14 @@
 proxies:
+- name: '🇬🇧 GB 216 | ⬇️ 24KB/s #1'
+  password: 1Telegram_MojiVPN
+  port: 1080
+  server: im-bal.pvdata.host
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 GB 126 | ⬇️ 1MB/s
+  name: '🇬🇧 GB 434 | ⬇️ 1MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -15,9 +21,31 @@ proxies:
   type: vless
   udp: true
   uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-- name: 🇬🇧 GB 149 | ⬇️ 18KB/s
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: im-bal.pvdata.host
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧 GB 357 | ⬇️ 1MB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.75.207
+  servername: v3.sub1vpn.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04d630b3-4b8d-422d-b53c-99addcb13191
+  xhttp-opts:
+    host: v3.sub1vpn.dpdns.org
+    mode: auto
+    path: /api
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '6'
+    x-padding-bytes: 100-1000

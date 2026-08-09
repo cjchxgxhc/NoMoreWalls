@@ -1,9 +1,24 @@
 proxies:
-- name: 🇸🇬 SG 833 | ⬇️ 25KB/s
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  tfo: false
-  type: hysteria2
+- encryption: none
+  name: '🇨🇦 CA 077 | ⬇️ 314KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: sourceforge.net
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 888193f6-6818-42f4-b223-64c9fd323b76
+  ws-opts:
+    headers:
+      Host: Ccghjjin.7.postshup.ir
+    path: /?ed
+    v2ray-http-upgrade: true
+- cipher: aes-256-gcm
+  name: '🇨🇦 CA 317 | ⬇️ 18KB/s #1'
+  password: fbcec76953a2d173
+  port: 10812
+  server: 212.193.6.107
+  skip-cert-verify: false
+  type: ss
+  udp: false
