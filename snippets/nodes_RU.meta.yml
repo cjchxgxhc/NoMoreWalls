@@ -1,4 +1,19 @@
 proxies:
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺 RU 632 | ⬇️ 91KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
 - name: 🇷🇺 RU 743 | ⬇️ 24KB/s
   password: ''
   port: 1080
@@ -7,6 +22,49 @@ proxies:
   type: socks5
   udp: true
   username: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 128 | ⬇️ 12KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dqNf0WzsieOO2lPrm_clopblTaFeX9xHNwWsaUY9CC0
+    short-id: '!!str ec35d84c1661b372'
+  server: 45.9.14.31
+  servername: bestrecipes-online.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 533098d5-957a-4914-addd-528eea5f2b99
+- name: 🇷🇺 RU 881 | ⬇️ 5KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 45.151.101.67
+  servername: live.ok.ru
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
+  ws-opts:
+    path: /v1
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
+  password: 81a20429165df87e
+  port: 20118
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- down: 200
+  name: 🇷🇺 RU 033 | ⬇️ 7MB/s
+  password: 164dbaa4-3054-4de1-a37d-13e18c69818e
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  type: hysteria2
+  up: 1000
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -44,107 +102,6 @@ proxies:
   type: vless
   udp: true
   uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺 RU 632 | ⬇️ 91KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-- encryption: none
-  name: 🇷🇺 RU 481 | ⬇️ 6KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 45.151.101.67
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 🇷🇺 RU 516 | ⬇️ 5KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 45.151.101.67
-  servername: live.ok.ru
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 RU 539 | ⬇️ 1KB/s
-  network: ws
-  port: 2200
-  server: 194.26.229.207
-  tls: false
-  type: vless
-  udp: true
-  uuid: f2d2907c-1d74-43eb-8fd2-fc55dfd92427
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- encryption: none
-  name: 🇷🇺 RU 552 | ⬇️ 1KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 104.171.137.141
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d5d72f0a-42b0-4f43-b568-9cf7fbff073d
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- encryption: none
-  name: 🇷🇺 RU 564 | ⬇️ 11KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 176.98.178.17
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 87f3bc47-ee10-4418-9260-7a4e43f28e00
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
-  password: 81a20429165df87e
-  port: 20118
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- down: 200
-  name: 🇷🇺 RU 033 | ⬇️ 7MB/s
-  password: 164dbaa4-3054-4de1-a37d-13e18c69818e
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  type: hysteria2
-  up: 1000
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

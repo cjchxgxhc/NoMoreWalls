@@ -1,4 +1,15 @@
 proxies:
+- name: 🇩🇪 DE 321 | ⬇️ 10KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  sni: default.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -17,19 +28,3 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 DE 537 | ⬇️ 73KB/s
-  network: ws
-  port: 443
-  server: cdns.doon.eu.org
-  servername: detector-portland-vegetable-knitting.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: detector-portland-vegetable-knitting.trycloudflare.com
-    max-early-data: 2560
-    path: /vmess-argo

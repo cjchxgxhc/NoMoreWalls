@@ -1,178 +1,4 @@
 proxies:
-- name: 🇺🇸 US 013 | ⬇️ 8MB/s
-  password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
-  port: 51043
-  server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
-  skip-cert-verify: true
-  sni: dl.hu-yunpan.top
-  type: anytls
-  udp: true
-- name: 🇺🇸 US 017 | ⬇️ 20KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 45647
-  server: 182.16.61.4
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 027 | ⬇️ 21KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA
-    short-id: '!!str 1ca2399ba267c7'
-  server: 65.98.5.106
-  servername: usconverter.medusafree.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1022d47-2417-4489-b7e0-b0febcc7a8ad
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 🇺🇸 US 525 | ⬇️ 3MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.5
-  servername: dl.kaspersky.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: adf1fac3-cf57-ff40-574c-cf514457eb3f
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 513 | ⬇️ 172KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.5
-  servername: dl.kaspersky.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: adf1fac3-cf57-ff40-574c-cf514457eb3f
-- encryption: none
-  name: 🇺🇸 US 046 | ⬇️ 21KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 056 | ⬇️ 64KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.142
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 105 | ⬇️ 122KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.142
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-- auth: 7wzl2lj2fy956inb
-  country: 🇺🇸US
-  name: 🇺🇸 US 236 | ⬇️ 5MB/s
-  password: 7wzl2lj2fy956inb
-  port: 40001
-  server: 3x.aweijll.cf
-  skip-cert-verify: true
-  sni: 3x.aweijll.cf
-  tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 128 | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: '!!str e5f60718293a4b5c'
-  server: 77.110.115.95
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- name: 🇺🇸 US 764 | ⬇️ 1MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸 US 586 | ⬇️ 19KB/s
-  password: ''
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 US 768 | ⬇️ 10MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US 247 | ⬇️ 18KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 143.246.194.26
-  servername: sw.rexten.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- name: 🇺🇸 US 714 | ⬇️ 36KB/s
-  port: 1080
-  server: 43.162.94.99
-  type: socks5
 - name: 🇺🇸 US 762 | ⬇️ 585KB/s
   network: ws
   packet-encoding: xudp
@@ -187,12 +13,41 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
     path: /
-- name: 🇺🇸 US 791 | ⬇️ 14KB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US 399 | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 40443
+  reality-opts:
+    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
+    short-id: '!!str e5f60718293a4b5c'
+  server: 77.110.115.95
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
+- auth: 7wzl2lj2fy956inb
+  country: 🇺🇸US
+  name: 🇺🇸 US 236 | ⬇️ 5MB/s
+  password: 7wzl2lj2fy956inb
+  port: 40001
+  server: 3x.aweijll.cf
+  skip-cert-verify: true
+  sni: 3x.aweijll.cf
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 US 586 | ⬇️ 19KB/s
   password: ''
-  port: 22222
-  server: 193.25.215.182
-  tls: false
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
   type: socks5
+  udp: true
   username: ''
 - name: 🇺🇸 US 755 | ⬇️ 98KB/s
   password: https://xship.top
@@ -202,6 +57,71 @@ proxies:
   sni: xship.top
   tfo: false
   type: hysteria2
+- name: 🇺🇸 US 764 | ⬇️ 1MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸 US 768 | ⬇️ 10MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸 US 522 | ⬇️ 17KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  xudp: true
+- name: 🇺🇸 US 654 | ⬇️ 70KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 US 714 | ⬇️ 36KB/s
+  port: 1080
+  server: 43.162.94.99
+  type: socks5
+- name: 🇺🇸 US 648 | ⬇️ 1MB/s
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- name: 🇺🇸 US 398 | ⬇️ 25KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 45647
+  server: 182.16.61.4
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇺🇸 US 631 | ⬇️ 148KB/s
   password: https://xship.2fa.cat
   port: 443
@@ -268,28 +188,6 @@ proxies:
   type: vless
   udp: true
   uuid: b0804657-2bd1-4ccd-bdc8-b599b2d2f23d
-- name: 🇺🇸 US 648 | ⬇️ 1MB/s
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 🇺🇸 US 654 | ⬇️ 70KB/s
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  tfo: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇺🇸 US 784 | ⬇️ 10MB/s
@@ -313,6 +211,13 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
     path: /
+- name: 🇺🇸 US 791 | ⬇️ 14KB/s
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  tls: false
+  type: socks5
+  username: ''
 - client-fingerprint: random
   name: 🇺🇸US_1|4.7MB/s
   network: ws

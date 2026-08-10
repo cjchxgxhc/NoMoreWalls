@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇸🇬 SG 142 | ⬇️ 1MB/s
+  name: 🇸🇬 SG 392 | ⬇️ 2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -21,6 +21,33 @@ proxies:
   server: 143.198.85.89
   type: socks5
   username: admin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 SG 180 | ⬇️ 7KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: s0DJvbVUHHr1HP8XvPru3FK6gH4QWJ84JWERkzLKJWA
+    short-id: '!!str 13e240c22713c7a6'
+  server: 178.128.127.117
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 3534d1f5-cf1d-490c-adbe-7365f2ff0151
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 SG 215 | ⬇️ 2KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Q-KGWRW9iVz7ZuDV1e25zguf2XxbFXiGlOJjwWJ0diA
+    short-id: '!!str cb9bc58a5976598a'
+  server: 149.118.62.150
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f12bbae7-fd8e-4430-8420-fcbd61e73cd7
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true
@@ -61,6 +88,14 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
+- name: 🇸🇬 SG 708 | ⬇️ 2KB/s
+  port: 1080
+  server: 212.58.132.5
+  type: socks5
+- name: 🇸🇬 SG 809 | ⬇️ 5KB/s
+  port: 10808
+  server: 45.43.63.37
+  type: socks5
 - name: 🇸🇬 SG 288 | ⬇️ 11KB/s
   password: pass
   port: 1080

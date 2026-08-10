@@ -1,10 +1,83 @@
 proxies:
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧 GB 047 | ⬇️ 498KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cdn.devmixa.ir
+  servername: english.havray2025.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbc5c74f-95f8-4c52-835c-c6e3429cb9f4
+  ws-opts:
+    headers:
+      Host: english.havray2025.ir
+    path: /
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 051 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+  server: 130.78.216.197
+  servername: luminous-jolt.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧 GB 098 | ⬇️ 591KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cdn.devmixa.ir
+  servername: english.havray2025.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d328839-6d44-44bb-af3e-075f7f0002d6
+  ws-opts:
+    headers:
+      Host: english.havray2025.ir
+    path: /
 - name: 🇮🇲 IM 790 | ⬇️ 31KB/s
   password: 1Telegram_MojiVPN
   port: 1080
   server: im-bal.pvdata.host
+  skip-cert-verify: true
   type: socks5
+  udp: true
   username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 239 | ⬇️ 10KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JeaMU58AmMJ2JqJ-QGotRFua9DYxxveqw7I_XMWCu34
+    short-id: '!!str 2da3ecc3ad9a323b'
+  server: 139.59.191.88
+  servername: www.stanford.edu
+  tls: true
+  type: vless
+  uuid: a6c5f4c7-073f-416b-b5e3-4a86ec2d9f22
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
