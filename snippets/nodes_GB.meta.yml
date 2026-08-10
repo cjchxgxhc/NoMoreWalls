@@ -1,33 +1,47 @@
 proxies:
-- name: '🇬🇧 GB 216 | ⬇️ 24KB/s #1'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇳🇱 NL 655 | ⬇️ 89KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+  server: 78.159.245.249
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e04a778c-4c83-4fe0-9f52-e6b7bcb59c7c
+- name: '🇮🇲 IM 790 | ⬇️ 31KB/s #1'
   password: 1Telegram_MojiVPN
   port: 1080
   server: im-bal.pvdata.host
   type: socks5
   username: N9cyF6jvgy3ZEmCNKe04zBIR
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '🇬🇧 GB 434 | ⬇️ 1MB/s #1'
+  name: '🇬🇧 GB 626 | ⬇️ 6MB/s #1'
   network: tcp
-  packet-encoding: xudp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 141.227.174.108
-  servername: sellflow.org
-  skip-cert-verify: false
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+  server: 130.78.216.196
+  servername: calm-panther.cdn.cachefleet.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧 GB 357 | ⬇️ 1MB/s #1'
+  name: '🇬🇧 GB 773 | ⬇️ 8MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443

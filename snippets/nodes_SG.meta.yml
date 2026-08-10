@@ -4,11 +4,11 @@ proxies:
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇸🇬 SG 139 | ⬇️ 396KB/s #1'
+  name: '🇸🇬 SG 748 | ⬇️ 14MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 172.66.44.97
+  server: 104.18.37.228
   servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true
@@ -24,11 +24,11 @@ proxies:
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇸🇬 SG 315 | ⬇️ 7MB/s #1'
+  name: '🇸🇬 SG 046 | ⬇️ 1MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.18.37.228
+  server: 172.66.44.97
   servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true
@@ -39,47 +39,37 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- client-fingerprint: chrome
-  name: '🇸🇬 SG 354 | ⬇️ 573KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 16.176.42.97
-  servername: zero.csmaster.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  ws-opts:
-    headers:
-      Host: zero.csmaster.ggff.net
-    path: /
-- cipher: aes-256-gcm
-  name: '🇸🇬 SG 415 | ⬇️ 12KB/s #1'
-  password: ypvm9rgB8bgXA5Of
-  port: 8388
-  server: 194.87.10.173
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  name: '🇸🇬 SG 623 | ⬇️ 1MB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 64.176.36.17
-  servername: zero.csmaster.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  ws-opts:
-    headers:
-      Host: zero.csmaster.ggff.net
-    path: /
-- name: '🇸🇬 SG 697 | ⬇️ 25KB/s #1'
+- name: '🇸🇬 SG 288 | ⬇️ 11KB/s #1'
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
+- name: '🇸🇬 SG 479 | ⬇️ 4MB/s #1'
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- alterId: 2
+  cipher: auto
+  name: '🇸🇬 SG 608 | ⬇️ 317KB/s #1'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🇸🇬 SG 670 | ⬇️ 473KB/s #1'
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4466
+  server: 140.99.130.34
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  tfo: false
+  type: hysteria2
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: '🇸🇬 SG 689 | ⬇️ 56KB/s #1'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4466
   server: sg3.xiaoliyu.cyou
