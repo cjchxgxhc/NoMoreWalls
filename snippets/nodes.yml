@@ -1,48 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
-  password: 81a20429165df87e
-  port: 20118
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇫🇷 FR 012 | ⬇️ 1MB/s
-  network: tcp
-  password: 10ce9b86-f47e-4826-baac-667660a26ce4
-  port: 24422
-  server: fr1us9.stableq.top
-  skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
-- name: 🇫🇷 FR 031 | ⬇️ 1MB/s
-  network: tcp
-  password: 10ce9b86-f47e-4826-baac-667660a26ce4
-  port: 24421
-  server: fr1us9.stableq.top
-  skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  name: 🇮🇹 IT 117 | ⬇️ 923KB/s
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.188
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  country: 🇷🇺RU
-  name: 🇹🇷 TR 133 | ⬇️ 39KB/s
-  network: tcp
-  password: tunnel-ljlcf
-  port: 8441
-  server: tr-1.stunnel.cc
-  skip-cert-verify: true
-  sni: tr-1.stunnel.cc
-  type: trojan
-  udp: true
 - alpn:
   - http/1.1
   - h2
@@ -63,20 +19,28 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷 FR 299 | ⬇️ 1MB/s
+  name: 🇫🇷 FR 104 | ⬇️ 1MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 104.18.152.73
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT 117 | ⬇️ 923KB/s
+  password: d1fa2f4b98a38bc8
+  port: 10901
+  server: 62.76.234.188
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - ''
   alterId: 2
@@ -95,14 +59,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷 FR 595 | ⬇️ 3MB/s
-  network: tcp
-  password: 10ce9b86-f47e-4826-baac-667660a26ce4
-  port: 24413
-  server: fr1us9.stableq.top
-  skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -120,31 +76,21 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 🇯🇵 JP 723 | ⬇️ 123KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇬🇧GB
-  delay: 653
-  h2-opts: {}
-  http-opts: {}
-  name: 🇫🇷 FR 690 | ⬇️ 17KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 431 | ⬇️ 698KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -163,16 +109,30 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 747 | ⬇️ 13KB/s
+- name: 🇯🇵 JP 723 | ⬇️ 123KB/s
   network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 DE 537 | ⬇️ 73KB/s
+  network: ws
+  port: 443
+  server: cdns.doon.eu.org
+  servername: detector-portland-vegetable-knitting.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: detector-portland-vegetable-knitting.trycloudflare.com
+    max-early-data: 2560
+    path: /vmess-argo
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -188,6 +148,56 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
+  password: 81a20429165df87e
+  port: 20118
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇺🇸 US 747 | ⬇️ 13KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇬🇧GB
+  delay: 653
+  h2-opts: {}
+  http-opts: {}
+  name: 🇫🇷 FR 690 | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 299 | ⬇️ 1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 🇸🇬 SG 608 | ⬇️ 317KB/s

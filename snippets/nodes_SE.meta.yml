@@ -1,8 +1,23 @@
 proxies:
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 SE 088 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 141.227.160.138
+  servername: se.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 946c6aca-a672-4113-8aa1-55b3fb1a4369
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪 SE 139 | ⬇️ 3MB/s
+  name: 🇸🇪 SE 301 | ⬇️ 1MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -16,22 +31,19 @@ proxies:
   udp: true
   uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪 SE 164 | ⬇️ 7MB/s
+  name: 🇸🇪 SE 473 | ⬇️ 62KB/s
   network: tcp
-  packet-encoding: xudp
-  port: 40443
+  port: 443
   reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: '!!str 2d127d11297df7de'
-  server: 88.216.130.130
-  servername: deepl.com
-  skip-cert-verify: false
+    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
+    short-id: '!!str f0ba53a31b489b3e'
+  server: glidio.shieldix.top
+  servername: glidio.shieldix.top
   tls: true
   type: vless
   udp: true
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
 - client-fingerprint: chrome
   name: 🇸🇪 SE 793 | ⬇️ 15KB/s
   network: tcp

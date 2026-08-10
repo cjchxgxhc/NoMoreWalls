@@ -1,31 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇸🇬 SG 052 | ⬇️ 9MB/s
+  name: 🇸🇬 SG 142 | ⬇️ 1MB/s
   network: ws
-  port: 2083
-  server: 188.164.248.72
-  servername: jcxjcnasvip.jcdenas.top
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.69.106
+  servername: zero.csmaster.ggff.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   ws-opts:
     headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬 SG 136 | ⬇️ 9MB/s
-  network: ws
-  port: 8443
-  server: 8.35.211.224
-  servername: pphmsubs.911388.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-  ws-opts:
-    headers:
-      Host: pphmsubs.911388.xyz
+      Host: zero.csmaster.ggff.net
     path: /
 - name: 🇸🇬 SG 479 | ⬇️ 4MB/s
   password: admin
@@ -53,20 +41,6 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- name: 🇸🇬 SG 806 | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.17.181.19
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
-  ws-opts:
-    headers:
-      Host: lingering-sun-d7b5.49-56e.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
 - ech-opts:
     _dns: udp://8.8.8.8
     enable: true

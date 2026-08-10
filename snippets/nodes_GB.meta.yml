@@ -1,32 +1,10 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 GB 773 | ⬇️ 8MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.16.75.207
-  servername: v3.sub1vpn.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04d630b3-4b8d-422d-b53c-99addcb13191
-  xhttp-opts:
-    host: v3.sub1vpn.dpdns.org
-    mode: auto
-    path: /api
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '6'
-    x-padding-bytes: 100-1000
+- name: 🇮🇲 IM 790 | ⬇️ 31KB/s
+  password: 1Telegram_MojiVPN
+  port: 1080
+  server: im-bal.pvdata.host
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -57,3 +35,31 @@ proxies:
   tls: true
   type: vless
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧 GB 773 | ⬇️ 8MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.75.207
+  servername: v3.sub1vpn.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04d630b3-4b8d-422d-b53c-99addcb13191
+  xhttp-opts:
+    host: v3.sub1vpn.dpdns.org
+    mode: auto
+    path: /api
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '6'
+    x-padding-bytes: 100-1000
