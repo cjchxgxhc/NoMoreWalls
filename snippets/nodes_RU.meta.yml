@@ -1,34 +1,30 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 008 | ⬇️ 8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.5
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
 - cipher: aes-256-gcm
-  name: '🇷🇺 RU 616 | ⬇️ 18KB/s #1'
+  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
   password: 81a20429165df87e
   port: 20118
   server: 195.133.23.200
   skip-cert-verify: false
   type: ss
   udp: false
-- down: 200
-  name: '🇷🇺 RU 033 | ⬇️ 7MB/s #1'
-  password: 164dbaa4-3054-4de1-a37d-13e18c69818e
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  type: hysteria2
-  up: 1000
-- name: '🇷🇺 RU 743 | ⬇️ 24KB/s #1'
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
 - alpn:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 RU 632 | ⬇️ 91KB/s #1'
+  name: 🇷🇺 RU 632 | ⬇️ 91KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -39,11 +35,51 @@ proxies:
   type: vless
   udp: true
   uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 066 | ⬇️ 39KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2445
+  reality-opts:
+    public-key: yVJmN1Tm4AnW_HbQI-c8phj65L2h2XU6yNEvXVgIqiA
+  server: 62.113.42.149
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ee3130-cb1e-4d66-b61c-d221eec984ed
+- name: 🇷🇺 RU 743 | ⬇️ 24KB/s
+  password: ''
+  port: 1080
+  server: 193.233.218.213
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 099 | ⬇️ 50KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2445
+  reality-opts:
+    public-key: yVJmN1Tm4AnW_HbQI-c8phj65L2h2XU6yNEvXVgIqiA
+  server: ru-tw.killershop.shop
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ee3130-cb1e-4d66-b61c-d221eec984ed
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-tuning-stream
-  name: '🇷🇺 RU 765 | ⬇️ 583KB/s #1'
+  name: 🇷🇺 RU 765 | ⬇️ 583KB/s
   network: grpc
   packet-encoding: xudp
   port: 9441
@@ -62,7 +98,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-tuning-stream
-  name: '🇷🇺 RU 230 | ⬇️ 1MB/s #1'
+  name: 🇷🇺 RU 230 | ⬇️ 1MB/s
   network: grpc
   packet-encoding: xudp
   port: 9441
@@ -76,10 +112,75 @@ proxies:
   type: vless
   udp: true
   uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+- encryption: none
+  name: 🇷🇺 RU 315 | ⬇️ 1KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 104.171.137.141
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d5d72f0a-42b0-4f43-b568-9cf7fbff073d
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 619 | ⬇️ 8KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 104.171.136.112
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: bee21918-0933-430c-904b-c941b92256ba
+  ws-opts:
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 803 | ⬇️ 3KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 201.51.0.38
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  ws-opts:
+    path: /v1
+- encryption: none
+  name: 🇷🇺 RU 836 | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 176.98.178.17
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 87f3bc47-ee10-4418-9260-7a4e43f28e00
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- down: 200
+  name: 🇷🇺 RU 033 | ⬇️ 7MB/s
+  password: 164dbaa4-3054-4de1-a37d-13e18c69818e
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  type: hysteria2
+  up: 1000
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇷🇺 RU 409 | ⬇️ 21KB/s #1'
+  name: 🇷🇺 RU 409 | ⬇️ 21KB/s
   network: raw
   packet-encoding: xudp
   port: 26443
@@ -94,20 +195,7 @@ proxies:
   udp: true
   uuid: 13eee6d2-5b9f-408c-aaab-07caf8497ea3
 - encryption: none
-  name: '🇷🇺 RU 619 | ⬇️ 8KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 104.171.136.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: bee21918-0933-430c-904b-c941b92256ba
-  ws-opts:
-    path: /v1
-- encryption: none
-  name: '🇷🇺 RU 641 | ⬇️ 5KB/s #1'
+  name: 🇷🇺 RU 641 | ⬇️ 5KB/s
   network: ws
   packet-encoding: xudp
   port: 2200

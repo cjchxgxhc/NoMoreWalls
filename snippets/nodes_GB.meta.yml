@@ -1,47 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇳🇱 NL 655 | ⬇️ 89KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 1111
-  reality-opts:
-    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
-  server: 78.159.245.249
-  servername: api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e04a778c-4c83-4fe0-9f52-e6b7bcb59c7c
-- name: '🇮🇲 IM 790 | ⬇️ 31KB/s #1'
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: im-bal.pvdata.host
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '🇬🇧 GB 626 | ⬇️ 6MB/s #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
-  server: 130.78.216.196
-  servername: calm-panther.cdn.cachefleet.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧 GB 773 | ⬇️ 8MB/s #1'
+  name: 🇬🇧 GB 773 | ⬇️ 8MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -63,3 +27,33 @@ proxies:
       h-max-reusable-secs: 1800-3000
       max-connections: '6'
     x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱 NL 655 | ⬇️ 89KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+  server: 78.159.245.249
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e04a778c-4c83-4fe0-9f52-e6b7bcb59c7c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB 626 | ⬇️ 6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+  server: 130.78.216.196
+  servername: calm-panther.cdn.cachefleet.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a

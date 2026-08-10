@@ -1,4 +1,32 @@
 proxies:
+- name: 🇯🇵 JP 611 | ⬇️ 2KB/s
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇯🇵 JP 607 | ⬇️ 9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 18.179.40.96
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+- name: 🇯🇵 JP 040 | ⬇️ 19KB/s
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
 - client-fingerprint: chrome
   encryption: none
   flow: ''
@@ -19,23 +47,13 @@ proxies:
   udp: true
   uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
   xudp: true
-- name: '🇯🇵 JP 611 | ⬇️ 2KB/s #1'
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- name: '🇯🇵 JP 040 | ⬇️ 19KB/s #1'
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   delay: 392
   h2-opts: {}
   http-opts: {}
-  name: '🇯🇵 JP 656 | ⬇️ 12KB/s #1'
+  name: 🇯🇵 JP 656 | ⬇️ 12KB/s
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -46,25 +64,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: '🇯🇵 JP 607 | ⬇️ 9MB/s #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.179.40.96
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-- name: '🇯🇵 JP 723 | ⬇️ 123KB/s #1'
+- name: 🇯🇵 JP 723 | ⬇️ 123KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
