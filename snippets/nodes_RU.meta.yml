@@ -1,9 +1,16 @@
 proxies:
+- name: '🇷🇺 RU 519 | ⬇️ 50KB/s #1'
+  password: ''
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
+  udp: true
+  username: ''
 - alpn:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 RU 074 | ⬇️ 6MB/s
+  name: '🇷🇺 RU 508 | ⬇️ 2MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -17,7 +24,7 @@ proxies:
   xhttp-opts:
     path: /
 - encryption: none
-  name: 🇷🇺 RU 018 | ⬇️ 3KB/s
+  name: '🇷🇺 RU 631 | ⬇️ 3KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -31,110 +38,3 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- name: 🇷🇺 RU 1034 | ⬇️ 244KB/s
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 059 | ⬇️ 3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
-    short-id: '!!str 9698d67e63bc8ee0'
-  server: 157.22.197.166
-  servername: stormix.pulsio.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 808 | ⬇️ 87KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
-    short-id: '!!str 33b5887524592cad'
-  server: tunix.ciphero.xyz
-  servername: tunix.ciphero.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- encryption: none
-  name: 🇷🇺 RU 275 | ⬇️ 20KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 104.171.136.172
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 106b0505-da24-4ae4-b22c-302ab814f6f4
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- encryption: none
-  name: 🇷🇺 RU 1020 | ⬇️ 6KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 45.151.101.67
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 🇷🇺 RU 1030 | ⬇️ 5KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4100
-  server: 45.151.101.67
-  servername: live.ok.ru
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    path: /v1
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_2|3.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: 138.124.68.188
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''

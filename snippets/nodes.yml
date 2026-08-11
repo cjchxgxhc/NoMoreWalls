@@ -1,59 +1,78 @@
 proxies:
+- name: '🇭🇰 HK 016 | ⬇️ 1MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '🇯🇵 JP 465 | ⬇️ 9MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 16.162.92.128
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '🇯🇵 JP 058 | ⬇️ 6MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 16.162.92.128
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '🇭🇰 HK 047 | ⬇️ 1MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: '🇺🇸 US 463 | ⬇️ 9MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 18.166.226.204
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: '🇺🇸 US 039 | ⬇️ 7MB/s #1'
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 18.166.226.204
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
-  name: 🇫🇮 FI 770 | ⬇️ 19KB/s
+  name: '🇫🇮 FI 674 | ⬇️ 18KB/s #1'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 181 | ⬇️ 2MB/s
-  network: ws
-  port: 2054
-  server: 132.145.200.43
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
-  ws-opts:
-    headers: {}
-    path: /p
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 456 | ⬇️ 8MB/s
+- client-fingerprint: chrome
+  name: '🇫🇷 FR 131 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 104.16.174.72
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 TR 108 | ⬇️ 68KB/s
-  password: LHZzf4y0j2WQlZsTh0NzPxVmTYufR-TA
-  port: 1080
-  server: sub.almavpn.shop
-  skip-cert-verify: false
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷 FR 1040 | ⬇️ 1MB/s
+  name: '🇫🇷 FR 315 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
@@ -67,142 +86,49 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇺🇸 US 615 | ⬇️ 12KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷 FR 991 | ⬇️ 1MB/s
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: '🇫🇷 FR 464 | ⬇️ 7MB/s #1'
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 023 | ⬇️ 9MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇮🇳 IN 014 | ⬇️ 9MB/s
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  servername: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      HOST: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      Host: planb.mojcn.com.linuxlh.xin
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 TW 661 | ⬇️ 8MB/s
-  network: ws
-  port: 16616
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 020 | ⬇️ 8MB/s
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- name: 🇺🇸 US 038 | ⬇️ 3MB/s
-  network: tcp
-  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
-  port: 24422
-  server: fr1us9.stableq.top
-  skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
 - alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 605
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 987 | ⬇️ 4KB/s
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 889 | ⬇️ 41KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷 FR 151 | ⬇️ 1MB/s
-  network: tcp
-  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
-  port: 24421
-  server: fr1us9.stableq.top
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷 FR 486 | ⬇️ 3MB/s #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.136.234
   skip-cert-verify: false
-  sni: fr1us9.stableq.top
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 🇯🇵 JP 967 | ⬇️ 5KB/s
+  name: '🇯🇵 JP 730 | ⬇️ 4KB/s #1'
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -212,108 +138,8 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  name: 🇮🇹 IT 995 | ⬇️ 16KB/s
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.188
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB 384 | ⬇️ 5MB/s
-  network: ws
-  port: 16645
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇮🇪 IE 1013 | ⬇️ 4KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 657 | ⬇️ 10MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 670 | ⬇️ 9MB/s
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- disable-sni: true
-  name: 🇫🇷 FR 700 | ⬇️ 4MB/s
-  network: tcp
-  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
-  port: 24422
-  server: fr1us9.stableq.top
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵 JP 1010 | ⬇️ 178KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇯🇵 JP 1017 | ⬇️ 9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.65.160.21
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 FR 921 | ⬇️ 17KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷 FR 1039 | ⬇️ 1MB/s
+  name: '🇫🇷 FR 651 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
@@ -327,19 +153,89 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|2.9MB/s
-  password: BxceQaOe
-  port: '39024'
-  server: 18.166.226.204
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇨🇳CN
+  delay: 605
+  h2-opts: {}
+  http-opts: {}
+  name: '🇭🇰 HK 742 | ⬇️ 10KB/s #1'
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '🇩🇪 DE 732 | ⬇️ 24KB/s #1'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '🇯🇵 JP 734 | ⬇️ 231KB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 🇯🇵JP_2|4.1MB/s
-  password: BxceQaOe
-  port: 9408
-  server: 16.162.92.128
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 165.215.250.14
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment

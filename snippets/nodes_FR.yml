@@ -1,25 +1,21 @@
 proxies:
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 456 | ⬇️ 8MB/s
+- client-fingerprint: chrome
+  name: '🇫🇷 FR 131 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 104.16.174.72
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷 FR 1040 | ⬇️ 1MB/s
+  name: '🇫🇷 FR 315 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
@@ -33,50 +29,45 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷 FR 991 | ⬇️ 1MB/s
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: '🇫🇷 FR 464 | ⬇️ 7MB/s #1'
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: 🇫🇷 FR 151 | ⬇️ 1MB/s
-  network: tcp
-  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
-  port: 24421
-  server: fr1us9.stableq.top
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷 FR 486 | ⬇️ 3MB/s #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.136.234
   skip-cert-verify: false
-  sni: fr1us9.stableq.top
-  type: trojan
-- disable-sni: true
-  name: 🇫🇷 FR 700 | ⬇️ 4MB/s
-  network: tcp
-  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
-  port: 24422
-  server: fr1us9.stableq.top
-  skip-cert-verify: true
-  sni: ''
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 FR 921 | ⬇️ 17KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷 FR 1039 | ⬇️ 1MB/s
+  name: '🇫🇷 FR 651 | ⬇️ 1MB/s #1'
   network: ws
   password: humanity
   port: 443
@@ -89,4 +80,49 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /assignment

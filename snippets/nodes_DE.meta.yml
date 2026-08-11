@@ -1,18 +1,43 @@
 proxies:
-- encryption: none
-  name: 🇩🇪 DE 038 | ⬇️ 32KB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪 DE 060 | ⬇️ 9KB/s #1'
   network: tcp
   packet-encoding: xudp
-  port: 2056
-  server: ger1.ilia.iranstoresf.ir
+  port: 2053
+  reality-opts:
+    public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg
+    short-id: '!!str 417063feab794131'
+  server: de3.neobo-tooth.ru
+  servername: vk.ru
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: d14b7d3c-bdda-40ab-8e5e-ee1b67ef0357
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪 DE 084 | ⬇️ 1MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: n8.loyalemu.sbs
+  servername: n8.loyalemu.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6df75f42-4447-4ade-a53e-350f4eb69858
+  ws-opts:
+    headers:
+      Host: n8.loyalemu.sbs
+    path: /ws8
 - client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 DE 067 | ⬇️ 32KB/s
+  name: '🇩🇪 DE 474 | ⬇️ 31KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -26,60 +51,18 @@ proxies:
   type: vless
   udp: true
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪 DE 1049 | ⬇️ 770KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪 DE 086 | ⬇️ 6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 55555
-  reality-opts:
-    public-key: O2bbfKBzFAKWuGpGOV8sy4-jtHWTqR-FmTytzi-4_FY
-    short-id: '!!str dcc923278ffdd028'
-  server: 62.238.107.11
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 170066e2-025f-482e-aa11-a2ca2f44fbc2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 DE 718 | ⬇️ 5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ABNRlkjlonYV9TOFYgjWwz0wn1s6sg_yCErsLYkU_Sg
-    short-id: '!!str d6ff9019a77e354a'
-  server: 144.31.213.225
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3de7f7-a595-4117-b1b6-dc41eb870ab1
+- name: '🇩🇪 DE 590 | ⬇️ 92KB/s #1'
+  password: ''
+  port: 1080
+  server: 159.195.49.27
+  type: socks5
+  username: ''
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 🇩🇪 DE 889 | ⬇️ 41KB/s
+  name: '🇩🇪 DE 732 | ⬇️ 24KB/s #1'
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -87,4 +70,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
