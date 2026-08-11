@@ -1,39 +1,38 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇫🇮 FI 778 | ⬇️ 993KB/s
+  name: '🇸🇪 SE 524 | ⬇️ 4MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '!!str 2d6d073dc88f22a8'
-  server: 89.125.37.79
-  servername: se-cdn.ru
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 143.246.194.26
+  servername: sw.rexten.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇮 FI 252 | ⬇️ 187KB/s
+  name: '🇸🇪 SE 1036 | ⬇️ 25KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '!!str 2d6d073dc88f22a8'
-  server: 132.243.231.95
-  servername: se-cdn.ru
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: sw.rexten.cc
+  servername: sw.rexten.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇪 SE 260 | ⬇️ 134KB/s
+  name: '🇸🇪 SE 983 | ⬇️ 134KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -49,7 +48,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪 SE 143 | ⬇️ 3MB/s
+  name: '🇸🇪 SE 807 | ⬇️ 18KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 40443
@@ -63,40 +62,9 @@ proxies:
   type: vless
   udp: true
   uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 343 | ⬇️ 59KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: sw.rexten.cc
-  servername: sw.rexten.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇺🇸 US 403 | ⬇️ 18KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 143.246.194.26
-  servername: sw.rexten.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 576 | ⬇️ 35KB/s
+  name: '🇸🇪 SE 878 | ⬇️ 35KB/s #1'
   network: tcp
   port: 443
   reality-opts:
@@ -109,14 +77,17 @@ proxies:
   udp: true
   uuid: e3c40721-22bc-4862-a358-09502fc14af6
 - client-fingerprint: chrome
-  name: 🇸🇪 SE 793 | ⬇️ 15KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: sw1-chr.astralweb.tech
-  servername: sw1-chr.astralweb.tech
-  skip-cert-verify: false
+  name: 🇸🇪SE_1|2.7MB/s
+  network: ws
+  port: 8443
+  server: 193.232.178.149
+  servername: edge.yzkvm.top
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: /

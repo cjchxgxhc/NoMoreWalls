@@ -1,11 +1,25 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_3|5.1MB/s
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
-  delay: 392
   h2-opts: {}
   http-opts: {}
-  name: 🇯🇵 JP 656 | ⬇️ 12KB/s
+  name: '🇯🇵 JP 967 | ⬇️ 5KB/s #1'
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -15,17 +29,8 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇯🇵 JP 722 | ⬇️ 6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.65.160.21
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
-  name: 🇯🇵 JP 723 | ⬇️ 123KB/s
+  name: '🇯🇵 JP 1010 | ⬇️ 178KB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
@@ -33,3 +38,11 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
+- cipher: aes-256-cfb
+  name: '🇯🇵 JP 1017 | ⬇️ 9MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 54.65.160.21
+  skip-cert-verify: false
+  type: ss
+  udp: false

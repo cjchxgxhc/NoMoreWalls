@@ -1,7 +1,30 @@
 proxies:
 - client-fingerprint: chrome
-  delay: 1527
-  name: 🇰🇷 KR 794 | ⬇️ 92KB/s
+  flow: xtls-rprx-vision
+  name: '🇰🇷 KR 735 | ⬇️ 2MB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fI-eoLmyyeYXgUHr2SWzHcwxkhxmDj2QBnivpUPYfVY
+    short-id: '!!str e3db542f549f5504'
+  server: 52.141.0.244
+  servername: www.stanford.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5822b465-036b-4a3b-89d0-b3e52ae20815
+- name: 🇰🇷KR_1|1.3MB/s
+  password: admin
+  port: '5555'
+  server: 158.180.91.51
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  delay: 744
+  name: '🇰🇷 KR 1019 | ⬇️ 55KB/s #1'
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -9,24 +32,17 @@ proxies:
   tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
-- name: 🇰🇷 KR 769 | ⬇️ 12KB/s
+  username: T2clM0QlM0Q6
+- name: '🇰🇷 KR 812 | ⬇️ 39KB/s #1'
   password: ''
   port: 1080
   server: 43.164.136.189
   type: socks5
   udp: true
   username: ''
-- name: 🇰🇷 KR 644 | ⬇️ 76KB/s
-  password: Og%3D%3D
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  udp: true
-  username: Og%3D%3D
 - client-fingerprint: chrome
   encryption: none
-  name: 🇰🇷 KR 723 | ⬇️ 9MB/s
+  name: '🇰🇷 KR 1018 | ⬇️ 8MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -43,9 +59,10 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: 🇰🇷 KR 580 | ⬇️ 70KB/s
-  password: admin
-  port: 5555
-  server: 158.180.91.51
+- name: '🇰🇷 KR 182 | ⬇️ 33KB/s #1'
+  password: Og%3D%3D
+  port: 1090
+  server: 121.169.46.116
   type: socks5
-  username: admin
+  udp: true
+  username: Og%3D%3D

@@ -3,18 +3,36 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 RU 632 | ⬇️ 91KB/s
+  name: '🇷🇺 RU 074 | ⬇️ 6MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
   server: 104.18.32.47
   servername: rus.aba-hum.store
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-- name: 🇷🇺 RU 743 | ⬇️ 24KB/s
+  xhttp-opts:
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇷🇺 RU 059 | ⬇️ 3MB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
+    short-id: '!!str 9698d67e63bc8ee0'
+  server: 157.22.197.166
+  servername: stormix.pulsio.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
+- name: '🇷🇺 RU 1034 | ⬇️ 244KB/s #1'
   password: ''
   port: 1080
   server: 193.233.218.213
@@ -22,21 +40,22 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 128 | ⬇️ 12KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dqNf0WzsieOO2lPrm_clopblTaFeX9xHNwWsaUY9CC0
-    short-id: '!!str ec35d84c1661b372'
-  server: 45.9.14.31
-  servername: bestrecipes-online.site
-  tls: true
+- encryption: none
+  name: '🇷🇺 RU 1020 | ⬇️ 6KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 45.151.101.67
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 533098d5-957a-4914-addd-528eea5f2b99
-- name: 🇷🇺 RU 881 | ⬇️ 5KB/s
+  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: '🇷🇺 RU 1030 | ⬇️ 5KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -47,103 +66,4 @@ proxies:
   udp: true
   uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
   ws-opts:
-    path: /v1
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 616 | ⬇️ 18KB/s
-  password: 81a20429165df87e
-  port: 20118
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- down: 200
-  name: 🇷🇺 RU 033 | ⬇️ 7MB/s
-  password: 164dbaa4-3054-4de1-a37d-13e18c69818e
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  type: hysteria2
-  up: 1000
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tuning-stream
-  name: 🇷🇺 RU 765 | ⬇️ 583KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9441
-  reality-opts:
-    public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
-    short-id: '!!str 8a7137d4e9c49b9c'
-  server: mws-fc-1.ghost-lan.com
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tuning-stream
-  name: 🇷🇺 RU 230 | ⬇️ 1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9441
-  reality-opts:
-    public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
-    short-id: '!!str 8a7137d4e9c49b9c'
-  server: 176.109.85.140
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 409 | ⬇️ 21KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 26443
-  reality-opts:
-    public-key: jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U
-    short-id: '!!str d681ac08'
-  server: 78.159.240.31
-  servername: shopping-api-gateway.cdek.shopping
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13eee6d2-5b9f-408c-aaab-07caf8497ea3
-- encryption: none
-  name: 🇷🇺 RU 619 | ⬇️ 8KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 104.171.136.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: bee21918-0933-430c-904b-c941b92256ba
-  ws-opts:
-    path: /v1
-- encryption: none
-  name: 🇷🇺 RU 641 | ⬇️ 5KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 45.95.234.241
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b3764969-ffeb-4436-8f83-ca9f1774edb9
-  ws-opts:
-    headers:
-      Host: rzd.ru
     path: /v1

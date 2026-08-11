@@ -1,20 +1,48 @@
 proxies:
+- name: '🇺🇸 US 038 | ⬇️ 3MB/s #1'
+  network: tcp
+  password: 2fc2268f-8483-499f-b05f-e0f682f19d61
+  port: 24422
+  server: fr1us9.stableq.top
+  skip-cert-verify: false
+  sni: fr1us9.stableq.top
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: ''
-  name: 🇺🇸 US 747 | ⬇️ 13KB/s
+  name: '🇺🇸 US 615 | ⬇️ 12KB/s #1'
   network: tcp
   port: 30824
   server: v24.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 🇺🇸 US 784 | ⬇️ 10MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  name: 🇺🇸US_1|1.7MB/s
+  network: ws
+  port: 2054
+  server: 132.145.200.43
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
+  ws-opts:
+    path: /p
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_2|3.8MB/s
+  network: ws
+  port: 16648
+  server: m.cnmjin.net.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
