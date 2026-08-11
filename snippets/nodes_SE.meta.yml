@@ -1,7 +1,45 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇸🇪 SE 524 | ⬇️ 4MB/s #1'
+  name: 🇸🇪 SE 878 | ⬇️ 35KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
+    short-id: '!!str f0ba53a31b489b3e'
+  server: glidio.shieldix.top
+  servername: glidio.shieldix.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
+- name: 🇸🇪 SE 1012 | ⬇️ 11KB/s
+  password: 1Telegram_MojiVPN
+  port: 1080
+  server: ch-zur.pvdata.host
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪 SE 666 | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: '!!str ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪 SE 524 | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -17,7 +55,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇸🇪 SE 1036 | ⬇️ 25KB/s #1'
+  name: 🇸🇪 SE 1036 | ⬇️ 25KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -32,7 +70,7 @@ proxies:
   uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇸🇪 SE 983 | ⬇️ 134KB/s #1'
+  name: 🇸🇪 SE 983 | ⬇️ 134KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -48,7 +86,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇸🇪 SE 807 | ⬇️ 18KB/s #1'
+  name: 🇸🇪 SE 807 | ⬇️ 18KB/s
   network: tcp
   packet-encoding: xudp
   port: 40443
@@ -62,32 +100,3 @@ proxies:
   type: vless
   udp: true
   uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇸🇪 SE 878 | ⬇️ 35KB/s #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
-    short-id: '!!str f0ba53a31b489b3e'
-  server: glidio.shieldix.top
-  servername: glidio.shieldix.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- client-fingerprint: chrome
-  name: 🇸🇪SE_1|2.7MB/s
-  network: ws
-  port: 8443
-  server: 193.232.178.149
-  servername: edge.yzkvm.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: /

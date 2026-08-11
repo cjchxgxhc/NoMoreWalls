@@ -1,18 +1,10 @@
 proxies:
-- name: '🇪🇪 EE 1037 | ⬇️ 17KB/s #1'
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: ee-tal.pvdata.host
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
 - client-fingerprint: edge
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: grpc
-  name: 🇦🇪AE_1|2.8MB/s
+    path: /
+  name: 🇪🇪 EE 936 | ⬇️ 68KB/s
   network: grpc
   packet-encoding: xudp
   port: 8113
@@ -26,3 +18,27 @@ proxies:
   type: vless
   udp: true
   uuid: f5e5da05-ef1d-4a19-b75d-aaf30c93bb1a
+- name: 🇪🇪 EE 1037 | ⬇️ 17KB/s
+  password: 1Telegram_MojiVPN
+  port: 1080
+  server: ee-tal.pvdata.host
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪 EE 637 | ⬇️ 9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: ee.rexten.cc
+  servername: ee.rexten.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
