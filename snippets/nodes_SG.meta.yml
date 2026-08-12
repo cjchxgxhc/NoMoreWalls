@@ -1,95 +1,212 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇸🇬 SG 207 | ⬇️ 5MB/s #1'
-  network: tcp
-  packet-encoding: ''
-  port: 39561
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
+  encryption: none
+  name: '🇸🇬 004  | ⬇️ 47KB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 2053
+  server: trackydev.site
+  servername: load.microsoft.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88d33db0-3ba2-4dcc-8094-0f61c94821a8
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸🇬 014  | ⬇️ 159KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.185.207
+  servername: yh-xjp.2999352.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
+  uuid: ab17618b-6e05-4761-bc4a-391c8eee58ff
+  ws-opts:
+    headers:
+      Host: yh-xjp.2999352.xyz
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇸🇬 SG 650 | ⬇️ 9MB/s #1'
+  name: '🇸🇬 019  | ⬇️ 22KB/s #1'
   network: tcp
   packet-encoding: xudp
-  port: 31871
+  port: 443
   reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
+    public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+    short-id: '!!str 5a42dbd7e26a0415'
+  server: 178.128.52.52
+  servername: zoom.us
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: '🇸🇬 SG 324 | ⬇️ 5KB/s #1'
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+- found_at: '2026-06-13T23:41:01.531146+00:00'
+  hash: socks5|43.156.84.41|10808|||
+  is_working: true
+  last_seen: '2026-07-11T15:57:20.664693+00:00'
+  latency_ms: 229.3
+  name: '🇸🇬 039  | ⬇️ 2KB/s #1'
   port: 10808
-  server: 45.43.63.37
+  sent_to_telegram: false
+  server: 43.156.84.41
+  source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
+  tested_at: '2026-06-13T23:40:53.549787+00:00'
   type: socks5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇸🇬 SG 480 | ⬇️ 9MB/s #1'
-  network: tcp
-  packet-encoding: ''
-  port: 31875
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇸🇬 SG 301 | ⬇️ 7MB/s #1'
-  network: tcp
+- encryption: none
+  name: '🇸🇬 044  | ⬇️ 10MB/s #1'
+  network: ws
   packet-encoding: xudp
-  port: 31877
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
+  port: 17771
+  server: 52.76.177.127
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1178e691-88c5-4c7d-b4ea-1cefcdf52553
+  ws-opts:
+    path: /
+- found_at: '2026-08-02T14:08:21.688881+00:00'
+  hash: socks5|140.245.53.190|1088|||
+  is_working: true
+  last_seen: '2026-08-04T11:24:09.237546+00:00'
+  latency_ms: 168.4
+  name: '🇸🇬 053  | ⬇️ 61KB/s #1'
+  port: 1088
+  sent_to_telegram: false
+  server: 140.245.53.190
+  source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
+  tested_at: '2026-08-02T14:08:14.030410+00:00'
+  type: socks5
+- encryption: none
+  name: '🇸🇬 077  | ⬇️ 9MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 52.74.176.20
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5ad0bed3-68ac-495e-b778-8b2d0e1dc176
+  ws-opts:
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸🇬 081  | ⬇️ 5MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.250.22
+  servername: yh-xjp.2999352.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: '🇸🇬 SG 731 | ⬇️ 5KB/s #1'
+  uuid: ab17618b-6e05-4761-bc4a-391c8eee58ff
+  ws-opts:
+    headers:
+      Host: yh-xjp.2999352.xyz
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸🇬 088  | ⬇️ 5MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.185.26
+  servername: yh-xjp.2999352.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab17618b-6e05-4761-bc4a-391c8eee58ff
+  ws-opts:
+    headers:
+      Host: yh-xjp.2999352.xyz
+    path: /
+- name: '🇸🇬 093  | ⬇️ 5KB/s #1'
   password: admin
   port: 1080
   server: 143.198.85.89
   type: socks5
   username: admin
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: '🇸🇬 SG 510 | ⬇️ 4MB/s #1'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸🇬 094  | ⬇️ 5MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
+  server: 172.64.152.241
+  servername: yh-xjp.2999352.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: ab17618b-6e05-4761-bc4a-391c8eee58ff
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi
+      Host: yh-xjp.2999352.xyz
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇸🇬 103  | ⬇️ 5MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.25.173
+  servername: yh-xjp.2999352.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab17618b-6e05-4761-bc4a-391c8eee58ff
+  ws-opts:
+    headers:
+      Host: yh-xjp.2999352.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|5.0MB/s
+  network: ws
+  port: 2083
+  server: 8.39.125.209
+  servername: pphmsubs.911388.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
+  ws-opts:
+    headers:
+      Host: pphmsubs.911388.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|4.4MB/s
+  network: ws
+  port: 2083
+  server: 188.164.248.72
+  servername: jcxjcnasvip.jcdenas.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  ws-opts:
+    headers:
+      Host: jcxjcnasvip.jcdenas.top
+    path: /

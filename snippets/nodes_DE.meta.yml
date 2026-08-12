@@ -1,75 +1,156 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '🇩🇪 DE 060 | ⬇️ 9KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg
-    short-id: '!!str 417063feab794131'
-  server: de3.neobo-tooth.ru
-  servername: vk.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇩🇪 DE 084 | ⬇️ 1MB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: n8.loyalemu.sbs
-  servername: n8.loyalemu.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6df75f42-4447-4ade-a53e-350f4eb69858
-  ws-opts:
-    headers:
-      Host: n8.loyalemu.sbs
-    path: /ws8
 - client-fingerprint: firefox
-  encryption: none
-  name: '🇩🇪 DE 474 | ⬇️ 31KB/s #1'
-  network: tcp
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: '🇩🇪 002  | ⬇️ 1MB/s #1'
+  network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: YW6wlOE6DhEzY4nQobPKj-hoc2bpNgJineecGIgOgWM
-    short-id: '!!str 9d3734f3ff471b68'
-  server: 150.241.70.0
-  servername: stats.vk-portal.net
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ns.o11111o.club
+  servername: id.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- name: '🇩🇪 DE 590 | ⬇️ 92KB/s #1'
-  password: ''
-  port: 1080
-  server: 159.195.49.27
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '🇩🇪 DE 732 | ⬇️ 24KB/s #1'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: chrome
+  name: '🇩🇪 050  | ⬇️ 3MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 194.8.6.33
+  servername: web-socket.tgdaosheng.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  ws-opts:
+    headers:
+      Host: web-socket.tgdaosheng.ggff.net
+    path: /proxyip=bpb.yousef.isegaro.com
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪 085  | ⬇️ 1MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 38298
+  server: 96.126.112.12
+  servername: web-socket.tgdaosheng.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  ws-opts:
+    headers:
+      Host: web-socket.tgdaosheng.ggff.net
+    path: /proxyip=bpb.yousef.isegaro.com
+- found_at: '2026-08-02T06:00:41.248451+00:00'
+  hash: socks5|47.245.165.201|1080|||
+  is_working: true
+  last_seen: '2026-08-03T15:25:29.210332+00:00'
+  latency_ms: 93.86
+  name: '🇩🇪 100  | ⬇️ 3MB/s #1'
+  port: 1080
+  sent_to_telegram: false
+  server: 47.245.165.201
+  source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
+  tested_at: '2026-08-02T06:00:33.055227+00:00'
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪 113  | ⬇️ 7MB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.103.255.142
+  servername: web-socket.tgdaosheng.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  ws-opts:
+    headers:
+      Host: web-socket.tgdaosheng.ggff.net
+    path: /proxyip=bpb.yousef.isegaro.com
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|4.0MB/s
+  network: tcp
+  port: 7190
+  reality-opts:
+    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
+    short-id: '!!str 7398e0c72f7d5c0e'
+  server: 5.75.202.32
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23bda1f5-da85-4de6-aacb-ce77acb88808
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.93
+  servername: fastsync.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- encryption: none
+  name: 🇩🇪DE_3|1.7MB/s
+  network: ws
+  port: '80'
+  server: 104.27.110.37
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  ws-opts:
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /api/ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|1016KB/s
+  network: ws
+  port: '2083'
+  server: 46.101.253.244
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_5|4.5MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f0b6835-58e1-4448-a7db-1dcdd5ae9538
   xudp: true

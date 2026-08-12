@@ -1,30 +1,18 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇸🇪 SE 643 | ⬇️ 238KB/s #1'
-  network: tcp
+- client-fingerprint: chrome
+  name: '🇸🇪 031  | ⬇️ 8MB/s #1'
+  network: xhttp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
-    short-id: '!!str f0ba53a31b489b3e'
-  server: glidio.shieldix.top
-  servername: glidio.shieldix.top
+    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
+    short-id: '!!str 2c9431dc7a306018'
+  server: 84.38.187.134
+  servername: git.xpkg.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.7MB/s
-  port: 443
-  reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-  server: 164.37.105.38
-  servername: gb.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  uuid: d4a574d7-ec42-002f-b3fc-9b31b456532b
+  xhttp-opts:
+    path: /repository

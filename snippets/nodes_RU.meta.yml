@@ -1,39 +1,73 @@
 proxies:
-- name: '🇷🇺 RU 519 | ⬇️ 50KB/s #1'
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-  udp: true
-  username: ''
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇷🇺 RU 508 | ⬇️ 2MB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  xhttp-opts:
-    path: /
-- encryption: none
-  name: '🇷🇺 RU 631 | ⬇️ 3KB/s #1'
+- name: '🇷🇺 015  | ⬇️ 108KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 4100
-  server: 83.217.200.217
+  server: 188.225.81.61
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 5ab425b0-d54d-45ed-a7ae-0a5788112258
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- encryption: none
+  name: '🇷🇺 041  #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 185.247.16.4
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a9f07ec1-bd8a-4c95-a281-3de7f0b76853
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: '🇷🇺 062  | ⬇️ 126KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 104.171.133.161
+  servername: tn.tmn141246.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- client-fingerprint: chrome
+  name: '🇷🇺 068  | ⬇️ 7MB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: '!!str 0066a7326f06d426'
+  server: 135.106.142.209
+  servername: alfastat.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4a574d7-ec42-0032-b3fc-9b31b456532b
+  xhttp-opts:
+    path: /assets
+- name: '🇷🇺 089  | ⬇️ 119KB/s #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 168.222.140.236
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
   ws-opts:
     headers:
       Host: live.ok.ru
