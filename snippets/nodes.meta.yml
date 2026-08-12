@@ -1,5 +1,132 @@
 proxies:
-- name: '🇭🇰 001  | ⬇️ 141KB/s #1'
+- cipher: aes-256-cfb
+  name: 🇩🇪 001  | ⬇️ 7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.76.30.105
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 002  | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 185.229.190.148
+  servername: moein-bf821.b-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  xhttp-opts:
+    host: moein-bf821.b-cdn.net
+    mode: auto
+    path: /api
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸 003  | ⬇️ 5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 7443
+  reality-opts:
+    public-key: uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM
+    short-id: '48d5cf47'
+  server: 216.227.161.95
+  servername: media3.abvphelp.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- name: 🇩🇪 004  | ⬇️ 5MB/s
+  password: 130e6aab-9eba-441e-9021-22cbccc72832
+  port: 8443
+  server: srvhy1.ezcon24.online
+  skip-cert-verify: false
+  sni: srvhy1.ezcon24.online
+  tfo: false
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: ''
+  grpc-opts:
+    grpc-service-name: streaming
+  name: 🇸🇪 005  | ⬇️ 3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 43439
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '39ad36226f3abec8'
+  server: 31.77.111.11
+  servername: cdn.higames.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
+- client-fingerprint: edge
+  name: 🇸🇪 006  | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: 'ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- client-fingerprint: firefox
+  name: 🇸🇪 007  | ⬇️ 4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: 'ad55857184e91aad'
+  server: 2.27.56.216
+  servername: sun10-67.vkuserphoto.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+  xhttp-opts:
+    mode: auto
+    path: /api/v1/events
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 008  | ⬇️ 10MB/s
+  network: tcp
+  port: 59750
+  reality-opts:
+    public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+    short-id: ''
+  server: 47.83.153.19
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b
+- name: 🇺🇸 009  | ⬇️ 3MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: node1.sferavpn.pro
+  skip-cert-verify: false
+  sni: node1.sferavpn.pro
+  tfo: false
+  type: hysteria2
+- name: 🇭🇰 001  | ⬇️ 141KB/s
   password: '123'
   port: 5555
   server: 47.83.121.251
@@ -22,14 +149,14 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- name: '🇯🇵 003  | ⬇️ 11KB/s #1'
+- name: 🇯🇵 003  | ⬇️ 11KB/s
   port: 10808
   server: 101.36.104.46
   type: socks5
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇬 004  | ⬇️ 47KB/s #1'
+  name: 🇸🇬 004  | ⬇️ 47KB/s
   network: xhttp
   packet-encoding: xudp
   port: 2053
@@ -46,7 +173,7 @@ proxies:
     x-padding-bytes: 100-1000
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 005  | ⬇️ 8MB/s #1'
+  name: 🇭🇰 005  | ⬇️ 8MB/s
   network: ws
   port: 443
   server: 47.76.44.32
@@ -60,7 +187,7 @@ proxies:
     path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇳🇱 006  | ⬇️ 975KB/s #1'
+  name: 🇳🇱 006  | ⬇️ 975KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -76,7 +203,7 @@ proxies:
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - client-fingerprint: chrome
   encryption: none
-  name: '🇹🇼 007  | ⬇️ 162KB/s #1'
+  name: 🇹🇼 007  | ⬇️ 162KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -90,14 +217,14 @@ proxies:
   type: vless
   udp: true
   uuid: b8ca2900-3ed7-4b58-970e-060d0a6cbf99
-- name: '🇧🇷 008  | ⬇️ 4KB/s #1'
+- name: 🇧🇷 008  | ⬇️ 4KB/s
   password: ''
   port: 1088
   server: 144.22.165.206
   type: socks5
   username: ''
 - client-fingerprint: chrome
-  name: '🇹🇭 009  | ⬇️ 8KB/s #1'
+  name: 🇹🇭 009  | ⬇️ 8KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -112,27 +239,27 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: '🇭🇰 010  | ⬇️ 45KB/s #1'
+- name: 🇭🇰 010  | ⬇️ 45KB/s
   password: '5555'
   port: 11300
   server: 8.217.35.37
   tls: false
   type: socks5
   username: '5555'
-- name: '🇳🇱 011  | ⬇️ 25KB/s #1'
+- name: 🇳🇱 011  | ⬇️ 25KB/s
   password: Private
   port: 1080
   server: 85.17.179.81
   type: socks5
   username: M_YOU_D
-- name: '🇭🇰 012  | ⬇️ 33KB/s #1'
+- name: 🇭🇰 012  | ⬇️ 33KB/s
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
 - client-fingerprint: chrome
-  name: '🇹🇭 013  | ⬇️ 2KB/s #1'
+  name: 🇹🇭 013  | ⬇️ 2KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -150,7 +277,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 014  | ⬇️ 159KB/s #1'
+  name: 🇸🇬 014  | ⬇️ 159KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -165,7 +292,7 @@ proxies:
     headers:
       Host: yh-xjp.2999352.xyz
     path: /
-- name: '🇷🇺 015  | ⬇️ 108KB/s #1'
+- name: 🇷🇺 015  | ⬇️ 108KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -181,7 +308,7 @@ proxies:
     path: /v1
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 016  | ⬇️ 2MB/s #1'
+  name: 🇳🇱 016  | ⬇️ 2MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -200,14 +327,14 @@ proxies:
   is_working: true
   last_seen: '2026-07-25T21:57:18.762106+00:00'
   latency_ms: 1255.83
-  name: '🇨🇳 017  #1'
+  name: '🇨🇳 017 '
   port: 9701
   sent_to_telegram: false
   server: 43.143.108.2
   source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
   tested_at: '2026-06-12T14:20:28.475539+00:00'
   type: socks5
-- name: '🇭🇰 018  | ⬇️ 294KB/s #1'
+- name: 🇭🇰 018  | ⬇️ 294KB/s
   password: '123'
   port: 5555
   server: 47.83.127.139
@@ -218,7 +345,7 @@ proxies:
   - h2
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇸🇬 019  | ⬇️ 22KB/s #1'
+  name: 🇸🇬 019  | ⬇️ 22KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -235,7 +362,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '🇮🇹 020  | ⬇️ 9MB/s #1'
+  name: 🇮🇹 020  | ⬇️ 9MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -250,20 +377,20 @@ proxies:
     host: garahanyedi.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '🇮🇩 021  | ⬇️ 1KB/s #1'
+  name: 🇮🇩 021  | ⬇️ 1KB/s
   password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
   port: 31348
   server: 103.160.63.199
   skip-cert-verify: false
   type: ss
   udp: false
-- name: '🇪🇪 022  | ⬇️ 36KB/s #1'
+- name: 🇪🇪 022  | ⬇️ 36KB/s
   password: 1Telegram_MojiVPN
   port: 1080
   server: ee-tal.pvdata.host
   type: socks5
   username: N9cyF6jvgy3ZEmCNKe04zBIR
-- name: '🇭🇰 023  | ⬇️ 72KB/s #1'
+- name: 🇭🇰 023  | ⬇️ 72KB/s
   password: admin
   port: 8899
   server: 47.242.19.215
@@ -275,26 +402,26 @@ proxies:
   is_working: true
   last_seen: '2026-08-03T17:24:59.065245+00:00'
   latency_ms: 2336.18
-  name: '🇹🇭 024  | ⬇️ 10KB/s #1'
+  name: 🇹🇭 024  | ⬇️ 10KB/s
   port: 1080
   sent_to_telegram: false
   server: 38.76.215.92
   source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
   tested_at: '2026-08-02T12:03:26.053744+00:00'
   type: socks5
-- name: '🇫🇷 026  | ⬇️ 60KB/s #1'
+- name: 🇫🇷 026  | ⬇️ 60KB/s
   password: ''
   port: 1088
   server: 144.91.121.61
   type: socks5
   username: ''
-- name: '🇳🇱 027  | ⬇️ 6MB/s #1'
+- name: 🇳🇱 027  | ⬇️ 6MB/s
   password: test123
   port: 1080
   server: 185.145.99.41
   type: socks5
   username: test123
-- name: '🇭🇰 028  | ⬇️ 3MB/s #1'
+- name: 🇭🇰 028  | ⬇️ 3MB/s
   network: tcp
   password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   port: 2052
@@ -305,7 +432,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '🇮🇹 030  | ⬇️ 8MB/s #1'
+  name: 🇮🇹 030  | ⬇️ 8MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -320,7 +447,7 @@ proxies:
     host: garahanyedi.com
     path: /
 - client-fingerprint: chrome
-  name: '🇸🇪 031  | ⬇️ 8MB/s #1'
+  name: 🇸🇪 031  | ⬇️ 8MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -338,7 +465,7 @@ proxies:
     path: /repository
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 032  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 032  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -354,7 +481,7 @@ proxies:
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 033  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 033  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -367,7 +494,7 @@ proxies:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: '🇯🇵 034  | ⬇️ 132KB/s #1'
+  name: 🇯🇵 034  | ⬇️ 132KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
@@ -377,7 +504,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 035  | ⬇️ 10MB/s #1'
+  name: 🇭🇰 035  | ⬇️ 10MB/s
   network: ws
   port: 443
   server: 2b9hwy8ocx7q74nm.v.3dns.vip
@@ -391,7 +518,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '🇮🇹 037  | ⬇️ 9MB/s #1'
+  name: 🇮🇹 037  | ⬇️ 9MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -405,7 +532,7 @@ proxies:
   xhttp-opts:
     host: garahanyedi.com
     path: /
-- name: '🇯🇵 038  | ⬇️ 13KB/s #1'
+- name: 🇯🇵 038  | ⬇️ 13KB/s
   port: 10808
   server: 101.36.104.239
   type: socks5
@@ -415,7 +542,7 @@ proxies:
   is_working: true
   last_seen: '2026-07-11T15:57:20.664693+00:00'
   latency_ms: 229.3
-  name: '🇸🇬 039  | ⬇️ 2KB/s #1'
+  name: 🇸🇬 039  | ⬇️ 2KB/s
   port: 10808
   sent_to_telegram: false
   server: 43.156.84.41
@@ -427,7 +554,7 @@ proxies:
   is_working: true
   last_seen: '2026-07-22T01:00:06.404167+00:00'
   latency_ms: 63.74
-  name: ' 040  | ⬇️ 264KB/s #1'
+  name: ' 040  | ⬇️ 264KB/s'
   port: 9050
   sent_to_telegram: false
   server: 138.128.247.206
@@ -435,7 +562,7 @@ proxies:
   tested_at: '2026-07-22T01:00:02.302512+00:00'
   type: socks5
 - encryption: none
-  name: '🇷🇺 041  #1'
+  name: '🇷🇺 041 '
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -448,14 +575,14 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- name: '🇫🇷 042  | ⬇️ 5KB/s #1'
+- name: 🇫🇷 042  | ⬇️ 5KB/s
   password: ''
   port: 1080
   server: 213.199.47.140
   type: socks5
   username: ''
 - client-fingerprint: chrome
-  name: '🇹🇭 043  | ⬇️ 9KB/s #1'
+  name: 🇹🇭 043  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -471,7 +598,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
 - encryption: none
-  name: '🇸🇬 044  | ⬇️ 10MB/s #1'
+  name: 🇸🇬 044  | ⬇️ 10MB/s
   network: ws
   packet-encoding: xudp
   port: 17771
@@ -483,14 +610,14 @@ proxies:
   uuid: 1178e691-88c5-4c7d-b4ea-1cefcdf52553
   ws-opts:
     path: /
-- name: '🇭🇰 045  | ⬇️ 30KB/s #1'
+- name: 🇭🇰 045  | ⬇️ 30KB/s
   password: '5555'
   port: 11300
   server: 47.243.121.17
   tls: false
   type: socks5
   username: '5555'
-- name: '🇭🇰 046  | ⬇️ 22KB/s #1'
+- name: 🇭🇰 046  | ⬇️ 22KB/s
   password: '111'
   port: 11211
   server: 47.243.173.50
@@ -498,7 +625,7 @@ proxies:
   username: '111'
 - alterId: 0
   cipher: auto
-  name: '🇳🇱 047  | ⬇️ 1KB/s #1'
+  name: 🇳🇱 047  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: 185.246.152.159
@@ -512,7 +639,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - client-fingerprint: randomized
   encryption: none
-  name: '🇳🇱 048  | ⬇️ 7MB/s #1'
+  name: 🇳🇱 048  | ⬇️ 7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -529,7 +656,7 @@ proxies:
     path: /in1
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 049  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 049  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: 8.210.189.158
@@ -542,7 +669,7 @@ proxies:
       Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: '🇩🇪 050  | ⬇️ 3MB/s #1'
+  name: 🇩🇪 050  | ⬇️ 3MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -560,7 +687,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇳🇱 051  | ⬇️ 4MB/s #1'
+  name: 🇳🇱 051  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -574,7 +701,7 @@ proxies:
   type: vless
   udp: true
   uuid: f20db72d-58c3-4789-9225-03a8cfc2e2c3
-- name: '🇭🇰 052  | ⬇️ 62KB/s #1'
+- name: 🇭🇰 052  | ⬇️ 62KB/s
   password: '111'
   port: 11310
   server: 47.76.229.132
@@ -585,7 +712,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-04T11:24:09.237546+00:00'
   latency_ms: 168.4
-  name: '🇸🇬 053  | ⬇️ 61KB/s #1'
+  name: 🇸🇬 053  | ⬇️ 61KB/s
   port: 1088
   sent_to_telegram: false
   server: 140.245.53.190
@@ -593,7 +720,7 @@ proxies:
   tested_at: '2026-08-02T14:08:14.030410+00:00'
   type: socks5
 - client-fingerprint: chrome
-  name: '🇹🇭 054  | ⬇️ 2KB/s #1'
+  name: 🇹🇭 054  | ⬇️ 2KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -608,13 +735,13 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: '🇭🇰 055  | ⬇️ 9MB/s #1'
+- name: 🇭🇰 055  | ⬇️ 9MB/s
   password: '8888'
   port: 1080
   server: 8.210.31.250
   type: socks5
   username: '8888'
-- name: '🇭🇰 056  | ⬇️ 14KB/s #1'
+- name: 🇭🇰 056  | ⬇️ 14KB/s
   password: '123'
   port: 3060
   server: 8.218.153.191
@@ -623,7 +750,7 @@ proxies:
   username: '123'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇳🇱 057  | ⬇️ 7MB/s #1'
+  name: 🇳🇱 057  | ⬇️ 7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -639,7 +766,7 @@ proxies:
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 058  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 058  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -656,7 +783,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: '🇬🇧 059  | ⬇️ 5MB/s #1'
+  name: 🇬🇧 059  | ⬇️ 5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -670,14 +797,14 @@ proxies:
   xhttp-opts:
     host: uk-cf.aba-hum.store
     path: /
-- name: '🇺🇸 060  | ⬇️ 4MB/s #1'
+- name: 🇺🇸 060  | ⬇️ 4MB/s
   password: test123
   port: 1080
   server: 104.168.249.36
   type: socks5
   username: test123
 - client-fingerprint: chrome
-  name: '🇹🇭 061  | ⬇️ 9KB/s #1'
+  name: 🇹🇭 061  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -692,7 +819,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: '🇷🇺 062  | ⬇️ 126KB/s #1'
+- name: 🇷🇺 062  | ⬇️ 126KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -712,7 +839,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-04T02:36:46.844038+00:00'
   latency_ms: 156.58
-  name: '🇫🇷 063  | ⬇️ 150KB/s #1'
+  name: 🇫🇷 063  | ⬇️ 150KB/s
   port: 1088
   sent_to_telegram: false
   server: 185.185.80.58
@@ -724,7 +851,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-01T11:42:49.556509+00:00'
   latency_ms: 1277.87
-  name: '🇮🇩 064  | ⬇️ 72KB/s #1'
+  name: 🇮🇩 064  | ⬇️ 72KB/s
   port: 1080
   sent_to_telegram: false
   server: 103.76.149.140
@@ -732,7 +859,7 @@ proxies:
   tested_at: '2026-07-19T21:53:48.250796+00:00'
   type: socks5
 - client-fingerprint: chrome
-  name: '🇹🇭 065  | ⬇️ 10KB/s #1'
+  name: 🇹🇭 065  | ⬇️ 10KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -748,7 +875,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
 - client-fingerprint: chrome
-  name: '🇹🇭 066  | ⬇️ 27KB/s #1'
+  name: 🇹🇭 066  | ⬇️ 27KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -765,7 +892,7 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 067  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 067  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -780,7 +907,7 @@ proxies:
   udp: true
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - client-fingerprint: chrome
-  name: '🇷🇺 068  | ⬇️ 7MB/s #1'
+  name: 🇷🇺 068  | ⬇️ 7MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -798,7 +925,7 @@ proxies:
     path: /assets
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇳🇱 069  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 069  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -814,7 +941,7 @@ proxies:
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇫🇮 070  | ⬇️ 27KB/s #1'
+  name: 🇫🇮 070  | ⬇️ 27KB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -830,7 +957,7 @@ proxies:
   uuid: 0a76a766-d141-44b8-944e-dff757d7116f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇳🇱 071  | ⬇️ 7MB/s #1'
+  name: 🇳🇱 071  | ⬇️ 7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -849,7 +976,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-01T05:56:02.406092+00:00'
   latency_ms: 251.13
-  name: '🇧🇩 072  | ⬇️ 383KB/s #1'
+  name: 🇧🇩 072  | ⬇️ 383KB/s
   port: 1080
   sent_to_telegram: false
   server: 202.40.190.74
@@ -865,34 +992,34 @@ proxies:
       - sjskendn.dingtalk.com
     path:
     - /x
-  name: '🇭🇰 073  | ⬇️ 55KB/s #1'
+  name: 🇭🇰 073  | ⬇️ 55KB/s
   network: http
   port: 800
   server: 47.86.167.194
   tls: false
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: '🇺🇸 074  | ⬇️ 9KB/s #1'
+- name: 🇺🇸 074  | ⬇️ 9KB/s
   password: ''
   port: 1080
   server: 212.58.132.5
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: '🇨🇭 075  | ⬇️ 3MB/s #1'
+- name: 🇨🇭 075  | ⬇️ 3MB/s
   password: 1Telegram_MojiVPN
   port: 1080
   server: ch-zur.pvdata.host
   type: socks5
   username: N9cyF6jvgy3ZEmCNKe04zBIR
-- name: '🇭🇰 076  | ⬇️ 34KB/s #1'
+- name: 🇭🇰 076  | ⬇️ 34KB/s
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
 - encryption: none
-  name: '🇸🇬 077  | ⬇️ 9MB/s #1'
+  name: 🇸🇬 077  | ⬇️ 9MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -906,7 +1033,7 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 078  | ⬇️ 7MB/s #1'
+  name: 🇳🇱 078  | ⬇️ 7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -922,7 +1049,7 @@ proxies:
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 079  | ⬇️ 10MB/s #1'
+  name: 🇭🇰 079  | ⬇️ 10MB/s
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -935,7 +1062,7 @@ proxies:
     path: /ws-vmess
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 080  | ⬇️ 7MB/s #1'
+  name: 🇳🇱 080  | ⬇️ 7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -952,7 +1079,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 081  | ⬇️ 5MB/s #1'
+  name: 🇸🇬 081  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -967,13 +1094,13 @@ proxies:
     headers:
       Host: yh-xjp.2999352.xyz
     path: /
-- name: '🇯🇵 082  | ⬇️ 58KB/s #1'
+- name: 🇯🇵 082  | ⬇️ 58KB/s
   password: '123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: '🇭🇰 083  | ⬇️ 96KB/s #1'
+- name: 🇭🇰 083  | ⬇️ 96KB/s
   password: '123'
   port: 5555
   server: 47.239.194.38
@@ -982,7 +1109,7 @@ proxies:
   username: '123'
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 084  | ⬇️ 2KB/s #1'
+  name: 🇭🇰 084  | ⬇️ 2KB/s
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -996,7 +1123,7 @@ proxies:
     path: /ws-vmess
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 085  | ⬇️ 1MB/s #1'
+  name: 🇩🇪 085  | ⬇️ 1MB/s
   network: ws
   packet-encoding: xudp
   port: 38298
@@ -1012,7 +1139,7 @@ proxies:
       Host: web-socket.tgdaosheng.ggff.net
     path: /proxyip=bpb.yousef.isegaro.com
 - client-fingerprint: chrome
-  name: '🇹🇭 086  | ⬇️ 6KB/s #1'
+  name: 🇹🇭 086  | ⬇️ 6KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1027,7 +1154,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: '🇭🇰 087  | ⬇️ 1MB/s #1'
+- name: 🇭🇰 087  | ⬇️ 1MB/s
   password: '123'
   port: 5555
   server: 47.83.123.81
@@ -1037,7 +1164,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 088  | ⬇️ 5MB/s #1'
+  name: 🇸🇬 088  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1052,7 +1179,7 @@ proxies:
     headers:
       Host: yh-xjp.2999352.xyz
     path: /
-- name: '🇷🇺 089  | ⬇️ 119KB/s #1'
+- name: 🇷🇺 089  | ⬇️ 119KB/s
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -1066,7 +1193,7 @@ proxies:
       Host: live.ok.ru
     path: /v1
 - client-fingerprint: chrome
-  name: '🇹🇭 090  | ⬇️ 7KB/s #1'
+  name: 🇹🇭 090  | ⬇️ 7KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1083,7 +1210,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 091  | ⬇️ 10MB/s #1'
+  name: 🇭🇰 091  | ⬇️ 10MB/s
   network: ws
   port: 443
   server: 8.210.108.58
@@ -1096,7 +1223,7 @@ proxies:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: '🇹🇭 092  | ⬇️ 10KB/s #1'
+  name: 🇹🇭 092  | ⬇️ 10KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1111,7 +1238,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: '🇸🇬 093  | ⬇️ 5KB/s #1'
+- name: 🇸🇬 093  | ⬇️ 5KB/s
   password: admin
   port: 1080
   server: 143.198.85.89
@@ -1120,7 +1247,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 094  | ⬇️ 5MB/s #1'
+  name: 🇸🇬 094  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1135,7 +1262,7 @@ proxies:
     headers:
       Host: yh-xjp.2999352.xyz
     path: /
-- name: '🇮🇲 095  | ⬇️ 3MB/s #1'
+- name: 🇮🇲 095  | ⬇️ 3MB/s
   password: 1Telegram_MojiVPN
   port: 1080
   server: im-bal.pvdata.host
@@ -1146,14 +1273,14 @@ proxies:
   is_working: true
   last_seen: '2026-08-03T12:24:45.662019+00:00'
   latency_ms: 1266.77
-  name: '🇮🇩 096  | ⬇️ 247KB/s #1'
+  name: 🇮🇩 096  | ⬇️ 247KB/s
   port: 69
   sent_to_telegram: false
   server: 103.142.255.33
   source: https://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks5.txt
   tested_at: '2026-07-24T00:59:45.890516+00:00'
   type: socks5
-- name: '🇭🇰 097  | ⬇️ 122KB/s #1'
+- name: 🇭🇰 097  | ⬇️ 122KB/s
   password: '123'
   port: 30001
   server: 47.239.74.242
@@ -1165,7 +1292,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-04T02:36:46.844038+00:00'
   latency_ms: 1261.4
-  name: '🇮🇩 098  | ⬇️ 141KB/s #1'
+  name: 🇮🇩 098  | ⬇️ 141KB/s
   port: 1080
   sent_to_telegram: false
   server: 49.0.0.175
@@ -1174,7 +1301,7 @@ proxies:
   type: socks5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇭🇰 099  | ⬇️ 3MB/s #1'
+  name: 🇭🇰 099  | ⬇️ 3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1193,7 +1320,7 @@ proxies:
   is_working: true
   last_seen: '2026-08-03T15:25:29.210332+00:00'
   latency_ms: 93.86
-  name: '🇩🇪 100  | ⬇️ 3MB/s #1'
+  name: 🇩🇪 100  | ⬇️ 3MB/s
   port: 1080
   sent_to_telegram: false
   server: 47.245.165.201
@@ -1201,7 +1328,7 @@ proxies:
   tested_at: '2026-08-02T06:00:33.055227+00:00'
   type: socks5
 - multiplexing: MULTIPLEXING_LOW
-  name: '🇺🇸 101  | ⬇️ 7MB/s #1'
+  name: 🇺🇸US_3|1.1MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -1211,7 +1338,7 @@ proxies:
   username: dongtaiwang.com
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇭🇰 102  | ⬇️ 6MB/s #1'
+  name: 🇭🇰 102  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1228,7 +1355,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇸🇬 103  | ⬇️ 5MB/s #1'
+  name: 🇸🇬 103  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1245,7 +1372,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇳🇱 104  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 104  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1262,7 +1389,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇲🇽 105  | ⬇️ 835KB/s #1'
+  name: 🇲🇽 105  | ⬇️ 835KB/s
   network: tcp
   packet-encoding: xudp
   port: 36671
@@ -1275,7 +1402,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8bc7cc31-8326-480e-9540-d1270210d9b1
-- name: '🇰🇷 106  | ⬇️ 2MB/s #1'
+- name: 🇰🇷 106  | ⬇️ 2MB/s
   password: admin
   port: 5555
   server: 158.180.91.51
@@ -1283,7 +1410,7 @@ proxies:
   username: admin
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 107  | ⬇️ 9KB/s #1'
+  name: 🇭🇰 107  | ⬇️ 9KB/s
   network: ws
   port: 443
   server: 47.86.107.119
@@ -1300,14 +1427,14 @@ proxies:
   is_working: true
   last_seen: '2026-07-08T07:04:03.287902+00:00'
   latency_ms: 2282.13
-  name: '🇧🇩 108  | ⬇️ 88KB/s #1'
+  name: 🇧🇩 108  | ⬇️ 88KB/s
   port: 1080
   sent_to_telegram: false
   server: 202.40.190.78
   source: https://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks5.txt
   tested_at: '2026-07-08T07:03:59.673946+00:00'
   type: socks5
-- name: '🇭🇰 109  | ⬇️ 101KB/s #1'
+- name: 🇭🇰 109  | ⬇️ 101KB/s
   password: '8888'
   port: 8888
   server: 8.210.18.221
@@ -1316,7 +1443,7 @@ proxies:
   username: '8888'
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇳🇱 110  | ⬇️ 6MB/s #1'
+  name: 🇳🇱 110  | ⬇️ 6MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -1331,7 +1458,7 @@ proxies:
   udp: true
   uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - client-fingerprint: chrome
-  name: '🇹🇭 111  | ⬇️ 7KB/s #1'
+  name: 🇹🇭 111  | ⬇️ 7KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1347,7 +1474,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
 - client-fingerprint: chrome
-  name: '🇹🇭 112  | ⬇️ 6KB/s #1'
+  name: 🇹🇭 112  | ⬇️ 6KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1364,7 +1491,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 113  | ⬇️ 7MB/s #1'
+  name: 🇩🇪 113  | ⬇️ 7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1379,153 +1506,16 @@ proxies:
     headers:
       Host: web-socket.tgdaosheng.ggff.net
     path: /proxyip=bpb.yousef.isegaro.com
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|4.0MB/s
-  network: tcp
-  port: 7190
-  reality-opts:
-    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
-    short-id: '7398e0c72f7d5c0e'
-  server: 5.75.202.32
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23bda1f5-da85-4de6-aacb-ce77acb88808
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.9MB/s
-  network: tcp
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇺🇸US_1|2.8MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
-  server: 152.53.173.93
-  servername: fastsync.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.7MB/s
-  network: tcp
-  port: 443
-  server: fr76.mechvpn.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|1.2MB/s
-  network: tcp
-  port: 443
-  server: fr15.mechvpn.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|2.0MB/s
-  network: tcp
-  port: 20243
-  reality-opts:
-    public-key: fB0gzruxHdrID18WQclmC5QGVCrHTqOwnqFosxh2TnY
-    short-id: '214dd1031b8a'
-  server: 34.124.166.13
-  servername: www.spotify.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇦UA_1|1.9MB/s
-  password: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-  port: 12014
-  server: xhkt5.ddns.net
-  type: ss
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|2.2MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.17.148.22
+  server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
-  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.4MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /assignment
-- encryption: none
-  name: 🇺🇸US_2|1.4MB/s
-  network: ws
-  port: '80'
-  server: 45.131.4.115
-  type: vless
-  udp: true
-  uuid: a7b22989-6c1f-4b59-b0f3-0605401813c4
-  ws-opts:
-    headers:
-      Host: worker3.gigak25604.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_3|1.7MB/s
-  network: ws
-  port: '80'
-  server: 104.27.110.37
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  type: vless
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  ws-opts:
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /api/ws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|1016KB/s
-  network: ws
-  port: '2083'
-  server: 46.101.253.244
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|2.9MB/s
+  name: 🇫🇷FR_1|1.5MB/s
   network: ws
   password: humanity
   port: '443'
@@ -1536,11 +1526,23 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /assignment
+- down: ''
+  fingerprint: ''
+  name: 🇦🇿AZ_1|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
+  port: '8443'
+  server: 94.20.88.13
+  skip-cert-verify: true
+  sni: azer-tea-grape.bumbleshrimp.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
-  name: 🇫🇷FR_5|1.1MB/s
+  name: 🇫🇷FR_2|1.1MB/s
   network: ws
   password: humanity
   port: '443'
@@ -1551,708 +1553,72 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /assignment
-- name: 🇳🇱NL_1|1.2MB/s
-  port: 9002
-  server: 84.17.47.147
+- name: 🇺🇸US_2|4.6MB/s
+  password: 2EXii6JlhaDvgSiTsC
+  port: 8444
+  server: ggboy.ggboyz.online
   skip-cert-verify: true
+  sni: ggboy.ggboyz.online
   tls: true
-  type: http
+  type: trojan
   udp: true
-- name: 🇳🇱NL_2|1.9MB/s
-  port: 9002
-  server: 84.17.47.149
+- name: 🇭🇰HK_1|1.1MB/s
+  password: BxceQaOe
+  port: 11035
+  server: 18.162.244.203
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   tls: true
-  type: http
+  type: trojan
   udp: true
-- name: 🇷🇴RO_1|3.0MB/s
-  port: 9002
-  server: 193.176.84.17
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_1|1.2MB/s
+  network: ws
+  port: 2052
+  server: 207.56.229.202
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: vmess
   udp: true
-- name: 🇷🇴RO_60|1.0MB/s
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_3|1.5MB/s
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_61|3.3MB/s
-  port: 9002
-  server: 84.239.49.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_5|1.0MB/s
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_41|3.0MB/s
-  port: 9002
-  server: 84.239.49.240
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_7|2.1MB/s
-  port: 9002
-  server: 84.239.49.233
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_8|3.0MB/s
-  port: 9002
-  server: 84.239.49.163
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_38|3.5MB/s
-  port: 9002
-  server: 84.239.14.152
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_10|4.0MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_11|3.0MB/s
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_12|1.3MB/s
-  port: 9002
-  server: 84.239.49.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_13|2.1MB/s
-  port: 9002
-  server: 84.239.49.165
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_14|4.4MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.173
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_15|2.7MB/s
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_3|1.3MB/s
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_4|3.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_5|1.7MB/s
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|2.7MB/s
-  port: 9002
-  server: 156.146.59.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|1.1MB/s
-  port: 9002
-  server: 156.146.59.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: edge
-  name: 🇸🇮SI_1|1.0MB/s
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
+- name: 🇯🇵JP_2|1.9MB/s
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
-  reality-opts:
-    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: 'ad55857184e91aad'
-  server: 2.27.56.109
-  servername: stacks.vk-portal.net
-  skip-cert-verify: true
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|5.0MB/s
-  network: ws
-  port: 2083
-  server: 8.39.125.209
-  servername: pphmsubs.911388.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-  ws-opts:
-    headers:
-      Host: pphmsubs.911388.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|4.4MB/s
-  network: ws
-  port: 2083
-  server: 188.164.248.72
-  servername: jcxjcnasvip.jcdenas.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: /
-- name: 🇬🇧GB_1|2.2MB/s
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: '0'
+  cipher: auto
+  name: 🇵🇰PK_1|1.3MB/s
+  network: tcp
+  port: 29035
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- name: 🇬🇧GB_1|1.7MB/s
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇴RO_16|1.2MB/s
-  password: None
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|2.0MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-- name: 🇷🇴RO_17|1.5MB/s
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_18|1.7MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_19|3.4MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_20|2.1MB/s
-  port: 9002
-  server: 84.239.49.245
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_21|2.6MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.160
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_22|3.3MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.53
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_23|2.5MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.48
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_24|2.8MB/s
-  port: 9002
-  server: 84.239.49.204
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_25|3.2MB/s
-  port: 9002
-  server: 84.239.49.212
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_26|3.9MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|1.4MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|3.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.6MB/s
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇳🇱NL_3|3.9MB/s
-  port: 8889
-  server: 95.211.64.139
-  type: http
-- name: 🇷🇴RO_27|1.0MB/s
-  port: 9002
-  server: 84.239.49.161
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_28|2.2MB/s
-  port: 9002
-  server: 84.239.49.54
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_29|3.4MB/s
-  port: 9002
-  server: 84.239.49.196
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_30|1001KB/s
-  port: 9002
-  server: 84.239.49.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_31|1.3MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_32|1.1MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.229
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_33|2.5MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_34|3.3MB/s
-  password: None
-  port: 9002
-  server: 84.239.49.251
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇴RO_35|1.0MB/s
-  port: 9002
-  server: 84.239.49.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇧🇷BR_1|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: '00bca5982f82d083'
-  server: 201.50.115.23
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-- client-fingerprint: chrome
-  name: 🇫🇷FR_6|1.8MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 8.6.112.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- name: 🇷🇴RO_36|1008KB/s
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_37|1.9MB/s
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_39|1.1MB/s
-  port: 9002
-  server: 84.239.49.55
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_40|1.6MB/s
-  port: 9002
-  server: 84.239.49.184
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_42|1.6MB/s
-  port: 9002
-  server: 84.239.49.57
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_43|1.0MB/s
-  port: 9002
-  server: 84.239.49.199
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_44|3.5MB/s
-  port: 9002
-  server: 84.239.14.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇫🇷FR_7|2.4MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /assignment
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_5|4.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: 'abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f0b6835-58e1-4448-a7db-1dcdd5ae9538
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: 🇳🇱NL_4|1.4MB/s
-  network: ws
-  port: '443'
-  server: 104.18.22.63
-  servername: cdn.wafer.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ff76f40-050f-4e1d-8eea-570def4ad3bb
-  ws-opts:
-    headers:
-      Host: cdn.wafer.fun
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /96xvqx2k
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇳🇱NL_5|1.7MB/s
-  network: grpc
-  port: '31443'
-  reality-opts:
-    public-key: ByXfJxJKfVTVuBLlRSp4SdG70hpj0sJtOBIbdBsZCRg
-    short-id: ''
-  server: 193.233.217.241
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇫🇮FI_1|2.9MB/s
-  network: grpc
-  port: '17443'
-  reality-opts:
-    public-key: YvhcuqXRqPigT7_rp9vsV5LAdxXHN8eWB_17SchS_S8
-    short-id: ''
-  server: 193.233.91.177
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US_13|2.1MB/s
+  name: 🇹🇼TW_1|2.2MB/s
   network: tcp
-  port: '53168'
-  server: lt.badns.help
+  port: '29020'
+  server: 366-1095.rabbitpro-in-3.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
   xudp: true
-- name: 🇷🇴RO_45|2.7MB/s
-  password: ''
-  port: '9002'
-  server: 84.239.49.235
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇫🇮FI_2|1.6MB/s
-  password: cafe3d6c85dd0d64a17efd98df25be1e
-  port: '10807'
-  server: proxyma.space
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: e696f11c2304c08b
-- name: 🇷🇴RO_46|2.5MB/s
-  port: 9002
-  server: 84.239.49.48
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_47|4.0MB/s
-  port: 9002
-  server: 84.239.49.183
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_48|4.2MB/s
-  port: 9002
-  server: 84.239.49.170
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_49|2.8MB/s
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_50|2.9MB/s
-  port: 9002
-  server: 84.239.49.234
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_51|2.4MB/s
-  port: 9002
-  server: 84.239.49.197
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_52|1.0MB/s
-  port: 9002
-  server: 84.239.49.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_53|3.7MB/s
-  port: 9002
-  server: 84.239.49.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_54|1.0MB/s
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_55|1.0MB/s
-  port: 9002
-  server: 84.239.49.248
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_56|1.5MB/s
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_57|2.1MB/s
-  port: 9002
-  server: 84.239.49.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_58|3.2MB/s
-  port: 9002
-  server: 84.239.49.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇷🇴RO_59|2.5MB/s
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇺🇸US_14|4.2MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
