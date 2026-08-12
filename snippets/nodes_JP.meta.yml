@@ -1,45 +1,27 @@
 proxies:
-- name: 🇯🇵 003  | ⬇️ 11KB/s
-  port: 10808
-  server: 101.36.104.46
+- name: 🇯🇵JP_1|1.8MB/s
+  password: k6vz7jReGKNZKEuU
+  port: 8888
+  server: 45.192.198.137
   type: socks5
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 034  | ⬇️ 132KB/s
+  username: u8471537504
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇯🇵 016  | ⬇️ 163KB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 🇯🇵 038  | ⬇️ 13KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+  packet-encoding: xudp
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: '!!str 0102ac4e'
+  server: rm-jp-01.409648.xyz
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 🇯🇵 082  | ⬇️ 58KB/s
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|1.2MB/s
-  network: ws
-  port: 2052
-  server: 207.56.229.202
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
-- name: 🇯🇵JP_2|1.9MB/s
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+- name: 🇯🇵JP_2|2.1MB/s
   password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
   server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com

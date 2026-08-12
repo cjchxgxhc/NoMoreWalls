@@ -1,24 +1,20 @@
 proxies:
 - alpn:
-  - h2
+  - http/1.1
   client-fingerprint: chrome
-  name: 🇬🇧 059  | ⬇️ 5MB/s
-  network: xhttp
+  encryption: none
+  name: 🇬🇧 060  | ⬇️ 50KB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  server: 37.220.86.155
-  servername: uk-cf.aba-hum.store
+  server: 140.248.186.45
+  servername: ssl.fastly.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
-  xhttp-opts:
-    host: uk-cf.aba-hum.store
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 🇬🇧GB_1|1.7MB/s
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http

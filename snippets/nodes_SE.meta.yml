@@ -1,39 +1,15 @@
 proxies:
-- client-fingerprint: firefox
-  flow: ''
-  grpc-opts:
-    grpc-service-name: streaming
+- name: 🇸🇪 064  | ⬇️ 4MB/s
+  password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
+  port: 43327
+  server: 2.27.23.44
+  skip-cert-verify: false
+  sni: gate-v1.not-a-projects.xyz
+  tfo: false
+  type: hysteria2
+- client-fingerprint: safari
+  encryption: none
   name: 🇸🇪 005  | ⬇️ 3MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 43439
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: '!!str 39ad36226f3abec8'
-  server: 31.77.111.11
-  servername: cdn.higames.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
-- client-fingerprint: edge
-  name: 🇸🇪 006  | ⬇️ 3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: '!!str ad55857184e91aad'
-  server: 2.27.56.109
-  servername: stacks.vk-portal.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- client-fingerprint: firefox
-  name: 🇸🇪 007  | ⬇️ 4MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -50,20 +26,37 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /api/v1/events
-- client-fingerprint: chrome
-  name: 🇸🇪 031  | ⬇️ 8MB/s
-  network: xhttp
+- client-fingerprint: firefox
+  flow: ''
+  grpc-opts:
+    grpc-service-name: streaming
+  name: '🇸🇪 014  | ⬇️ 3MB/s #1'
+  network: grpc
   packet-encoding: xudp
-  port: 443
+  port: 43439
   reality-opts:
-    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
-    short-id: '!!str 2c9431dc7a306018'
-  server: 84.38.187.134
-  servername: git.xpkg.ru
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 39ad36226f3abec8'
+  server: 31.77.111.11
+  servername: cdn.higames.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d4a574d7-ec42-002f-b3fc-9b31b456532b
-  xhttp-opts:
-    path: /repository
+  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪 032  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: '!!str ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065

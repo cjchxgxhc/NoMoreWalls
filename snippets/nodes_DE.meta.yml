@@ -1,17 +1,25 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇩🇪 001  | ⬇️ 7MB/s
-  password: amazonskr05
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪 065  | ⬇️ 7KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 3.76.30.105
-  type: ss
+  reality-opts:
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.90
+  servername: fastsync.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 002  | ⬇️ 1MB/s
+  name: 🇩🇪 067  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -26,7 +34,109 @@ proxies:
     host: moein-bf821.b-cdn.net
     mode: auto
     path: /api
-- name: 🇩🇪 004  | ⬇️ 5MB/s
+- name: 🇩🇪 003  | ⬇️ 4MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de2.sferavpn.pro
+  skip-cert-verify: false
+  sni: de2.sferavpn.pro
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 006  | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 12303
+  reality-opts:
+    _spider-x: /
+    public-key: ens3hLP8kjd-Zye3nW1Q_CC2kJFo0PdPbplj9VLwkWg
+    short-id: '!!str b06215326af874d6'
+  server: 2.27.59.11
+  servername: music.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe5b12dc-08f0-4078-ba02-34d239922a2e
+- name: 🇩🇪 020  | ⬇️ 3MB/s
+  network: ws
+  port: 443
+  server: 162.159.153.4
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 023  | ⬇️ 5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.93
+  servername: fastsync.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- cipher: aes-256-cfb
+  name: 🇩🇪 025  | ⬇️ 7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.76.30.105
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 🇩🇪 029  | ⬇️ 3MB/s
+  network: tcp
+  port: 443
+  server: de151.mechvpn.online
+  servername: de151.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 035  | ⬇️ 76KB/s
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: 6RshLCSAs31qGRa_tWi63KClbh2Kzj9ooXpdaPJKbjs
+    short-id: '!!str a6bbc4aecf5d961f'
+  server: de-193-58.neobo-tooth.ru
+  servername: vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- name: 🇩🇪 039  | ⬇️ 6MB/s
+  password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
+  port: 43327
+  server: 2.27.59.11
+  skip-cert-verify: false
+  sni: gate-v1.not-a-projects.xyz
+  tfo: false
+  type: hysteria2
+- name: 🇩🇪 041  | ⬇️ 5MB/s
   password: 130e6aab-9eba-441e-9021-22cbccc72832
   port: 8443
   server: srvhy1.ezcon24.online
@@ -34,81 +144,58 @@ proxies:
   sni: srvhy1.ezcon24.online
   tfo: false
   type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: '🇩🇪 002  | ⬇️ 1MB/s #1'
-  network: grpc
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 052  | ⬇️ 822KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.75.207
+  servername: sub1.sub017.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 901ff980-0727-4a6b-8417-5d9be8948ff6
+  xhttp-opts:
+    host: sub1.sub017.dpdns.org
+    mode: auto
+    path: /api
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '6'
+    x-padding-bytes: 100-1000
+- name: 🇩🇪 064  | ⬇️ 3MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de1.sferavpn.pro
+  skip-cert-verify: false
+  sni: de1.sferavpn.pro
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 055  | ⬇️ 4MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ns.o11111o.club
-  servername: id.vk.com
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: de.n.belka.network
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: chrome
-  name: 🇩🇪 050  | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 194.8.6.33
-  servername: web-socket.tgdaosheng.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  ws-opts:
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-    path: /proxyip=bpb.yousef.isegaro.com
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 085  | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 38298
-  server: 96.126.112.12
-  servername: web-socket.tgdaosheng.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  ws-opts:
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-    path: /proxyip=bpb.yousef.isegaro.com
-- found_at: '2026-08-02T06:00:41.248451+00:00'
-  hash: socks5|47.245.165.201|1080|||
-  is_working: true
-  last_seen: '2026-08-03T15:25:29.210332+00:00'
-  latency_ms: 93.86
-  name: 🇩🇪 100  | ⬇️ 3MB/s
-  port: 1080
-  sent_to_telegram: false
-  server: 47.245.165.201
-  source: https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
-  tested_at: '2026-08-02T06:00:33.055227+00:00'
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 113  | ⬇️ 7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 185.103.255.142
-  servername: web-socket.tgdaosheng.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  ws-opts:
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-    path: /proxyip=bpb.yousef.isegaro.com
+  uuid: 68dc7ee8-179e-4dff-8275-2c4ebc5c03ea
