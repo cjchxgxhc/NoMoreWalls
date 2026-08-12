@@ -1,7 +1,8 @@
 proxies:
-- client-fingerprint: ios
-  grpc-opts: {}
-  name: 🇫🇷 036  | ⬇️ 11KB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇫🇷 065  | ⬇️ 11KB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -17,39 +18,26 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 028  | ⬇️ 1MB/s
+  mode: gun
+  name: 🇫🇷 068  | ⬇️ 1MB/s
   network: grpc
-  packet-encoding: xudp
+  packetEncoding: xudp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 62.109.5.156
   servername: id.vk.com
+  serviceName: vless-grpc-reality
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 026  | ⬇️ 11KB/s
-  network: grpc
-  packet-encoding: xudp
+- name: 🇫🇷FR_1|1.7MB/s
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ns.o11111o.club
-  servername: id.vk.com
-  skip-cert-verify: false
+  server: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
+  sni: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 15.237.177.224
-  type: ss
-  udp: true
+  type: http
+  username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
