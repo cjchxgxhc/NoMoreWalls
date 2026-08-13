@@ -1,8 +1,27 @@
 proxies:
+- encryption: none
+  name: 🇺🇸 039  | ⬇️ 23KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 058  | ⬇️ 9KB/s
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: 217.28.129.81
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 064  | ⬇️ 27KB/s
-  network: raw
+  name: 🇺🇸 071  | ⬇️ 27KB/s
+  network: tcp
   packet-encoding: xudp
   port: 30906
   reality-opts:
@@ -15,7 +34,7 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸 069  | ⬇️ 4MB/s
+- name: 🇺🇸 077  | ⬇️ 4MB/s
   password: test123
   port: 1080
   server: 104.168.249.36
@@ -23,7 +42,7 @@ proxies:
   username: test123
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 081  | ⬇️ 20KB/s
+  name: 🇺🇸 089  | ⬇️ 20KB/s
   network: tcp
   packet-encoding: xudp
   port: 40056
@@ -41,7 +60,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸 090  | ⬇️ 6MB/s
+  name: 🇺🇸 101  | ⬇️ 6MB/s
   network: grpc
   packet-encoding: xudp
   port: 7443
@@ -55,7 +74,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇺🇸 041  | ⬇️ 6MB/s
+- name: 🇺🇸 109  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -70,7 +89,7 @@ proxies:
     headers:
       Host: 3h-unitedstates3.09vpn.com
     path: /vless/
-- name: 🇺🇸 105  | ⬇️ 3MB/s
+- name: 🇺🇸 116  | ⬇️ 3MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -88,25 +107,6 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- encryption: none
-  name: 🇺🇸 036  | ⬇️ 23KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 051  | ⬇️ 9KB/s
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: 217.28.129.81
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇺🇸US_1|2.5MB/s

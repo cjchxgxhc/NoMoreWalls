@@ -1,6 +1,30 @@
 proxies:
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺 018  | ⬇️ 18KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+- name: 🇷🇺 112  | ⬇️ 9KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2200
+  server: 193.188.23.170
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
 - encryption: none
-  name: 🇷🇺 108  | ⬇️ 9KB/s
+  name: 🇷🇺 119  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -12,18 +36,3 @@ proxies:
   uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
   ws-opts:
     path: /v1
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺 016  | ⬇️ 30KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87

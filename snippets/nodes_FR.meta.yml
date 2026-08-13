@@ -1,9 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 096  | ⬇️ 4MB/s
+- flow: xtls-rprx-vision
+  name: 🇫🇷 025  | ⬇️ 4MB/s
   network: tcp
-  packet-encoding: xudp
+  port: 443
+  server: fr15.mechvpn.online
+  servername: fr15.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- flow: xtls-rprx-vision
+  name: 🇫🇷 106  | ⬇️ 4MB/s
+  network: tcp
   port: 443
   server: fr199.mechvpn.online
   servername: fr199.mechvpn.online
@@ -16,7 +25,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 122  | ⬇️ 11KB/s
+  name: 🇫🇷 135  | ⬇️ 11KB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -30,9 +39,10 @@ proxies:
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
 - client-fingerprint: chrome
+  encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 125  | ⬇️ 1MB/s
+  name: 🇫🇷 001  | ⬇️ 1MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -45,19 +55,6 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 023  | ⬇️ 4MB/s
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  server: fr15.mechvpn.online
-  servername: fr15.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: chrome
   name: 🇫🇷FR_1|1.1MB/s
   network: ws
