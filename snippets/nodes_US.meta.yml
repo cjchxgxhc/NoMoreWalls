@@ -1,20 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸 026  | ⬇️ 27KB/s
-  network: raw
-  port: 30906
-  reality-opts:
-    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
-    short-id: '!!str 17a94dc584e3'
-  server: 204.48.20.223
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+- name: '🇺🇸 004  | ⬇️ 4MB/s #1'
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 033  | ⬇️ 20KB/s
+  name: '🇺🇸 014  | ⬇️ 20KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 40056
@@ -30,29 +23,34 @@ proxies:
   udp: true
   uuid: 090122da-ad6b-42a1-92d7-bab2630e2511
 - client-fingerprint: firefox
-  name: 🇺🇸 041  | ⬇️ 6MB/s
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '🇺🇸 024  | ⬇️ 6MB/s #1'
   network: grpc
+  packet-encoding: xudp
   port: 7443
   reality-opts:
     public-key: uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM
     short-id: '!!str 48d5cf47'
   server: 216.227.161.95
   servername: media3.abvphelp.cc
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇺🇸 052  | ⬇️ 3MB/s
+- name: '🇺🇸 038  | ⬇️ 3MB/s #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: node1.sferavpn.pro
+  skip-cert-verify: false
   sni: node1.sferavpn.pro
+  tfo: false
   type: hysteria2
-  udp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 051  | ⬇️ 5MB/s
+  name: '🇺🇸 060  | ⬇️ 5MB/s #1'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -60,8 +58,8 @@ proxies:
   type: mieru
   username: dongtaiwang.com
 - encryption: none
-  name: 🇺🇸 006  | ⬇️ 23KB/s
-  network: raw
+  name: '🇺🇸 093  | ⬇️ 23KB/s #1'
+  network: tcp
   packet-encoding: xudp
   port: 10000
   server: 180.178.60.253
@@ -71,45 +69,160 @@ proxies:
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 019  | ⬇️ 9KB/s
+  name: '🇺🇸 108  | ⬇️ 9KB/s #1'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: 217.28.129.81
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇺🇸US_1|3.3MB/s
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸 121  | ⬇️ 27KB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 30906
+  reality-opts:
+    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
+    short-id: '!!str 17a94dc584e3'
+  server: 204.48.20.223
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_16|1.8MB/s
+  network: raw
+  port: '49003'
+  reality-opts:
+    public-key: jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo
+    short-id: '!!str 27e53bbcab7593d7'
+  server: 194.55.239.152
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  port: '8880'
+  server: 155.46.167.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: ''
+  xudp: true
+- name: 🇺🇸US_3|3.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.5MB/s
+  udp: true
+- name: 🇺🇸US_4|3.1MB/s
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_5|2.7MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|3.4MB/s
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|1.7MB/s
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|2.6MB/s
   port: 443
   server: voteshirleysew.club
   sni: voteshirleysew.club
   tls: true
   type: http
-- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 🇺🇸US_3|1.6MB/s
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 82.38.60.15
+- name: 🇺🇸US_9|4.4MB/s
+  port: 443
+  server: purecambogiasl.live
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_4|1.0MB/s
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+- name: 🇺🇸US_10|2.0MB/s
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
+  sni: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
+  tls: true
+  type: http
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: 🇺🇸US_11|1.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|2.7MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|1.8MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_14|1.4MB/s
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|3.0MB/s
   network: tcp
-  port: '2053'
+  port: 443
   reality-opts:
-    public-key: uO6RPMi31-Q2JwZ1YALarJplhlBRVhpA7NsXDW3KTyk
-    short-id: '!!str 4104ca12a90b4285'
-  server: 198.251.78.29
-  servername: www.cloudflare.com
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: usa.n.belka.network
+  servername: yahoo.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
-  xudp: true
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
