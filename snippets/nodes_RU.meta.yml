@@ -1,28 +1,29 @@
 proxies:
-- name: 🇷🇺 034  | ⬇️ 5MB/s
+- name: 🇷🇺 011  | ⬇️ 5MB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
   username: ''
 - encryption: none
-  name: 🇷🇺 037  | ⬇️ 9KB/s
+  name: 🇷🇺 021  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
   server: 193.188.23.170
   skip-cert-verify: false
-  tls: false
   type: vless
   udp: true
   uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
   ws-opts:
+    headers:
+      Host: rzd.ru
     path: /v1
 - alpn:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 078  | ⬇️ 2MB/s
+  name: 🇷🇺 055  | ⬇️ 18KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -33,6 +34,12 @@ proxies:
   type: vless
   udp: true
   uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  xhttp-opts:
-    mode: auto
+- name: 🇷🇺 014  | ⬇️ 9KB/s
+  network: ws
+  port: 2200
+  server: 193.188.23.170
+  type: vless
+  udp: true
+  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
+  ws-opts:
     path: /
