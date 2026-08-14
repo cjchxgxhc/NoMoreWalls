@@ -1,8 +1,106 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 136  | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: nTyGEX99oLzIlXTD12u9fvk2rsByCP2XAjoskFV2Qx8
+    short-id: '!!str 7b2e9f4a1c830d5e'
+  server: 2.56.178.136
+  servername: userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47975fcf-1f4c-4808-9012-114569b081e4
+- name: 🇩🇪 148  | ⬇️ 7MB/s
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: dggg.wsone.icu
+  sni: dggg.wsone.icu
+  type: trojan
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪 151  | ⬇️ 7KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.90
+  servername: fastsync.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- client-fingerprint: safari
+  name: 🇩🇪 026  | ⬇️ 2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 185.229.190.148
+  servername: moein-bf821.b-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  xhttp-opts:
+    path: /api
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   name: 🇩🇪 006  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: nTyGEX99oLzIlXTD12u9fvk2rsByCP2XAjoskFV2Qx8
+    short-id: '!!str a3f8c2d1e4b70956'
+  server: 159.194.233.16
+  servername: userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47975fcf-1f4c-4808-9012-114569b081e4
+- name: 🇩🇪 007  | ⬇️ 6MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de2.sferavpn.pro
+  skip-cert-verify: false
+  sni: de2.sferavpn.pro
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 011  | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 12303
+  reality-opts:
+    _spider-x: /
+    public-key: ens3hLP8kjd-Zye3nW1Q_CC2kJFo0PdPbplj9VLwkWg
+    short-id: '!!str b06215326af874d6'
+  server: 2.27.59.11
+  servername: music.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe5b12dc-08f0-4078-ba02-34d239922a2e
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 030  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -16,27 +114,26 @@ proxies:
   type: vless
   udp: true
   uuid: 47975fcf-1f4c-4808-9012-114569b081e4
-- name: 🇩🇪 017  | ⬇️ 5MB/s
+- encryption: none
+  name: 🇩🇪 043  | ⬇️ 5MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: 162.159.153.4
   servername: rAyAn-007.mAxImA.DpDnS.OrG
-  skip-cert-verify: false
-  tfo: true
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: f2a73750-3087-48ff-a763-1348c15dce68
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: rAyAn-007.mAxImA.DpDnS.OrG
-    max-early-data: 2560
     path: /
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 027  | ⬇️ 5MB/s
+  name: 🇩🇪 051  | ⬇️ 5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -55,7 +152,7 @@ proxies:
   client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 030  | ⬇️ 5MB/s
+  name: 🇩🇪 055  | ⬇️ 5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -67,18 +164,16 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: 🇩🇪 032  | ⬇️ 7MB/s
+  name: 🇩🇪DE_1|2.1MB/s
   password: amazonskr05
-  port: 443
+  port: '443'
   server: 3.76.30.105
   skip-cert-verify: false
   type: ss
-  udp: false
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 038  | ⬇️ 4MB/s
+  udp: true
+- flow: xtls-rprx-vision
+  name: 🇩🇪 063  | ⬇️ 4MB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   server: de151.mechvpn.online
   servername: de151.mechvpn.online
@@ -87,23 +182,21 @@ proxies:
   type: vless
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 050  | ⬇️ 76KB/s
-  network: tcp#🎗️83@oneclickvpnkeysvless://7b188eea-b08f-42c2-bac7-d3b0e74218b8@147.182.212.232:56565?encryption=none
-  packet-encoding: xudp
+  name: 🇩🇪 075  | ⬇️ 76KB/s
+  network: raw
   port: 2053
   reality-opts:
     public-key: 6RshLCSAs31qGRa_tWi63KClbh2Kzj9ooXpdaPJKbjs
     short-id: '!!str a6bbc4aecf5d961f'
   server: de-193-58.neobo-tooth.ru
   servername: vk.ru
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
-- name: 🇩🇪 058  | ⬇️ 6MB/s
+- name: 🇩🇪 083  | ⬇️ 6MB/s
   password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
   port: 43327
   server: 2.27.59.11
@@ -111,18 +204,17 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tfo: false
   type: hysteria2
-- disable-sni: true
-  name: 🇩🇪 068  | ⬇️ 5MB/s
+- name: 🇩🇪 114  | ⬇️ 5MB/s
   password: 130e6aab-9eba-441e-9021-22cbccc72832
   port: 8443
   server: srvhy1.ezcon24.online
-  skip-cert-verify: true
-  sni: ''
+  skip-cert-verify: false
+  sni: srvhy1.ezcon24.online
   type: hysteria2
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 070  | ⬇️ 1MB/s
+  name: 🇩🇪 095  | ⬇️ 1MB/s
   network: raw
   packet-encoding: xudp
   port: 2027
@@ -142,7 +234,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 088  | ⬇️ 5MB/s
+  name: 🇩🇪 113  | ⬇️ 5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -164,7 +256,7 @@ proxies:
       h-max-reusable-secs: 1800-3000
       max-connections: '6'
     x-padding-bytes: 100-1000
-- name: 🇩🇪 089  | ⬇️ 3MB/s
+- name: 🇩🇪 114  | ⬇️ 3MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -177,7 +269,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 094  | ⬇️ 4MB/s
+  name: 🇩🇪 119  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -191,45 +283,34 @@ proxies:
   type: vless
   udp: true
   uuid: 68dc7ee8-179e-4dff-8275-2c4ebc5c03ea
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 110  | ⬇️ 3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nTyGEX99oLzIlXTD12u9fvk2rsByCP2XAjoskFV2Qx8
-    short-id: '!!str 7b2e9f4a1c830d5e'
-  server: 2.56.178.136
-  servername: userapi.com
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 128  | ⬇️ 3MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 47975fcf-1f4c-4808-9012-114569b081e4
-- name: 🇩🇪 122  | ⬇️ 7MB/s
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: dggg.wsone.icu
-  skip-cert-verify: true
-  sni: dggg.wsone.icu
-  type: trojan
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪 125  | ⬇️ 7KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
-  server: 152.53.173.90
-  servername: fastsync.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- client-fingerprint: firefox
-  name: 🇩🇪 137  | ⬇️ 2MB/s
+  up: 500
+- disable-sni: true
+  name: 🇩🇪 086  | ⬇️ 5MB/s
+  password: 130e6aab-9eba-441e-9021-22cbccc72832
+  port: 8443
+  server: srvhy1.ezcon24.online
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 156  | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -241,72 +322,44 @@ proxies:
   udp: true
   uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
   xhttp-opts:
+    host: moein-bf821.b-cdn.net
     mode: auto
     path: /api
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 138  | ⬇️ 4MB/s
+  name: 🇩🇪DE_2|1.7MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '47822'
   reality-opts:
-    public-key: nTyGEX99oLzIlXTD12u9fvk2rsByCP2XAjoskFV2Qx8
-    short-id: '!!str a3f8c2d1e4b70956'
-  server: 159.194.233.16
-  servername: userapi.com
-  skip-cert-verify: false
+    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
+    short-id: '!!str c577182abe08e64c'
+  server: 217.154.146.174
+  servername: pg-bot.gigatapbot.top
   tls: true
   type: vless
   udp: true
-  uuid: 47975fcf-1f4c-4808-9012-114569b081e4
-- name: 🇩🇪 139  | ⬇️ 6MB/s
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: de2.sferavpn.pro
-  skip-cert-verify: false
-  sni: de2.sferavpn.pro
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 143  | ⬇️ 3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 12303
-  reality-opts:
-    _spider-x: /
-    public-key: ens3hLP8kjd-Zye3nW1Q_CC2kJFo0PdPbplj9VLwkWg
-    short-id: '!!str b06215326af874d6'
-  server: 2.27.59.11
-  servername: music.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe5b12dc-08f0-4078-ba02-34d239922a2e
-- name: 🇩🇪 061  | ⬇️ 5MB/s
-  password: 130e6aab-9eba-441e-9021-22cbccc72832
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: false
-  sni: srvhy1.ezcon24.online
-  type: hysteria2
+  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
+  xudp: true
 - alpn:
+  - h3
   - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 130  | ⬇️ 2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 185.229.190.148
-  servername: moein-bf821.b-cdn.net
-  skip-cert-verify: false
+  client-fingerprint: firefox
+  encryption: mlkem768x25519plus.native.0rtt.X7yH_rtU6iYW0wSgnikNtPO5mUpBj3kG-2CBVWxKAXs
+  name: 🇩🇪DE_3|1.2MB/s
+  network: xhttp
+  port: '2083'
+  reality-opts:
+    public-key: lzAsZbFKsDtyUqGG4ShxyK5fbUuQrsoEMohG1Xg3KRM
+    short-id: '!!str 4994a3ebb255ebc9'
+  server: ge.zarqivo.ir
+  servername: play.googleapis.com
   tls: true
   type: vless
   udp: true
-  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  uuid: 5d2679fd-7320-abcd-ac47-57adb5c99e66
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true

@@ -1,6 +1,6 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 🇫🇷 151  | ⬇️ 4MB/s
+  name: 🇫🇷 020  | ⬇️ 4MB/s
   network: tcp
   port: 443
   server: fr199.mechvpn.online
@@ -12,7 +12,7 @@ proxies:
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 016  | ⬇️ 12KB/s
+  name: 🇫🇷 040  | ⬇️ 12KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
@@ -23,7 +23,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 033  | ⬇️ 11KB/s
+  name: 🇫🇷 058  | ⬇️ 11KB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -32,14 +32,16 @@ proxies:
   server: ns.o11111o.club
   servername: id.vk.com
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
 - client-fingerprint: chrome
-  name: 🇫🇷 044  | ⬇️ 1MB/s
-  network: grpc
+  encryption: none
+  grpc#2🎗️@oneclickvpnkeys-opts:
+    grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
+  name: 🇫🇷 062  | ⬇️ 1MB/s
+  network: grpc#2🎗️@oneclickvpnkeys
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -51,11 +53,9 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 062  | ⬇️ 4MB/s
+- flow: xtls-rprx-vision
+  name: 🇫🇷 087  | ⬇️ 4MB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   server: fr15.mechvpn.online
   servername: fr15.mechvpn.online
@@ -64,20 +64,34 @@ proxies:
   type: vless
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 037  | ⬇️ 1MB/s
-  network: grpc
-  packet-encoding: xudp
+- name: 🇫🇷FR_1|1.8MB/s
+  password: FH72359861
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 62.109.5.156
-  servername: id.vk.com
+  server: correct-pony.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.6
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- fingerprint: ''
+  name: 🇫🇷FR_3|1.6MB/s
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: '4430'
+  server: fr1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+  username: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45

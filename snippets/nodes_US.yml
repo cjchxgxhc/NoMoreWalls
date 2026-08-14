@@ -1,18 +1,53 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 098  | ⬇️ 9KB/s
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: 217.28.129.81
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 146  | ⬇️ 5MB/s
+  name: 🇺🇸 014  | ⬇️ 5MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 123  | ⬇️ 9KB/s
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: 217.28.129.81
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|1.0MB/s
+  network: ws
+  port: 443
+  server: 157.254.227.163
+  servername: xc166.meiziba5566.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eba24d1d-0c2b-4b67-862f-cae68626f3fa
+  ws-opts:
+    path: /cae68626f3fa
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.189.180.103
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_13|1.4MB/s
+  network: ws
+  port: 443
+  server: 198.23.184.122
+  servername: xc163.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
+  ws-opts:
+    path: /837279ad9b4a
