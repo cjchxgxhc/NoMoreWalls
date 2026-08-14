@@ -1,7 +1,15 @@
 proxies:
+- name: 🇸🇪 148  | ⬇️ 4MB/s
+  password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
+  port: 43327
+  server: 2.27.23.44
+  skip-cert-verify: false
+  sni: gate-v1.not-a-projects.xyz
+  tfo: false
+  type: hysteria2
 - client-fingerprint: qq
   encryption: none
-  name: '🇸🇪 009  | ⬇️ 3MB/s #1'
+  name: 🇸🇪 009  | ⬇️ 3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -22,7 +30,7 @@ proxies:
   flow: ''
   grpc-opts:
     grpc-service-name: streaming
-  name: '🇸🇪 030  | ⬇️ 4MB/s #1'
+  name: 🇸🇪 030  | ⬇️ 4MB/s
   network: grpc
   packet-encoding: xudp
   port: 43439
@@ -38,7 +46,7 @@ proxies:
   uuid: 428e923f-e608-412b-9e51-3b09ffab551f
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇪 068  | ⬇️ 3MB/s #1'
+  name: 🇸🇪 068  | ⬇️ 3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -48,15 +56,8 @@ proxies:
   server: 2.27.56.109
   servername: stacks.vk-portal.net
   skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- name: '🇸🇪 148  | ⬇️ 4MB/s #1'
-  password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
-  port: 43327
-  server: 2.27.23.44
-  skip-cert-verify: false
-  sni: gate-v1.not-a-projects.xyz
-  tfo: false
-  type: hysteria2

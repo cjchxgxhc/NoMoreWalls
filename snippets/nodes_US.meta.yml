@@ -1,8 +1,54 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 120  | ⬇️ 9KB/s
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: 217.28.129.81
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 133  | ⬇️ 27KB/s
+  network: raw
+  port: 30906
+  reality-opts:
+    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
+    short-id: '!!str 17a94dc584e3'
+  server: 204.48.20.223
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+  xudp: true
+- name: 🇺🇸 140  | ⬇️ 4MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 153  | ⬇️ 20KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 40056
+  reality-opts:
+    _spider-x: /
+    public-key: EYLZTm0VpViSmTLfehDg0DE57ZEp0P0hab5ME3pXrgs
+    short-id: '!!str 9ccdca9f'
+  server: 166.1.89.85
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 090122da-ad6b-42a1-92d7-bab2630e2511
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: '🇺🇸 012  | ⬇️ 6MB/s #1'
+  name: 🇺🇸 012  | ⬇️ 6MB/s
   network: grpc
   packet-encoding: xudp
   port: 7443
@@ -18,14 +64,16 @@ proxies:
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - alterId: 2
   cipher: auto
-  name: '🇺🇸 014  | ⬇️ 5MB/s #1'
+  name: 🇺🇸 014  | ⬇️ 5MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇺🇸 023  | ⬇️ 6MB/s #1'
+- name: 🇺🇸 023  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -43,7 +91,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: '🇺🇸 027  | ⬇️ 5MB/s #1'
+  name: 🇺🇸 027  | ⬇️ 5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -57,7 +105,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: '🇺🇸 032  | ⬇️ 7MB/s #1'
+- name: 🇺🇸 032  | ⬇️ 7MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -67,15 +115,17 @@ proxies:
   sni: node1.sferavpn.pro
   tfo: false
   type: hysteria2
-- name: '🇺🇸 058  | ⬇️ 5MB/s #1'
+- country: 🇺🇸US
+  name: 🇺🇸 058  | ⬇️ 5MB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-006.fastervpn.world
   type: hysteria2
+  udp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|2.2MB/s
+  name: 🇺🇸 062  | ⬇️ 4MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -83,7 +133,7 @@ proxies:
   type: mieru
   username: dongtaiwang.com
 - encryption: none
-  name: '🇺🇸 100  | ⬇️ 23KB/s #1'
+  name: 🇺🇸 100  | ⬇️ 23KB/s
   network: tcp
   packet-encoding: xudp
   port: 10000
@@ -93,129 +143,9 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 120  | ⬇️ 9KB/s #1'
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: 217.28.129.81
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸 133  | ⬇️ 27KB/s #1'
-  network: raw
-  port: 30906
-  reality-opts:
-    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
-    short-id: '!!str 17a94dc584e3'
-  server: 204.48.20.223
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: '🇺🇸 140  | ⬇️ 4MB/s #1'
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸 153  | ⬇️ 20KB/s #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 40056
-  reality-opts:
-    _spider-x: /
-    public-key: EYLZTm0VpViSmTLfehDg0DE57ZEp0P0hab5ME3pXrgs
-    short-id: '!!str 9ccdca9f'
-  server: 166.1.89.85
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 090122da-ad6b-42a1-92d7-bab2630e2511
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.5MB/s
-  network: tcp
+- name: 🇺🇸US_1|1016KB/s
   port: 443
-  reality-opts:
-    public-key: oYo4UjPmIVNSFTLYR7wuadY2v44sVuckzRAKyzi0UAE
-    short-id: '!!str a25c781f24d4209f'
-  server: united.nosok-top.com
-  servername: united.nosok-top.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-- name: 🇺🇸US_3|1.1MB/s
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
   tls: true
   type: http
-  udp: true
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- name: 🇺🇸US_4|3.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_5|3.3MB/s
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|1.9MB/s
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|2.9MB/s
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|3.3MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|1.9MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.42
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_10|1.6MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: uO6RPMi31-Q2JwZ1YALarJplhlBRVhpA7NsXDW3KTyk
-    short-id: '!!str 4104ca12a90b4285'
-  server: 198.251.78.29
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
-  xudp: true

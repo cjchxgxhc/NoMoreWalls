@@ -1,12 +1,12 @@
 proxies:
-- name: '🇷🇺 034  | ⬇️ 5MB/s #1'
+- name: 🇷🇺 034  | ⬇️ 5MB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
   username: ''
 - encryption: none
-  name: '🇷🇺 037  | ⬇️ 9KB/s #1'
+  name: 🇷🇺 037  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -21,11 +21,14 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '🇷🇺 078  | ⬇️ 2MB/s #1'
+  encryption: none
+  name: 🇷🇺 078  | ⬇️ 2MB/s
   network: xhttp
+  packet-encoding: xudp
   port: 443
   server: 104.18.32.47
   servername: rus.aba-hum.store
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
