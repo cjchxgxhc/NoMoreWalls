@@ -1,6 +1,16 @@
 proxies:
+- name: 🇺🇸 024  | ⬇️ 23KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 004  | ⬇️ 9KB/s
+  name: 🇺🇸 046  | ⬇️ 9KB/s
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: 217.28.129.81
@@ -9,7 +19,7 @@ proxies:
   udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 019  | ⬇️ 27KB/s
+  name: 🇺🇸 061  | ⬇️ 27KB/s
   network: raw
   packet-encoding: xudp
   port: 30906
@@ -23,7 +33,7 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸 026  | ⬇️ 4MB/s
+- name: 🇺🇸 069  | ⬇️ 4MB/s
   password: test123
   port: 1080
   server: 104.168.249.36
@@ -31,7 +41,7 @@ proxies:
   username: test123
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 039  | ⬇️ 20KB/s
+  name: 🇺🇸 082  | ⬇️ 20KB/s
   network: tcp
   packet-encoding: xudp
   port: 40056
@@ -49,7 +59,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸 055  | ⬇️ 6MB/s
+  name: 🇺🇸 098  | ⬇️ 6MB/s
   network: grpc
   packet-encoding: xudp
   port: 7443
@@ -65,17 +75,14 @@ proxies:
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 057  | ⬇️ 4MB/s
+  name: 🇺🇸 100  | ⬇️ 4MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  name: 🇺🇸 067  | ⬇️ 6MB/s
+- name: 🇺🇸 111  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -93,8 +100,9 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: grpc
-  name: 🇺🇸 072  | ⬇️ 3MB/s
+  name: 🇺🇸 116  | ⬇️ 3MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -103,106 +111,93 @@ proxies:
     short-id: '!!str 3182f9ae'
   server: 193.233.205.117
   servername: media3.abvphelp.cc
-  skip-cert-verify: false
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇺🇸 077  | ⬇️ 4MB/s
+- name: 🇺🇸 121  | ⬇️ 4MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: node1.sferavpn.pro
-  skip-cert-verify: false
   sni: node1.sferavpn.pro
-  tfo: false
   type: hysteria2
-  udp: true
-- name: 🇺🇸 100  | ⬇️ 2MB/s
+- name: 🇺🇸 146  | ⬇️ 2MB/s
   password: ''
   port: 22222
   server: 193.25.215.182
   type: socks5
   username: ''
-- name: 🇺🇸 106  | ⬇️ 5MB/s
+- name: 🇺🇸 152  | ⬇️ 5MB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-006.fastervpn.world
-  tfo: false
   type: hysteria2
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 110  | ⬇️ 3MB/s
+  name: 🇺🇸 157  | ⬇️ 3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- encryption: none
-  name: 🇺🇸 150  | ⬇️ 23KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.0MB/s
+  name: 🇺🇸US_1|1.9MB/s
   network: tcp
-  port: 13779
+  port: 50159
   reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 192.26.51.202
-  servername: tesla.com
+    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
+    short-id: '!!str 2bad4cafb9965963'
+  server: 154.17.0.91
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: 🇺🇸US_2|1008KB/s
-  password: None
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_3|1.9MB/s
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.2MB/s
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+- cipher: chacha20-ietf
+  name: 🇺🇸US_2|1.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
 - client-fingerprint: chrome
-  name: 🇺🇸US_5|4.3MB/s
+  name: 🇺🇸US_3|4.4MB/s
   network: tcp
-  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: '20041'
-  server: oss-shanghai.micron-qwer.com
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
+    short-id: '!!str 660d5a6915710e6e'
+  server: 38.47.113.204
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|1023KB/s
+  network: ws
+  port: '443'
+  server: mina-production-f048.up.railway.app
+  tls: true
+  type: vless
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|4.9MB/s
-  network: tcp
-  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: '20046'
-  server: oss-shanghai.micron-qwer.com
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  type: trojan
-  udp: true
+  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/4c27fd46-708c-1af6-8a69-136a2bf8c847
+  xudp: true

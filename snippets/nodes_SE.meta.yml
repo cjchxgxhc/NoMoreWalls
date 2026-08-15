@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇪 034  | ⬇️ 4MB/s
+- name: 🇸🇪 077  | ⬇️ 4MB/s
   password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
   port: 43327
   server: 2.27.23.44
@@ -9,7 +9,8 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: safari
-  name: 🇸🇪 052  | ⬇️ 3MB/s
+  encryption: none
+  name: 🇸🇪 095  | ⬇️ 3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -28,8 +29,9 @@ proxies:
 - client-fingerprint: firefox
   flow: ''
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: streaming
-  name: 🇸🇪 075  | ⬇️ 3MB/s
+  name: 🇸🇪 119  | ⬇️ 3MB/s
   network: grpc
   packet-encoding: xudp
   port: 43439
@@ -38,14 +40,15 @@ proxies:
     short-id: '!!str 39ad36226f3abec8'
   server: 31.77.111.11
   servername: cdn.higames.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 428e923f-e608-412b-9e51-3b09ffab551f
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  name: 🇸🇪 116  | ⬇️ 3MB/s
+  name: 🇸🇪 163  | ⬇️ 3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
