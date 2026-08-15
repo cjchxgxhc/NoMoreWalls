@@ -1,12 +1,12 @@
 proxies:
-- name: 🇷🇺 103  | ⬇️ 3MB/s
+- name: 🇷🇺 079  | ⬇️ 3MB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
   username: ''
 - encryption: none
-  name: 🇷🇺 113  | ⬇️ 9KB/s
+  name: 🇷🇺 083  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -22,7 +22,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 149  | ⬇️ 4MB/s
+  name: 🇷🇺 126  | ⬇️ 32KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -36,34 +36,11 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- encryption: none
-  name: 🇷🇺 107  | ⬇️ 9KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 193.188.23.170
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_1|1.6MB/s
-  network: grpc
-  port: '2096'
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: '!!str 1ed136481e0ede74'
-  server: 5.188.140.5
-  servername: strm.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a334454-22f7-491b-9bec-583e1e8a2773
-  xudp: true
+- auth: 2a0099ded5baa93c55823af39229c5b1
+  name: 🇷🇺RU_1|3.1MB/s
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185-22-155-81.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 185-22-155-81.liao.kdns.fr
+  type: hysteria2
