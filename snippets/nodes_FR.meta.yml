@@ -1,7 +1,9 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 🇫🇷 020  | ⬇️ 4MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇫🇷 088  | ⬇️ 4MB/s #1'
   network: tcp
+  packet-encoding: xudp
   port: 443
   server: fr199.mechvpn.online
   servername: fr199.mechvpn.online
@@ -12,7 +14,7 @@ proxies:
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 040  | ⬇️ 12KB/s
+  name: '🇫🇷 109  | ⬇️ 12KB/s #1'
   network: tcp
   port: 30835
   server: v35.hdacd.com
@@ -23,7 +25,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 058  | ⬇️ 11KB/s
+  name: '🇫🇷 127  | ⬇️ 11KB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -38,10 +40,10 @@ proxies:
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
 - client-fingerprint: chrome
   encryption: none
-  grpc#2🎗️@oneclickvpnkeys-opts:
-    grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 062  | ⬇️ 1MB/s
-  network: grpc#2🎗️@oneclickvpnkeys
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: '🇫🇷 131  | ⬇️ 1MB/s #1'
+  network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -53,9 +55,11 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- flow: xtls-rprx-vision
-  name: 🇫🇷 087  | ⬇️ 4MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇫🇷 156  | ⬇️ 4MB/s #1'
   network: tcp
+  packet-encoding: ''
   port: 443
   server: fr15.mechvpn.online
   servername: fr15.mechvpn.online
@@ -64,34 +68,79 @@ proxies:
   type: vless
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- name: 🇫🇷FR_1|1.8MB/s
-  password: FH72359861
-  port: 443
-  server: correct-pony.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|1.1MB/s
+  name: 🇫🇷FR_1|3.0MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.6
+  server: 104.16.174.44
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
-- fingerprint: ''
-  name: 🇫🇷FR_3|1.6MB/s
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: '4430'
-  server: fr1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ''
-  type: anytls
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  username: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_4|1.2MB/s
+  port: 443
+  server: fan.132031.xyz
+  skip-cert-verify: true
+  sni: fan.132031.xyz
+  tls: true
+  type: http
+- encryption: none
+  name: 🇫🇷FR_5|1.7MB/s
+  network: tcp
+  port: '24144'
+  server: 164.68.127.108
+  type: vless
+  udp: true
+  uuid: 7e85ed3f-3829-45b1-8b1c-6a2e45ebc967
+  xudp: true
+- encryption: none
+  name: 🇫🇷FR_6|3.4MB/s
+  network: ws
+  port: '80'
+  server: 151.101.110.219
+  type: vless
+  udp: true
+  uuid: 931dd7d0-3e04-4a7a-b8d1-cb4c4465c932
+  ws-opts:
+    headers:
+      Host: franseeeeeee.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /api
+  xudp: true
