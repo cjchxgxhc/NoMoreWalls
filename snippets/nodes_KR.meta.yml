@@ -1,6 +1,32 @@
 proxies:
+- name: 🇰🇷 082  | ⬇️ 618KB/s
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
+- name: 🇰🇷 117  | ⬇️ 4MB/s
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 184  | ⬇️ 20KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 3.37.55.114
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
 - cipher: aes-256-cfb
-  name: 🇰🇷 104  | ⬇️ 3MB/s
+  name: 🇰🇷 017  | ⬇️ 3MB/s
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
@@ -9,7 +35,7 @@ proxies:
   udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: 🇰🇷 125  | ⬇️ 3MB/s
+  name: 🇰🇷 038  | ⬇️ 3MB/s
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -26,38 +52,3 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: 🇰🇷 169  | ⬇️ 618KB/s
-  password: admin
-  port: 5555
-  server: 158.180.91.51
-  type: socks5
-  username: admin
-- name: 🇰🇷 021  | ⬇️ 4MB/s
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷 086  | ⬇️ 20KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 3.37.55.114
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
-- name: 🇰🇷KR_1|2.4MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test

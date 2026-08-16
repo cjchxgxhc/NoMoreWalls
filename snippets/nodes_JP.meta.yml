@@ -5,7 +5,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 153  | ⬇️ 6MB/s
+  name: 🇯🇵 066  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8082
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: 🇯🇵 015  | ⬇️ 3MB/s
+- name: 🇯🇵 111  | ⬇️ 3MB/s
   password: k6vz7jReGKNZKEuU
   port: 8888
   server: 45.192.198.137
@@ -32,7 +32,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 027  | ⬇️ 4MB/s
+  name: 🇯🇵 123  | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 7443
@@ -49,7 +49,7 @@ proxies:
     path: /@Marisa_kristi
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇯🇵 045  | ⬇️ 163KB/s
+  name: 🇯🇵 142  | ⬇️ 163KB/s
   network: tcp
   packet-encoding: xudp
   port: 20725
@@ -68,7 +68,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 058  | ⬇️ 4MB/s
+  name: 🇯🇵 154  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 51790
@@ -82,3 +82,20 @@ proxies:
   type: vless
   udp: true
   uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
+- auth: bc751c4c5c80f17dfbc05785c368b613
+  name: 🇯🇵JP_3|3.7MB/s
+  password: bc751c4c5c80f17dfbc05785c368b613
+  port: 50160
+  server: 154.31.115.179
+  sni: 154-31-115-179.liao.kdns.fr
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|5.2MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: merry-falcon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
