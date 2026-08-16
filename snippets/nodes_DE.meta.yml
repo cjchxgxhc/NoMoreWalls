@@ -1,4 +1,21 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 015  | ⬇️ 5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - alpn:
   - h3
   - h2
@@ -27,7 +44,9 @@ proxies:
       h-max-reusable-secs: 1800-3000
       max-connections: '6'
     x-padding-bytes: 100-1000
-- name: 🇩🇪 037  | ⬇️ 3MB/s
+- name: 🇩🇪 027  | ⬇️ 3MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: de1.sferavpn.pro
@@ -157,7 +176,6 @@ proxies:
   udp: true
   uuid: fe5b12dc-08f0-4078-ba02-34d239922a2e
 - client-fingerprint: edge
-  encryption: none
   flow: xtls-rprx-vision
   name: 🇩🇪 118  | ⬇️ 4MB/s
   network: tcp
@@ -276,20 +294,34 @@ proxies:
   skip-cert-verify: false
   sni: srvhy1.ezcon24.online
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 015  | ⬇️ 5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str dc8109baf0f607ea'
-  server: 78.159.247.253
-  servername: storage.yandex.net
+- name: 🇩🇪 037  | ⬇️ 3MB/s
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de1.sferavpn.pro
   skip-cert-verify: false
+  sni: de1.sferavpn.pro
+  tfo: false
+  type: hysteria2
+- name: 🇩🇪DE_1|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪DE_2|1.0MB/s
+  network: grpc
+  port: 9871
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabb'
+  server: 200.165.228.114
+  servername: dl.google.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155

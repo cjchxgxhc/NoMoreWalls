@@ -38,10 +38,10 @@ proxies:
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
 - client-fingerprint: chrome
   encryption: none
-  grpc#2🎗️@oneclickvpnkeys-opts:
-    grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 136  | ⬇️ 1MB/s
-  network: grpc#2🎗️@oneclickvpnkeys
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇫🇷 154  | ⬇️ 1MB/s
+  network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -67,19 +67,39 @@ proxies:
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 154  | ⬇️ 1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 62.109.5.156
-  servername: id.vk.com
+  name: 🇫🇷FR_1|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.117
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_3|1.1MB/s
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http

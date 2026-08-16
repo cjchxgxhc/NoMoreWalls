@@ -33,10 +33,11 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸 069  | ⬇️ 4MB/s
+- name: 🇺🇸US_4|1.3MB/s
   password: test123
-  port: 1080
+  port: '1080'
   server: 104.168.249.36
+  skip-cert-verify: true
   type: socks5
   username: test123
 - client-fingerprint: chrome
@@ -98,13 +99,11 @@ proxies:
       Host: 3h-unitedstates3.09vpn.com
     path: /vless/
 - client-fingerprint: firefox
-  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc
   name: 🇺🇸 116  | ⬇️ 3MB/s
   network: grpc
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
@@ -115,7 +114,6 @@ proxies:
   tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - name: 🇺🇸 121  | ⬇️ 4MB/s
   obfs: salamander
@@ -123,7 +121,9 @@ proxies:
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: node1.sferavpn.pro
+  skip-cert-verify: false
   sni: node1.sferavpn.pro
+  tfo: false
   type: hysteria2
 - name: 🇺🇸 146  | ⬇️ 2MB/s
   password: ''
@@ -146,58 +146,169 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.9MB/s
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
-    short-id: '!!str 2bad4cafb9965963'
-  server: 154.17.0.91
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
-- cipher: chacha20-ietf
-  name: 🇺🇸US_2|1.9MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8629
-  server: cn18.somethingstranges.com
-  type: ss
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|4.4MB/s
+  name: 🇺🇸US_1|2.0MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
-    short-id: '!!str 660d5a6915710e6e'
-  server: 38.47.113.204
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|1023KB/s
-  network: ws
-  port: '443'
-  server: mina-production-f048.up.railway.app
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.229
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- auth: 6f6f58431702c3aa0b55ddf3d0a63a2c
+  name: 🇺🇸US_2|4.5MB/s
+  password: 6f6f58431702c3aa0b55ddf3d0a63a2c
+  port: 50160
+  server: 107-173-165-41.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 107-173-165-41.liao.kdns.fr
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|2.3MB/s
+  network: xhttp
+  port: '443'
+  server: api.ferrin.uk
+  servername: e7e90e6b.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- name: 🇺🇸US_5|1.7MB/s
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|2.9MB/s
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|4.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|1.6MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|1.3MB/s
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_10|2.8MB/s
+  port: 9002
+  server: 156.146.59.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_11|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_13|4.7MB/s
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_14|1.7MB/s
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|2.3MB/s
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+- name: 🇺🇸US_16|1.2MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  name: 🇺🇸US_18|2.6MB/s
+  network: ws
+  port: '443'
+  server: fbi.gov
+  servername: iran.novatunel.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 34de490f-9cb9-48e5-b5ff-c2cf3f2719c5
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /ws/4c27fd46-708c-1af6-8a69-136a2bf8c847
+      Host: iran.novatunel.site
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /DYvipF9MT3L0VDOS
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_19|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.231
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   xudp: true
