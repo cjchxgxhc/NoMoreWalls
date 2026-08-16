@@ -5,7 +5,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 057  | ⬇️ 6MB/s
+  name: 🇯🇵 164  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8082
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: 🇯🇵 096  | ⬇️ 3MB/s
+- name: 🇯🇵 028  | ⬇️ 3MB/s
   password: k6vz7jReGKNZKEuU
   port: 8888
   server: 45.192.198.137
@@ -32,7 +32,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 107  | ⬇️ 3MB/s
+  name: 🇯🇵 039  | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 7443
@@ -49,7 +49,7 @@ proxies:
     path: /@Marisa_kristi
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇯🇵 126  | ⬇️ 163KB/s
+  name: 🇯🇵 057  | ⬇️ 163KB/s
   network: tcp
   packet-encoding: xudp
   port: 20725
@@ -63,15 +63,40 @@ proxies:
   type: vless
   udp: true
   uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.3MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵 095  | ⬇️ 4MB/s
   network: tcp
-  port: 443
+  packet-encoding: xudp
+  port: 51790
   reality-opts:
-    public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
-    short-id: '!!str 3f91fcb900e7b35e'
-  server: 206.237.120.221
-  servername: www.cloudflare.com
+    public-key: XJa0ZYOvtfwRz7aF8GprVrnEjc4S1rokGFhc-tI1YFk
+    short-id: '!!str 02c40852'
+  server: 109.107.140.188
+  servername: icloud.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
+  udp: true
+  uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|1.1MB/s
+  network: ws
+  port: '443'
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /sg-orcl
+  xudp: true

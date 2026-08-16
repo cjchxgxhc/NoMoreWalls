@@ -1,48 +1,26 @@
 proxies:
-- name: 🇺🇸 024  | ⬇️ 23KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 046  | ⬇️ 9KB/s
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: 217.28.129.81
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 061  | ⬇️ 27KB/s
+  name: 🇺🇸 168  | ⬇️ 27KB/s
   network: raw
-  packet-encoding: xudp
   port: 30906
   reality-opts:
     public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
     short-id: '!!str 17a94dc584e3'
   server: 204.48.20.223
   servername: www.cloudflare.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸US_4|1.3MB/s
+- name: 🇺🇸 176  | ⬇️ 4MB/s
   password: test123
-  port: '1080'
+  port: 1080
   server: 104.168.249.36
-  skip-cert-verify: true
   type: socks5
   username: test123
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 082  | ⬇️ 20KB/s
+  name: 🇺🇸 014  | ⬇️ 20KB/s
   network: tcp
   packet-encoding: xudp
   port: 40056
@@ -60,7 +38,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇺🇸 098  | ⬇️ 6MB/s
+  name: 🇺🇸 030  | ⬇️ 6MB/s
   network: grpc
   packet-encoding: xudp
   port: 7443
@@ -76,14 +54,22 @@ proxies:
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 100  | ⬇️ 4MB/s
+  name: 🇺🇸 032  | ⬇️ 4MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 111  | ⬇️ 6MB/s
+- name: 🇺🇸 059  | ⬇️ 4MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- client-fingerprint: firefox
+  name: 🇺🇸 044  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -102,7 +88,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc
-  name: 🇺🇸 116  | ⬇️ 3MB/s
+  name: 🇺🇸 048  | ⬇️ 3MB/s
   network: grpc
   port: 443
   reality-opts:
@@ -115,7 +101,7 @@ proxies:
   tls: true
   type: vless
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇺🇸 121  | ⬇️ 4MB/s
+- name: 🇺🇸 053  | ⬇️ 4MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -125,190 +111,108 @@ proxies:
   sni: node1.sferavpn.pro
   tfo: false
   type: hysteria2
-- name: 🇺🇸 146  | ⬇️ 2MB/s
+- name: 🇺🇸 078  | ⬇️ 2MB/s
   password: ''
   port: 22222
   server: 193.25.215.182
   type: socks5
   username: ''
-- name: 🇺🇸 152  | ⬇️ 5MB/s
+- name: 🇺🇸 084  | ⬇️ 5MB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-006.fastervpn.world
+  tfo: false
   type: hysteria2
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸 157  | ⬇️ 3MB/s
+  name: 🇺🇸 089  | ⬇️ 6MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.0MB/s
+- encryption: none
+  name: 🇺🇸 130  | ⬇️ 23KB/s
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.229
-  servername: yahoo.com
-  tls: true
+  packet-encoding: xudp
+  port: 10000
+  server: 180.178.60.253
+  skip-cert-verify: false
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- auth: 6f6f58431702c3aa0b55ddf3d0a63a2c
-  name: 🇺🇸US_2|4.5MB/s
-  password: 6f6f58431702c3aa0b55ddf3d0a63a2c
-  port: 50160
-  server: 107-173-165-41.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 107-173-165-41.liao.kdns.fr
-  type: hysteria2
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 153  | ⬇️ 9KB/s
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: 217.28.129.81
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|2.3MB/s
-  network: xhttp
-  port: '443'
-  server: api.ferrin.uk
-  servername: e7e90e6b.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- name: 🇺🇸US_5|1.7MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|2.9MB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|4.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|1.6MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_9|1.3MB/s
-  port: 9002
-  server: 156.146.59.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_10|2.8MB/s
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|4.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|3.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_13|4.7MB/s
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_14|1.7MB/s
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_15|2.3MB/s
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- name: 🇺🇸US_16|1.2MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- alpn:
-  - h3
   - h2
   - http/1.1
-  client-fingerprint: qq
+  client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_18|2.6MB/s
-  network: ws
+  name: 🇺🇸US_1|1010KB/s
+  network: xhttp
   port: '443'
-  server: fbi.gov
-  servername: iran.novatunel.site
+  server: rvg-production-8c74.up.railway.app
+  servername: rvg-production-8c74.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 34de490f-9cb9-48e5-b5ff-c2cf3f2719c5
-  ws-opts:
-    headers:
-      Host: iran.novatunel.site
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /DYvipF9MT3L0VDOS
+  uuid: 19f13499-842e-e495-73cf-f52b10816e6e
+  xhttp-opts:
+    host: rvg-production-8c74.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/19f13499-842e-e495-73cf-f52b10816e6e
   xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_19|1.4MB/s
-  network: tcp
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_2|2.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: '443'
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.231
-  servername: yahoo.com
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_3|2.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 18.226.172.222
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf
+  name: 🇺🇸US_4|3.5MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+- name: 🇺🇸US_5|1.4MB/s
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
   tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  xudp: true
+  type: http
+- name: 🇺🇸US_6|1.7MB/s
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
