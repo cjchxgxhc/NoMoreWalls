@@ -1,6 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 101  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: fr15.mechvpn.online
+  servername: fr15.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - flow: xtls-rprx-vision
-  name: 🇫🇷 040  | ⬇️ 4MB/s
+  name: 🇫🇷 028  | ⬇️ 4MB/s
   network: tcp
   port: 443
   server: fr199.mechvpn.online
@@ -12,7 +25,7 @@ proxies:
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - alterId: 2
   cipher: auto
-  name: 🇫🇷 062  | ⬇️ 12KB/s
+  name: 🇫🇷 050  | ⬇️ 12KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
@@ -21,10 +34,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
-  grpc#3🎗️@oneclickvpnkeys-opts:
-    grpc#3🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 082  | ⬇️ 11KB/s
-  network: grpc#3🎗️@oneclickvpnkeys
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇫🇷 158  | ⬇️ 11KB/s
+  network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -40,7 +53,7 @@ proxies:
   encryption: none
   grpc#2🎗️@oneclickvpnkeys-opts:
     grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 086  | ⬇️ 1MB/s
+  name: 🇫🇷 075  | ⬇️ 1MB/s
   network: grpc#2🎗️@oneclickvpnkeys
   packet-encoding: xudp
   port: 443
@@ -53,29 +66,27 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- flow: xtls-rprx-vision
-  name: 🇫🇷 112  | ⬇️ 4MB/s
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  grpc#3🎗️@oneclickvpnkeys-opts:
+    grpc#3🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
+  name: 🇫🇷 071  | ⬇️ 11KB/s
+  network: grpc#3🎗️@oneclickvpnkeys
+  packet-encoding: xudp
   port: 443
-  server: fr15.mechvpn.online
-  servername: fr15.mechvpn.online
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ns.o11111o.club
+  servername: id.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: chrome
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- cipher: aes-256-cfb
   name: 🇫🇷FR_1|1.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  password: amazonskr05
+  port: 443
+  server: 15.237.189.197
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
