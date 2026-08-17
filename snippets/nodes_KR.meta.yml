@@ -1,35 +1,7 @@
 proxies:
-- name: 🇰🇷 154  | ⬇️ 4MB/s
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
 - client-fingerprint: chrome
   encryption: none
-  name: 🇰🇷 036  | ⬇️ 20KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 3.37.55.114
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
-- cipher: aes-256-cfb
-  name: 🇰🇷 054  | ⬇️ 3MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷 075  | ⬇️ 5MB/s
+  name: 🇰🇷 139  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -46,83 +18,125 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: 🇰🇷 119  | ⬇️ 3MB/s
+- name: 🇰🇷 183  | ⬇️ 3MB/s
   password: admin
   port: 5555
   server: 158.180.91.51
   type: socks5
   username: admin
+- name: 🇰🇷 032  | ⬇️ 4MB/s
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+- client-fingerprint: random
+  host: www.apple.com
+  name: 🇰🇷 100  | ⬇️ 20KB/s
+  network: tcp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 3.37.55.114
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
+- cipher: aes-256-cfb
+  name: 🇰🇷 118  | ⬇️ 3MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: 🇰🇷KR_4|5.5MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: regular-raptor.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_1|3.2MB/s
+  name: 🇰🇷KR_2|5.4MB/s
   network: grpc
-  port: 10046
+  port: 10047
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: kr1-r.link-t7.com
+  server: kr2-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
   uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: 🇰🇷KR_2|5.4MB/s
+- name: 🇰🇷KR_3|5.5MB/s
   password: PQ05174892
   port: 443
   server: precious-stag.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_3|2.9MB/s
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: 🇰🇷KR_5|2.3MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47901
-  server: sivp555.ipad1el.com
-  sni: kr06.nyssl.cc
-  type: anytls
-- name: 🇰🇷KR_6|1.5MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 🇰🇷KR_5|5.6MB/s
+  password: PQ05174892
+  port: 443
+  server: awake-redbird.rooster465.autos
   skip-cert-verify: true
+  sni: awake-redbird.rooster465.autos
   tls: true
-  type: http
+  type: trojan
   udp: true
-  username: test
+- name: 🇰🇷KR_6|5.7MB/s
+  password: PQ05174892
+  port: 443
+  server: regular-raptor.rooster465.autos
+  skip-cert-verify: true
+  sni: regular-raptor.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- auth: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  name: 🇰🇷KR_7|1.6MB/s
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
+  skip-cert-verify: true
+  sni: 152-67-200-82.liao.kdns.fr
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   name: 🇰🇷KR_8|5.0MB/s
   network: tcp
   password: PQ05174892
   port: '443'
-  server: 15.164.227.68
-  skip-cert-verify: false
-  sni: united-grouse.rooster465.autos
+  server: 43.203.240.219
+  skip-cert-verify: true
+  sni: precious-stag.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_9|5.3MB/s
+  name: 🇰🇷KR_9|5.4MB/s
   network: tcp
   password: PQ05174892
   port: '443'
-  server: united-grouse.rooster465.autos
+  server: 52.79.248.57
   skip-cert-verify: false
-  sni: united-grouse.rooster465.autos
+  sni: awake-redbird.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_10|5.2MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: 54.180.231.164
+  skip-cert-verify: false
+  sni: regular-raptor.rooster465.autos
   type: trojan
   udp: true

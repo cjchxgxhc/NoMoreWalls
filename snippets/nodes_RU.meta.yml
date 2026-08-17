@@ -1,60 +1,10 @@
 proxies:
-- name: 🇷🇺 176  | ⬇️ 4MB/s
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-  username: ''
-- encryption: none
-  name: 🇷🇺 028  | ⬇️ 9KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 193.188.23.170
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- client-fingerprint: qq
-  encryption: none
-  name: 🇷🇺 029  | ⬇️ 1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 178.72.162.73
-  servername: ru6.ethicsdinnerpave.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺 044  | ⬇️ 5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 124  | ⬇️ 2MB/s
+  name: 🇷🇺 002  | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -73,7 +23,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   encryption: none
-  name: 🇷🇺 132  | ⬇️ 1MB/s
+  name: 🇷🇺 010  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -87,8 +37,14 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
+- name: 🇷🇺 054  | ⬇️ 4MB/s
+  password: ''
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
+  username: ''
 - encryption: none
-  name: 🇷🇺 181  | ⬇️ 9KB/s
+  name: 🇷🇺 059  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -100,16 +56,33 @@ proxies:
   uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
   ws-opts:
     path: /v1
-- client-fingerprint: firefox
-  name: 🇷🇺RU_1|1.3MB/s
+- client-fingerprint: safari
+  encryption: none
+  name: 🇷🇺 094  | ⬇️ 1MB/s
   network: xhttp
+  packet-encoding: xudp
   port: 443
-  server: 135.106.140.18
-  servername: russia1.denverpresents.top
+  server: 178.72.162.73
+  servername: ru6.ethicsdinnerpave.online
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
   xhttp-opts:
-    mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺 108  | ⬇️ 19KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
