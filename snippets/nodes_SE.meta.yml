@@ -1,5 +1,21 @@
 proxies:
-- name: 🇸🇪 004  | ⬇️ 4MB/s
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪 014  | ⬇️ 3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: '!!str ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- name: 🇸🇪 107  | ⬇️ 4MB/s
   password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
   port: 43327
   ports: '43327'
@@ -10,7 +26,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   encryption: none
-  name: 🇸🇪 025  | ⬇️ 3MB/s
+  name: 🇸🇪 128  | ⬇️ 3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -31,7 +47,7 @@ proxies:
   flow: ''
   grpc-opts:
     grpc-service-name: streaming
-  name: 🇸🇪 050  | ⬇️ 3MB/s
+  name: 🇸🇪 154  | ⬇️ 3MB/s
   network: grpc
   packet-encoding: xudp
   port: 43439
@@ -45,31 +61,3 @@ proxies:
   type: vless
   udp: true
   uuid: 428e923f-e608-412b-9e51-3b09ffab551f
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇪 098  | ⬇️ 3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: '!!str ad55857184e91aad'
-  server: 2.27.56.109
-  servername: stacks.vk-portal.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- down: ''
-  fingerprint: ''
-  name: 🇸🇪SE_1|1.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: '443'
-  server: us65.mechvpn.online
-  skip-cert-verify: true
-  sni: us65.mechvpn.online
-  type: hysteria2
-  up: ''

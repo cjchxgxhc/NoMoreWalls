@@ -3,7 +3,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧 163  | ⬇️ 50KB/s
+  name: 🇬🇧 080  | ⬇️ 50KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -18,15 +18,24 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_1|3.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
-  port: 443
-  server: node3.vpnushka.lol
-  skip-cert-verify: false
-  sni: node3.vpnushka.lol
-  type: hysteria2
-  up: ''
+- client-fingerprint: edge
+  encryption: mlkem768x25519plus.native.0rtt.3mjd2WKbtUjfzkJO2SMVeOLyDFUE0bMH5T_R5H_YCV0
+  http-opts:
+    headers:
+      Host:
+      - upload.google.com
+    path:
+    - /
+  name: 🇬🇧GB_1|1.0MB/s
+  network: http
+  port: '2020'
+  reality-opts:
+    public-key: V-4X2cijRTs7097yspcWqhSXP1AejmSMEM3epCS-EFY
+    short-id: '!!str d5f57af384c851d0'
+  server: sitea.awexco.shop
+  servername: play.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00b41e07-68e6-46b0-928f-a02becd4e398
+  xudp: true

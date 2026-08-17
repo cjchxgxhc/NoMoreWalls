@@ -1,29 +1,9 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 🇫🇷 039  | ⬇️ 4MB/s
-  network: tcp
-  port: 443
-  server: fr199.mechvpn.online
-  servername: fr199.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 061  | ⬇️ 12KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   grpc#3🎗️@oneclickvpnkeys-opts:
     grpc#3🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 083  | ⬇️ 11KB/s
+  name: 🇫🇷 187  | ⬇️ 11KB/s
   network: grpc#3🎗️@oneclickvpnkeys
   packet-encoding: xudp
   port: 443
@@ -40,7 +20,7 @@ proxies:
   encryption: none
   grpc#2🎗️@oneclickvpnkeys-opts:
     grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
-  name: 🇫🇷 088  | ⬇️ 1MB/s
+  name: 🇫🇷 003  | ⬇️ 1MB/s
   network: grpc#2🎗️@oneclickvpnkeys
   packet-encoding: xudp
   port: 443
@@ -53,9 +33,11 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- flow: xtls-rprx-vision
-  name: 🇫🇷 115  | ⬇️ 4MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 031  | ⬇️ 4MB/s
   network: tcp
+  packet-encoding: ''
   port: 443
   server: fr15.mechvpn.online
   servername: fr15.mechvpn.online
@@ -64,40 +46,54 @@ proxies:
   type: vless
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|1.8MB/s
+- flow: xtls-rprx-vision
+  name: 🇫🇷 143  | ⬇️ 4MB/s
   network: tcp
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 152.228.215.219
-  servername: sellflow.org
+  port: 443
+  server: fr199.mechvpn.online
+  servername: fr199.mechvpn.online
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5c22dd50-f75d-4cf5-ba53-721f91d8bfe1
-- name: 🇫🇷FR_2|1.7MB/s
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇫🇷 164  | ⬇️ 12KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- down: null
+  name: 🇫🇷FR_1|3.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
   skip-cert-verify: true
-  type: trojan
-  udp: true
+  sni: bing.com
+  type: hysteria2
+  up: null
 - client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.1MB/s
+  name: 🇫🇷FR_2|1.2MB/s
   network: ws
-  port: '2053'
-  server: 188.130.207.119
+  port: 8443
+  server: 31.59.121.155
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
-  udp: true
   uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
   ws-opts:
     headers:
       Host: kjgdksgghre466.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /fp=chrome
-  xudp: true
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.3MB/s
+  password: PQ05174892
+  port: '443'
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true

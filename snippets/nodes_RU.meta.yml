@@ -1,10 +1,45 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇷🇺 189  | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 178.72.162.73
+  servername: wqeds.denverpresents.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: wqeds.denverpresents.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_1|3.8MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: '443'
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺 002  | ⬇️ 2MB/s
+  name: 🇷🇺 105  | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -23,7 +58,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   encryption: none
-  name: 🇷🇺 010  | ⬇️ 1MB/s
+  name: 🇷🇺 113  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -37,14 +72,14 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: 🇷🇺 054  | ⬇️ 4MB/s
+- name: 🇷🇺 158  | ⬇️ 4MB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
   username: ''
 - encryption: none
-  name: 🇷🇺 059  | ⬇️ 9KB/s
+  name: 🇷🇺 163  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -56,33 +91,19 @@ proxies:
   uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
   ws-opts:
     path: /v1
-- client-fingerprint: safari
-  encryption: none
-  name: 🇷🇺 094  | ⬇️ 1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 178.72.162.73
-  servername: ru6.ethicsdinnerpave.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    path: /assets/build/_app/immutable/chunks/stream-one/
 - alpn:
-  - h3
-  client-fingerprint: chrome
+  - h2
+  - http/1.1
+  client-fingerprint: qq
   encryption: none
-  name: 🇷🇺 108  | ⬇️ 19KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.2MB/s
+  network: raw
+  port: '52006'
+  server: 94.26.249.216
+  servername: clode.fastaichat.ru
   tls: true
   type: vless
   udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  uuid: 2867c76e-3211-07d0-9b13-c528d06a29af
+  xudp: true
