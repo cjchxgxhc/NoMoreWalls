@@ -1,7 +1,27 @@
 proxies:
+- name: 🇷🇺 176  | ⬇️ 4MB/s
+  password: ''
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
+  username: ''
+- encryption: none
+  name: 🇷🇺 028  | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 193.188.23.170
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - client-fingerprint: qq
   encryption: none
-  name: '🇷🇺 029  | ⬇️ 1MB/s #1'
+  name: 🇷🇺 029  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -18,7 +38,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 044  | ⬇️ 5MB/s #1'
+  name: 🇷🇺 044  | ⬇️ 5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -34,7 +54,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 124  | ⬇️ 2MB/s #1'
+  name: 🇷🇺 124  | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -53,7 +73,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   encryption: none
-  name: '🇷🇺 132  | ⬇️ 1MB/s #1'
+  name: 🇷🇺 132  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -67,14 +87,8 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: '🇷🇺 176  | ⬇️ 4MB/s #1'
-  password: ''
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-  username: ''
 - encryption: none
-  name: '🇷🇺 181  | ⬇️ 9KB/s #1'
+  name: 🇷🇺 181  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -87,19 +101,15 @@ proxies:
   ws-opts:
     path: /v1
 - client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_1|3.7MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
-    short-id: '!!str a1b2c3d4'
-  server: 31.177.111.144
-  servername: ads.x5.ru
+  name: 🇷🇺RU_1|1.3MB/s
+  network: xhttp
+  port: 443
+  server: 135.106.140.18
+  servername: russia1.denverpresents.top
   tls: true
   type: vless
   udp: true
-  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
-  xudp: true
+  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  xhttp-opts:
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/

@@ -1,9 +1,74 @@
 proxies:
+- flow: xtls-rprx-vision
+  name: 🇫🇷 161  | ⬇️ 4MB/s
+  network: tcp
+  port: 443
+  server: fr199.mechvpn.online
+  servername: fr199.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 183  | ⬇️ 12KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  grpc#3🎗️@oneclickvpnkeys-opts:
+    grpc#3🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
+  name: 🇫🇷 052  | ⬇️ 11KB/s
+  network: grpc#3🎗️@oneclickvpnkeys
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ns.o11111o.club
+  servername: id.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: chrome
+  encryption: none
+  grpc#2🎗️@oneclickvpnkeys-opts:
+    grpc#2🎗️@oneclickvpnkeys-service-name: vless-grpc-reality
+  name: 🇫🇷 057  | ⬇️ 1MB/s
+  network: grpc#2🎗️@oneclickvpnkeys
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 62.109.5.156
+  servername: id.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- flow: xtls-rprx-vision
+  name: 🇫🇷 051  | ⬇️ 4MB/s
+  network: tcp
+  port: 443
+  server: fr15.mechvpn.online
+  servername: fr15.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: '🇫🇷 019  | ⬇️ 11KB/s #1'
+  name: 🇫🇷 019  | ⬇️ 11KB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -20,7 +85,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: '🇫🇷 024  | ⬇️ 1MB/s #1'
+  name: 🇫🇷 024  | ⬇️ 1MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -33,92 +98,96 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- flow: xtls-rprx-vision
-  name: '🇫🇷 051  | ⬇️ 4MB/s #1'
-  network: tcp
+- name: 🇫🇷FR_1|1.0MB/s
+  password: PQ05174892
   port: 443
-  server: fr15.mechvpn.online
-  servername: fr15.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- flow: xtls-rprx-vision
-  name: '🇫🇷 161  | ⬇️ 4MB/s #1'
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.22
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_4|3.9MB/s
+  password: amazonskr05
   port: 443
-  server: fr199.mechvpn.online
-  servername: fr199.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- alterId: 2
-  cipher: auto
-  name: '🇫🇷 183  | ⬇️ 12KB/s #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 130.250.137.171
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_2|2.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.187
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_3|2.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
+  server: 15.237.189.197
+  type: ss
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_4|3.1MB/s
+  name: 🇫🇷FR_5|2.9MB/s
   network: tcp
-  port: '443'
-  server: 213.176.73.235
-  servername: note.magazinetut.online
+  port: '8443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 141.227.170.12
+  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 1ef571c9-b9f0-48bb-a6d6-866c98c80eb9
+  uuid: 5c22dd50-f75d-4cf5-ba53-721f91d8bfe1
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|2.1MB/s
+  network: ws
+  port: '8443'
+  server: 31.56.228.250
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|2.8MB/s
+  network: ws
+  port: '2053'
+  server: 188.130.207.119
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
   xudp: true

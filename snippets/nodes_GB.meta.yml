@@ -3,7 +3,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧 099  | ⬇️ 50KB/s #1'
+  name: 🇬🇧 099  | ⬇️ 50KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -18,9 +18,25 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 🇬🇧GB_1|2.2MB/s
+- name: 🇬🇧GB_1|1.1MB/s
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_2|1.2MB/s
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4
+    short-id: '!!str c226283c4de5b1ad'
+  server: 31.76.91.138
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44
+  xudp: true
