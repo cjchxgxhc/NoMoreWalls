@@ -1,11 +1,30 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇯🇵 005  | ⬇️ 4MB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 51790
+  reality-opts:
+    public-key: XJa0ZYOvtfwRz7aF8GprVrnEjc4S1rokGFhc-tI1YFk
+    short-id: '!!str 02c40852'
+  server: 109.107.140.188
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 066  | ⬇️ 6MB/s
+  name: '🇯🇵 103  | ⬇️ 6MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8082
@@ -20,7 +39,7 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: 🇯🇵 111  | ⬇️ 3MB/s
+- name: '🇯🇵 148  | ⬇️ 3MB/s #1'
   password: k6vz7jReGKNZKEuU
   port: 8888
   server: 45.192.198.137
@@ -32,7 +51,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 123  | ⬇️ 4MB/s
+  name: '🇯🇵 160  | ⬇️ 4MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 7443
@@ -49,7 +68,7 @@ proxies:
     path: /@Marisa_kristi
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇯🇵 142  | ⬇️ 163KB/s
+  name: '🇯🇵 179  | ⬇️ 163KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 20725
@@ -63,39 +82,22 @@ proxies:
   type: vless
   udp: true
   uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵 154  | ⬇️ 4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 51790
-  reality-opts:
-    public-key: XJa0ZYOvtfwRz7aF8GprVrnEjc4S1rokGFhc-tI1YFk
-    short-id: '!!str 02c40852'
-  server: 109.107.140.188
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
-- auth: bc751c4c5c80f17dfbc05785c368b613
-  name: 🇯🇵JP_3|3.7MB/s
-  password: bc751c4c5c80f17dfbc05785c368b613
-  port: 50160
-  server: 154.31.115.179
-  sni: 154-31-115-179.liao.kdns.fr
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_4|5.2MB/s
+  name: 🇯🇵JP_1|4.9MB/s
   network: tcp
   password: PQ05174892
   port: '443'
-  server: merry-falcon.rooster465.autos
+  server: mighty-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: mighty-lemming.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|4.3MB/s
+  network: tcp
+  password: PQ05174892
+  port: '443'
+  server: ethical-raccoon.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
