@@ -1,26 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 014  | ⬇️ 9KB/s
+  name: '🇺🇸 048  | ⬇️ 9KB/s #1'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: 217.28.129.81
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇺🇸 075  | ⬇️ 3MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US_2|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 🇺🇸 122  | ⬇️ 7MB/s
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+  xudp: true

@@ -1,34 +1,29 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 056  | ⬇️ 20KB/s
+  name: '🇺🇸 009  | ⬇️ 20KB/s #1'
   network: tcp
-  packet-encoding: xudp
   port: 40056
   reality-opts:
-    _spider-x: /
     public-key: EYLZTm0VpViSmTLfehDg0DE57ZEp0P0hab5ME3pXrgs
     short-id: '!!str 9ccdca9f'
   server: 166.1.89.85
   servername: www.cloudflare.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 090122da-ad6b-42a1-92d7-bab2630e2511
 - encryption: none
-  name: 🇺🇸 181  | ⬇️ 23KB/s
-  network: raw
+  name: '🇺🇸 026  | ⬇️ 23KB/s #1'
+  network: tcp
   packet-encoding: xudp
   port: 10000
   server: 180.178.60.253
   skip-cert-verify: false
-  tls: false
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 014  | ⬇️ 9KB/s
+  name: '🇺🇸 048  | ⬇️ 9KB/s #1'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: 217.28.129.81
@@ -36,158 +31,43 @@ proxies:
   type: ss
   udp: false
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 030  | ⬇️ 27KB/s
+  name: '🇺🇸 049  | ⬇️ 27KB/s #1'
   network: tcp
-  packet-encoding: xudp
   port: 30906
   reality-opts:
     public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
     short-id: '!!str 17a94dc584e3'
   server: 204.48.20.223
   servername: www.cloudflare.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸 039  | ⬇️ 215KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸 040  | ⬇️ 3KB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  username: test123
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸 073  | ⬇️ 6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 7443
-  reality-opts:
-    public-key: uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM
-    short-id: '!!str 48d5cf47'
-  server: 216.227.161.95
-  servername: media3.abvphelp.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇺🇸 075  | ⬇️ 3MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US_2|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 078  | ⬇️ 4MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-- client-fingerprint: firefox
-  name: 🇺🇸 088  | ⬇️ 6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 38.107.236.166
-  servername: 3h-unitedstates3.09vpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 48572af1-d091-457b-a86e-4a457e99927f
-  ws-opts:
-    headers:
-      Host: 3h-unitedstates3.09vpn.com
-    path: /vless/
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸 093  | ⬇️ 3MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: '!!str 3182f9ae'
-  server: 193.233.205.117
-  servername: media3.abvphelp.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇺🇸 098  | ⬇️ 4MB/s
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: node1.sferavpn.pro
-  skip-cert-verify: false
-  sni: node1.sferavpn.pro
-  tfo: false
-  type: hysteria2
-- cipher: aes-128-gcm
-  name: 🇺🇸 122  | ⬇️ 7MB/s
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇺🇸 125  | ⬇️ 2MB/s
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  username: ''
-- name: 🇺🇸 132  | ⬇️ 5MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
-  type: hysteria2
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.1MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.2MB/s
-  network: xhttp
-  port: '443'
-  server: inetchnl-production-48d6.up.railway.app
-  servername: inetchnl-production-48d6.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01479a99-4222-6bec-8093-47353b3991b9
-  xhttp-opts:
-    host: inetchnl-production-48d6.up.railway.app
-    mode: packet-up
-    path: /xhttp-siz10/packet-up/01479a99-4222-6bec-8093-47353b3991b9
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
   xudp: true
-- name: 🇺🇸US_3|1.2MB/s
+- cipher: auto
+  name: 🇺🇸US_3|2.5MB/s
+  network: none
+  port: 47212
+  server: 216.167.54.75
+  tls: false
+  type: vless
+  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
+- name: 🇺🇸US_4|1.2MB/s
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -195,39 +75,34 @@ proxies:
   tls: true
   type: http
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🇺🇸US_4|1.6MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
+- name: 🇺🇸US_5|1.0MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|1.6MB/s
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  username: 'null'
+- name: 🇺🇸US_6|2.6MB/s
+  password: None
   port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  server: purecambogiasl.live
+  skip-cert-verify: true
   tls: true
   type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 🇺🇸US_6|1.2MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- client-fingerprint: qq
-  encryption: none
+  username: null
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_7|2.8MB/s
-  network: raw
-  port: '37735'
+  name: 🇺🇸US_7|3.9MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
-    short-id: '!!str 42fe6ac8'
-  server: rm-us-04.409648.xyz
-  servername: d1--ov-gotcha07.bilivideo.com
+    public-key: HR2aptN8hqi90SHqL28BEsHnJGiZ18TQ6bdz8kyPyik
+    short-id: '!!str 72bc30ab684705ed'
+  server: 38.244.21.190
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  uuid: f51be481-3bcb-4b69-b149-3c1f2e1cb3f8
   xudp: true
