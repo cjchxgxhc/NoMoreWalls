@@ -1,10 +1,23 @@
 proxies:
+- encryption: none
+  name: 🇷🇺 039  | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 193.188.23.170
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
+  ws-opts:
+    path: /v1
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 047  | ⬇️ 2MB/s #1'
+  name: 🇷🇺 047  | ⬇️ 2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -23,7 +36,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   encryption: none
-  name: '🇷🇺 055  | ⬇️ 1MB/s #1'
+  name: 🇷🇺 055  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -37,14 +50,14 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: '🇷🇺 100  | ⬇️ 4MB/s #1'
+- name: 🇷🇺 100  | ⬇️ 4MB/s
   password: ''
   port: 1080
   server: 193.233.218.213
   type: socks5
   username: ''
 - encryption: none
-  name: '🇷🇺 105  | ⬇️ 9KB/s #1'
+  name: 🇷🇺 105  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -59,7 +72,7 @@ proxies:
     path: /v1
 - client-fingerprint: safari
   encryption: none
-  name: '🇷🇺 139  | ⬇️ 1MB/s #1'
+  name: 🇷🇺 139  | ⬇️ 1MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -77,7 +90,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 155  | ⬇️ 4MB/s #1'
+  name: 🇷🇺 155  | ⬇️ 4MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443

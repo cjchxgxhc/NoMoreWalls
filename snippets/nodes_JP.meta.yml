@@ -1,11 +1,25 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇯🇵 102  | ⬇️ 163KB/s
+  network: tcp
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: '!!str 0102ac4e'
+  server: rm-jp-01.409648.xyz
+  servername: buylite.tv.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇯🇵 025  | ⬇️ 6MB/s #1'
+  name: 🇯🇵 025  | ⬇️ 6MB/s
   network: ws
   packet-encoding: xudp
   port: 8082
@@ -20,7 +34,7 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: '🇯🇵 071  | ⬇️ 3MB/s #1'
+- name: 🇯🇵 071  | ⬇️ 3MB/s
   password: k6vz7jReGKNZKEuU
   port: 8888
   server: 45.192.198.137
@@ -32,7 +46,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇯🇵 084  | ⬇️ 4MB/s #1'
+  name: 🇯🇵 084  | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 7443
@@ -47,26 +61,12 @@ proxies:
     headers:
       Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '🇯🇵 102  | ⬇️ 163KB/s #1'
-  network: tcp
-  port: 20725
-  reality-opts:
-    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
-    short-id: '!!str 0102ac4e'
-  server: rm-jp-01.409648.xyz
-  servername: buylite.tv.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇯🇵 115  | ⬇️ 4MB/s #1'
+  name: 🇯🇵 115  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 51790
@@ -80,24 +80,20 @@ proxies:
   type: vless
   udp: true
   uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
+- name: 🇯🇵JP_1|1.5MB/s
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: accepted-starling.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|1.8MB/s
+  name: 🇯🇵JP_3|5.9MB/s
   network: tcp
-  port: 39411
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- auth: ad6bc66062dbd395a02061c842c0978c
-  name: 🇯🇵JP_3|3.2MB/s
-  password: ad6bc66062dbd395a02061c842c0978c
-  port: 50160
-  server: 162-141-131-59.liao.kdns.fr
-  sni: 162-141-131-59.liao.kdns.fr
-  type: hysteria2
+  password: HC04361579
+  port: '443'
+  server: driven-doberman.rooster465.autos
+  skip-cert-verify: false
+  sni: driven-doberman.rooster465.autos
+  type: trojan
   udp: true
