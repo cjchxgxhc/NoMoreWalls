@@ -5,7 +5,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 084  | ⬇️ 6MB/s
+  name: '🇯🇵 025  | ⬇️ 6MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8082
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: 🇯🇵 129  | ⬇️ 3MB/s
+- name: '🇯🇵 071  | ⬇️ 3MB/s #1'
   password: k6vz7jReGKNZKEuU
   port: 8888
   server: 45.192.198.137
@@ -32,7 +32,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 142  | ⬇️ 4MB/s
+  name: '🇯🇵 084  | ⬇️ 4MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 7443
@@ -47,18 +47,16 @@ proxies:
     headers:
       Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇯🇵 160  | ⬇️ 163KB/s
+  name: '🇯🇵 102  | ⬇️ 163KB/s #1'
   network: tcp
-  packet-encoding: xudp
   port: 20725
   reality-opts:
     public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
     short-id: '!!str 0102ac4e'
   server: rm-jp-01.409648.xyz
   servername: buylite.tv.apple.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -68,7 +66,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 173  | ⬇️ 4MB/s
+  name: '🇯🇵 115  | ⬇️ 4MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 51790
@@ -83,41 +81,23 @@ proxies:
   udp: true
   uuid: 1b69afb7-9f0a-4e6c-9a4b-1fcf7621b0be
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_1|5.4MB/s
-  network: grpc
-  port: 10032
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: 🇯🇵JP_2|1.4MB/s
-  network: tcp
-  port: 10000
-  server: 14.137.238.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_3|5.6MB/s
+  name: 🇯🇵JP_1|1.8MB/s
   network: tcp
-  port: '443'
+  port: 39411
   reality-opts:
-    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
-    short-id: '!!str 912d2b581f59fb'
-  server: jp3.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- auth: ad6bc66062dbd395a02061c842c0978c
+  name: 🇯🇵JP_3|3.2MB/s
+  password: ad6bc66062dbd395a02061c842c0978c
+  port: 50160
+  server: 162-141-131-59.liao.kdns.fr
+  sni: 162-141-131-59.liao.kdns.fr
+  type: hysteria2
   udp: true
-  uuid: aba8b762-e6c5-413e-b342-c132007fa767
-  xudp: true

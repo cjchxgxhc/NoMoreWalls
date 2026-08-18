@@ -1,7 +1,17 @@
 proxies:
+- name: '🇰🇷 042  | ⬇️ 442KB/s #1'
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
+- name: '🇰🇷 077  | ⬇️ 3MB/s #1'
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
 - client-fingerprint: random
   host: www.apple.com
-  name: 🇰🇷 016  | ⬇️ 20KB/s
+  name: '🇰🇷 147  | ⬇️ 20KB/s #1'
   network: tcp
   port: 8686
   reality-opts:
@@ -15,8 +25,7 @@ proxies:
   type: vless
   uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
 - cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷 034  | ⬇️ 3MB/s
+  name: '🇰🇷 165  | ⬇️ 3MB/s #1'
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
@@ -25,7 +34,7 @@ proxies:
   udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: 🇰🇷 056  | ⬇️ 5MB/s
+  name: '🇰🇷 187  | ⬇️ 4MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -42,44 +51,11 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: 🇰🇷 100  | ⬇️ 3MB/s
-  password: admin
-  port: 5555
-  server: 158.180.91.51
-  type: socks5
-  username: admin
-- name: 🇰🇷 135  | ⬇️ 4MB/s
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇰🇷KR_1|5.4MB/s
-  network: grpc
-  port: 10046
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: 🇰🇷KR_2|4.7MB/s
-  password: HC04361579
-  port: 443
-  server: powerful-troll.rooster465.autos
-  skip-cert-verify: true
-  sni: powerful-troll.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_4|5.1MB/s
+  name: 🇰🇷KR_2|4.5MB/s
   network: grpc
   port: 10049
   reality-opts:
@@ -91,11 +67,3 @@ proxies:
   type: vless
   udp: true
   uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|2.2MB/s
-  password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
