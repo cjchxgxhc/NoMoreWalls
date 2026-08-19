@@ -43,25 +43,25 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- auth: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
-  name: 🇺🇸US_1|2.3MB/s
-  password: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
-  port: 8443
-  server: 31.76.70.78
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-- auth: daca6264-bd96-48d4-a0ff-c96e50a00aa0
-  name: 🇺🇸US_2|2.0MB/s
-  password: daca6264-bd96-48d4-a0ff-c96e50a00aa0
-  port: 35193
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: uswx4.wxgqlfx.vip
-  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_1|1.2MB/s
+  network: ws
+  port: 443
+  server: spider-panel-production-19f9.up.railway.app
+  servername: spider-panel-production-19f9.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1312413-f847-4ade-ae98-17ca986ca329
+  ws-opts:
+    headers:
+      Host: spider-panel-production-19f9.up.railway.app
+    path: /ws/b1312413-f847-4ade-ae98-17ca986ca329
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.4MB/s
+  name: 🇺🇸US_2|1.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -72,17 +72,120 @@ proxies:
   type: vless
   udp: true
   uuid: 490a11eb-e38a-4a85-b391-7175de597b80
-- name: 🇺🇸US_4|1009KB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸US_4|2.6MB/s
+  network: ws
+  port: 2083
+  server: 104.17.123.101
+  servername: wzknb.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: wzknb.pages.dev
+    path: /proxyip=167.253.153.215
+- name: 🇺🇸US_5|1.7MB/s
   port: 443
   server: crosscards.site
   sni: crosscards.site
   tls: true
   type: http
-- name: 🇺🇸US_5|1.3MB/s
+- name: 🇺🇸US_6|1.1MB/s
   password: None
   port: 443
-  server: kimberlymilano.icu
+  server: jgwynphotoarts.pro
   skip-cert-verify: false
   tls: true
   type: http
   username: null
+- name: 🇺🇸US_7|2.0MB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1.5MB/s
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|1.0MB/s
+  port: 9002
+  server: 156.146.59.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.1MB/s
+  password: None
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- cipher: aes-256-cfb
+  name: 🇺🇸US_12|1.8MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.234
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_13|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
+    short-id: '!!str aebdb601b1371778'
+  server: 38.244.4.1
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_14|1.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
+    short-id: '!!str e4f6a3446ac34a23'
+  server: 89.117.123.243
+  servername: us.savesafe.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|1.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
+    short-id: '!!str e4f6a3446ac34a24'
+  server: savesafe.run
+  servername: savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
