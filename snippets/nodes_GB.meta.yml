@@ -18,28 +18,29 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.dT8d0dD1YGkdlMpUvecNonD7F5POG3Pmiv2g5lnRum8
-  name: 🇬🇧GB_1|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 24151
-  server: ig0wuyifeefa.dop99.com
-  servername: ig0wuyifeefa.dop99.com
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: sync.v2.SyncService
+  name: 🇬🇧GB_1|1.5MB/s
+  network: grpc
+  port: 443
+  server: 213.193.254.131
+  servername: video.she-happ.com
   tls: true
   type: vless
-  uuid: 6364f692-a1ed-45e2-ab16-acbc19481ca1
-  ws-opts:
-    headers:
-      Host: ig0wuyifeefa.dop99.com
-    path: /iuygttfrt6de
+  udp: true
+  uuid: ea6db8fa-7e15-4eb2-87f1-22004ac00061
+- name: 🇬🇧GB_2|2.2MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|1.9MB/s
+  name: 🇬🇧GB_3|2.5MB/s
   network: tcp
   port: '443'
   reality-opts:

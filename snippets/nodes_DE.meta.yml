@@ -77,67 +77,75 @@ proxies:
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
 - alpn:
   - h2
-  client-fingerprint: chrome
+  client-fingerprint: edge
   grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_1|1.3MB/s
+    grpc-mode: gun
+    grpc-service-name: mygrpc
+  name: 🇩🇪DE_1|3.5MB/s
   network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-  port: '443'
-  server: ru-5b7331.atlanta-games.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_2|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
+  port: 443
+  server: 212.41.26.84
+  servername: v1.api2.ttpservers.ru
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: '!!str 4c0be5bf40e9f5ce'
+  server: 43.224.150.71
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
   xudp: true
+- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
+  http-opts:
+    headers:
+      Host:
+      - us.demonware.net
+    path:
+    - /
+  name: 🇩🇪DE_3|1.2MB/s
+  network: http
+  port: '42538'
+  server: 91.107.158.251
+  type: vless
+  udp: true
+  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
+  xudp: true
+- name: 🇩🇪DE_4|1.2MB/s
+  password: LBuHKNUpT
+  port: 63062
+  server: 185.78.79.39
+  type: http
+  username: kdEWXsS2E
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_3|1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.79.230.55
+  name: 🇩🇪DE_5|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.250.163
   type: ss
   udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪DE_5|1.6MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  version: 5
-- alpn:
-  - h2
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_8|1.3MB/s
-  network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.6MB/s
+  network: tcp
   port: '443'
-  server: 176.108.242.191
-  skip-cert-verify: false
-  sni: ru-5b7331.atlanta-games.com
-  type: trojan
+  reality-opts:
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: '!!str 4c0be5bf40e9f5ce'
+  server: qeip-c6a0cn.wealthix.top
+  servername: www.bing.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
+  xudp: true

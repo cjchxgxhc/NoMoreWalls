@@ -190,19 +190,47 @@ proxies:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
     path: /ws-vmess
-- fingerprint: ''
-  name: 🇭🇰HK_1|3.6MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: '24318'
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk08.alytest.cc
-  type: anytls
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|3.1MB/s
+  network: tcp
+  port: 28144
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: '!!str c1cd56a8'
+  server: guzsasfreuivcluie44.gxsdfewocinexuxiqee.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TOYZKAyAsQu10u4nK5EeoAw3_z0FIfLTPVqBiD0A01s
+    short-id: '!!str beb1ebec'
+  server: hong-kong.cloudpath.live
+  servername: microsoft.com
+  tls: true
+  type: vless
   udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- name: 🇭🇰HK_4|1.6MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
+  uuid: b8783764-ad60-58bb-b2c9-349bfd373a72
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_3|3.8MB/s
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+  xudp: true
