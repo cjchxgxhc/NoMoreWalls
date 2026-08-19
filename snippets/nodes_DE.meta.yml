@@ -75,77 +75,16 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- alpn:
-  - h2
-  client-fingerprint: edge
+- client-fingerprint: chrome
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: mygrpc
-  name: 🇩🇪DE_1|3.5MB/s
+  name: 🇩🇪DE_2|1.4MB/s
   network: grpc
-  port: 443
-  server: 212.41.26.84
-  servername: v1.api2.ttpservers.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.8MB/s
-  network: tcp
   port: '443'
-  reality-opts:
-    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
-    short-id: '!!str 4c0be5bf40e9f5ce'
-  server: 43.224.150.71
-  servername: www.bing.com
+  server: slnd.tdvin.com
+  servername: slnd.tdvin.com
   tls: true
   type: vless
   udp: true
-  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
-  xudp: true
-- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
-  http-opts:
-    headers:
-      Host:
-      - us.demonware.net
-    path:
-    - /
-  name: 🇩🇪DE_3|1.2MB/s
-  network: http
-  port: '42538'
-  server: 91.107.158.251
-  type: vless
-  udp: true
-  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
-  xudp: true
-- name: 🇩🇪DE_4|1.2MB/s
-  password: LBuHKNUpT
-  port: 63062
-  server: 185.78.79.39
-  type: http
-  username: kdEWXsS2E
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_5|1.5MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.250.163
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
-    short-id: '!!str 4c0be5bf40e9f5ce'
-  server: qeip-c6a0cn.wealthix.top
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
+  uuid: 6a798544-d17a-4039-abde-a25dc939441a
   xudp: true
