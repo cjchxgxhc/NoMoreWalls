@@ -31,23 +31,9 @@ proxies:
   type: vless
   udp: true
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR_1|1.7MB/s
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
-  ws-opts:
-    headers:
-      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|2.7MB/s
+  name: 🇫🇷FR_1|2.4MB/s
   network: tcp
   port: 29893
   reality-opts:
@@ -57,4 +43,19 @@ proxies:
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|3.1MB/s
+  network: tcp
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
