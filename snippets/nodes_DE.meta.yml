@@ -75,17 +75,35 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.250.163
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_1|1.8MB/s
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI
+    short-id: '!!str 57c26f52'
+  server: 46.225.156.169
+  servername: www.bing.com
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_2|3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.79.230.55
-  type: ss
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
+  type: vless
   udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  xudp: true
