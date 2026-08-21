@@ -75,74 +75,72 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- encryption: none
-  name: 🇩🇪DE_1|3.5MB/s
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.176.139.123
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.9MB/s
   network: tcp
-  port: '22222'
-  server: 63.188.40.90
+  port: 443
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: '!!str f7d0420b8ab26060'
+  server: 194.87.24.12
+  servername: de1.de-cdn.ru
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_2|2.8MB/s
-  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
-  port: '30874'
-  server: e2.cover20.ir
-  type: ss
-  udp: true
+  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_3|3.5MB/s
+  name: 🇩🇪DE_3|1.3MB/s
   password: amazonskr05
   port: 443
   server: 63.181.36.211
   type: ss
-- name: 🇩🇪DE_4|4.7MB/s
+- auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  name: 🇩🇪DE_4|2.6MB/s
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
   port: 443
-  server: 138.201.56.241
+  server: replay.wwwinternetvideo.click
   skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
+  sni: replay.wwwinternetvideo.click
+  type: hysteria2
+- auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   name: 🇩🇪DE_5|1.6MB/s
-  network: ws
-  password: 8ccc5a61-b4f5-4fe4-a394-65890d8f044b
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
-  server: space.byu.id.yxls.eu.cc
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: /sg-orcl
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  fingerprint: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
-  name: 🇩🇪DE_6|1.6MB/s
+  server: deu0003ntrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: deu0003ntrhy01.tcp-reset-club.net
+  type: hysteria2
+- encryption: none
+  name: 🇩🇪DE_6|1.2MB/s
   network: ws
-  port: '8443'
-  server: 51.250.4.141
-  servername: cloudflare.vhub.pro
-  tls: true
+  port: '80'
+  server: 104.17.108.69
   type: vless
   udp: true
-  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  uuid: 9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b
   ws-opts:
     headers:
-      Host: cloudflare.vhub.pro
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /websocket?ed=2560
+      Host: free-hzr21-cdn.sabzi.name.ng.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /
   xudp: true
 - alpn:
   - http/1.1
   - h3
   client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
-  name: 🇩🇪DE_7|1.7MB/s
+  name: 🇩🇪DE_7|1.1MB/s
   network: ws
   port: '443'
-  server: 104.18.113.47
+  server: 104.18.114.47
   servername: arvan2.dearhossein-taktaz.ir
   tls: true
   type: vless
@@ -152,15 +150,15 @@ proxies:
     headers:
       Host: arvan2.dearhossein-taktaz.ir
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /
   xudp: true
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_8|3.0MB/s
+  name: 🇩🇪DE_8|1.7MB/s
   network: xhttp
   port: '443'
   server: 85.117.243.19
@@ -168,7 +166,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 4f6572a8-1189-46a0-9419-3e7441a389f8
+  uuid: f5bc9b13-53dc-4e1a-b8e3-c9985b31ed97
   xhttp-opts:
     host: de8.gracefultun.xyz
     path: /assets/build/_app/immutable/chunks/stream-one/

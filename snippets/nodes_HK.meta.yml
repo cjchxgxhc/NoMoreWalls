@@ -190,20 +190,28 @@ proxies:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|3.1MB/s
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.4MB/s
+  network: tcp
   port: 443
-  server: node.socks5.kdns.fr
-  servername: suspected-confirmed-origin-pocket.trycloudflare.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: ZmT8Tizn4Dw0-f7H3yUN5gpNJTWqtq248U4Qpk16lXw
+    short-id: '!!str b0ca5b9b'
+  server: hk.xswlbrand.xyz
+  servername: hk4e-launcher-static.hoyoverse.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 3d6fb203-616e-4bb2-851b-e37a0903a4bc
-  ws-opts:
-    headers:
-      Host: suspected-confirmed-origin-pocket.trycloudflare.com
-    path: /3d6fb203-616e-4bb2-851b-e37a0903a4bc-vm
-  xudp: true
+  uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1
+- congestion-controller: bbr
+  disable-sni: false
+  name: 🇭🇰HK_14|2.0MB/s
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 443
+  reduce-rtt: false
+  request-timeout: 0
+  server: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+  skip-cert-verify: true
+  type: tuic
+  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
