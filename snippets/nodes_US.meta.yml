@@ -43,49 +43,19 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|2.8MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.26
-  type: ss
+- auth: c85bd762dc136495ddc02b30b0b7c5c5
+  name: 🇺🇸US_2|2.9MB/s
+  password: c85bd762dc136495ddc02b30b0b7c5c5
+  port: 50160
+  server: 107-172-212-12.liao.kdns.fr
+  sni: 107-172-212-12.liao.kdns.fr
+  type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_2|2.0MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 🇺🇸US_3|2.3MB/s
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|1.8MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|1.3MB/s
-  network: ws
-  port: '443'
-  server: irhub-production-4401.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04776582-ce7d-4e2c-082e-5dbbb08cf22d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /ws/04776582-ce7d-4e2c-082e-5dbbb08cf22d
-  xudp: true
+- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  name: 🇺🇸US_3|1.6MB/s
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 222.167.212.82
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
