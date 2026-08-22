@@ -75,10 +75,9 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.26
-  type: ss
-  udp: true
+- name: 🇩🇪DE_2|4.1MB/s
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
