@@ -12,18 +12,43 @@ proxies:
   type: vless
   udp: true
   uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_1|1.5MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1|2.6MB/s
   network: tcp
-  port: '8686'
+  port: 20159
   reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 3.36.71.216
-  servername: www.apple.com
+    public-key: KLE79o1tQq-bvGbD4ocK5FVfBL_knSsoB_weR77dIgw
+    short-id: '!!str eb8225cafad99147'
+  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
+  servername: www.bilibili.com
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  xudp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷KR_2|1.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21114'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷KR_3|1.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21114'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_4|4.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: c86222db9b5784ef6a2c0ab13f6ef658
+  port: '50160'
+  server: 168.107.13.220
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
