@@ -19,47 +19,24 @@ proxies:
       Host: Appxdn.global.ssl.fastly.net
     path: /
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_1|2.6MB/s
+  name: 🇬🇧GB_1|1.2MB/s
   password: amazonskr05
   port: 443
-  server: 13.135.73.177
+  server: 18.175.227.220
   type: ss
+  udp: true
+- auth: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  name: 🇬🇧GB_2|1.8MB/s
+  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  port: 443
+  server: dora1.api3-max.ru
+  skip-cert-verify: true
+  sni: dora1.api3-max.ru
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_2|3.0MB/s
+  name: 🇬🇧GB_3|3.0MB/s
   password: amazonskr05
   port: 443
-  server: 13.135.161.144
+  server: 3.8.123.237
   type: ss
   udp: true
-- name: 🇬🇧GB_3|1.6MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.2MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 0DU2XI6J-aVzvYzrKQ7XOI9WPRMOADKTyn2V9E71WA8
-    short-id: '!!str b4c513c67294b791'
-  server: swe-one.letsgodance.site
-  servername: swe-one.letsgodance.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  xudp: true

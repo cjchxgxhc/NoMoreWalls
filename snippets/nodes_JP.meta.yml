@@ -13,10 +13,25 @@ proxies:
   type: vless
   udp: true
   uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_1|1.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.26
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|5.9MB/s
+  network: tcp
+  port: 53113
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: '!!str 238ba3b9e8'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+- name: 🇯🇵JP_2|4.2MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp10.pulsarcore.site
+  type: anytls
   udp: true
