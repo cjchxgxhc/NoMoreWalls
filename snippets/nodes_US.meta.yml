@@ -43,266 +43,51 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- name: 🇺🇸US_1|1.9MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 24099
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: us56.pulsarcore.site
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|1.2MB/s
-  network: none
-  port: 15311
-  server: 107.173.254.27
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|2.5MB/s
-  network: ws
-  port: '443'
-  server: inetchnl-production-5285.up.railway.app
-  servername: inetchnl-production-5285.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: deda70d6-62ed-b060-5654-7079fe323a7c
-  ws-opts:
-    headers:
-      Host: inetchnl-production-5285.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/deda70d6-62ed-b060-5654-7079fe323a7c
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|1.3MB/s
-  network: ws
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: edge.sync.v1
+  name: 🇺🇸US_1|1007KB/s
+  network: grpc
   port: 443
-  server: www.361371.xyz
-  servername: www.361371.xyz
-  skip-cert-verify: true
+  server: eea.mythos-wargame.fun
+  servername: eea.mythos-wargame.fun
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: da77c564-3815-468c-8867-0aea0b397027
-  ws-opts:
-    headers:
-      Host: www.361371.xyz
-    path: /ws-6rm27y
-- name: 🇺🇸US_5|4.5MB/s
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|3.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1007KB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_8|4.5MB/s
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_9|3.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|1.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|4.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_12|4.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|4.1MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_14|4.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_15|2.6MB/s
-  port: 16062
-  server: 104.218.199.17
-  type: http
-- name: 🇺🇸US_16|2.8MB/s
-  port: 16062
-  server: 104.218.199.24
-  type: http
-- name: 🇺🇸US_17|2.6MB/s
-  port: 16062
-  server: 172.85.99.128
-  type: http
-- name: 🇺🇸US_18|3.4MB/s
-  port: 16062
-  server: 104.218.199.26
-  type: http
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
 - client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇺🇸US_19|3.9MB/s
-  network: grpc
-  port: '9873'
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabb'
-  server: 176.109.111.113
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_20|2.3MB/s
+  name: 🇺🇸US_2|3.1MB/s
   network: ws
-  port: '443'
-  server: api-478fc1-35b34a-production.up.railway.app
-  servername: api-478fc1-35b34a-production.up.railway.app
+  port: 8443
+  server: 172.64.229.252
+  servername: apkav-1.bosx.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 23da7d5c-50ac-4ace-af37-358bef75ede7
+  uuid: d7b4fa04-dd2d-45ae-8331-f4b490ada85f
   ws-opts:
     headers:
-      Host: api-478fc1-35b34a-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /ws/vless/23da7d5c-50ac-4ace-af37-358bef75ede7?ed=2048
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 🇺🇸US_21|1.1MB/s
-  network: grpc
-  port: '443'
-  server: plb.webinarly.fun
-  servername: plb.webinarly.fun
+      Host: apkav-1.bosx.net
+    path: /api/connect
+- name: 🇺🇸US_3|4.3MB/s
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇺🇸US_4|2.5MB/s
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: nl1.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇺🇸US_5|1.3MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
   tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_22|3.5MB/s
-  network: tcp
-  port: '22216'
-  reality-opts:
-    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
-    short-id: '!!str 0f4412d42129f080'
-  server: usnoad.whooisthebest.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
-  xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇺🇸US_23|2.1MB/s
-  network: grpc
-  port: '9830'
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabbccdd'
-  server: 91.224.86.107
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_24|2.1MB/s
-  network: ws
-  port: '10444'
-  server: 185.173.147.6
-  type: vless
-  udp: true
-  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
-  ws-opts:
-    headers:
-      Host: vpnpolar.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /beeline
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 🇺🇸US_25|3.5MB/s
-  network: grpc
-  port: '443'
-  server: eeb.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
+  type: http
+  username: null

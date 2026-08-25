@@ -75,60 +75,38 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_1|1.4MB/s
-  network: grpc
-  port: 9871
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.0MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aabb'
-  server: 201.24.49.130
-  servername: dl.google.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-- encryption: none
-  name: 🇩🇪DE_2|1.9MB/s
-  network: ws
-  port: '2052'
-  server: cctvhikvision.center
-  type: vless
-  udp: true
-  uuid: 3302c871-79e8-45a3-8233-d0547ae963ed
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-reality
-  name: 🇩🇪DE_3|1.3MB/s
-  network: grpc
-  port: '8444'
-  reality-opts:
-    public-key: Ng71fIN6Rqh8dWkwWgoCUN6Qmsl4vkCjNZNLXT3_YHA
-    short-id: '!!str bd4a2659'
-  server: 178.250.242.219
-  servername: max.ru
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 152.53.33.73
+  servername: at.quattro-tech.ru
   tls: true
   type: vless
   udp: true
-  uuid: 84e3de56-4917-4a35-a7db-9c3464e25a5a
-  xudp: true
-- name: 🇩🇪DE_4|3.0MB/s
-  password: ''
-  port: '443'
-  server: 141.17.83.73
+  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_2|2.8MB/s
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  port: 443
+  server: 157.228.137.81
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
+  up: ''
+- name: 🇩🇪DE_3|1.5MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de1.sferavpn.pro
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
