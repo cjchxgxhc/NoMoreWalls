@@ -157,28 +157,19 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_1|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.3
+  name: 🇰🇷KR_1|2.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
   type: ss
-  udp: true
-- name: 🇭🇰HK_1|1.5MB/s
-  password: BxceQaOe
-  port: 1103
-  server: 43.206.117.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 🇳🇴NO_1|1.4MB/s
+- name: 🇮🇩ID_1|1.3MB/s
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
+  port: 20056
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 🇺🇦UA_2|2.4MB/s
+- name: 🇺🇦UA_2|1.3MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
@@ -186,44 +177,36 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 🇲🇴MO_1|1.0MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_2|4.4MB/s
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 🇳🇴NO_1|3.0MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20068
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇹🇭TH_1|1.4MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20023
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
-  tls: true
   type: trojan
-  udp: true
-- name: 🇸🇨SC_1|3.9MB/s
-  password: 5e89314202a8405f
-  port: 101
-  server: kuso30.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇹🇼TW_1|1.9MB/s
-  password: 88b3dd32347d4ffa
-  port: 20062
-  server: wti11.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_1|2.8MB/s
-  password: 6519a715da174466
-  port: 101
-  server: jcnp178.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇸🇨SC_2|3.1MB/s
-  password: 3b9deff947c74dde
-  port: 101
-  server: kuso153.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true

@@ -43,51 +43,53 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: edge.sync.v1
-  name: 🇺🇸US_1|1007KB/s
-  network: grpc
+- name: 🇺🇸US_2|1.0MB/s
+  password: None
   port: 443
-  server: eea.mythos-wargame.fun
-  servername: eea.mythos-wargame.fun
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_3|1.6MB/s
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.1MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸US_5|1.2MB/s
+  network: ws
+  port: 8443
+  server: 104.19.144.140
+  servername: wzknb.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: wzknb.pages.dev
+    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 🇺🇸US_6|2.4MB/s
+  network: grpc
+  port: '443'
+  server: 13.143.139.174
+  servername: plb.webinarly.fun
   tls: true
   type: vless
   udp: true
   uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-- client-fingerprint: firefox
-  name: 🇺🇸US_2|3.1MB/s
-  network: ws
-  port: 8443
-  server: 172.64.229.252
-  servername: apkav-1.bosx.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7b4fa04-dd2d-45ae-8331-f4b490ada85f
-  ws-opts:
-    headers:
-      Host: apkav-1.bosx.net
-    path: /api/connect
-- name: 🇺🇸US_3|4.3MB/s
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇺🇸US_4|2.5MB/s
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇺🇸US_5|1.3MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
+  xudp: true
