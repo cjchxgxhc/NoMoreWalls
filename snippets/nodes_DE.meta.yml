@@ -75,39 +75,31 @@ proxies:
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- auth: cd74c0a406664a5bc0bac098220a2468
-  name: 🇩🇪DE_1|2.1MB/s
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- name: 🇩🇪DE_1|2.0MB/s
+  password: None
   port: 443
-  server: de1.sferavpn.pro
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: de1.sferavpn.pro
-  type: hysteria2
-- name: 🇩🇪DE_2|3.7MB/s
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_2|2.2MB/s
   port: 443
   server: 130.61.112.125
   type: http
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: 1aeacc25d232c936f0199a487fc17da95ba59fb6c06656846214cec835d3ac23
-  name: 🇩🇪DE_3|1.2MB/s
-  network: xhttp
-  port: '2087'
-  server: s4.zynetraq.ir
-  servername: s4.zynetraq.ir
+- name: 🇩🇪DE_3|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 76680848-41e6-4700-0962-85930e685ebe
-  xhttp-opts:
-    host: s4.zynetraq.ir
-    mode: auto
-    path: /BetForward
-    x-padding-bytes: 100-1000
-  xudp: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|1.7MB/s
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
