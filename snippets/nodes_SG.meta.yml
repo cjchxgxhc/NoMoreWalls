@@ -1,9 +1,37 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|3.7MB/s
+  network: tcp
+  port: 52786
+  reality-opts:
+    public-key: fBqmk4loQ6gWLiRk5NpwoRnAGl55PDr66fWEpkNM6Hs
+    short-id: '!!str cb344f105044fc'
+  server: 13.213.249.57
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd28ba19-c082-4472-96d8-a5c03d9cbacb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|4.1MB/s
+  network: tcp
+  port: 40785
+  reality-opts:
+    public-key: H8kaNeWDOCEsXdWBLDIZVCrp0Mqq2vjfFq1w3JmaWUg
+    short-id: '!!str ef95bddb7c6ba8'
+  server: 54.251.59.156
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e53f46e-bf21-41c7-8398-45e9edf7f12d
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|4.4MB/s
+  name: 🇸🇬SG_3|5.3MB/s
   network: grpc
   port: 10038
   reality-opts:
@@ -15,19 +43,65 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬SG_2|4.9MB/s
-  network: grpc
-  port: 10037
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_4|4.6MB/s
+  network: tcp
+  port: 17611
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: 2E7IAX6_GkVKkX2MarHguCu4LZemZT7tk7QjaVW9x38
+    short-id: '!!str 01727c4e8f245194'
+  server: 52.76.82.32
+  servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+  uuid: ffa3ea5e-d64f-4dab-8d82-f1e7aee3b1c6
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_5|3.2MB/s
+  network: tcp
+  port: '25066'
+  reality-opts:
+    public-key: AU-qWQ9Vs1RXJfY9UawaDULc9LsxuinVJe8hNsyPezQ
+    short-id: '!!str ac4b9f02123aa50b'
+  server: 52.77.187.151
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f790dfd-d1fd-4f77-a494-6d75798135b5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_6|4.7MB/s
+  network: tcp
+  port: '41077'
+  reality-opts:
+    public-key: dd41CxgkW8Nzb4424-YNVaVkody-X9xAY30bUOjEohI
+    short-id: '!!str 3f7addb532645b1c'
+  server: 13.212.253.233
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32d1be4e-5094-4881-984f-f927e9961edb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_7|3.9MB/s
+  network: tcp
+  port: '39254'
+  reality-opts:
+    public-key: c04tnfk5tdZXpUqqlOUUsu4Pf8tzYcNUsQ0OHFcQj1k
+    short-id: '!!str 7f342137c20387'
+  server: 18.143.93.179
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f88db45e-4178-4545-91b5-5374d676bfbb
+  xudp: true

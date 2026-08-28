@@ -43,31 +43,346 @@ proxies:
   type: vless
   udp: true
   uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_1|1.9MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.123
+  servername: norl-production-dc09.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccaf200f-e758-7629-152a-fcf7333d3d3a
+  ws-opts:
+    headers:
+      Host: norl-production-dc09.up.railway.app
+    path: /ws/ccaf200f-e758-7629-152a-fcf7333d3d3a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OYvSeQqu0XhV12blOVAR2Cn_3m6HI95raTdlqnVobjk
+    short-id: '!!str 360de9e1'
+  server: 50.7.240.210
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|3.8MB/s
+  network: tcp
+  port: 10974
+  reality-opts:
+    public-key: rQHsnXffkul9uYK50Efqzu-KBZ6ZwKNZts86r8u3iEw
+    short-id: '!!str a727f329ba2a22'
+  server: 45.33.107.60
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da249715-4a6f-4873-ac3d-260f2b6e0065
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_4|3.7MB/s
+  network: tcp
+  port: 10092
+  reality-opts:
+    public-key: EUpz9wKWgGn74jxYUKDbk87UwDGEYeCiaZg13m36ki0
+    short-id: '!!str e482c0320674c651'
+  server: 192.155.87.188
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0b4d03b-b561-46aa-96f6-d03fa222a65e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|3.5MB/s
+  network: tcp
+  port: 11256
+  reality-opts:
+    public-key: TgKDlrMB3_LCRs_WBX4OMnt87rPc4XVqaPhEAtoXhDc
+    short-id: '!!str 352a7bbcc1ceeb'
+  server: 192.81.131.225
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4817e138-8370-4fdd-aa59-36a6ec0247e2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_6|3.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mdw878be71y6U91o8i8ZruIkVILhcKf43yO98TGXZgo
+    short-id: '!!str bcef3e3d8584fa99'
+  server: 38.77.133.141
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0eb057bc-f4b2-425b-80c9-1ed982916480
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|3.3MB/s
+  name: 🇺🇸US_7|1.1MB/s
   password: 7eadc6dbe2ae
-  port: 65443
+  port: '65443'
   server: 121.46.230.233
   type: ss
   udp: true
-- name: 🇺🇸US_2|2.1MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🇺🇸US_3|1.3MB/s
+- name: 🇺🇸US_8|1.4MB/s
+  password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_4|1.0MB/s
+  username: 'null'
+- name: 🇺🇸US_9|1.0MB/s
+  password: None
   port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
+  server: purposebydesig.club
   tls: true
   type: http
+  udp: true
+- name: 🇺🇸US_10|4.4MB/s
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_11|2.9MB/s
+  port: 2013
+  server: 20.191.96.204
+  type: http
+- name: 🇺🇸US_12|3.4MB/s
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.7MB/s
+  port: 3111
+  server: 104.168.218.25
+  type: http
+- name: 🇺🇸US_14|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|4.2MB/s
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_16|4.4MB/s
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+- name: 🇺🇸US_17|4.5MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_18|3.5MB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_19|3.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_20|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_21|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_22|4.7MB/s
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_23|4.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_24|2.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_25|4.0MB/s
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_26|1.1MB/s
+  port: 8056
+  server: 24.153.226.234
+  type: http
+- name: 🇺🇸US_27|3.0MB/s
+  port: 10801
+  server: 152.53.53.54
+  type: socks5
+- name: 🇺🇸US_28|4.3MB/s
+  port: 3193
+  server: 160.153.172.106
+  type: http
+- name: 🇺🇸US_29|3.6MB/s
+  port: 16062
+  server: 104.218.199.16
+  type: http
+- name: 🇺🇸US_30|4.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_31|1.6MB/s
+  port: 16062
+  server: 104.218.199.8
+  type: http
+- name: 🇺🇸US_32|4.0MB/s
+  password: None
+  port: 16062
+  server: 104.218.199.152
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_33|1.5MB/s
+  network: tcp
+  port: '43595'
+  reality-opts:
+    public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
+    short-id: '!!str e482c0320674c651'
+  server: 45.33.62.166
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642f590-2bce-4031-8f93-7eed983621f5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_34|3.2MB/s
+  network: tcp
+  port: '29513'
+  reality-opts:
+    public-key: B6t3rGQObWmOZnhzMwbzbW2cS0xdIgjhpfEWtvhmiSY
+    short-id: '!!str eb92ec5ea76bbad2'
+  server: 172.233.156.118
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 462d3997-8745-4f4a-ac9a-07349a211cf0
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_35|2.5MB/s
+  network: tcp
+  port: '53957'
+  reality-opts:
+    public-key: XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ
+    short-id: '!!str 44e82fd7b97b14'
+  server: 172.235.43.210
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab29f89-6eef-4171-b232-fc4f580ad31b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_36|4.1MB/s
+  network: tcp
+  port: '39852'
+  reality-opts:
+    public-key: aWWrRRoBeajdnbJJpl667pRKgay40Ttq9aVuTxkd_3w
+    short-id: '!!str 037ea8353252df'
+  server: 74.207.245.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92c71516-6b46-4e5f-a4be-273d4332d6bb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_37|4.1MB/s
+  network: tcp
+  port: '42942'
+  reality-opts:
+    public-key: JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU
+    short-id: '!!str a56d7d8da977f860'
+  server: 172.235.38.85
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bca46025-bf43-40c0-895b-054a6fbcfd32
+  xudp: true
+- name: 🇺🇸US_38|4.3MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
