@@ -1,36 +1,33 @@
 proxies:
-- auth: b492c1192f7aa3433c9818baf5ebb4ff
-  name: 🇸🇬SG_1|3.9MB/s
-  password: b492c1192f7aa3433c9818baf5ebb4ff
-  port: 443
-  server: 134.185.87.191
-  skip-cert-verify: true
-  sni: sb.jmx666.eu.cc
-  type: hysteria2
-- name: 🇸🇬SG_2|2.0MB/s
-  port: 9090
-  server: 128.199.254.13
-  type: http
-- name: 🇸🇬SG_3|1.5MB/s
-  password: ''
-  port: '9443'
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_4|4.5MB/s
-  network: tcp
-  port: '443'
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_1|4.4MB/s
+  network: grpc
+  port: 10038
   reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: '!!str 37c94ae25b69a93a'
-  server: sg1.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: fbef76ca-9bf2-415d-9872-4700c8ca7673
-  xudp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_2|4.9MB/s
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
