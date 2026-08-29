@@ -18,25 +18,47 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 🇬🇧GB_2|2.2MB/s
+- name: 🇬🇧GB_2|1.4MB/s
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.7MB/s
   password: None
-  port: 3118
-  server: 154.61.56.215
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.0MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|1.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|3.2MB/s
+  name: 🇬🇧GB_6|2.5MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 8443
+  port: '51847'
   reality-opts:
-    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
-    short-id: '!!str a1b2c3d4e5f6a7b8'
-  server: 31.76.9.56
-  servername: xnod5x.artemida.live
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: '!!str 0eec442e7b34d2f2'
+  server: 3.9.135.156
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: a210cb80-f379-44e9-a103-97ba59357a46
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
   xudp: true

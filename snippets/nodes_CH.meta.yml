@@ -1,9 +1,14 @@
 proxies:
-- name: 🇨🇭CH_1|2.3MB/s
-  password: ''
-  port: '9443'
-  server: 149.88.27.46
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|4.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+  server: 89.124.251.166
+  servername: d.tranzit-net.ru
   tls: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
