@@ -1,153 +1,37 @@
 proxies:
-- name: 🇸🇬SG_1|4.4MB/s
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|1.8MB/s
+- name: 🇸🇬SG_1|3.4MB/s
   network: ws
-  port: '443'
-  server: spiderpanel-production-6d54.up.railway.app
-  tls: true
+  port: '8880'
+  server: 172.64.144.180
   type: vless
   udp: true
-  uuid: 50940813-638f-4881-b5a4-51228a55a2d4
+  uuid: e9d9f06f-d5dd-460a-998f-52efc4732636
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /ws/50940813-638f-4881-b5a4-51228a55a2d4
+      Host: bitter-meadow-1d60.313-0f9.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_3|2.5MB/s
-  network: ws
-  port: '443'
-  server: spiderpanel-production-6d54.up.railway.app
-  servername: spiderpanel-production-6d54.up.railway.app
-  tls: true
-  type: vless
+- cipher: chacha20-ietf
+  name: 🇸🇬SG_2|4.0MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8211'
+  server: cn08.somethingstranges.com
+  type: ss
   udp: true
-  uuid: 50940813-638f-4881-b5a4-51228a55a2d4
-  ws-opts:
-    headers:
-      Host: spiderpanel-production-6d54.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws/50940813-638f-4881-b5a4-51228a55a2d4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_4|3.0MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.140
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
+- cipher: chacha20-ietf
+  name: 🇸🇬SG_3|3.8MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8206'
+  server: cn07.somethingstranges.com
+  type: ss
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_5|3.0MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.250
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_6|3.1MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.157
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_7|3.0MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.132
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇸🇬SG_8|2.6MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.37
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_9|2.5MB/s
-  network: ws
-  port: '2096'
-  server: 91.193.58.218
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /free-server.techsonic.dev
-  xudp: true

@@ -157,62 +157,79 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|3.1MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.5MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_3|3.1MB/s
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_5|4.4MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_5|3.1MB/s
+  name: 🇨🇦CA_1|3.4MB/s
   password: amazonskr05
   port: 443
-  server: 18.133.240.229
+  server: 35.182.250.193
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸US_5|2.9MB/s
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.244
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_9|2.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
+  name: 🇺🇸US_6|4.6MB/s
+  password: OhGXJG4nEqTN62cDDcD_8_CddrpTHn0u
+  port: '1080'
+  server: de-server-1.zelnora.ir
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_1|2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.182.226.121
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.161
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /assignment
+- cipher: chacha20-ietf
+  name: 🇸🇬SG_2|4.0MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8211'
+  server: cn08.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇸🇬SG_3|3.8MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8206'
+  server: cn07.somethingstranges.com
   type: ss
   udp: true
