@@ -18,21 +18,19 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 🇬🇧GB_1|2.4MB/s
+- name: 🇬🇧GB_1|1.5MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.1MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
+- name: 🇬🇧GB_2|1.3MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_3|1.5MB/s
+- name: 🇬🇧GB_3|3.9MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -40,35 +38,34 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|3.3MB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-  username: null
-- name: 🇬🇧GB_5|2.8MB/s
-  password: None
+- name: 🇬🇧GB_4|1.3MB/s
   port: 443
-  server: 185.235.0.2
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- client-fingerprint: firefox
+- client-fingerprint: safari
   encryption: none
-  name: 🇬🇧GB_6|1.3MB/s
+  name: 🇬🇧GB_5|1.0MB/s
   network: xhttp
   port: '443'
   reality-opts:
-    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
-    short-id: '!!str b4c823'
-  server: 31.76.88.150
-  servername: www.yandex.ru
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: '!!str 2b5b1ffa8a6a1a68'
+  server: 178.236.254.174
+  servername: ya.ru
   tls: true
   type: vless
   udp: true
-  uuid: 13b54a52-a29f-4737-9941-26f54a4f87c4
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xhttp-opts:
-    host: evovpn.pro
-    path: /video/download
+    host: ya.ru
+    path: /web/cdn/v2/assets
   xudp: true
+- name: 🇬🇧GB_6|1.1MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
