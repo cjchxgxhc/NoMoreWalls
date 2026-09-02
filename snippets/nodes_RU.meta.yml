@@ -1,6 +1,28 @@
 proxies:
+- name: 🇷🇺 121  | ⬇️ 351KB/s
+  port: 5050
+  server: 45.159.0.194
+  type: http
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇷🇺 266  | ⬇️ 96KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 14443
+  server: 176.109.85.71
+  servername: russia.webgate.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 968469ec-67c9-4fe6-bf72-dd20716add3b
+  ws-opts:
+    headers:
+      Host: russia.webgate.cc
+    path: /ru
 - encryption: none
-  name: '🇷🇺 039  | ⬇️ 9KB/s #1'
+  name: 🇷🇺 039  | ⬇️ 9KB/s
   network: ws
   packet-encoding: xudp
   port: 2200
@@ -12,21 +34,15 @@ proxies:
   uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
   ws-opts:
     path: /v1
-- client-fingerprint: edge
-  encryption: none
-  name: 🇷🇺RU_1|3.2MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_1|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: '443'
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /websocket
-  xudp: true
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  type: hysteria2
+  up: ''

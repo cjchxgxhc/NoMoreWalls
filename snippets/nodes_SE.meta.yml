@@ -1,5 +1,29 @@
 proxies:
-- name: '🇸🇪 006  | ⬇️ 4MB/s #1'
+- name: 🇸🇪 084  | ⬇️ 1MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪 109  | ⬇️ 1MB/s
+  port: 39811
+  server: 176.111.37.216
+  type: http
+- name: 🇸🇪 161  | ⬇️ 2MB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪 243  | ⬇️ 172KB/s
+  port: 81
+  server: 46.59.120.87
+  type: http
+- name: 🇸🇪 270  | ⬇️ 288KB/s
+  port: 39811
+  server: 176.111.37.5
+  type: http
+- name: 🇸🇪 006  | ⬇️ 4MB/s
   password: Zg0z_Mdkhj_NNZBvZZ4TmwAyQgJlTUev
   port: 43327
   server: 2.27.23.44
@@ -8,7 +32,7 @@ proxies:
   tfo: false
   type: hysteria2
 - client-fingerprint: firefox
-  name: '🇸🇪 020  | ⬇️ 3MB/s #1'
+  name: 🇸🇪 020  | ⬇️ 3MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -25,17 +49,3 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /api/v1/events
-- name: 🇸🇪SE_1|1.2MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_2|4.0MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
