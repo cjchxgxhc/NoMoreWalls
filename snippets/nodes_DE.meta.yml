@@ -19,13 +19,18 @@ proxies:
     host: w-mebel.pro
     mode: auto
     path: /video/v5/chunks
-- name: 🇩🇪 020  | ⬇️ 5MB/s
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_3|2.0MB/s
+  obfs: ''
+  obfs-password: ''
   password: dffb4c3d-1e84-4938-8881-cad917e8efb2
-  port: 443
+  port: '443'
   server: de1.apexvpn.space
   skip-cert-verify: false
   sni: de1.apexvpn.space
   type: hysteria2
+  up: ''
 - name: 🇩🇪 033  | ⬇️ 1MB/s
   port: 443
   server: 138.201.56.241
@@ -188,3 +193,26 @@ proxies:
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 🇩🇪DE_1|3.7MB/s
+  network: http
+  port: 61169
+  server: ger22.orangesms.ir
+  type: vless
+  udp: true
+  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
+  xudp: true
+- name: 🇩🇪DE_2|2.7MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: as-de003.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
