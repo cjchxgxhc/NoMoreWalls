@@ -1,6 +1,14 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇯🇵 015  | ⬇️ 1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: chacha20-ietf
-  name: '🇯🇵 003  | ⬇️ 5MB/s #1'
+  name: 🇯🇵 003  | ⬇️ 5MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -11,17 +19,9 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  name: '🇯🇵 015  | ⬇️ 1MB/s #1'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 044  | ⬇️ 1KB/s #1'
+  name: 🇯🇵 044  | ⬇️ 1KB/s
   network: tcp
   port: 30806
   server: v6.hdacd.com

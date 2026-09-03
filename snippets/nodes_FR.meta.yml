@@ -1,9 +1,20 @@
 proxies:
-- name: '🇫🇷 009  | ⬇️ 3MB/s #1'
-  port: 1443
-  server: 85.208.51.228
-  type: http
-- name: '🇫🇷 021  | ⬇️ 7MB/s #1'
+- client-fingerprint: chrome
+  name: 🇫🇷 003  | ⬇️ 99KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.244
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /assignment
+- name: 🇫🇷 021  | ⬇️ 7MB/s
   packet-encoding: ''
   packetEncoding: none
   password: github.com/Alvin9999-newpac/fanqiang
@@ -15,29 +26,31 @@ proxies:
   type: anytls
   udp: true
 - cipher: aes-256-cfb
-  name: '🇫🇷 027  | ⬇️ 25KB/s #1'
+  name: 🇫🇷 027  | ⬇️ 25KB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
   skip-cert-verify: false
   type: ss
   udp: false
-- name: '🇫🇷 031  | ⬇️ 1MB/s #1'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  tfo: false
-  type: hysteria2
-- name: '🇫🇷 059  | ⬇️ 629KB/s #1'
-  port: 443
-  server: fan.132031.xyz
-  skip-cert-verify: true
-  sni: fan.132031.xyz
+- name: 🇫🇷 031  | ⬇️ 785KB/s
+  password: freeuser1
+  port: 9251
+  server: fr003.freeconnect.link
+  sni: fr003.freeconnect.link
   tls: true
   type: http
-- name: '🇫🇷 080  | ⬇️ 72KB/s #1'
+  username: freeuser1
+- name: 🇫🇷 036  | ⬇️ 32KB/s
+  password: freeuser1
+  port: 9251
+  server: fr017.freeconnect.link
+  skip-cert-verify: true
+  sni: fr017.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 🇫🇷 080  | ⬇️ 72KB/s
   password: freeuser1
   port: 9251
   server: fr012.freeconnect.link
@@ -45,49 +58,60 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: '🇫🇷 095  | ⬇️ 35KB/s #1'
+- name: 🇫🇷 094  | ⬇️ 4MB/s
   port: 443
-  server: 141.94.16.4
+  server: 103.82.101.43
   skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: '🇫🇷 107  | ⬇️ 2MB/s #1'
+- name: 🇫🇷 107  | ⬇️ 2MB/s
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: '🇫🇷 216  | ⬇️ 1MB/s #1'
-  port: 8888
-  server: 37.59.125.131
-  type: http
-- name: '🇫🇷 242  | ⬇️ 7KB/s #1'
-  port: 1088
-  server: 144.91.121.61
-  type: socks5
-  udp: true
 - alterId: 2
   cipher: auto
-  name: '🇫🇷 255  | ⬇️ 31KB/s #1'
+  name: 🇫🇷 255  | ⬇️ 31KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- name: 🇫🇷 009  | ⬇️ 3MB/s
+  port: 1443
+  server: 85.208.51.228
+  type: http
+- name: 🇫🇷 031  | ⬇️ 1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- name: 🇫🇷 059  | ⬇️ 629KB/s
+  port: 443
+  server: fan.132031.xyz
+  skip-cert-verify: true
+  sni: fan.132031.xyz
+  tls: true
+  type: http
+- name: 🇫🇷 095  | ⬇️ 35KB/s
+  port: 443
+  server: 141.94.16.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷 216  | ⬇️ 1MB/s
+  port: 8888
+  server: 37.59.125.131
+  type: http
+- name: 🇫🇷 242  | ⬇️ 7KB/s
+  port: 1088
+  server: 144.91.121.61
+  type: socks5
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment

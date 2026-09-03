@@ -1,6 +1,55 @@
 proxies:
+- name: 🇬🇧 034  | ⬇️ 1MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧 037  | ⬇️ 5MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧 041  | ⬇️ 1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧 076  | ⬇️ 17KB/s
+  port: 3118
+  server: 154.61.56.215
+  type: http
+- name: 🇬🇧 084  | ⬇️ 2MB/s
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.235
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
+- name: 🇬🇧 214  | ⬇️ 428KB/s
+  password: None
+  port: 3118
+  server: 154.61.56.215
+  type: http
+- name: 🇬🇧GB_2|1.1MB/s
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧 184  | ⬇️ 3MB/s
+  port: 32766
+  server: 178.62.83.124
+  type: http
 - client-fingerprint: random
-  name: '🇬🇧 012  | ⬇️ 1MB/s #1'
+  name: 🇬🇧 012  | ⬇️ 1MB/s
   network: xhttp
   port: 443
   reality-opts:
@@ -16,13 +65,13 @@ proxies:
     host: s3.netavex.com
     mode: packet-up
     path: /assets/v2/pkg
-- name: '🇬🇧 040  | ⬇️ 6MB/s #1'
+- name: 🇬🇧 040  | ⬇️ 6MB/s
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: '🇬🇧 048  | ⬇️ 1MB/s #1'
+- name: 🇬🇧 048  | ⬇️ 1MB/s
   port: 443
   server: 37.120.233.50
   skip-cert-verify: true
@@ -30,7 +79,7 @@ proxies:
   type: http
 - alterId: 2
   cipher: auto
-  name: '🇬🇧 103  | ⬇️ 20KB/s #1'
+  name: 🇬🇧 103  | ⬇️ 20KB/s
   network: tcp
   port: 30836
   server: v36.hdacd.com
@@ -42,7 +91,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇬🇧 152  | ⬇️ 157KB/s #1'
+  name: 🇬🇧 152  | ⬇️ 157KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -56,7 +105,7 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '🇬🇧 167  | ⬇️ 94KB/s #1'
+- name: 🇬🇧 167  | ⬇️ 94KB/s
   password: freeuser1
   port: 9251
   server: ma1-gb.freeconnect.link
@@ -64,28 +113,15 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: '🇬🇧 214  | ⬇️ 428KB/s #1'
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-- name: 🇬🇧GB_1|2.5MB/s
+- name: 🇬🇧GB_1|1.3MB/s
   password: None
   port: 443
-  server: 185.235.0.66
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|1.4MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.0MB/s
+- name: 🇬🇧GB_3|1.2MB/s
   password: None
   port: 443
   server: 212.102.63.31

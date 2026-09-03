@@ -1,5 +1,120 @@
 proxies:
-- name: '🇩🇪 029  | ⬇️ 5MB/s #1'
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 002  | ⬇️ 6MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: nmgC68UUc0vIULwXY99KgX7esJYnjuJ5H2wxkWwbVkA
+    short-id: '!!str cebae65041c4b5e0'
+  server: it-xh1.w-mebel.pro
+  servername: w-mebel.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88f9c3c2-b3dc-44aa-9490-8e9bc8133535
+  xhttp-opts:
+    host: w-mebel.pro
+    mode: auto
+    path: /video/v5/chunks
+- name: 🇩🇪 020  | ⬇️ 5MB/s
+  password: dffb4c3d-1e84-4938-8881-cad917e8efb2
+  port: 443
+  server: de1.apexvpn.space
+  skip-cert-verify: false
+  sni: de1.apexvpn.space
+  type: hysteria2
+- name: 🇩🇪 033  | ⬇️ 1MB/s
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪 040  | ⬇️ 56KB/s
+  password: None
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪 088  | ⬇️ 2MB/s
+  port: 443
+  server: 148.230.110.203
+  type: http
+- name: 🇩🇪 105  | ⬇️ 1017KB/s
+  port: 11111
+  server: 103.237.102.191
+  sub_tag: R002-260618
+  type: http
+  udp: true
+- name: 🇩🇪 072  | ⬇️ 433KB/s
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: false
+  sni: fan.973511.xyz
+  tls: true
+  type: http
+- name: 🇩🇪 190  | ⬇️ 331KB/s
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 189  | ⬇️ 2MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- name: 🇩🇪 032  | ⬇️ 7MB/s
+  port: 11000
+  server: 116.202.172.187
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 139  | ⬇️ 73KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- client-fingerprint: random
+  name: 🇩🇪 164  | ⬇️ 3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: de-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/v2/pkg
+- name: 🇩🇪 029  | ⬇️ 5MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.124.123
@@ -7,11 +122,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tfo: false
   type: hysteria2
-- name: '🇩🇪 032  | ⬇️ 7MB/s #1'
-  port: 11000
-  server: 116.202.172.187
-  type: http
-- name: '🇩🇪 061  | ⬇️ 1MB/s #1'
+- name: 🇩🇪 061  | ⬇️ 1MB/s
   password: None
   port: 443
   server: fan.973511.xyz
@@ -19,33 +130,23 @@ proxies:
   sni: fan.973511.xyz
   tls: true
   type: http
-- name: '🇩🇪 072  | ⬇️ 1MB/s #1'
+- name: 🇩🇪 072  | ⬇️ 1MB/s
   password: None
   port: 11111
   server: 103.237.102.191
-  type: http
-- name: '🇩🇪 088  | ⬇️ 2MB/s #1'
-  port: 443
-  server: 148.230.110.203
   type: http
 - alterId: 2
   cipher: none
   h2-opts: {}
   http-opts: {}
-  name: '🇩🇪 090  | ⬇️ 35KB/s #1'
+  name: 🇩🇪 090  | ⬇️ 35KB/s
   network: tcp
   port: 30833
   server: v33.hdacd.com
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇩🇪 105  | ⬇️ 1017KB/s #1'
-  port: 11111
-  server: 103.237.102.191
-  sub_tag: R002-260618
-  type: http
-  udp: true
-- name: '🇩🇪 134  | ⬇️ 71KB/s #1'
+- name: 🇩🇪 134  | ⬇️ 71KB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -56,7 +157,7 @@ proxies:
   username: testuser1
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇩🇪 135  | ⬇️ 276KB/s #1'
+  name: 🇩🇪 135  | ⬇️ 276KB/s
   network: tcp
   packet-encoding: xudp
   port: 1443
@@ -73,7 +174,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '🇩🇪 183  | ⬇️ 2MB/s #1'
+  name: 🇩🇪 183  | ⬇️ 2MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -87,46 +188,3 @@ proxies:
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '🇩🇪 189  | ⬇️ 2MB/s #1'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- name: '🇩🇪 190  | ⬇️ 331KB/s #1'
-  port: 443
-  server: 185.44.107.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|3.1MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 443
-  server: as-de003.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-de003.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_2|1.2MB/s
-  network: http
-  port: '61169'
-  server: ger22.orangesms.ir
-  type: vless
-  udp: true
-  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
-  xudp: true
