@@ -1,12 +1,12 @@
 proxies:
-- name: 🇷🇺 121  | ⬇️ 351KB/s
+- name: '🇷🇺 121  | ⬇️ 351KB/s #1'
   port: 5050
   server: 45.159.0.194
   type: http
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇷🇺 266  | ⬇️ 96KB/s
+  name: '🇷🇺 266  | ⬇️ 96KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 14443
@@ -21,16 +21,20 @@ proxies:
     headers:
       Host: russia.webgate.cc
     path: /ru
-- encryption: none
-  name: 🇷🇺 039  | ⬇️ 9KB/s
+- client-fingerprint: edge
+  name: 🇷🇺RU_1|3.2MB/s
   network: ws
-  packet-encoding: xudp
-  port: 2200
-  server: 193.188.23.170
-  skip-cert-verify: false
-  tls: false
+  port: '443'
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  tls: true
   type: vless
   udp: true
-  uuid: b3d66abd-ea82-4616-92f0-1dec8d1e4cfc
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
-    path: /v1
+    headers:
+      Host: ru05.abvpn.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /websocket
+  xudp: true

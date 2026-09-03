@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf
-  name: 🇯🇵 003  | ⬇️ 5MB/s
+  name: '🇯🇵 003  | ⬇️ 5MB/s #1'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -12,14 +12,14 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇯🇵 015  | ⬇️ 1MB/s
+  name: '🇯🇵 015  | ⬇️ 1MB/s #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇯🇵JP_1|1.4MB/s
+- name: '🇯🇵 028  | ⬇️ 116KB/s #1'
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -27,13 +27,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇯🇵 036  | ⬇️ 28KB/s
+- name: '🇯🇵 036  | ⬇️ 28KB/s #1'
   password: '!!str 123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: 🇯🇵 043  | ⬇️ 69KB/s
+- name: '🇯🇵 043  | ⬇️ 69KB/s #1'
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: false
@@ -42,7 +42,7 @@ proxies:
   type: http
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 044  | ⬇️ 1KB/s
+  name: '🇯🇵 044  | ⬇️ 1KB/s #1'
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -52,7 +52,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 206  | ⬇️ 13KB/s
+  name: '🇯🇵 206  | ⬇️ 13KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 15007
@@ -69,7 +69,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵 210  | ⬇️ 26KB/s
+  name: '🇯🇵 210  | ⬇️ 26KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 15007
@@ -83,7 +83,7 @@ proxies:
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 🇯🇵 220  | ⬇️ 8MB/s
+- name: '🇯🇵 220  | ⬇️ 8MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -104,7 +104,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 263  | ⬇️ 2MB/s
+  name: '🇯🇵 263  | ⬇️ 2MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 57554
@@ -119,17 +119,36 @@ proxies:
     headers:
       Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇯🇵 042  | ⬇️ 163KB/s
-  network: tcp
-  port: 20725
-  reality-opts:
-    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
-    short-id: '!!str 0102ac4e'
-  server: rm-jp-01.409648.xyz
-  servername: buylite.tv.apple.com
+- name: 🇯🇵JP_1|2.9MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp10.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇯🇵JP_2|2.7MB/s
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_3|2.0MB/s
+  network: ws
+  port: '443'
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /sg-orcl
+  xudp: true
