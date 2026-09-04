@@ -1,12 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇰🇷 007  | ⬇️ 1MB/s
+  name: 🇰🇷KR_1|2.2MB/s
   password: 7eadc6dbe2ae
-  port: 65443
+  port: '65443'
   server: 121.46.230.138
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - name: 🇰🇷 025  | ⬇️ 1KB/s
   port: 1090
   server: 121.169.46.116
@@ -37,3 +37,19 @@ proxies:
   server: 43.164.136.189
   type: socks5
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_2|4.5MB/s
+  network: raw
+  port: '19179'
+  reality-opts:
+    public-key: BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA
+    short-id: '!!str fa1e592603c283'
+  server: 3.38.1.152
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
+  xudp: true

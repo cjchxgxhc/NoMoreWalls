@@ -42,21 +42,21 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇰🇷 007  | ⬇️ 1MB/s
+  name: 🇰🇷KR_1|2.2MB/s
   password: 7eadc6dbe2ae
-  port: 65443
+  port: '65443'
   server: 121.46.230.138
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - cipher: aes-256-cfb
-  name: 🇮🇪IE_1|2.6MB/s
+  name: 🇮🇪 012  | ⬇️ 7MB/s
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 108.129.211.17
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: aes-256-cfb
   name: 🇫🇷 027  | ⬇️ 25KB/s
   password: 7eadc6dbe2ae
@@ -263,13 +263,13 @@ proxies:
       Host: m01c7b2z26dtqgee.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.2MB/s
+  name: 🇺🇸 024  | ⬇️ 91KB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.233
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - alterId: 0
   cipher: auto
   name: 🇭🇰 025  | ⬇️ 28KB/s
@@ -473,19 +473,3 @@ proxies:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_3|3.0MB/s
-  network: ws
-  port: '16648'
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
-  xudp: true
