@@ -1,32 +1,76 @@
 proxies:
-- auth: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-  name: 🇺🇸 001  | ⬇️ 237KB/s
-  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+- name: 🇺🇸 001  | ⬇️ 21KB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: ush2.shazamri.xyz
-  skip-cert-verify: true
-  sni: ush2.shazamri.xyz
-  type: hysteria2
-- name: 🇺🇸 023  | ⬇️ 7MB/s
-  port: 12344
-  server: 154.21.89.32
-  type: http
-- name: 🇺🇸 038  | ⬇️ 6MB/s
+  server: 172.67.213.128
+  servername: 9-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 9-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: 🇺🇸 002  | ⬇️ 804KB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
+  server: 172.67.185.142
+  servername: 7-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+  skip-cert-verify: false
   tls: true
-  type: http
-- name: 🇺🇸 043  | ⬇️ 15KB/s
-  port: 4447
-  server: 54.174.5.216
-  type: http
-- name: 🇺🇸 064  | ⬇️ 6MB/s
-  port: 9002
-  server: 138.199.35.220
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 7-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- client-fingerprint: chrome
+  name: 🇺🇸 004  | ⬇️ 2KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 58011
+  server: us22.sofast.live
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|3.5MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.232
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸 024  | ⬇️ 91KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇺🇸 015  | ⬇️ 3MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 61134
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: us18.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸 016  | ⬇️ 4MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 49380
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: us08.pulsarcore.site
+  type: anytls
   udp: true
 - name: 🇺🇸 069  | ⬇️ 6MB/s
   password: None
@@ -35,68 +79,46 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 063  | ⬇️ 4MB/s
-  port: 8056
-  server: 24.153.226.234
-  type: http
-- name: 🇺🇸 278  | ⬇️ 67KB/s
+- name: 🇺🇸 031  | ⬇️ 1MB/s
   password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 052  | ⬇️ 196KB/s
+- name: 🇺🇸 032  | ⬇️ 22KB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸 033  | ⬇️ 6KB/s
   port: 9002
   server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 073  | ⬇️ 16KB/s
-  port: 5999
-  server: 24.52.147.103
-  type: http
-- name: 🇺🇸 056  | ⬇️ 26KB/s
+- name: 🇺🇸 071  | ⬇️ 6MB/s
+  password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸 124  | ⬇️ 206KB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 250  | ⬇️ 6MB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 253  | ⬇️ 6MB/s
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 085  | ⬇️ 28KB/s
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 106  | ⬇️ 24KB/s
+  username: 'null'
+- delay: 1600
+  name: 🇺🇸 035  | ⬇️ 6MB/s
   password: None
-  port: 9002
-  server: 138.199.35.210
+  port: 443
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
+  sni: goedkoopgeluid.icu
   tls: true
   type: http
+  udp: true
 - name: 🇺🇸 238  | ⬇️ 12KB/s
   password: None
   port: 9002
@@ -104,14 +126,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 100  | ⬇️ 108KB/s
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 067  | ⬇️ 6MB/s
+- name: 🇺🇸 037  | ⬇️ 22KB/s
   password: ''
   port: 9002
   server: 138.199.35.205
@@ -119,9 +134,78 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇺🇸 068  | ⬇️ 21KB/s
+- name: 🇺🇸 077  | ⬇️ 334KB/s
+  password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.212
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 177  | ⬇️ 125KB/s
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 258  | ⬇️ 4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 078  | ⬇️ 14KB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 046  | ⬇️ 20KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 055  | ⬇️ 6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 049  | ⬇️ 18KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 086  | ⬇️ 4MB/s
+  password: None
+  port: 5252
+  server: 148.100.84.192
+  type: http
+- name: 🇺🇸 182  | ⬇️ 45KB/s
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 067  | ⬇️ 10KB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 251  | ⬇️ 6MB/s
+  port: 9002
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
@@ -133,69 +217,164 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 083  | ⬇️ 4MB/s
-  port: 25252
-  server: 52.168.83.190
-  type: http
-- name: 🇺🇸 087  | ⬇️ 13KB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 068  | ⬇️ 29KB/s
-  password: ''
+- name: 🇺🇸 066  | ⬇️ 17KB/s
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇺🇸 096  | ⬇️ 327KB/s
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  tls: true
-  type: http
-- name: 🇺🇸 182  | ⬇️ 45KB/s
+  udp: true
+- name: 🇺🇸 085  | ⬇️ 28KB/s
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 101  | ⬇️ 2MB/s
-  port: 8081
-  server: 73.109.227.116
-  type: http
-- name: 🇺🇸 127  | ⬇️ 160KB/s
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: 🇺🇸 110  | ⬇️ 5MB/s
+- name: 🇺🇸 057  | ⬇️ 18KB/s
   password: None
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 081  | ⬇️ 11KB/s
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 121  | ⬇️ 6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
+  udp: true
+- name: 🇺🇸 117  | ⬇️ 87KB/s
+  port: 443
+  server: 52.55.81.168
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 090  | ⬇️ 74KB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 28219
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us05.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸 095  | ⬇️ 32KB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 22216
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: us72.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸 124  | ⬇️ 86KB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 19620
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us32.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸 094  | ⬇️ 175KB/s
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
+  sni: fan.596189.xyz
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸 067  | ⬇️ 10KB/s
+- name: 🇺🇸 130  | ⬇️ 3KB/s
+  password: None
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸 132  | ⬇️ 101KB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 25504
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us02.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇺🇸 139  | ⬇️ 38KB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 38302
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us71.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸 142  | ⬇️ 4MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 25558
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us40.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 🇺🇸US_3|3.0MB/s
+  password: None
+  port: 443
+  server: webdrone.club
+  skip-cert-verify: false
+  sni: webdrone.club
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸 147  | ⬇️ 11KB/s
+  password: None
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 091  | ⬇️ 18KB/s
+  port: 5252
+  server: 148.100.84.192
+  type: http
+- name: 🇺🇸US_5|1.8MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: 🇺🇸 160  | ⬇️ 2MB/s
+  port: 8081
+  server: 73.109.227.116
+  type: http
+- name: 🇺🇸 169  | ⬇️ 6MB/s
+  port: 443
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+- name: 🇺🇸 056  | ⬇️ 26KB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 058  | ⬇️ 339KB/s
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+- name: 🇺🇸 063  | ⬇️ 4MB/s
+  port: 8056
+  server: 24.153.226.234
+  type: http
+- name: 🇺🇸 064  | ⬇️ 6MB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 🇺🇸 066  | ⬇️ 777KB/s
   password: 'null'
   port: 9002
@@ -206,119 +385,14 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 🇺🇸 134  | ⬇️ 415KB/s
-  port: 442
-  server: 54.235.192.64
-  type: http
-- name: 🇺🇸 148  | ⬇️ 1KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- encryption: none
-  name: 🇺🇸 150  | ⬇️ 17KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 🇺🇸 155  | ⬇️ 6MB/s
-  password: None
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸 160  | ⬇️ 5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: usa_2_hysteria2_fastlane_7xd97qbds:ZO9NsnzCMk5WDLYrLMFJi8V2Dg3HRSpv
-  port: 1935
-  server: 92.118.112.132
-  skip-cert-verify: false
-  sni: us3.h.fastlanehosting.ru
-  type: hysteria2
-  udp: true
-  up: ''
-- name: 🇺🇸 057  | ⬇️ 18KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 178  | ⬇️ 6MB/s
+- name: 🇺🇸 068  | ⬇️ 29KB/s
   password: ''
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- cipher: aes-256-cfb
-  name: 🇺🇸 180  | ⬇️ 227KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇺🇸 144  | ⬇️ 38KB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸 187  | ⬇️ 19KB/s
-  port: 3210
-  server: 192.198.84.3
-  type: http
-- name: 🇺🇸 188  | ⬇️ 1KB/s
-  port: 3210
-  server: 192.198.84.6
-  type: http
-- name: 🇺🇸 276  | ⬇️ 141KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- cipher: aes-256-cfb
-  name: 🇺🇸 024  | ⬇️ 91KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇺🇸 055  | ⬇️ 6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 058  | ⬇️ 339KB/s
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
 - name: 🇺🇸 070  | ⬇️ 958KB/s
   password: 'null'
   port: 9002
@@ -327,33 +401,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸 071  | ⬇️ 6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
+- name: 🇺🇸 073  | ⬇️ 16KB/s
+  port: 5999
+  server: 24.52.147.103
   type: http
-  username: 'null'
 - name: 🇺🇸 075  | ⬇️ 6MB/s
   password: None
   port: 9002
   server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 077  | ⬇️ 334KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸 078  | ⬇️ 14KB/s
-  port: 9002
-  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
@@ -363,11 +418,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 086  | ⬇️ 4MB/s
-  password: None
-  port: 5252
-  server: 148.100.84.192
-  type: http
 - name: 🇺🇸 087  | ⬇️ 716KB/s
   password: 'null'
   port: 9002
@@ -376,18 +426,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸 091  | ⬇️ 18KB/s
-  port: 5252
-  server: 148.100.84.192
-  type: http
-- name: 🇺🇸 094  | ⬇️ 175KB/s
-  password: 'null'
+- name: 🇺🇸 100  | ⬇️ 108KB/s
   port: 443
-  server: fan.596189.xyz
-  sni: fan.596189.xyz
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  udp: true
 - name: 🇺🇸 102  | ⬇️ 17KB/s
   password: None
   port: 16062
@@ -397,9 +442,10 @@ proxies:
   port: 16062
   server: 104.218.199.152
   type: http
-- name: 🇺🇸 117  | ⬇️ 87KB/s
-  port: 443
-  server: 52.55.81.168
+- name: 🇺🇸 106  | ⬇️ 24KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
@@ -411,6 +457,13 @@ proxies:
   port: 8282
   server: 208.95.22.65
   type: http
+- name: 🇺🇸 124  | ⬇️ 206KB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 🇺🇸 125  | ⬇️ 94KB/s
   password: https://xship.best
   port: 443
@@ -419,6 +472,13 @@ proxies:
   sni: xship.top
   type: hysteria2
   udp: true
+- name: 🇺🇸 127  | ⬇️ 160KB/s
+  port: 443
+  server: 216.107.139.82
+  skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  tls: true
+  type: http
 - name: 🇺🇸 136  | ⬇️ 204KB/s
   password: e4b72b531a2d10900519
   port: 443
@@ -432,14 +492,15 @@ proxies:
   server: 193.25.215.182
   type: socks5
   udp: true
-- name: 🇺🇸 177  | ⬇️ 125KB/s
+- name: 🇺🇸 144  | ⬇️ 38KB/s
+  password: ''
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸 200  | ⬇️ 6MB/s
+  username: ''
+- name: 🇺🇸US_6|2.5MB/s
   password: ''
   port: 9002
   server: 138.199.35.203
@@ -501,9 +562,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸 251  | ⬇️ 6MB/s
+- name: 🇺🇸 250  | ⬇️ 6MB/s
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 253  | ⬇️ 6MB/s
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
@@ -517,13 +585,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸 258  | ⬇️ 4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇺🇸 261  | ⬇️ 303KB/s
   password: https://xship.top
   port: 443
@@ -567,6 +628,13 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 🇺🇸 276  | ⬇️ 141KB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
 - name: 🇺🇸 277  | ⬇️ 21KB/s
   password: e4b72b531a2d10900519
   port: 443
@@ -575,18 +643,43 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.0MB/s
-  network: tcp
-  port: '12329'
-  reality-opts:
-    public-key: dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo
-    short-id: '!!str '
-  server: 38.150.33.232
-  servername: www.amazon.com
+- name: 🇺🇸 278  | ⬇️ 67KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- name: 🇺🇸US_2|1.2MB/s
+  password: None
+  port: 443
+  server: zebpay.site
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_4|1.1MB/s
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.0MB/s
+  password: None
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: 🇺🇸US_8|4.8MB/s
+  network: tcp
+  password: 2EXii6JlhaDvgSiTsC
+  port: '8444'
+  server: ggboy.ggboyz.online
+  skip-cert-verify: true
+  sni: ggboy.ggboyz.online
+  type: trojan
   udp: true
-  uuid: 6faa980b-4a0f-4b4d-99f2-03b468da8541
-  xudp: true

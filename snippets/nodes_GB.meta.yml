@@ -1,49 +1,19 @@
 proxies:
-- name: 🇬🇧 034  | ⬇️ 1MB/s
-  port: 443
-  server: 212.102.63.31
+- name: 🇬🇧 085  | ⬇️ 1MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧 037  | ⬇️ 5MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  sub_tag: R002-260618
+- name: 🇬🇧 167  | ⬇️ 94KB/s
+  password: freeuser1
+  port: 9251
+  server: ma1-gb.freeconnect.link
+  sni: ma1-gb.freeconnect.link
   tls: true
   type: http
-  udp: true
-- name: 🇬🇧 041  | ⬇️ 1MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧 076  | ⬇️ 17KB/s
-  port: 3118
-  server: 154.61.56.215
-  type: http
-- name: 🇬🇧 084  | ⬇️ 2MB/s
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.235
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  type: hysteria2
-- name: 🇬🇧 214  | ⬇️ 428KB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-- name: 🇬🇧 183  | ⬇️ 4MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧 184  | ⬇️ 3MB/s
+  username: freeuser1
+- name: 🇬🇧 136  | ⬇️ 4MB/s
   port: 32766
   server: 178.62.83.124
   type: http
@@ -104,19 +74,53 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 🇬🇧 167  | ⬇️ 94KB/s
-  password: freeuser1
-  port: 9251
-  server: ma1-gb.freeconnect.link
-  sni: ma1-gb.freeconnect.link
-  tls: true
+- name: 🇬🇧 214  | ⬇️ 428KB/s
+  password: None
+  port: 3118
+  server: 154.61.56.215
   type: http
-  username: freeuser1
-- name: 🇬🇧GB_1|1.6MB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|1.3MB/s
+  password: amazonskr05
   port: 443
-  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  server: 13.40.17.62
+  type: ss
+  udp: true
+- name: 🇬🇧GB_2|3.6MB/s
+  port: 443
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇬🇧GB_3|2.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|1.3MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|1.2MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_6|1.4MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

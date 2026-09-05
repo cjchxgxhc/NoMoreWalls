@@ -1,8 +1,18 @@
 proxies:
-- name: 🇷🇺 054  | ⬇️ 29KB/s
-  port: 4080
-  server: 185.21.156.73
-  type: http
+- client-fingerprint: android
+  name: 🇷🇺 022  | ⬇️ 19KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4100
+  server: 201.24.51.241
+  servername: live.ok.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5181e3af-4a0c-47d7-8beb-7e4fa4786cdd
+  ws-opts:
+    path: /v1
 - name: 🇷🇺 121  | ⬇️ 351KB/s
   port: 5050
   server: 45.159.0.194

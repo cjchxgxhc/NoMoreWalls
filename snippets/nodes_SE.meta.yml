@@ -1,8 +1,16 @@
 proxies:
-- name: 🇸🇪 243  | ⬇️ 172KB/s
-  port: 81
-  server: 46.59.120.87
+- name: 🇸🇪 270  | ⬇️ 288KB/s
+  port: 39811
+  server: 176.111.37.5
   type: http
+- name: 🇸🇪 093  | ⬇️ 933KB/s
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
 - name: 🇸🇪 084  | ⬇️ 1MB/s
   port: 443
   server: 146.70.242.146
@@ -19,7 +27,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪 270  | ⬇️ 288KB/s
-  port: 39811
-  server: 176.111.37.5
+- name: 🇸🇪 243  | ⬇️ 172KB/s
+  port: 81
+  server: 46.59.120.87
   type: http
