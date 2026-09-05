@@ -1,13 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇯🇵 015  | ⬇️ 1MB/s
+  name: '🇯🇵 003  | ⬇️ 605KB/s #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
-  skip-cert-verify: false
   type: ss
-  udp: false
-- name: 🇯🇵 005  | ⬇️ 1MB/s
+  udp: true
+- name: '🇯🇵 005  | ⬇️ 1MB/s #1'
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
   server: as-jp39.y1static-content-distribution.shop
@@ -15,19 +14,19 @@ proxies:
   sni: as-jp39.y1static-content-distribution.shop
   type: anytls
   udp: true
-- name: 🇯🇵 020  | ⬇️ 1KB/s
+- name: '🇯🇵 020  | ⬇️ 1KB/s #1'
   port: 10808
   server: 101.36.104.239
   type: socks5
   udp: true
-- name: 🇯🇵 043  | ⬇️ 69KB/s
+- name: '🇯🇵 021  | ⬇️ 69KB/s #1'
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: false
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: 🇯🇵 028  | ⬇️ 116KB/s
+- name: '🇯🇵 108  | ⬇️ 73KB/s #1'
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -35,7 +34,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇯🇵 128  | ⬇️ 1MB/s
+- name: '🇯🇵 128  | ⬇️ 1MB/s #1'
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 12791
   server: jpglobal-identity-federation-auth.younai-ytl.shop
@@ -46,7 +45,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇯🇵 162  | ⬇️ 7MB/s
+  name: '🇯🇵 162  | ⬇️ 7MB/s #1'
   password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
   port: 443
   server: de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com
@@ -61,7 +60,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 163  | ⬇️ 5MB/s
+  name: '🇯🇵 163  | ⬇️ 5MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 19364
@@ -75,101 +74,4 @@ proxies:
   ws-opts:
     headers:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- cipher: chacha20-ietf
-  name: 🇯🇵 003  | ⬇️ 5MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: 8406
-  server: cn12.somethingstranges.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇯🇵 036  | ⬇️ 28KB/s
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 044  | ⬇️ 1KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵 206  | ⬇️ 13KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: '!!str 2c4d005b'
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵 210  | ⬇️ 26KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: '!!str 2c4d005b'
-  server: 82.38.46.66
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 🇯🇵 220  | ⬇️ 8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8080
-  server: 108.162.198.178
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 263  | ⬇️ 2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26545758-8050-4ca4-be26-54b38338983c
-  ws-opts:
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
     path: /@Marisa_kristi

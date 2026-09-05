@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: android
-  name: 🇷🇺 022  | ⬇️ 19KB/s
+  name: '🇷🇺 022  | ⬇️ 19KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 4100
@@ -13,25 +13,3 @@ proxies:
   uuid: 5181e3af-4a0c-47d7-8beb-7e4fa4786cdd
   ws-opts:
     path: /v1
-- name: 🇷🇺 121  | ⬇️ 351KB/s
-  port: 5050
-  server: 45.159.0.194
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇷🇺 266  | ⬇️ 96KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 14443
-  server: 176.109.85.71
-  servername: russia.webgate.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 968469ec-67c9-4fe6-bf72-dd20716add3b
-  ws-opts:
-    headers:
-      Host: russia.webgate.cc
-    path: /ru
