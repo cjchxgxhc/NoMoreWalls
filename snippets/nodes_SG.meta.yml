@@ -1,5 +1,27 @@
 proxies:
-- name: '🇸🇬 006  | ⬇️ 226KB/s #1'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 119  | ⬇️ 29KB/s
+  network: tcp
+  port: 53836
+  reality-opts:
+    public-key: zKRmiqB6phUSq8EO4PIujKNHeNZP3JVWLwCKX8iKgVA
+    short-id: '!!str 89dd6fba1e43'
+  server: 54.254.241.82
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
+- name: 🇸🇬 122  | ⬇️ 5KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇸🇬 006  | ⬇️ 226KB/s
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 47053
   server: yazhouany02.downapptwo.cc
@@ -7,7 +29,7 @@ proxies:
   sni: xjp202.pulsarcore.site
   type: anytls
   udp: true
-- name: '🇸🇬 010  | ⬇️ 243KB/s #1'
+- name: 🇸🇬 010  | ⬇️ 243KB/s
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 35311
   server: svip.skycon808.com
@@ -15,7 +37,7 @@ proxies:
   sni: xjp88.swiftrelay.cc
   type: anytls
   udp: true
-- name: '🇸🇬 152  | ⬇️ 7KB/s #1'
+- name: 🇸🇬 152  | ⬇️ 7KB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 104.248.148.240
@@ -23,18 +45,3 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- encryption: none
-  name: 🇸🇬SG_1|1.5MB/s
-  network: ws
-  port: '8880'
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: b01cadb4-428b-42d2-8c56-d6c13e582ede
-  ws-opts:
-    headers:
-      Host: lingering-water-9e69.219.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /pyip
-  xudp: true
