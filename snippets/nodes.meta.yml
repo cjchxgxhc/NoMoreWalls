@@ -86,7 +86,7 @@ proxies:
   tfo: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.3MB/s
+  name: 🇺🇸US_1|1010KB/s
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.233
@@ -219,7 +219,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 169  | ⬇️ 6MB/s
+- name: 🇺🇸US_2|2.8MB/s
   port: 443
   server: voteshirleysew.club
   sni: voteshirleysew.club
@@ -532,14 +532,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇳🇱NL_1|2.4MB/s
+- name: 🇳🇱 065  | ⬇️ 5MB/s
   password: None
   port: 443
   server: 5.255.118.82
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: 🇳🇱 066  | ⬇️ 28KB/s
   password: None
   port: 9002
@@ -1132,7 +1131,7 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
-- name: 🇺🇸 148  | ⬇️ 6MB/s
+- name: 🇺🇸US_4|2.5MB/s
   password: None
   port: 443
   server: efr-marktplatz.club
@@ -1140,6 +1139,7 @@ proxies:
   sni: efr-marktplatz.club
   tls: true
   type: http
+  username: null
 - name: 🇺🇸 001  | ⬇️ 21KB/s
   network: ws
   packet-encoding: xudp
@@ -1171,7 +1171,7 @@ proxies:
       Host: 7-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
     path: /8qMLgNapWf6SBxo8fhQlVPYO
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_1|2.5MB/s
+  name: 🇯🇵 003  | ⬇️ 605KB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
@@ -1229,13 +1229,13 @@ proxies:
   type: anytls
   udp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.4MB/s
+  name: 🇺🇸 011  | ⬇️ 34KB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.232
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - name: 🇭🇰 013  | ⬇️ 131KB/s
   password: 'null'
   port: 443
@@ -2013,96 +2013,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇧🇪BE_1|2.5MB/s
-  port: 443
-  server: 146.70.176.242
+- name: 🇸🇩SD_1|3.6MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp2.1card.cc
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_2|1.6MB/s
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS_1|1.6MB/s
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇹AT_1|1.5MB/s
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1009KB/s
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_2|3.9MB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇸ES_1|1.6MB/s
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|2.5MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇿CZ_3|1.6MB/s
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  username: ''
-- name: 🇺🇸US_3|2.8MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.6MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: 🇺🇸US_5|4.2MB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.4MB/s
-  password: None
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.4MB/s
+- name: 🇺🇸US_3|1.0MB/s
   password: None
   port: 443
   server: carolinafreigh.fun
@@ -2110,95 +2029,24 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_8|2.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|4.2MB/s
-  password: ''
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇪🇸ES_2|3.2MB/s
-  port: 443
-  server: 82.102.17.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_3|2.0MB/s
+- name: 🇺🇸US_5|2.3MB/s
   password: None
   port: 443
-  server: 146.70.176.242
+  server: kimberlymilano.icu
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇰DK_1|1.0MB/s
+  password: None
+  port: 9443
+  server: 185.245.84.50
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇦🇹AT_2|1.9MB/s
-  password: None
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|3.0MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_1|1.2MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇷GR_1|2.2MB/s
-  password: ''
-  port: 443
-  server: 149.22.85.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇬🇧GB_2|1.6MB/s
-  password: None
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_11|1011KB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SqArIWpSt5VG9HVrtcZQn1r0Tc_eRvYzca2OFDBkF24
-    short-id: '1fdea407109a1750'
-  server: 152.232.57.99
-  servername: salam.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90546412-d9c5-4442-831b-e9b7ca3643de
-  xudp: true
 - fingerprint: ''
-  name: 🇭🇰HK_1|5.2MB/s
+  name: 🇭🇰HK_1|3.2MB/s
   password: dCwrni
   port: '7008'
   server: api.meituan88.com
@@ -2207,11 +2055,3 @@ proxies:
   type: anytls
   udp: true
   username: dCwrni
-- name: 🇹🇼TW_1|1003KB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
