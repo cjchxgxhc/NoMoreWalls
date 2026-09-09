@@ -14,13 +14,13 @@ proxies:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
     path: /
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.1MB/s
+  name: 🇺🇸 009  | ⬇️ 1MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - name: 🇺🇸 010  | ⬇️ 1MB/s
   obfs: salamander
   obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
@@ -75,7 +75,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_3|1.1MB/s
+- name: 🇺🇸 024  | ⬇️ 5MB/s
   port: 443
   server: voteshirleysew.club
   sni: voteshirleysew.club
@@ -583,7 +583,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|2.5MB/s
+- name: 🇺🇸 148  | ⬇️ 6MB/s
   password: None
   port: 443
   server: efr-marktplatz.club
@@ -591,4 +591,46 @@ proxies:
   sni: efr-marktplatz.club
   tls: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: '!!str 55ab5559e3a6d10a'
+  server: 5.34.178.120
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|3.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
+    short-id: '!!str 9c904d85ab262d50'
+  server: 38.244.20.152
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+- name: 🇺🇸US_3|3.1MB/s
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
+- name: 🇺🇸US_4|1.9MB/s
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
+  tls: true
+  type: http
+  username: 'null'
