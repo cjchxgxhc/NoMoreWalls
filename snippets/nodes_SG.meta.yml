@@ -1,7 +1,23 @@
 proxies:
+- name: 🇸🇬 111  | ⬇️ 12KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 104.248.148.240
+  sni: us.acskey.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇸🇬 122  | ⬇️ 5KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇸🇬 119  | ⬇️ 29KB/s #1'
+  name: 🇸🇬 119  | ⬇️ 29KB/s
   network: tcp
   port: 53836
   reality-opts:
@@ -13,26 +29,3 @@ proxies:
   type: vless
   udp: true
   uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
-- name: '🇸🇬 122  | ⬇️ 5KB/s #1'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.1MB/s
-  network: ws
-  port: 2096
-  server: 8.39.125.245
-  servername: mianfei-73q.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  ws-opts:
-    headers:
-      Host: mianfei-73q.pages.dev
-    path: /proxyip=154.3.33.43

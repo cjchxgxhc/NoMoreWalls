@@ -1,7 +1,88 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵 002  | ⬇️ 645KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.62
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- cipher: aes-256-cfb
+  name: 🇯🇵 005  | ⬇️ 1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇯🇵 059  | ⬇️ 1MB/s
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: false
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 🇯🇵 021  | ⬇️ 321KB/s
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 🇯🇵 123  | ⬇️ 1MB/s
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 129  | ⬇️ 306KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 7443
+  server: 116.204.164.17
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0baed386-770e-4e17-a6ca-24349e60903f
+  ws-opts:
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+    path: /@Marisa_kristi
+- name: 🇯🇵 145  | ⬇️ 34KB/s
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
 - client-fingerprint: firefox
   encryption: none
-  name: '🇯🇵 015  | ⬇️ 759KB/s #1'
+  name: 🇯🇵 015  | ⬇️ 759KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -16,24 +97,9 @@ proxies:
     headers:
       Host: vp10.pages.dev
     path: /
-- name: '🇯🇵 021  | ⬇️ 321KB/s #1'
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: '🇯🇵 059  | ⬇️ 1MB/s #1'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
-  sni: fan.571589.xyz
-  tls: true
-  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇯🇵 139  | ⬇️ 231KB/s #1'
+  name: 🇯🇵 139  | ⬇️ 231KB/s
   network: tcp
   packet-encoding: xudp
   port: 47571
@@ -47,14 +113,41 @@ proxies:
   type: vless
   udp: true
   uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
-- name: '🇯🇵 141  | ⬇️ 13KB/s #1'
+- name: 🇯🇵 141  | ⬇️ 13KB/s
   port: 10808
   server: 101.36.104.239
   type: socks5
   udp: true
-- name: '🇯🇵 145  | ⬇️ 34KB/s #1'
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_1|3.0MB/s
+  network: ws
+  port: '16617'
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 82e6295c-9db7-4601-ab15-054a5e6129f4
+  ws-opts:
+    headers:
+      Host: 0e3b7b2b2adaf5b7929ddd31a8489521.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|5.1MB/s
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: '443'
+  server: jp3.998998.best
+  skip-cert-verify: false
+  sni: nat11.outsidemyheart.space
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /w4e5yh0p945y3?ed=2560

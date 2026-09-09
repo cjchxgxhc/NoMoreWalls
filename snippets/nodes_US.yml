@@ -1,9 +1,22 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '🇺🇸 009  | ⬇️ 1MB/s #1'
+  name: 🇺🇸US_1|1.1MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 120  | ⬇️ 8KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
