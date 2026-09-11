@@ -1,12 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.1MB/s
+  name: 🇰🇷 004  | ⬇️ 250KB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.138
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - name: 🇰🇷 007  | ⬇️ 708KB/s
   password: Og%3D%3D
   port: 1090
@@ -39,3 +39,9 @@ proxies:
     headers:
       Host: ai-verps.pages.dev
     path: /
+- name: 🇰🇷KR_1|1.3MB/s
+  port: 443
+  server: fan.572609.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
