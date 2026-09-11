@@ -1,27 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵 002  | ⬇️ 645KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.62
-  servername: localhost
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - cipher: aes-256-cfb
-  name: 🇯🇵 005  | ⬇️ 1MB/s
+  name: 🇯🇵 001  | ⬇️ 260KB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
-  skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - name: 🇯🇵 059  | ⬇️ 1MB/s
   port: 443
   server: fan.571589.xyz
@@ -38,48 +22,31 @@ proxies:
   type: http
   username: 'null'
 - client-fingerprint: chrome
-  name: 🇯🇵 123  | ⬇️ 1MB/s
-  network: ws
+  name: 🇯🇵 054  | ⬇️ 39KB/s
+  network: tcp
   port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tfo: true
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: freshjuniper.download
+  servername: freshjuniper.download
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 129  | ⬇️ 306KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 7443
-  server: 116.204.164.17
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
+  name: 🇯🇵 089  | ⬇️ 5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 130.12.102.26
+  servername: localhost
   tls: true
   type: vless
   udp: true
-  uuid: 0baed386-770e-4e17-a6ca-24349e60903f
-  ws-opts:
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-    path: /@Marisa_kristi
-- name: 🇯🇵 145  | ⬇️ 34KB/s
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: firefox
   encryption: none
   name: 🇯🇵 015  | ⬇️ 759KB/s
@@ -118,11 +85,9 @@ proxies:
   server: 101.36.104.239
   type: socks5
   udp: true
-- name: 🇯🇵JP_1|1.9MB/s
-  password: ''
-  port: '8094'
-  server: 110.80.25.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- name: 🇯🇵 145  | ⬇️ 34KB/s
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'

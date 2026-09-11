@@ -1,20 +1,20 @@
 proxies:
-- name: 🇸🇬 111  | ⬇️ 12KB/s
-  password: e4b72b531a2d10900519
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬 123  | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 104.248.148.240
-  sni: us.acskey.co
+  server: free-server.techsonic.dev
+  servername: aka.ms
+  skip-cert-verify: true
   tls: true
-  type: http
-  username: testuser1
-- name: 🇸🇬 122  | ⬇️ 5KB/s
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
+  type: vless
+  udp: true
+  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇬 119  | ⬇️ 29KB/s
@@ -29,3 +29,11 @@ proxies:
   type: vless
   udp: true
   uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
+- name: 🇸🇬 122  | ⬇️ 5KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
