@@ -1,19 +1,19 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇯🇵 001  | ⬇️ 260KB/s
+  name: '🇯🇵 001  | ⬇️ 260KB/s #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
   type: ss
   udp: true
-- name: 🇯🇵 059  | ⬇️ 1MB/s
+- name: '🇯🇵 011  | ⬇️ 90KB/s #1'
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: false
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: 🇯🇵 021  | ⬇️ 321KB/s
+- name: '🇯🇵 025  | ⬇️ 207KB/s #1'
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -22,7 +22,7 @@ proxies:
   type: http
   username: 'null'
 - client-fingerprint: chrome
-  name: 🇯🇵 054  | ⬇️ 39KB/s
+  name: '🇯🇵 054  | ⬇️ 39KB/s #1'
   network: tcp
   port: 443
   reality-opts:
@@ -35,7 +35,7 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 🇯🇵 089  | ⬇️ 5MB/s
+  name: '🇯🇵 089  | ⬇️ 5MB/s #1'
   network: tcp
   port: 443
   reality-opts:
@@ -47,47 +47,65 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇯🇵 015  | ⬇️ 759KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 134.122.164.41
-  servername: vp10.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 139  | ⬇️ 231KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 47571
-  reality-opts:
-    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
-    short-id: '!!str 4c8b46e500b0f3ad'
-  server: 35.78.59.6
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
-- name: 🇯🇵 141  | ⬇️ 13KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-  udp: true
-- name: 🇯🇵 145  | ⬇️ 34KB/s
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_1|5.6MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: jp03.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_2|5.0MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: jp06.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_3|5.8MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: 27add0b5.459921.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_4|4.9MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: 5791271f.459921.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_5|4.7MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: hyfnjp03.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  name: 🇯🇵JP_6|5.2MB/s
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  port: 8443
+  server: 898ca7c3.459292.xyz
+  skip-cert-verify: true
+  sni: localhost
+  type: hysteria2
+- name: 🇯🇵JP_7|5.3MB/s
   password: '!!str 123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
+- name: 🇯🇵JP_8|2.0MB/s
+  password: ''
+  port: 8094
+  server: 110.80.25.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

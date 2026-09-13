@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰 005  | ⬇️ 10MB/s
+  name: '🇭🇰 005  | ⬇️ 10MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 13779
@@ -16,10 +16,8 @@ proxies:
   udp: true
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇭🇰 004  | ⬇️ 84KB/s
+  name: '🇭🇰 007  | ⬇️ 20KB/s #1'
   network: tcp
-  packet-encoding: xudp
   port: 13779
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
@@ -34,7 +32,7 @@ proxies:
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 032  | ⬇️ 3KB/s
+  name: '🇭🇰 032  | ⬇️ 3KB/s #1'
   network: ws
   port: 443
   server: wwafj5lhl6bi8au9.v.3dns.vip
@@ -50,7 +48,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 047 '
+  name: '🇭🇰 047  #1'
   network: ws
   port: 443
   server: 47.76.197.72
@@ -64,7 +62,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 093  | ⬇️ 13KB/s
+  name: '🇭🇰 093  | ⬇️ 13KB/s #1'
   network: ws
   port: 443
   server: wwafj5lhl6bi8au9.v.3dns.vip
@@ -80,7 +78,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 096  | ⬇️ 8MB/s
+  name: '🇭🇰 096  | ⬇️ 8MB/s #1'
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -96,7 +94,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 100  | ⬇️ 4KB/s
+  name: '🇭🇰 100  | ⬇️ 4KB/s #1'
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -112,7 +110,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 101  | ⬇️ 3KB/s
+  name: '🇭🇰 101  | ⬇️ 3KB/s #1'
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -126,7 +124,7 @@ proxies:
     headers:
       Host: 93ucrn4i0pffuabk.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰 102  | ⬇️ 402KB/s
+- name: '🇭🇰 102  | ⬇️ 402KB/s #1'
   password: aa
   port: 89
   server: 160.124.240.188
@@ -134,7 +132,7 @@ proxies:
   username: aa
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 105  | ⬇️ 10MB/s
+  name: '🇭🇰 105  | ⬇️ 10MB/s #1'
   network: ws
   port: 443
   server: 47.243.92.155
@@ -146,93 +144,23 @@ proxies:
     headers:
       Host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 005  | ⬇️ 9MB/s
-  network: ws
-  port: 443
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  servername: ce0gedpxwou6cqon.v.3dns.vip
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_1|3.8MB/s
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
-    path: /ws-vmess
-- name: 🇭🇰 006  | ⬇️ 7KB/s
-  password: admin
+  type: vless
+  udp: true
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+- name: 🇭🇰HK_2|1.3MB/s
   port: 1080
-  server: 47.239.116.165
+  server: 47.76.175.249
   type: socks5
-  username: admin
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 050  | ⬇️ 9MB/s
-  network: ws
-  port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 094  | ⬇️ 8MB/s
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 097  | ⬇️ 9MB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 130 '
-  network: ws
-  port: 443
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: m01c7b2z26dtqgee.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 147  | ⬇️ 2KB/s
-  network: ws
-  port: 443
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  servername: u2frxj0g13vdi0wo.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
