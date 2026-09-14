@@ -1,155 +1,119 @@
 proxies:
-- name: '🇩🇪 031  | ⬇️ 130KB/s #1'
-  port: 443
-  server: 185.44.107.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇩🇪 058  | ⬇️ 47KB/s #1'
-  password: None
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: '🇩🇪 077  | ⬇️ 2MB/s #1'
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '50'
-  name: 🇩🇪DE_1|1.7MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '10'
-- name: '🇩🇪 091  | ⬇️ 3MB/s #1'
-  password: None
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇩🇪 116  | ⬇️ 139KB/s #1'
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.1MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.5MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|3.2MB/s
+- name: 🇩🇪DE_2|3.5MB/s
   port: 443
   server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪 116  | ⬇️ 139KB/s
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: false
+  sni: fan.973511.xyz
+  tls: true
+  type: http
+- name: 🇩🇪 031  | ⬇️ 130KB/s
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪 058  | ⬇️ 47KB/s
+  password: None
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: false
+  sni: fan.973511.xyz
+  tls: true
+  type: http
+- name: 🇩🇪 077  | ⬇️ 2MB/s
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪 091  | ⬇️ 3MB/s
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|1.9MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|3.2MB/s
-  network: xhttp
-  port: '2083'
-  server: 104.18.29.234
-  servername: uycneynsieuocxniseunciusecmsepiockjuyh.novexgroup.ir
-  tls: true
+  name: 🇩🇪DE_5|3.0MB/s
+  network: ws
+  password: 51oeqnj11lq5mljn
+  port: '2087'
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- encryption: none
+  name: 🇩🇪DE_6|3.0MB/s
+  network: ws
+  port: '2052'
+  server: hikvision-plus.com
   type: vless
   udp: true
-  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
-  xhttp-opts:
-    host: uycneynsieuocxniseunciusecmsepiockjuyh.novexgroup.ir
-    mode: auto
-    path: /assets/060d5a0237a377e5d62eae3a/5e7b25de6c161f941b99f303/sync
-    x-padding-bytes: 100-1000
+  uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
-- client-fingerprint: firefox
+- encryption: none
+  name: 🇩🇪DE_7|2.9MB/s
+  network: ws
+  port: '2052'
+  server: hikvision-plus.com
+  type: vless
+  udp: true
+  uuid: f9b05993-49d6-4ef4-b371-e0f7718e4a4b
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
+  xudp: true
+- client-fingerprint: qq
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|4.3MB/s
-  network: tcp
-  port: '443'
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇩🇪DE_8|1.7MB/s
+  network: grpc
+  port: '2096'
   reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '!!str 8ffa160e608bf539'
-  server: 193.58.121.189
-  servername: de.pinkmoon.pro
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 91.240.85.248
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|2.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '!!str 8ffa160e608bf539'
-  server: 212.80.7.141
-  servername: de.pinkmoon.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|3.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '!!str 8ffa160e608bf539'
-  server: 94.156.179.46
-  servername: de.pinkmoon.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_10|3.1MB/s
-  network: xhttp
-  port: '443'
-  server: 2.27.59.255
-  servername: et-ger.letsgodance.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  xhttp-opts:
-    host: et-ger.letsgodance.site
-    path: /xh
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
   xudp: true

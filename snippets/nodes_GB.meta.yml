@@ -1,49 +1,44 @@
 proxies:
-- name: '🇬🇧 048  | ⬇️ 52KB/s #1'
+- name: 🇬🇧 048  | ⬇️ 52KB/s
   port: 3118
   server: 154.61.56.215
   type: http
-- name: '🇬🇧 076  | ⬇️ 2MB/s #1'
+- name: 🇬🇧 076  | ⬇️ 2MB/s
   port: 1080
   server: 83.147.216.208
   type: socks5
-- name: '🇬🇧 097  | ⬇️ 4MB/s #1'
+- name: 🇬🇧 097  | ⬇️ 4MB/s
   port: 32766
   server: 178.62.83.124
   type: http
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: '443'
-  server: cze-02.node.lumixnet.com
-  skip-cert-verify: true
-  sni: cze-02.node.lumixnet.com
-  type: hysteria2
-  up: ''
-- name: 🇬🇧GB_2|1.7MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.4MB/s
+- cipher: rc4-md5
+  name: 🇬🇧GB_1|2.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 146.70.23.32
+  type: ss
+  udp: true
+- name: 🇬🇧GB_2|3.2MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|3.2MB/s
-  password: None
+- name: 🇬🇧GB_3|2.1MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_4|2.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
-- name: 🇬🇧GB_5|1.5MB/s
+- name: 🇬🇧GB_5|2.9MB/s
   password: ''
   port: 443
   server: 185.235.0.66
@@ -51,7 +46,15 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇬🇧GB_6|3.2MB/s
+- name: 🇬🇧GB_6|3.0MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_7|2.9MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -59,30 +62,25 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_7|1.3MB/s
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_8|3.0MB/s
+- name: 🇬🇧GB_8|2.9MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: edge
+- client-fingerprint: firefox
   encryption: none
-  name: 🇬🇧GB_9|3.5MB/s
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_9|3.2MB/s
   network: tcp
-  port: '8443'
+  port: '24443'
   reality-opts:
-    public-key: Vktj1xTermYXMcgW4MwH0mpCdOCE2JeZLvKWbXy0YkY
-    short-id: '!!str ffb43069c9bb'
-  server: 104.194.149.180
-  servername: www.sony.com
+    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
+    short-id: '!!str 8df4211d612176a5'
+  server: 2.26.101.19
+  servername: se.chick-team.ru
   tls: true
   type: vless
   udp: true
-  uuid: 156ff3c8-4578-4fcf-82be-ddc792d98928
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
   xudp: true

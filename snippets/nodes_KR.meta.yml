@@ -1,33 +1,20 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_1|4.8MB/s
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
+  encryption: none
+  name: 🇰🇷 135  | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.52.230
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_2|4.7MB/s
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
