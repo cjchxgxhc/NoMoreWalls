@@ -1,17 +1,17 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬 123  | ⬇️ 13KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: free-server.techsonic.dev
-  servername: aka.ms
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_1|3.5MB/s
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7

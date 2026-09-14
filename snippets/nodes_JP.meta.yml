@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵 025  | ⬇️ 207KB/s
+- name: '🇯🇵 062  | ⬇️ 213KB/s #1'
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -7,49 +7,31 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇯🇵 063  | ⬇️ 37KB/s
+- name: '🇯🇵 063  | ⬇️ 37KB/s #1'
   password: '!!str 123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- cipher: aes-256-cfb
-  name: 🇯🇵 001  | ⬇️ 260KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- name: 🇯🇵 011  | ⬇️ 90KB/s
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|2.0MB/s
   port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
-  sni: fan.571589.xyz
+  reality-opts:
+    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
+    short-id: '!!str 41dd2ebdd7e0a61a'
+  server: 103.76.85.156
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
+- name: 🇯🇵JP_2|2.3MB/s
+  password: ''
+  port: 8094
+  server: 110.80.25.76
+  skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 🇯🇵 054  | ⬇️ 39KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 🇯🇵 089  | ⬇️ 5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 130.12.102.26
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  username: ''
