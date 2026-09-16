@@ -1,35 +1,56 @@
 proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇯🇵 013  | ⬇️ 264KB/s
+  network: ws
+  port: 8443
+  server: 151.145.67.90
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /city/playlist/out.php
+- name: 🇯🇵 033  | ⬇️ 11MB/s
+  network: ws
+  port: 2082
+  server: 108.162.198.178
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /
+- name: 🇯🇵 132  | ⬇️ 2KB/s
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+  udp: true
 - alterId: 2
   cipher: auto
-  country: 🇭🇰 HK
-  delay: 1998
+  country: 🇨🇳CN
+  h2-opts: {}
   http-opts: {}
-  name: 🇯🇵 007  | ⬇️ 1KB/s
+  name: '🇯🇵 096 '
   network: tcp
   port: 30806
   server: v6.hdacd.com
+  servername: v6.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- country: 🇯🇵JP
-  name: 🇯🇵 009  | ⬇️ 3MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20061
-  server: mszz.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- country: 🇮🇪IE
-  name: 🇯🇵 017  | ⬇️ 2MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: mszz.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
 - name: 🇯🇵 004  | ⬇️ 111KB/s
   password: 'null'
   port: 443
@@ -45,54 +66,19 @@ proxies:
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: 🇯🇵 132  | ⬇️ 2KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.1MB/s
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 202.144.192.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|5.7MB/s
-  network: tcp
+  name: 🇯🇵JP_1|2.0MB/s
+  network: raw
   port: '443'
   reality-opts:
-    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
-    short-id: '!!str 21fa8a1ebf'
-  server: jp2.miyazono-kaori.com
-  servername: www.capcom.co.jp
+    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
+    short-id: '!!str 01b4986b50245272'
+  server: 8.209.217.129
+  servername: www.logitech.com
   tls: true
   type: vless
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 🇯🇵JP_3|4.5MB/s
-  network: ws
-  port: '443'
-  server: ct.877774.xyz
-  servername: jp-osa.xhs152.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: jp-osa.xhs152.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /announcement?ed=2048
+  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
   xudp: true

@@ -1,13 +1,230 @@
 proxies:
-- country: 🇷🇺RU
-  name: 🇩🇪 016  | ⬇️ 4MB/s
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 004  | ⬇️ 18KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: free.sahanwickramasinghe.me
+  servername: zoom.us
   skip-cert-verify: true
-  sni: germany3.h2corp.local
-  type: hysteria2
+  tls: true
+  type: vless
   udp: true
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 047  | ⬇️ 39KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: free.sahanwickramasinghe.me
+  servername: zoom.us
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 007  | ⬇️ 3MB/s
+  network: ws
+  port: 2053
+  server: 31.59.121.156
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /go/library/channel
+- cipher: aes-256-cfb
+  name: 🇩🇪 008  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.75.89.244
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 010  | ⬇️ 28KB/s
+  network: ws
+  port: 2083
+  server: 64.225.110.247
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /acg/buy/ajax
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪 011  | ⬇️ 342KB/s
+  obfs: ''
+  obfs-password: ''
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 4433
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.28.158.0
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 023  | ⬇️ 4MB/s
+  network: ws
+  port: 443
+  server: 212.193.1.234
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /image
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇩🇪 027  | ⬇️ 197KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9881
+  reality-opts:
+    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+  server: 176.108.246.58
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 028  | ⬇️ 216KB/s
+  network: ws
+  port: 443
+  server: 147.90.26.37
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /web
+- cipher: aes-256-cfb
+  name: 🇩🇪 037  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.194.210.177
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 057  | ⬇️ 503KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.121
+  servername: jobinvest.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 063  | ⬇️ 474KB/s
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 212.16.92.111
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- name: 🇩🇪 067  | ⬇️ 68KB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: false
+  sni: de1.xiaoliyu.cyou
+  tfo: false
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 070  | ⬇️ 307KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.122
+  servername: jobinvest.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 🇩🇪 087  | ⬇️ 44KB/s
+  network: ws
+  password: sva5wot3avf7yobn
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uwu.dianaw.cc.cd
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - name: 🇩🇪 013  | ⬇️ 5MB/s
   port: 443
   server: 138.201.56.241
@@ -58,17 +275,11 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.2MB/s
-  network: tcp
+- name: 🇩🇪DE_2|1.4MB/s
+  password: None
   port: 443
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: '!!str 5a9ab320'
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
+  server: 149.36.50.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  type: http
+  username: null

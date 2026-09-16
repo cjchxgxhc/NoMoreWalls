@@ -1,41 +1,50 @@
 proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧 038  | ⬇️ 4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabb'
+  server: 176.123.162.100
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- flow: xtls-rprx-vision
+  name: 🇬🇧 073  | ⬇️ 3MB/s
+  network: tcp
+  port: 443
+  server: uk-dedic-new-1.failspace.top
+  servername: uk-dedic-new-1.failspace.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - name: 🇬🇧 075  | ⬇️ 1MB/s
+  password: ''
   port: 1080
   server: 83.147.216.208
   type: socks5
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇬🇧GB_1|4.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  username: ''
+- flow: xtls-rprx-vision
+  name: 🇬🇧 086  | ⬇️ 2MB/s
+  network: tcp
   port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-001.fastervpn.world
-  type: hysteria2
-- name: 🇬🇧GB_2|2.7MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
+  server: 50.7.227.251
+  servername: uk-dedic-new-1.failspace.top
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.9MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|1.5MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.2MB/s
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- name: 🇬🇧GB_1|1.1MB/s
   password: None
   port: 443
   server: 212.102.63.31
@@ -43,27 +52,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|1.0MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_7|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    short-id: '!!str 20'
-  server: uk2.miyazono-kaori.com
-  servername: www.bp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
-  xudp: true

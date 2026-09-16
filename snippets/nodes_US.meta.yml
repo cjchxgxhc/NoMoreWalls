@@ -1,56 +1,310 @@
 proxies:
-- country: 🇯🇵JP
-  name: 🇺🇸 145  | ⬇️ 913KB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20564
-  server: mszz.mangshe.xyz
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸 001  | ⬇️ 3MB/s
+  network: ws
+  port: 443
+  server: 104.18.33.160
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 2536
-  http-opts: {}
-  name: 🇺🇸 010  | ⬇️ 2KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2005
-  h2-opts: {}
-  http-opts: {}
-  name: '🇺🇸 014 '
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /documents/movies
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: 🇺🇸 019  | ⬇️ 1MB/s
+  name: 🇺🇸 012  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.141.200.225
+  type: ss
+  udp: true
+- name: 🇺🇸 015  | ⬇️ 7MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇺🇸 019  | ⬇️ 4MB/s
   password: amazonskr05
   port: 443
   server: 3.149.6.228
+  skip-cert-verify: false
   type: ss
+  udp: false
+- allowInsecure: '1'
+  name: 🇺🇸 034  | ⬇️ 5MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
+- name: 🇺🇸 036  | ⬇️ 3MB/s
+  password: 9452bb1ca5043e7f7b70430911afb034
+  port: 443
+  server: 108.59.244.158
+  skip-cert-verify: true
+  sni: 5post-gate.x5.ru
+  type: hysteria2
+- name: 🇺🇸 128  | ⬇️ 5MB/s
+  network: ws
+  port: 2086
+  server: 162.159.48.32
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 134  | ⬇️ 196KB/s
+  network: ws
+  port: 2086
+  server: 104.18.39.218
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 042  | ⬇️ 6MB/s
+  network: ws
+  port: 2095
+  server: 104.18.39.218
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 148  | ⬇️ 5MB/s
+  network: ws
+  port: 2086
+  server: 104.18.47.113
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 045  | ⬇️ 3MB/s
+  network: ws
+  port: 2086
+  server: 104.18.46.46
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 046  | ⬇️ 5MB/s
+  network: ws
+  port: 2095
+  server: 104.18.34.14
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 048  | ⬇️ 4MB/s
+  network: ws
+  port: 2052
+  server: 104.18.34.14
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 020  | ⬇️ 1MB/s
+  name: 🇺🇸 052  | ⬇️ 3MB/s
   password: amazonskr05
   port: 443
-  server: 3.144.113.215
+  server: 3.148.252.26
+  skip-cert-verify: false
   type: ss
+  udp: false
+- name: 🇺🇸 008  | ⬇️ 2MB/s
+  network: ws
+  port: 2086
+  server: 172.64.229.170
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 060  | ⬇️ 7MB/s
+  network: ws
+  port: 8080
+  server: 104.18.34.14
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 001  | ⬇️ 3MB/s
+  name: 🇺🇸 075  | ⬇️ 11KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 4930
+  reality-opts:
+    public-key: 01qveLfH4r1DwOi4vfiW7hscWxJQys0s7b5uAegsF0M
+    short-id: '!!str 791f21508a32f6bd'
+  server: scz.clofidexa.ir
+  servername: app.stiga.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89418511-64f9-4e74-ac6b-ffc1b828106f
+- name: 🇺🇸 078  | ⬇️ 6MB/s
+  network: ws
+  port: 2052
+  server: 172.64.229.170
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- cipher: aes-256-cfb
+  name: 🇺🇸 080  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.43.38
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 081  | ⬇️ 3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.226.104.155
+  type: ss
+  udp: true
+- name: 🇺🇸 116  | ⬇️ 4MB/s
+  network: ws
+  port: 8080
+  server: 162.159.39.218
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 142  | ⬇️ 114KB/s
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- name: 🇺🇸 095  | ⬇️ 32KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- cipher: aes-256-gcm
+  name: 🇺🇸 097  | ⬇️ 62KB/s
+  password: Proxy2024
+  port: 54321
+  server: 23.252.104.131
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇺🇸US_4|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: '2095'
+  server: www.csgo.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: pornbitches.asshole.us.ci
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸 101  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.16.81.205
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸 001  | ⬇️ 3MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -66,20 +320,6 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- name: 🇺🇸 008  | ⬇️ 2MB/s
-  network: ws
-  port: 2086
-  server: 172.64.229.170
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - name: 🇺🇸 015  | ⬇️ 6MB/s
   password: ''
   port: 9002
@@ -182,7 +422,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 042  | ⬇️ 6MB/s
+- name: '🇺🇸 042  | ⬇️ 6MB/s #1'
   password: None
   port: 443
   server: purecambogiasl.live
@@ -243,7 +483,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 078  | ⬇️ 6MB/s
+- name: '🇺🇸 078  | ⬇️ 6MB/s #1'
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
@@ -366,20 +606,6 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 🇺🇸 116  | ⬇️ 4MB/s
-  network: ws
-  port: 8080
-  server: 162.159.39.218
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - name: 🇺🇸 119  | ⬇️ 41KB/s
   password: https://xship.best
   port: 443
@@ -396,35 +622,6 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: 🇺🇸 128  | ⬇️ 5MB/s
-  network: ws
-  port: 2086
-  server: 162.159.48.32
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇺🇸 134  | ⬇️ 196KB/s
-  network: ws
-  port: 2086
-  server: 104.18.39.218
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - delay: 1600
   name: 🇺🇸 139  | ⬇️ 6MB/s
   password: None
@@ -444,14 +641,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸 142  | ⬇️ 114KB/s
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  tfo: false
-  type: hysteria2
 - name: 🇺🇸 143  | ⬇️ 6MB/s
   network: ws
   port: 2086
@@ -466,34 +655,32 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: 🇺🇸 148  | ⬇️ 5MB/s
-  network: ws
-  port: 2086
-  server: 104.18.47.113
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇺🇸US_1|1.4MB/s
-  port: 9443
-  server: 38.95.111.226
+- name: 🇺🇸 145  | ⬇️ 913KB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20564
+  server: mszz.mangshe.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|3.3MB/s
-  port: 1092
-  server: 104.225.239.193
-  type: http
+  sni: www.microsoft.com
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇺🇸US_3|1.4MB/s
+  name: 🇺🇸US_1|2.1MB/s
   password: amazonskr05
   port: 443
-  server: 3.16.81.205
+  server: 18.191.174.144
   type: ss
+- auth: LX9bCatJWpG9ZLzFjLnBxAyl
+  name: 🇺🇸US_2|3.7MB/s
+  password: LX9bCatJWpG9ZLzFjLnBxAyl
+  port: 36712
+  server: 82.29.71.160
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
   udp: true
+- name: 🇺🇸US_3|1017KB/s
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  tls: true
+  type: http
+  username: 'null'
