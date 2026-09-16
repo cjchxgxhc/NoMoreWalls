@@ -1,5 +1,41 @@
 proxies:
-- name: 🇸🇬SG_1|3.0MB/s
+- name: 🇸🇬 043  | ⬇️ 294KB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20562
+  server: mszz.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- name: 🇸🇬 111  | ⬇️ 5KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬 129  | ⬇️ 4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.19.87.194
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: /
+- name: 🇸🇬SG_1|2.9MB/s
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -8,9 +44,3 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 🇸🇬SG_2|1.6MB/s
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
