@@ -1,12 +1,24 @@
 proxies:
-- name: '🇸🇬 043  | ⬇️ 294KB/s #1'
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬 012  | ⬇️ 56KB/s
+  network: tcp
+  port: 38320
+  server: 124.151.45.60
+  skip-cert-verify: true
+  type: vmess
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+- name: 🇸🇬 043  | ⬇️ 294KB/s
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 20562
   server: mszz.mangshe.xyz
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
-- name: '🇸🇬 111  | ⬇️ 5KB/s #1'
+- name: 🇸🇬 111  | ⬇️ 5KB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
@@ -20,7 +32,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇸🇬 129  | ⬇️ 4MB/s #1'
+  name: 🇸🇬 129  | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -35,3 +47,17 @@ proxies:
     headers:
       Host: ld.223350.xyz
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|5.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: '!!str 1dd8558159ecd0'
+  server: sg4.miyazono-kaori.com
+  servername: www.changiairport.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
