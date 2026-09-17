@@ -1,24 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇯🇵 013  | ⬇️ 264KB/s
-  network: ws
-  port: 8443
-  server: 151.145.67.90
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /city/playlist/out.php
-- name: 🇯🇵 033  | ⬇️ 11MB/s
+- name: 🇯🇵 010  | ⬇️ 9MB/s
   network: ws
   port: 2082
   server: 108.162.198.178
@@ -38,19 +19,43 @@ proxies:
   server: 101.36.104.239
   type: socks5
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '🇯🇵 096 '
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  servername: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇯🇵 060  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 081  | ⬇️ 189KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 57554
+  server: 203.137.165.164
+  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 281be80c-6034-4db1-b456-5a5307c6edee
+  ws-opts:
+    headers:
+      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+    path: /@Marisa_kristi
 - name: 🇯🇵 004  | ⬇️ 111KB/s
   password: 'null'
   port: 443
@@ -66,19 +71,3 @@ proxies:
   sni: fan.571589.xyz
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.0MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
-    short-id: '!!str 01b4986b50245272'
-  server: 8.209.217.129
-  servername: www.logitech.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
-  xudp: true

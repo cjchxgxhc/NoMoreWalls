@@ -2,10 +2,10 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: 🇬🇧 038  | ⬇️ 4MB/s
+  name: 🇺🇸US_19|4.8MB/s
   network: grpc
   packet-encoding: xudp
-  port: 9880
+  port: '9880'
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
     short-id: '!!str aabb'
@@ -16,39 +16,66 @@ proxies:
   type: vless
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- flow: xtls-rprx-vision
-  name: 🇬🇧 073  | ⬇️ 3MB/s
-  network: tcp
-  port: 443
-  server: uk-dedic-new-1.failspace.top
-  servername: uk-dedic-new-1.failspace.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- name: 🇬🇧 075  | ⬇️ 1MB/s
+  xudp: true
+- name: 🇬🇷GR_2|1.8MB/s
   password: ''
   port: 1080
   server: 83.147.216.208
   type: socks5
-  username: ''
-- flow: xtls-rprx-vision
-  name: 🇬🇧 086  | ⬇️ 2MB/s
-  network: tcp
-  port: 443
-  server: 50.7.227.251
-  servername: uk-dedic-new-1.failspace.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- name: 🇬🇧GB_1|1.1MB/s
+  username: ''
+- name: 🇬🇧GB_1|2.4MB/s
   password: None
   port: 443
-  server: 212.102.63.31
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: 🇬🇧GB_2|3.3MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|3.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.5MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|1021KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw
+    short-id: '!!str '
+  server: 31.76.111.152
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+  xudp: true
+- name: 🇬🇧GB_6|3.0MB/s
+  password: ''
+  port: '443'
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
