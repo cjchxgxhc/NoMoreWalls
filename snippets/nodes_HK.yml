@@ -1,35 +1,68 @@
 proxies:
-- name: 🇭🇰 007  | ⬇️ 3MB/s
-  network: tcp
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 2052
-  server: 47.240.80.220
-  skip-cert-verify: true
-  sni: vpn.12169.top
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '🇭🇰 020  | ⬇️ 41KB/s #1'
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers: {}
+    path: /arki
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: 🇭🇰 009  | ⬇️ 4KB/s
+  name: '🇭🇰 024  | ⬇️ 11KB/s #1'
   network: ws
   port: 443
-  server: 47.76.197.72
-  servername: m01c7b2z26dtqgee.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: nycqg19zkwacpm1b.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: m01c7b2z26dtqgee.v.3dns.vip
+      Host: nycqg19zkwacpm1b.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 013 '
+  name: '🇭🇰 028  | ⬇️ 8KB/s #1'
   network: ws
   port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: '🇭🇰 071  | ⬇️ 34KB/s #1'
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: nycqg19zkwacpm1b.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 075  | ⬇️ 2KB/s #1'
+  network: ws
+  port: 443
+  server: 47.83.19.148
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -37,73 +70,11 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 015  | ⬇️ 8KB/s
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0pffuabk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 040  | ⬇️ 48KB/s
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 063  | ⬇️ 110KB/s
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers: {}
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 068  | ⬇️ 79KB/s
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers: {}
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 069 '
+  name: '🇭🇰 090  | ⬇️ 2KB/s #1'
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -116,121 +87,4 @@ proxies:
   ws-opts:
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 074  | ⬇️ 20KB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 079  | ⬇️ 42KB/s
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 044  | ⬇️ 64KB/s
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 105  | ⬇️ 20KB/s
-  network: ws
-  port: 443
-  server: 47.86.107.119
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: '🇭🇰 117 '
-  network: ws
-  port: 443
-  server: 47.83.19.148
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 121  | ⬇️ 4KB/s
-  network: ws
-  port: 443
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 🇭🇰 136  | ⬇️ 108KB/s
-  network: http
-  port: 800
-  server: 47.86.167.194
-  servername: sjskendn.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 146  | ⬇️ 1KB/s
-  network: ws
-  port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
     path: /ws-vmess

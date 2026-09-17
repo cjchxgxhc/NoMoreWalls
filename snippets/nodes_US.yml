@@ -1,31 +1,32 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇺🇸 003  | ⬇️ 6MB/s
+  country: 🇺🇸US
+  name: '🇺🇸 048  | ⬇️ 3MB/s #1'
   password: amazonskr05
   port: 443
-  server: 3.145.43.38
+  server: 3.141.200.225
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_20|4.2MB/s
+  name: '🇺🇸 056  | ⬇️ 1MB/s #1'
   password: amazonskr05
-  port: '443'
+  port: 443
+  server: 18.226.104.155
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: '🇺🇸 078  | ⬇️ 2MB/s #1'
+  password: amazonskr05
+  port: 443
   server: 3.148.252.26
-  skip-cert-verify: false
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸 031  | ⬇️ 6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.144.113.215
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸 065  | ⬇️ 264KB/s
-  password: amazonskr05
-  port: 443
-  server: 3.149.6.228
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸 080  | ⬇️ 186KB/s #1'
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

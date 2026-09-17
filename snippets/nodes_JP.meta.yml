@@ -1,26 +1,13 @@
 proxies:
-- name: 🇯🇵 010  | ⬇️ 9MB/s
-  network: ws
-  port: 2082
-  server: 108.162.198.178
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /
-- name: 🇯🇵 132  | ⬇️ 2KB/s
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-  udp: true
+- name: '🇯🇵 023  | ⬇️ 5MB/s #1'
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇯🇵 060  | ⬇️ 1KB/s
+  name: '🇯🇵 067  #1'
   network: ws
   port: 443
   server: 172.67.156.147
@@ -35,39 +22,32 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 081  | ⬇️ 189KB/s
+- name: '🇯🇵 082  | ⬇️ 4MB/s #1'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: mszz.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- name: '🇯🇵 086  | ⬇️ 10MB/s #1'
   network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
+  port: 2082
+  server: 108.162.198.178
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: false
-  tls: true
+  tfo: true
+  tls: false
   type: vless
   udp: true
-  uuid: 281be80c-6034-4db1-b456-5a5307c6edee
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-    path: /@Marisa_kristi
-- name: 🇯🇵 004  | ⬇️ 111KB/s
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇯🇵 007  | ⬇️ 26KB/s
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
-  sni: fan.571589.xyz
-  tls: true
-  type: http
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /
+- name: '🇯🇵 088  | ⬇️ 4MB/s #1'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20061
+  server: mszz.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2

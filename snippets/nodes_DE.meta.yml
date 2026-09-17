@@ -1,30 +1,76 @@
 proxies:
-- name: 🇩🇪 020  | ⬇️ 421KB/s
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 2052
-  server: fl2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: fl2.xiaoliyu.us
-  type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
   flow: xtls-rprx-vision
-  name: 🇩🇪 032  | ⬇️ 7MB/s
-  network: tcp
+  name: '🇩🇪 009  | ⬇️ 32KB/s #1'
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.122
-  servername: jobinvest.ru
+  server: 199.232.79.166
+  servername: cdn.fastly.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  uuid: 78b82738-ac86-4a6e-8a78-fdb3b52f500a
+  xhttp-opts:
+    host: telegram-uonvpn.global.ssl.fastly.net
+    mode: auto
+    path: /@UonVPN-**--@UonVPN-*-@UonVPN--*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
+    x-padding-bytes: 100-1000
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.9MB/s
+  name: '🇩🇪 013  | ⬇️ 584KB/s #1'
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: bPrWBtA93mdiJHxFvwR0JqCaJ-Kv1AGs6LP6elikcXQ
+    short-id: '!!str ff3fc136afdec400'
+  server: 31.76.111.192
+  servername: ge1.gleb.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+- name: '🇩🇪 029  | ⬇️ 33KB/s #1'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '🇩🇪 034  | ⬇️ 8MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 3.75.89.244
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '🇩🇪 035  | ⬇️ 2MB/s #1'
+  network: ws
+  port: 8443
+  server: 103.251.167.112
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /library/lang
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇩🇪 037  | ⬇️ 2MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -39,7 +85,7 @@ proxies:
   uuid: 32721515-985b-4773-9e70-5d2e1b88a060
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇦🇹AT_1|3.4MB/s
+  name: '🇩🇪 043  | ⬇️ 1MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -52,9 +98,25 @@ proxies:
   type: vless
   udp: true
   uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪 044  | ⬇️ 2MB/s #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.122
+  servername: jobinvest.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 043  | ⬇️ 127KB/s
+  name: '🇩🇪 062  | ⬇️ 20KB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -65,150 +127,88 @@ proxies:
   type: vless
   udp: true
   uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
-- name: 🇩🇪 058  | ⬇️ 540KB/s
-  network: tcp
-  password: Tg3RnK7Xp8B1
-  port: 443
-  server: 136.244.86.129
-  skip-cert-verify: true
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  type: trojan
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇺🇸US_1|2.1MB/s
-  network: grpc
+  name: '🇩🇪 063  | ⬇️ 16KB/s #1'
+  network: xhttp
   packet-encoding: xudp
-  port: '9881'
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-    short-id: '!!str '
-  server: 176.108.246.58
-  servername: dl.google.com
+  port: 443
+  server: ssjs1.refcapmap.pro
+  servername: ssjs1.refcapmap.pro
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪 075  | ⬇️ 7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.194.210.177
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇩🇪 013  | ⬇️ 5MB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪 059  | ⬇️ 32KB/s
-  password: None
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: 🇩🇪 068  | ⬇️ 3MB/s
-  password: None
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪 099  | ⬇️ 160KB/s
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 106  | ⬇️ 72KB/s
+  uuid: 6e58f644-bc22-4dae-824a-4c3a760dc7a1
+  xhttp-opts:
+    host: ssjs1.refcapmap.pro
+    mode: packet-up
+    path: /api/uploadFile/
+    reuse-settings:
+      c-max-reuse-times: '1000'
+      h-keep-alive-period: 20000
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 16-32
+      max-connections: '0'
+    seq-key: chunk_id
+    seq-placement: query
+    session-key: X-Upload-Token
+    session-placement: header
+    uplink-http-method: GET
+    x-padding-header: X-Client-Version
+    x-padding-key: hash
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- alterId: 2
+  cipher: auto
+  name: '🇩🇪 068  | ⬇️ 22KB/s #1'
   network: tcp
-  packet-encoding: ''
-  port: 6443
-  reality-opts:
-    public-key: HHz-2xJzux-wn53uLOnSpdjds9rnRZEI7sr6z5hYnis
-    short-id: '!!str 79245360'
-  server: 31.76.54.56
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  port: 30833
+  server: 219.79.206.137
+  type: vmess
   udp: true
-  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
-- name: 🇩🇪 130  | ⬇️ 3MB/s
-  port: 443
-  server: 141.17.83.73
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: '🇩🇪 072  | ⬇️ 884KB/s #1'
+  obfs: ''
+  obfs-password: ''
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 4433
+  server: de1.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ''
+  type: hysteria2
+  up: ''
+- name: '🇩🇪 085  | ⬇️ 444KB/s #1'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 2052
+  server: fl2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: fl2.xiaoliyu.us
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.7MB/s
-  network: tcp
-  port: '20443'
-  reality-opts:
-    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-    short-id: '!!str 08'
-  server: ee.cdn-update.rutube.info
-  servername: dest1.cdn-update.rutube.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.6MB/s
+  name: 🇩🇪DE_1|1.3MB/s
   network: xhttp
   port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
+  reality-opts:
+    public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
+    short-id: '!!str 669d7ae5e1611511'
+  server: nl4-1.axolab.org
+  servername: strm-rad-23.strm.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: 78b82738-ac86-4a6e-8a78-fdb3b52f500a
+  uuid: 2518e1f3-729d-475f-905d-35dae56dfc0b
   xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN-**--@UonVPN-*-@UonVPN--*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
+    mode: packet-up
+    path: /api/v1/data
     x-padding-bytes: 100-1000
   xudp: true
-- name: 🇩🇪DE_4|1.2MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_5|4.2MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|2.0MB/s
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.5MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
