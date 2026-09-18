@@ -1,27 +1,36 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇺🇸 005  | ⬇️ 132KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.139
+- cipher: aes-256-gcm
+  name: 🇷🇺 008  | ⬇️ 13KB/s
+  password: 4938e975724d0ed1
+  port: 10900
+  server: 194.87.196.13
+  skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇮🇹 019  | ⬇️ 4KB/s
+  password: 78235e7dc55e9ad1
+  port: 10900
+  server: 132.243.255.3
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 016  | ⬇️ 197KB/s
+  name: 🇭🇰 023  | ⬇️ 4KB/s
   network: ws
-  port: 36703
+  port: 44867
   server: 47.244.120.197
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: 47.244.120.197
     max-early-data: 2048
     path: /arki
-- name: 🇭🇰 017  | ⬇️ 248KB/s
+- name: 🇭🇰 025  | ⬇️ 63KB/s
   network: tcp
   password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   port: 2052
@@ -30,35 +39,53 @@ proxies:
   sni: vpn.12169.top
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 019  | ⬇️ 7KB/s
-  network: ws
-  port: 443
-  server: 8.218.184.4
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇫🇷 023  | ⬇️ 3MB/s
+  name: 🇫🇷 030  | ⬇️ 7MB/s
   password: amazonskr05
   port: 443
   server: 15.237.252.23
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 032  | ⬇️ 964KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 047  | ⬇️ 10KB/s
+  password: bdb313adf74c2ede
+  port: 10301
+  server: 46.17.40.234
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇺🇸 050  | ⬇️ 2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.135.191.150
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇭🇰 061  | ⬇️ 11KB/s
+  password: 72553320ae6bcc8f
+  port: 30222
+  server: 103.136.150.119
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 024 '
+  name: 🇭🇰 066  | ⬇️ 8KB/s
   network: ws
   port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -66,32 +93,106 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: 93ucrn4i0pffuabk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 068  | ⬇️ 22KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 079 '
+  network: ws
+  port: 443
+  server: 47.83.207.148
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 090  | ⬇️ 2KB/s
+  network: ws
+  port: 443
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: 93ucrn4i0PffUAbk.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '🇯🇵 085 '
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  servername: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 088  | ⬇️ 14KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 089  | ⬇️ 27KB/s
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
     path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇩🇪 025  | ⬇️ 1MB/s
+  name: 🇩🇪 090  | ⬇️ 8MB/s
   password: amazonskr05
   port: 443
   server: 18.194.210.177
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 051  | ⬇️ 17KB/s
-  network: ws
-  port: 443
-  server: 47.86.107.119
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -107,75 +208,12 @@ proxies:
     headers:
       Host: nycqg19zkwacpm1b.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  name: 🇫🇷 065  | ⬇️ 439KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.9
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /assignment
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪 069  | ⬇️ 1MB/s
-  network: ws
-  password: sva5wot3avf7yobn
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uwu.dianaw.cc.cd
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  name: 🇸🇬 054  | ⬇️ 2KB/s
-  network: tcp
-  port: 38320
-  server: 124.151.45.60
-  tls: false
-  type: vmess
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
-- cipher: aes-256-cfb
-  name: 🇺🇸 078  | ⬇️ 3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.135.191.150
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 080  | ⬇️ 17KB/s
+  name: 🇭🇰 102  | ⬇️ 58KB/s
   network: ws
   port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 028  | ⬇️ 8KB/s
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
+  server: 8.218.184.4
   servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
@@ -184,14 +222,6 @@ proxies:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-cfb
-  name: 🇩🇪 088  | ⬇️ 7MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.185.90.235
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -220,6 +250,20 @@ proxies:
     headers:
       Host: nycqg19zkwacpm1b.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 028  | ⬇️ 8KB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-cfb
   name: 🇩🇪 034  | ⬇️ 8MB/s
   password: amazonskr05
@@ -230,7 +274,7 @@ proxies:
   udp: false
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: 🇺🇸US_1|1.5MB/s
+  name: 🇺🇸 048  | ⬇️ 3MB/s
   password: amazonskr05
   port: 443
   server: 3.141.200.225
@@ -244,6 +288,16 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇸🇬 054  | ⬇️ 2KB/s
+  network: tcp
+  port: 38320
+  server: 124.151.45.60
+  tls: false
+  type: vmess
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
 - cipher: aes-256-cfb
   name: 🇺🇸 056  | ⬇️ 1MB/s
   password: amazonskr05
@@ -251,6 +305,21 @@ proxies:
   server: 18.226.104.155
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷 065  | ⬇️ 439KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.9
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 🇩🇪 068  | ⬇️ 22KB/s
@@ -302,26 +371,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 090  | ⬇️ 2KB/s
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0PffUAbk.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- name: 🇺🇸US_2|1.4MB/s
-  password: sg-trojan-2026
-  port: 443
-  server: 43.173.90.202
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  type: trojan

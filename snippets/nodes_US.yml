@@ -1,13 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇺🇸 005  | ⬇️ 132KB/s
+  name: 🇺🇸 032  | ⬇️ 964KB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.139
+  skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: aes-256-cfb
-  name: 🇺🇸 078  | ⬇️ 3MB/s
+  name: 🇺🇸 050  | ⬇️ 2MB/s
   password: amazonskr05
   port: 443
   server: 3.135.191.150
@@ -16,7 +17,7 @@ proxies:
   udp: false
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: 🇺🇸US_1|1.5MB/s
+  name: 🇺🇸 048  | ⬇️ 3MB/s
   password: amazonskr05
   port: 443
   server: 3.141.200.225
@@ -45,10 +46,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸US_2|1.4MB/s
-  password: sg-trojan-2026
-  port: 443
-  server: 43.173.90.202
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  type: trojan

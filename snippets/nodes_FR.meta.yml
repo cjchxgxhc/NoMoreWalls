@@ -1,50 +1,29 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇫🇷 014  | ⬇️ 19KB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 62.109.5.156
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  xudp: true
 - cipher: aes-256-cfb
-  name: 🇫🇷 023  | ⬇️ 3MB/s
+  name: 🇫🇷 030  | ⬇️ 7MB/s
   password: amazonskr05
   port: 443
   server: 15.237.252.23
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇫🇷 077  | ⬇️ 1KB/s
-  password: ''
-  port: 1080
-  server: 109.123.251.109
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  name: 🇫🇷 065  | ⬇️ 439KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.9
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /assignment
-- encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
-  name: 🇫🇷 086  | ⬇️ 83KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 6010
-  server: fr.masterpgd.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
-  xhttp-opts:
-    host: myket.ir
-    mode: stream-up
-    path: /assets
 - client-fingerprint: chrome
   encryption: none
   name: 🇫🇷 059  | ⬇️ 502KB/s
@@ -65,10 +44,33 @@ proxies:
     host: aparat.com
     mode: auto
     path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 065  | ⬇️ 439KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.9
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /assignment
 - name: 🇫🇷 076  | ⬇️ 39KB/s
   port: 1088
   server: 51.178.49.241
   type: socks5
+- name: 🇫🇷 077  | ⬇️ 1KB/s
+  password: ''
+  port: 1080
+  server: 109.123.251.109
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
 - name: '🇫🇷 079 '
   port: 1088
   server: 144.91.121.61
@@ -102,3 +104,20 @@ proxies:
     mode: auto
     path: /TelegramChannel:@daredevil_404
     x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.random.0rtt.H4TEngoua4IvSuVQm_V-eUtsc1ZWzAyp47V-OJqFjcdJbRw56QiP3-JTtphA3iR7JfpNKWu9szw2gsu_sKR0xeVZTTZ8uGYADlwN82cqYCY_gqCFCpe4VWA_nkTDioJtc8Na1Fxg8BMe3JGY5yIC9Sdjjgo8Bqtg5eBkP7UX6YLLGlySAJKYT8hbTKTAhfEZQYnN4BySxowU46PCWasPBqkgSLvI_0QuGOtR0Uo2HrCufroBU9o0Iok8b4SIpMoCv4shPhTEo-CCOFiEQJEM9skBN9du7bMR3TLE1MB4SPNQASkIAEirTIa4xZBOwFrF8Pg9EBV8MWJq2fsVjbqRFyQt87VbY3MZyvCKsiokOOR2DyWIejKXPude-AE8IvJfnhITCoRtpHIS48toDYQ07zpVYoqRCCUKhLAEdmdIFSbGQbE9EBwSBfSmmeVPrruT0OrIMIQYRXo58jZWuJaGTekgSCZ77MxRE5SDzbamFDQvRkUmDypaLYjKh5FBnzduzXHJfKB61iWCHgeTVseyXVCSRBRVxHSC0PXAt2Wh_AmEAG26JcTNelm6NuIqPzk8sipqd3gxLOKtiDCAw4UftWwKfEgyWajALRxJYJDDTAi2UTygohMZ8_lpKstfKvkeZqXPFYw30lxDXfXJZ-aDZciTt1kV7sdNooKYEXJg9cOHQIdGIcaI6nq8_9Iln3SKnJMxKqzK-ElMDzysekOZ84ybqhFcWHaDu7J_rfp0bNlcyubDaQAjHtFdB5FTKzZcxJGAGhS0LHd4ABQS_Xe42iGQGbkh37O0LUK6rLlzRiF7ITAcbDOsN-OBUvpCFRa1OfOoWtMCuel_UQIgmHJwPrYH7tp4CzM_LsSDIUEqxhsvBPMAOujDYVNk-coGJaWtRmFK79KwYotiJUu1S3KAT9E94VIuLaQYDDQlwPidxVMbLEpefJEU1QgbkRAtBmAvIBMgnoEKEJEj6AoMZ3o1RroKzHOBH2pun8YRVMKgotSHtyOfWfBVjpy7_qyuQOFj4LdsCKAjEHIuGlpPNMyB8fXNkEyxI1Y6whVd1bqejQJPEOUED-RZA7jGr3JuTaJE_oi08HcenfyP4rESRZY8W6MxZTSnpimJx1lbzePBBIJYf_F298sOYfGqQ3otzTNFOWA_gGaqAisN0ibAOPa98MOtx_xtHrSMfgW-h5KnOVaE0OKRFcMX7-l7jYZ4dtl6YyYQBmMP8uh2nCFdH8B-gMYXncQSBpvJNegv3NqZIZFkW2c9ShCO79Z0FQB9kqA5KJukeobOs2W21pSG2kI6guFZZbtMgXaLmCYM85a1nKuvwRMdLUQEtmJbtOWyxpovqwDE7kiKwgKFUMCvJ1B4o9Je2xZ6zmdnlpmWDKkZEjcTKYwoQRwZh5pZDSsl6YcwbBE0zowBOgsHFpIc4gwqyBp2NLS-9ciTf0NdALGRDdZRr8GkfOUYQ6tlQstzFaqLh0VRiVGGE0BL-tJmGEeUd9iF7hJTsMN7vEQDpftABBN4ZUNGWli22XZxRDIUo1NJ05L8j4oSuULGbBjA8jhXNdBI_XE1SXoXdocbtybkz00
+  name: 🇫🇷FR_1|1.2MB/s
+  network: xhttp
+  port: '443'
+  server: 31.185.108.48
+  servername: daredevil2.manufacturingcity.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: daredevil2.manufacturingcity.ir
+    mode: auto
+    path: /TelegramChannel:@daredevil_404
+    x-padding-bytes: 100-1000
+  xudp: true
