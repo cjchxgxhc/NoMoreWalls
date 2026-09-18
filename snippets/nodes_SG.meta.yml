@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇸🇬 035  | ⬇️ 1MB/s
+  name: 🇸🇬 008  | ⬇️ 6MB/s
   network: ws
-  port: 23010
-  server: 152.67.101.72
+  port: 443
+  server: 104.26.8.117
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -17,17 +17,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /books
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇸🇬 054  | ⬇️ 2KB/s
-  network: tcp
-  port: 38320
-  server: 124.151.45.60
-  tls: false
-  type: vmess
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+    path: /china/apps
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -47,7 +37,51 @@ proxies:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
     path: /details
-- name: 🇸🇬SG_1|2.2MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇸🇬 054  | ⬇️ 2KB/s
+  network: tcp
+  port: 38320
+  server: 124.151.45.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇬 037  | ⬇️ 16KB/s
+  network: ws
+  port: 40649
+  server: 185.155.235.35
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /clip/tech/vod
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: f9DtsV6_ncVM9DmGEmImcR3YKSWGimoS2MXHnIWOyH0
+    short-id: '!!str 0195'
+  server: 1-sg.ap.ku-ke.cc
+  servername: cdn.jsdelivr.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+- name: 🇸🇬SG_2|1002KB/s
   password: ''
   port: 9443
   server: 149.88.99.209

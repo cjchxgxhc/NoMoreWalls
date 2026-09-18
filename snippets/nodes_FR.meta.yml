@@ -1,5 +1,39 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇫🇷 003  | ⬇️ 4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷 005  | ⬇️ 840KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- name: 🇫🇷 076  | ⬇️ 39KB/s
+  port: 1088
+  server: 51.178.49.241
+  type: socks5
+- client-fingerprint: chrome
   name: 🇫🇷 065  | ⬇️ 439KB/s
   network: ws
   password: humanity
@@ -14,18 +48,34 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /assignment
-- name: 🇫🇷 057  | ⬇️ 4MB/s
+- name: '🇫🇷 079 '
+  port: 1088
+  server: 144.91.121.61
+  type: socks5
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷 048  | ⬇️ 304KB/s
   network: ws
   password: humanity
   port: 443
-  server: 162.159.244.91
+  server: 104.18.152.113
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /assignment
+- name: 🇫🇷 077  | ⬇️ 1KB/s
+  password: ''
+  port: 1080
+  server: 109.123.251.109
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   name: 🇫🇷 059  | ⬇️ 502KB/s
@@ -46,23 +96,6 @@ proxies:
     host: aparat.com
     mode: auto
     path: /
-- name: 🇫🇷 076  | ⬇️ 39KB/s
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
-- name: 🇫🇷 077  | ⬇️ 1KB/s
-  password: ''
-  port: 1080
-  server: 109.123.251.109
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
-- name: '🇫🇷 079 '
-  port: 1088
-  server: 144.91.121.61
-  type: socks5
-  udp: true
 - alterId: 2
   cipher: auto
   name: 🇫🇷 083  | ⬇️ 17KB/s
@@ -91,29 +124,80 @@ proxies:
     mode: auto
     path: /TelegramChannel:@daredevil_404
     x-padding-bytes: 100-1000
-- name: 🇫🇷FR_1|1.8MB/s
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.8.107
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_4|1.2MB/s
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 🇫🇷FR_2|1.6MB/s
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|2.4MB/s
+- name: 🇫🇷FR_5|2.6MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_4|4.3MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
+- client-fingerprint: edge
+  encryption: none
+  name: 🇫🇷FR_6|1.0MB/s
+  network: xhttp
+  port: '443'
+  server: 147.45.42.218
+  servername: bz-fra-01.hello-there.ru
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
+  xhttp-opts:
+    host: bz-fra-01.hello-there.ru
+    path: /xh
+  xudp: true
