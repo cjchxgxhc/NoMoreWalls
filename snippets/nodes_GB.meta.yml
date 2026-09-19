@@ -1,21 +1,4 @@
 proxies:
-- name: 🇬🇧 079  | ⬇️ 3MB/s
-  password: ''
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  name: 🇬🇧 095  | ⬇️ 47KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 017  | ⬇️ 47KB/s
@@ -32,3 +15,11 @@ proxies:
   type: vless
   udp: true
   uuid: fe64e0af-e39b-4335-874e-5bb6993e465a
+- name: 🇬🇧GB_1|1.5MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

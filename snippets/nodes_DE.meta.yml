@@ -1,74 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
-  name: 🇩🇪 009  | ⬇️ 342KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10443
-  reality-opts:
-    public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
-  server: shprcdn.quest
-  servername: shprcdn.quest
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪 018  | ⬇️ 4MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇩🇪 004  | ⬇️ 6MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: EEMZb6c0SADcplLXt8-rTAZYaH-s0o9pXG1daNegzww
-    short-id: '!!str 18b63521daeda630'
-  server: hyhkup.mervi.icu
-  servername: hyhkup.mervi.icu
-  tls: true
-  type: vless
+  server: 63.185.90.235
+  type: ss
   udp: true
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪 038  | ⬇️ 7MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  server: 176.123.161.222
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
-  name: 🇩🇪 041  | ⬇️ 232KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10443
-  reality-opts:
-    public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
-  server: 46.243.142.227
-  servername: shprcdn.quest
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: 🇩🇪 048  | ⬇️ 385KB/s
+  name: 🇩🇪 037  | ⬇️ 364KB/s
   network: grpc
   packet-encoding: xudp
   port: 9830
@@ -83,29 +25,10 @@ proxies:
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
 - client-fingerprint: chrome
   ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 056  | ⬇️ 6MB/s
-  network: ws
-  port: 443
-  server: 162.159.152.31
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /urls
-- client-fingerprint: chrome
-  ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 057  | ⬇️ 5MB/s
+  name: 🇩🇪 064  | ⬇️ 341KB/s
   network: ws
   packet-encoding: ''
   port: 443
@@ -126,124 +49,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 059  | ⬇️ 57KB/s
-  network: ws
-  port: 2087
-  server: 157.173.125.214
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /redirect/china/view
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 061  | ⬇️ 34KB/s
-  network: ws
-  port: 2053
-  server: 185.221.223.198
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /go/archive
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 071  | ⬇️ 124KB/s
-  network: ws
-  packet-encoding: ''
-  port: 8443
-  server: 188.166.60.219
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /groups/pictures
-- name: 🇩🇪 072  | ⬇️ 13KB/s
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: gta.internet-card.sbs
-  skip-cert-verify: true
-  sni: gta.internet-card.sbs
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 074  | ⬇️ 3MB/s
-  network: ws
-  port: 8443
-  server: 176.124.220.173
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /about/drama
-- auth: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  name: 🇩🇪 088  | ⬇️ 61KB/s
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 31.76.71.252
-  skip-cert-verify: true
-  sni: gta.internet-card.sbs
-  type: hysteria2
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 099  | ⬇️ 6MB/s
-  network: ws
-  packet-encoding: ''
-  port: 8443
-  server: 132.243.203.207
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /lives
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 103  | ⬇️ 3MB/s
+  name: 🇩🇪 070  | ⬇️ 683KB/s
   network: ws
   port: 2053
   server: 109.107.155.76
@@ -258,6 +64,131 @@ proxies:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
     path: /tv/member/auth
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 076  | ⬇️ 22KB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 084  | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: ''
+  port: 2083
+  server: 134.209.194.199
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /jumping/files/videos
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪 086  | ⬇️ 3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EEMZb6c0SADcplLXt8-rTAZYaH-s0o9pXG1daNegzww
+    short-id: '!!str 18b63521daeda630'
+  server: hyhkup.mervi.icu
+  servername: hyhkup.mervi.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 097  | ⬇️ 15KB/s
+  network: ws
+  packet-encoding: ''
+  port: 443
+  server: 165.232.89.21
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /jump.html/map
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 103  | ⬇️ 13KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 10654
+  reality-opts:
+    public-key: ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM
+    short-id: '!!str 5c3fb122'
+  server: 217.19.122.17
+  servername: bl3fk52.sysopnova.art
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  xhttp-opts:
+    mode: packet-up
+    path: /xhttp_client_upload
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 105  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.126.67.52
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: google.storage.v2.Storage
+  name: 🇩🇪 131  | ⬇️ 61KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10443
+  reality-opts:
+    public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
+  server: 46.243.142.227
+  servername: shprcdn.quest
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
   flow: xtls-rprx-vision
@@ -452,10 +383,3 @@ proxies:
   skip-cert-verify: true
   sni: fl2.xiaoliyu.us
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_2|1.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 63.185.90.235
-  type: ss
-  udp: true

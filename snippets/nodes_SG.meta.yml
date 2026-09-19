@@ -1,18 +1,55 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬 033  | ⬇️ 3MB/s
-  network: tcp
+  name: 🇸🇬 032  | ⬇️ 2KB/s
+  network: raw
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: qbsLW0C_w5YhxXuCO42VQU3wjmJu93mpAGBBbcfMLSM
     short-id: '!!str 0c09d9bb1f10bc4d'
   server: 8.219.144.195
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 867e835d-b5a8-4ab2-aa93-ab8a7cc80470
+- client-fingerprint: unsafe
+  name: 🇸🇬 113  | ⬇️ 898KB/s
+  network: ws
+  port: 2096
+  server: 188.114.97.6
+  servername: shalana.xyz
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  ws-opts:
+    headers:
+      Host: shalana.xyz
+    path: /shalana
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇬 120  | ⬇️ 319KB/s
+  network: ws
+  port: 443
+  server: 151.242.189.162
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /chat
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
