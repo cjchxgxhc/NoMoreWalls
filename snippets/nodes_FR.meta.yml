@@ -1,70 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇫🇷 011  | ⬇️ 1023KB/s
+  name: 🇫🇷 054  | ⬇️ 161KB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
     short-id: '!!str ae682368818bd6c5'
   server: 34.155.10.226
   servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-- client-fingerprint: edge
-  encryption: none
-  name: 🇫🇷 090  | ⬇️ 164KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 147.45.42.218
-  servername: bz-fra-01.hello-there.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
-  xhttp-opts:
-    host: bz-fra-01.hello-there.ru
-    path: /xh
-- client-fingerprint: firefox
-  name: 🇫🇷 091  | ⬇️ 4KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4
-    short-id: '!!str 3f95392a418ec8fd'
-  server: 34.155.54.237
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
-- name: 🇫🇷 076  | ⬇️ 39KB/s
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
-- cipher: aes-256-cfb
-  name: 🇫🇷 096  | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.36.169.164
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 107  | ⬇️ 130KB/s
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  tls: false
-  type: vmess
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
 - client-fingerprint: chrome
   name: 🇫🇷 065  | ⬇️ 439KB/s
   network: ws
@@ -80,43 +29,19 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 125  | ⬇️ 70KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: '🇫🇷 079 '
+  port: 1088
+  server: 144.91.121.61
+  type: socks5
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
 - cipher: aes-256-cfb
-  name: 🇫🇷 126  | ⬇️ 4MB/s
+  name: 🇫🇷 088  | ⬇️ 672KB/s
   password: amazonskr05
   port: 443
   server: 15.237.180.114
+  skip-cert-verify: false
   type: ss
-  udp: true
-- name: 🇫🇷 128  | ⬇️ 44KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+  udp: false
 - client-fingerprint: chrome
   encryption: none
   name: 🇫🇷 059  | ⬇️ 502KB/s
@@ -137,6 +62,10 @@ proxies:
     host: aparat.com
     mode: auto
     path: /
+- name: 🇫🇷 076  | ⬇️ 39KB/s
+  port: 1088
+  server: 51.178.49.241
+  type: socks5
 - name: 🇫🇷 077  | ⬇️ 1KB/s
   password: ''
   port: 1080
@@ -145,11 +74,6 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- name: '🇫🇷 079 '
-  port: 1088
-  server: 144.91.121.61
-  type: socks5
-  udp: true
 - alterId: 2
   cipher: auto
   name: 🇫🇷 083  | ⬇️ 17KB/s
@@ -178,3 +102,23 @@ proxies:
     mode: auto
     path: /TelegramChannel:@daredevil_404
     x-padding-bytes: 100-1000
+- name: 🇫🇷FR_1|3.4MB/s
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_2|1.6MB/s
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true

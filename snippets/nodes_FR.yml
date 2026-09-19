@@ -1,24 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷 096  | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.36.169.164
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 107  | ⬇️ 130KB/s
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  tls: false
-  type: vmess
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷 065  | ⬇️ 439KB/s
   network: ws
@@ -35,23 +15,13 @@ proxies:
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /assignment
 - cipher: aes-256-cfb
-  name: 🇫🇷 126  | ⬇️ 4MB/s
+  name: 🇫🇷 088  | ⬇️ 672KB/s
   password: amazonskr05
   port: 443
   server: 15.237.180.114
+  skip-cert-verify: false
   type: ss
-  udp: true
-- name: 🇫🇷 128  | ⬇️ 44KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+  udp: false
 - alterId: 2
   cipher: auto
   name: 🇫🇷 083  | ⬇️ 17KB/s
@@ -62,3 +32,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true

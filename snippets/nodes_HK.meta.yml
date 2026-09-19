@@ -1,17 +1,51 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇭🇰 003  | ⬇️ 35KB/s
-  network: tcp
+- name: 🇭🇰 017  | ⬇️ 2MB/s
+  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
   port: 443
-  reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: '!!str 64b3f192fc0669e1'
-  server: 34.92.19.135
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+  server: db1b2f3b-tly2o0-tn3jhp-1qthu.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: db1b2f3b-tly2o0-tn3jhp-1qthu.nw4.hyhuawei.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 🇭🇰 018  | ⬇️ 58KB/s
+  network: http
+  port: 800
+  server: 47.86.167.194
+  servername: sjskendn.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 019  | ⬇️ 32KB/s
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers: {}
+    max-early-data: 2048
+    path: /arki
+- name: 🇭🇰 025  | ⬇️ 69KB/s
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇭🇰 030  | ⬇️ 9MB/s
@@ -30,23 +64,6 @@ proxies:
   udp: true
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰 026  | ⬇️ 2KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ID53PilNajhqBP3PTJJxurZOFnZfKVs-CU5buNOaKBQ
-    short-id: '!!str e40b98d40e53b8b9'
-  server: 47.83.4.146
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8952ecb7-4b85-4aa5-8b22-adc9aa4d3591
-- client-fingerprint: chrome
   name: 🇭🇰 064  | ⬇️ 124KB/s
   network: tcp
   port: 13779
@@ -61,60 +78,10 @@ proxies:
   type: vless
   udp: true
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- auth: 8294f130408299df8cab08c80bf6f819
-  name: 🇭🇰 029  | ⬇️ 121KB/s
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 🇭🇰 031  | ⬇️ 68KB/s
-  password: f4927789e58bcd24b6f6
-  port: 10444
-  server: h.zz2233.cyou
-  skip-cert-verify: false
-  sni: h.zz2233.cyou
-  tfo: false
-  type: hysteria2
-- allowInsecure: '1'
-  name: 🇭🇰 035  | ⬇️ 746KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  sub-tag: R002-260618
-  type: anytls
-  udp: true
-  username: 9sK2mP8xQ7vL3nZ6
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇭🇰 077  | ⬇️ 9KB/s
+  name: 🇭🇰 047  | ⬇️ 3MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: BqFbrSSosM7RAVvUGTRmCrZlHY6aGwq9HEJs0fMdK0s
-    short-id: '!!str 8144589880395fa1'
-  server: 47.83.173.110
-  servername: www.samsung.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bca6f15f-89db-40e2-a955-19d084229234
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰 080  | ⬇️ 3MB/s
-  network: raw
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -127,26 +94,76 @@ proxies:
   type: vless
   udp: true
   uuid: bf41cc32-f0a2-4b27-ba9f-8026ce0aed84
-- name: 🇭🇰 083  | ⬇️ 6KB/s
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
+- allowInsecure: '1'
+  name: 🇭🇰 064  | ⬇️ 455KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: 🇭🇰 106  | ⬇️ 1KB/s
+  name: '🇭🇰 084 '
   network: ws
   port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: 47.83.19.148
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   tls: true
   type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 092  | ⬇️ 7MB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers: {}
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰 093  | ⬇️ 7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ID53PilNajhqBP3PTJJxurZOFnZfKVs-CU5buNOaKBQ
+    short-id: '!!str e40b98d40e53b8b9'
+  server: 47.83.4.146
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8952ecb7-4b85-4aa5-8b22-adc9aa4d3591
+- auth: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
+  name: 🇭🇰 016  | ⬇️ 225KB/s
+  password: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
+  port: 60001
+  server: hk01.kfc-520.com
+  skip-cert-verify: true
+  sni: hk01.kfc-520.com
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -164,58 +181,6 @@ proxies:
   type: vless
   udp: true
   uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 115  | ⬇️ 4KB/s
-  network: ws
-  port: 443
-  server: 47.76.137.85
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 116  | ⬇️ 5KB/s
-  network: ws
-  port: 443
-  server: 47.76.44.32
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 133  | ⬇️ 8KB/s
-  network: ws
-  port: 443
-  server: 47.242.79.198
-  servername: ejOMsxPtP19APyGL.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-    path: /ws-vmess
-- auth: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  name: 🇭🇰 016  | ⬇️ 225KB/s
-  password: 49f7ff21-a176-30cc-ab60-a5988fd85ce0
-  port: 60001
-  server: hk01.kfc-520.com
-  skip-cert-verify: true
-  sni: hk01.kfc-520.com
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -319,3 +284,35 @@ proxies:
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇭🇰HK_1|3.6MB/s
+  network: ws
+  port: 443
+  server: 109.66.88.158
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /details?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|4.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: '!!str b81edf7fdee4'
+  server: hk3.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
+  xudp: true

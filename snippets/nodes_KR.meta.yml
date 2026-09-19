@@ -1,32 +1,19 @@
 proxies:
-- name: 🇰🇷 049  | ⬇️ 377KB/s
-  obfs: salamander
-  obfs-password: C0DD7bgChaltqnh/T2az6ijM
-  password: C0DD7bgChaltqnh/T2az6ijM
-  port: 20000
-  server: 140.238.31.111
-  skip-cert-verify: false
-  sni: rmgyvpn.rest
-  tfo: false
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷 129  | ⬇️ 103KB/s
+  name: 🇰🇷 005  | ⬇️ 14KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: AT4sr3XkuNa7QewDoScx7NnPTCa-Z6o_7ccPgivVDSQ
-    short-id: '!!str 0b674631d5fc6b93'
-  server: 47.80.62.71
-  servername: www.nvidia.com
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: '!!str 3fd0a8ddef3ae5c6'
+  server: 34.64.149.137
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0d4cb711-c030-4f13-adf5-6a72dab4121c
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
 - name: 🇰🇷 052  | ⬇️ 6MB/s
   network: ws
   port: 2087
@@ -44,3 +31,65 @@ proxies:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 055  | ⬇️ 311KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.52.230
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
+- name: 🇰🇷 049  | ⬇️ 377KB/s
+  obfs: salamander
+  obfs-password: C0DD7bgChaltqnh/T2az6ijM
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  server: 140.238.31.111
+  skip-cert-verify: false
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇰🇷KR_1|4.9MB/s
+  network: ws
+  port: 8443
+  server: 168.110.112.196
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /pay/music?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_2|4.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: '!!str c8af1462debbc1'
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
+  xudp: true

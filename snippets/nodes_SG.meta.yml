@@ -1,44 +1,28 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 032  | ⬇️ 2KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: qbsLW0C_w5YhxXuCO42VQU3wjmJu93mpAGBBbcfMLSM
-    short-id: '!!str 0c09d9bb1f10bc4d'
-  server: 8.219.144.195
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 867e835d-b5a8-4ab2-aa93-ab8a7cc80470
 - client-fingerprint: unsafe
-  name: 🇸🇬 113  | ⬇️ 898KB/s
+  name: 🇸🇬 011  | ⬇️ 94KB/s
   network: ws
-  port: 2096
-  server: 188.114.97.6
-  servername: shalana.xyz
+  port: 443
+  server: 104.16.10.233
+  servername: u.srilankangrill.online
   skip-cert-verify: false
   tfo: true
   tls: true
   type: vless
   udp: true
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   ws-opts:
     headers:
-      Host: shalana.xyz
-    path: /shalana
+      Host: u.srilankangrill.online
+    path: /
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇸🇬 120  | ⬇️ 319KB/s
+  name: 🇸🇬 048  | ⬇️ 224KB/s
   network: ws
   port: 443
-  server: 151.242.189.162
+  server: 104.26.5.134
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -49,7 +33,29 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /chat
+    path: /mag/tag/intro
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇬 075  | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: ''
+  port: 46000
+  server: 152.70.76.104
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /acg/series/help
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -79,3 +85,17 @@ proxies:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
     path: /details
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|1.9MB/s
+  network: tcp
+  port: '20003'
+  reality-opts:
+    public-key: MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4
+    short-id: '!!str 43ebaa76bdeab867'
+  server: 106.75.137.66
+  servername: cache.video.iqiyi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: efbd22e5-1fd7-4c50-a41d-279915d89b66
+  xudp: true
