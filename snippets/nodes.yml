@@ -1,89 +1,57 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇳🇱 008  | ⬇️ 4MB/s
+  client-fingerprint: ''
+  name: 🇫🇷 025  | ⬇️ 60KB/s
   network: ws
-  port: 33736
-  server: 151.243.173.119
-  skip-cert-verify: true
+  port: 80
+  server: 188.114.96.19
+  tls: false
   type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  uuid: 479526cd-5011-43cf-a788-504da95e07c2
   ws-opts:
-    path: /vmess-ws
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1401
-  name: 🇺🇸US_18|4.8MB/s
-  password: 063aee2ed1124285b5d8a8b049e24cba
-  port: '443'
-  server: 107.174.88.128
-  type: ss
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+    path: /
+- name: 🇭🇰 028  | ⬇️ 285KB/s
+  network: tcp
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 2052
+  server: 47.240.80.220
+  skip-cert-verify: true
+  sni: vpn.12169.top
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 🇩🇪 030  | ⬇️ 8MB/s
+  name: 🇫🇷FR_1|1.2MB/s
   password: amazonskr05
-  port: 443
-  server: 63.185.90.235
+  port: '443'
+  server: 15.237.210.147
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 048  | ⬇️ 1KB/s
+  name: 🇭🇰 037  | ⬇️ 99KB/s
   network: ws
-  port: 443
-  server: 8.218.184.4
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 051  | ⬇️ 14KB/s
-  network: ws
-  port: 443
-  server: 47.76.137.85
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- cipher: aes-256-cfb
-  name: 🇺🇸US_16|2.5MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.139
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 020  | ⬇️ 41KB/s
-  network: ws
-  port: 23026
+  port: 36703
   server: 47.244.120.197
   tls: false
   type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
-    headers: {}
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 47.244.120.197
+    max-early-data: 2048
     path: /arki
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 069 '
+  name: 🇭🇰 046  | ⬇️ 17KB/s
   network: ws
   port: 443
-  server: 47.83.207.148
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -91,7 +59,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
   name: 🇫🇷 065  | ⬇️ 439KB/s
@@ -110,59 +78,57 @@ proxies:
     path: /assignment
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 080 '
+  name: 🇬🇧 095  | ⬇️ 47KB/s
   network: tcp
-  port: 30806
-  server: v6.hdacd.com
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 083  | ⬇️ 17KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 084  | ⬇️ 100KB/s
+  name: '🇭🇰 102 '
   network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: false
+  port: 443
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  servername: 6jdvarazgu3qqr6q.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: v2rayNplus-v2rayNplus-v2rayNplus
-    max-early-data: 2048
-    path: /arki
-- alterId: 2
-  cipher: auto
-  name: '🇺🇸 085 '
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 086  | ⬇️ 21KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    headers: {}
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: 🇸🇬 054  | ⬇️ 2KB/s
-  network: tcp
-  port: 38320
-  server: 124.151.45.60
-  tls: false
+  name: 🇭🇰 104  | ⬇️ 10KB/s
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 090  | ⬇️ 3KB/s
+  name: 🇭🇰 109  | ⬇️ 20KB/s
   network: ws
   port: 443
   server: 47.86.107.119
@@ -178,49 +144,31 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 092  | ⬇️ 3KB/s
-  network: ws
-  port: 443
-  server: 94.177.51.198
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 094  | ⬇️ 7KB/s
-  network: ws
-  port: 443
-  server: 31.77.223.21
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 098  | ⬇️ 1KB/s
+  name: 🇭🇰 111  | ⬇️ 11KB/s
   network: ws
   port: 443
   server: 8.218.184.4
   servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 020  | ⬇️ 41KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers: {}
+    path: /arki
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -274,8 +222,18 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇸🇬 054  | ⬇️ 2KB/s
+  network: tcp
+  port: 38320
+  server: 124.151.45.60
+  tls: false
+  type: vmess
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
 - cipher: aes-256-cfb
-  name: '🇺🇸 056  | ⬇️ 1MB/s #1'
+  name: 🇺🇸 056  | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 18.226.104.155
@@ -337,16 +295,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 083  | ⬇️ 17KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇭🇰 090  | ⬇️ 2KB/s
@@ -363,28 +311,10 @@ proxies:
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇵🇱PL_3|2.9MB/s
-  network: ws
-  port: '80'
-  server: 188.114.96.19
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_5|4.0MB/s
+  name: 🇩🇪DE_2|1.1MB/s
   password: amazonskr05
   port: '443'
-  server: 15.237.252.23
+  server: 63.185.90.235
   type: ss
   udp: true
