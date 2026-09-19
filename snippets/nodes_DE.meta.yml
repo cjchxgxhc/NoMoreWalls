@@ -1,12 +1,19 @@
 proxies:
+- name: 🇩🇪 002  | ⬇️ 46KB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: dg1.mangshe.xyz
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 001  | ⬇️ 39KB/s
+  name: 🇩🇪 011  | ⬇️ 5MB/s
   network: ws
-  port: 8443
-  server: 132.243.203.218
+  port: 443
+  server: 162.159.153.216
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -17,68 +24,33 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /v
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇩🇪 002  | ⬇️ 6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: f89c89df-905c-4df3-ab07-4f1a37a81005
-  port: 443
-  server: api.fastline-labs.com
-  skip-cert-verify: false
-  sni: api.fastline-labs.com
-  type: hysteria2
-  up: ''
+    path: /play
 - client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪 040  | ⬇️ 13KB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|3.1MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 9892
+  port: '443'
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  server: 176.123.161.222
-  servername: dl.google.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 185.126.67.60
+  servername: www.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 🇩🇪 051  | ⬇️ 11KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 199.232.237.79
-  servername: turboo-server.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: turboo-server.com
-    path: /
+  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
+  xudp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 060  | ⬇️ 13KB/s
+  name: 🇩🇪 016  | ⬇️ 5MB/s
   network: ws
-  port: 443
-  server: 147.90.229.204
+  port: 2053
+  server: 109.107.155.76
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -89,15 +61,15 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /sort/outbound/redirect.php
+    path: /tv/member/auth
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 063  | ⬇️ 8KB/s
+  name: 🇩🇪 020  | ⬇️ 4MB/s
   network: ws
   port: 443
-  server: 165.232.39.158
+  server: 88.119.168.61
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -108,7 +80,34 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /m
+    path: /discuss
+- cipher: aes-256-cfb
+  name: 🇩🇪 030  | ⬇️ 8MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.185.90.235
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 047  | ⬇️ 4MB/s
+  network: ws
+  port: 2083
+  server: 134.209.194.199
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /jumping/files/videos
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪 062  | ⬇️ 20KB/s
@@ -122,53 +121,24 @@ proxies:
   type: vless
   udp: true
   uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
+- client-fingerprint: qq
   encryption: none
-  fingerprint: 52c36f3722d73827cc3977541830ab65967d8335c6e7122dd5ff810de57252bb
-  name: 🇩🇪 073  | ⬇️ 87KB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 🇩🇪 059  | ⬇️ 4MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 2087
-  server: s5.zynetrax.ir
-  servername: s5.zynetrax.ir
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.126.67.52
+  servername: www.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d1165a3c-0614-49ea-8f88-b9151f430175
-  xhttp-opts:
-    host: s5.zynetrax.ir
-    mode: auto
-    path: /BetForward
-    x-padding-bytes: 100-1000
+  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
 - client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 077  | ⬇️ 3KB/s
-  network: ws
-  packet-encoding: ''
-  port: 2087
-  server: 164.92.147.213
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /city/my
-- client-fingerprint: chrome
-  name: 🇩🇪 078  | ⬇️ 37KB/s
+  name: 🇱🇰LK_1|1.4MB/s
   network: ws
   port: 8443
   server: free.sahanwickramasinghe.me
@@ -179,32 +149,67 @@ proxies:
   uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇩🇪 090  | ⬇️ 8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.194.210.177
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|2.6MB/s
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 086  | ⬇️ 21KB/s
   network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: 🇩🇪 089  | ⬇️ 4MB/s
+  network: ws
   packet-encoding: xudp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 185.126.67.52
-  servername: www.vk.com
+  port: 443
+  server: 199.232.237.79
+  servername: turboo-server.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
-  xudp: true
+  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
+  ws-opts:
+    headers:
+      Host: turboo-server.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 092  | ⬇️ 3KB/s
+  network: ws
+  port: 443
+  server: 94.177.51.198
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 094  | ⬇️ 7KB/s
+  network: ws
+  port: 443
+  server: 31.77.223.21
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
   flow: xtls-rprx-vision
@@ -386,74 +391,51 @@ proxies:
   skip-cert-verify: true
   sni: fl2.xiaoliyu.us
   type: hysteria2
-- name: 🇩🇪DE_1|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.5MB/s
+  network: xhttp
+  port: '443'
+  server: 199.232.79.166
+  servername: cdn.fastly.com
   tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_2|3.2MB/s
+  type: vless
+  udp: true
+  uuid: bc84f5cb-05b5-48db-8143-f645dc5812df
+  xhttp-opts:
+    host: telegram-uonvpn.global.ssl.fastly.net
+    mode: auto
+    path: /@UonVPN--/-@UonVPN-*-@UonVPN--*-@UonVPN--**-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN-*--@UonVPN
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇩🇪DE_2|2.7MB/s
   password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|2.8MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇩🇪DE_3|2.0MB/s
+  password: None
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 🇩🇪DE_4|1.1MB/s
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
   username: null
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 185.126.67.60
-  servername: www.vk.com
+- name: 🇩🇪DE_5|1.3MB/s
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_7|1.8MB/s
-  network: tcp
-  port: '443'
-  server: irc.jahanrocket.sbs
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 777c24bb-13ec-4c81-bb58-31344653e28c
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|2.7MB/s
-  network: tcp
-  port: '1932'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 185.126.67.69
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
-  xudp: true
+  type: http
+  username: null

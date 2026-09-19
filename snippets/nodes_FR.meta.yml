@@ -1,29 +1,35 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
   encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇫🇷 014  | ⬇️ 19KB/s
-  network: grpc
+  name: 🇫🇷 061  | ⬇️ 5MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 62.109.5.156
-  servername: id.vk.com
+  server: 147.45.42.218
+  servername: bz-fra-01.hello-there.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷 030  | ⬇️ 7MB/s
-  password: amazonskr05
+  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
+  xhttp-opts:
+    host: bz-fra-01.hello-there.ru
+    path: /xh
+- client-fingerprint: chrome
+  name: 🇫🇷 065  | ⬇️ 439KB/s
+  network: ws
+  password: humanity
   port: 443
-  server: 15.237.252.23
+  server: 104.17.111.9
   skip-cert-verify: false
-  type: ss
-  udp: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   encryption: none
   name: 🇫🇷 059  | ⬇️ 502KB/s
@@ -44,21 +50,6 @@ proxies:
     host: aparat.com
     mode: auto
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇷 065  | ⬇️ 439KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.9
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /assignment
 - name: 🇫🇷 076  | ⬇️ 39KB/s
   port: 1088
   server: 51.178.49.241
@@ -104,46 +95,49 @@ proxies:
     mode: auto
     path: /TelegramChannel:@daredevil_404
     x-padding-bytes: 100-1000
-- name: 🇫🇷FR_1|3.3MB/s
+- encryption: none
+  name: 🇫🇷FR_1|4.3MB/s
+  network: tcp
+  port: '22224'
+  server: 13.39.230.204
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- name: 🇫🇷FR_2|4.5MB/s
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|2.5MB/s
+- name: 🇫🇷FR_3|2.8MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  name: 🇫🇷FR_3|3.9MB/s
-  network: tcp
-  port: 2083
-  server: 80.93.217.193
-  servername: qbvlpz4b8508.dop100.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b4904296-5df5-430c-9849-22bef703174c
-  xudp: true
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_4|3.3MB/s
+  name: 🇫🇷FR_4|1.7MB/s
   network: xhttp
   port: '443'
-  server: 147.45.42.218
-  servername: bz-fra-01.hello-there.ru
+  reality-opts:
+    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
+    short-id: '!!str '
+  server: 130.49.77.6
+  servername: www.philips.com
   tls: true
   type: vless
   udp: true
-  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
   xhttp-opts:
-    host: bz-fra-01.hello-there.ru
-    path: /xh
+    mode: auto
+    path: /
   xudp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_5|4.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.237.252.23
+  type: ss
+  udp: true
