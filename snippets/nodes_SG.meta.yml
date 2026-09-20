@@ -3,16 +3,56 @@ proxies:
   flow: xtls-rprx-vision
   name: 🇸🇬 018  | ⬇️ 3MB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: qbsLW0C_w5YhxXuCO42VQU3wjmJu93mpAGBBbcfMLSM
     short-id: '!!str 0c09d9bb1f10bc4d'
   server: 8.219.144.195
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 867e835d-b5a8-4ab2-aa93-ab8a7cc80470
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇬 098  | ⬇️ 5KB/s
+  network: ws
+  packet-encoding: ''
+  port: 443
+  server: 160.30.54.63
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /channel
+- client-fingerprint: unsafe
+  name: 🇸🇬 100  | ⬇️ 25KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 188.114.97.6
+  servername: shalana.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  ws-opts:
+    headers:
+      Host: shalana.xyz
+    path: /shalana
 - name: 🇸🇬 020  | ⬇️ 2MB/s
   password: 1027576c-c4df-4277-b3ef-38d3213b6574
   port: 443
@@ -76,9 +116,10 @@ proxies:
     path: /
 - client-fingerprint: chrome
   ech-opts:
+    _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇸🇬 055  | ⬇️ 14KB/s
+  name: 🇸🇬 090  | ⬇️ 34KB/s
   network: ws
   packet-encoding: ''
   port: 443
@@ -95,13 +136,3 @@ proxies:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
     path: /details
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇸🇬 054  | ⬇️ 2KB/s
-  network: tcp
-  port: 38320
-  server: 124.151.45.60
-  tls: false
-  type: vmess
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
