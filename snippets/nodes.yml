@@ -1,11 +1,19 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇺🇸US_20|3.2MB/s
+  name: 🇩🇪 004  | ⬇️ 7MB/s
   password: amazonskr05
-  port: '443'
-  server: 3.142.197.111
+  port: 443
+  server: 63.181.79.8
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 009  | ⬇️ 6MB/s
+  password: ept2V6yarWzazZStMu0CqM-jx3NN2wG0
+  port: 5052
+  server: jgzt1997.qivfelo.ir
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -14,7 +22,7 @@ proxies:
     method: GET
     path:
     - /x
-  name: 🇭🇰 018  | ⬇️ 58KB/s
+  name: 🇭🇰 018  | ⬇️ 52KB/s
   network: http
   port: 800
   server: 47.86.167.194
@@ -24,7 +32,8 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 019  | ⬇️ 32KB/s
+  client-fingerprint: ''
+  name: 🇭🇰 023  | ⬇️ 44KB/s
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -36,36 +45,111 @@ proxies:
     headers: {}
     max-early-data: 2048
     path: /arki
-- cipher: aes-256-cfb
-  name: 🇩🇪 020  | ⬇️ 1MB/s
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 026  | ⬇️ 5KB/s
+  network: ws
   port: 443
-  server: 3.70.156.210
-  type: ss
+  server: 47.76.44.32
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 028  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇺🇸 040  | ⬇️ 732KB/s
+  name: 🇺🇸 029  | ⬇️ 96KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇲🇽 046  | ⬇️ 98KB/s
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 054  | ⬇️ 4MB/s
+  network: ws
+  port: 443
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸 065  | ⬇️ 6MB/s
   password: amazonskr05
   port: 443
   server: 3.21.98.132
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  name: 🇩🇪 046  | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.185.90.235
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: 🇺🇸 050  | ⬇️ 442KB/s
-  password: amazonskr05
-  port: 443
-  server: 3.135.191.150
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪 087  | ⬇️ 4MB/s
+  network: ws
+  password: sva5wot3avf7yobn
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 080  | ⬇️ 186KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 100  | ⬇️ 23KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 101  | ⬇️ 1KB/s
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: 🇫🇷 065  | ⬇️ 439KB/s
   network: ws
@@ -81,32 +165,80 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /assignment
+- cipher: aes-256-cfb
+  name: 🇩🇪 109  | ⬇️ 9MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.176.107.205
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  name: '🇭🇰 084 '
+  name: 🇭🇰 028  | ⬇️ 8KB/s
   network: ws
   port: 443
-  server: 47.83.19.148
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇫🇷 088  | ⬇️ 672KB/s
+  name: 🇫🇷 114  | ⬇️ 7MB/s
   password: amazonskr05
   port: 443
-  server: 15.237.180.114
+  server: 15.237.210.147
   skip-cert-verify: false
   type: ss
   udp: false
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 092  | ⬇️ 7MB/s
+  name: 🇭🇰 117  | ⬇️ 2KB/s
+  network: ws
+  port: 443
+  server: 8.218.184.4
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 118  | ⬇️ 77KB/s
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers: {}
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 121  | ⬇️ 6KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 122  | ⬇️ 14KB/s
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -147,20 +279,6 @@ proxies:
   ws-opts:
     headers:
       Host: nycqg19zkwacpm1b.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 028  | ⬇️ 8KB/s
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-cfb
   name: 🇩🇪 034  | ⬇️ 8MB/s
@@ -252,15 +370,6 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 080  | ⬇️ 186KB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
   name: 🇫🇷 083  | ⬇️ 17KB/s
   network: tcp
   port: 30835
@@ -286,32 +395,173 @@ proxies:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-cfb
-  name: 🇺🇸US_1|4.0MB/s
+  name: 🇺🇸US_1|2.7MB/s
   password: amazonskr05
   port: 443
   server: 3.148.195.154
   type: ss
 - client-fingerprint: chrome
-  name: 🇺🇦UA_1|3.4MB/s
-  network: tcp
-  password: 81691dd5-32b9-41ba-b0a9-f32b522d3548
-  port: '58113'
-  server: fj3x.waimaosass.icu
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
+  name: 🇫🇷FR_1|2.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_9|4.5MB/s
-  password: amazonskr05
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|3.0MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: 35.159.113.215
-  type: ss
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_3|4.3MB/s
-  password: amazonskr05
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.6MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: 13.36.169.164
-  type: ss
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.34
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|2.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.37
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|1.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.14.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_8|1.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_9|3.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_10|1.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.177.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_11|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_12|3.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /assignment

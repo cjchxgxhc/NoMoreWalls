@@ -1,13 +1,15 @@
 proxies:
 - alpn:
   - h2
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   encryption: none
-  name: 🇪🇪EE_1|2.2MB/s
+  name: 🇪🇪 005  | ⬇️ 1MB/s
   network: xhttp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   server: one.alpheratzz.org
   servername: app-6aae70d4.adhil.uk
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -17,20 +19,63 @@ proxies:
     path: /
     reuse-settings:
       max-connections: '1'
-  xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - h3
+  auth: 319ed24b1c7203aa
+  name: 🇪🇪 012  | ⬇️ 263KB/s
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
+  skip-cert-verify: true
+  sni: tishina-axe.dedyn.io
+  type: hysteria2
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_2|1.8MB/s
+  name: 🇪🇪 107  | ⬇️ 9KB/s
   network: tcp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
-    short-id: '!!str d98e7afec9c0c359'
-  server: 5.181.201.36
-  servername: estomin1.vodniki.monster
+    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
+    short-id: '!!str d0aae44f'
+  server: 45.11.27.86
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇪🇪EE_1|2.8MB/s
+  network: ws
+  port: 2053
+  server: 5.101.114.44
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /collection/directory?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_2|2.9MB/s
+  network: tcp
+  port: '20443'
+  reality-opts:
+    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
+    short-id: '!!str 08'
+  server: 89.106.88.6
+  servername: dest1.cdn-update.rutube.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
   xudp: true
