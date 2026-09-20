@@ -1,95 +1,36 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇩🇪 001  | ⬇️ 46KB/s
+  network: tcp
+  port: 9022
+  server: star.starnick2030.ir
+  tls: false
+  type: vmess
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 001  | ⬇️ 190KB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 🇩🇪 004  | ⬇️ 2MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: 146.75.59.20
-  servername: accounts.fastly.com
+  reality-opts:
+    public-key: JoIT56dCrKkeYJWSPA6-rllSqlXYKPg1rC2w7D_xogU
+    short-id: '!!str 212a8beb0ea4817b'
+  server: pl.node-edge09.com
+  servername: pl.node-edge09.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 56eb043d-5683-4d48-94b2-688097c87854
-  xhttp-opts:
-    host: lunex.store
-    mode: packet-up
-    path: /Lunex
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 003  | ⬇️ 4MB/s
-  network: ws
-  port: 443
-  server: 130.17.27.204
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /player/shop
-- cipher: aes-256-cfb
-  name: 🇩🇪 004  | ⬇️ 7MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.181.79.8
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 007  | ⬇️ 6MB/s
-  network: ws
-  port: 443
-  server: 194.76.168.79
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /clip/vod
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 013  | ⬇️ 5MB/s
-  network: ws
-  port: 8443
-  server: 31.58.76.68
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /new/dh
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 014  | ⬇️ 5MB/s
+  name: 🇩🇪 028  | ⬇️ 3MB/s
   network: ws
   port: 8443
   server: 31.59.46.140
@@ -106,155 +47,85 @@ proxies:
     path: /travel/intro
 - client-fingerprint: chrome
   ech-opts:
+    _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 017  | ⬇️ 2MB/s
+  name: 🇩🇪 030  | ⬇️ 13KB/s
   network: ws
-  port: 443
-  server: 144.31.200.207
+  packet-encoding: ''
+  port: 2087
+  server: 157.173.125.214
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /code/directory/ads
+    path: /redirect/china/view
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 044  | ⬇️ 7MB/s
+  name: 🇩🇪 039  | ⬇️ 383KB/s
   network: ws
   packet-encoding: ''
-  port: 2053
-  server: 185.221.223.198
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /go/archive
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 063  | ⬇️ 5MB/s
-  network: ws
   port: 443
-  server: 165.232.89.21
+  server: 162.159.153.156
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /jump.html/map
-- client-fingerprint: firefox
-  name: 🇩🇪 071  | ⬇️ 6MB/s
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: '!!str 4d14da19b19cfc8c'
-  server: 162.55.242.208
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
-- client-fingerprint: chrome
-  name: 🇩🇪 087  | ⬇️ 4MB/s
-  network: ws
-  password: sva5wot3avf7yobn
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 088  | ⬇️ 1MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 100  | ⬇️ 23KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪 104  | ⬇️ 41KB/s
+    path: /bd/thread/clips
+- auth: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  name: 🇩🇪 043  | ⬇️ 53KB/s
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: gta.internet-card.sbs
+  server: 31.76.71.252
   skip-cert-verify: true
   sni: gta.internet-card.sbs
-  tfo: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇩🇪 109  | ⬇️ 9MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.176.107.205
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   ech-opts:
-    _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 119  | ⬇️ 4MB/s
+  name: 🇩🇪 047  | ⬇️ 62KB/s
   network: ws
-  packet-encoding: ''
-  port: 2083
-  server: 134.209.194.199
+  port: 443
+  server: 194.76.168.79
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /jumping/files/videos
+    path: /clip/vod
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇩🇪 123  | ⬇️ 22KB/s
+  name: 🇩🇪 052  | ⬇️ 2MB/s
   network: ws
   packet-encoding: ''
   port: 8443
-  server: 165.232.39.212
+  server: 31.58.76.68
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -266,7 +137,141 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /html/shows
+    path: /new/dh
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 056  | ⬇️ 65KB/s
+  network: ws
+  port: 81
+  server: 217.12.206.160
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /members/playlist
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 059  | ⬇️ 69KB/s
+  network: ws
+  port: 8443
+  server: 194.154.29.139
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /retrieve/txt
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 062  | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: ''
+  port: 8443
+  server: 45.38.139.23
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /jumping/class/bt
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 063  | ⬇️ 3MB/s
+  network: ws
+  port: 443
+  server: 130.17.27.204
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /player/shop
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 064  | ⬇️ 18KB/s
+  network: ws
+  packet-encoding: ''
+  port: 2053
+  server: 138.68.142.165
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /resource/channel
+- name: 🇩🇪 070  | ⬇️ 37KB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: dg1.mangshe.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪 095  | ⬇️ 5MB/s
+  network: ws
+  port: 443
+  server: 45.148.30.11
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /season/classify
+- cipher: aes-256-cfb
+  name: 🇩🇪 097  | ⬇️ 2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.123.32.247
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
   flow: xtls-rprx-vision
@@ -461,19 +466,24 @@ proxies:
   skip-cert-verify: true
   sni: fl2.xiaoliyu.us
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_1|3.4MB/s
-  network: xhttp
-  port: 2087
-  server: dee338dd.localip.ir
-  servername: denet1.17e1feeuzi.online
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|1.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 63.176.107.205
+  type: ss
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  xhttp-opts:
-    host: denet1.17e1feeuzi.online
-    mode: stream-one
-    path: /meti
+- name: 🇩🇪DE_2|2.6MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.3MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

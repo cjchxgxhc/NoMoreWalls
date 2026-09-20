@@ -1,16 +1,8 @@
 proxies:
-- name: 🇷🇺 034  | ⬇️ 1MB/s
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tfo: false
-  type: hysteria2
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺 069  | ⬇️ 7MB/s
+  name: 🇷🇺 041  | ⬇️ 26KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -24,6 +16,14 @@ proxies:
   type: vless
   udp: true
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+- name: 🇷🇺 042  | ⬇️ 3MB/s
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  tfo: false
+  type: hysteria2
 - name: 🇷🇺 026  | ⬇️ 3MB/s
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
@@ -39,10 +39,3 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇷🇺RU_1|2.7MB/s
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
