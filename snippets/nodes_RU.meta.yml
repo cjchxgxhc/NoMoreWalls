@@ -1,5 +1,13 @@
 proxies:
-- name: 🇷🇺 042  | ⬇️ 3MB/s
+- cipher: aes-256-gcm
+  name: '🇷🇺 014  | ⬇️ 24KB/s #1'
+  password: 6b39ae3234dfd68b
+  port: 50111
+  server: 46.29.163.78
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: '🇷🇺 062  | ⬇️ 5MB/s #1'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -10,7 +18,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺 041  | ⬇️ 26KB/s
+  name: '🇷🇺 068  | ⬇️ 7MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -24,20 +32,11 @@ proxies:
   type: vless
   udp: true
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇷🇺RU_1|3.4MB/s
-  network: ws
-  port: 443
-  server: 161.104.44.138
-  servername: cdn8848.776676.xyz
+- name: '🇷🇺 093  | ⬇️ 14KB/s #1'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /my/m/note?ed=2560
+  sni: ru.xiaoliyu.cyou
+  tfo: false
+  type: hysteria2

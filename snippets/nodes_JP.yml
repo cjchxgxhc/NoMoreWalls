@@ -1,14 +1,21 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 095  | ⬇️ 1KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  servername: v6.hdacd.com
+- cipher: aes-256-gcm
+  name: '🇯🇵 008  | ⬇️ 3KB/s #1'
+  password: 9cfaa78d51ac366f
+  port: 10011
+  server: 89.125.244.241
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: '🇯🇵 010  | ⬇️ 3MB/s #1'
+  network: ws
+  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  port: 443
+  server: jp3.998998.best
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  sni: nat11.outsidemyheart.space
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat11.outsidemyheart.space
+    path: /w4e5yh0p945y3
