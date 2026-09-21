@@ -1,5 +1,28 @@
 proxies:
-- name: '🇩🇪 090  | ⬇️ 1MB/s #1'
+- client-fingerprint: safari
+  name: 🇩🇪 005  | ⬇️ 3MB/s
+  network: ws
+  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
+  port: 9433
+  server: de2.x8lab.org
+  skip-cert-verify: false
+  sni: de2.x8lab.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: de2.x8lab.org
+    path: /chatbot
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 104  | ⬇️ 183KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇩🇪 090  | ⬇️ 1MB/s
   network: ws
   password: Km/pIG4AGCjCOiGWj5FsWA==
   port: 25040
@@ -9,15 +32,18 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: 🇩🇪DE_1|1.4MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 135  | ⬇️ 235KB/s
   network: ws
-  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
-  port: 9433
-  server: de2.x8lab.org
-  skip-cert-verify: true
-  sni: de2.x8lab.org
+  password: MiTIVPN
+  port: 443
+  server: 199.232.78.101
+  skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: de2.x8lab.org
-    path: /chatbot
+      Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
+    path: /

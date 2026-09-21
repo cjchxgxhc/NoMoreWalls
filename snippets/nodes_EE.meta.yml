@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇪🇪 019  | ⬇️ 5MB/s #1'
+  name: 🇪🇪 019  | ⬇️ 5MB/s
   network: tcp
   packet-encoding: xudp
   port: 20443
@@ -15,9 +15,26 @@ proxies:
   type: vless
   udp: true
   uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪 064  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 20443
+  reality-opts:
+    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
+    short-id: '!!str 08'
+  server: 89.106.88.6
+  servername: dest1.cdn-update.rutube.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '🇪🇪 048  | ⬇️ 4MB/s #1'
+  name: 🇪🇪 048  | ⬇️ 4MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -32,7 +49,7 @@ proxies:
   udp: true
   uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
 - country: 🇮🇷IR
-  name: '🇪🇪 096  | ⬇️ 61KB/s #1'
+  name: 🇪🇪 096  | ⬇️ 61KB/s
   password: 319ed24b1c7203aa
   port: 8443
   server: tishina-axe.dedyn.io
@@ -42,7 +59,7 @@ proxies:
   udp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '🇪🇪 105  | ⬇️ 34KB/s #1'
+  name: 🇪🇪 105  | ⬇️ 34KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -56,18 +73,3 @@ proxies:
   type: vless
   udp: true
   uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-- client-fingerprint: chrome
-  name: 🇪🇪EE_1|1.3MB/s
-  network: xhttp
-  port: '9443'
-  server: 31.76.226.100
-  servername: hub-ee-01.hanvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  xhttp-opts:
-    host: hub-ee-01.hanvpn.cc
-    mode: auto
-    path: /ee01-xhttp-8e47a/
-  xudp: true
