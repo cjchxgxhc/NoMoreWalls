@@ -1,4 +1,45 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇰🇷 047  | ⬇️ 207KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 123.111.169.70
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 🇰🇷 048  | ⬇️ 740KB/s
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- name: 🇰🇷 051  | ⬇️ 6MB/s
+  network: ws
+  port: 2087
+  server: www.shopify.com
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
 - name: 🇰🇷 075  | ⬇️ 2MB/s
   obfs: salamander
   obfs-password: C0DD7bgChaltqnh/T2az6ijM
@@ -28,19 +69,4 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.3MB/s
-  network: ws
-  port: 2083
-  server: 123.111.169.70
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
     path: /

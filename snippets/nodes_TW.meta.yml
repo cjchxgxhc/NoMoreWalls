@@ -1,9 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 026  | ⬇️ 1MB/s
+- client-fingerprint: chrome
+  name: 🇹🇼 108  | ⬇️ 104KB/s
   network: ws
+  packet-encoding: xudp
   port: 443
+  server: 140.235.39.19
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_1|4.0MB/s
+  network: ws
+  port: '443'
   server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
   servername: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
   skip-cert-verify: false
@@ -12,18 +28,24 @@ proxies:
   udp: true
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   ws-opts:
+    headers: {}
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 136  | ⬇️ 121KB/s
-  network: ws
+  xudp: true
+- name: 🇹🇼 120  | ⬇️ 151KB/s
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- allowInsecure: '1'
+  name: 🇹🇼 129  | ⬇️ 4MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
-  servername: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  server: 6ivh.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  sub-tag: P002-260618
+  type: anytls
   udp: true
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  ws-opts:
-    path: /
