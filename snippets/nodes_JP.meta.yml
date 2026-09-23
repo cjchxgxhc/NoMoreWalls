@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵 003  | ⬇️ 3MB/s
+  name: '🇯🇵 003  | ⬇️ 3MB/s #1'
   network: ws
   packet-encoding: ''
   port: 443
@@ -17,7 +17,7 @@ proxies:
       Host: mia3.pages.dev
     path: /TG:@MiaChatChannel
 - client-fingerprint: chrome
-  name: 🇯🇵 004  | ⬇️ 1MB/s
+  name: '🇯🇵 004  | ⬇️ 1MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
     path: /
-- name: 🇯🇵 014  | ⬇️ 10MB/s
+- name: '🇯🇵 014  | ⬇️ 10MB/s #1'
   network: ws
   port: 2082
   server: 108.162.198.178
@@ -48,7 +48,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /
 - client-fingerprint: chrome
-  name: 🇯🇵 056  | ⬇️ 22KB/s
+  name: '🇯🇵 056  | ⬇️ 22KB/s #1'
   network: ws
   port: 443
   server: 162.159.254.3
@@ -63,63 +63,27 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- cipher: aes-256-gcm
-  name: 🇯🇵 008  | ⬇️ 3KB/s
-  password: 9cfaa78d51ac366f
-  port: 10011
-  server: 89.125.244.241
-  skip-cert-verify: false
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_1|1.7MB/s
+  network: ws
+  port: 17577
+  server: 206.190.237.167
+  type: vmess
+  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
+  ws-opts:
+    path: /3ceb8486
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_2|5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.111.96
   type: ss
-  udp: false
-- name: 🇯🇵 010  | ⬇️ 3MB/s
-  network: ws
-  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  port: 443
-  server: jp3.998998.best
-  skip-cert-verify: true
-  sni: nat11.outsidemyheart.space
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nat11.outsidemyheart.space
-    path: /w4e5yh0p945y3
-- name: 🇯🇵 059  | ⬇️ 6MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇯🇵 102  | ⬇️ 410KB/s
-  network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tfo: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 🇯🇵 136  | ⬇️ 6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: proxyip.jp.cmliussss.net
-  servername: vp10.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_3|5.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.112.209.209
+  type: ss
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-    path: /

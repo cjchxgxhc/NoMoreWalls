@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇩🇪 005  | ⬇️ 438KB/s
+  name: '🇩🇪 005  | ⬇️ 438KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -16,7 +16,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪 007  | ⬇️ 4MB/s
+  name: '🇩🇪 007  | ⬇️ 4MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -32,7 +32,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - encryption: none
-  name: 🇩🇪 047  | ⬇️ 571KB/s
+  name: '🇩🇪 047  | ⬇️ 571KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -48,7 +48,7 @@ proxies:
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
 - encryption: none
-  name: 🇩🇪 048  | ⬇️ 370KB/s
+  name: '🇩🇪 048  | ⬇️ 370KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -64,7 +64,7 @@ proxies:
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
 - encryption: none
-  name: 🇩🇪 049  | ⬇️ 21KB/s
+  name: '🇩🇪 049  | ⬇️ 21KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -79,9 +79,21 @@ proxies:
       Host: de.huge-b.com
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: '🇩🇪 050  | ⬇️ 2MB/s #1'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪 053  | ⬇️ 2MB/s
+  name: '🇩🇪 053  | ⬇️ 2MB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -96,394 +108,17 @@ proxies:
     headers:
       Host: do.huge-b.com
     path: /@Artemis_Vpn
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 013  | ⬇️ 6MB/s
-  network: ws
-  port: 443
-  server: 194.76.172.160
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /cp/docs
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 015  | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: gesmankos.sadiepinki.com
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 018  | ⬇️ 1MB/s
-  network: ws
-  port: 2053
-  server: 5.104.107.80
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /act/clip/directory
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 043  | ⬇️ 5MB/s
-  network: ws
-  port: 443
-  server: 31.76.18.213
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /product/uploads/new
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 049  | ⬇️ 64KB/s
-  network: ws
-  port: 443
-  server: 161.35.18.70
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /about
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 078  | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: ''
-  port: 2053
-  server: 185.221.223.198
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /go/archive
-- name: 🇩🇪 087  | ⬇️ 146KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 81
-  server: 217.12.206.160
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /members/playlist?ed
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 088  | ⬇️ 4MB/s
-  network: ws
-  packet-encoding: ''
-  port: 443
-  server: 144.31.200.207
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /code/directory/ads
-- name: 🇩🇪 090  | ⬇️ 1MB/s
-  network: ws
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  port: 25040
-  server: node8.quaxly.com
-  skip-cert-verify: true
-  sni: /gay-anal
-  type: trojan
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 095  | ⬇️ 4MB/s
-  network: ws
-  port: 443
-  server: 138.124.25.25
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /group/outbound/topics
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 100  | ⬇️ 8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: 45.95.96.236
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 106  | ⬇️ 866KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: RpjjScd4SIWgDGPtR_FJPRENMyWaPzb_hyA2cY98CDs
-    short-id: '!!str e6240b9af8d53c17'
-  server: ge-a.sarky.ru
-  servername: ge.sarky.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c64f1aa-da4d-4c3e-9617-9bfbf1657a75
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 108  | ⬇️ 29KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 10654
-  reality-opts:
-    public-key: ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM
-    short-id: '!!str 5c3fb122'
-  server: 217.19.122.17
-  servername: bl3fk52.sysopnova.art
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  xhttp-opts:
-    mode: packet-up
-    path: /xhttp_client_upload
-- client-fingerprint: chrome
-  name: 🇩🇪 109  | ⬇️ 7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 185.36.143.205
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /ja/courses/team
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 110  | ⬇️ 32KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 10654
-  reality-opts:
-    public-key: lGKKIZsN9yBMxzZm8yl7nzNwJII18c_wLd_AbzzvRD8
-    short-id: '!!str 53361376'
-  server: itga8.guardora.pro
-  servername: dailycanvas.sysopnova.art
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  xhttp-opts:
-    mode: packet-up
-    path: /xhttp_client_upload
-- name: 🇩🇪 125  | ⬇️ 33KB/s
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: dg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: dg1.mangshe.xyz
-  type: hysteria2
-- country: 🇬🇧GB
-  name: 🇩🇪 131  | ⬇️ 1MB/s
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 31.76.71.252
-  skip-cert-verify: false
-  sni: gta.internet-card.sbs
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 139  | ⬇️ 5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 109.107.155.76
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /tv/member/auth?ed
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇩🇪 140  | ⬇️ 6MB/s
-  network: ws
-  packet-encoding: ''
-  port: 8443
-  server: 132.243.203.243
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /archive
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.5MB/s
-  network: ws
-  port: '443'
-  server: 103.63.30.73
-  servername: xi.tbv.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /proxyip=us.xiabibi.cf
-  xudp: true
-- name: 🇩🇪DE_2|2.6MB/s
+- name: 🇩🇪DE_1|1.2MB/s
   password: None
-  port: 9443
-  server: 87.249.132.97
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_3|1.2MB/s
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
-- name: 🇩🇪DE_4|2.0MB/s
+- name: 🇩🇪DE_2|1023KB/s
   port: 443
-  server: 141.17.83.73
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|3.1MB/s
-  network: tcp
-  port: '7444'
-  server: 185.121.179.105
-  servername: de777.lavivas.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_6|3.0MB/s
-  network: xhttp
-  port: '9443'
-  server: 82.117.87.129
-  servername: hub-vie-01.hanvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  xhttp-opts:
-    host: hub-vie-01.hanvpn.cc
-    path: /vie01-xhttp-8e47a/
-  xudp: true
