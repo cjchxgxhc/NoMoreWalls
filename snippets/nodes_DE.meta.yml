@@ -1,70 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇩🇪 005  | ⬇️ 438KB/s #1'
+  name: 🇩🇪 048  | ⬇️ 4MB/s
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 185.36.143.223
-  servername: shuma.ccwu.cc
-  skip-cert-verify: false
+  port: 2096
+  server: 167.172.183.195
+  servername: edge.yzkvm.top
   tls: true
   type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
   ws-opts:
     headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 007  | ⬇️ 4MB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 138.124.58.31
-  servername: shuma.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
+      Host: edge.yzkvm.top
     path: /
 - encryption: none
-  name: '🇩🇪 047  | ⬇️ 571KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: de.huge-b.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9d33a05a-a51f-4d9e-afa2-592adc5dc293
-  ws-opts:
-    headers:
-      Host: de.huge-b.com
-    path: /@Artemis_Vpn
-    v2ray-http-upgrade: true
-- encryption: none
-  name: '🇩🇪 048  | ⬇️ 370KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: do.huge-b.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e589de2a-af14-4f42-b18a-d9f8bdaaadc4
-  ws-opts:
-    headers:
-      Host: do.huge-b.com
-    path: /@Artemis_Vpn
-    v2ray-http-upgrade: true
-- encryption: none
-  name: '🇩🇪 049  | ⬇️ 21KB/s #1'
+  name: 🇩🇪 049  | ⬇️ 21KB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -91,9 +40,110 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
+- name: 🇩🇪 058  | ⬇️ 274KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 172.67.185.153
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 522df6b1-a110-4163-a92f-9935561b1f77
+  ws-opts:
+    headers:
+      Host: de.huge-b.com
+    path: /@Artemis_Vpn
+    v2ray-http-upgrade: true
+- name: 🇩🇪 067  | ⬇️ 712KB/s
+  network: tcp
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  type: trojan
+- encryption: none
+  name: 🇩🇪 074  | ⬇️ 36KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 32443
+  server: freeforall.nexavps.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 00ea847b-add2-47e4-9c48-cbca742e55c9
+  xhttp-opts:
+    mode: auto
+    path: /phx
+- client-fingerprint: chrome
+  name: 🇩🇪 005  | ⬇️ 438KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.36.143.223
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 007  | ⬇️ 4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 138.124.58.31
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- encryption: none
+  name: 🇩🇪 047  | ⬇️ 571KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: de.huge-b.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9d33a05a-a51f-4d9e-afa2-592adc5dc293
+  ws-opts:
+    headers:
+      Host: de.huge-b.com
+    path: /@Artemis_Vpn
+    v2ray-http-upgrade: true
+- encryption: none
+  name: 🇩🇪 048  | ⬇️ 370KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: do.huge-b.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e589de2a-af14-4f42-b18a-d9f8bdaaadc4
+  ws-opts:
+    headers:
+      Host: do.huge-b.com
+    path: /@Artemis_Vpn
+    v2ray-http-upgrade: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 053  | ⬇️ 2MB/s #1'
+  name: 🇩🇪 053  | ⬇️ 2MB/s
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -108,17 +158,15 @@ proxies:
     headers:
       Host: do.huge-b.com
     path: /@Artemis_Vpn
-- name: 🇩🇪DE_1|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_2|1023KB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+- down: ''
+  fingerprint: 8b5ac8eb1c23f208cb6e92bd41407d32994b0668d3ba2b0cd56400dca8c0b843
+  name: 🇩🇪DE_2|2.9MB/s
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: v2rayyngvpn
+  port: '443'
+  server: 168.222.43.35
+  skip-cert-verify: false
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
