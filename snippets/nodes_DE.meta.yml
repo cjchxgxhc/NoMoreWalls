@@ -1,6 +1,38 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇩🇪 005  | ⬇️ 438KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.36.143.223
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 007  | ⬇️ 4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 138.124.58.31
+  servername: shuma.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - encryption: none
-  name: 🇩🇪 001  | ⬇️ 283KB/s
+  name: 🇩🇪 047  | ⬇️ 571KB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -15,42 +47,8 @@ proxies:
       Host: de.huge-b.com
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 002  | ⬇️ 4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: '!!str f7d0420b8ab26060'
-  server: 185.238.191.109
-  servername: de3.global-cdn.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1e078c17-3a93-462d-9fce-9276609e29e2
 - encryption: none
-  name: 🇩🇪 004  | ⬇️ 36KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: de.huge-b.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b3329b57-8b0b-4573-ae7a-67651eaba2a9
-  ws-opts:
-    headers:
-      Host: de.huge-b.com
-    path: /@Artemis_Vpn
-    v2ray-http-upgrade: true
-- encryption: none
-  name: 🇩🇪 055  | ⬇️ 467KB/s
+  name: 🇩🇪 048  | ⬇️ 370KB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -65,27 +63,8 @@ proxies:
       Host: do.huge-b.com
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 108  | ⬇️ 29KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 10654
-  reality-opts:
-    public-key: ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM
-    short-id: '!!str 5c3fb122'
-  server: 217.19.122.17
-  servername: bl3fk52.sysopnova.art
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  xhttp-opts:
-    mode: packet-up
-    path: /xhttp_client_upload
 - encryption: none
-  name: 🇩🇪 081  | ⬇️ 303KB/s
+  name: 🇩🇪 049  | ⬇️ 21KB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -100,39 +79,23 @@ proxies:
       Host: de.huge-b.com
     path: /@Artemis_Vpn
     v2ray-http-upgrade: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪 089  | ⬇️ 3MB/s
-  network: xhttp
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 053  | ⬇️ 2MB/s
+  network: ws
   packet-encoding: xudp
-  port: 2087
-  server: 188.114.97.6
-  servername: denet1.17e1feeuzi.online
+  port: 2053
+  server: do.huge-b.com
+  servername: do.huge-b.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  xhttp-opts:
-    host: denet1.17e1feeuzi.online
-    mode: stream-one
-    path: /meti
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 100  | ⬇️ 37KB/s
-  network: ws
-  password: MiTIVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
+  uuid: e589de2a-af14-4f42-b18a-d9f8bdaaadc4
   ws-opts:
     headers:
-      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
-    path: /
+      Host: do.huge-b.com
+    path: /@Artemis_Vpn
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -349,6 +312,25 @@ proxies:
   type: vless
   udp: true
   uuid: 9c64f1aa-da4d-4c3e-9617-9bfbf1657a75
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 108  | ⬇️ 29KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 10654
+  reality-opts:
+    public-key: ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM
+    short-id: '!!str 5c3fb122'
+  server: 217.19.122.17
+  servername: bl3fk52.sysopnova.art
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  xhttp-opts:
+    mode: packet-up
+    path: /xhttp_client_upload
 - client-fingerprint: chrome
   name: 🇩🇪 109  | ⬇️ 7MB/s
   network: ws
@@ -440,56 +422,25 @@ proxies:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
     path: /archive
-- http-opts:
-    headers:
-      Host:
-      - play-apps-features.googleusercontent.com
-    method: GET
-    path:
-    - /@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray
-  name: 🇩🇪DE_1|4.5MB/s
-  network: http
-  port: 26437
-  server: 91.107.144.22
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0b05ddba-6e1f-4a77-ac5a-4a9f9d08d543
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_2|2.0MB/s
-  network: xhttp
-  port: 2087
-  server: 104.24.219.225
-  servername: allsmart1.17e1feeuzi.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  xhttp-opts:
-    host: allsmart1.17e1feeuzi.online
-    mode: stream-one
-    path: /meti
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.0MB/s
-  network: xhttp
+  encryption: none
+  name: 🇩🇪DE_1|1.5MB/s
+  network: ws
   port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
+  server: 103.63.30.73
+  servername: xi.tbv.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 4a5fa7d0-3409-4f5d-905f-79521675113a
-  xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN--@UonVPN-*-@UonVPN--*-@UonVPN--**-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN-*--@UonVPN
-    x-padding-bytes: 100-1000
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /proxyip=us.xiabibi.cf
   xudp: true
-- name: 🇩🇪DE_6|2.7MB/s
+- name: 🇩🇪DE_2|2.6MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -497,50 +448,42 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  name: 🇩🇪DE_7|3.6MB/s
-  network: ws
-  port: 2096
-  server: 167.172.183.195
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: /
-- name: 🇩🇪DE_8|3.3MB/s
+- name: 🇩🇪DE_3|1.2MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: None
+- name: 🇩🇪DE_4|2.0MB/s
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.2MB/s
+  name: 🇩🇪DE_5|3.1MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: LMcNHcOzPISa2fmZWt2JraL6_a_IObpS2znQW70gyDo
-    short-id: '!!str '
-  server: 213.165.56.169
-  servername: fl-api.bachidze.com
+  port: '7444'
+  server: 185.121.179.105
+  servername: de777.lavivas.org
   tls: true
   type: vless
   udp: true
-  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   xudp: true
-- down: ''
-  fingerprint: 8b5ac8eb1c23f208cb6e92bd41407d32994b0668d3ba2b0cd56400dca8c0b843
-  name: 🇩🇪DE_10|2.7MB/s
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: '443'
-  server: 168.222.43.35
-  skip-cert-verify: false
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_6|3.0MB/s
+  network: xhttp
+  port: '9443'
+  server: 82.117.87.129
+  servername: hub-vie-01.hanvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  xhttp-opts:
+    host: hub-vie-01.hanvpn.cc
+    path: /vie01-xhttp-8e47a/
+  xudp: true
