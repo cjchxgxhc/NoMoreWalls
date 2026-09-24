@@ -1,38 +1,32 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 019  | ⬇️ 49KB/s
+  name: 🇩🇪 001  | ⬇️ 5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: '!!str 5c6481cdd4'
-  server: 64.118.158.56
-  servername: buckeye-retail-website.amazon.com
+    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
+    short-id: '!!str 0c13e8822e7f58aa'
+  server: 87.120.216.144
+  servername: gerwai1488.vvzzkontaktezzvv.garden
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 025  | ⬇️ 4MB/s
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- flow: xtls-rprx-vision
+  name: 🇩🇪 019  | ⬇️ 3MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 57160
-  reality-opts:
-    _spider-x: /
-    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
-    short-id: '!!str 77b5'
-  server: 77.91.76.156
-  servername: funpay.com
-  skip-cert-verify: false
+  port: 7443
+  server: dedicated.pivo.lol
+  servername: dedicated.pivo.lol
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -45,32 +39,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 054  | ⬇️ 133KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪 059  | ⬇️ 45KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
-    short-id: '!!str 992e5a9a'
-  server: 64.188.79.106
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
 - client-fingerprint: chrome
   name: 🇩🇪 048  | ⬇️ 4MB/s
   network: ws
@@ -137,33 +105,3 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /phx
-- auth: TELEGRAM-ID-conf0088
-  name: 🇩🇪DE_1|3.1MB/s
-  obfs: salamander
-  obfs-password: telegram-ID-conf0088
-  password: TELEGRAM-ID-conf0088
-  port: 25287
-  server: api.ohbah.com
-  skip-cert-verify: true
-  type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - edgedl.me.gvt1.com
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: 🇩🇪DE_2|1.3MB/s
-  network: http
-  port: '21349'
-  server: 5.75.202.116
-  type: vless
-  udp: true
-  uuid: 2789c2ec-d860-4b75-a614-49e8ab65f7bc
-  xudp: true
-- name: 🇩🇪DE_3|1.4MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
