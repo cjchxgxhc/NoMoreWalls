@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵 014  | ⬇️ 10MB/s
+- name: '🇯🇵 009  | ⬇️ 11MB/s #1'
   network: ws
   port: 2082
   server: 108.162.198.178
@@ -15,7 +15,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /
 - cipher: aes-256-cfb
-  name: 🇯🇵 012  | ⬇️ 9MB/s
+  name: '🇯🇵 012  | ⬇️ 9MB/s #1'
   password: amazonskr05
   port: 443
   server: 3.112.209.209
@@ -23,7 +23,7 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇯🇵 013  | ⬇️ 10MB/s
+  name: '🇯🇵 013  | ⬇️ 10MB/s #1'
   password: amazonskr05
   port: 443
   server: 13.231.184.186
@@ -31,7 +31,7 @@ proxies:
   type: ss
   udp: false
 - client-fingerprint: chrome
-  name: 🇯🇵 056  | ⬇️ 22KB/s
+  name: '🇯🇵 047  | ⬇️ 48KB/s #1'
   network: ws
   port: 443
   server: 162.159.254.3
@@ -48,64 +48,26 @@ proxies:
     path: /tyxyws
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 088  | ⬇️ 5MB/s
+  name: '🇯🇵 088  | ⬇️ 5MB/s #1'
   network: tcp
   port: 28787
   server: uwz9g-g05.jp07-1f28-vm0.entry.fr0307a.art
   tls: false
   type: vmess
   uuid: d4b889ad-dd2e-39ee-ba1a-05821751bb3a
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵 003  | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: ''
-  port: 443
-  server: 45.77.129.201
-  servername: mia3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  ws-opts:
-    headers:
-      Host: mia3.pages.dev
-    path: /TG:@MiaChatChannel
-- client-fingerprint: chrome
-  name: 🇯🇵 004  | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 64.176.34.130
-  servername: shuma.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.6MB/s
-  network: ws
-  port: 443
-  server: cn.uxuan.cfd
-  servername: digjp.murphyweb.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-  ws-opts:
-    headers:
-      Host: digjp.murphyweb.top
-    path: /9b8cb96f0fdf/57654fd6b8b4n2M4bV6cC8xX0zZ1aQ3w/e532fbf9-cc5f-4da4-9bb1-66c16ec49137
 - auth: my_super_password_123
-  name: 🇯🇵JP_2|2.1MB/s
+  name: 🇯🇵JP_1|5.4MB/s
   password: my_super_password_123
   port: 443
+  server: open.w2m.ink
+  skip-cert-verify: true
+  sni: open.w2m.ink
+  type: hysteria2
+  udp: true
+- auth: my_super_password_123
+  name: 🇯🇵JP_2|5.3MB/s
+  password: my_super_password_123
+  port: 5443
   server: open.w2m.ink
   skip-cert-verify: true
   sni: open.w2m.ink
