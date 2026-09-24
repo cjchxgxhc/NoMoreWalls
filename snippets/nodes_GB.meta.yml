@@ -1,7 +1,24 @@
 proxies:
+- name: 🇬🇧 042  | ⬇️ 3MB/s
+  password: ''
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
+  username: ''
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 078  | ⬇️ 61KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇬🇧 002  | ⬇️ 5MB/s #1'
+  name: 🇬🇧 002  | ⬇️ 5MB/s
   network: tcp
   port: 64823
   reality-opts:
@@ -13,24 +30,7 @@ proxies:
   type: vless
   udp: true
   uuid: 55848813-689e-4a39-82cf-00748cbc7289
-- name: '🇬🇧 042  | ⬇️ 3MB/s #1'
-  password: ''
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  username: ''
-- alterId: 2
-  cipher: auto
-  name: '🇬🇧 078  | ⬇️ 61KB/s #1'
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇬🇧GB_4|3.1MB/s
+- name: 🇬🇧GB_1|1.1MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -38,34 +38,16 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|2.9MB/s
-  password: None
+- name: 🇬🇧GB_2|1.2MB/s
   port: 443
-  server: 185.235.0.34
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_3|3.1MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇬🇧GB_5|3.0MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_6|1.9MB/s
+- name: 🇬🇧GB_3|2.1MB/s
   password: None
   port: 443
-  server: 185.235.0.66
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
