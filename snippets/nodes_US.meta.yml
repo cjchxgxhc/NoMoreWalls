@@ -1,28 +1,33 @@
 proxies:
-- name: 🇺🇸 004  | ⬇️ 7KB/s
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  tfo: false
-  type: hysteria2
-- name: 🇺🇸US_5|2.6MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-- name: 🇺🇸 032  | ⬇️ 3KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
+- name: 🇺🇸 085  | ⬇️ 1MB/s
+  network: ws
+  port: 2052
+  server: 172.64.229.170
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
   udp: true
-- name: 🇺🇸 016  | ⬇️ 208KB/s
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 011  | ⬇️ 6MB/s
+  network: ws
+  port: 2052
+  server: 104.18.34.14
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 013  | ⬇️ 6MB/s
   network: ws
   port: 2095
   server: 104.18.34.14
@@ -36,115 +41,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: 🇺🇸 082  | ⬇️ 6MB/s
-  network: ws
-  port: 2086
-  server: 104.18.47.113
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇺🇸 021  | ⬇️ 2MB/s
-  network: ws
-  port: 2086
-  server: 162.159.45.19
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸 022  | ⬇️ 92KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: '!!str ee33'
-  server: 72.56.41.33
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- client-fingerprint: chrome
-  name: 🇺🇸 025  | ⬇️ 245KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.67.150.230
-  servername: 8-M19.MEXICo-pOrt.Ccwu.Cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  ws-opts:
-    headers:
-      Host: 8-M19.mexIco-PoRT.CcWU.Cc
-    path: /CjBjB9sn5pCvaSwScc
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇺🇸 033  | ⬇️ 11KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: '!!str ee33'
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- name: 🇺🇸 035  | ⬇️ 132KB/s
-  network: tcp
-  port: 8444
-  server: us.netease.uz
-  servername: us.netease.uz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd3b5215-287b-4f16-84d9-6b5854dea110
-- encryption: mlkem768x25519plus.native.0rtt.Px0rEez31FH9Ten81Og17JMaeLuA6l3iAW-Bfu2_Rh0
-  name: 🇺🇸 041  | ⬇️ 91KB/s
-  network: ws
-  port: 2082
-  server: down.chaqalli.com
-  type: vless
-  udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-  ws-opts:
-    headers:
-      Host: down.chaqalli.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸 045  | ⬇️ 1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.147.191.121
-  type: ss
-  udp: true
 - name: 🇺🇸 020  | ⬇️ 6MB/s
   network: ws
   port: 2086
@@ -159,6 +55,85 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
+- name: 🇺🇸 015  | ⬇️ 6MB/s
+  network: ws
+  port: 2086
+  server: 162.159.45.19
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 018  | ⬇️ 26KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tfo: false
+  type: hysteria2
+- name: 🇺🇸 021  | ⬇️ 1MB/s
+  network: ws
+  port: 2086
+  server: 104.18.46.46
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇺🇸 034  | ⬇️ 6MB/s
+  network: ws
+  port: 8880
+  server: 104.18.47.113
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 039  | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 87.76.198.228
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /t.me/daily_free_vpn
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 040  | ⬇️ 100KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -170,22 +145,17 @@ proxies:
   server: v4.hdacd.com
   servername: v4.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 054  | ⬇️ 2MB/s
-  network: ws
-  port: 2052
-  server: 104.18.34.14
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
+- name: 🇺🇸 024  | ⬇️ 29KB/s
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - client-fingerprint: chrome
   name: 🇺🇸 005  | ⬇️ 721KB/s
   network: tcp
@@ -212,21 +182,6 @@ proxies:
   network: ws
   port: 2086
   server: 172.64.229.170
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇺🇸 021  | ⬇️ 1MB/s
-  network: ws
-  port: 2086
-  server: 104.18.46.46
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: false
   tfo: true
   tls: false
@@ -266,14 +221,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: 🇺🇸 024  | ⬇️ 29KB/s
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
 - name: 🇺🇸 027  | ⬇️ 6MB/s
   network: ws
   port: 2086
@@ -289,6 +236,13 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
+- name: 🇺🇸US_2|2.7MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
 - name: 🇺🇸 030  | ⬇️ 992KB/s
   network: ws
   port: 8080
@@ -303,6 +257,13 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
+- name: 🇺🇸 032  | ⬇️ 3KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
 - name: 🇺🇸 037  | ⬇️ 1MB/s
   network: ws
   port: 443
@@ -399,7 +360,7 @@ proxies:
       Host: 7.qq1-0.kdns.fr
     path: /LNbYtR09FXg1AmmjhdiHvR8v
 - client-fingerprint: chrome
-  name: '🇺🇸 054  | ⬇️ 2MB/s #1'
+  name: 🇺🇸 054  | ⬇️ 2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -469,6 +430,20 @@ proxies:
   server: 104.168.249.36
   type: socks5
   username: test123
+- name: 🇺🇸 082  | ⬇️ 6MB/s
+  network: ws
+  port: 2086
+  server: 104.18.47.113
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸 083  | ⬇️ 32KB/s
@@ -486,20 +461,6 @@ proxies:
     headers:
       Host: thus-k.netnode.cc.cd
     path: /t.me/daily_free_vpn
-- name: 🇺🇸 085  | ⬇️ 1MB/s
-  network: ws
-  port: 2052
-  server: 172.64.229.170
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - client-fingerprint: chrome
   name: 🇺🇸 087  | ⬇️ 953KB/s
   network: ws
@@ -521,113 +482,19 @@ proxies:
   server: 144.24.47.42
   type: socks5
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.ujGwPjrSYI7GdKHFCqCefmLjOscWkoX4m_3s_1yZrEo
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.3MB/s
-  network: tcp
+  name: 🇺🇸US_1|2.7MB/s
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw
-    short-id: '!!str b684d13617792bb2'
-  server: c9e32b0b8700d8dd.us-1.globalmymusic.com
-  servername: thestraightpath.ca
+  server: 172.67.212.14
+  servername: 8-m19.souTh-afRiCA-ONLinE.CcwU.CC
   tls: true
   type: vless
   udp: true
-  uuid: 40490a7c-5b04-4fe3-8a68-29de9a96c091
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_2|2.2MB/s
-  obfs: salamander
-  obfs-password: maintell
-  password: maintell
-  port: '2053'
-  server: 107.172.67.52
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: 🇺🇸US_3|2.8MB/s
-  network: ws
-  port: '8080'
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   ws-opts:
     headers:
-      Host: server16.peekconfig.workers.dev
+      Host: 8-m19.SoUth-AFriCa-onlInE.cCwU.cC
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
-  xudp: true
-- name: 🇺🇸US_4|2.7MB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.5MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.8MB/s
-  password: ''
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_10|1.9MB/s
-  network: ws
-  port: 443
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_11|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-    short-id: '!!str befa80d97af98b74'
-  server: 38.244.20.25
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /CjBjB9sn5pCvaSwScc
   xudp: true

@@ -1,12 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇯🇵 012  | ⬇️ 9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.209.209
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- country: 🇯🇵JP
+  name: 🇯🇵JP_1|2.2MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵 033  | ⬇️ 5KB/s
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  servername: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇯🇵 009  | ⬇️ 11MB/s
   network: ws
   port: 2082
@@ -23,34 +37,13 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /
 - cipher: aes-256-cfb
-  name: 🇯🇵 042  | ⬇️ 9MB/s
+  name: 🇯🇵 012  | ⬇️ 9MB/s
   password: amazonskr05
   port: 443
-  server: 54.95.40.17
+  server: 3.112.209.209
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 043  | ⬇️ 3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4443
-  server: 91.186.218.227
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6688ad6a-b44a-4482-9c34-d2da7a60f52a
-  ws-opts:
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-    path: /@Marisa_kristi
 - cipher: aes-256-cfb
   name: 🇯🇵 013  | ⬇️ 10MB/s
   password: amazonskr05

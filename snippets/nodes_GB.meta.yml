@@ -2,49 +2,54 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 005  | ⬇️ 29KB/s
+  name: 🇬🇧 001  | ⬇️ 925KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    _spider-x: /
-    public-key: J_p_dxR8dIKaezk1_Ins5MZ7e4dqgrr2n9690vVuQ2s
-    short-id: '!!str b19b017d6f453873'
-  server: 23.81.34.204
-  servername: speed.cloudflare.com
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 138.124.121.231
+  servername: amd.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 99955907-9070-46f0-a200-9c7a0b9d74fe
-- client-fingerprint: safari
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 024  | ⬇️ 2MB/s
+  name: 🇬🇧 002  | ⬇️ 22KB/s
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: '!!str 2e124af254a65e7c'
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 138.124.121.233
+  servername: amd.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 002  | ⬇️ 5MB/s
-  network: tcp
-  port: 64823
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧 009  | ⬇️ 133KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9880
   reality-opts:
-    public-key: 1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q
-    short-id: '!!str d3a6bfdaa8c732'
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  servername: www.lamer.com.hk
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aa'
+  server: 168.222.194.138
+  servername: dl.google.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 55848813-689e-4a39-82cf-00748cbc7289
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
 - name: 🇬🇧 042  | ⬇️ 3MB/s
   password: ''
   port: 1080
@@ -62,23 +67,29 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇬🇧GB_1|2.4MB/s
-  password: ''
-  port: 443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 002  | ⬇️ 5MB/s
+  network: tcp
+  port: 64823
+  reality-opts:
+    public-key: 1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q
+    short-id: '!!str d3a6bfdaa8c732'
+  server: clhkzzzdbgwxxndnlm.cfooov.xyz
+  servername: www.lamer.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55848813-689e-4a39-82cf-00748cbc7289
+- name: 🇬🇧GB_1|1.4MB/s
+  password: None
+  port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇬🇧GB_2|1.9MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
   username: null
-- name: 🇬🇧GB_3|2.8MB/s
+- name: 🇬🇧GB_2|1.0MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -86,17 +97,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|3.0MB/s
-  password: None
+- name: 🇬🇧GB_3|1.3MB/s
   port: 443
-  server: 37.120.233.18
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_5|2.9MB/s
+- name: 🇬🇧GB_4|2.8MB/s
   port: 443
-  server: 84.17.50.193
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
