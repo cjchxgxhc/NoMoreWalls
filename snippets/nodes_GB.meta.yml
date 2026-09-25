@@ -1,25 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧 001  | ⬇️ 925KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: '!!str a696de84963656de'
-  server: 138.124.121.231
-  servername: amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧 002  | ⬇️ 22KB/s
+  name: 🇬🇧 030  | ⬇️ 47KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -33,29 +15,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧 009  | ⬇️ 133KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9880
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aa'
-  server: 168.222.194.138
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- name: 🇬🇧 042  | ⬇️ 3MB/s
-  password: ''
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  username: ''
 - alterId: 2
   cipher: auto
   name: 🇬🇧 078  | ⬇️ 61KB/s
@@ -81,15 +40,90 @@ proxies:
   type: vless
   udp: true
   uuid: 55848813-689e-4a39-82cf-00748cbc7289
-- name: 🇬🇧GB_1|2.5MB/s
+- name: 🇬🇧 042  | ⬇️ 3MB/s
   password: ''
-  port: 443
+  port: 1080
+  server: 83.147.216.208
+  type: socks5
+  username: ''
+- name: 🇬🇧GB_1|2.5MB/s
+  password: None
+  port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇬🇧GB_2|2.3MB/s
+  username: null
+- name: 🇬🇧GB_2|1.2MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|2.5MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- http-opts:
+    headers:
+      Host:
+      - cafebazaar.ir
+    method: GET
+    path:
+    - /
+  name: 🇬🇧GB_4|4.6MB/s
+  network: http
+  port: 11186
+  server: 188.166.146.136
+  tls: false
+  type: vless
+  udp: true
+  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
+- name: 🇬🇧GB_5|1.8MB/s
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|2.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_7|1.1MB/s
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_8|2.9MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_9|2.9MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_10|2.9MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_11|3.1MB/s
   password: None
   port: 443
   server: 212.102.63.1

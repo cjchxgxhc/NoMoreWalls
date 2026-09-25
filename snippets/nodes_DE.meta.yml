@@ -1,42 +1,50 @@
 proxies:
-- client-fingerprint: safari
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 002  | ⬇️ 45KB/s
+  network: ws
+  password: MItIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪 021  | ⬇️ 3MB/s
+  name: 🇩🇪 025  | ⬇️ 10KB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
+  port: 43000
   reality-opts:
-    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
-    short-id: '!!str 0c13e8822e7f58aa'
-  server: 87.120.216.144
-  servername: gerwai1488.vvzzkontaktezzvv.garden
+    _spider-x: /AhmadV2ray
+    public-key: _DGWZQ4zhNofSvUlOPT5yhiuuRepvNeUlcIZQLj8qmk
+    short-id: '!!str 16080c767d510e25'
+  server: 150.241.103.8
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 055  | ⬇️ 2MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 037  | ⬇️ 18KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - h2
+  client-fingerprint: chrome
+  name: 🇩🇪 043  | ⬇️ 885KB/s
+  network: ws
+  password: 95xjvytiw5l1jln5
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uwu.dianaw.cc.cd
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - client-fingerprint: chrome
   name: 🇩🇪 048  | ⬇️ 4MB/s
   network: ws
@@ -103,11 +111,24 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /phx
-- name: 🇩🇪DE_1|2.5MB/s
+- name: 🇩🇪DE_1|1.1MB/s
   password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
+  port: 11111
+  server: 103.237.102.191
   type: http
   username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|4.3MB/s
+  network: tcp
+  port: '2434'
+  reality-opts:
+    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
+    short-id: '!!str 9de041877612a718'
+  server: de14.bexait.ir
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8948424-5bca-4792-b2c2-c1ce226b3531
+  xudp: true
