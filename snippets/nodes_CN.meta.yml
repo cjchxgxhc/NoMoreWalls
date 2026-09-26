@@ -1,4 +1,9 @@
 proxies:
+- name: 🇨🇳 093  | ⬇️ 1MB/s
+  port: 1080
+  server: 103.210.161.8
+  skip-cert-verify: false
+  type: socks5
 - name: 🇨🇳 073  | ⬇️ 10MB/s
   password: Og==
   port: 1080
@@ -9,24 +14,26 @@ proxies:
 - ip: 172.16.0.2/32
   keepalive: '25'
   mtu: 1380
-  name: 🇨🇳 068  | ⬇️ 56KB/s
+  name: 🇨🇳 071  | ⬇️ 425KB/s
   persistent-keepalive: '25'
-  port: 988
-  private-key: 6PAZW9O95BQgDwFjbySsjJpSHZxb/KbrsgheUBXSF0I=
+  port: 934
+  private-key: 6NcXfVkz/AfkMIQpiUZEwwczmJjKVl1Bc6jJT1ssumg=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 244
-  - 231
-  - 144
-  server: 162.159.192.18
+  - 17
+  - 102
+  - 140
+  server: 162.159.192.17
   type: wireguard
   udp: true
   wnoise: quic
   wnoisecount: '5'
   wnoisedelay: '5'
   wpayloadsize: 40-90
-- name: 🇨🇳 093  | ⬇️ 1MB/s
+- name: 🇨🇳 076  | ⬇️ 49KB/s
+  password: T2c9PTpPZz09
   port: 1080
   server: 103.210.161.8
-  skip-cert-verify: false
   type: socks5
+  udp: true
+  username: T2c9PTpPZz09

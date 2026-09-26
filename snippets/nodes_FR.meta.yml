@@ -1,30 +1,39 @@
 proxies:
-- name: 🇫🇷 009  | ⬇️ 24KB/s
+- disable-sni: true
+  name: 🇫🇷 017  | ⬇️ 3MB/s
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+- encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
+  name: 🇫🇷 041  | ⬇️ 815KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 6010
+  server: fr.masterpgd.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
+  xhttp-opts:
+    host: myket.ir
+    mode: stream-up
+    path: /assets
+- name: 🇫🇷 048  | ⬇️ 2MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: bing.com
+  sni: www.bing.com
   type: hysteria2
-- name: 🇫🇷 036  | ⬇️ 4KB/s
+- name: 🇫🇷 049  | ⬇️ 33KB/s
   port: 1088
   server: 144.91.121.61
   type: socks5
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇫🇷 070  | ⬇️ 16KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  servername: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:

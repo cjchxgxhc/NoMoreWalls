@@ -1,40 +1,22 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 002  | ⬇️ 45KB/s
-  network: ws
-  password: MItIVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 025  | ⬇️ 10KB/s
+  name: 🇩🇪 028  | ⬇️ 4MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 43000
+  port: 443
   reality-opts:
-    _spider-x: /AhmadV2ray
-    public-key: _DGWZQ4zhNofSvUlOPT5yhiuuRepvNeUlcIZQLj8qmk
-    short-id: '!!str 16080c767d510e25'
-  server: 150.241.103.8
-  skip-cert-verify: false
+    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+    short-id: '!!str a1b2c3d4e5f6a1b2'
+  server: nl2.gursub.com
+  servername: nl2.gursub.com
   tls: true
   type: vless
   udp: true
-  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: 🇩🇪 043  | ⬇️ 885KB/s
+  name: 🇩🇪 047  | ⬇️ 619KB/s
   network: ws
   password: 95xjvytiw5l1jln5
   port: 2087
@@ -45,6 +27,18 @@ proxies:
     headers:
       Host: uwu.dianaw.cc.cd
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- alterId: 2
+  cipher: auto
+  name: '🇩🇪 061 '
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
   name: 🇩🇪 048  | ⬇️ 4MB/s
   network: ws
@@ -111,54 +105,3 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /phx
-- name: 🇩🇪DE_1|2.0MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_2|1.6MB/s
-  network: xhttp
-  port: '7443'
-  reality-opts:
-    public-key: ypzgxQ7VhTlTqjT0pAzWBIyotcG7SYqMpErwMBDci0g
-    short-id: '!!str '
-  server: 46.243.142.42
-  servername: shprcdn.homes
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65cd649c-f2f5-49c4-8f57-94d9b706e846
-  xhttp-opts:
-    mode: stream-one
-    path: /content/dash/segments/
-    reuse-settings:
-      c-max-reuse-times: 256-512
-      h-keep-alive-period: 0
-      h-max-request-times: '0'
-      h-max-reusable-secs: 900-1500
-      max-concurrency: 16-32
-      max-connections: '0'
-    session-length: '0'
-    x-padding-bytes: 50-150
-    x-padding-obfs-mode: false
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_3|1.0MB/s
-  network: xhttp
-  port: '443'
-  server: 31.70.64.90
-  servername: cdn-3123.spliceflowtech.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  xhttp-opts:
-    mode: auto
-    path: /api
-  xudp: true
