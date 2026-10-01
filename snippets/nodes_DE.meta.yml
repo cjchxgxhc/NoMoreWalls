@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪 041  | ⬇️ 41KB/s
+  name: '🇩🇪 041  | ⬇️ 41KB/s #1'
   network: ws
   password: mitivpn
   port: 443
@@ -20,7 +20,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: cdn.v1.DeService
-  name: 🇩🇪 062  | ⬇️ 654KB/s
+  name: '🇩🇪 062  | ⬇️ 654KB/s #1'
   network: grpc
   port: 443
   server: ru3.pleiades.codes
@@ -29,98 +29,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-- encryption: none
-  name: 🇩🇪 001  | ⬇️ 6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 45.77.143.204
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8ccc4581-eba9-4226-abbc-64e7d8fb415e
-  ws-opts:
-    path: /
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪 002  | ⬇️ 8MB/s
-  password: UoUzY5YlcUBJpgXi/Z3PEaf58E+++FJ+3AKry5V7J9Y=
-  port: 59924
-  server: 130.61.232.1
-  type: ss
-  udp: true
-- name: 🇩🇪 008  | ⬇️ 9KB/s
-  password: fc04RSUu3TfONQnlbKTwvA
-  port: 8443
-  server: 8.211.15.144
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
-- name: 🇩🇪 012  | ⬇️ 5MB/s
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.133
-  skip-cert-verify: false
-  sni: hop-germany-september.dynuddns.com
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 029  | ⬇️ 3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: amus.konus.buzz
-  servername: amus.konus.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4d44c2-f237-4d6b-bb09-77b839fe7ea4
-  xhttp-opts:
-    host: amus.konus.buzz
-    mode: packet-up
-    path: /api/garden/feed
-    reuse-settings:
-      c-max-reuse-times: 28-84
-      h-max-request-times: 360-720
-      h-max-reusable-secs: 1100-2400
-      max-concurrency: 22-38
-      max-connections: '0'
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 45
-    seq-key: preferences
-    seq-placement: cookie
-    session-key: member_id
-    session-placement: cookie
-    uplink-chunk-size: 0
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 108-1090
-    x-padding-header: X-Plant-Token
-    x-padding-key: _g
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- name: 🇩🇪 035  | ⬇️ 292KB/s
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
-  port: 8443
-  server: 2.26.54.174
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇩🇪 079  | ⬇️ 4MB/s
-  network: ws
-  password: 95xjvytiw5l1jln5
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪DE_2|1.7MB/s
