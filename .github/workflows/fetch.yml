@@ -13,6 +13,10 @@ on:
       - '.github/workflows/fetch.yml'
       - '**.py'
 
+permissions:
+  contents: write
+  actions: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
