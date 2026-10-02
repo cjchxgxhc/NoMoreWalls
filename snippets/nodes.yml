@@ -1,39 +1,89 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 004  | ⬇️ 324KB/s
+  password: amazonskr05
+  port: 443
+  server: 34.201.71.226
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 🇭🇰 013  | ⬇️ 10KB/s
-  network: http
-  port: 800
-  server: 47.86.167.194
-  servername: sjskendn.dingtalk.com
-  skip-cert-verify: true
+  client-fingerprint: ''
+  name: 🇭🇰 046  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  name: 🇹🇼 016  | ⬇️ 1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  type: ss
-- name: 🇭🇰 017  | ⬇️ 71KB/s
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 014  | ⬇️ 9MB/s
+  network: ws
+  port: 443
+  server: 47.243.153.153
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- alterId: '2'
+  cipher: auto
+  name: 🇯🇵 017  | ⬇️ 32KB/s
   network: tcp
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 2052
-  server: 47.240.80.220
-  skip-cert-verify: true
-  sni: 47.240.80.220
-  type: trojan
+  port: 11262
+  server: goldcnmltyljgfwgov.vip62.wogcnmnnagfwgov.com
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 018  | ⬇️ 95KB/s
+  network: tcp
+  port: 11207
+  server: sbgfgov.vip7.wogacnmnagfwgov.com
+  type: vmess
+  udp: true
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- cipher: aes-256-cfb
+  name: 🇫🇷 019  | ⬇️ 3MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.181.55.52
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  name: '🇰🇷 021 '
+  network: tcp
+  port: 11240
+  server: silversbgfgov.vip40.wogbcnmnagfwgov.com
+  type: vmess
+  udp: true
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- cipher: aes-256-cfb
+  name: 🇸🇪 026  | ⬇️ 7MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.20.96.231
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇫🇷 030  | ⬇️ 4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.38.84.99
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -54,220 +104,34 @@ proxies:
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 024  | ⬇️ 6KB/s
+  name: 🇭🇰 071  | ⬇️ 29KB/s
   network: ws
-  port: 443
-  server: 47.243.153.153
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: '2'
-  cipher: auto
-  name: 🇯🇵 027  | ⬇️ 1MB/s
-  network: tcp
-  port: 11257
-  server: goldcnmltyljgfwgov.vip57.wogcnmnnagfwgov.com
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- cipher: aes-256-gcm
-  name: 🇯🇵 028  | ⬇️ 99KB/s
-  password: 9cfaa78d51ac366f
-  port: 20999
-  server: 103.115.18.145
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 2
-  cipher: auto
-  name: 🇰🇷 029  | ⬇️ 12KB/s
-  network: tcp
-  port: 11240
-  server: silversbgfgov.vip40.wogbcnmnagfwgov.com
+  port: 44867
+  server: 47.244.120.197
   tls: false
   type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- cipher: aes-256-cfb
-  name: 🇺🇸 044  | ⬇️ 3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.95.209.183
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧 051  | ⬇️ 58KB/s
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.188
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
-    headers:
-      Host: mitivpn---gb--s---mitivpn-1.global.ssl.fastly.net
-    path: /
-- cipher: aes-256-gcm
-  name: 🇷🇺 052  | ⬇️ 13KB/s
-  password: 8ad9d72a5571df86
-  port: 20999
-  server: 195.58.48.137
-  skip-cert-verify: false
-  type: ss
-  udp: false
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers: {}
+    max-early-data: 2048
+    path: /arki
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 057  | ⬇️ 9KB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 041  | ⬇️ 41KB/s
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.170
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇳🇱 074  | ⬇️ 647KB/s
-  network: ws
-  password: 8GXLP3dEzm7T8wP5Jx0Ufg
-  port: 443
-  server: 199.107.164.105
-  skip-cert-verify: true
-  sni: quictest.burncommunity.ru
-  type: trojan
-  ws-opts:
-    path: /
-- name: 🇹🇷 075  | ⬇️ 594KB/s
-  network: ws
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  port: 2053
-  server: nimm.mpd.cc.cd
-  skip-cert-verify: true
-  sni: nimm.mpd.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: nimm.mpd.cc.cd
-    path: /0962
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
+  country: 🇺🇸US
   h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 072  | ⬇️ 1KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 🇭🇰 078  | ⬇️ 20KB/s
+  network: http
+  port: 800
+  server: 47.86.167.194
+  servername: sjskendn.dingtalk.com
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰 083 '
-  network: tcp
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 085  | ⬇️ 111KB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: us3.zestapp778.com
-  skip-cert-verify: false
-  sni: us3.zestapp778.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸 089  | ⬇️ 71KB/s
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.7
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 092  | ⬇️ 1KB/s
-  network: ws
-  port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 095  | ⬇️ 394KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
-    mode: tls
-  port: 2377
-  server: 134.195.101.118
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 099 '
-  network: ws
-  port: 443
-  server: 47.83.207.148
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 004  | ⬇️ 5MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -277,6 +141,45 @@ proxies:
     mode: tls
   port: 2377
   server: 134.195.101.117
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇪🇸 084  | ⬇️ 2MB/s
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 5.188.181.201
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇫🇷 085  | ⬇️ 2MB/s
+  password: amazonskr05
+  port: 443
+  server: 15.236.38.55
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 024  | ⬇️ 12KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-cfb
+  name: 🇪🇸 092  | ⬇️ 1MB/s
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 5.188.181.201
   skip-cert-verify: false
   type: ss
   udp: false
@@ -322,22 +225,6 @@ proxies:
     headers: {}
     max-early-data: 2048
     path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 024  | ⬇️ 12KB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
 - cipher: aes-256-cfb
   name: 🇺🇸 031  | ⬇️ 1MB/s
   password: amazonskr05
@@ -367,6 +254,21 @@ proxies:
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
     path: /ws-vmess
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 041  | ⬇️ 41KB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.170
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -391,21 +293,6 @@ proxies:
   sni: vpn.12169.top
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 046  | ⬇️ 1KB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 🇭🇰 063  | ⬇️ 1KB/s
@@ -461,3 +348,12 @@ proxies:
     headers:
       Host: wwafj5LHl6bI8aU9.v.3dns.vip
     path: /ws-vmess
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 072  | ⬇️ 1KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

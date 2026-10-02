@@ -1,6 +1,14 @@
 proxies:
+- name: 🇬🇧 049  | ⬇️ 2MB/s
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 53991
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: jp03.pulsarcore.site
+  type: anytls
+  udp: true
 - allowInsecure: '1'
-  name: 🇬🇧 023  | ⬇️ 4MB/s
+  name: 🇬🇧 076  | ⬇️ 602KB/s
   packet-encoding: ''
   packetEncoding: none
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
@@ -11,28 +19,6 @@ proxies:
   sub-tag: P002-260618
   type: anytls
   udp: true
-- name: 🇬🇧 032  | ⬇️ 1MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: yg.mangshe.xyz
-  skip-cert-verify: true
-  sni: yg.mangshe.xyz
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧 051  | ⬇️ 58KB/s
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.188
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---gb--s---mitivpn-1.global.ssl.fastly.net
-    path: /
 - name: 🇬🇧 001  | ⬇️ 426KB/s
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   port: 2056
