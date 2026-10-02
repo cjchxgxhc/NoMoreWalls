@@ -1,19 +1,29 @@
 proxies:
-- name: '🇭🇰 003  | ⬇️ 3MB/s #1'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: xg1.mangshe.xyz
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 🇭🇰 013  | ⬇️ 10KB/s
+  network: http
+  port: 800
+  server: 47.86.167.194
+  servername: sjskendn.dingtalk.com
   skip-cert-verify: true
-  sni: xg1.mangshe.xyz
-  tfo: false
-  type: hysteria2
-- name: '🇭🇰 008  | ⬇️ 10KB/s #1'
-  password: HysTeria2026!Proxy
-  port: 8443
-  server: mz.hkychina.com
-  skip-cert-verify: false
-  sni: mz.hkychina.com
-  type: hysteria2
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- name: 🇭🇰 017  | ⬇️ 71KB/s
+  network: tcp
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  port: 2052
+  server: 47.240.80.220
+  skip-cert-verify: true
+  sni: 47.240.80.220
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -23,7 +33,7 @@ proxies:
       - ughrn.dingtalk.com
     path:
     - /QQqun-737805443
-  name: '🇭🇰 009  | ⬇️ 14KB/s #1'
+  name: 🇭🇰 009  | ⬇️ 14KB/s
   network: http
   port: 52080
   server: 47.242.81.94
@@ -33,20 +43,49 @@ proxies:
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 010  | ⬇️ 8KB/s #1'
+  name: 🇭🇰 024  | ⬇️ 6KB/s
   network: ws
   port: 443
-  server: 47.76.44.32
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  server: 47.243.153.153
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- name: 🇭🇰 025  | ⬇️ 9KB/s
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 28680
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: hk15.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 🇭🇰 056  | ⬇️ 342KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 057  | ⬇️ 9KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /ws-vmess
 - allowInsecure: '1'
-  name: '🇭🇰 012  | ⬇️ 825KB/s #1'
+  name: 🇭🇰 012  | ⬇️ 825KB/s
   packet-encoding: ''
   packetEncoding: none
   password: 9sK2mP8xQ7vL3nZ6
@@ -58,9 +97,95 @@ proxies:
   type: anytls
   udp: true
   username: 9sK2mP8xQ7vL3nZ6
+- client-fingerprint: edge
+  name: 🇭🇰 052  | ⬇️ 36KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 108.165.236.247
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 083 '
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 013  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 092  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 099 '
+  network: ws
+  port: 443
+  server: 47.83.207.148
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- name: 🇭🇰 003  | ⬇️ 3MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xg1.mangshe.xyz
+  tfo: false
+  type: hysteria2
+- name: 🇭🇰 008  | ⬇️ 10KB/s
+  password: HysTeria2026!Proxy
+  port: 8443
+  server: mz.hkychina.com
+  skip-cert-verify: false
+  sni: mz.hkychina.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 010  | ⬇️ 8KB/s
+  network: ws
+  port: 443
+  server: 47.76.44.32
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 013  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -74,7 +199,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: '🇭🇰 014  | ⬇️ 16KB/s #1'
+  name: 🇭🇰 014  | ⬇️ 16KB/s
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -88,7 +213,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 024  | ⬇️ 12KB/s #1'
+  name: 🇭🇰 024  | ⬇️ 12KB/s
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -104,7 +229,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 038  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 038  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: 47.76.44.32
@@ -119,7 +244,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: '🇭🇰 043  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 043  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -131,13 +256,13 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: '🇭🇰 044  | ⬇️ 14KB/s #1'
+- name: 🇭🇰 044  | ⬇️ 14KB/s
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: '🇭🇰 045  | ⬇️ 134KB/s #1'
+- name: 🇭🇰 045  | ⬇️ 134KB/s
   network: tcp
   password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   port: 2052
@@ -149,7 +274,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: '🇭🇰 046  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 046  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -162,30 +287,7 @@ proxies:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: edge
-  name: '🇭🇰 052  | ⬇️ 36KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 108.165.236.247
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- name: '🇭🇰 056  | ⬇️ 342KB/s #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  type: hysteria2
-- client-fingerprint: edge
-  name: '🇭🇰 059  | ⬇️ 348KB/s #1'
+  name: 🇭🇰 059  | ⬇️ 348KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -201,7 +303,7 @@ proxies:
       Host: hk.152568.xyz
     path: /cdn/packages/runtime-core.tar.gz
 - client-fingerprint: edge
-  name: '🇭🇰 060  | ⬇️ 49KB/s #1'
+  name: 🇭🇰 060  | ⬇️ 49KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -218,7 +320,7 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 063  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 063  | ⬇️ 1KB/s
   network: ws
   port: 443
   server: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -234,7 +336,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 064  | ⬇️ 4KB/s #1'
+  name: 🇭🇰 064  | ⬇️ 4KB/s
   network: ws
   port: 443
   server: 47.243.65.243
@@ -246,7 +348,7 @@ proxies:
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
     path: /ws-vmess
-- name: '🇭🇰 069  | ⬇️ 744KB/s #1'
+- name: 🇭🇰 069  | ⬇️ 744KB/s
   password: b0917015b656b3dd2286b5633af0c5c1
   port: 50160
   server: 31.57.248.176
@@ -255,7 +357,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 071  #1'
+  name: '🇭🇰 071 '
   network: ws
   port: 443
   server: wwafj5lhl6bi8au9.v.3dns.vip

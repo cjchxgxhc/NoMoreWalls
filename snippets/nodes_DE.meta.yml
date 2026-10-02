@@ -1,8 +1,31 @@
 proxies:
+- name: 🇩🇪 010  | ⬇️ 1MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  skip-cert-verify: false
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- name: 🇩🇪 011  | ⬇️ 1MB/s
+  obfs: salamander
+  obfs-password: SalamanderKey1
+  password: HystPass2026!
+  port: 8443
+  server: 2.26.54.174
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇩🇪 035  | ⬇️ 5MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.141
+  skip-cert-verify: false
+  sni: hop-germany-september.dynuddns.com
+  tfo: false
+  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 041  | ⬇️ 41KB/s #1'
+  name: 🇩🇪 041  | ⬇️ 41KB/s
   network: ws
   password: mitivpn
   port: 443
@@ -15,12 +38,29 @@ proxies:
       Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
     path: /
 - alpn:
+  - http%2F1.1
+  name: 🇩🇪 080  | ⬇️ 20KB/s
+  network: ws
+  port: 8443
+  server: www.large-files.info
+  servername: www.large-files.info
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+  ws-opts:
+    headers:
+      Host: www.large-files.info
+    path: /var/www/html/video/preview/download/i8o0la
+- alpn:
   - h2
   client-fingerprint: random
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: cdn.v1.DeService
-  name: '🇩🇪 062  | ⬇️ 654KB/s #1'
+  name: 🇩🇪 062  | ⬇️ 654KB/s
   network: grpc
   port: 443
   server: ru3.pleiades.codes

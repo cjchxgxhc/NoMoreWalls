@@ -1,12 +1,5 @@
 proxies:
-- name: '🇫🇷 017  | ⬇️ 134KB/s #1'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: '🇫🇷 040  | ⬇️ 4MB/s #1'
+- name: 🇫🇷 040  | ⬇️ 4MB/s
   packet-encoding: ''
   packetEncoding: none
   password: github.com/Alvin9999-newpac/fanqiang
@@ -17,8 +10,46 @@ proxies:
   sub-tag: R002-260618
   type: anytls
   udp: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: 55 Mbps
+  name: 🇫🇷 070  | ⬇️ 350KB/s
+  port: 23556
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  sub-tag: P002-260618
+  type: hysteria
+  udp: 'true'
+  up: 11 Mbps
 - client-fingerprint: qq
-  name: '🇫🇷 054  | ⬇️ 173KB/s #1'
+  encryption: none
+  name: 🇫🇷 071  | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: ziro.skin
+  servername: ziro.skin
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+    path: /xxvclws
+- name: 🇫🇷 017  | ⬇️ 134KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- client-fingerprint: qq
+  name: 🇫🇷 054  | ⬇️ 173KB/s
   network: ws
   packet-encoding: xudp
   port: 443

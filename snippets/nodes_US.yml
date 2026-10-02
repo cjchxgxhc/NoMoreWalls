@@ -1,6 +1,64 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 044  | ⬇️ 3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 072  | ⬇️ 1KB/s
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸 085  | ⬇️ 111KB/s
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: us3.zestapp778.com
+  skip-cert-verify: false
+  sni: us3.zestapp778.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 089  | ⬇️ 71KB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 004  | ⬇️ 5MB/s #1'
+  name: 🇺🇸 095  | ⬇️ 394KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 004  | ⬇️ 5MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -12,7 +70,7 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: '🇺🇸 031  | ⬇️ 1MB/s #1'
+  name: 🇺🇸 031  | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 54.208.227.172
@@ -20,18 +78,9 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: '🇺🇸 034  | ⬇️ 1MB/s #1'
+  name: 🇺🇸 034  | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 98.89.22.134
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: '🇺🇸 072  | ⬇️ 1KB/s #1'
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
