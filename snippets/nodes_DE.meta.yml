@@ -1,6 +1,55 @@
 proxies:
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪 013  | ⬇️ 4MB/s
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.35
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+- name: 🇩🇪 015  | ⬇️ 3MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.145
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪DE_4|1.9MB/s
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+  udp: true
+- name: 🇩🇪 087  | ⬇️ 4MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.146
+  skip-cert-verify: false
+  sni: hop-germany-september.dynuddns.com
+  tfo: false
+  type: hysteria2
+- name: 🇩🇪 108  | ⬇️ 6MB/s
+  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
+  port: 28015
+  server: 64.188.119.177
+  skip-cert-verify: false
+  sni: api-test-udp-trf.kaneki.cfd
+  tfo: false
+  type: hysteria2
 - encryption: mlkem768x25519plus.native.0rtt.oEfFlk7NfA_QAF1u_5EXbuXfD_8q-oPbaHXmxAjLAS0
-  name: '🇩🇪 049  | ⬇️ 23KB/s #1'
+  name: 🇩🇪 049  | ⬇️ 23KB/s
   network: ws
   packet-encoding: xudp
   port: 80
@@ -14,36 +63,94 @@ proxies:
     headers:
       Host: Ispsjabab.G44.gymyoga.ir
     path: /
-- name: '🇩🇪 087  | ⬇️ 4MB/s #1'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.146
-  skip-cert-verify: false
-  sni: hop-germany-september.dynuddns.com
+- country: 🇦🇹AT
+  name: 🇩🇪 129  | ⬇️ 958KB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
   type: hysteria2
-- name: '🇩🇪 090  | ⬇️ 986KB/s #1'
+  udp: true
+- encryption: mlkem768x25519plus.random.0rtt.iZJwXenO31gj30xJyjEnDZ_qxA-iUdzbT1zdrr8Mbmo
+  name: 🇩🇪 144  | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: sourceforge.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 03db1807-b379-4ad7-80e8-fb4aea68b1da
+  ws-opts:
+    headers:
+      Host: ckdkrr.varzeshfotsal.ir
+    path: /
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alpn:
+  - http%2F1.1
+  name: 🇩🇪 170  | ⬇️ 4MB/s
+  network: ws
+  port: 8443
+  server: www.large-files.info
+  servername: www.large-files.info
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+  ws-opts:
+    headers:
+      Host: www.large-files.info
+    path: /var/www/html/video/preview/download/i8o0la
+- name: 🇩🇪 179  | ⬇️ 4MB/s
+  network: ws
+  port: 2083
+  server: site.check-looks.space
+  servername: Site.check-looks.space
+  skip-cert-verify: false
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca608afb-55ff-4f36-9d00-606fedbb30e1
+  ws-opts:
+    headers:
+      Host: Site.check-looks.space
+    path: /
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 180  | ⬇️ 11KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 151.101.213.164
+  servername: accounts.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb98ab60-f16d-4662-a740-c89307400939
+  xhttp-opts:
+    host: fretranxrabet.net
+    mode: packet-up
+    path: /
+- name: 🇩🇪 090  | ⬇️ 986KB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.127.141
   skip-cert-verify: false
   sni: hop-germany-september.dynuddns.com
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: '🇩🇪 151  | ⬇️ 2MB/s #1'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: '🇩🇪 159  | ⬇️ 4MB/s #1'
+  name: 🇩🇪 159  | ⬇️ 4MB/s
   network: ws
   port: 80
   server: 188.114.96.19
@@ -56,20 +163,55 @@ proxies:
     path: /
     v2ray-http-upgrade: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.7MB/s
+  name: 🇩🇪DE_1|2.0MB/s
   network: ws
   port: 443
-  server: 104.21.69.30
-  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  server: 172.67.76.40
+  servername: ccc.010304.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /?ed=2560
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪DE_3|1.8MB/s
+  network: ws
+  port: 8443
+  server: shop.neexbyte.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
+  ws-opts:
+    headers:
+      Host: shop.neexbyte.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_5|2.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_6|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 50.7.29.181
+  servername: id-24f9d11d.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
+  xhttp-opts:
+    host: de.vmagnum.win
+    reuse-settings:
+      max-connections: '1'
   xudp: true
