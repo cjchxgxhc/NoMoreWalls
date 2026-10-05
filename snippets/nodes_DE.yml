@@ -1,30 +1,30 @@
 proxies:
 - alpn:
   - h2
-  client-fingerprint: edge
+  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪 013  | ⬇️ 4MB/s
+  name: 🇩🇪DE_3|1.4MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.35
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+  udp: true
 - alpn:
   - h2
   client-fingerprint: ios
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪DE_4|1.9MB/s
+  name: 🇩🇪 030  | ⬇️ 3MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.21
-  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -40,3 +40,10 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
     path: /
     v2ray-http-upgrade: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_8|1.4MB/s
+  password: 69xKLopoiluvBwXtq4LMHHq-8XyPw4FP
+  port: 25342
+  server: irp.fluxzone.ir
+  type: ss
+  udp: true

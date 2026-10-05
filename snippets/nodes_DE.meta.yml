@@ -1,16 +1,18 @@
 proxies:
 - alpn:
   - h2
-  client-fingerprint: edge
+  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪 013  | ⬇️ 4MB/s
+  name: 🇩🇪DE_3|1.4MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.35
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+  udp: true
 - name: 🇩🇪 015  | ⬇️ 3MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
@@ -23,15 +25,13 @@ proxies:
   client-fingerprint: ios
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪DE_4|1.9MB/s
+  name: 🇩🇪 030  | ⬇️ 3MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.21
-  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-  udp: true
 - name: 🇩🇪 087  | ⬇️ 4MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
@@ -162,56 +162,35 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
     path: /
     v2ray-http-upgrade: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.0MB/s
-  network: ws
+- name: 🇩🇪DE_4|2.9MB/s
   port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: 8443
-  server: shop.neexbyte.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-  ws-opts:
-    headers:
-      Host: shop.neexbyte.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_5|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_6|1.8MB/s
-  network: xhttp
+- name: 🇩🇪DE_5|1.7MB/s
   port: 443
-  server: 50.7.29.181
-  servername: id-24f9d11d.ferrin.uk
+  server: 37.203.35.28
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- name: 🇩🇪DE_6|3.2MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|1.2MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_8|1.4MB/s
+  password: 69xKLopoiluvBwXtq4LMHHq-8XyPw4FP
+  port: 25342
+  server: irp.fluxzone.ir
+  type: ss
   udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: de.vmagnum.win
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
