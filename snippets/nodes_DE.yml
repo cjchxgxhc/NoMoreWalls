@@ -1,28 +1,31 @@
 proxies:
 - alpn:
   - h2
-  client-fingerprint: edge
+  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪 013  | ⬇️ 4MB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.35
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-- alpn:
-  - h2
-  client-fingerprint: ios
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪 030  | ⬇️ 3MB/s
+  name: 🇩🇪 007  | ⬇️ 5MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.21
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 093  | ⬇️ 18KB/s
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -38,3 +41,14 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
     path: /
     v2ray-http-upgrade: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 🇩🇪DE_8|3.5MB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  type: trojan

@@ -9,19 +9,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇹🇼 187  | ⬇️ 9KB/s
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  port: 8080
-  server: tw3.dexlos.com
-  sni: tw3.dexlos.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: D7286728-678E-443B-B76B-B699654C66DD
-  version: 5
 - alterId: 2
   cipher: auto
   name: 🇹🇼 075  | ⬇️ 15KB/s
@@ -34,13 +21,56 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇹🇼 107  | ⬇️ 27KB/s
-  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  name: 🇹🇼 101  | ⬇️ 4KB/s
+  password: D7286728-678E-443B-B76B-B699654C66DD
   port: 8080
   server: tw3.dexlos.com
   sni: tw3.dexlos.com
   type: tuic
   udp: true
   udp-relay-mode: native
+  uuid: D7286728-678E-443B-B76B-B699654C66DD
+  version: 5
+- name: '🇹🇼 118 '
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇹🇼 107  | ⬇️ 27KB/s
+  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  port: 8080
+  server: tw3.dexlos.com
+  sni: tw3.dexlos.com
+  sub-tag: R002-260618
+  type: tuic
+  udp: true
+  udp-relay-mode: native
   uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
   version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇹🇼 120  | ⬇️ 170KB/s
+  password: D7286728-678E-443B-B76B-B699654C66DD
+  port: 8080
+  server: tw6.dexlos.com
+  sni: tw6.dexlos.com
+  sub-tag: R002-260618
+  type: tuic
+  udp: 'true'
+  udp-relay-mode: native
+  uuid: D7286728-678E-443B-B76B-B699654C66DD
+  version: '5'
+- name: 🇹🇼TW_1|3.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=

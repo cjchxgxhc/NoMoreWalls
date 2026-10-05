@@ -1,31 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: ios
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇬🇧 114  | ⬇️ 29KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: nice.iranapplecenter.com
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbb537ac-a787-6076-06d4-ef2f5a560068
-  xhttp-opts:
-    host: nelcloud.global.ssl.fastly.net
-    mode: packet-up
-    x-padding-bytes: 100-1000
-- name: 🇬🇧 103  | ⬇️ 4MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: yg.mangshe.xyz
-  skip-cert-verify: true
-  sni: yg.mangshe.xyz
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇬🇧 138  | ⬇️ 99KB/s
@@ -35,17 +8,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- name: 🇬🇧GB_3|1.3MB/s
+- name: 🇬🇧 103  | ⬇️ 4MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: yg.mangshe.xyz
+  skip-cert-verify: true
+  sni: yg.mangshe.xyz
+  type: hysteria2
+- name: 🇬🇧GB_1|2.9MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.3MB/s
   password: None
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|1.1MB/s
+- name: 🇬🇧GB_3|2.6MB/s
   password: None
   port: 443
-  server: 212.102.63.1
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
