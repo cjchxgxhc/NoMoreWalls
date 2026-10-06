@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '🇹🇼 031  | ⬇️ 103KB/s #1'
+  name: 🇹🇼 031  | ⬇️ 103KB/s
   network: tcp
   port: 11223
   server: sbgfgov.vip23.wogacnmnagfwgov.com
@@ -10,7 +10,7 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: '🇹🇼 041  | ⬇️ 111KB/s #1'
+  name: 🇹🇼 041  | ⬇️ 111KB/s
   network: tcp
   port: 11224
   server: sbgfgov.vip24.wogacnmnagfwgov.com
@@ -20,29 +20,11 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: '🇹🇼 101  | ⬇️ 4KB/s #1'
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  port: 8080
-  server: tw3.dexlos.com
-  sni: tw3.dexlos.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: D7286728-678E-443B-B76B-B699654C66DD
-  version: 5
-- name: '🇹🇼 118  #1'
-  password: '!!str 111'
-  port: 1080
-  server: 106.107.236.110
-  type: socks5
-  username: '111'
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '🇹🇼 119  | ⬇️ 78KB/s #1'
+  name: 🇹🇼 119  | ⬇️ 78KB/s
   password: 8A9905B7-801B-41AF-BFC9-2034212770F6
   port: 8080
   server: tw3.dexlos.com
+  skip-cert-verify: true
   sni: tw3.dexlos.com
   sub-tag: R002-260618
   type: tuic
@@ -53,7 +35,26 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: '🇹🇼 120  | ⬇️ 170KB/s #1'
+  name: 🇹🇼 101  | ⬇️ 4KB/s
+  password: D7286728-678E-443B-B76B-B699654C66DD
+  port: 8080
+  server: tw3.dexlos.com
+  sni: tw3.dexlos.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: D7286728-678E-443B-B76B-B699654C66DD
+  version: 5
+- name: '🇹🇼 118 '
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇹🇼 120  | ⬇️ 170KB/s
   password: D7286728-678E-443B-B76B-B699654C66DD
   port: 8080
   server: tw6.dexlos.com

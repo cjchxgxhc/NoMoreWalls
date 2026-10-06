@@ -1,7 +1,37 @@
 proxies:
 - alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 🇩🇪 031  | ⬇️ 3MB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  sni: cz-musicc.moritech.net
+  type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 082  | ⬇️ 151KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 147.45.39.84
+  servername: de-8d4c7a0695.shamanapp.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d666e16b-2b64-4499-bb32-896c26dc2e3d
+  xhttp-opts:
+    host: de-8d4c7a0695.shamanapp.online
+    path: /ShamanXHTTP2026
+    uplink-data-placement: body
+    uplink-http-method: POST
+- alpn:
   - http%2F1.1
-  name: '🇩🇪 002  | ⬇️ 97KB/s #1'
+  name: 🇩🇪 002  | ⬇️ 97KB/s
   network: ws
   port: 8443
   server: www.large-files.info
@@ -16,19 +46,28 @@ proxies:
     headers:
       Host: www.large-files.info
     path: /var/www/html/video/preview/download/i8o0la
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 099  | ⬇️ 23KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ajv
-  name: '🇩🇪 007  | ⬇️ 5MB/s #1'
+  name: 🇩🇪 007  | ⬇️ 5MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.21
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-- name: '🇩🇪 050  | ⬇️ 285KB/s #1'
+- name: 🇩🇪 050  | ⬇️ 285KB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.127.145
@@ -36,7 +75,7 @@ proxies:
   sni: hop-germany-september.dynuddns.com
   tfo: false
   type: hysteria2
-- name: '🇩🇪 053  | ⬇️ 1MB/s #1'
+- name: 🇩🇪 053  | ⬇️ 1MB/s
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
   port: 4433
   server: de1.xiaoliyu.cyou
@@ -47,7 +86,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 093  | ⬇️ 18KB/s #1'
+  name: 🇩🇪 093  | ⬇️ 18KB/s
   network: ws
   password: mitivpn
   port: 443
@@ -60,7 +99,7 @@ proxies:
       Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
     path: /
 - encryption: mlkem768x25519plus.native.0rtt.oEfFlk7NfA_QAF1u_5EXbuXfD_8q-oPbaHXmxAjLAS0
-  name: '🇩🇪 127  | ⬇️ 381KB/s #1'
+  name: 🇩🇪 127  | ⬇️ 381KB/s
   network: ws
   packet-encoding: xudp
   port: 80
@@ -74,3 +113,48 @@ proxies:
     headers:
       Host: Hshsvshshshs.G44.gymyoga.ir
     path: /
+- name: 🇩🇪DE_3|3.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.2MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_5|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.159.149.158
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_6|4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.67.197.81
+  type: ss
+  udp: true
+- name: 🇩🇪DE_7|2.9MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.8MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.1MB/s
+  port: 443
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
