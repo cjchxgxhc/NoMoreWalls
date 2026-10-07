@@ -8,9 +8,39 @@ proxies:
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- name: 🇬🇧GB_1|3.1MB/s
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 064  | ⬇️ 13KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇬🇧GB_1|1003KB/s
   port: 443
   server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|2.0MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|1.8MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.2MB/s
+  port: 443
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http

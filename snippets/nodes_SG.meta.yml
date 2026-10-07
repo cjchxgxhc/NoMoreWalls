@@ -1,20 +1,20 @@
 proxies:
-- name: 🇸🇬 017  | ⬇️ 1MB/s
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  port: 55000
-  server: 104.234.233.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: 🇸🇬 032  | ⬇️ 1MB/s
-  network: tcp
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
+- client-fingerprint: chrome
+  name: 🇸🇬 007  | ⬇️ 4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 170.114.52.22
+  servername: asia.csmaster.site
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  udp: true
+  uuid: a853e120-3570-462b-aec1-e8f3d4f92d24
+  ws-opts:
+    headers:
+      Host: asia.csmaster.site
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -28,6 +28,15 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- flow: xtls-rprx-vision
+  name: 🇸🇬 032  | ⬇️ 1MB/s
+  network: tcp
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - name: 🇸🇬 036  | ⬇️ 1MB/s
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2

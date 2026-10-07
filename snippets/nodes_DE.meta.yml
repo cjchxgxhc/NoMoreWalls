@@ -1,34 +1,13 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpcbeast
-  name: 🇩🇪 031  | ⬇️ 3MB/s
-  network: grpc
-  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
-  port: 443
-  server: cz-musicc.moritech.net
-  sni: cz-musicc.moritech.net
-  type: trojan
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 082  | ⬇️ 151KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 147.45.39.84
-  servername: de-8d4c7a0695.shamanapp.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d666e16b-2b64-4499-bb32-896c26dc2e3d
-  xhttp-opts:
-    host: de-8d4c7a0695.shamanapp.online
-    path: /ShamanXHTTP2026
-    uplink-data-placement: body
-    uplink-http-method: POST
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 059  | ⬇️ 53KB/s
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http%2F1.1
   name: 🇩🇪 002  | ⬇️ 97KB/s
@@ -46,15 +25,6 @@ proxies:
     headers:
       Host: www.large-files.info
     path: /var/www/html/video/preview/download/i8o0la
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 099  | ⬇️ 23KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -113,13 +83,21 @@ proxies:
     headers:
       Host: Hshsvshshshs.G44.gymyoga.ir
     path: /
-- name: 🇩🇪DE_1|1.4MB/s
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇩🇪DE_1|2.1MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- name: 🇩🇪DE_3|2.2MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.8MB/s
+- name: 🇩🇪DE_4|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -127,9 +105,35 @@ proxies:
   tls: true
   type: http
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_3|2.2MB/s
+  name: 🇩🇪DE_5|3.6MB/s
   password: amazonskr05
   port: 443
-  server: 63.177.230.112
+  server: 3.67.197.81
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_6|3.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- name: 🇩🇪DE_7|1.1MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|1.8MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
