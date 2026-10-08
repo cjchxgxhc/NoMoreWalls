@@ -1,11 +1,60 @@
 proxies:
+- name: 🇩🇪 001  | ⬇️ 119KB/s
+  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
+  port: 443
+  server: cz.h2.cleanersaz.help
+  skip-cert-verify: true
+  sni: cz.h2.cleanersaz.help
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪 002  | ⬇️ 338KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 162.35.224.113
+  servername: mk-de6.silalink.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 095ed44e-b2f9-4f61-ba77-2142583578d8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    path:
+    - /QQqun-737805443
+  name: 🇩🇪 009  | ⬇️ 8MB/s
+  network: http
+  port: 52080
+  server: 23.165.200.150
+  tls: false
+  type: vmess
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+- name: 🇩🇪 018  | ⬇️ 2MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  skip-cert-verify: false
+  sni: hop-germany-september.dynuddns.com
+  tfo: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 🇩🇪 059  | ⬇️ 53KB/s
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 039  | ⬇️ 6KB/s
   network: tcp
   port: 30833
   server: v33.hdacd.com
-  tls: false
+  servername: v33.hdacd.com
+  skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
@@ -83,79 +132,15 @@ proxies:
     headers:
       Host: Hshsvshshshs.G44.gymyoga.ir
     path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|3.9MB/s
-  network: xhttp
-  port: 443
-  server: 104.26.5.45
-  servername: malekhartoaaakhund.kirpeople2sepahkosnaneh.org
+  name: 🇩🇪DE_1|1.1MB/s
+  network: tcp
+  port: 2083
+  server: 141.98.7.193
+  servername: 141.98.7.193
   tls: true
   type: vless
   udp: true
-  uuid: 647b4505-5549-4da6-b7e8-29df4df342de
-  xhttp-opts:
-    host: malekhartoaaakhund.kirpeople2sepahkosnaneh.org
-    mode: auto
-    path: /api/v1/cdn
-    x-padding-bytes: 100-1000
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.0MB/s
-  network: ws
-  port: 443
-  server: 141.193.27.22
-  servername: bomb.pasta-makers.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0335d20a-ddde-4528-b135-dd21430e1690
-  ws-opts:
-    headers:
-      Host: bomb.pasta-makers.online
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /ws
-  xudp: true
-- name: 🇩🇪DE_3|1.8MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.5MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.4MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|4.4MB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|1.9MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
