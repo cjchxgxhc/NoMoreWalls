@@ -10,74 +10,46 @@ proxies:
   sub-tag: R002-260618
   type: anytls
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 024  | ⬇️ 7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 🇫🇷 026  | ⬇️ 117KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 034  | ⬇️ 55KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 193.37.215.75
-  servername: bab-6.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
 - alpn:
   - h3
   auth-str: github.com/Alvin9999-newpac/fanqiang
   down: 55 Mbps
-  name: 🇫🇷 036  | ⬇️ 10KB/s
+  name: 🇫🇷 029  | ⬇️ 43KB/s
   port: 23556
   protocol: udp
   server: 62.210.70.191
   skip-cert-verify: true
   sni: bing.com
+  sub-tag: P002-260618
   type: hysteria
-  udp: true
+  udp: 'true'
   up: 11 Mbps
-- client-fingerprint: chrome
-  name: 🇫🇷 045  | ⬇️ 10KB/s
+- client-fingerprint: qq
+  encryption: none
+  name: 🇫🇷 105  | ⬇️ 4MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
-  server: 85.192.60.46
-  servername: bab-6.site
+  server: ziro.skin
+  servername: ziro.skin
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
   ws-opts:
     headers:
-      Host: bab-6.site
-    path: /vws/
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 065  | ⬇️ 29KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      Host: ziro.skin
+    path: /xxvclws
 - encryption: none
   http-opts:
     headers:
@@ -102,15 +74,6 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-- name: 🇫🇷 026  | ⬇️ 117KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
 - cipher: aes-256-cfb
   name: 🇫🇷 039  | ⬇️ 8MB/s
   password: amazonskr05
@@ -138,44 +101,15 @@ proxies:
     reuse-settings:
       h-max-reusable-secs: 1140-1260
       max-connections: '3'
-- client-fingerprint: qq
-  encryption: none
-  name: 🇫🇷 105  | ⬇️ 4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: ziro.skin
-  servername: ziro.skin
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: ziro.skin
-    path: /xxvclws
-- name: 🇫🇷FR_1|2.6MB/s
+- name: 🇫🇷FR_1|1.0MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|3.9MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|3.5MB/s
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|1.5MB/s
-  port: 8090
-  server: 80.124.109.22
+- name: 🇫🇷FR_2|1.1MB/s
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
