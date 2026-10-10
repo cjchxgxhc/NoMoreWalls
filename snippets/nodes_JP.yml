@@ -1,7 +1,36 @@
 proxies:
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_1|1.2MB/s
+  network: ws
+  port: 2083
+  server: cdn.sfacg.uk
+  servername: cdn.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+  xudp: true
+- alterId: 1
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇯🇵 056  | ⬇️ 5MB/s
+  network: tcp
+  port: 11773
+  server: 8e1lvzz-g01.jp02-e3-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 4a1f9bcd-7752-3635-b430-098dc75c2c67
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 007  | ⬇️ 62KB/s #1'
+  name: 🇯🇵 007  | ⬇️ 62KB/s
   network: tcp
   port: 11207
   server: sbgfgov.vip7.wogacnmnagfwgov.com
@@ -10,7 +39,7 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 018  | ⬇️ 74KB/s #1'
+  name: 🇯🇵 018  | ⬇️ 74KB/s
   network: tcp
   port: 11230
   server: silversbgfgov.vip30.wogbcnmnagfwgov.com
@@ -19,7 +48,7 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 038  | ⬇️ 106KB/s #1'
+  name: 🇯🇵 038  | ⬇️ 106KB/s
   network: tcp
   port: 11231
   server: silversbgfgov.vip31.wogbcnmnagfwgov.com
@@ -28,7 +57,7 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 039  | ⬇️ 18KB/s #1'
+  name: 🇯🇵 039  | ⬇️ 18KB/s
   network: tcp
   port: 11218
   server: sbgfgov.vip18.wogacnmnagfwgov.com
@@ -37,7 +66,7 @@ proxies:
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: '🇯🇵 040  | ⬇️ 35KB/s #1'
+  name: 🇯🇵 040  | ⬇️ 35KB/s
   network: tcp
   port: 11206
   server: sbgfgov.vip6.wogacnmnagfwgov.com
