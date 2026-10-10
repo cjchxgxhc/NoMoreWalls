@@ -430,25 +430,20 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇯🇵JP_1|1.2MB/s
+  name: 🇯🇵 050  | ⬇️ 4KB/s
   network: ws
   port: 2083
   server: cdn.sfacg.uk
   servername: cdn.sfacg.uk
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-  xudp: true
 - cipher: aes-256-cfb
   name: 🇺🇸 051  | ⬇️ 2MB/s
   password: amazonskr05
@@ -735,98 +730,10 @@ proxies:
   wnoisecount: '5'
   wnoisedelay: '5'
   wpayloadsize: 40-90
-- name: 🇳🇱NL_1|1.1MB/s
-  port: 9443
-  server: 149.36.51.157
+- name: 🇸🇬SG_1|4.0MB/s
+  password: '1234'
+  port: 2080
+  server: 54.251.149.207
   skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇬🇧GB_1|1.9MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇹AT_1|1.0MB/s
-  password: None
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇴NO_1|1018KB/s
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.8MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.2MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|2.0MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_1|1.4MB/s
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.5MB/s
-  password: None
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|1.5MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.1MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|2.8MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|2.0MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|3.1MB/s
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1012
-  server: k5f00f9s.zf-mix.9999231.xyz
-  sni: fr-house.9999231.xyz
-  type: anytls
-- name: 🇨🇦CA_1|1.5MB/s
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: '1234'
