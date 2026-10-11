@@ -1,22 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪 006  | ⬇️ 5MB/s
-  network: ws
-  password: '!!str 123456'
-  port: 443
-  server: 162.159.153.42
-  sni: now-pages-sub-em4.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: now-pages-sub-em4.pages.dev
-    max-early-data: 2560
-    path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: ''
   http-opts:
     headers:
       Host:
@@ -30,20 +15,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|1.3MB/s
-  network: ws
-  password: '!!str 123456'
-  port: 443
-  server: 162.159.153.42
-  skip-cert-verify: false
-  sni: now-pages-sub-em4.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560

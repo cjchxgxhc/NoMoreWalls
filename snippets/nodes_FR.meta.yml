@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: qq
+  encryption: none
+  name: 🇫🇷 030  | ⬇️ 1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: ziro.skin
+  servername: ziro.skin
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+    path: /xxvclws
+- name: 🇫🇷FR_1|1.1MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
 - name: 🇫🇷 010  | ⬇️ 5MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 43115
@@ -21,92 +49,50 @@ proxies:
   type: hysteria
   udp: 'true'
   up: 11 Mbps
-- client-fingerprint: qq
-  encryption: none
-  name: 🇫🇷 042  | ⬇️ 12KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: ziro.skin
-  servername: ziro.skin
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    path: /xxvclws
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 049  | ⬇️ 6KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 055  | ⬇️ 5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷FR_1|3.4MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
+- name: 🇫🇷FR_2|2.3MB/s
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
-  sni: ip5.934618.xyz
-  sub-tag: R002-260618
-  type: anytls
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  name: 🇫🇷 030  | ⬇️ 1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: ziro.skin
-  servername: ziro.skin
-  skip-cert-verify: false
   tls: true
-  type: vless
+  type: http
+- name: 🇫🇷FR_3|1.9MB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|3.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.36.20
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
   ws-opts:
     headers:
-      Host: ziro.skin
-    path: /xxvclws
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /assignment
 - alpn:
-  - h2
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|2.0MB/s
-  network: tcp
-  port: 443
-  server: 7q4eiwcseu-193708596-direct.rahbarii.com
-  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
+  name: 🇫🇷FR_5|1.5MB/s
+  network: ws
+  port: 11443
+  server: 205.237.105.31
+  servername: f4.vimeostream.online
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
+  ws-opts:
+    headers:
+      Host: f4.vimeostream.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /api/v2/stream/ws
   xudp: true
-- name: 🇫🇷FR_3|2.0MB/s
-  port: 8082
-  server: 169.58.243.58
-  skip-cert-verify: true
-  type: http
