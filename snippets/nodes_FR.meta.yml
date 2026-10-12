@@ -1,7 +1,59 @@
 proxies:
+- name: 🇫🇷 015  | ⬇️ 4MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 🇫🇷FR_1|1.2MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 028  | ⬇️ 21KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 140.248.186.45
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: 55 Mbps
+  name: 🇫🇷 036  | ⬇️ 2KB/s
+  port: 23556
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  sub-tag: P002-260618
+  type: hysteria
+  udp: 'true'
+  up: 11 Mbps
 - client-fingerprint: qq
   encryption: none
-  name: '🇫🇷 035  | ⬇️ 4MB/s #1'
+  name: 🇫🇷 035  | ⬇️ 4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -16,57 +68,20 @@ proxies:
     headers:
       Host: ziro.skin
     path: /xxvclws
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fr5grpc
-  name: 🇫🇷FR_1|3.4MB/s
-  network: grpc
-  port: 8443
-  server: 37.49.230.85
-  servername: fr5.sodahub.online
-  tls: true
-  type: vless
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 038  | ⬇️ 97KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
-- name: 🇫🇷FR_2|5.5MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_3|1.7MB/s
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|3.7MB/s
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_5|2.8MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
-- name: 🇫🇷FR_6|3.4MB/s
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_7|3.1MB/s
-  port: 8090
-  server: 80.124.109.22
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇫🇷FR_2|1.4MB/s
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
