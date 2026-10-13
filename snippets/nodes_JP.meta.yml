@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵 003  | ⬇️ 5MB/s
+- name: 🇯🇵 012  | ⬇️ 10MB/s
   network: tcp
   password: HOrViv
   port: 28106
@@ -7,47 +7,17 @@ proxies:
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
-- alterId: 0
+  udp: true
+- alterId: 2
   cipher: auto
-  name: 🇯🇵 047  | ⬇️ 4MB/s
-  network: ws
-  port: 8080
-  server: 212.50.251.193
+  name: 🇯🇵 029  | ⬇️ 102KB/s
+  network: tcp
+  port: 11230
+  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
   tls: false
   type: vmess
-  uuid: dabfcf88-0a4b-43ca-ac7a-a4f44d877bbc
-  ws-opts:
-    headers:
-      Host: 212.50.251.193
-    path: /vmess
-- name: 🇯🇵 050  | ⬇️ 8MB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
-  type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 038  | ⬇️ 4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: d9788c3a-a097-4182-be39-8b6b8a34264c
-  ws-opts:
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-    path: /@Marisa_kristi
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - name: 🇯🇵 023  | ⬇️ 2KB/s
   password: usqmqUKJFIlCmvkCNSY64L3k
   port: 443
@@ -81,15 +51,6 @@ proxies:
     path: /or3
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 029  | ⬇️ 102KB/s
-  network: tcp
-  port: 11230
-  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
-  type: vmess
-  udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alterId: 2
-  cipher: auto
   name: 🇯🇵 030  | ⬇️ 21KB/s
   network: tcp
   port: 11207
@@ -106,3 +67,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 038  | ⬇️ 4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 57554
+  server: 203.137.165.164
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9788c3a-a097-4182-be39-8b6b8a34264c
+  ws-opts:
+    headers:
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+    path: /@Marisa_kristi

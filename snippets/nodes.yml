@@ -1,5 +1,20 @@
 proxies:
-- name: 🇯🇵 003  | ⬇️ 5MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇭🇰 009  | ⬇️ 42KB/s
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers: {}
+    max-early-data: 2048
+    path: /arki
+- name: 🇯🇵 012  | ⬇️ 10MB/s
   network: tcp
   password: HOrViv
   port: 28106
@@ -7,56 +22,13 @@ proxies:
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇬🇧 006  | ⬇️ 376KB/s
-  password: amazonskr05
-  port: 443
-  server: 13.40.25.145
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇫🇮 012  | ⬇️ 3MB/s
-  network: grpc
-  password: muLkJXY1WyEbDdP-AoNpjg3HddPCAcBA
-  port: 443
-  server: 85.209.129.5
-  skip-cert-verify: true
-  sni: fl.global-cdn.org
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 017  | ⬇️ 10MB/s
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇹🇼 005  | ⬇️ 41KB/s
+  name: 🇹🇼 004  | ⬇️ 60KB/s
   network: tcp
-  port: 11224
-  server: sbgfgov.vip24.wogacnmnagfwgov.com
-  tls: false
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alterId: 2
-  cipher: auto
-  name: 🇹🇭 010  | ⬇️ 30KB/s
-  network: tcp
-  port: 11243
-  server: silversbgfgov.vip43.wogbcnmnagfwgov.com
+  port: 11223
+  server: sbgfgov.vip23.wogacnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
@@ -78,179 +50,131 @@ proxies:
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 026  | ⬇️ 85KB/s
+  name: 🇰🇷 011  | ⬇️ 4KB/s
   network: tcp
-  port: 11215
-  server: sbgfgov.vip15.wogacnmnagfwgov.com
+  port: 11240
+  server: silversbgfgov.vip40.wogbcnmnagfwgov.com
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 036  | ⬇️ 9MB/s
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 048  | ⬇️ 2KB/s
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+    path: /ws-vmess
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 051  | ⬇️ 21KB/s
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 029  | ⬇️ 102KB/s
+  network: tcp
+  port: 11230
+  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 015  | ⬇️ 50KB/s
+  network: tcp
+  port: 11222
+  server: sbgfgov.vip22.wogacnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 018  | ⬇️ 3KB/s
+  name: 🇺🇸 055  | ⬇️ 98KB/s
   network: tcp
-  port: 11212
-  server: sbgfgov.vip12.wogacnmnagfwgov.com
+  port: 11238
+  server: silversbgfgov.vip38.wogbcnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '🇬🇧 017 '
-  network: tcp
-  port: 11245
-  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
-  tls: false
+  name: 🇭🇰 060  | ⬇️ 8MB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 032  | ⬇️ 3KB/s
-  network: tcp
-  port: 11248
-  server: silversbgfgov.vip48.wogbcnmnagfwgov.com
-  tls: false
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 038  | ⬇️ 97KB/s
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 🇫🇷 061  | ⬇️ 470KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
+  servername: v35.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 042 '
+  name: 🇭🇰 063  | ⬇️ 4KB/s
   network: ws
   port: 443
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 044  | ⬇️ 2KB/s
-  network: ws
-  port: 443
-  server: 8.217.254.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 047  | ⬇️ 4MB/s
-  network: ws
-  port: 8080
-  server: 212.50.251.193
-  tls: false
-  type: vmess
-  uuid: dabfcf88-0a4b-43ca-ac7a-a4f44d877bbc
-  ws-opts:
-    headers:
-      Host: 212.50.251.193
-    path: /vmess
-- name: 🇯🇵 050  | ⬇️ 8MB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 051  | ⬇️ 19KB/s
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers: {}
-    max-early-data: 2048
-    path: /arki
-- alterId: 2
-  cipher: auto
-  name: 🇬🇧 052  | ⬇️ 90KB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 034  | ⬇️ 4KB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 055  | ⬇️ 8KB/s
-  network: ws
-  port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 009  | ⬇️ 4KB/s
-  network: ws
-  port: 443
-  server: 47.76.44.32
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 🇹🇼 004  | ⬇️ 60KB/s
+  name: 🇹🇼 005  | ⬇️ 41KB/s
   network: tcp
-  port: 11223
-  server: sbgfgov.vip23.wogacnmnagfwgov.com
+  port: 11224
+  server: sbgfgov.vip24.wogacnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
@@ -268,21 +192,44 @@ proxies:
     headers:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 009  | ⬇️ 4KB/s
+  network: ws
+  port: 443
+  server: 47.76.44.32
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 🇰🇷 011  | ⬇️ 4KB/s
+  name: 🇹🇭 010  | ⬇️ 30KB/s
   network: tcp
-  port: 11240
-  server: silversbgfgov.vip40.wogbcnmnagfwgov.com
+  port: 11243
+  server: silversbgfgov.vip43.wogbcnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
-  name: 🇺🇸 015  | ⬇️ 50KB/s
+  name: '🇬🇧 017 '
   network: tcp
-  port: 11222
-  server: sbgfgov.vip22.wogacnmnagfwgov.com
+  port: 11245
+  server: silversbgfgov.vip45.wogbcnmnagfwgov.com
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 018  | ⬇️ 3KB/s
+  network: tcp
+  port: 11212
+  server: sbgfgov.vip12.wogacnmnagfwgov.com
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
@@ -354,15 +301,6 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 🇯🇵 029  | ⬇️ 102KB/s
-  network: tcp
-  port: 11230
-  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
-  type: vmess
-  udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- alterId: 2
-  cipher: auto
   name: 🇯🇵 030  | ⬇️ 21KB/s
   network: tcp
   port: 11207
@@ -379,6 +317,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 032  | ⬇️ 3KB/s
+  network: tcp
+  port: 11248
+  server: silversbgfgov.vip48.wogbcnmnagfwgov.com
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - cipher: aes-128-gcm
   name: 🇹🇷 033  | ⬇️ 3KB/s
   password: l2NidZbckMu4PnIHsJTYJg
@@ -387,6 +334,17 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 034  | ⬇️ 4KB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '🇭🇰 037 '
@@ -403,48 +361,10 @@ proxies:
     headers:
       Host: i2psm3knof5qjjix.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_3|1.1MB/s
-  network: ws
-  port: 28167
-  server: 142.171.48.179
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: 🇰🇭KH_1|4.0MB/s
+  password: 9c51ca33-a332-4de5-8677-5624e940097c
+  port: 35019
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: f949f286-b709-4617-8f26-2e0dfdd7ca6a
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦CA_4|1.1MB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: ca.tronsg.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_12|2.0MB/s
-  network: ws
-  port: 28167
-  server: 142.171.48.179
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: eeb623e4-b27c-4031-bab6-51e068c7dc6a
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-  xudp: true

@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵 003  | ⬇️ 5MB/s
+- name: 🇯🇵 012  | ⬇️ 10MB/s
   network: tcp
   password: HOrViv
   port: 28106
@@ -7,26 +7,17 @@ proxies:
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
-- alterId: 0
+  udp: true
+- alterId: 2
   cipher: auto
-  name: 🇯🇵 047  | ⬇️ 4MB/s
-  network: ws
-  port: 8080
-  server: 212.50.251.193
+  name: 🇯🇵 029  | ⬇️ 102KB/s
+  network: tcp
+  port: 11230
+  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
   tls: false
   type: vmess
-  uuid: dabfcf88-0a4b-43ca-ac7a-a4f44d877bbc
-  ws-opts:
-    headers:
-      Host: 212.50.251.193
-    path: /vmess
-- name: 🇯🇵 050  | ⬇️ 8MB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
-  type: trojan
+  udp: true
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
   name: 🇯🇵 025  | ⬇️ 82KB/s
@@ -50,15 +41,6 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 029  | ⬇️ 102KB/s
-  network: tcp
-  port: 11230
-  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
-  type: vmess
-  udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
 - alterId: 2
   cipher: auto
   name: 🇯🇵 030  | ⬇️ 21KB/s
