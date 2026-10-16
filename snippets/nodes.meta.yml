@@ -1,28 +1,51 @@
 proxies:
-- name: '🇩🇪 002  | ⬇️ 391KB/s #1'
-  network: tcp
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
+- name: 🇵🇱 001  | ⬇️ 158KB/s
+  password: d0589fb6-420b-4078-a72a-66d270a25fd9
+  port: 2087
+  server: 185.233.187.188
+  skip-cert-verify: false
+  sni: fireedge.eaglors.com
+  type: hysteria2
+- auth: a34f3990b69f44bfa0d32385
+  name: 🇦🇺 002  | ⬇️ 162KB/s
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 192.9.175.191
   skip-cert-verify: true
-  sni: t.me/fuckthewall
-  type: trojan
+  sni: rmgyvpn.rest
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 003  | ⬇️ 7MB/s
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: ebe53a1b-7a2b-42d9-b323-423104ad026e
+  ws-opts:
+    headers:
+      Host: 2a070082cba893b78ec6c7c74f8a9603.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-gcm
+  name: 🇯🇵 005  | ⬇️ 12KB/s
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇭🇰 006  | ⬇️ 509KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-- name: '🇩🇪 009  | ⬇️ 7MB/s #1'
-  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
-  port: 1443
-  server: hy9.shamanfun.ru
-  skip-cert-verify: false
-  sni: hy9.shamanfun.ru
-  type: hysteria2
-- name: '🇺🇸 010  | ⬇️ 44KB/s #1'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
-  tfo: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   http-opts:
@@ -31,55 +54,73 @@ proxies:
       - ughrn.dingtalk.com
     path:
     - /QQqun-737805443
-  name: '🇭🇰 011  | ⬇️ 1KB/s #1'
+  name: 🇭🇰 011  | ⬇️ 1KB/s
   network: http
   port: 52080
   server: 47.242.81.94
   tls: false
   type: vmess
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- allowInsecure: '1'
-  name: '🇭🇰 012  | ⬇️ 566KB/s #1'
-  packet-encoding: ''
-  packetEncoding: none
-  password: ec74bb6a86c2
+- name: 🇺🇸 009  | ⬇️ 641KB/s
+  password: 0324fbc29561
   port: 443
-  server: 56481.df6h451rh.xin
+  server: 98416548.df6h451rh.xin
   skip-cert-verify: true
   sni: images.ctfassets.net
-  sub-tag: P002-260618
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 013  | ⬇️ 24KB/s #1'
+- name: 🇸🇬 021  | ⬇️ 1MB/s
   network: ws
-  port: 23026
-  server: 47.244.120.197
+  port: 2082
+  server: 172.64.150.28
+  skip-cert-verify: false
+  tfo: true
   tls: false
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 014  | ⬇️ 3KB/s #1'
-  network: ws
-  port: 443
-  server: 8.217.254.88
-  servername: 2b9hwY8oCx7Q74NM.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- name: 🇩🇪 011  | ⬇️ 40KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+  http-opts:
+    headers:
+      Host:
+      - b--g.bntabriz.ir
+    path:
+    - /
+  name: 🇳🇱 023  | ⬇️ 4MB/s
+  network: http
+  packet-encoding: xudp
+  port: 25566
+  server: g--p.soreanapanel.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
+- name: 🇦🇺 024  | ⬇️ 46KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 29344
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 015  | ⬇️ 3KB/s #1'
+  name: 🇭🇰 015  | ⬇️ 3KB/s
   network: ws
   port: 443
   server: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -93,10 +134,305 @@ proxies:
     headers:
       Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
+- name: 🇦🇺 017  | ⬇️ 193KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 23870
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: '🇭🇰 018 '
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- name: 🇦🇺 020  | ⬇️ 155KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 28641
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇺🇸 022  | ⬇️ 683KB/s
+  network: ws
+  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+  port: 20230
+  server: us003.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    path: /
+- name: 🇦🇺 052  | ⬇️ 18KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 21193
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 024  | ⬇️ 12KB/s
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- name: 🇦🇺 026  | ⬇️ 71KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 24068
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: 🇹🇼 029  | ⬇️ 29KB/s
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 🇦🇺 031  | ⬇️ 895KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 28730
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: 🇺🇸 041  | ⬇️ 17KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 044  | ⬇️ 1MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- name: 🇦🇺 036  | ⬇️ 205KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 23995
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: 🇦🇺 055  | ⬇️ 11KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 20690
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇬🇧 038  | ⬇️ 421KB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  servername: v36.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇦🇺 040  | ⬇️ 21KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 29653
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: 🇦🇺 041  | ⬇️ 17KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 29155
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- name: 🇦🇺 042  | ⬇️ 373KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 26574
+  ports: 20000,20000-30000
+  server: 137.23.2.56
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  tfo: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇭🇰 043  | ⬇️ 807KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
+    path: /ws-vmess
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 045  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 1070
+  private-key: wN1cP4YdzpwcblExZZpW1XNTRfcLPwTVLRbe0BK4Y2o=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 190
+  - 221
+  - 145
+  server: 8.6.112.155
+  type: wireguard
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 014  | ⬇️ 3KB/s
+  network: ws
+  port: 443
+  server: 8.217.254.88
+  servername: 2b9hwY8oCx7Q74NM.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 047  | ⬇️ 5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 172.67.76.128
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /
+- name: 🇩🇪 002  | ⬇️ 391KB/s
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
+  udp: true
+- name: 🇩🇪 009  | ⬇️ 7MB/s
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  port: 1443
+  server: hy9.shamanfun.ru
+  skip-cert-verify: false
+  sni: hy9.shamanfun.ru
+  type: hysteria2
+- name: 🇺🇸 010  | ⬇️ 44KB/s
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  skip-cert-verify: false
+  sni: qcloudge1.exitvpn.shop
+  tfo: false
+  type: hysteria2
+- allowInsecure: '1'
+  name: 🇭🇰 012  | ⬇️ 566KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: ec74bb6a86c2
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  sub-tag: P002-260618
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 013  | ⬇️ 24KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers: {}
+    path: /arki
 - client-fingerprint: chrome
   idle-session-check-interval: 30
   idle-session-timeout: 30
-  name: '🇸🇨 016  | ⬇️ 12KB/s #1'
+  name: 🇸🇨 016  | ⬇️ 12KB/s
   password: 776b4834-caaf-4006-ab21-409e958867af
   port: 33091
   server: 45.202.240.4
@@ -113,7 +449,7 @@ proxies:
       - down-cdn.dingtalk.com
     path:
     - /QQqun-737805443
-  name: '🇩🇪 017  | ⬇️ 6MB/s #1'
+  name: 🇩🇪 017  | ⬇️ 6MB/s
   network: http
   port: 52080
   server: 23.165.200.150
@@ -124,7 +460,7 @@ proxies:
   - h3
   down: ''
   fingerprint: ''
-  name: '🇩🇪 018  | ⬇️ 23KB/s #1'
+  name: 🇩🇪 018  | ⬇️ 23KB/s
   obfs: ''
   obfs-password: ''
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
@@ -135,7 +471,7 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- name: '🇺🇸 019  | ⬇️ 6MB/s #1'
+- name: 🇺🇸 019  | ⬇️ 6MB/s
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -145,7 +481,7 @@ proxies:
   - h3
   down: ''
   fingerprint: ''
-  name: '🇺🇸 020  | ⬇️ 9KB/s #1'
+  name: 🇺🇸 020  | ⬇️ 9KB/s
   obfs: ''
   obfs-password: ''
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
@@ -156,51 +492,9 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- name: '🇸🇬 021  | ⬇️ 1MB/s #1'
-  network: ws
-  port: 2082
-  server: 172.64.150.28
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - b--g.bntabriz.ir
-    path:
-    - /
-  name: '🇳🇱 023  | ⬇️ 4MB/s #1'
-  network: http
-  packet-encoding: xudp
-  port: 25566
-  server: g--p.soreanapanel.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
-- name: '🇦🇺 024  | ⬇️ 46KB/s #1'
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 29344
-  ports: 20000,20000-30000
-  server: 137.23.2.56
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  tfo: false
-  type: hysteria2
 - down: ''
   fingerprint: ''
-  name: '🇩🇪 025  | ⬇️ 248KB/s #1'
+  name: 🇩🇪 025  | ⬇️ 248KB/s
   obfs: ''
   obfs-password: ''
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
@@ -211,24 +505,13 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- name: '🇦🇺 026  | ⬇️ 71KB/s #1'
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 24068
-  ports: 20000,20000-30000
-  server: 137.23.2.56
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇯🇵 027  | ⬇️ 134KB/s #1'
+  name: 🇯🇵 027  | ⬇️ 134KB/s
   network: ws
   packet-encoding: xudp
   port: 2040
@@ -245,7 +528,7 @@ proxies:
     path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 029  | ⬇️ 9MB/s #1'
+  name: 🇭🇰 029  | ⬇️ 9MB/s
   network: ws
   port: 443
   server: 6jdvarazgu3qqr6q.v.3dns.vip
@@ -257,7 +540,7 @@ proxies:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
     path: /ws-vmess
-- name: '🇦🇺 030  | ⬇️ 26KB/s #1'
+- name: 🇦🇺 030  | ⬇️ 26KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -268,7 +551,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇦🇺 034  | ⬇️ 104KB/s #1'
+- name: 🇦🇺 034  | ⬇️ 104KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -284,7 +567,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇷🇺 035  | ⬇️ 24KB/s #1'
+  name: 🇷🇺 035  | ⬇️ 24KB/s
   network: xhttp
   packet-encoding: xudp
   port: 2053
@@ -303,7 +586,7 @@ proxies:
   - h3
   down: ''
   fingerprint: ''
-  name: '🇺🇸 036  | ⬇️ 435KB/s #1'
+  name: 🇺🇸 036  | ⬇️ 435KB/s
   obfs: ''
   obfs-password: ''
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
@@ -320,7 +603,7 @@ proxies:
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇺🇸 038  | ⬇️ 5KB/s #1'
+  name: 🇺🇸 038  | ⬇️ 5KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -335,7 +618,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
     path: /ws#/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-- name: '🇦🇺 040  | ⬇️ 12KB/s #1'
+- name: 🇦🇺 040  | ⬇️ 12KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -346,13 +629,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇺🇸 041  | ⬇️ 17KB/s #1'
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: '🇦🇺 042  | ⬇️ 2KB/s #1'
+- name: 🇦🇺 042  | ⬇️ 2KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -363,7 +640,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇦🇺 043  | ⬇️ 4KB/s #1'
+- name: 🇦🇺 043  | ⬇️ 4KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -376,20 +653,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '🇩🇪 044  | ⬇️ 1MB/s #1'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
@@ -398,7 +661,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇩🇪 045  | ⬇️ 1MB/s #1'
+  name: 🇩🇪 045  | ⬇️ 1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -413,7 +676,7 @@ proxies:
     headers:
       Host: a.benyamin-benshop.ir
     path: /
-- name: '🇦🇺 046  | ⬇️ 8KB/s #1'
+- name: 🇦🇺 046  | ⬇️ 8KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -424,7 +687,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇦🇺 048  | ⬇️ 15KB/s #1'
+- name: 🇦🇺 048  | ⬇️ 15KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -435,7 +698,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇦🇺 049  #1'
+- name: '🇦🇺 049 '
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -447,7 +710,7 @@ proxies:
   tfo: false
   type: hysteria2
 - auth: b42d90fa667942aebc734d60
-  name: '🇦🇺 051  | ⬇️ 1KB/s #1'
+  name: 🇦🇺 051  | ⬇️ 1KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -458,18 +721,7 @@ proxies:
   sni: rmgyvpn.rest
   type: hysteria2
   udp: true
-- name: '🇦🇺 052  | ⬇️ 18KB/s #1'
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 21193
-  ports: 20000,20000-30000
-  server: 137.23.2.56
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  tfo: false
-  type: hysteria2
-- name: '🇦🇺 054  | ⬇️ 37KB/s #1'
+- name: 🇦🇺 054  | ⬇️ 37KB/s
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
@@ -480,18 +732,7 @@ proxies:
   sni: rmgyvpn.rest
   tfo: false
   type: hysteria2
-- name: '🇦🇺 055  | ⬇️ 11KB/s #1'
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 20690
-  ports: 20000,20000-30000
-  server: 137.23.2.56
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  tfo: false
-  type: hysteria2
-- name: '🇦🇺 056  | ⬇️ 234KB/s #1'
+- name: 🇦🇺 056  | ⬇️ 234KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-001.fastervpn.world
@@ -500,7 +741,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 057  | ⬇️ 13KB/s #1'
+  name: 🇭🇰 057  | ⬇️ 13KB/s
   network: ws
   port: 443
   server: 47.243.65.243
@@ -513,7 +754,7 @@ proxies:
       Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: '🇯🇵 058  | ⬇️ 4MB/s #1'
+  name: 🇯🇵 058  | ⬇️ 4MB/s
   network: tcp
   password: HOrViv
   port: 28106
@@ -523,7 +764,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 059  | ⬇️ 3KB/s #1'
+  name: 🇭🇰 059  | ⬇️ 3KB/s
   network: ws
   port: 443
   server: 8.217.254.88
@@ -537,7 +778,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 061  | ⬇️ 4KB/s #1'
+  name: 🇭🇰 061  | ⬇️ 4KB/s
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -555,7 +796,7 @@ proxies:
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: '🇨🇳 062  | ⬇️ 254KB/s #1'
+  name: 🇨🇳 062  | ⬇️ 254KB/s
   persistent-keepalive: '25'
   port: 878
   private-key: MO7Y3wBMgTwe1NH+t5tbw6qMmkV+0k3UHN1G9F6vkG4=
@@ -572,7 +813,7 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: '🇺🇸 063  | ⬇️ 1MB/s #1'
+  name: 🇺🇸 063  | ⬇️ 1MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -582,7 +823,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - country: 🇩🇪DE
-  name: '🇩🇪 064  | ⬇️ 60KB/s #1'
+  name: 🇩🇪 064  | ⬇️ 60KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-de-002.fastervpn.world
@@ -590,266 +831,67 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   type: hysteria2
   udp: true
-- name: 🇨🇿CZ_1|1.1MB/s
-  port: 443
-  server: 185.216.35.130
+- name: 🇭🇰HK_1|3.8MB/s
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  port: 24318
+  server: svip.skycon808.com
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_1|3.3MB/s
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|2.8MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|3.4MB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: hk08.jdddyy01.cc
+  type: anytls
   udp: true
-- name: 🇫🇷FR_1|1007KB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_2|1.4MB/s
-  password: None
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_1|1.1MB/s|K001-260618
-  port: 9443
-  server: 31.171.155.210
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇪🇸ES_2|2.6MB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_1|1.2MB/s
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|2.8MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇾CY_1|1.3MB/s
-  port: 443
-  server: 213.207.130.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_2|1.7MB/s
-  port: 443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|1003KB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.0MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.8MB/s
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|2.0MB/s|R002-260618
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇱🇺LU_1|1.3MB/s
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_2|1.7MB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇻LV_1|1.3MB/s
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.3MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇦BA_1|1.3MB/s
-  port: 443
-  server: 185.164.35.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_1|2.3MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_1|2.5MB/s
-  password: None
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.8MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.3MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|1.6MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.1MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_2|1.2MB/s
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.3MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.3MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_1|1.8MB/s
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇺LU_2|1.2MB/s
-  port: 443
-  server: 185.221.132.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|1.3MB/s
+- name: 🇸🇪SE_1|1.1MB/s
   password: None
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.7MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇪IE_1|1.1MB/s
-  port: 443
-  server: 149.88.96.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1009KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_3|1.8MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_1|2.3MB/s|R002-260618
-  password: None
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇦CA_3|2.8MB/s
-  port: 1080
-  server: 149.248.18.106
-  skip-cert-verify: true
-  type: socks5
 - name: 🇸🇬SG_1|4.2MB/s
   password: '1234'
   port: 2080
-  server: 54.255.133.243
+  server: 18.143.169.187
   skip-cert-verify: true
   type: http
   username: '1234'
+- name: 🇸🇬SG_2|3.2MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.55.110
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_3|3.6MB/s
+  password: '1234'
+  port: 2080
+  server: 13.250.21.56
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|4.0MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.144.250
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_5|2.7MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.174.248
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_6|1.1MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.200.52
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- cipher: aes-256-gcm
+  name: 🇸🇪SE_2|1.8MB/s
+  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
+  port: 22043
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true

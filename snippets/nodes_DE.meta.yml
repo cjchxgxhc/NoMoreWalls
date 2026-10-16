@@ -1,5 +1,43 @@
 proxies:
-- name: '🇩🇪 002  | ⬇️ 391KB/s #1'
+- name: 🇩🇪 011  | ⬇️ 40KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 044  | ⬇️ 1MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 047  | ⬇️ 5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 172.67.76.128
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /
+- name: 🇩🇪 002  | ⬇️ 391KB/s
   network: tcp
   password: happybirthdaydaniel
   port: 25267
@@ -8,7 +46,7 @@ proxies:
   sni: t.me/fuckthewall
   type: trojan
   udp: true
-- name: '🇩🇪 009  | ⬇️ 7MB/s #1'
+- name: 🇩🇪 009  | ⬇️ 7MB/s
   password: c635b5f6-b5ea-4e57-927f-75860b0cb984
   port: 1443
   server: hy9.shamanfun.ru
@@ -24,7 +62,7 @@ proxies:
       - down-cdn.dingtalk.com
     path:
     - /QQqun-737805443
-  name: '🇩🇪 017  | ⬇️ 6MB/s #1'
+  name: 🇩🇪 017  | ⬇️ 6MB/s
   network: http
   port: 52080
   server: 23.165.200.150
@@ -35,7 +73,7 @@ proxies:
   - h3
   down: ''
   fingerprint: ''
-  name: '🇩🇪 018  | ⬇️ 23KB/s #1'
+  name: 🇩🇪 018  | ⬇️ 23KB/s
   obfs: ''
   obfs-password: ''
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
@@ -48,7 +86,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: '🇩🇪 025  | ⬇️ 248KB/s #1'
+  name: 🇩🇪 025  | ⬇️ 248KB/s
   obfs: ''
   obfs-password: ''
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
@@ -61,20 +99,6 @@ proxies:
   up: ''
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '🇩🇪 044  | ⬇️ 1MB/s #1'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
@@ -83,7 +107,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '🇩🇪 045  | ⬇️ 1MB/s #1'
+  name: 🇩🇪 045  | ⬇️ 1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -99,7 +123,7 @@ proxies:
       Host: a.benyamin-benshop.ir
     path: /
 - country: 🇩🇪DE
-  name: '🇩🇪 064  | ⬇️ 60KB/s #1'
+  name: 🇩🇪 064  | ⬇️ 60KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-de-002.fastervpn.world
@@ -107,34 +131,3 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   type: hysteria2
   udp: true
-- name: 🇩🇪DE_1|1003KB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.0MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.3MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.7MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
