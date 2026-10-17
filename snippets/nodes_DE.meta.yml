@@ -1,17 +1,19 @@
 proxies:
-- name: '🇩🇪 011  | ⬇️ 40KB/s #1'
+- country: 🇩🇪DE
+  name: 🇩🇪 005  | ⬇️ 484KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: vpn-de-002.fastervpn.world
   type: hysteria2
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '🇩🇪 035  | ⬇️ 233KB/s #1'
+  name: 🇩🇪 035  | ⬇️ 233KB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -20,9 +22,16 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- name: 🇩🇪 011  | ⬇️ 40KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪 047  | ⬇️ 5MB/s #1'
+  name: 🇩🇪 047  | ⬇️ 5MB/s
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -37,9 +46,9 @@ proxies:
     headers:
       Host: kkkk-xcd.pages.dev
     path: /
-- name: 🇩🇪DE_1|1.2MB/s
-  port: 9443
-  server: 87.249.132.97
+- name: 🇩🇪DE_1|1.0MB/s
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http

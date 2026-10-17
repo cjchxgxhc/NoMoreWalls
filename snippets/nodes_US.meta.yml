@@ -1,5 +1,24 @@
 proxies:
-- name: '🇺🇸 009  | ⬇️ 641KB/s #1'
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇺🇸 001  | ⬇️ 5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇺🇸 009  | ⬇️ 641KB/s
   password: 0324fbc29561
   port: 443
   server: 98416548.df6h451rh.xin
@@ -8,7 +27,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: '🇺🇸 022  | ⬇️ 683KB/s #1'
+  name: 🇺🇸 022  | ⬇️ 683KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
   port: 20230
@@ -18,9 +37,21 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '🇺🇸 033  | ⬇️ 161KB/s #1'
+- name: 🇺🇸 033  | ⬇️ 161KB/s
   password: test123
   port: 1080
   server: 104.168.249.36
   type: socks5
   username: test123
+- alterId: '2'
+  cipher: auto
+  name: 🇺🇸US_1|4.1MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
