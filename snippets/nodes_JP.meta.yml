@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 003  | ⬇️ 7MB/s
+  name: '🇯🇵 003  | ⬇️ 7MB/s #1'
   network: ws
   port: 16617
   server: t.cnmjcn.cyou
@@ -13,40 +13,31 @@ proxies:
       Host: 2a070082cba893b78ec6c7c74f8a9603.mobgslb.tbcache.com
     path: /
 - cipher: aes-256-gcm
-  name: 🇯🇵 005  | ⬇️ 12KB/s
+  name: '🇯🇵 005  | ⬇️ 12KB/s #1'
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵 027  | ⬇️ 134KB/s
+  name: 🇯🇵JP_1|3.8MB/s
   network: ws
-  packet-encoding: xudp
-  port: 2040
-  server: 188.245.191.19
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 663b355b-9fea-473d-9deb-7eb44e97f24a
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 🇯🇵 058  | ⬇️ 4MB/s
-  network: tcp
-  password: HOrViv
-  port: 28106
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+  xudp: true

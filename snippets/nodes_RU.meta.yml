@@ -1,27 +1,30 @@
 proxies:
 - alpn:
-  - h2
   - http/1.1
-  client-fingerprint: chrome
+  - h2
+  client-fingerprint: firefox
   encryption: none
-  name: 🇷🇺 035  | ⬇️ 24KB/s
+  name: 🇷🇺RU_1|1.4MB/s
   network: xhttp
-  packet-encoding: xudp
   port: 2053
-  server: randomquaint.net
+  server: 78.159.246.179
   servername: randomquaint.net
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
   xhttp-opts:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-- name: 🇷🇺RU_1|1.4MB/s
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-keep-alive-period: 0
+      h-max-request-times: '0'
+      h-max-reusable-secs: '0'
+      max-concurrency: 16-32
+      max-connections: '0'
+    session-length: '0'
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
+  xudp: true
