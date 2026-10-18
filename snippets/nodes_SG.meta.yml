@@ -1,22 +1,42 @@
 proxies:
-- name: '🇸🇬 031  #1'
+- name: 🇸🇬 014  | ⬇️ 109KB/s
+  network: ws
+  port: 2082
+  server: 172.64.150.28
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- name: '🇸🇬 031 '
   network: tcp
   port: 16263
   server: 47.237.74.17
   tls: false
   type: vless
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: 🇸🇬SG_1|4.2MB/s
+- name: 🇸🇬SG_2|1.9MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.214.213.66
+  server: 13.212.144.250
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_2|1.3MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.249.115
+- name: 🇸🇬SG_3|1.6MB/s
+  port: 443
+  server: 156.146.56.97
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
+- name: 🇸🇬SG_4|2.8MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
