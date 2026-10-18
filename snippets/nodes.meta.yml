@@ -262,112 +262,38 @@ proxies:
   sni: images.ctfassets.net
   type: anytls
   udp: true
-- name: 🇦🇹AT_1|1.6MB/s
-  password: None
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_1|1.4MB/s
-  port: 9443
-  server: 169.150.199.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_1|2.1MB/s|K001-260618
-  port: 9443
-  server: 31.171.155.210
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇸🇬SG_1|1.4MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.14.88
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_2|4.3MB/s
-  password: '1234'
-  port: 2080
-  server: 54.251.149.207
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇨🇿CZ_1|1.6MB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|2.4MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|1.8MB/s
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|1.0MB/s
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|1.7MB/s
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_2|1.0MB/s
-  password: None
-  port: 443
-  server: 87.120.103.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇫🇷FR_2|3.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
+- http-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /assignment
-- name: 🇰🇷KR_1|2.1MB/s
-  port: 1080
-  server: 14.36.232.55
-  skip-cert-verify: true
-  type: socks5
-- name: 🇸🇬SG_3|4.3MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.190.30
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: ❓Other_1|4.3MB/s
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 🇰🇷KR_1|5.1MB/s
+  network: http
+  port: 443
+  server: 43.202.48.94
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: 🇸🇬SG_1|4.2MB/s
   password: '1234'
   port: 2080
   server: 13.214.213.66
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇩🇪DE_1|1.2MB/s
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_2|1.3MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.249.115
   skip-cert-verify: true
   type: http
   username: '1234'
