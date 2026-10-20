@@ -1,26 +1,6 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇷🇺 001  | ⬇️ 23KB/s #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 2053
-  server: 78.159.246.179
-  servername: randomquaint.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
 - encryption: none
-  name: '🇷🇺 021  | ⬇️ 16KB/s #1'
+  name: 🇷🇺 021  | ⬇️ 16KB/s
   network: xhttp
   packet-encoding: xudp
   port: 2053
@@ -35,3 +15,31 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺 001  | ⬇️ 23KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+- cipher: aes-256-gcm
+  name: 🇷🇺 033  | ⬇️ 1MB/s
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 176.32.33.143
+  skip-cert-verify: false
+  type: ss
+  udp: false

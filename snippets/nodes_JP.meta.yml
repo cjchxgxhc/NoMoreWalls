@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 010  | ⬇️ 23KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2040
+  server: 188.245.191.19
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 663b355b-9fea-473d-9deb-7eb44e97f24a
+  ws-opts:
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+    path: /@Marisa_kristi
+- alterId: 2
+  cipher: auto
+  name: '🇯🇵 018 '
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇯🇵JP_1|2.8MB/s
+  port: 7000
+  server: 58.32.16.138
+  skip-cert-verify: true
+  type: socks5

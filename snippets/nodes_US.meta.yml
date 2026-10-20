@@ -1,14 +1,140 @@
 proxies:
-- name: '🇺🇸 016  | ⬇️ 23KB/s #1'
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 002  | ⬇️ 5MB/s
+  network: none
+  port: 22998
+  server: 23.27.47.67
+  tls: false
+  type: vmess
+  uuid: 66345f5f-36c7-4aa8-b024-93c5a5989d6a
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 003  | ⬇️ 4MB/s
+  network: none
+  port: 26781
+  server: 23.27.47.67
+  tls: false
+  type: vmess
+  uuid: c8e76bdc-374f-48b0-dc49-1c6cd138ea06
+- client-fingerprint: unsafe
+  ech-opts:
+    _dns: udp://8.8.8.8
+    enable: true
+    query-server-name: ip.gs
+  encryption: none
+  name: '🇺🇸 022 '
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.81.30
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 036  | ⬇️ 58KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.145.138
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳+fp=chrome
+- name: 🇺🇸 016  | ⬇️ 23KB/s
   password: test123
   port: 1080
   server: 104.168.249.36
   type: socks5
   username: test123
-- name: '🇺🇸 023  | ⬇️ 12KB/s #1'
+- name: 🇺🇸 023  | ⬇️ 12KB/s
   password: https://xship.top
   port: 443
   server: starlink-ft.251313.xyz
   skip-cert-verify: true
   sni: xship.top
   type: hysteria2
+- name: 🇺🇸US_1|1.4MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_2|3.2MB/s
+  network: ws
+  port: 8033
+  server: 120.232.202.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_3|3.6MB/s
+  network: ws
+  port: 8034
+  server: 120.232.202.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_4|2.4MB/s
+  network: ws
+  port: 8039
+  server: 120.232.202.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_5|2.8MB/s
+  network: ws
+  port: 8032
+  server: 120.232.202.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  xudp: true
