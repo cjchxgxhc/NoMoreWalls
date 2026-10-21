@@ -1,7 +1,59 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 🇺🇸 003  | ⬇️ 4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: unsafe
+  ech-opts:
+    _dns: udp://8.8.8.8
+    enable: true
+    query-server-name: ip.gs
+  encryption: none
+  name: 🇺🇸 029  | ⬇️ 7KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.25.88.220
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+- name: 🇺🇸 033  | ⬇️ 9KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 042  | ⬇️ 3KB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸 054  | ⬇️ 913KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 002  | ⬇️ 5MB/s #1'
+  name: 🇺🇸 002  | ⬇️ 5MB/s
   network: none
   port: 22998
   server: 23.27.47.67
@@ -23,7 +75,7 @@ proxies:
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: '🇺🇸 022  #1'
+  name: '🇺🇸 022 '
   network: ws
   packet-encoding: xudp
   port: 443
@@ -40,7 +92,7 @@ proxies:
     path: /ws
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸 036  | ⬇️ 58KB/s #1'
+  name: 🇺🇸 036  | ⬇️ 58KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -55,22 +107,106 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳+fp=chrome
-- name: 🇺🇸US_1|1.4MB/s
+- name: 🇺🇸US_1|2.0MB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|2.3MB/s
+- name: 🇺🇸US_2|2.1MB/s
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_3|2.8MB/s
+  password: None
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_5|3.0MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.7MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|3.1MB/s
   port: 9443
   server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.7MB/s
+- name: 🇺🇸US_8|3.3MB/s
   password: None
-  port: 443
-  server: 12.202.180.118
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_9|2.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|3.4MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_11|2.3MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_12|2.2MB/s
+  password: None
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.5MB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.4MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_15|1.4MB/s
+  port: 1080
+  server: 209.50.255.91
+  skip-cert-verify: true
+  type: socks5
