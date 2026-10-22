@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 🇸🇪 005  | ⬇️ 13KB/s
+  network: http
+  port: 443
+  server: 13.60.198.133
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: 🇸🇪SE_1|1021KB/s
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -1,27 +1,5 @@
 proxies:
-- name: 🇸🇬 020  | ⬇️ 4MB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  sni: 139.180.146.200
-  type: trojan
-- name: 🇸🇬 041  | ⬇️ 2MB/s
-  network: ws
-  port: 8080
-  server: 104.21.70.21
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- name: 🇸🇬 047  | ⬇️ 4MB/s
+- name: 🇸🇬 015  | ⬇️ 6MB/s
   network: ws
   port: 8080
   server: 104.18.35.86
@@ -36,6 +14,20 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /sg-melbi
+- name: 🇸🇬 042  | ⬇️ 6MB/s
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 038  | ⬇️ 2MB/s
@@ -49,17 +41,57 @@ proxies:
   type: vless
   udp: true
   uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-- name: 🇸🇬SG_1|1.0MB/s
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|2.8MB/s
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /
+  xudp: true
+- name: 🇸🇬SG_2|1.2MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.249.115
+  server: 13.212.186.198
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_2|4.9MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.229.236.228
-  skip-cert-verify: true
+- name: 🇸🇬SG_3|1.0MB/s
+  password: None
+  port: 9090
+  server: 104.248.151.93
   type: http
-  username: '1234'
+- name: 🇸🇬SG_4|1.6MB/s
+  port: 9090
+  server: 128.199.116.219
+  type: http
+- client-fingerprint: chrome
+  name: 🇸🇬SG_5|1.9MB/s
+  network: ws
+  port: 443
+  server: 206.189.95.233
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true

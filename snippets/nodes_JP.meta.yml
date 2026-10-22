@@ -1,11 +1,20 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: '🇯🇵 018 '
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵 009  | ⬇️ 794KB/s
+  name: 🇯🇵 019  | ⬇️ 18KB/s
   network: ws
   packet-encoding: xudp
   port: 2040
@@ -20,28 +29,49 @@ proxies:
     headers:
       Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
     path: /@Marisa_kristi
-- name: '🇯🇵 027 '
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇯🇵 058  | ⬇️ 2KB/s
-  password: wvA0PtDIuFbSqooIC2goKzFr
-  port: 443
-  server: 38.175.202.26
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 🇯🇵 060  | ⬇️ 2KB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  skip-cert-verify: true
-  sni: 45.32.52.173
-  type: trojan
+- cipher: aes-256-gcm
+  name: 🇯🇵 024  | ⬇️ 31KB/s
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 048  | ⬇️ 210KB/s
+  network: ws
+  port: 2083
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 051  | ⬇️ 53KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2040
+  server: 188.245.191.19
+  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 17253e9d-483f-46d1-b425-749b45fee6c6
+  ws-opts:
+    headers:
+      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -63,21 +93,12 @@ proxies:
     headers:
       Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
     path: /@Marisa_kristi
-- alterId: 2
-  cipher: auto
-  name: '🇯🇵 018 '
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵JP_1|4.9MB/s
+  name: 🇯🇵JP_1|2.3MB/s
   network: ws
   port: 443
   server: saas.sin.fan
@@ -89,7 +110,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
   xudp: true
