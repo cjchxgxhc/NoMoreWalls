@@ -1,48 +1,17 @@
 proxies:
-- client-fingerprint: firefox
-  name: 🇩🇪 031  | ⬇️ 11KB/s
-  network: ws
+- name: 🇩🇪DE_1|1017KB/s
   port: 443
-  server: z1q3pv4g78.rucdncomp.pro
-  servername: z1q3pv4g78.rucdncomp.pro
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
-  ws-opts:
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-    path: /useraction/events/b892639b7195/
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.7MB/s
-  network: tcp
-  port: 43232
-  server: fastiland.beautishine.ir
-  servername: fastiland.beautishine.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ceacfa0-6228-4e78-80e4-e5e29c924718
-  xudp: true
-- name: 🇩🇪DE_2|3.1MB/s
+  type: http
+- name: 🇩🇪DE_2|1.3MB/s
   port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.9MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.0MB/s
+- name: 🇩🇪DE_3|1.6MB/s
   password: None
   port: 443
   server: 152.233.20.206
@@ -50,25 +19,7 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|3.3MB/s
-  network: ws
-  port: 443
-  server: 77.90.45.250
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_6|1.0MB/s
+  name: 🇩🇪DE_4|1.4MB/s
   network: ws
   port: 443
   server: 177.1.187.183
@@ -80,7 +31,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /fp=chrome
   xudp: true
