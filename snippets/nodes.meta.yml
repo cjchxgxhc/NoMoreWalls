@@ -570,309 +570,119 @@ proxies:
   server: 8.6.112.64
   type: wireguard
   udp: true
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬SG_1|4.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|3.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🇳🇱NL_1|3.5MB/s
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷FR_1|1.5MB/s
-  password: None
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|2.0MB/s
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇭CH_1|1.9MB/s
-  password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|1.4MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: 🇸🇬SG_3|4.2MB/s
-  network: ws
-  port: 443
-  server: 104.18.36.29
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NETfp=chrome
-  xudp: true
-- name: 🇫🇷FR_2|3.0MB/s
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.3MB/s
-  network: ws
-  port: 2083
-  server: 64.188.71.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG_4|4.0MB/s
+- name: 🇸🇬SG_1|3.6MB/s
   password: '1234'
   port: 2080
   server: 13.212.87.168
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_5|3.1MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_2|2.3MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 18.143.63.164
+  type: ss
+  udp: true
+- name: 🇸🇬SG_3|1.6MB/s
   password: '1234'
   port: 2080
-  server: 13.212.55.110
+  server: 13.212.90.38
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇩🇪DE_2|1.7MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
+- name: 🇸🇬SG_4|4.2MB/s
+  password: '1234'
+  port: 2080
+  server: 18.143.167.6
   skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇭🇰HK_1|1.1MB/s
-  port: 31343
+  username: '1234'
+- name: 🇸🇬SG_5|4.8MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.190.30
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇮🇳IN_1|1.2MB/s
+  password: None
+  port: 52200
   server: 120.232.204.58
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇧🇪BE_1|1.5MB/s
-  port: 443
-  server: 146.70.123.98
+- name: 🇺🇸US_2|3.7MB/s
+  port: 8443
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇿CZ_2|1.1MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_3|1.3MB/s
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇪IE_1|1.1MB/s
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇺LU_1|1.4MB/s
-  password: None
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.5MB/s|R002-260618
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_3|1.8MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|2.6MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.6MB/s
-  password: None
-  port: 443
-  server: 185.183.105.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.8MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_1|2.4MB/s
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_1|1.2MB/s
-  password: None
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_1|1.4MB/s|K001-260618
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇳🇴NO_1|1.2MB/s
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇹PT_1|1.3MB/s
-  password: None
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇷HR_1|1.8MB/s
-  password: None
-  port: 443
-  server: 154.47.29.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_6|4.3MB/s
-  network: ws
-  port: 443
-  server: 172.64.150.28
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG_7|4.2MB/s
+- name: 🇸🇬SG_6|3.9MB/s
   password: '1234'
   port: 2080
-  server: 13.212.186.198
+  server: 54.151.160.36
   skip-cert-verify: true
   type: http
   username: '1234'
 - client-fingerprint: chrome
-  name: 🇸🇬SG_8|4.3MB/s
+  name: 🇫🇷FR_1|2.0MB/s
   network: ws
+  password: humanity
   port: 443
-  server: 104.18.43.114
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
+  server: 162.159.36.20
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_3|1.7MB/s
-  port: 1080
-  server: 209.50.255.91
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /assignment
+- name: 🇸🇬SG_7|4.0MB/s
+  password: '1234'
+  port: 2080
+  server: 54.251.149.207
   skip-cert-verify: true
-  type: socks5
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_8|4.5MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.14.88
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_9|4.3MB/s
+  password: '1234'
+  port: 2080
+  server: 13.229.91.101
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_10|4.1MB/s
+  password: '1234'
+  port: 2080
+  server: 13.250.6.249
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_11|4.1MB/s
+  password: '1234'
+  port: 2080
+  server: 13.250.8.222
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_12|4.5MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.235.123
+  skip-cert-verify: true
+  type: http
+  username: '1234'
