@@ -1,9 +1,29 @@
 proxies:
-- name: '🇹🇼 062  | ⬇️ 428KB/s #1'
+- allowInsecure: '1'
+  name: '🇹🇼 007  | ⬇️ 63KB/s #1'
+  packet-encoding: ''
+  packetEncoding: none
   password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
   port: 47531
   server: svip.skycon808.com
   skip-cert-verify: true
   sni: tw15.swiftrelay.cc
+  sub-tag: P002-260618
   type: anytls
   udp: true
+- name: '🇹🇼 017  | ⬇️ 32KB/s #1'
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇹🇼 051  | ⬇️ 4MB/s #1'
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls

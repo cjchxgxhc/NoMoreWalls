@@ -1,81 +1,15 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: '🇯🇵 004  #1'
+- client-fingerprint: chrome
+  name: '🇯🇵 041  | ⬇️ 45KB/s #1'
   network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '🇯🇵 019  | ⬇️ 18KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2040
-  server: 188.245.191.19
-  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c7387fd-9e61-4381-8b16-ab6a80cafaf5
-  ws-opts:
-    headers:
-      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-    path: /@Marisa_kristi
-- cipher: aes-256-gcm
-  name: '🇯🇵 024  | ⬇️ 31KB/s #1'
-  password: BeaUf9c0AEWH40Pu
-  port: 8388
-  server: 154.36.158.197
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: '🇯🇵 048  | ⬇️ 210KB/s #1'
-  network: ws
-  port: 2083
-  server: or3.sfacg.uk
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '🇯🇵 051  | ⬇️ 53KB/s #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2040
-  server: 188.245.191.19
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17253e9d-483f-46d1-b425-749b45fee6c6
-  ws-opts:
-    headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-    path: /@Marisa_kristi
-- name: 🇯🇵JP_1|1.9MB/s
-  password: None
-  port: 343
-  server: 133.18.200.207
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 45.32.52.173
+  type: trojan
+- name: 🇯🇵JP_1|1.8MB/s
+  port: 7000
+  server: 58.32.16.138
+  skip-cert-verify: true
+  type: socks5

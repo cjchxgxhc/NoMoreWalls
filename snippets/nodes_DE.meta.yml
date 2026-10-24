@@ -1,59 +1,85 @@
 proxies:
-- name: 🇩🇪DE_1|3.3MB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🇩🇪 004  | ⬇️ 7KB/s #1'
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
+  server: 162.35.224.113
+  servername: mk-de6.silalink.sbs
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇩🇪DE_2|1.4MB/s
+  uuid: 095ed44e-b2f9-4f61-ba77-2142583578d8
+- name: 🇩🇪DE_1|3.5MB/s
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.9MB/s
-  network: ws
-  port: 8443
-  server: 185.208.172.85
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-  xudp: true
-- name: 🇩🇪DE_4|3.6MB/s
+- name: 🇩🇪DE_2|3.3MB/s
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.4MB/s
+- name: 🇩🇪DE_3|2.3MB/s
   password: None
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|2.3MB/s
+- name: 🇩🇪DE_4|1.5MB/s
+  password: None
   port: 443
-  server: 149.36.50.129
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- name: 🇩🇪DE_5|2.6MB/s
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.8MB/s|R002-260618
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_7|2.9MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.2MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_10|2.5MB/s
+  port: 1080
+  server: 89.191.226.64
+  skip-cert-verify: true
+  type: socks5
 - client-fingerprint: chrome
-  name: 🇩🇪DE_7|3.2MB/s
+  name: 🇩🇪DE_11|2.8MB/s
   network: ws
-  port: 2083
-  server: 64.188.71.236
+  port: 443
+  server: 64.226.96.188
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -62,8 +88,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
   xudp: true
