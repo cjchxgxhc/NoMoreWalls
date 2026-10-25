@@ -1,26 +1,40 @@
 proxies:
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: '🇩🇪 004  | ⬇️ 7KB/s #1'
-  network: tcp
+  name: '🇩🇪 023  | ⬇️ 12KB/s #1'
+  network: xhttp
   packet-encoding: xudp
-  port: 443
-  server: 162.35.224.113
-  servername: mk-de6.silalink.sbs
+  port: 9443
+  server: germany01.azotvpn.xyz
+  servername: germany01.azotvpn.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 095ed44e-b2f9-4f61-ba77-2142583578d8
-- name: 🇩🇪DE_1|2.9MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
+  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪 068  | ⬇️ 5MB/s #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: www.canva.com
+  servername: kanapucin.tolkun-tv.ru
   tls: true
-  type: http
-- name: 🇩🇪DE_2|1.2MB/s|R002-260618
+  type: vless
+  udp: true
+  uuid: a0431667-fe5b-4a55-b466-49bb04f74120
+  xhttp-opts:
+    host: kanapucin.tolkun-tv.ru
+    mode: packet-up
+    path: /
+  xudp: true
+- name: 🇩🇪DE_3|1.4MB/s|R002-260618
   password: None
   port: 443
   server: 87.249.132.97
@@ -29,71 +43,29 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_3|2.5MB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_4|4.6MB/s
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_5|1.2MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_6|1.9MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_7|2.3MB/s
-  password: None
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|3.1MB/s
-  password: None
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|3.2MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_10|2.0MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_11|1.1MB/s
+- name: 🇩🇪DE_4|2.8MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_12|2.0MB/s
-  port: 3129
-  server: 89.58.42.118
+- name: 🇩🇪DE_5|3.0MB/s
+  password: None
+  port: 443
+  server: 79.76.126.155
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.6MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.8MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
