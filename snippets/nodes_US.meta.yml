@@ -79,21 +79,14 @@ proxies:
     headers:
       Host: go.iranfree.de5.net
     path: /
-- name: 🇺🇸US_1|2.2MB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
+- name: 🇺🇸US_1|1.2MB/s
+  port: 22222
+  server: 64.118.155.2
+  skip-cert-verify: true
+  type: http
+- name: 🇺🇸US_2|3.7MB/s
+  port: 8443
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.0MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.0MB/s
-  port: 7890
-  server: 39.106.201.108
-  skip-cert-verify: true
-  type: socks5
