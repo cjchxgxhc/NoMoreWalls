@@ -34,51 +34,87 @@ proxies:
     mode: packet-up
     path: /
   xudp: true
-- name: 🇩🇪DE_1|2.5MB/s
+- name: 🇩🇪DE_3|2.8MB/s
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_2|2.5MB/s
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_3|3.0MB/s
-  password: None
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.2MB/s
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.0MB/s
-  password: None
+- name: 🇩🇪DE_4|3.0MB/s
   port: 9002
-  server: 158.173.154.2
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.6MB/s
+  udp: true
+- name: 🇩🇪DE_5|1.7MB/s
   password: None
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.6MB/s
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- name: 🇩🇪DE_6|2.5MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.7MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|1.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|2.3MB/s
+  network: ws
+  port: 2083
+  server: 185.133.35.56
+  servername: titp.iranroyalzhin.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2445edef-76b7-4713-87b9-ed6aa0b1a2c9
+  ws-opts:
+    headers:
+      Host: titp.iranroyalzhin.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|2.4MB/s
+  network: ws
+  port: 2083
+  server: 140.225.208.50
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /vless-ws
+  xudp: true
