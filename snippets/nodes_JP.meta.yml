@@ -1,20 +1,22 @@
 proxies:
-- name: 🇯🇵 024  | ⬇️ 128KB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  skip-cert-verify: true
-  sni: 45.32.52.173
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 029  | ⬇️ 1KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵 055  | ⬇️ 11KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 57554
+  server: 203.137.165.164
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 91cf01c5-62c1-44cd-80e0-df6310025dab
+  ws-opts:
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+    path: /@Marisa_kristi

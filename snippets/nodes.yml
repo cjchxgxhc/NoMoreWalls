@@ -1,180 +1,114 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇮🇪 062  | ⬇️ 1KB/s
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 001  | ⬇️ 2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 18.143.63.164
-  skip-cert-verify: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 010  | ⬇️ 1KB/s
+  name: 🇭🇰 003  | ⬇️ 18KB/s
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers: {}
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇭🇰 004  | ⬇️ 11KB/s
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 47.244.120.197
+    max-early-data: 2048
+    path: /arki
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 006  | ⬇️ 7KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers: {}
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 007  | ⬇️ 9MB/s
   network: ws
   port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 008 '
+  network: ws
+  port: 443
+  server: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers: {}
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 012  | ⬇️ 6KB/s
+  name: 🇭🇰 065  | ⬇️ 10MB/s
   network: ws
   port: 443
-  server: 2b9hwy8ocx7q74nm.v.3dns.vip
-  servername: 2b9hwY8oCx7Q74NM.v.3dns.vip
+  server: 8.210.24.181
+  servername: 6jdvarazgu3qqr6q.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+      Host: 6jdvarazgu3qqr6q.v.3dns.vip
     path: /ws-vmess
-- name: 🇯🇵 024  | ⬇️ 128KB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 015  | ⬇️ 1MB/s
+  network: ws
+  port: 443
+  server: 8.218.195.61
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 🇹🇼 042  | ⬇️ 478KB/s
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
   skip-cert-verify: true
-  sni: 45.32.52.173
+  sni: TG.freecodes
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇮🇹 014  | ⬇️ 48KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 026  | ⬇️ 5KB/s
-  network: ws
-  port: 443
-  server: 47.243.153.153
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 061  | ⬇️ 3MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇮🇹 015  | ⬇️ 625KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 029  | ⬇️ 1KB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 030 '
-  network: ws
-  port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 032  | ⬇️ 2KB/s
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 034 '
-  network: ws
-  port: 443
-  server: 8.217.13.103
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 041  | ⬇️ 20KB/s
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: 🇫🇷 038  | ⬇️ 27KB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 🇮🇹 018  | ⬇️ 4MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -184,36 +118,175 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 048  | ⬇️ 1KB/s
+  name: 🇭🇰 019  | ⬇️ 9KB/s
   network: ws
   port: 443
-  server: 47.76.57.83
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
+    path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 🇮🇹 051  | ⬇️ 18KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹 013  | ⬇️ 4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹 020  | ⬇️ 5MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 023  | ⬇️ 30KB/s
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 027  | ⬇️ 16KB/s
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 033  | ⬇️ 8KB/s
+  network: ws
+  port: 443
+  server: 8.217.254.88
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 036  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 🇮🇹 043  | ⬇️ 2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 045 '
+  network: ws
+  port: 443
+  server: 47.76.57.83
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 🇮🇹 052  | ⬇️ 209KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 047  | ⬇️ 26KB/s
+  network: ws
+  port: 443
+  server: 8.219.97.17
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 051  | ⬇️ 34KB/s
+  name: 🇸🇬 065  | ⬇️ 12KB/s
   network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: false
+  port: 443
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
     headers:
-      Host: 47.244.120.197
-    path: /arki
-- cipher: aes-256-gcm
-  name: 🇮🇹 037  | ⬇️ 47KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 067  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 001  | ⬇️ 2MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 18.143.63.164
   type: ss
   udp: true
 - alterId: 0
@@ -230,27 +303,6 @@ proxies:
     headers:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 020  | ⬇️ 5MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 031  | ⬇️ 3KB/s
-  network: ws
-  port: 443
-  server: 47.243.194.125
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
 - name: 🇺🇸 011  | ⬇️ 163KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
@@ -264,10 +316,17 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-gcm
-  name: 🇮🇹 013  | ⬇️ 4MB/s
+  name: 🇮🇹 014  | ⬇️ 48KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹 015  | ⬇️ 625KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
   type: ss
   udp: true
 - alterId: 0
@@ -302,18 +361,38 @@ proxies:
     headers:
       Host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 🇹🇼 042  | ⬇️ 478KB/s
-  network: grpc
-  password: 0a9f1f5a397bd427
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 031  | ⬇️ 3KB/s
+  network: ws
   port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
+  server: 47.243.194.125
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 🇮🇹 037  | ⬇️ 47KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 038  | ⬇️ 27KB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 🇳🇱 044  | ⬇️ 5MB/s
@@ -336,21 +415,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 051  | ⬇️ 18KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹 052  | ⬇️ 209KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 0
   cipher: auto
   name: 🇭🇰 059  | ⬇️ 10MB/s
@@ -379,30 +443,11 @@ proxies:
     headers:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 065  | ⬇️ 10MB/s
-  network: ws
-  port: 443
-  server: 8.210.24.181
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇰🇷KR_1|1.1MB/s
-  network: http
-  port: 80
-  server: 43.155.199.22
-  tls: false
-  type: vmess
-  uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d
+- cipher: aes-256-gcm
+  name: 🇮🇹 061  | ⬇️ 3MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  skip-cert-verify: false
+  type: ss
+  udp: false

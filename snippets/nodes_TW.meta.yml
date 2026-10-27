@@ -1,40 +1,4 @@
 proxies:
-- name: 🇹🇼 014  | ⬇️ 28KB/s
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  port: 47531
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: tw15.swiftrelay.cc
-  type: anytls
-  udp: true
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  fp: chrome
-  name: 🇹🇼 022  | ⬇️ 1MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  sub-tag: R002-260618
-  type: anytls
-  udp: true
-- allowInsecure: '1'
-  name: 🇹🇼 005  | ⬇️ 364KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  sub-tag: P002-260618
-  type: anytls
-  udp: true
 - alpn:
   - h2
   grpc-opts:
@@ -47,9 +11,37 @@ proxies:
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  name: 🇹🇼 044  | ⬇️ 50KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
 - name: '🇹🇼 064 '
   password: '!!str 111'
   port: 1080
   server: 106.107.236.110
   type: socks5
   username: '111'
+- allowInsecure: '1'
+  name: 🇹🇼 005  | ⬇️ 364KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  sub-tag: P002-260618
+  type: anytls
+  udp: true
