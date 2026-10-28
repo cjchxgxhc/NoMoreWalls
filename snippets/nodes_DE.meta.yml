@@ -1,4 +1,47 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|1.5MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 032  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: norw-mori-3.failspace.top
+  servername: norw-mori-3.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+  name: 🇩🇪 047  | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8180
+  server: dnld.chaqalli.com
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  ws-opts:
+    headers:
+      Host: dnld.chaqalli.com
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - alpn:
   - h2
   - http/1.1
@@ -34,3 +77,57 @@ proxies:
     mode: packet-up
     path: /
   xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: 🇩🇪DE_1|1.0MB/s
+  network: ws
+  port: 443
+  server: msydjt.com
+  servername: msydjt.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /51544/ws
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 4241775bf20878b791485f4ca6128ff4a84f6c36e7cd02167e976363d36e809e
+  name: 🇩🇪DE_2|1.1MB/s
+  network: tcp
+  port: 443
+  server: de-ads.th3team.ir
+  servername: blog.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2e6f62b-3913-4413-a877-995675637374
+  xudp: true
+- name: 🇩🇪DE_4|1.6MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.0MB/s
+  password: None
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.7MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http

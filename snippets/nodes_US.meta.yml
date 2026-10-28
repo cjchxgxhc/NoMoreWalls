@@ -1,16 +1,73 @@
 proxies:
-- allowInsecure: '1'
-  name: 🇺🇸 050  | ⬇️ 100KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 040  | ⬇️ 770KB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 98416548.df6h451rh.xin
+  server: ad-dedic-3.failspace.top
+  servername: ekb.eg
   skip-cert-verify: true
-  sni: images.ctfassets.net
-  sub-tag: P002-260618
-  type: anytls
+  tls: true
+  type: vless
   udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇺🇸 044  | ⬇️ 100KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 199.232.78.160
+  servername: firefox.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+    path: /
+- ip: 172.16.0.2/32
+  keepalive: '25'
+  mtu: 1380
+  name: 🇺🇸 050  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 500
+  private-key: EF4Q1fC9L/0Q797m8RVB5kywG/iP96eXH9uV8KNXvnw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 50
+  - 240
+  - 54
+  server: 162.159.195.9
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 054  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: norw-mori-5.failspace.top
+  servername: norw-mori-5.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- name: 🇺🇸 041  | ⬇️ 10KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - name: 🇺🇸 011  | ⬇️ 163KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
@@ -68,12 +125,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 🇺🇸 041  | ⬇️ 10KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸 046  | ⬇️ 18KB/s
@@ -91,3 +142,57 @@ proxies:
     headers:
       Host: go.iranfree.de5.net
     path: /
+- name: 🇺🇸US_1|1.6MB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.8MB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1.0MB/s
+  password: None
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.1MB/s
+  password: None
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.4MB/s
+  password: None
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.3MB/s|K001-260618
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_7|1.1MB/s
+  network: tcp
+  port: 54857
+  server: us001.zestapp778.com
+  servername: us001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true

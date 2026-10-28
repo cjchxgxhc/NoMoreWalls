@@ -1,38 +1,14 @@
 proxies:
 - alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 🇹🇼 042  | ⬇️ 478KB/s
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- allowInsecure: '1'
-  alpn:
   - http/1.1
   client-fingerprint: chrome
-  fp: chrome
-  name: 🇹🇼 044  | ⬇️ 50KB/s
-  packet-encoding: ''
-  packetEncoding: none
+  name: 🇹🇼 012  | ⬇️ 209KB/s
   password: 0324fbc29561
   port: 443
   server: 684616s4.df6h451rh.xin
   skip-cert-verify: true
   sni: px.ads.linkedin.com
-  sub-tag: R002-260618
   type: anytls
-  udp: true
-- name: '🇹🇼 064 '
-  password: '!!str 111'
-  port: 1080
-  server: 106.107.236.110
-  type: socks5
-  username: '111'
 - allowInsecure: '1'
   name: 🇹🇼 005  | ⬇️ 364KB/s
   packet-encoding: ''
@@ -45,3 +21,21 @@ proxies:
   sub-tag: P002-260618
   type: anytls
   udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 🇹🇼 042  | ⬇️ 478KB/s
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- name: '🇹🇼 064 '
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'

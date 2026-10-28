@@ -1,256 +1,122 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 003  | ⬇️ 18KB/s
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers: {}
-    max-early-data: 2048
-    path: /arki
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇭🇰 004  | ⬇️ 11KB/s
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 47.244.120.197
-    max-early-data: 2048
-    path: /arki
-- name: 🇸🇬 005  | ⬇️ 2KB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇪🇪 001  | ⬇️ 1MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
-  server: v2.drsachi.com
+  server: 188.72.110.3
+  servername: rsvnor.6924l9t655.h1cloud.lol
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
+  uuid: 092573fd-82d0-4ac2-bc85-7813dfaa884c
+  xhttp-opts:
+    host: rsvnor.6924l9t655.h1cloud.lol
+    mode: packet-up
+    path: /api/v1/bsmanaged12284/sync/
+    reuse-settings:
+      c-max-reuse-times: 36-96
+      h-keep-alive-period: 0
+      h-max-request-times: 320-640
+      h-max-reusable-secs: 720-1800
+      max-concurrency: '0'
+      max-connections: '8'
+    sc-max-each-post-bytes: 32768
+    sc-min-posts-interval-ms: 15
+    session-table: ''
+    uplink-chunk-size: 4096
+    uplink-data-key: X-Media-Chunk
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 96-1040
+    x-padding-header: X-Media-Token
+    x-padding-key: _t
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵 002  | ⬇️ 4KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 152.175.34.232
+  servername: cf-1rm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
   ws-opts:
     headers:
-      Host: v2.drsachi.com
+      Host: cf-1rm.pages.dev
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 006  | ⬇️ 7KB/s
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 007  | ⬇️ 9MB/s
+  name: '🇭🇰 003 '
   network: ws
   port: 443
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  servername: 6jdvarazgu3qqr6q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers: {}
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 004 '
+  network: ws
+  port: 443
+  server: 47.243.65.243
   servername: lcv8v9l7oyamxxfz.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
       Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 008 '
-  network: ws
+- name: 🇫🇷 006  | ⬇️ 464KB/s
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
   port: 443
-  server: 6JDvArazgU3qQR6Q.v.3dns.vip
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- name: 🇱🇻 009  | ⬇️ 3MB/s
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 104.165.205.142
+  server: 195.177.94.166
   skip-cert-verify: false
-  sni: onecloudstream.com
-  tfo: false
+  sni: fr2-cl3.happy-glonaris.top
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 065  | ⬇️ 10MB/s
-  network: ws
-  port: 443
-  server: 8.210.24.181
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
-    path: /ws-vmess
-- name: 🇸🇬 007  | ⬇️ 1MB/s
-  network: ws
-  port: 2082
-  server: 172.64.150.28
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 015  | ⬇️ 1MB/s
-  network: ws
-  port: 443
-  server: 8.218.195.61
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /ws-vmess
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 🇹🇼 042  | ⬇️ 478KB/s
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇮🇹 018  | ⬇️ 4MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 019  | ⬇️ 9KB/s
-  network: ws
-  port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 051  | ⬇️ 18KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹 013  | ⬇️ 4MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹 020  | ⬇️ 5MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 023  | ⬇️ 30KB/s
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
-- name: 🇸🇬 012  | ⬇️ 2MB/s
-  network: ws
-  port: 8080
-  server: 104.16.162.89
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
 - client-fingerprint: chrome
-  name: 🇵🇱 025  | ⬇️ 18KB/s
-  network: tcp
+  name: 🇫🇮 007  | ⬇️ 194KB/s
+  network: xhttp
+  port: 443
+  server: 31.76.2.57
+  servername: 823bcb90.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|1.5MB/s
+  network: xhttp
   packet-encoding: xudp
-  port: 2087
-  server: 2.26.6.1
-  servername: 2.26.6.1
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
 - allowInsecure: '1'
-  name: 🇻🇳 026  | ⬇️ 427KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: db62309c-486a-4fd5-abc4-4e91ac495d38
-  port: 12686
-  server: user01.godvpn.lol
-  skip-cert-verify: true
-  sni: user01.godvpn.lol
-  sub-tag: C002-260622
-  type: anytls
-  udp: true
-  username: db62309c-486a-4fd5-abc4-4e91ac495d38
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 027  | ⬇️ 16KB/s
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /ws-vmess
-- allowInsecure: '1'
+  client-fingerprint: chrome
   name: 🇭🇰 058  | ⬇️ 159KB/s
   packet-encoding: ''
   packetEncoding: none
@@ -262,54 +128,414 @@ proxies:
   sub-tag: P002-260618
   type: anytls
   udp: true
-- ip: 172.16.0.2/32
-  keepalive: '25'
-  mtu: 1380
-  name: 🇨🇳 029  | ⬇️ 2MB/s
-  persistent-keepalive: '25'
-  port: 5279
-  private-key: AC/ly8P9sG6O9gkfQ+/KIjIhHaTp5BpvtLOOtY87FE8=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 94
-  - 17
-  - 185
-  server: 162.159.195.1
-  type: wireguard
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 010  | ⬇️ 29KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  servername: 47.244.120.197
+  skip-cert-verify: true
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      HOST: 47.244.120.197
+    path: /arki
+- name: 🇭🇰 011  | ⬇️ 693KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
+  tfo: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇹🇼 012  | ⬇️ 209KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+- allowInsecure: '1'
+  name: 🇹🇼 005  | ⬇️ 364KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  sub-tag: P002-260618
+  type: anytls
   udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 014  | ⬇️ 55KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 015  | ⬇️ 3KB/s
+  network: ws
+  port: 443
+  server: 8.218.195.61
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰HK_2|1.1MB/s
+  network: http
+  port: 44441
+  server: 206.237.11.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 019  | ⬇️ 5MB/s
+  network: none
+  port: 50376
+  server: 206.237.11.17
+  tls: false
+  type: vmess
+  uuid: 9091fd64-7e8e-4b7a-8ae7-84474f234926
+- cipher: aes-256-gcm
+  name: 🇮🇹 061  | ⬇️ 3MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇮🇹 023  | ⬇️ 204KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇮🇹 052  | ⬇️ 209KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: '🇭🇰 026 '
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: i2psm3knof5qjjix.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 029  | ⬇️ 7KB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇪 030  | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: ir-new-ded.failspace.top
+  servername: ir-new-ded.failspace.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇪 031  | ⬇️ 426KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 50.7.5.164
+  servername: ekb.eg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 032  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: norw-mori-3.failspace.top
+  servername: norw-mori-3.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 030  | ⬇️ 4MB/s
+  name: 🇨🇳 033  | ⬇️ 1MB/s
   persistent-keepalive: '25'
-  port: 894
-  private-key: sHw0+Bc3u8+AKgwM3eTYDc9GMEp7w9bO88DbNfbvv0k=
+  port: 7559
+  private-key: qLEEtaEVNrePebpY2JcodotYCfzmCof7giuqnhsjgmE=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
+  - 51
+  - 6
+  - 121
+  server: 8.6.112.206
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 050  | ⬇️ 1MB/s
+  persistent-keepalive: '25'
+  port: 878
+  private-key: 8POmMoo2qD3czYe1B+39d7r4eAt0XV5QvMnGZ7zw1nI=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 116
+  - 216
+  - 169
+  server: 8.6.112.185
+  type: wireguard
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇹 037  | ⬇️ 873KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 50.7.36.29
+  servername: ekb.eg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇹 038  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 50.7.36.28
+  servername: at-new-ded.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧 039  | ⬇️ 2KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 50.7.226.171
+  servername: viper-21.moriarty-web.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 040  | ⬇️ 770KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: ad-dedic-3.failspace.top
+  servername: ekb.eg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- cipher: aes-256-gcm
+  name: 🇮🇹 013  | ⬇️ 4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇪 042  | ⬇️ 4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 50.7.5.166
+  servername: ekb.eg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 006  | ⬇️ 13KB/s
+  network: ws
+  port: 443
+  server: 47.76.57.83
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇺🇸 044  | ⬇️ 100KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 199.232.78.160
+  servername: firefox.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: firefox
+  name: '🇭🇰 045 '
+  network: ws
+  port: 443
+  server: 8.217.254.88
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+    path: /ws-vmess
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  name: 🇭🇰 039  | ⬇️ 2MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: 0324fbc29561
+  port: 443
+  server: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  sub-tag: R002-260618
+  type: anytls
+  udp: true
+- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+  name: 🇩🇪 047  | ⬇️ 2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8180
+  server: dnld.chaqalli.com
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  ws-opts:
+    headers:
+      Host: dnld.chaqalli.com
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 048  | ⬇️ 257KB/s
+  persistent-keepalive: '25'
+  port: 8742
+  private-key: 4IswYF/j6o1cEQAYvVM9kCG8sRXX8gJZMgEQ9hSiSUc=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 158
+  - 118
+  - 224
+  server: 188.114.97.99
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '25'
+  mtu: 1380
+  name: 🇺🇸 050  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 500
+  private-key: EF4Q1fC9L/0Q797m8RVB5kywG/iP96eXH9uV8KNXvnw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 50
   - 240
-  - 172
-  - 202
-  server: 188.114.97.233
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
-  keepalive: '25'
-  mtu: 1380
-  name: 🇨🇳 031  | ⬇️ 4MB/s
-  persistent-keepalive: '25'
-  port: 891
-  private-key: 2M80MeYR3iVg5OcMqXx2atgQEC9nlP6kCuJvKeXY+nY=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 66
-  - 192
-  - 132
-  server: 162.159.192.13
+  - 54
+  server: 162.159.195.9
   type: wireguard
   udp: true
   wnoise: quic
@@ -320,7 +546,7 @@ proxies:
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 032  | ⬇️ 975KB/s
+  name: 🇨🇳 051  | ⬇️ 188KB/s
   persistent-keepalive: '25'
   port: 8742
   private-key: WDTGYgmQIqsU+xiBtRPjTxxcLYZOOtrCePgInf8ZA30=
@@ -334,53 +560,338 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 033  | ⬇️ 8KB/s
+  name: '🇭🇰 052 '
   network: ws
   port: 443
-  server: 8.217.254.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: nycqg19zkwacpm1b.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    headers: {}
+    path: /ws-vmess
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸 054  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: norw-mori-5.failspace.top
+  servername: norw-mori-5.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 055  | ⬇️ 3KB/s
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 028  | ⬇️ 212KB/s
+  name: 🇨🇳 056  | ⬇️ 123KB/s
   persistent-keepalive: '25'
-  port: 7559
-  private-key: cGdOrw5Aw1UrkS3VPLW5iKZUqSTSfcPozJhBzy+Cy2w=
+  port: 864
+  private-key: yNyRSGV2yPsyUjLf8hP/atC7aWDb6GkPRlV9ShD9yX8=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 44
-  - 205
-  - 91
-  server: 8.6.112.191
+  - 53
+  - 109
+  - 201
+  server: 8.6.112.113
+  type: wireguard
+  udp: true
+- name: 🇺🇸 041  | ⬇️ 10KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 058  | ⬇️ 3MB/s
+  persistent-keepalive: '25'
+  port: 1070
+  private-key: iHmpbPAWm1x6R3cX6WkVB+rla1bnVRE3sEEPRno3WW8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 137
+  - 41
+  - 130
+  server: 8.6.112.226
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '25'
+  mtu: 1380
+  name: 🇨🇳 059  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 934
+  private-key: 6NcXfVkz/AfkMIQpiUZEwwczmJjKVl1Bc6jJT1ssumg=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 17
+  - 102
+  - 140
+  server: 162.159.192.17
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 060  | ⬇️ 966KB/s
+  persistent-keepalive: '25'
+  port: 864
+  private-key: 0Jhy3IB7KIO0KyTAZxkGeICWykm7a3eA+LmbcFC3lEk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 168
+  - 88
+  - 210
+  server: 8.6.112.7
   type: wireguard
   udp: true
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 035  | ⬇️ 206KB/s
+  name: 🇨🇳 061  | ⬇️ 1MB/s
   persistent-keepalive: '25'
-  port: 2408
-  private-key: aLeOE4xN1HLlAnJIIEi+AUp66/ARQDysZNiwt9ixl20=
+  port: 7559
+  private-key: +MsibTXXhNxwHMxAf4ar6vom/0NE3UOW2xbT6sV9ck4=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 42
-  - 40
-  - 144
-  server: 8.6.112.200
+  - 76
+  - 114
+  - 121
+  server: 8.6.112.5
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 062  | ⬇️ 1MB/s
+  persistent-keepalive: '25'
+  port: 988
+  private-key: OK48iAingSLbf3Rmts7qBapF+P4mzxaBn/UFeKhvP2I=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 111
+  - 84
+  - 118
+  server: 8.6.112.185
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 063  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 1070
+  private-key: wN1cP4YdzpwcblExZZpW1XNTRfcLPwTVLRbe0BK4Y2o=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 190
+  - 221
+  - 145
+  server: 8.6.112.155
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 🇨🇳 064  | ⬇️ 4MB/s
+  persistent-keepalive: '5'
+  port: 500
+  private-key: OK48iAingSLbf3Rmts7qBapF+P4mzxaBn/UFeKhvP2I=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 111
+  - 84
+  - 118
+  server: 188.114.97.4
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 065  | ⬇️ 303KB/s
+  persistent-keepalive: '25'
+  port: 7156
+  private-key: uJRcdmVElvOV+o6BUW0D6tn/kltIIETT1bt2i7M75nQ=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 75
+  - 52
+  - 97
+  server: 8.6.112.233
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 🇨🇳 066  | ⬇️ 549KB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: YCEQ5aLU6yiYs4iugJj+BOlJhtZ7JrjY5dy1fbXBYU0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 44
+  - 176
+  - 16
+  server: 162.159.192.1
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 067  | ⬇️ 293KB/s
+  persistent-keepalive: '25'
+  port: 864
+  private-key: EJz9sVfpI2iqpCvVK7qbiZRZu7Agx5Sy4/yr8dI5vlo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 43
+  - 51
+  - 131
+  server: 8.6.112.101
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 068  | ⬇️ 139KB/s
+  persistent-keepalive: '25'
+  port: 955
+  private-key: iIf3tSEgkvUpXAh6q1mtiXUfmcp1atnMniBnor5RB1U=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 210
+  - 188
+  - 141
+  server: 8.6.112.157
   type: wireguard
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 036  | ⬇️ 1KB/s
+  name: 🇭🇰 070  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- encryption: mlkem768x25519plus.native.0rtt.8th1uEEPtl2BhPfgxINwmVO_Kq6V1htSghiTMdjWkRM
+  name: 🇷🇺 071  | ⬇️ 9KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 146.185.197.95
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9ea8b000-58ce-0005-b108-989dd4f248f1
+  ws-opts:
+    path: /live/ws2
+- cipher: aes-256-gcm
+  name: 🇮🇹 018  | ⬇️ 4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 073 '
+  network: ws
+  port: 443
+  server: 47.76.57.83
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 🇭🇰 074  | ⬇️ 8KB/s
+  network: ws
+  port: 443
+  server: 8.217.13.103
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: firefox
+  name: 🇭🇰 075  | ⬇️ 13KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 59746
+  server: 152.175.8.52
+  servername: hk013.zestapp778.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99fa1d27-b252-4cba-b04d-50c3d0873700
+- cipher: aes-256-gcm
+  name: 🇮🇹 020  | ⬇️ 5MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 077  | ⬇️ 2KB/s
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -396,296 +907,211 @@ proxies:
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 043  | ⬇️ 52KB/s
+  name: 🇨🇳 080  | ⬇️ 34KB/s
   persistent-keepalive: '25'
-  port: 939
-  private-key: 4FLFnClfDQJU8AEBVoF2g1hn9kx+XRGU/Y487dbL03o=
+  port: 2371
+  private-key: 8HKbDrvac+XjFvIyvc5sm3sJkTBCGwHF9OseuFbr/3c=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 101
-  - 127
-  - 88
-  server: 8.6.112.245
+  - 221
+  - 195
+  - 86
+  server: 188.114.97.85
   type: wireguard
   udp: true
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 038  | ⬇️ 2MB/s
+  name: 🇨🇳 081  | ⬇️ 18KB/s
   persistent-keepalive: '25'
-  port: 1180
-  private-key: aFkXVcKwDraCrTbfN2mNQ0SaKYZ9DO854dYZ/U4rBX0=
+  port: 2408
+  private-key: iFMujOH5h15t6kCXaJ0VZjCHoCudBdw3jzttAxz100c=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 121
-  - 90
-  - 47
-  server: 8.6.112.61
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: 🇨🇳 045  | ⬇️ 290KB/s
-  persistent-keepalive: '5'
-  port: 4500
-  private-key: gPp2ccvQS9adu228HbRy7wQZkzEczlrH87oweB/IcWo=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 3
-  - 60
-  - 199
-  server: 162.159.192.2
-  type: wireguard
-  udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
-- ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: 🇨🇳 040  | ⬇️ 4KB/s
-  persistent-keepalive: '5'
-  port: 500
-  private-key: 8IkxuhTwdgz3t4CZojb1Cx8nkr49T5V1EI3jsfDHFH0=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 132
-  - 109
-  - 165
-  server: 188.114.97.2
-  type: wireguard
-  udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: '🇨🇳 041 '
-  persistent-keepalive: '25'
-  port: 3581
-  private-key: GIpTKyoMHOkoPHOL4WvpXXTILLEredMZoLYMSfIhWm8=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 198
-  - 150
+  - 218
   - 182
-  server: 188.114.97.199
+  - 41
+  server: 188.114.97.82
   type: wireguard
   udp: true
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 042  | ⬇️ 4MB/s
+  name: 🇨🇳 082  | ⬇️ 63KB/s
   persistent-keepalive: '25'
   port: 878
-  private-key: WJfqqjoH5DazwGgdcrw9RPIhqhUKmz9nLlSvYppEk1Q=
+  private-key: aIgaJCvGI516BKCQdfiD2BZZsLbgTjzi7uk5QVEomHg=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 79
-  - 182
-  - 87
-  server: 188.114.97.35
+  - 202
+  - 103
+  - 72
+  server: 188.114.97.192
   type: wireguard
   udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹 043  | ⬇️ 2MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  fp: chrome
-  name: 🇹🇼 044  | ⬇️ 50KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  sub-tag: R002-260618
-  type: anytls
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 027  | ⬇️ 137KB/s
+  persistent-keepalive: '25'
+  port: 7103
+  private-key: QJEpilscgBJU68hsICv40+5eEvOFp0TOb5WqAeu9Gls=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 251
+  - 139
+  - 179
+  server: 8.6.112.196
+  type: wireguard
   udp: true
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 045 '
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰HK_3|1.5MB/s
+  network: http
+  port: 8080
+  server: 206.237.11.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: edcf3108-da2b-45c8-a852-a7e58dd55a43
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 086  | ⬇️ 68KB/s
+  persistent-keepalive: '25'
+  port: 864
+  private-key: OP8pLrIY0H89YmRABl8zwb2JkT5HJhzuC59T4AMGWV0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 109
+  - 8
+  - 160
+  server: 8.6.112.68
+  type: wireguard
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹 037  | ⬇️ 47KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  skip-cert-verify: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 088  | ⬇️ 4KB/s
   network: ws
   port: 443
-  server: 47.76.57.83
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  server: 2b9hwy8ocx7q74nm.v.3dns.vip
+  servername: 2b9hwY8oCx7Q74NM.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 052  | ⬇️ 209KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 047  | ⬇️ 26KB/s
+  name: 🇭🇰 089  | ⬇️ 10MB/s
   network: ws
   port: 443
-  server: 8.219.97.17
-  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
   tls: true
   type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
-    headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    headers: {}
     path: /ws-vmess
-- name: 🇳🇱 048  | ⬇️ 16KB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  username: test123
-- allowInsecure: '1'
-  name: 🇺🇸 050  | ⬇️ 100KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 090  | ⬇️ 10KB/s
+  persistent-keepalive: '25'
+  port: 3581
+  private-key: 2ChbCU6cW0JJrSWzqWNNMEC0Q+CEDcqTqWZT60pDO0E=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 148
+  - 183
+  - 178
+  server: 188.114.97.6
+  type: wireguard
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 019  | ⬇️ 1KB/s
+  network: ws
   port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  sub-tag: P002-260618
-  type: anytls
-  udp: true
-- name: '🇹🇼 064 '
-  password: '111'
-  port: 1080
-  server: 106.107.236.110
-  type: socks5
-  username: '111'
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇯🇵 055  | ⬇️ 11KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
   tls: true
-  type: vless
-  udp: true
-  uuid: 91cf01c5-62c1-44cd-80e0-df6310025dab
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-    path: /@Marisa_kristi
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: 🇨🇳 056  | ⬇️ 458KB/s
-  persistent-keepalive: '25'
-  port: 1070
-  private-key: wN1cP4YdzpwcblExZZpW1XNTRfcLPwTVLRbe0BK4Y2o=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 190
-  - 221
-  - 145
-  server: 8.6.112.155
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: 🇨🇳 057  | ⬇️ 853KB/s
-  persistent-keepalive: '25'
-  port: 864
-  private-key: 6M0fdN53y9w5iXTNho3EGj04Udw67t+XIz1HfAFpOmY=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 195
-  - 181
-  - 250
-  server: 8.6.112.64
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: '🇨🇳 058 '
-  persistent-keepalive: '5'
-  port: 500
-  private-key: wK9ZSxb3GMNLwDBvVpQGfRaTTfM8wosOLrd2MxZPbGU=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 75
-  - 223
-  - 206
-  server: 162.159.192.4
-  type: wireguard
-  udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: 🇨🇳 054  | ⬇️ 195KB/s
-  persistent-keepalive: '25'
-  port: 7103
-  private-key: GINuZfAPclEIlMr/fUd9odnKdFGFBiXSk7NJBNbuklk=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 242
-  - 2
-  - 113
-  server: 8.6.112.91
-  type: wireguard
-  udp: true
-- name: 🇸🇬 055  | ⬇️ 139KB/s
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 093  | ⬇️ 10KB/s
   network: ws
-  port: 2082
-  server: 104.18.0.181
-  servername: hhlfy.twiladaphne.ndjp.net
-  skip-cert-verify: false
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: nycqg19zkwacpm1b.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: firefox
+  name: 🇭🇰 094  | ⬇️ 1KB/s
+  network: ws
+  port: 443
+  server: 47.243.194.125
+  servername: nycqg19zkwacpm1b.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /ws-vmess
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 061  | ⬇️ 295KB/s
+  name: 🇨🇳 095  | ⬇️ 4MB/s
+  persistent-keepalive: '25'
+  port: 7156
+  private-key: eJq1zb0s5iS5LhaQD2Jd8YGT1h7vL4M2cV2xL7C6EG0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 82
+  - 27
+  - 173
+  server: 8.6.112.151
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 096  | ⬇️ 3MB/s
   persistent-keepalive: '25'
   port: 891
   private-key: gPPwwNTGa90xhCIhIVaSQ/oYxqohqjKJ6q1oVib3yko=
@@ -697,71 +1123,6 @@ proxies:
   server: 8.6.112.238
   type: wireguard
   udp: true
-- name: 🇭🇰 062  | ⬇️ 596KB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tfo: false
-  type: hysteria2
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: 🇨🇳 063  | ⬇️ 4MB/s
-  persistent-keepalive: '25'
-  port: 500
-  private-key: 8JKP6ODqsCyvmxzfapfpl/4PLnLMgjT/nt3puIXSIn4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 20
-  - 183
-  - 80
-  server: 188.114.97.184
-  type: wireguard
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.8th1uEEPtl2BhPfgxINwmVO_Kq6V1htSghiTMdjWkRM
-  name: 🇷🇺 064  | ⬇️ 151KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 146.185.197.95
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9ea8b000-58ce-0005-b108-989dd4f248f1
-  ws-opts:
-    path: /live/ws2
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 065  | ⬇️ 12KB/s
-  network: ws
-  port: 443
-  server: wjofHsQtEuEywxEq.v.3dns.vip
-  servername: wjofHsQtEuEywxEq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 067  | ⬇️ 1KB/s
-  network: ws
-  port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 001  | ⬇️ 2MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -773,32 +1134,20 @@ proxies:
   server: 18.143.63.164
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 🇹🇼 005  | ⬇️ 364KB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  sub-tag: P002-260618
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 006  | ⬇️ 13KB/s
+- name: 🇸🇬 007  | ⬇️ 1MB/s
   network: ws
-  port: 443
-  server: 47.76.57.83
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  port: 2082
+  server: 172.64.150.28
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
 - name: 🇺🇸 011  | ⬇️ 163KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
@@ -811,6 +1160,20 @@ proxies:
   udp: true
   ws-opts:
     path: /
+- name: 🇸🇬 012  | ⬇️ 2MB/s
+  network: ws
+  port: 8080
+  server: 104.16.162.89
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /sg-melbi
 - cipher: aes-256-gcm
   name: 🇮🇹 014  | ⬇️ 48KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -859,20 +1222,6 @@ proxies:
   ws-opts:
     headers:
       HOST: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 019  | ⬇️ 1KB/s
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
   encryption: none
@@ -958,16 +1307,16 @@ proxies:
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
   mtu: 1280
-  name: 🇨🇳 027  | ⬇️ 137KB/s
+  name: 🇨🇳 028  | ⬇️ 212KB/s
   persistent-keepalive: '25'
-  port: 7103
-  private-key: QJEpilscgBJU68hsICv40+5eEvOFp0TOb5WqAeu9Gls=
+  port: 7559
+  private-key: cGdOrw5Aw1UrkS3VPLW5iKZUqSTSfcPozJhBzy+Cy2w=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 251
-  - 139
-  - 179
-  server: 8.6.112.196
+  - 44
+  - 205
+  - 91
+  server: 8.6.112.191
   type: wireguard
   udp: true
 - alterId: 0
@@ -984,13 +1333,6 @@ proxies:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 037  | ⬇️ 47KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 🇫🇷 038  | ⬇️ 27KB/s
@@ -1002,22 +1344,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  fp: chrome
-  name: 🇭🇰 039  | ⬇️ 2MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  sub-tag: R002-260618
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   name: 🇺🇸 040  | ⬇️ 2KB/s
   network: tcp
@@ -1028,12 +1354,34 @@ proxies:
   type: vless
   udp: true
   uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 🇺🇸 041  | ⬇️ 10KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 🇹🇼 042  | ⬇️ 478KB/s
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 043  | ⬇️ 52KB/s
+  persistent-keepalive: '25'
+  port: 939
+  private-key: 4FLFnClfDQJU8AEBVoF2g1hn9kx+XRGU/Y487dbL03o=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 101
+  - 127
+  - 88
+  server: 8.6.112.245
+  type: wireguard
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🇳🇱 044  | ⬇️ 5MB/s
@@ -1043,6 +1391,25 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 🇨🇳 045  | ⬇️ 290KB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: gPp2ccvQS9adu228HbRy7wQZkzEczlrH87oweB/IcWo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 3
+  - 60
+  - 199
+  server: 162.159.192.2
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸 046  | ⬇️ 18KB/s
@@ -1092,21 +1459,12 @@ proxies:
   wnoisecount: '5'
   wnoisedelay: '5'
   wpayloadsize: 40-90
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
-  keepalive: '25'
-  mtu: 1280
-  name: 🇨🇳 050  | ⬇️ 1MB/s
-  persistent-keepalive: '25'
-  port: 878
-  private-key: 8POmMoo2qD3czYe1B+39d7r4eAt0XV5QvMnGZ7zw1nI=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 116
-  - 216
-  - 169
-  server: 8.6.112.185
-  type: wireguard
+- cipher: aes-256-gcm
+  name: 🇮🇹 051  | ⬇️ 18KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
   udp: true
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
@@ -1124,6 +1482,37 @@ proxies:
   server: 8.6.112.67
   type: wireguard
   udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
+  keepalive: '25'
+  mtu: 1280
+  name: 🇨🇳 054  | ⬇️ 195KB/s
+  persistent-keepalive: '25'
+  port: 7103
+  private-key: GINuZfAPclEIlMr/fUd9odnKdFGFBiXSk7NJBNbuklk=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 242
+  - 2
+  - 113
+  server: 8.6.112.91
+  type: wireguard
+  udp: true
+- name: 🇸🇬 055  | ⬇️ 139KB/s
+  network: ws
+  port: 2082
+  server: 104.18.0.181
+  servername: hhlfy.twiladaphne.ndjp.net
+  skip-cert-verify: false
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
@@ -1168,14 +1557,6 @@ proxies:
     headers:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-gcm
-  name: 🇮🇹 061  | ⬇️ 3MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
@@ -1208,6 +1589,26 @@ proxies:
   server: 188.114.97.28
   type: wireguard
   udp: true
+- name: '🇹🇼 064 '
+  password: '111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 065  | ⬇️ 10MB/s
+  network: ws
+  port: 443
+  server: 8.210.24.181
+  servername: 6jdvarazgu3qqr6q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6jdvarazgu3qqr6q.v.3dns.vip
+    path: /ws-vmess
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
@@ -1275,33 +1676,449 @@ proxies:
   server: 188.114.97.235
   type: wireguard
   udp: true
-- name: 🇭🇰HK_1|1.2MB/s
-  password: 298c5651d3015d7cee9e8411eaa0bd72
-  port: 12010
-  server: 124.151.45.214
-  skip-cert-verify: true
-  sni: apis.99912345.xyz
-  type: trojan
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: 🇩🇪DE_1|1.0MB/s
+  network: ws
+  port: 443
+  server: msydjt.com
+  servername: msydjt.com
+  tls: true
+  type: vless
   udp: true
-- name: ❓Other_1|1.4MB/s
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /51544/ws
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 4241775bf20878b791485f4ca6128ff4a84f6c36e7cd02167e976363d36e809e
+  name: 🇩🇪DE_2|1.1MB/s
+  network: tcp
+  port: 443
+  server: de-ads.th3team.ir
+  servername: blog.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2e6f62b-3913-4413-a877-995675637374
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇭TH_1|2.2MB/s
+  network: tcp
+  port: 22222
+  server: th001.zestapp778.com
+  servername: th001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ❓Other_1|2.6MB/s
+  network: tcp
+  port: 18580
+  server: us007.zestapp778.com
+  servername: us007.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
+- name: 🇦🇹AT_1|2.9MB/s
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_1|2.9MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇪EE_1|1.0MB/s
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇪IE_1|3.4MB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇸🇬SG_1|1.6MB/s
   password: '1234'
   port: 2080
-  server: 13.212.207.226
+  server: 13.212.55.110
   skip-cert-verify: true
   type: http
   username: '1234'
+- name: 🇳🇱NL_1|1.7MB/s
+  password: None
+  port: 9443
+  server: 149.36.51.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.6MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.0MB/s
+  password: None
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_1|2.6MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇪IE_2|1.2MB/s
+  password: None
+  port: 9443
+  server: 149.88.96.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_3|1.3MB/s
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_1|1.0MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇵🇱PL_1|1.4MB/s
+  password: None
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_1|2.7MB/s
+  password: None
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|1.9MB/s|R002-260618
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇰DK_1|1.6MB/s
+  port: 443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_1|1.6MB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_1|1.9MB/s
+  password: None
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇱🇺LU_1|2.8MB/s
+  port: 443
+  server: 185.221.132.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇧🇬BG_1|1.2MB/s
+  port: 443
+  server: 185.94.192.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.8MB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1.0MB/s
+  password: None
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇪EE_2|1.9MB/s
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_2|1.9MB/s
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|1.5MB/s
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.5MB/s
+  password: None
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_3|1.9MB/s
+  password: None
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|1.1MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_2|1.1MB/s
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_3|1.1MB/s
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.1MB/s
+  password: None
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇷HR_1|1.0MB/s
+  password: None
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_2|2.1MB/s
+  port: 9443
+  server: 152.233.16.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇺HU_1|1.8MB/s
+  password: None
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|1.8MB/s
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_7|1.4MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.7MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_3|2.1MB/s
+  port: 443
+  server: 185.216.35.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.4MB/s
+  password: None
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_1|1.3MB/s
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇷HR_2|1.1MB/s
+  port: 443
+  server: 154.47.29.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_3|1.2MB/s
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.3MB/s|K001-260618
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇴NO_1|2.3MB/s
+  password: None
+  port: 9443
+  server: 146.70.170.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇹IT_1|2.0MB/s
+  password: None
+  port: 443
+  server: 185.183.105.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇱🇻LV_1|1.3MB/s
+  password: None
+  port: 443
+  server: 109.248.147.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_2|1.0MB/s
+  port: 9443
+  server: 161.129.60.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_3|2.5MB/s
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇧🇬BG_2|1.5MB/s
+  port: 443
+  server: 109.204.88.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_3|1.3MB/s
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇸RS_1|2.8MB/s
+  port: 443
+  server: 146.70.221.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|2.1MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_8|2.0MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.6MB/s
+  name: 🇺🇸US_7|1.1MB/s
+  network: tcp
+  port: 54857
+  server: us001.zestapp778.com
+  servername: us001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇳🇱NL_4|1.1MB/s
   network: ws
   password: humanity
   port: 443
-  server: 162.159.36.20
+  server: 172.67.203.46
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
