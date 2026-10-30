@@ -1,46 +1,71 @@
 proxies:
 - client-fingerprint: firefox
-  name: 🇩🇪 008  | ⬇️ 2MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 144.31.213.229
-  servername: 6d160a52.con.fernarchive.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 032  | ⬇️ 2MB/s
+  name: 🇩🇪 004  | ⬇️ 2MB/s
   network: tcp
   packet-encoding: ''
   port: 443
-  server: norw-mori-3.failspace.top
-  servername: norw-mori-3.failspace.top
+  server: 31.76.5.124
+  servername: norway-2.failspace.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-  name: 🇩🇪 047  | ⬇️ 2MB/s
-  network: ws
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 036  | ⬇️ 179KB/s
+  network: xhttp
   packet-encoding: xudp
-  port: 8180
-  server: dnld.chaqalli.com
+  port: 443
+  server: 188.72.103.4
+  servername: czech.nnight.cfd
   skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-  ws-opts:
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  xhttp-opts:
     headers:
-      Host: dnld.chaqalli.com
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      Accept: application/vnd.api+json,+application/json,+text/plain,+*/*
+      Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+      Cache-Control: no-cache
+      Pragma: no-cache
+    host: czech.nnight.cfd
+    mode: packet-up
+    path: /api/v4/media/session/poll
+    reuse-settings:
+      c-max-reuse-times: 128-256
+      h-keep-alive-period: 30
+      h-max-request-times: 600-1000
+      h-max-reusable-secs: 1800-3600
+      max-concurrency: 8-16
+      max-connections: '0'
+    sc-max-each-post-bytes: 1536-6144
+    sc-min-posts-interval-ms: 10-30
+    seq-key: offset
+    seq-placement: query
+    session-table: ''
+    uplink-chunk-size: 0
+    uplink-data-key: X-Playback-Token
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 48-320
+    x-padding-key: q
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- country: 🇩🇪DE
+  name: 🇩🇪 108  | ⬇️ 153KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
+  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -76,10 +101,10 @@ proxies:
     mode: packet-up
     path: /
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|1.7MB/s
+  name: 🇩🇪DE_1|2.1MB/s
   network: xhttp
   port: 443
   server: avr.rlrlco.ir
@@ -99,62 +124,107 @@ proxies:
       max-concurrency: 16-32
     x-padding-bytes: 100-1000
   xudp: true
-- name: 🇩🇪DE_2|4.0MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.7MB/s
+  network: xhttp
   port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇩🇪DE_3|3.5MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇩🇪DE_4|3.0MB/s
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- name: 🇩🇪DE_4|3.1MB/s
   password: None
   port: 443
-  server: 149.36.50.129
+  server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.8MB/s
+- name: 🇩🇪DE_5|2.6MB/s
   password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|2.3MB/s
   port: 443
-  server: 149.36.50.157
+  server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|2.5MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.4MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|1.1MB/s
+- name: 🇩🇪DE_6|1.4MB/s
   password: None
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_10|1.4MB/s
+- name: 🇩🇪DE_7|3.5MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.9MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇩🇪DE_9|1.8MB/s
+  network: xhttp
+  port: 443
+  server: pp-fx2.firelinkservers.ir
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc6b024b-34ad-4c58-b4bd-12049380d118
+  xhttp-opts:
+    host: GermanLrNovein.global.ssl.fastly.net
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_10|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 883f1393.con.rasterparcel.tech
+  servername: 883f1393.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+  xudp: true
+- name: 🇩🇪DE_13|1.1MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_14|2.3MB/s
   port: 443
   server: 193.233.75.115
   skip-cert-verify: true

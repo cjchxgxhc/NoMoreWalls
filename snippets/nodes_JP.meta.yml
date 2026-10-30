@@ -1,18 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵 002  | ⬇️ 4KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 152.175.34.232
-  servername: cf-1rm.pages.dev
-  skip-cert-verify: false
+- name: 🇯🇵JP_1|2.9MB/s
+  password: None
+  port: 40583
+  server: 120.232.204.58
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  ws-opts:
-    headers:
-      Host: cf-1rm.pages.dev
-    path: /
+  type: http
+- name: 🇯🇵JP_2|1.3MB/s
+  password: None
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  tls: true
+  type: http

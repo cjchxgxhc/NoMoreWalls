@@ -1,5 +1,6 @@
 proxies:
-- name: 🇺🇸 011  | ⬇️ 163KB/s
+- client-fingerprint: chrome
+  name: 🇺🇸 011  | ⬇️ 163KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
   port: 20230
@@ -11,3 +12,17 @@ proxies:
   udp: true
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 086  | ⬇️ 57KB/s
+  network: ws
+  port: 31414
+  server: sg-transit-3.nebulacloud.win
+  servername: sg-transit-3.nebulacloud.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
+  ws-opts:
+    headers: {}
+    path: /getData/us

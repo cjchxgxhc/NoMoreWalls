@@ -1,14 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇹🇼 012  | ⬇️ 209KB/s
-  password: 0324fbc29561
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
 - allowInsecure: '1'
   name: 🇹🇼 005  | ⬇️ 364KB/s
   packet-encoding: ''
@@ -21,6 +11,16 @@ proxies:
   sub-tag: P002-260618
   type: anytls
   udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇹🇼 062  | ⬇️ 182KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
 - alpn:
   - h2
   grpc-opts:
@@ -39,11 +39,3 @@ proxies:
   server: 106.107.236.110
   type: socks5
   username: '111'
-- name: 🇹🇼TW_1|1.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
