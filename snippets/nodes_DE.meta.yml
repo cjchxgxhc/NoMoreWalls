@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 004  | ⬇️ 2MB/s
+  name: '🇩🇪 004  | ⬇️ 2MB/s #1'
   network: tcp
   packet-encoding: ''
   port: 443
@@ -13,10 +13,24 @@ proxies:
   udp: true
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: '🇩🇪 008  | ⬇️ 1MB/s #1'
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- alpn:
   - h2
   client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 036  | ⬇️ 179KB/s
+  name: '🇩🇪 036  | ⬇️ 179KB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -58,7 +72,7 @@ proxies:
     x-padding-obfs-mode: true
     x-padding-placement: query
 - country: 🇩🇪DE
-  name: 🇩🇪 108  | ⬇️ 153KB/s
+  name: '🇩🇪 108  | ⬇️ 153KB/s #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-de-002.fastervpn.world
@@ -66,66 +80,9 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   type: hysteria2
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪 023  | ⬇️ 12KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 9443
-  server: germany01.azotvpn.xyz
-  servername: germany01.azotvpn.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 068  | ⬇️ 5MB/s
-  network: xhttp
-  packet-encoding: xudp
+- name: 🇩🇪DE_1|1012KB/s
   port: 443
-  server: www.canva.com
-  servername: kanapucin.tolkun-tv.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a0431667-fe5b-4a55-b466-49bb04f74120
-  xhttp-opts:
-    host: kanapucin.tolkun-tv.ru
-    mode: packet-up
-    path: /
-  xudp: true
-- name: 🇩🇪DE_1|1.9MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.0MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.9MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.9MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
