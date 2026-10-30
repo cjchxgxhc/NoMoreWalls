@@ -12,7 +12,7 @@ proxies:
   ws-opts:
     headers: {}
     path: /ws-vmess
-- name: 🇸🇬 012  | ⬇️ 2MB/s
+- name: 🇺🇸US_8|2.2MB/s
   network: ws
   port: 8080
   server: 104.16.162.89
@@ -25,7 +25,10 @@ proxies:
   ws-opts:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /sg-melbi
+  xudp: true
 - name: 🇸🇬 055  | ⬇️ 139KB/s
   network: ws
   port: 2082
@@ -66,30 +69,3 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /fp
-- name: 🇸🇬SG_2|1.8MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 52.221.234.145
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_3|1.7MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_4|2.5MB/s
-  password: None
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_5|2.8MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.250.8.222
-  skip-cert-verify: true
-  type: http
-  username: '1234'
