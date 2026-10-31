@@ -2061,95 +2061,88 @@ proxies:
   server: 8.6.112.62
   type: wireguard
   udp: true
-- name: 🇸🇪SE_1|1.5MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|1.7MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇭🇷HR_1|2.4MB/s
-  port: 443
-  server: 154.47.29.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|1.2MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|2.0MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 172.64.149.78
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
+  port: 53617
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
   ws-opts:
-    path: /assignment
-- name: 🇳🇱NL_2|1.1MB/s
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_1|1.2MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 162.159.61.183
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
+  port: 53437
+  server: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
   ws-opts:
-    path: /assignment
-- name: 🇸🇬SG_1|1.8MB/s
-  password: '1234'
-  port: 2080
-  server: 47.129.174.248
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇮🇹IT_1|1.1MB/s
+    headers: {}
+    path: /game/resources
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩ID_1|1.4MB/s
+  network: ws
+  port: 55386
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+  xudp: true
+- name: 🇱🇺LU_1|2.5MB/s
   password: None
   port: 443
-  server: 185.183.105.146
+  server: 185.221.132.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|1.7MB/s
+- name: 🇦🇹AT_1|1021KB/s
   password: None
   port: 443
-  server: 146.70.242.146
+  server: 146.70.244.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇵🇹PT_1|2.2MB/s
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇹PT_2|1.5MB/s
+- name: 🇬🇧GB_1|2.6MB/s
   password: None
   port: 443
-  server: 149.22.86.14
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- down: ''
-  fingerprint: ''
-  name: 🇳🇱NL_3|1.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+- name: 🇺🇸US_1|2.2MB/s
+  password: None
   port: 443
-  server: 9.247.54.69
+  server: 68.235.56.59
   skip-cert-verify: true
-  sni: nl1.obxodvpn.us
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.4MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 5443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
