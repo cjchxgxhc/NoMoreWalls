@@ -1,6 +1,13 @@
 proxies:
+- name: 🇺🇸 017  | ⬇️ 6MB/s
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  sni: lt-1.1984.love
+  type: trojan
 - client-fingerprint: chrome
-  name: '🇺🇸 044  | ⬇️ 324KB/s #1'
+  name: 🇺🇸 044  | ⬇️ 324KB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
   port: 20230
@@ -16,7 +23,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 086  | ⬇️ 57KB/s #1'
+  name: 🇺🇸 086  | ⬇️ 57KB/s
   network: ws
   port: 31414
   server: sg-transit-3.nebulacloud.win
@@ -28,13 +35,3 @@ proxies:
   ws-opts:
     headers: {}
     path: /getData/us
-- client-fingerprint: chrome
-  name: 🇺🇸US_10|2.2MB/s
-  network: tcp
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  port: 443
-  server: 176.114.95.242
-  skip-cert-verify: false
-  sni: us-1.1984.love
-  type: trojan
-  udp: true

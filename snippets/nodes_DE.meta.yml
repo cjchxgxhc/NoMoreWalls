@@ -1,36 +1,42 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇩🇪 004  | ⬇️ 2MB/s #1'
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  server: 31.76.5.124
-  servername: norway-2.failspace.top
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
+  encryption: none
+  name: 🇩🇪 001  | ⬇️ 18KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 140.225.208.60
+  servername: speedtestmark.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '🇩🇪 008  | ⬇️ 1MB/s #1'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    path: /vless-ws
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪 014  | ⬇️ 593KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  up: 500
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+    x-padding-bytes: 100-1000
 - alpn:
   - h2
   client-fingerprint: firefox
   encryption: none
-  name: '🇩🇪 036  | ⬇️ 179KB/s #1'
+  name: 🇩🇪 036  | ⬇️ 179KB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -71,8 +77,21 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 004  | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: 31.76.5.124
+  servername: norway-2.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - country: 🇩🇪DE
-  name: '🇩🇪 108  | ⬇️ 153KB/s #1'
+  name: 🇩🇪 108  | ⬇️ 153KB/s
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-de-002.fastervpn.world
@@ -80,30 +99,3 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   type: hysteria2
   udp: true
-- name: 🇩🇪DE_1|2.3MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|1.5MB/s
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.2MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.3MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http

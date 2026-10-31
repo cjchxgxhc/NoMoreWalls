@@ -1,7 +1,23 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: 🇬🇧 016  | ⬇️ 176KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.120
+  skip-cert-verify: false
+  sni: firefox.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn.ac.ir
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - client-fingerprint: qq
   encryption: none
-  name: '🇬🇧 001  | ⬇️ 79KB/s #1'
+  name: 🇬🇧 001  | ⬇️ 79KB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14,28 +30,3 @@ proxies:
   uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
   ws-opts:
     path: /ws
-- name: 🇬🇧GB_4|3.9MB/s
-  password: None
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.8MB/s|R002-260618
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_3|2.3MB/s|P002-260618
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
