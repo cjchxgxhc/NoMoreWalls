@@ -3,7 +3,7 @@ proxies:
   - http/1.1
   client-fingerprint: safari
   encryption: none
-  name: 🇩🇪 001  | ⬇️ 18KB/s
+  name: '🇩🇪 001  | ⬇️ 18KB/s #1'
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -18,7 +18,7 @@ proxies:
     path: /vless-ws
 - client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 014  | ⬇️ 593KB/s
+  name: '🇩🇪 014  | ⬇️ 593KB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -36,7 +36,7 @@ proxies:
   - h2
   client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪 036  | ⬇️ 179KB/s
+  name: '🇩🇪 027  | ⬇️ 1MB/s #1'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -77,102 +77,53 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 004  | ⬇️ 2MB/s
-  network: tcp
-  packet-encoding: ''
-  port: 443
-  server: 31.76.5.124
-  servername: norway-2.failspace.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- country: 🇩🇪DE
-  name: 🇩🇪 108  | ⬇️ 153KB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  type: hysteria2
-  udp: true
-- name: 🇩🇪DE_1|1.9MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|1.3MB/s
+- name: 🇩🇪DE_1|1.0MB/s
   password: None
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.7MB/s
+- name: 🇩🇪DE_2|2.1MB/s
   password: None
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|2.1MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.5MB/s
+- name: 🇩🇪DE_3|1.5MB/s
   password: None
   port: 9443
-  server: 213.177.229.161
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.2MB/s
+- name: 🇩🇪DE_4|2.4MB/s
   password: None
-  port: 9002
-  server: 158.173.154.3
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_7|2.6MB/s
-  network: ws
-  port: 443
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  skip-cert-verify: false
+- name: 🇩🇪DE_5|2.0MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  encryption: none
-  name: 🇩🇪DE_8|2.9MB/s
-  network: xhttp
-  port: 443
-  server: f1.greewebservices.ir
-  servername: default.ssl.fastly.net
+  type: http
+- name: 🇩🇪DE_6|2.1MB/s
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|1.4MB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
   udp: true
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
-  xhttp-opts:
-    host: Calmly-vibrant-dolphin-rosewood.global.ssl.fastly.net
-    mode: auto
-    x-padding-bytes: 100-1000
-  xudp: true
