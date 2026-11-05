@@ -77,9 +77,24 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- name: 🇩🇪DE_1|2.1MB/s
+- name: 🇩🇪DE_1|1.3MB/s|R002-260618
+  password: None
   port: 443
-  server: 213.177.229.161
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_2|1.3MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
+  type: http
+- name: 🇩🇪DE_3|1.6MB/s
+  port: 12345
+  server: 141.147.19.47
+  skip-cert-verify: true
   type: http
