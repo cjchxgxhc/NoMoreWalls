@@ -181,7 +181,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 026  | ⬇️ 1MB/s #1'
+  name: 🇮🇹IT_1|2.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -252,13 +252,13 @@ proxies:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: '🇮🇹 054  | ⬇️ 3MB/s #1'
+  name: 🇮🇹IT_3|2.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - alterId: 0
   cipher: auto
   name: '🇭🇰 057  | ⬇️ 2KB/s #1'
@@ -289,7 +289,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 067  | ⬇️ 2MB/s #1'
+  name: 🇮🇹IT_2|2.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -406,9 +406,18 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: 🇹🇷TR_1|1005KB/s
+- client-fingerprint: chrome
+  name: 🇹🇷TR_1|1.1MB/s
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20028
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇹🇷TR_2|1.8MB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
   server: sclass-b1.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
