@@ -77,20 +77,68 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- name: 🇩🇪DE_1|1.3MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.9MB/s
+- name: 🇩🇪DE_1|2.0MB/s
   password: None
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|3.1MB/s|R002-260618
+- name: 🇩🇪DE_2|1.0MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_3|2.1MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.5MB/s|R002-260618
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_5|2.3MB/s
+  password: 'null'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪DE_6|2.2MB/s
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  port: 443
+  server: 18.171.57.116
+  type: ss
+  udp: true
+- encryption: none
+  name: 🇩🇪DE_7|1.3MB/s
+  network: ws
+  port: 2082
+  server: tally.so
+  type: vless
+  udp: true
+  uuid: 975955b1-0521-49d9-97ad-eed2e626a30f
+  ws-opts:
+    headers:
+      Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 🇩🇪DE_8|1.0MB/s|R002-260618
   password: None
   port: 443
   server: 87.249.132.97
@@ -100,22 +148,11 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪DE_4|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.9MB/s
+- name: 🇩🇪DE_9|3.4MB/s
+  password: 'null'
   port: 9002
-  server: 158.173.154.5
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇩🇪DE_6|1.3MB/s
-  port: 1080
-  server: 159.89.110.147
-  skip-cert-verify: true
-  type: socks5
+  username: 'null'
