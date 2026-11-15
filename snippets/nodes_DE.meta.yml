@@ -77,23 +77,63 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- name: 🇩🇪DE_1|2.2MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|2.1MB/s
+  network: xhttp
   port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
+  server: 3.174.189.0
+  servername: d1b9pmaut2v26v.cloudfront.net
   tls: true
-  type: http
-- name: 🇩🇪DE_2|1.0MB/s|R002-260618
+  type: vless
+  udp: true
+  uuid: 2e69b088-6ef3-417f-8247-125cf257fafd
+  xhttp-opts:
+    host: d1b9pmaut2v26v.cloudfront.net
+    mode: auto
+    path: /cf
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪DE_2|1.5MB/s
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
-  server: 172.64.68.89
+  server: 47.254.169.3
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - https://www.cloudflare.com
+    path:
+    - /
+  name: 🇩🇪DE_3|2.3MB/s
+  network: http
+  port: 58804
+  server: 91.98.221.107
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa3e4b64-c119-44be-b0f3-f88293705e37
+  xudp: true
+- name: 🇩🇪DE_4|1.1MB/s
+  port: 443
+  server: 213.109.163.119
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
+- name: 🇩🇪DE_5|3.1MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - encryption: mlkem768x25519plus.native.0rtt.GlIc2LFlqBQ3itRnw8zoo3tfD7MSknWWmmLVDdr88jE
-  name: 🇩🇪DE_3|2.7MB/s
+  name: 🇩🇪DE_6|2.2MB/s
   network: ws
   port: 80
   server: 104.18.43.144
@@ -106,24 +146,12 @@ proxies:
       Host: erosan.seminar-irani.ir
     path: /MiMiTDL
     v2ray-http-upgrade: true
-- name: 🇩🇪DE_4|1000KB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
+- name: 🇩🇪DE_7|3.8MB/s|R002-260618
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-- name: 🇩🇪DE_5|1.0MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.4MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  udp: true
+  x-toolall-mihomo: true
