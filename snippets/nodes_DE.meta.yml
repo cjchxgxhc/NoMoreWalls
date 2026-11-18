@@ -77,7 +77,14 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- name: 🇩🇪DE_1|1.1MB/s
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪DE_1|1.4MB/s
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  port: 443
+  server: 47.85.162.44
+  type: ss
+  udp: true
+- name: 🇩🇪DE_2|2.9MB/s
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -85,10 +92,20 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇩🇪DE_2|1.3MB/s
+- name: 🇩🇪DE_3|3.6MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
+- name: 🇩🇪DE_4|1.6MB/s|P002-260618
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
