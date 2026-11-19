@@ -68,21 +68,27 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /fp
-- client-fingerprint: random
-  encryption: none
-  name: 🇸🇬SG_1|1.0MB/s
-  network: ws
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇸🇬SG_1|1.9MB/s
+  password: 8SrAY2kEk9UHKSgUJjQvfdTJP9oPlSPVP1wICL7n3hk=
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: ap-south.862400.xyz
-  tls: true
-  type: vless
+  server: 43.106.81.90
+  type: ss
   udp: true
-  uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /announcement?ed=2048
-  xudp: true
+- name: 🇸🇬SG_2|1.4MB/s
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  type: socks5
+  username: '8888'
+- name: 🇸🇬SG_3|1.8MB/s
+  port: 9090
+  server: 128.199.113.85
+  skip-cert-verify: true
+  type: http
+- name: 🇸🇬SG_4|1.3MB/s
+  port: 9090
+  server: 167.99.74.174
+  skip-cert-verify: true
+  type: http
