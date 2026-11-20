@@ -77,21 +77,36 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_1|3.6MB/s
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+- auth: ca60984f-b1f0-4073-bd33-4c75168f749a
+  name: 🇩🇪DE_2|4.0MB/s
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
-  server: 18.130.78.177
-  type: ss
-  udp: true
-- name: 🇩🇪DE_2|3.9MB/s
+  server: 191.217.204.101
+  skip-cert-verify: true
+  sni: ge-beer-10.fantoff.online
+  type: hysteria2
+- name: 🇩🇪DE_4|2.9MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.9MB/s|P002-260618
+- name: 🇩🇪DE_5|1.7MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.0MB/s
+  password: 'null'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_8|1.2MB/s|P002-260618
   password: None
   port: 443
   server: 149.36.50.1
@@ -101,35 +116,31 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪DE_4|4.2MB/s
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇩🇪DE_9|2.6MB/s
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.3MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_6|3.5MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
+  type: trojan
   udp: true
-- name: 🇩🇪DE_7|3.9MB/s
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /tr?ed=2560
+- name: 🇩🇪DE_10|3.5MB/s
   port: 1080
   server: 92.5.68.29
   skip-cert-verify: true
   type: socks5
-- name: 🇩🇪DE_8|3.5MB/s
+- name: 🇩🇪DE_11|1.0MB/s
   port: 9002
-  server: 158.173.154.3
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
