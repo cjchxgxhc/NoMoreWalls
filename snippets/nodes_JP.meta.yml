@@ -6,38 +6,28 @@ proxies:
   server: 154.36.158.197
   type: ss
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|2.3MB/s
-  network: ws
-  port: 16617
-  server: afzuv.xiaoyan.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_2|4.6MB/s
-  network: ws
-  port: 2083
-  server: 172.64.229.239
-  servername: cdn.lahjy.xyz
-  tls: true
-  type: vless
+  name: 🇯🇵JP_3|5.0MB/s
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
+  type: trojan
   udp: true
-  uuid: 5821f560-4156-4faf-80ec-9d798b128090
-  ws-opts:
-    headers:
-      Host: cdn.lahjy.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /
-  xudp: true
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: 🇯🇵JP_2|1.5MB/s
+  obfs: salamander
+  obfs-password: e3ymhs6gbzptjysj
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: dg3rb.ianai.it.com
+  skip-cert-verify: true
+  sni: dg3rb.ianai.it.com
+  type: hysteria2
+  udp: true
+  up: 100
