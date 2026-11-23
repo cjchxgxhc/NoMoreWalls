@@ -174,14 +174,14 @@ proxies:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.9MB/s
+  name: '🇮🇹 025  | ⬇️ 379KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.2MB/s
+  name: 🇮🇹IT_3|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -202,7 +202,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 030  | ⬇️ 333KB/s #1'
+  name: 🇮🇹IT_2|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -230,13 +230,13 @@ proxies:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: '🇮🇹 045  | ⬇️ 1KB/s #1'
+  name: 🇮🇹IT_1|3.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - alterId: 0
   cipher: auto
   name: '🇭🇰 051  | ⬇️ 10KB/s #1'
@@ -252,13 +252,13 @@ proxies:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: '🇮🇹 054  | ⬇️ 3MB/s #1'
+  name: 🇮🇹IT_4|1008KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - alterId: 0
   cipher: auto
   name: '🇭🇰 057  | ⬇️ 2KB/s #1'
@@ -274,13 +274,13 @@ proxies:
       Host: qtkdr8jxe3wefxjm.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: '🇮🇹 060  | ⬇️ 413KB/s #1'
+  name: 🇮🇹IT_5|2.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   skip-cert-verify: false
   type: ss
-  udp: false
+  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹 066  | ⬇️ 1MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -289,7 +289,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.0MB/s
+  name: '🇮🇹 067  | ⬇️ 2MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -406,44 +406,10 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|5.2MB/s
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 34745
-  server: win2loxfde0303.gggrelay.org
-  skip-cert-verify: true
-  sni: nu3rb.supertoolify.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_3|3.9MB/s
+  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
+  port: 443
+  server: P1.shoppingturbo.com
+  type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK_1|3.2MB/s
-  network: ws
-  port: 60852
-  server: hkgb707.ifastcdncache.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_3|3.8MB/s
-  network: ws
-  port: 16632
-  server: pdmv4.xiaoyan.io
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-  xudp: true
