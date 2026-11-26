@@ -429,7 +429,7 @@ proxies:
     x-padding-obfs-mode: true
     x-padding-placement: query
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.2MB/s
+  name: '🇮🇹 028  | ⬇️ 73KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -443,7 +443,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_6|1.9MB/s
+  name: '🇮🇹 030  | ⬇️ 333KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -784,13 +784,13 @@ proxies:
       Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
     path: /
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.5MB/s
+  name: '🇮🇹 054  | ⬇️ 3MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - client-fingerprint: firefox
   encryption: none
   name: '🇫🇮 055  | ⬇️ 2MB/s #1'
@@ -838,13 +838,13 @@ proxies:
   type: wireguard
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|1002KB/s
+  name: '🇮🇹 060  | ⬇️ 413KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - ip: 172.16.0.2/32
   ipv6: 2606:4700:110:81cf:afd6:7564:e1f3:2827/128
   keepalive: '25'
@@ -916,14 +916,14 @@ proxies:
   type: socks5
   username: test123
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.5MB/s
+  name: '🇮🇹 066  | ⬇️ 1MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_5|1.4MB/s
+  name: '🇮🇹 067  | ⬇️ 2MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -1260,258 +1260,79 @@ proxies:
   wnoisecount: '5'
   wnoisedelay: '5'
   wpayloadsize: 40-90
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_1|1.5MB/s
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: 443
-  server: 47.254.167.157
-  type: ss
-  udp: true
 - auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_2|3.6MB/s
+  name: 🇩🇪DE_1|1.9MB/s
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
-  server: 128.254.186.190
+  server: 128.254.186.57
   skip-cert-verify: true
   sni: mother-earth.fyi
+  tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_3|3.6MB/s
+- name: 🇩🇪DE_2|1.4MB/s
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
   skip-cert-verify: true
   sni: mother-earth.fyi
-  type: hysteria2
-- name: 🇭🇰HK_3|2.0MB/s
-  password: 2902c46c8493
-  port: 443
-  server: ibsdsf.df6h451rh.xin
-  servername: docs.microsoft.com
-  skip-cert-verify: true
-  sni: docs.microsoft.com
-  tls: true
-  type: anytls
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
-  name: 🇺🇸US_1|2.2MB/s
-  network: tcp
-  port: 443
-  server: 176.114.95.245
   tls: false
-  type: vless
-  udp: true
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_4|3.0MB/s
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: 443
-  server: 47.254.128.109
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|1.1MB/s
-  network: tcp
-  port: 8443
-  server: 165.231.157.126
-  servername: api-6b04608f.adhil.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 🇺🇸US_2|1.0MB/s
-  password: dongtaiwang.com
-  port: 11008
-  server: 38.6.222.132
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: hysteria
-  up: '11'
-- client-fingerprint: chrome
-  name: 🇭🇰HK_4|2.5MB/s
-  password: 0324fbc29561
-  port: 443
-  server: 5641sdds.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 🇰🇷KR_1|4.2MB/s
+  type: hysteria2
+- name: 🇰🇷KR_1|2.0MB/s
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true
   type: socks5
-- name: 🇧🇪BE_1|1.8MB/s
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇿CZ_1|2.4MB/s
-  password: None
-  port: 9443
-  server: 152.233.16.174
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_5|1.9MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_1|3.4MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇳🇱NL_1|3.0MB/s
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇳🇱NL_2|3.1MB/s
-  password: 'null'
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇩🇪DE_6|1.5MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇳🇱NL_3|1.2MB/s
-  password: 'null'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_3|2.7MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|1.9MB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: 🇺🇸US_5|2.7MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇮🇹IT_7|1.1MB/s
-  password: JdFlrZhqHP
+- name: 🇰🇷KR_2|1018KB/s
   port: 1080
-  server: 69.16.157.244
+  server: 183.106.215.208
   skip-cert-verify: true
   type: socks5
-  username: ufCobhydz4Wd
-- name: 🇷🇴RO_1|1.9MB/s
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇳🇱NL_4|2.3MB/s
-  network: ws
-  password: vP!XvZBNdw.e*ddSgmH!
-  port: 2096
-  server: 188.114.96.3
+- down: ''
+  fingerprint: ''
+  name: 🇰🇿KZ_1|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  port: 15443
+  server: 194.87.224.137
   skip-cert-verify: false
-  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
-  type: trojan
+  sni: n9.neproxy.net
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇹IT_1|1.1MB/s
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: italy.astroapps.io
+    mode: websocket
+    path: /b5cba947dfef6a5494b25d76
+    tls: true
+  port: 443
+  server: italy.astroapps.io
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /tr/ZFttmjSqvda5ohOQ?ed=2560
-- name: 🇸🇬SG_2|2.6MB/s
-  port: 3128
-  server: 188.166.179.50
-  skip-cert-verify: true
-  type: http
-- name: 🇨🇿CZ_2|3.7MB/s
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_2|2.2MB/s
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.3MB/s|P002-260618
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_8|1.8MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇵🇱PL_1|2.4MB/s
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇬BG_1|2.0MB/s
-  port: 443
-  server: 185.94.192.210
-  skip-cert-verify: true
-  tls: true
-  type: http
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_1|1.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  port: 14443
+  server: 194.87.224.137
+  skip-cert-verify: false
+  sni: n37.neproxy.net
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇳🇱NL_1|2.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: ad80d93f-8b35-4b0e-861d-128813efc7d1
+  port: 30443
+  server: 31.58.234.101
+  skip-cert-verify: false
+  sni: sync46.lernkino.online
+  type: hysteria2
+  up: ''

@@ -188,7 +188,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.2MB/s
+  name: '🇮🇹 028  | ⬇️ 73KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -202,7 +202,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_6|1.9MB/s
+  name: '🇮🇹 030  | ⬇️ 333KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -252,13 +252,13 @@ proxies:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.5MB/s
+  name: '🇮🇹 054  | ⬇️ 3MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - alterId: 0
   cipher: auto
   name: '🇭🇰 057  | ⬇️ 2KB/s #1'
@@ -274,22 +274,22 @@ proxies:
       Host: qtkdr8jxe3wefxjm.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|1002KB/s
+  name: '🇮🇹 060  | ⬇️ 413KB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.5MB/s
+  name: '🇮🇹 066  | ⬇️ 1MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_5|1.4MB/s
+  name: '🇮🇹 067  | ⬇️ 2MB/s #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -406,20 +406,16 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇳🇱NL_4|2.3MB/s
-  network: ws
-  password: vP!XvZBNdw.e*ddSgmH!
-  port: 2096
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇹IT_1|1.1MB/s
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: italy.astroapps.io
+    mode: websocket
+    path: /b5cba947dfef6a5494b25d76
+    tls: true
+  port: 443
+  server: italy.astroapps.io
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /tr/ZFttmjSqvda5ohOQ?ed=2560
