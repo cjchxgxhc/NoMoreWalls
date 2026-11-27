@@ -77,33 +77,29 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- alpn:
-  - h3
-  auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_1|4.4MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: uk-tube-01.stre4m.net
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  type: hysteria2
-- name: 🇩🇪DE_2|2.3MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: uk-tube-01.stre4m.net
-  servername: mother-earth.fyi
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: true
-  type: hysteria2
-- name: 🇩🇪DE_3|1.7MB/s
+- encryption: mlkem768x25519plus.native.0rtt.7cEi3EYubZPwXl754zAXJkMQRhE95FMPVVhP8613QEA
+  name: 🇩🇪DE_1|3.1MB/s
+  network: ws
+  port: 2052
+  server: quirivoo.ir
+  type: vless
+  udp: true
+  uuid: dc780059-8b89-42d1-94eb-1c1d1bbbdd2f
+  ws-opts:
+    headers:
+      Host: quirivoo.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_2|3.2MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_4|1.4MB/s
+- name: 🇩🇪DE_3|3.0MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -111,15 +107,42 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇩🇪DE_4|4.2MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_5|2.1MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_6|3.4MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.2MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
 - down: ''
   fingerprint: ''
-  name: 🇩🇪DE_5|1.8MB/s
+  name: 🇩🇪DE_8|4.5MB/s
   obfs: ''
   obfs-password: ''
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: uk-tube-01.stre4m.net
-  skip-cert-verify: true
-  sni: ''
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.107
+  skip-cert-verify: false
+  sni: de2-balance.rezproffx.ru
   type: hysteria2
   up: ''
