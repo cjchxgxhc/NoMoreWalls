@@ -77,14 +77,17 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_1|3.0MB/s
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: 443
-  server: 8.211.56.98
-  type: ss
-  udp: true
-- name: 🇩🇪DE_2|4.1MB/s
+- alpn:
+  - h3
+  auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  name: 🇩🇪DE_1|4.4MB/s
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
+  skip-cert-verify: true
+  sni: mother-earth.fyi
+  type: hysteria2
+- name: 🇩🇪DE_2|2.3MB/s
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
@@ -93,32 +96,14 @@ proxies:
   sni: mother-earth.fyi
   tls: true
   type: hysteria2
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_3|4.5MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.57
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_4|2.9MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_5|2.8MB/s
+- name: 🇩🇪DE_3|1.7MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_6|2.0MB/s
+- name: 🇩🇪DE_4|1.4MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -126,16 +111,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_7|3.8MB/s
-  port: 9002
-  server: 158.173.154.5
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_5|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_8|2.1MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ''
+  type: hysteria2
+  up: ''
