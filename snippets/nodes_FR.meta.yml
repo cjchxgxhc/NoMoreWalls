@@ -1,20 +1,70 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: 🇫🇷FR_1|1.2MB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.124.132
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 🇫🇷FR_2|4.3MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|1.9MB/s
+  network: xhttp
+  port: 443
+  server: 89.44.80.204
+  servername: newmama.baklajann.ru
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: newmama.baklajann.ru
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '4'
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_2|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 87.120.126.127
+  servername: mama147.baklajann.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: mama147.baklajann.ru
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '4'
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_3|1.4MB/s
+  network: xhttp
+  port: 443
+  server: 45.67.215.204
+  servername: mamafrance.baklajann.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: mamafrance.baklajann.ru
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '4'
+  xudp: true
